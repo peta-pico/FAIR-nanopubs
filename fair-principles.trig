@@ -1,0 +1,789 @@
+@prefix this: <https://w3id.org/fair/principles/np/FAIR/RA8GjFNjTUq9yKe0KDe5ftxveZVRj_C9g-yCmdC44A3Co> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR/RA8GjFNjTUq9yKe0KDe5ftxveZVRj_C9g-yCmdC44A3Co#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:FAIR dct:hasPart fair:A, fair:F, fair:I, fair:R;
+    dct:title "FAIR principles"@en;
+    a owl:Class;
+    rdfs:seeAlso <https://www.dtls.nl/fair-data/fair-principles-explained/>;
+    rdfs:subClassOf sio:000090 .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-Principle/RAQIvXjW3veU_NuYoAkjiZAVrIJJ62K7JTcz_PWYlKHQ4> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Principle/RAQIvXjW3veU_NuYoAkjiZAVrIJJ62K7JTcz_PWYlKHQ4#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:FAIR-Principle dct:description "A FAIR principle describes an essential aspects of FAIR."@en;
+    dct:partOf fair:FAIR;
+    dct:title "FAIR Principle"@en;
+    a owl:Class;
+    owl:oneOf sub:_1 .
+  
+  sub:_1 rdf:first fair:F;
+    rdf:rest sub:_2 .
+  
+  sub:_2 rdf:first fair:A;
+    rdf:rest sub:_3 .
+  
+  sub:_3 rdf:first fair:I;
+    rdf:rest sub:_4 .
+  
+  sub:_4 rdf:first fair:R;
+    rdf:rest rdf:nil .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAXQAB646qmpahtYKZNNn2LoFP_yvnMjm49IQKcowZ4tw> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAXQAB646qmpahtYKZNNn2LoFP_yvnMjm49IQKcowZ4tw#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:FAIR-SubPrinciple dct:description "A FAIR SubPrinciple is a sub-principle of a FAIR principle."@en;
+    dct:partOf fair:FAIR;
+    dct:title "FAIR SubPrinciple"@en;
+    a owl:Class;
+    rdfs:subClassOf sio:SIO:000137;
+    owl:oneOf sub:_11 .
+  
+  sub:_1 rdf:first fair:A1.1;
+    rdf:rest sub:_2 .
+  
+  sub:_10 rdf:first fair:R1.3;
+    rdf:rest rdf:nil .
+  
+  sub:_11 rdf:first fair:F1;
+    rdf:rest sub:_12 .
+  
+  sub:_12 rdf:first fair:F2;
+    rdf:rest sub:_13 .
+  
+  sub:_13 rdf:first fair:F3;
+    rdf:rest sub:_14 .
+  
+  sub:_14 rdf:first fair:F4;
+    rdf:rest sub:_15 .
+  
+  sub:_15 rdf:first fair:A1;
+    rdf:rest sub:_1 .
+  
+  sub:_2 rdf:first fair:A1.2;
+    rdf:rest sub:_3 .
+  
+  sub:_3 rdf:first fair:A2;
+    rdf:rest sub:_4 .
+  
+  sub:_4 rdf:first fair:I1;
+    rdf:rest sub:_5 .
+  
+  sub:_5 rdf:first fair:I2;
+    rdf:rest sub:_6 .
+  
+  sub:_6 rdf:first fair:I3;
+    rdf:rest sub:_7 .
+  
+  sub:_7 rdf:first fair:R1;
+    rdf:rest sub:_8 .
+  
+  sub:_8 rdf:first fair:R1.1;
+    rdf:rest sub:_9 .
+  
+  sub:_9 rdf:first fair:R1.2;
+    rdf:rest sub:_10 .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-Metric/RAQbVv8WbFBqe6UuT8nERt0IUVbjNB5n7KH48fVagCSjM> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Metric/RAQbVv8WbFBqe6UuT8nERt0IUVbjNB5n7KH48fVagCSjM#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:FAIR-Metric dct:description "A FAIR metric is a measure of the FAIRness of a digital resource."@en;
+    dct:title "FAIR Metric"@en;
+    a owl:Class .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/F/RAVDZjptbxjsVsVtDHwvQC6SyQWFHVZVaR3XpAsxWcyB0> .
+@prefix sub: <https://w3id.org/fair/principles/np/F/RAVDZjptbxjsVsVtDHwvQC6SyQWFHVZVaR3XpAsxWcyB0#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:F dct:hasPart fair:F1, fair:F2, fair:F3, fair:F4;
+    dct:title "Findable"@en;
+    a fair:FAIR-Principle .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/F1/RAmKdqqbNb043YRjj_pNTlpLQZ9xEeL6aej48mxZQDxJY> .
+@prefix sub: <https://w3id.org/fair/principles/np/F1/RAmKdqqbNb043YRjj_pNTlpLQZ9xEeL6aej48mxZQDxJY#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:F1 dct:description "(meta)data are assigned a globally unique and persistent identifier"@en;
+    dct:title "F1"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/F2/RAow5xbGPC-vu_JBDj3TT_xzfkdtC0mQn1QWVdJoYSwy4> .
+@prefix sub: <https://w3id.org/fair/principles/np/F2/RAow5xbGPC-vu_JBDj3TT_xzfkdtC0mQn1QWVdJoYSwy4#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:F2 dct:description "data are described with rich metadata (defined by R1 below)"@en;
+    dct:title "F2"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/F3/RA8K0Api0tchCqjWrEtabTBxFB_jMAXl6ye8GjGlqwikg> .
+@prefix sub: <https://w3id.org/fair/principles/np/F3/RA8K0Api0tchCqjWrEtabTBxFB_jMAXl6ye8GjGlqwikg#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:F3 dct:description "metadata clearly and explicitly include the identifier of the data it describes"@en;
+    dct:title "F3"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/F4/RA2Zou_08NnDw3efRbxnO5ej7pcufAQos1ayXlIfInVNc> .
+@prefix sub: <https://w3id.org/fair/principles/np/F4/RA2Zou_08NnDw3efRbxnO5ej7pcufAQos1ayXlIfInVNc#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:F4 dct:description "(meta)data are registered or indexed in a searchable resource"@en;
+    dct:title "F4"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/A/RAS4xhxyApBITrErsJfpC1OyMf8E6kmR2vcPan276-hc0> .
+@prefix sub: <https://w3id.org/fair/principles/np/A/RAS4xhxyApBITrErsJfpC1OyMf8E6kmR2vcPan276-hc0#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:A dct:hasPart fair:A1, fair:A2;
+    dct:title "Accessible"@en;
+    a fair:FAIR-Principle .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/A1/RAz2moW8-jV0GB5DcJbI78SdH6vPIYWDhq6XjFSUcDaQg> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1/RAz2moW8-jV0GB5DcJbI78SdH6vPIYWDhq6XjFSUcDaQg#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:A1 dct:description "(meta)data are retrievable by their identifier using a standardized communications protocol"@en;
+    dct:hasPart fair:A1.1, fair:A1.2;
+    dct:title "A1"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/A1.1/RA3a_kEuRumf3tL_cmp6CLBHcXt8iCgL6lTzhInLKbzmo> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1.1/RA3a_kEuRumf3tL_cmp6CLBHcXt8iCgL6lTzhInLKbzmo#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:A1.1 dct:description "the protocol is open, free, and universally implementable"@en;
+    dct:title "A1.1"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/A1.2/RAHTIjFd-FrHnMlwdM7_wdElkw1AQdKfLMD8a7qYTRMRY> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1.2/RAHTIjFd-FrHnMlwdM7_wdElkw1AQdKfLMD8a7qYTRMRY#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:A1.2 dct:description "the protocol allows for an authentication and authorization procedure, where necessary"@en;
+    dct:title "A1.2"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/A2/RAgQlKhidm4fSPdteAuqVAvpCzvoNEb7DrVuFAFzP7zuU> .
+@prefix sub: <https://w3id.org/fair/principles/np/A2/RAgQlKhidm4fSPdteAuqVAvpCzvoNEb7DrVuFAFzP7zuU#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fair:A2 dct:description "metadata are accessible, even when the data are no longer available"@en;
+    dct:title "A2"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/I/RA4hMFUBMmfVbCwIzxMjpBz2RU_mMF0yS7jny8HR98z3E> .
+@prefix sub: <https://w3id.org/fair/principles/np/I/RA4hMFUBMmfVbCwIzxMjpBz2RU_mMF0yS7jny8HR98z3E#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:I dct:hasPart fair:I1, fair:I2, fair:I3;
+    dct:title "Interoperable"@en;
+    a fair:FAIR-Principle .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/I1/RAm5sAVGUdSbEfAVUnqKh5c0lxAWYMxRpCru2fIu5B1-k> .
+@prefix sub: <https://w3id.org/fair/principles/np/I1/RAm5sAVGUdSbEfAVUnqKh5c0lxAWYMxRpCru2fIu5B1-k#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:I1 dct:description "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en;
+    dct:title "I1"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/I2/RAehWzBABi5tyNbFqpkzsd--7U-6JYK8l5I-Yp9iXDS-M> .
+@prefix sub: <https://w3id.org/fair/principles/np/I2/RAehWzBABi5tyNbFqpkzsd--7U-6JYK8l5I-Yp9iXDS-M#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:I2 dct:description "(meta)data use vocabularies that follow FAIR principles"@en;
+    dct:title "I2"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/I3/RAi4LH5JbMMgP_ZpjNHp7AePmoRLV1yZTQb776lgw4qJQ> .
+@prefix sub: <https://w3id.org/fair/principles/np/I3/RAi4LH5JbMMgP_ZpjNHp7AePmoRLV1yZTQb776lgw4qJQ#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:I3 dct:description "(meta)data include qualified references to other (meta)data"@en;
+    dct:title "I3"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/R/RAGTwigbBa3cBUNqFHh8hOd4LpnJ9TJwRZVuRh-uyTLjY> .
+@prefix sub: <https://w3id.org/fair/principles/np/R/RAGTwigbBa3cBUNqFHh8hOd4LpnJ9TJwRZVuRh-uyTLjY#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:R dct:hasPart fair:R1;
+    dct:title "Reusable"@en;
+    a fair:FAIR-Principle .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/R1/RARTm3jQ5oX7oWJ4tvYs3FQP49UVRzKALSEYzpV933fQI> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1/RARTm3jQ5oX7oWJ4tvYs3FQP49UVRzKALSEYzpV933fQI#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:R1 dct:description "meta(data) are richly described with a plurality of accurate and relevant attributes"@en;
+    dct:hasPart fair:R1.1, fair:R1.2, fair:R1.3;
+    dct:title "R1"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/R1.1/RAbcxFDJ9zCT_rklwL_yP1qoGZrYg4lVxqyT6R60zCOZI> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.1/RAbcxFDJ9zCT_rklwL_yP1qoGZrYg4lVxqyT6R60zCOZI#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:R1.1 dct:description "(meta)data are released with a clear and accessible data usage license"@en;
+    dct:title "R1.1"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/R1.2/RAjNRmOZNpTGianaxIDEPEvGCyspUtW6mqdmyTYZejRAo> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.2/RAjNRmOZNpTGianaxIDEPEvGCyspUtW6mqdmyTYZejRAo#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:R1.2 dct:description "(meta)data are associated with detailed provenance"@en;
+    dct:title "R1.2"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
+@prefix this: <https://w3id.org/fair/principles/np/R1.3/RAOTJh-JTIoY1NjpE7X_F0CFXS-C5U0nKLA7yDX6NKxP8> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.3/RAOTJh-JTIoY1NjpE7X_F0CFXS-C5U0nKLA7yDX6NKxP8#> .
+@prefix fair: <https://w3id.org/fair/principles/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:R1.3 dct:description "(meta)data meet domain-relevant community standards"@en;
+    dct:title "R1.3"@en;
+    a fair:FAIR-SubPrinciple .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
+    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
