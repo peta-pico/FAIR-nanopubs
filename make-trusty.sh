@@ -1,4 +1,9 @@
 #!/bin/bash
+#
+# Usage:
+#
+# $ ./make-trusty.sh fair-principles
+#
 
 if [ ! -f nanopub.jar ]; then
   echo "Downloading nanopub.jar file..."
@@ -7,14 +12,8 @@ fi
 
 NP='java -jar nanopub.jar' 
 
-for F in *.pre; do
-  echo "Processing $F..."
-  $NP mktrusty $F
-done
+echo "Processing $1.trig.pre..."
+$NP mktrusty $1.trig.pre
 
-for F in trusty.*.pre; do
-  echo "Post-processing result $F..."
-  TEMP=${F#trusty.}
-  N=${TEMP%.pre}
-  mv $F $N
-done
+echo "Post-processing result for $1.trig.pre..."
+mv trusty.$1.trig.pre $1.trig
