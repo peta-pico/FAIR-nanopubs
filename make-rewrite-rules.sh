@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USAGE="$ ./make-rewrite-rules.sh fair-principles"
+USAGE="$ ./make-rewrite-rules.sh principles"
 
 if [ -z $1 ] || [ ! -z $2 ]; then
   echo "Usage: $USAGE"; exit 1
