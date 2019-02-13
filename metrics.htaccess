@@ -1,0 +1,4 @@
+RewriteRule ^metrics/terms/([^/]+)/$ https://w3id.org/fair/principles/np/$1/latest [R=302,L]
+
+RewriteRule ^metrics/np/FAIR-Metric/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/FAIR-Metrics-Working-Group/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]

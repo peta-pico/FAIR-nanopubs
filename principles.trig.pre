@@ -13,7 +13,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -52,7 +52,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -90,7 +90,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -118,42 +118,6 @@
 }
 
 
-@prefix : <https://w3id.org/fair/principles/np/FAIR-Metric/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix sio: <http://semanticscience.org/resource/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix owl: <https://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix orcid: <https://orcid.org/> .
-
-:head {
-  : a np:Nanopublication;
-    np:hasAssertion :assertion ;
-    np:hasProvenance :provenance ;
-    np:hasPublicationInfo :pubinfo .
-}
-
-:assertion {
-  fair:FAIR-Metric dct:title "FAIR Metric"@en ;
-    a owl:Class ;
-    dct:description "A FAIR metric is a measure of the FAIRness of a digital resource."@en .
-}
-
-:provenance {
-  :assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
-}
-
-:pubinfo {
-  : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
-    dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
-}
-
-
 @prefix : <https://w3id.org/fair/principles/np/F/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
@@ -165,7 +129,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -201,7 +165,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -237,7 +201,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -272,7 +236,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -308,7 +272,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -343,7 +307,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -379,7 +343,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -416,7 +380,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -452,7 +416,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -488,7 +452,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -524,7 +488,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -560,7 +524,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -596,7 +560,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -632,7 +596,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -668,7 +632,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -704,7 +668,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -741,7 +705,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -777,7 +741,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
@@ -813,7 +777,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-:head {
+:Head {
   : a np:Nanopublication;
     np:hasAssertion :assertion ;
     np:hasProvenance :provenance ;
