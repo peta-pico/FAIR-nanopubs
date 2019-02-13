@@ -1,25 +1,13 @@
 #!/bin/bash
-#
-# Usage:
-#
-# $ ./make-trusty.sh fair-principles
-#
 
-USAGE="Usage: $ ./make-trusty.sh fair-principles"
+USAGE="$ ./make-trusty.sh fair-principles"
 
-if [ -z $1 ]; then
-  echo $USAGE
-  exit 1
-fi
-
-if [ ! -z $2 ]; then
-  echo $USAGE
-  exit 1
+if [ -z $1 ] || [ ! -z $2 ]; then
+  echo "Usage: $USAGE"; exit 1
 fi
 
 if [ ! -f $1.trig.pre ]; then
-  echo "File $1.trig.pre does not exist"
-  exit 1
+  echo "File $1.trig.pre does not exist"; exit 1
 fi
 
 if [ `command -v np` ]; then
