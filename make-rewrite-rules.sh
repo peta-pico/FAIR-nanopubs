@@ -11,7 +11,7 @@ if [ ! -f $1.trig ]; then
 fi
 
 (
-  echo "RewriteRule ^$1/terms/([^/]+)/$ https://w3id.org/fair/principles/np/\$1/latest [R=302,L]";
+  echo "RewriteRule ^$1/terms/([^/]+)$ https://w3id.org/fair/principles/np/\$1/latest [R=302,L]";
   echo
 ) \
   > $1.htaccess
