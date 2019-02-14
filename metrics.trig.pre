@@ -58,7 +58,350 @@
 :assertion {
   fairm:FAIR-Metrics-Working-Group dct:title "FAIR Metrics Working Group"@en ;
     a foaf:Group ;
-    foaf:member orcid:0000-0001-6960-357X .  # TODO: add all
+    foaf:member orcid:0000-0003-4727-9435 ,
+      orcid:0000-0001-6960-357X ,
+      orcid:0000-0001-5306-5690 ,
+      orcid:0000-0002-8246-6757 ,
+      orcid:0000-0002-1164-1351 ,
+      orcid:0000-0001-8888-635X .
+  orcid:0000-0003-4727-9435 foaf:name "Michel Dumontier" .
+  orcid:0000-0001-6960-357X foaf:name "Mark Wilkinson" .
+  orcid:0000-0001-5306-5690 foaf:name "Susanna Sansone" .
+  orcid:0000-0002-8246-6757 foaf:name "Peter Doorn" .
+  orcid:0000-0002-1164-1351 foaf:name "Luiz Bonino" .
+  orcid:0000-0001-8888-635X foaf:name "Erik Schultes" .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/measuring/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:measuring a owl:DatatypeProperty ;
+    rdfs:domain fairm:FAIR-Metric ;
+    dct:description "What is being measured?"@en .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/rationale/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:rationale a owl:DatatypeProperty ;
+    rdfs:domain fairm:FAIR-Metric ;
+    dct:description "Why should we measure it?"@en .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/requirements/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:requirements a owl:DatatypeProperty ;
+    rdfs:domain fairm:FAIR-Metric ;
+    dct:description "What must be provided?"@en .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/procedure/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:procedure a owl:DatatypeProperty ;
+    rdfs:domain fairm:FAIR-Metric ;
+    dct:description "How do we measure it?"@en .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/validation/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:validation a owl:DatatypeProperty ;
+    rdfs:domain fairm:FAIR-Metric ;
+    dct:description "What is a valid result?"@en .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/relevance/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:relevance a owl:DatatypeProperty ;
+    rdfs:domain fairm:FAIR-Metric ;
+    dct:description "For which digital resource(s) is this relevant?"@en .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/examples/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:examples a owl:DatatypeProperty ;
+    rdfs:domain fairm:FAIR-Metric ;
+    dct:description "Examples of their application across types of digital resource"@en .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/comments/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:comments a owl:DatatypeProperty ;
+    rdfs:domain fairm:FAIR-Metric ;
+    dct:description "Comments"@en .
+}
+
+:provenance {
+  :assertion prov:wasAttributedTo fairm:FAIR-Metrics-Working-Group .
+}
+
+:pubinfo {
+  : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:rightsHolder <http://go-fair.org> ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234 ;
+    dct:created "2019-02-13T20:17:00+01:00"^^xsd:dateTime .
+}
+
+
+@prefix : <https://w3id.org/fair/metrics/np/FM_F1A/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fairm:FM_F1A a fair:FAIR-Metric ;
+    foaf:primaryTopic fair:F1 ;
+    dct:title "Identifier Uniqueness"@en ;
+    dct:description "FAIR Metric for Fair Principle F1"@en ;
+    fairm:measuring "Whether there is a scheme to uniquely identify the digital resource."@en ;
+    fairm:rationale "The uniqueness of an identifier is a necessary condition to unambiguously refer that resource, and that resource alone. Otherwise, an identifier shared by multiple resources will confound efforts to describe that resource, or to use the identifier to retrieve it. Examples of identifier schemes include, but are not limited to URN, IRI, DOI, Handle, trustyURI, LSID, etc. For an in-depth understanding of the issues around identifiers, please see http://dx.plos.org/10.1371/journal.pbio.2001414"@en ;
+    fairm:requirements "URL to a registered identifier scheme."@en ;
+    fairm:procedure "An identifier scheme is valid if and only if it is described in a repository that can register and present such identifier schemes (e.g. fairsharing.org).\n\nInformation about the identifier scheme must be presented with a machine-readable document containing the FM1 attribute with the URL to where the scheme is described.  see specification for implementation."@en ;
+    fairm:validation "Present or Absent"@en ;
+    fairm:relevance "All"@en ;
+    fairm:examples "Ontology \n - Gene Ontology: http://www.ebi.ac.uk/miriam/main/ datatypes/MIR:00000022    \n - HISCO: [link]\n This resource has not described or registered their identifier scheme. A recommended course of action would be to XXX. \n Model/format  - RDFS: https://fairsharing.org/bsg-s000283  \n Repository \n - JWS Online: https://www.ebi.ac.uk/miriam/main\n /collections/MIR:00000130 \n - DANS EASY: \n \n Database \n - ArrayExpress: https://fairsharing.org/biodbcore-000305  \n  -> FAIRsharing will implement the FAIR Metric specification to provide a machine-readable link to the MIRIAM repository (for life science content) \n API \n - smartAPI's API\n https://raw.githubusercontent.com/WebsmartAPI\n /smartAPI/master/docs/iodocs/smartapi.json  \n --> the smartAPI repository will provide accessible specification of the identifier scheme that is embedded in that metadata document. \n Journal\n http://www.nature.com/developers/documentation/\n metadata-resources/doi  \n --> the web site will have to provide a machine-readable pointer to the official DOI specification. \n" ;
+ fairm:comments "A first version of this metric would focus on just checking a URL that resolves to a document. We can't verify that document. \n A second version would indicate how to structure the data policy document with a particular section (similar to how the CC licenses now have a formal structure in RDF).\n A third version would insist that that document and section is signed by an approved organization and made available in an appropriate repository."@en .
 }
 
 :provenance {
