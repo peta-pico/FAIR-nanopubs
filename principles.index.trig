@@ -1,0 +1,67 @@
+@prefix this: <https://w3id.org/fair/principles/np/index/RAlMhb_ZDbx7W2db_V4f-bNQRDYOfQvT7op7cJE9s0yNE> .
+@prefix sub: <https://w3id.org/fair/principles/np/index/RAlMhb_ZDbx7W2db_V4f-bNQRDYOfQvT7op7cJE9s0yNE#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix ns1: <https://w3id.org/fair/principles/np/FAIR/> .
+@prefix ns2: <https://w3id.org/fair/principles/np/FAIR-Principle/> .
+@prefix ns3: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/> .
+@prefix ns4: <https://w3id.org/fair/principles/np/F/> .
+@prefix ns5: <https://w3id.org/fair/principles/np/F1/> .
+@prefix ns6: <https://w3id.org/fair/principles/np/F2/> .
+@prefix ns7: <https://w3id.org/fair/principles/np/F3/> .
+@prefix ns8: <https://w3id.org/fair/principles/np/F4/> .
+@prefix ns9: <https://w3id.org/fair/principles/np/A/> .
+@prefix ns10: <https://w3id.org/fair/principles/np/A1/> .
+@prefix ns11: <https://w3id.org/fair/principles/np/A1.1/> .
+@prefix ns12: <https://w3id.org/fair/principles/np/A1.2/> .
+@prefix ns13: <https://w3id.org/fair/principles/np/A2/> .
+@prefix ns14: <https://w3id.org/fair/principles/np/I/> .
+@prefix ns15: <https://w3id.org/fair/principles/np/I1/> .
+@prefix ns16: <https://w3id.org/fair/principles/np/I2/> .
+@prefix ns17: <https://w3id.org/fair/principles/np/I3/> .
+@prefix ns18: <https://w3id.org/fair/principles/np/R/> .
+@prefix ns19: <https://w3id.org/fair/principles/np/R1/> .
+@prefix ns20: <https://w3id.org/fair/principles/np/R1.1/> .
+@prefix ns21: <https://w3id.org/fair/principles/np/R1.2/> .
+@prefix ns22: <https://w3id.org/fair/principles/np/R1.3/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  this: npx:includesElement ns9:RAwI0qWc59qsOyjUL43KFjh17PlWfqtWvbI-w4mkMHIpI, ns11:RAd9lpVnRX7PdkmwCbiY5tDF7ShQNryaxVl7SA__64LzQ,
+      ns12:RA14HMDHVKoa0wKsi9kwK5iltUaHybOe-55_OKJ6EPwbM, ns10:RA6gScbElcEeTFVVsIq7kdqjcqqk_CPb2gafjJcoaQAY8,
+      ns13:RArbJmlysWf-AbLgvK0MqshFUrtmRLY0f-WyITCzDwRTI, ns4:RAki0YMCtdjFVDjxNRE0IRe8tf9TG-8pKoDuWxW1ZcNEQ,
+      ns5:RAesHs-K7xeHSMwOFYXRfIghUS1qbbaeoOVrWrSgGD6Lg, ns6:RAoej_SpBd26qxAmEPQQeAo1sm0Twv-LlV79w_9YikDwA,
+      ns7:RAy3BzyEBZxmPOO4OfcYonbFavUChpMjbPnXCxH_9-G0k, ns8:RA1V4JMLO-x4Ke89Aan44Gh1Sol9PDQaimb3R9Deyixh8,
+      ns2:RAMfrp1zMmNUp30I2l8luIjqcEEDAFH-1sl9rY4kKaBn4, ns3:RAzd3lnFnr3FDGDH7mBNXq3XfQMB7QB_vTOqjvK9wpG58,
+      ns1:RAb6ruuaagWVRrvdtyiNEwCHN38Wq3IypvNn90KNiLJCE, ns14:RAj1sIRGTohQqz1sdxw_i6BXjbK937ab_PcwpFQIf_hLs,
+      ns15:RA6gBBWTAx8AsiOCs8iImgDkqRlkGs_Yq9GsAokW6mba4, ns16:RA4VlcyrEM6lH08cbQlke2t3Z4VpVm61hDS3xYafzTzTQ,
+      ns17:RAxlhrOj4vwd2uQhSgEyqUtHCPBM-aIELxRMJC7V_L398, ns18:RAhjqL_mGpNiA7uVsCIm8N1PWcnnq4D_DmwxdadRMSr10,
+      ns20:RAhDFucCRrxzvtZGvhgC3kUl_1G_6YYJCuHWpMCnR6NxY, ns21:RACF0d4uWvt2GapxncBTHKtveQ5M-QP4jX7ewtIzdSuK0,
+      ns22:RAGDQfPPzWowO3r9oj0FuQmWdvxTrBFHY4GZhnwi5en2s, ns19:RAiFQayObRB5g_GSX9rH1E56SdKI8OHneVaq9PC3NVz70 .
+}
+
+sub:provenance {
+  sub:assertion a npx:IndexAssertion .
+}
+
+sub:pubinfo {
+  this: dce:title "Nanopublications representing the FAIR Principles";
+    dct:created "2019-02-14T20:42:47.873+01:00"^^xsd:dateTime;
+    dct:license <http://creativecommons.org/licenses/by/4.0/>;
+    pav:createdBy <https://orcid.org/0000-0002-1267-0234>, <https://orcid.org/0000-0003-4727-9435>;
+    a npx:NanopubIndex;
+    rdfs:seeAlso <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+
