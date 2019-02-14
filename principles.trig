@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/principles/np/FAIR/RAccIBsZRoFQQMN00tVreCGG6LpKfevvi1I776GCmEtak> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR/RAccIBsZRoFQQMN00tVreCGG6LpKfevvi1I776GCmEtak#> .
+@prefix this: <https://w3id.org/fair/principles/np/FAIR/RAjSo7J9h2NTtS4U6xf8RqRJI6dKtoFTTGwBYDOiMcyR4> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR/RAjSo7J9h2NTtS4U6xf8RqRJI6dKtoFTTGwBYDOiMcyR4#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -9,7 +9,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -34,8 +34,8 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/FAIR-Principle/RAIG99GH_AKHoZlXWKyNUM9P3rsP9E4LcoCyyGjMjOx_s> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Principle/RAIG99GH_AKHoZlXWKyNUM9P3rsP9E4LcoCyyGjMjOx_s#> .
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-Principle/RAOBDepa01rerZEnPFdM_PaObmVhrP7jvHyxllgAfP4Lc> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Principle/RAOBDepa01rerZEnPFdM_PaObmVhrP7jvHyxllgAfP4Lc#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -44,7 +44,7 @@ sub:pubinfo {
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -81,8 +81,8 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAlA7YTt2SD4eehAEMKk-A42RNCb5E-UunSLxrS9oGQX4> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAlA7YTt2SD4eehAEMKk-A42RNCb5E-UunSLxrS9oGQX4#> .
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA5banWMDR1jEujpRn8YPOt87KPkWtkCsGr6iq1d2vaeQ> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA5banWMDR1jEujpRn8YPOt87KPkWtkCsGr6iq1d2vaeQ#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -93,7 +93,7 @@ sub:pubinfo {
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -164,47 +164,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/FAIR-Metric/RAcAHwFh02g9dJ6UBiiSyUm74EsY0I6XxLod4qMkZfbMI> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Metric/RAcAHwFh02g9dJ6UBiiSyUm74EsY0I6XxLod4qMkZfbMI#> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix owl: <https://www.w3.org/2002/07/owl#> .
-@prefix orcid: <https://orcid.org/> .
-
-sub:head {
-  this: np:hasAssertion sub:assertion;
-    np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
-}
-
-sub:assertion {
-  fair:FAIR-Metric dct:description "A FAIR metric is a measure of the FAIRness of a digital resource."@en;
-    dct:title "FAIR Metric"@en;
-    a owl:Class .
-}
-
-sub:provenance {
-  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
-}
-
-sub:pubinfo {
-  this: dct:contributor <http://csarven.ca/#i>, orcid:0000-0001-6960-357X, <https://ruben.verborgh.org/profile/#me>;
-    dct:created "2018-11-23T10:51:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
-    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
-}
-@prefix this: <https://w3id.org/fair/principles/np/F/RA0pUnJBZ1mvWc7cnUxOtblc_EUQ3u6p57btDWXzNAz9k> .
-@prefix sub: <https://w3id.org/fair/principles/np/F/RA0pUnJBZ1mvWc7cnUxOtblc_EUQ3u6p57btDWXzNAz9k#> .
+@prefix this: <https://w3id.org/fair/principles/np/F/RAfLuMZFqNtc5EJrVOXaGiiy_I1vSClS5aK76lEA7aMTE> .
+@prefix sub: <https://w3id.org/fair/principles/np/F/RAfLuMZFqNtc5EJrVOXaGiiy_I1vSClS5aK76lEA7aMTE#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -227,15 +195,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F1/RAwB2bJCQtmw5CUA1N-HbNCpByKR5RAOKEXQ-N6Hi6lRg> .
-@prefix sub: <https://w3id.org/fair/principles/np/F1/RAwB2bJCQtmw5CUA1N-HbNCpByKR5RAOKEXQ-N6Hi6lRg#> .
+@prefix this: <https://w3id.org/fair/principles/np/F1/RAXCPnrqrEDsoAWb5p61MzQs0GH2wkVfu7f2_Fq8ZO71I> .
+@prefix sub: <https://w3id.org/fair/principles/np/F1/RAXCPnrqrEDsoAWb5p61MzQs0GH2wkVfu7f2_Fq8ZO71I#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -258,15 +226,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F2/RAi8BUUD5fU-nFzKyow3bUn61vl6-3bv9Ld_Ksna-9SeA> .
-@prefix sub: <https://w3id.org/fair/principles/np/F2/RAi8BUUD5fU-nFzKyow3bUn61vl6-3bv9Ld_Ksna-9SeA#> .
+@prefix this: <https://w3id.org/fair/principles/np/F2/RAUHGd2fe90AElMOEQbS2KIXkUWYAshE8AMiQVFYfXBv0> .
+@prefix sub: <https://w3id.org/fair/principles/np/F2/RAUHGd2fe90AElMOEQbS2KIXkUWYAshE8AMiQVFYfXBv0#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -289,15 +257,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F3/RANexwdr4dAr_ogfxvZe5TEpXQMSZxK7ZOa0Mox5b3KF0> .
-@prefix sub: <https://w3id.org/fair/principles/np/F3/RANexwdr4dAr_ogfxvZe5TEpXQMSZxK7ZOa0Mox5b3KF0#> .
+@prefix this: <https://w3id.org/fair/principles/np/F3/RAwV8MCvnFrGb-c_yzp_COkyuaK98f9U8mcGygezFI-Fk> .
+@prefix sub: <https://w3id.org/fair/principles/np/F3/RAwV8MCvnFrGb-c_yzp_COkyuaK98f9U8mcGygezFI-Fk#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -320,15 +288,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F4/RAnxD0hepOvQ0HT860waTmHeo7d1yfdQhyFGChVQUythU> .
-@prefix sub: <https://w3id.org/fair/principles/np/F4/RAnxD0hepOvQ0HT860waTmHeo7d1yfdQhyFGChVQUythU#> .
+@prefix this: <https://w3id.org/fair/principles/np/F4/RAuh4wDzb2-RqPbYBTjX39nxrvyL7HecVFApx8iSDLmcE> .
+@prefix sub: <https://w3id.org/fair/principles/np/F4/RAuh4wDzb2-RqPbYBTjX39nxrvyL7HecVFApx8iSDLmcE#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -351,15 +319,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A/RAZ-ErB4TL1QDYfHuXud1MZGqZ48X_Gyhcub-HvRxdYs8> .
-@prefix sub: <https://w3id.org/fair/principles/np/A/RAZ-ErB4TL1QDYfHuXud1MZGqZ48X_Gyhcub-HvRxdYs8#> .
+@prefix this: <https://w3id.org/fair/principles/np/A/RA4fuIH1VPVNlUxbnQVn5PW9mRz8Wlv_Lpm-RptmGuR5Y> .
+@prefix sub: <https://w3id.org/fair/principles/np/A/RA4fuIH1VPVNlUxbnQVn5PW9mRz8Wlv_Lpm-RptmGuR5Y#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -382,15 +350,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A1/RAaWpBRaBnhmB5r0r8waqADjwpGEbYsUz6c7NbSEL0bLg> .
-@prefix sub: <https://w3id.org/fair/principles/np/A1/RAaWpBRaBnhmB5r0r8waqADjwpGEbYsUz6c7NbSEL0bLg#> .
+@prefix this: <https://w3id.org/fair/principles/np/A1/RAjBYnv2WVKg2YKfE9_lFtRA_CjHJS_plkrNf1iuufTcc> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1/RAjBYnv2WVKg2YKfE9_lFtRA_CjHJS_plkrNf1iuufTcc#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -414,15 +382,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A1.1/RANsJX6OOnkC1PXBUpaOWy_W68G2GCalEJ0_2JLEHslvE> .
-@prefix sub: <https://w3id.org/fair/principles/np/A1.1/RANsJX6OOnkC1PXBUpaOWy_W68G2GCalEJ0_2JLEHslvE#> .
+@prefix this: <https://w3id.org/fair/principles/np/A1.1/RAfL46YuQTXcgr637n3rRN_1pTQyOxZ2xCdXybTm8hnak> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1.1/RAfL46YuQTXcgr637n3rRN_1pTQyOxZ2xCdXybTm8hnak#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -445,15 +413,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A1.2/RAr9BVqqAPHy5QPSHwt7txzGPUjIpn4f9w4Qk4kwUfjVc> .
-@prefix sub: <https://w3id.org/fair/principles/np/A1.2/RAr9BVqqAPHy5QPSHwt7txzGPUjIpn4f9w4Qk4kwUfjVc#> .
+@prefix this: <https://w3id.org/fair/principles/np/A1.2/RAWqlVqC3CiJ4ijOyKdKPQ1aLFdPWYYUjggyIJ46135Zo> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1.2/RAWqlVqC3CiJ4ijOyKdKPQ1aLFdPWYYUjggyIJ46135Zo#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -476,15 +444,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A2/RAfgUK-HOelE8_WSmVZkHgd7uWthtaxtOvGDJ1-q0_GNI> .
-@prefix sub: <https://w3id.org/fair/principles/np/A2/RAfgUK-HOelE8_WSmVZkHgd7uWthtaxtOvGDJ1-q0_GNI#> .
+@prefix this: <https://w3id.org/fair/principles/np/A2/RALg3Y7YtxTJisohlcPxTHxvF7PwBfBtAHmjiBlhgWsGo> .
+@prefix sub: <https://w3id.org/fair/principles/np/A2/RALg3Y7YtxTJisohlcPxTHxvF7PwBfBtAHmjiBlhgWsGo#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -507,15 +475,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I/RARy-o3JELothDJJm5SQvQ6_kKrQlLuXWh9dSB_nX_GQI> .
-@prefix sub: <https://w3id.org/fair/principles/np/I/RARy-o3JELothDJJm5SQvQ6_kKrQlLuXWh9dSB_nX_GQI#> .
+@prefix this: <https://w3id.org/fair/principles/np/I/RA0Yl70xl6jcrjVrsSJD969hSeq50UgaSpnN61qjnc2SQ> .
+@prefix sub: <https://w3id.org/fair/principles/np/I/RA0Yl70xl6jcrjVrsSJD969hSeq50UgaSpnN61qjnc2SQ#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -538,15 +506,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I1/RAZS7ztxeX8eCT7vAY44Hq93Z2wljKkC1X4Fun1fBjON8> .
-@prefix sub: <https://w3id.org/fair/principles/np/I1/RAZS7ztxeX8eCT7vAY44Hq93Z2wljKkC1X4Fun1fBjON8#> .
+@prefix this: <https://w3id.org/fair/principles/np/I1/RApW8sXz_634f3mGj1KuUqNb_zBvjjRXMRy1ztzFgLI-I> .
+@prefix sub: <https://w3id.org/fair/principles/np/I1/RApW8sXz_634f3mGj1KuUqNb_zBvjjRXMRy1ztzFgLI-I#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -569,15 +537,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I2/RAigSSVEYTZdp9QRohMS4QpYXEM-s6PXUsbF-IRsL3IIg> .
-@prefix sub: <https://w3id.org/fair/principles/np/I2/RAigSSVEYTZdp9QRohMS4QpYXEM-s6PXUsbF-IRsL3IIg#> .
+@prefix this: <https://w3id.org/fair/principles/np/I2/RAfZDHeNyllJPlFTT4bm7ilqw1R4unbjgWpvjNxdVn5gc> .
+@prefix sub: <https://w3id.org/fair/principles/np/I2/RAfZDHeNyllJPlFTT4bm7ilqw1R4unbjgWpvjNxdVn5gc#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -600,15 +568,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I3/RAClFao23MS-TwVQuI8m0fkwurUF1xjLe3Hmioq_cvF4Q> .
-@prefix sub: <https://w3id.org/fair/principles/np/I3/RAClFao23MS-TwVQuI8m0fkwurUF1xjLe3Hmioq_cvF4Q#> .
+@prefix this: <https://w3id.org/fair/principles/np/I3/RARDzNHRNJl8xH8PHYK4AgY_RC-ZO3Lh2c8NolOQ__W_w> .
+@prefix sub: <https://w3id.org/fair/principles/np/I3/RARDzNHRNJl8xH8PHYK4AgY_RC-ZO3Lh2c8NolOQ__W_w#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -631,15 +599,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R/RA85XwxyN9ok5Y4WlGfPJD1CgKWLF9wazUTF2x3W55_Uk> .
-@prefix sub: <https://w3id.org/fair/principles/np/R/RA85XwxyN9ok5Y4WlGfPJD1CgKWLF9wazUTF2x3W55_Uk#> .
+@prefix this: <https://w3id.org/fair/principles/np/R/RAiK2hDSZuIQnbIuyi9YGUVmKRLpNlOuyL0c3Cri66vAg> .
+@prefix sub: <https://w3id.org/fair/principles/np/R/RAiK2hDSZuIQnbIuyi9YGUVmKRLpNlOuyL0c3Cri66vAg#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -662,15 +630,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1/RAPKQQ6oXVhamIdAW5THKJFnzZNbM7oOss5ult1O9GItw> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1/RAPKQQ6oXVhamIdAW5THKJFnzZNbM7oOss5ult1O9GItw#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1/RArod0EhXhvt07rybkr8aDRXmKe3_UzvnwAOjN_EjkpRc> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1/RArod0EhXhvt07rybkr8aDRXmKe3_UzvnwAOjN_EjkpRc#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -694,15 +662,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.1/RAL2WxXGuVTdUI8NsxZWWtytoZcYT9WWwTjrL7ocaSHs0> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.1/RAL2WxXGuVTdUI8NsxZWWtytoZcYT9WWwTjrL7ocaSHs0#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.1/RAGi5z6UNytlsHZfaV8c0E8bYfpUHXoJMt4pti-X9yYVA> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.1/RAGi5z6UNytlsHZfaV8c0E8bYfpUHXoJMt4pti-X9yYVA#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -725,15 +693,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.2/RAYBhzQYFV75Y9hlOT6ripKi1fUm5yq1MEMH563QdCVPg> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.2/RAYBhzQYFV75Y9hlOT6ripKi1fUm5yq1MEMH563QdCVPg#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.2/RAWlVZkkTElG9-HGaz20Rkh-mCimPR4OWXad0USSXE8gs> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.2/RAWlVZkkTElG9-HGaz20Rkh-mCimPR4OWXad0USSXE8gs#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;
@@ -756,15 +724,15 @@ sub:pubinfo {
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.3/RAwvJ7gGm8Q-1Sml9beRXJkBP-DYTTy5fxivTcL1wJU-4> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.3/RAwvJ7gGm8Q-1Sml9beRXJkBP-DYTTy5fxivTcL1wJU-4#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.3/RAUJX7055QdHXB2NY7f40dIAdeVKBfO7hQ3Yx36Yq4DiA> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.3/RAUJX7055QdHXB2NY7f40dIAdeVKBfO7hQ3Yx36Yq4DiA#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix orcid: <https://orcid.org/> .
 
-sub:head {
+sub:Head {
   this: np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
     np:hasPublicationInfo sub:pubinfo;

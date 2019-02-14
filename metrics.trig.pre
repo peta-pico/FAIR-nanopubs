@@ -105,7 +105,8 @@
 :assertion {
   fairm:measuring a owl:DatatypeProperty ;
     rdfs:domain fairm:FAIR-Metric ;
-    dct:description "What is being measured?"@en .
+    rdfs:comment "A description of what is being measured by the metric."@en ;
+    rdfs:label "What is being measured?"@en .
 }
 
 :provenance {
@@ -141,7 +142,8 @@
 :assertion {
   fairm:rationale a owl:DatatypeProperty ;
     rdfs:domain fairm:FAIR-Metric ;
-    dct:description "Why should we measure it?"@en .
+    rdfs:comment "A description of why this is being measured."@en ;
+    rdfs:label "Why should we measure it?"@en .
 }
 
 :provenance {
@@ -177,7 +179,8 @@
 :assertion {
   fairm:requirements a owl:DatatypeProperty ;
     rdfs:domain fairm:FAIR-Metric ;
-    dct:description "What must be provided?"@en .
+    rdfs:comment "A description of what requirements need to be met for the measure to be considered successful."@en ;
+    rdfs:label "What must be provided?"@en .
 }
 
 :provenance {
@@ -213,7 +216,8 @@
 :assertion {
   fairm:procedure a owl:DatatypeProperty ;
     rdfs:domain fairm:FAIR-Metric ;
-    dct:description "How do we measure it?"@en .
+    rdfs:comment "A description of how the requirements are to be measured."@en ;
+    rdfs:label "How do we measure it?"@en .
 }
 
 :provenance {
@@ -249,7 +253,8 @@
 :assertion {
   fairm:validation a owl:DatatypeProperty ;
     rdfs:domain fairm:FAIR-Metric ;
-    dct:description "What is a valid result?"@en .
+    rdfs:comment "A description of what constitutes a valid result."@en ;
+    rdfs:label "What is a valid result?"@en .
 }
 
 :provenance {
@@ -285,7 +290,8 @@
 :assertion {
   fairm:relevance a owl:DatatypeProperty ;
     rdfs:domain fairm:FAIR-Metric ;
-    dct:description "For which digital resource(s) is this relevant?"@en .
+    rdfs:comment "A description of digital resources for which this measure is relevant."@en ;
+    rdfs:label "For which digital resource(s) is this relevant?"@en .
 }
 
 :provenance {
@@ -321,7 +327,8 @@
 :assertion {
   fairm:examples a owl:DatatypeProperty ;
     rdfs:domain fairm:FAIR-Metric ;
-    dct:description "Examples of their application across types of digital resource"@en .
+    rdfs:comment "A description of applications across different types of digital resources."@en ;
+    rdfs:label "Examples of their application across types of digital resource"@en .
 }
 
 :provenance {
@@ -357,7 +364,8 @@
 :assertion {
   fairm:comments a owl:DatatypeProperty ;
     rdfs:domain fairm:FAIR-Metric ;
-    dct:description "Comments"@en .
+    rdfs:comment "Additional comments on the described metric."@en ;
+    rdfs:label "Comments"@en .
 }
 
 :provenance {
@@ -376,6 +384,7 @@
 @prefix fairm: <https://w3id.org/fair/metrics/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
@@ -393,7 +402,7 @@
   fairm:FM_F1A a fair:FAIR-Metric ;
     foaf:primaryTopic fair:F1 ;
     dct:title "Identifier Uniqueness"@en ;
-    dct:description "FAIR Metric for Fair Principle F1"@en ;
+    rdfs:comment "FAIR Metric for Fair Principle F1"@en ;
     fairm:measuring "Whether there is a scheme to uniquely identify the digital resource."@en ;
     fairm:rationale "The uniqueness of an identifier is a necessary condition to unambiguously refer that resource, and that resource alone. Otherwise, an identifier shared by multiple resources will confound efforts to describe that resource, or to use the identifier to retrieve it. Examples of identifier schemes include, but are not limited to URN, IRI, DOI, Handle, trustyURI, LSID, etc. For an in-depth understanding of the issues around identifiers, please see http://dx.plos.org/10.1371/journal.pbio.2001414"@en ;
     fairm:requirements "URL to a registered identifier scheme."@en ;

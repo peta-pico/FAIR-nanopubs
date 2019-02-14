@@ -2,3 +2,12 @@ RewriteRule ^metrics/terms/([^/]+)$ https://w3id.org/fair/principles/np/$1/lates
 
 RewriteRule ^metrics/np/FAIR-Metric/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
 RewriteRule ^metrics/np/FAIR-Metrics-Working-Group/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/measuring/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/rationale/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/requirements/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/procedure/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/validation/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/relevance/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/examples/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/comments/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
+RewriteRule ^metrics/np/FM_F1A/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA [R=302,L]
