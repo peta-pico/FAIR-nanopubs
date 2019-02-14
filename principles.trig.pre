@@ -6,11 +6,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -37,7 +39,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -45,11 +47,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -75,7 +79,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -83,11 +87,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -114,7 +120,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -122,11 +128,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -150,7 +158,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -158,11 +166,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -186,7 +196,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -194,11 +204,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -221,7 +233,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -229,11 +241,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -257,7 +271,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -265,11 +279,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -292,7 +308,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -300,11 +316,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -328,7 +346,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -336,11 +354,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -365,7 +385,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -373,11 +393,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -401,7 +423,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -409,11 +431,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -437,7 +461,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -445,11 +469,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -473,7 +499,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -481,11 +507,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -509,7 +537,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -517,11 +545,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -545,7 +575,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -553,11 +583,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -581,7 +613,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -589,11 +621,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -617,7 +651,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -625,11 +659,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -653,7 +689,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -661,11 +697,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -690,7 +728,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -698,11 +736,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -726,7 +766,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -734,11 +774,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -762,7 +804,7 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
 
@@ -770,11 +812,13 @@
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <https://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix orcid: <https://orcid.org/> .
 
 :Head {
@@ -798,6 +842,6 @@
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
     dct:created "2018-11-23T10:51:00+01:00"^^xsd:dateTime ;
-    dct:contributor <https://ruben.verborgh.org/profile/#me>, <http://csarven.ca/#i>, orcid:0000-0001-6960-357X .
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
