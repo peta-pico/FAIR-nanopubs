@@ -1,0 +1,46 @@
+@prefix this: <https://w3id.org/fair/principles/np/index/RApvAPiZKJ_L7ujhzC5NZdWxd6lmk1jl71aIU_mYqVczA> .
+@prefix sub: <https://w3id.org/fair/principles/np/index/RApvAPiZKJ_L7ujhzC5NZdWxd6lmk1jl71aIU_mYqVczA#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  this: npx:includesElement <https://w3id.org/fair/metrics/np/FAIR-Metric/RAxmbDz0qsVNRUXcWnCse_HNkLsUyPuMU2kjQh_q-IVPk>,
+      <https://w3id.org/fair/metrics/np/FAIR-Metrics-Working-Group/RAvVGnsrvCf7cNTPVpV1rCsGI-bD5d7tMTLgUrAvVVcOc>,
+      <https://w3id.org/fair/metrics/np/FM_F1A/RAS3zu_AyHyjC5--rwMHD5DuiESkfur4KUJZQ6rxEU9tQ>,
+      <https://w3id.org/fair/metrics/np/comments/RAJgYNiNTr2Wp_RQZJRlS3OpWzm-OtzAkQ_iLKAf2x4tI>,
+      <https://w3id.org/fair/metrics/np/examples/RAnFYRN2_8SsK4lSyeqngnkkX_j_a1svWTalG8sOHhlww>,
+      <https://w3id.org/fair/metrics/np/measuring/RA8pIzMiL8eaqbYZGhOm25mJvjhEJE2db8gyBbymIwzC0>,
+      <https://w3id.org/fair/metrics/np/procedure/RAeHG-Sti1HwXhJVurLr9LzJ3SZRCbfsiM42RbZ9I1DQA>,
+      <https://w3id.org/fair/metrics/np/rationale/RAofdKFswJq5xbgdhr3NWjQQdM_Bw4SaFFjU10XooT_Pk>,
+      <https://w3id.org/fair/metrics/np/relevance/RAfCdChRClRyJRPoLvNU2WuY6XhC3CDiqUPRAuj6U3Pqk>,
+      <https://w3id.org/fair/metrics/np/requirements/RAMHRYOjv7bahqsszo05vVy4qesm6rwUYJkzKt8SaSqhM>,
+      <https://w3id.org/fair/metrics/np/validation/RAi4O0N-2FqUl6KAL-iQfI8frshcAqWFFnDQkvW17s4YQ> .
+}
+
+sub:provenance {
+  sub:assertion a npx:IndexAssertion .
+}
+
+sub:pubinfo {
+  this: dce:title "Nanopublications representing the FAIR Principles";
+    dct:created "2019-02-15T13:40:41.529+01:00"^^xsd:dateTime;
+    dct:license <http://creativecommons.org/licenses/by/4.0/>;
+    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA>;
+    pav:createdBy <https://orcid.org/0000-0002-1267-0234>, <https://orcid.org/0000-0003-4727-9435>;
+    a npx:NanopubIndex;
+    rdfs:seeAlso <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+
