@@ -17,10 +17,7 @@ fi
 if [ `command -v np` ]; then
   NP='np' 
 else
-  if [ ! -f nanopub.jar ]; then
-    echo "Downloading nanopub.jar file..."
-    wget -O nanopub.jar -nv https://github.com/Nanopublication/nanopub-java/releases/download/nanopub-1.19/nanopub-1.19-jar-with-dependencies.jar
-  fi
+  ./get-nanopub-jar.sh
   NP='java -jar nanopub.jar' 
 fi
 
