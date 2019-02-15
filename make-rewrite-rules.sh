@@ -12,13 +12,24 @@ fi
 
 (
   echo "RewriteRule ^$1/terms/([^/]+)$ https://w3id.org/fair/principles/np/\$1/latest [R=302,L]";
+  echo "RewriteRule ^$1/np/[^/]+/(RA[A-Za-z0-9_\\-]{43})$ http://np.inn.ac/\1 [R=302,L]";
   echo
 ) \
   > $1.htaccess
 
 cat $1.trig \
-  | grep '@prefix this:' \
+  | grep '^@prefix this:' \
   | sed -r 's/^@prefix this: <//' \
   | sed -r 's/> .$//' \
-  | sed -r 's|^https://w3id.org/fair/([^/]+)/np/([^/]+)/([^/]+)$|RewriteRule ^\1/np/\2/latest$ http://app.petapico.d2s.labs.vu.nl/nanopub-server/\3 [R=302,L]|' \
+  | sed -r 's|^https://w3id.org/fair/([^/]+)/np/([^/]+)/([^/]+)$|RewriteRule ^\1/np/\2/latest$ http://np.inn.ac/\3 [R=302,L]|' \
+  >> $1.htaccess
+
+echo >> $1.htaccess
+
+cat $1.index.trig \
+  | grep '^@prefix this:' \
+  | tail -1 \
+  | sed -r 's/^@prefix this: <//' \
+  | sed -r 's/> .$//' \
+  | sed -r 's|^https://w3id.org/fair/([^/]+)/np/([^/]+)/([^/]+)$|RewriteRule ^\1/np/\2/latest$ http://np.inn.ac/\3 [R=302,L]|' \
   >> $1.htaccess
