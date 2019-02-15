@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USAGE="$ ./update-timestamp.sh principles"
+USAGE="$ scripts/update-timestamp.sh principles"
 
 if [ -z $1 ] || [ ! -z $2 ]; then
   echo "Usage: $USAGE"; exit 1
@@ -13,7 +13,7 @@ fi
 if [ `command -v np` ]; then
   NP='np' 
 else
-  ./get-nanopub-jar.sh
+  scripts/get-nanopub-jar.sh
   NP='java -jar nanopub.jar' 
 fi
 

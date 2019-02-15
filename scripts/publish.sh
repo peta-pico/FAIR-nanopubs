@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USAGE="$ ./publish.sh principles"
+USAGE="$ scripts/publish.sh principles"
 
 if [ -z $1 ] || [ ! -z $2 ]; then
   echo "Usage: $USAGE"; exit 1
@@ -17,7 +17,7 @@ fi
 if [ `command -v np` ]; then
   NP='np' 
 else
-  ./get-nanopub-jar.sh
+  scripts/get-nanopub-jar.sh
   NP='java -jar nanopub.jar' 
 fi
 

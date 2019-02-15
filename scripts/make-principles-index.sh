@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USAGE="$ ./make-principles-index.sh"
+USAGE="$ scripts/make-principles-index.sh"
 
 if [ ! -z $1 ]; then
   echo "Usage: $USAGE"; exit 1
@@ -9,7 +9,7 @@ fi
 if [ `command -v np` ]; then
   NP='np' 
 else
-  ./get-nanopub-jar.sh
+  scripts/get-nanopub-jar.sh
   NP='java -jar nanopub.jar' 
 fi
 

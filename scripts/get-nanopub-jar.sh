@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USAGE="$ ./get-nanopub-jar.sh"
+USAGE="$ scripts/get-nanopub-jar.sh"
 
 if [ ! -z $1 ]; then
   echo "Usage: $USAGE"; exit 1
