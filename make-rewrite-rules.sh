@@ -24,6 +24,10 @@ cat $1.trig \
   | sed -r 's|^https://w3id.org/fair/([^/]+)/np/([^/]+)/([^/]+)$|RewriteRule ^\1/np/\2/latest$ http://np.inn.ac/\3 [R=302,L]|' \
   >> $1.htaccess
 
+if [ ! -f $1.index.trig ]; then
+  exit
+fi
+
 echo >> $1.htaccess
 
 cat $1.index.trig \

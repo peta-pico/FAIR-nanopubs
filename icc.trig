@@ -1,0 +1,34 @@
+@prefix this: <https://w3id.org/fair/icc/np/ICC1/RAVwzPkGcA8y6Nno5PX9AWq7kfXhsR4L03A6fgrQTmtNc> .
+@prefix sub: <https://w3id.org/fair/icc/np/ICC1/RAVwzPkGcA8y6Nno5PX9AWq7kfXhsR4L03A6fgrQTmtNc#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix refers-to: <http://semanticscience.org/resource/SIO_000628> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:ICC1 dct:description "The community should choose/define identifier registration service(s) that ensure global uniqueness for its digital resources.";
+    refers-to: fairm:FM_F1A, fair:F1;
+    a icc:Implementation-Choice-or-Challenge .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-02-15T14:57:12.989+01:00"^^xsd:dateTime;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    pav:createdBy orcid:0000-0002-1267-0234 .
+}

@@ -1,0 +1,4 @@
+RewriteRule ^icc/terms/([^/]+)$ https://w3id.org/fair/principles/np/$1/latest [R=302,L]
+RewriteRule ^icc/np/[^/]+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/\1 [R=302,L]
+
+RewriteRule ^icc/np/ICC1/latest$ http://np.inn.ac/RAVwzPkGcA8y6Nno5PX9AWq7kfXhsR4L03A6fgrQTmtNc [R=302,L]
