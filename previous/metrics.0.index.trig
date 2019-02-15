@@ -1,0 +1,49 @@
+@prefix this: <http://purl.org/np/RArp89NoE0geulP2hbChcLYpMs-M1HzY8P3vl-_b3poPE> .
+@prefix sub: <http://purl.org/np/RArp89NoE0geulP2hbChcLYpMs-M1HzY8P3vl-_b3poPE#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix ns1: <https://purl.org/fair-metrics/FM_A1.1#> .
+@prefix ns2: <https://purl.org/fair-metrics/FM_A1.2#> .
+@prefix ns3: <https://purl.org/fair-metrics/FM_A2#> .
+@prefix ns4: <https://purl.org/fair-metrics/FM_F1A#> .
+@prefix ns5: <https://purl.org/fair-metrics/FM_F1B#> .
+@prefix ns6: <https://purl.org/fair-metrics/FM_F2#> .
+@prefix ns7: <https://purl.org/fair-metrics/FM_F3#> .
+@prefix ns8: <https://purl.org/fair-metrics/FM_F4#> .
+@prefix ns9: <https://purl.org/fair-metrics/FM_I1#> .
+@prefix ns10: <https://purl.org/fair-metrics/FM_I2#> .
+@prefix ns11: <https://purl.org/fair-metrics/FM_I3#> .
+@prefix ns12: <https://purl.org/fair-metrics/FM_R1.1#> .
+@prefix ns13: <https://purl.org/fair-metrics/FM_R1.2#> .
+@prefix ns14: <https://purl.org/fair-metrics/FM_R1.3#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubinfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	this: npx:includesElement ns1:nanopub.RA6ETcEOEBQ2cP7rxPHcdf5h2RXHZZpdPvehohpiWABAQ , ns2:nanopub.RA0cAAP6m2jtyXUjXEoB4DzGydzSi7QUyaQUYP4-78JjA , ns3:nanopub.RAY_FnSV9ZrD8qJLhPYBoI1dt8ma7p5XPMJwe7_epEJ-s , ns4:nanopub.RA1iFcLGiR5mCbyx6JqBmAMZm_zm4yjogQAJvBwEi7hkU , ns5:nanopub.RAoVkOYeyfFzQeN8SvIavD4YATjuwufabc7jHrChqR7Z0 , ns6:nanopub.RAqMxnBJOG91C5nBaJiAcI7WY6V98KzDja7f5sBXyMj48 , ns7:nanopub.RA89wgSKqLd4srPBTH5mls8q-YkGc7biy2tfliQo95jHs , ns8:nanopub.RApFSf-6RYbJF9O2oqDiGD1nteWav5y-ndFEmsUgIzK6c , ns9:nanopub.RAWDVSOkJwo6iLF7nF5wmw-mxrcahwQ7ZNNO_E6VEVhrA , ns10:nanopub.RAVhLRWG-6ka_E58kiB9dgpWcsnzDdcDIa4YWrOwAYKGU , ns11:nanopub.RAP36_goSXA2MVGffq35PTan9QDU-v4Fo7N29Rwhq1I9o , ns12:nanopub.RAz0Y_itpUvxUdpntsyUAvkc3wzbDKxZvV0s9v0st_no0 , ns13:nanopub.RAP8dgLk5LLzgA5pylBs1jCjYeWVxVX9-m2QuZntyq1Ts , ns14:nanopub.RASu1_MVbqSBVkWrYeSxoTt0WGQZek7-LGfk6O3131IZA .
+}
+
+sub:provenance {
+	sub:assertion a npx:IndexAssertion .
+}
+
+sub:pubinfo {
+	this: dce:title "Nanopublications representing the FAIR Metrics, version 1" ;
+		dct:created "2018-11-01T06:51:56.811+01:00"^^xsd:dateTime ;
+		dct:license <https://creativecommons.org/publicdomain/zero/1.0> ;
+		pav:createdBy <https://orcid.org/0000-0002-1267-0234> ;
+		a npx:NanopubIndex ;
+		rdfs:seeAlso <https://github.com/FAIRMetrics/Metrics> .
+}
+
+

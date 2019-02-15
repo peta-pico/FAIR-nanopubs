@@ -1,0 +1,223 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <http://orcid.org/> .
+@prefix this: <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+@prefix sub: <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA.> .
+@prefix : <http://purl.org/fair-ontology#> .
+@prefix thisdoc: <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:head {
+  this: np:hasAssertion sub:ag;
+    np:hasProvenance sub:pg;
+    np:hasPublicationInfo sub:ig;
+    a np:Nanopublication .
+  
+  sub:ag a np:Assertion .
+  
+  sub:ig a np:PublicationInfo .
+  
+  sub:pg a np:Provenance .
+}
+
+sub:ag {
+  :A dcterms:hasPart :A1, :A2;
+    dcterms:title "Accessible"@en;
+    a :FAIR-Principle;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :A1 dcterms:description "(meta)data are retrievable by their identifier using a standardized communications protocol"@en;
+    dcterms:hasPart :A1.1, :A1.2;
+    dcterms:title "A1"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :A1.1 dcterms:description "the protocol is open, free, and universally implementable"@en;
+    dcterms:title "A1.1"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :A1.2 dcterms:description "the protocol allows for an authentication and authorization procedure, where necessary"@en;
+    dcterms:title "A1.2"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :A2 dcterms:description "metadata are accessible, even when the data are no longer available"@en;
+    dcterms:title "A2"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :F dcterms:hasPart :F1, :F2, :F3, :F4;
+    dcterms:title "Findable"@en;
+    a :FAIR-Principle;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :F1 dcterms:description "(meta)data are assigned a globally unique and persistent identifier"@en;
+    dcterms:title "F1"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :F2 dcterms:description "data are described with rich metadata (defined by R1 below)"@en;
+    dcterms:title "F2"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :F3 dcterms:description "metadata clearly and explicitly include the identifier of the data it describes"@en;
+    dcterms:title "F3"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :F4 dcterms:description "(meta)data are registered or indexed in a searchable resource"@en;
+    dcterms:title "F4"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :FAIR dcterms:hasPart :A, :F, :I, :R;
+    dcterms:title "FAIR principles"@en;
+    a owl:Class;
+    rdfs:isDefinedBy thisdoc:;
+    rdfs:seeAlso <https://www.dtls.nl/fair-data/fair-principles-explained/>;
+    rdfs:subClassOf sio:000090 .
+  
+  :FAIR-Metric dcterms:description "A FAIR metric is a measure of the FAIRness of a digital resource."@en;
+    dcterms:title "FAIR Metric"@en;
+    a owl:Class;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :FAIR-Principle dcterms:description "A FAIR principle describes an essential aspects of FAIR."@en;
+    dcterms:partOf :FAIR;
+    dcterms:title "FAIR Principle"@en;
+    a owl:Class;
+    rdfs:isDefinedBy :thisdoc;
+    owl:oneOf sub:_1 .
+  
+  :FAIR-SubPrinciple dcterms:description "A FAIR SubPrinciple is a sub-principle of a FAIR principle."@en;
+    dcterms:partOf :FAIR;
+    dcterms:title "FAIR SubPrinciple"@en;
+    a owl:Class;
+    rdfs:isDefinedBy :thisdoc;
+    rdfs:subClassOf sio:SIO:000137;
+    owl:oneOf sub:_15 .
+  
+  :I dcterms:hasPart :I1, :I2, :I3;
+    dcterms:title "Interoperable"@en;
+    a :FAIR-Principle;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :I1 dcterms:description "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en;
+    dcterms:title "I1"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :I2 dcterms:description "(meta)data use vocabularies that follow FAIR principles"@en;
+    dcterms:title "I2"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :I3 dcterms:description "(meta)data include qualified references to other (meta)data"@en;
+    dcterms:title "I3"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :R dcterms:hasPart :R1;
+    dcterms:title "Reusable"@en;
+    a :FAIR-Principle;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :R1 dcterms:description "meta(data) are richly described with a plurality of accurate and relevant attributes"@en;
+    dcterms:hasPart :R1.1, :R1.2, :R1.3;
+    dcterms:title "R1"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :R1.1 dcterms:description "(meta)data are released with a clear and accessible data usage license"@en;
+    dcterms:title "R1.1"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :R1.2 dcterms:description "(meta)data are associated with detailed provenance"@en;
+    dcterms:title "R1.2"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  :R1.3 dcterms:description "(meta)data meet domain-relevant community standards"@en;
+    dcterms:title "R1.3"@en;
+    a :FAIR-SubPrinciple;
+    rdfs:isDefinedBy :thisdoc .
+  
+  sub:_1 rdf:first :F;
+    rdf:rest sub:_2 .
+  
+  sub:_10 rdf:first :R1.1;
+    rdf:rest sub:_11 .
+  
+  sub:_11 rdf:first :R1.2;
+    rdf:rest sub:_12 .
+  
+  sub:_12 rdf:first :R1.3;
+    rdf:rest rdf:nil .
+  
+  sub:_13 rdf:first :I;
+    rdf:rest sub:_14 .
+  
+  sub:_14 rdf:first :R;
+    rdf:rest rdf:nil .
+  
+  sub:_15 rdf:first :F1;
+    rdf:rest sub:_16 .
+  
+  sub:_16 rdf:first :F2;
+    rdf:rest sub:_17 .
+  
+  sub:_17 rdf:first :F3;
+    rdf:rest sub:_18 .
+  
+  sub:_18 rdf:first :F4;
+    rdf:rest sub:_19 .
+  
+  sub:_19 rdf:first :A1;
+    rdf:rest sub:_3 .
+  
+  sub:_2 rdf:first :A;
+    rdf:rest sub:_13 .
+  
+  sub:_3 rdf:first :A1.1;
+    rdf:rest sub:_4 .
+  
+  sub:_4 rdf:first :A1.2;
+    rdf:rest sub:_5 .
+  
+  sub:_5 rdf:first :A2;
+    rdf:rest sub:_6 .
+  
+  sub:_6 rdf:first :I1;
+    rdf:rest sub:_7 .
+  
+  sub:_7 rdf:first :I2;
+    rdf:rest sub:_8 .
+  
+  sub:_8 rdf:first :I3;
+    rdf:rest sub:_9 .
+  
+  sub:_9 rdf:first :R1;
+    rdf:rest sub:_10 .
+}
+
+sub:pg {
+  sub:ag prov:wasQuotedFrom <https://www.nature.com/articles/sdata201618> .
+}
+
+sub:ig {
+  this: dcterms:contributor <http://csarven.ca/#i>, <https://orcid.org/0000-0001-6960-357X>,
+      <https://orcid.org/0000-0002-1267-0234>, <https://ruben.verborgh.org/profile/#me>;
+    dcterms:created "2017-05-01T15:42:00+01:00"^^xsd:dateTime;
+    dcterms:creator orcid:0000-0003-4727-9435;
+    dcterms:rights <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:title "Nanopublication containing the FAIR principles"@en;
+    rdfs:isDefinedBy thisdoc: .
+}
