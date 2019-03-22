@@ -10,14 +10,7 @@ if [ ! -f $1.trig.pre ]; then
   echo "File $1.trig.pre does not exist"; exit 1
 fi
 
-if [ `command -v np` ]; then
-  NP='np' 
-else
-  scripts/get-nanopub-jar.sh
-  NP='java -jar nanopub.jar' 
-fi
-
-TIMESTAMP=`$NP now`
+TIMESTAMP=$(scripts/np now)
 
 echo "Setting timestamp $TIMESTAMP..."
 

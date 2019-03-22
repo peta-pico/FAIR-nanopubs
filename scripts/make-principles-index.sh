@@ -6,15 +6,8 @@ if [ ! -z $1 ]; then
   echo "Usage: $USAGE"; exit 1
 fi
 
-if [ `command -v np` ]; then
-  NP='np' 
-else
-  scripts/get-nanopub-jar.sh
-  NP='java -jar nanopub.jar' 
-fi
-
 echo "Making index..."
-$NP mkindex \
+scripts/np mkindex \
   -u https://w3id.org/fair/principles/np/index/ \
   -a https://doi.org/10.1038/sdata.2016.18 \
   -c https://orcid.org/0000-0002-1267-0234 \

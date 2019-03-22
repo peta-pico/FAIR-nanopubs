@@ -14,16 +14,9 @@ if [ ! -f $1.index.trig ]; then
   echo "File $1.index.trig does not exist"; exit 1
 fi
 
-if [ `command -v np` ]; then
-  NP='np' 
-else
-  scripts/get-nanopub-jar.sh
-  NP='java -jar nanopub.jar' 
-fi
-
 echo "Publishing $1.trig..."
-$NP publish $1.trig
+scripts/np publish $1.trig
 
 echo "Publishing $1.index.trig..."
-$NP publish $1.index.trig
+scripts/np publish $1.index.trig
 
