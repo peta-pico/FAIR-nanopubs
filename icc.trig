@@ -1,8 +1,52 @@
-@prefix this: <https://w3id.org/fair/icc/np/ICC1/RAVwzPkGcA8y6Nno5PX9AWq7kfXhsR4L03A6fgrQTmtNc> .
-@prefix sub: <https://w3id.org/fair/icc/np/ICC1/RAVwzPkGcA8y6Nno5PX9AWq7kfXhsR4L03A6fgrQTmtNc#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1ex/RAMSEtGIB_JISf8UEXQubfW-rXdL7mjnI1fw5qLG3MCjs> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1ex/RAMSEtGIB_JISf8UEXQubfW-rXdL7mjnI1fw5qLG3MCjs#> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix fairm: <https://w3id.org/fair/metrics/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:cex1 dct:description "The number 163483 refers to the undergraduate student ID of Mark Wilkinson, the NCBI gi number for a bovine protease, and a part number for a Singer sewing machine. Hence, this is a poor example of globally unique and persistent identifier.";
+    rdf:value "163483" .
+  
+  sub:ex1 dct:description "Universally unique identifier (UUID)";
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Universally_unique_identifier> .
+  
+  sub:ex2 dct:description "One particular person on planet earth with his globally unique and persistent identifier via the ORCID identifier scheme";
+    rdf:value "https://orcid.org/0000-0001-8888-635X";
+    rdfs:seeAlso orcid: .
+  
+  fair:F1 dct:description "Principle F1 states that resources, i.e. data and metadata, should be assigned a globally unique and persistent identifier (GUPID). ...";
+    icc:hasCounterExample sub:cex1;
+    icc:hasExample sub:ex1, sub:ex2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-04-01T08:34:48.639+02:00"^^xsd:dateTime;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    pav:createdBy orcid:0000-0002-1267-0234 .
+}
+@prefix this: <https://w3id.org/fair/icc/np/ICC1/RAUpFUBpgVlJXeI7oN-DYsirRIwdEsVdBZADGmGHojzfA> .
+@prefix sub: <https://w3id.org/fair/icc/np/ICC1/RAUpFUBpgVlJXeI7oN-DYsirRIwdEsVdBZADGmGHojzfA#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
@@ -19,8 +63,9 @@ sub:Head {
 
 sub:assertion {
   icc:ICC1 dct:description "The community should choose/define identifier registration service(s) that ensure global uniqueness for its digital resources.";
-    refers-to: fairm:FM_F1A, fair:F1;
-    a icc:Implementation-Choice-or-Challenge .
+    refers-to: fair:F1;
+    a icc:Implementation-Choice-or-Challenge;
+    rdfs:seeAlso <https://w3id.org/fair/icc/np/F1ex/RAMSEtGIB_JISf8UEXQubfW-rXdL7mjnI1fw5qLG3MCjs> .
 }
 
 sub:provenance {
@@ -28,7 +73,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T14:57:12.989+01:00"^^xsd:dateTime;
+  this: dct:created "2019-04-01T08:34:48.639+02:00"^^xsd:dateTime;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     pav:createdBy orcid:0000-0002-1267-0234 .
 }

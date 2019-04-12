@@ -11,7 +11,7 @@ if [ ! -f $1.trig.pre ]; then
 fi
 
 echo "Processing $1.trig.pre..."
-scripts/np mktrusty -o $1.trig $1.trig.pre
+scripts/np mktrusty -r -o $1.trig $1.trig.pre
 
 if [ -f scripts/make-$1-index.sh ]; then
   scripts/make-$1-index.sh
