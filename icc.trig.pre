@@ -1,3 +1,5 @@
+# Explanation of F1:
+
 @prefix : <https://w3id.org/fair/icc/np/F1ex/> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -44,6 +46,133 @@
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
+
+# Explanation of A1.1:
+
+@prefix : <https://w3id.org/fair/icc/np/A1.1ex/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix refers-to: <http://semanticscience.org/resource/SIO_000628> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fair:A1.1 dct:description "With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed)." ;
+    icc:hasExample :ex1 .
+  :ex1 dct:description "Hypertext Transfer Protocol (HTTP)" ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Http> .
+}
+
+:provenance {
+  :assertion pav:authoredBy
+    orcid:0000-0001-8888-635X ,
+    orcid:0000-0003-4818-2360 .
+}
+
+:pubinfo {
+  : dct:created "2019-04-01T08:34:48.639+02:00"^^xsd:dateTime ;
+    pav:createdBy orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+# Explanation of A1.2:
+
+@prefix : <https://w3id.org/fair/icc/np/A1.2ex/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix refers-to: <http://semanticscience.org/resource/SIO_000628> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fair:A1.2 dct:description "Some digital resources, such as sensitive individual data, require additional measures to be followed, such as ethical approval, before access can be granted. The ‘A’ in FAIR does not imply ‘Open’ or ‘Free’, but it does require that the exact conditions and the process to access restricted data are transparent and made public. Any additional authentication and authorization procedures must be specified. Therefore, prior to the release of a restricted digital resource, publishers must take steps to clarify eligibility and process." .
+}
+
+:provenance {
+  :assertion pav:authoredBy
+    orcid:0000-0001-8888-635X ,
+    orcid:0000-0003-4818-2360 .
+}
+
+:pubinfo {
+  : dct:created "2019-04-01T08:34:48.639+02:00"^^xsd:dateTime ;
+    pav:createdBy orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+# Explanation of A1:
+
+@prefix : <https://w3id.org/fair/icc/np/A1ex/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix refers-to: <http://semanticscience.org/resource/SIO_000628> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fair:A1 dct:description "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ..." ;
+    rdfs:seeAlso <https://w3id.org/fair/icc/np/A1.1ex/> , <https://w3id.org/fair/icc/np/A1.2ex/> .
+}
+
+:provenance {
+  :assertion pav:authoredBy
+    orcid:0000-0001-8888-635X ,
+    orcid:0000-0003-4818-2360 .
+}
+
+:pubinfo {
+  : dct:created "2019-04-01T08:34:48.639+02:00"^^xsd:dateTime ;
+    pav:createdBy orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+# Implementation Choice/Challenge F1a:
+
 @prefix : <https://w3id.org/fair/icc/np/ICC1/> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -64,7 +193,7 @@
 }
 
 :assertion {
-  icc:ICC1 a icc:Implementation-Choice-or-Challenge ;
+  icc:ICC-F1a a icc:Implementation-Choice-or-Challenge ;
     dct:description "The community should choose/define identifier registration service(s) that ensure global uniqueness for its digital resources." ;
     refers-to: fair:F1 ;
     rdfs:seeAlso <https://w3id.org/fair/icc/np/F1ex/> .
