@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 USAGE="$ scripts/make-principles-index.sh"
 
 if [ ! -z $1 ]; then

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 USAGE="$ scripts/update-timestamp.sh principles"
 
 if [ -z $1 ] || [ ! -z $2 ]; then

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 USAGE="$ scripts/make-large-htaccess.sh"
 
 if [ ! -z $1 ]; then
