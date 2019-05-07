@@ -36,6 +36,9 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/FAIR-Principle/RAwK2qGvi_ZrZsTqxBnSWvHcmR9MfORWEmp_auMwT3ipY> .
 @prefix sub: <https://w3id.org/fair/principles/np/FAIR-Principle/RAwK2qGvi_ZrZsTqxBnSWvHcmR9MfORWEmp_auMwT3ipY#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -85,6 +88,7 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
 @prefix this: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAkhywt1BPg2uVNkujek84pAC2OFNnfi2Yc0YlGGVxlCM> .
 @prefix sub: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAkhywt1BPg2uVNkujek84pAC2OFNnfi2Yc0YlGGVxlCM#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -170,6 +174,11 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/F/RAsJAjR-hrrQud7sBXbYPF0ljPWH7cCPgM9e73JyEAx28> .
 @prefix sub: <https://w3id.org/fair/principles/np/F/RAsJAjR-hrrQud7sBXbYPF0ljPWH7cCPgM9e73JyEAx28#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -203,6 +212,11 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/F1/RAeusWrMgqoc_hNaq6lQGfYlIWKYW7HLUFDV1C2REhwzM> .
 @prefix sub: <https://w3id.org/fair/principles/np/F1/RAeusWrMgqoc_hNaq6lQGfYlIWKYW7HLUFDV1C2REhwzM#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -236,6 +250,11 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/F2/RAp_5zY8tpOd2hMq0o9zaO-SwX8aZfa1ML3rtiYJPtTS0> .
 @prefix sub: <https://w3id.org/fair/principles/np/F2/RAp_5zY8tpOd2hMq0o9zaO-SwX8aZfa1ML3rtiYJPtTS0#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -269,6 +288,11 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/F3/RAsMN9AB4UJR0JmreUfu4Os4xQkonR5RSgVizq12h_yuk> .
 @prefix sub: <https://w3id.org/fair/principles/np/F3/RAsMN9AB4UJR0JmreUfu4Os4xQkonR5RSgVizq12h_yuk#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -302,6 +326,11 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/F4/RAjOUt_9z1BA1C2pHlT7Xj-gnS0_-RvANCtsgJl6WjEnU> .
 @prefix sub: <https://w3id.org/fair/principles/np/F4/RAjOUt_9z1BA1C2pHlT7Xj-gnS0_-RvANCtsgJl6WjEnU#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -335,6 +364,11 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/A/RADEwOpLXOvxy1mDmUOfHKnwlTI4e2oFK80kI1zDBDPHk> .
 @prefix sub: <https://w3id.org/fair/principles/np/A/RADEwOpLXOvxy1mDmUOfHKnwlTI4e2oFK80kI1zDBDPHk#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -368,6 +402,11 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/A1/RAXv_ZXJ0XbnKodPPU0nP_-HOYyEZTXPmc-9jZVrzscZQ> .
 @prefix sub: <https://w3id.org/fair/principles/np/A1/RAXv_ZXJ0XbnKodPPU0nP_-HOYyEZTXPmc-9jZVrzscZQ#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -402,8 +441,9 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A1.1/RA1dGlGbrZS3G5QCIaSYt6Srqf8LRYQrBhWOZhjj-ny38> .
-@prefix sub: <https://w3id.org/fair/principles/np/A1.1/RA1dGlGbrZS3G5QCIaSYt6Srqf8LRYQrBhWOZhjj-ny38#> .
+
+@prefix this: <https://w3id.org/fair/principles/np/A1.1/RAkysCL8zx8dTzsWFWgGA1vCzoMQfnB2yybmlH5RGW5ak> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1.1/RAkysCL8zx8dTzsWFWgGA1vCzoMQfnB2yybmlH5RGW5ak#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -420,7 +460,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:A1.1 dct:description "the protocol is open, free, and universally implementable"@en;
+  fair:A1.1 dct:description "the protocol is open, free, and universally implementable"@en;
     dct:title "A1.1"@en;
     a fair:FAIR-SubPrinciple .
 }
@@ -430,11 +470,15 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/A1.1/RA1dGlGbrZS3G5QCIaSYt6Srqf8LRYQrBhWOZhjj-ny38> .
 }
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/A1.2/RA1OHnkcG63YKy8BENfVlLriHmCf_XKAQU83_nq_Li5g0> .
 @prefix sub: <https://w3id.org/fair/principles/np/A1.2/RA1OHnkcG63YKy8BENfVlLriHmCf_XKAQU83_nq_Li5g0#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -468,6 +512,11 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
+
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix this: <https://w3id.org/fair/principles/np/A2/RApBftFb91kLfpcmF4xJVvShirAjl0aDVa4mLLNLomkCk> .
 @prefix sub: <https://w3id.org/fair/principles/np/A2/RApBftFb91kLfpcmF4xJVvShirAjl0aDVa4mLLNLomkCk#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -501,8 +550,9 @@ sub:pubinfo {
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I/RA-1lpnVHHXWQI-z92YvKfJY6GLyhKCzA696fnw2fCNrI> .
-@prefix sub: <https://w3id.org/fair/principles/np/I/RA-1lpnVHHXWQI-z92YvKfJY6GLyhKCzA696fnw2fCNrI#> .
+
+@prefix this: <https://w3id.org/fair/principles/np/I/RAqUy9qql2ZmazY-ZRnl8d24NuzzUKd_3SEMKZhvcjAC0> .
+@prefix sub: <https://w3id.org/fair/principles/np/I/RAqUy9qql2ZmazY-ZRnl8d24NuzzUKd_3SEMKZhvcjAC0#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -519,7 +569,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:I dct:hasPart fair:I1, fair:I2, fair:I3;
+  fair:I dct:hasPart fair:I1, fair:I2, fair:I3;
     dct:title "Interoperable"@en;
     a fair:FAIR-Principle .
 }
@@ -529,13 +579,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/I/RA-1lpnVHHXWQI-z92YvKfJY6GLyhKCzA696fnw2fCNrI> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I1/RAuQvSQKkq5t8JzIvgK4WvOKtaRslVXvqnhp4u-c1IdAU> .
-@prefix sub: <https://w3id.org/fair/principles/np/I1/RAuQvSQKkq5t8JzIvgK4WvOKtaRslVXvqnhp4u-c1IdAU#> .
+@prefix this: <https://w3id.org/fair/principles/np/I1/RA4ftiBVe0tF9aZhBrw6YbCJ803LnwnJu4thiiq4hwaNE> .
+@prefix sub: <https://w3id.org/fair/principles/np/I1/RA4ftiBVe0tF9aZhBrw6YbCJ803LnwnJu4thiiq4hwaNE#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -552,7 +602,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:I1 dct:description "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en;
+  fair:I1 dct:description "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en;
     dct:title "I1"@en;
     a fair:FAIR-SubPrinciple .
 }
@@ -562,13 +612,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/I1/RAuQvSQKkq5t8JzIvgK4WvOKtaRslVXvqnhp4u-c1IdAU> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I2/RAPFEmu5teXe1lLgjY61KX8eioITOORp8AZms6Dt8Juis> .
-@prefix sub: <https://w3id.org/fair/principles/np/I2/RAPFEmu5teXe1lLgjY61KX8eioITOORp8AZms6Dt8Juis#> .
+@prefix this: <https://w3id.org/fair/principles/np/I2/RAAvrTnV8_TPwFhKLXTeezC35QyN_NRUu1pS-h4cTwCLQ> .
+@prefix sub: <https://w3id.org/fair/principles/np/I2/RAAvrTnV8_TPwFhKLXTeezC35QyN_NRUu1pS-h4cTwCLQ#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -585,7 +635,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:I2 dct:description "(meta)data use vocabularies that follow FAIR principles"@en;
+  fair:I2 dct:description "(meta)data use vocabularies that follow FAIR principles"@en;
     dct:title "I2"@en;
     a fair:FAIR-SubPrinciple .
 }
@@ -595,13 +645,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/I2/RAPFEmu5teXe1lLgjY61KX8eioITOORp8AZms6Dt8Juis> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I3/RAOlG3wJ2ir-cOJAhTXTz8E9_iZwjKuaU5njZ6UZI-7iI> .
-@prefix sub: <https://w3id.org/fair/principles/np/I3/RAOlG3wJ2ir-cOJAhTXTz8E9_iZwjKuaU5njZ6UZI-7iI#> .
+@prefix this: <https://w3id.org/fair/principles/np/I3/RA0DjqG_-h0EJIHopXl7nv1xNbHCfdDk5RdBbGgbJRm2I> .
+@prefix sub: <https://w3id.org/fair/principles/np/I3/RA0DjqG_-h0EJIHopXl7nv1xNbHCfdDk5RdBbGgbJRm2I#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -618,7 +668,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:I3 dct:description "(meta)data include qualified references to other (meta)data"@en;
+  fair:I3 dct:description "(meta)data include qualified references to other (meta)data"@en;
     dct:title "I3"@en;
     a fair:FAIR-SubPrinciple .
 }
@@ -628,13 +678,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/I3/RAOlG3wJ2ir-cOJAhTXTz8E9_iZwjKuaU5njZ6UZI-7iI> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R/RAJfeI-NSGSoBTAkNaCFlI0QHbzLRU0uiRF2hS9F55lU0> .
-@prefix sub: <https://w3id.org/fair/principles/np/R/RAJfeI-NSGSoBTAkNaCFlI0QHbzLRU0uiRF2hS9F55lU0#> .
+@prefix this: <https://w3id.org/fair/principles/np/R/RAdtJCJ65EJuBc09ZAS2vcbavPVQ8dmhV-Ti-e48e9KsI> .
+@prefix sub: <https://w3id.org/fair/principles/np/R/RAdtJCJ65EJuBc09ZAS2vcbavPVQ8dmhV-Ti-e48e9KsI#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -651,7 +701,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:R dct:hasPart fair:R1;
+  fair:R dct:hasPart fair:R1;
     dct:title "Reusable"@en;
     a fair:FAIR-Principle .
 }
@@ -661,13 +711,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/R/RAJfeI-NSGSoBTAkNaCFlI0QHbzLRU0uiRF2hS9F55lU0> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1/RAt-ps2SyiZbPjFvqgogAZ-jqXW0lO9u0CEzKgRD9QOYY> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1/RAt-ps2SyiZbPjFvqgogAZ-jqXW0lO9u0CEzKgRD9QOYY#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1/RAzrhKOgGUGgsqNeozb6Vm7gsrLIYJXM5vNwhMLgAedBY> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1/RAzrhKOgGUGgsqNeozb6Vm7gsrLIYJXM5vNwhMLgAedBY#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -684,7 +734,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:R1 dct:description "meta(data) are richly described with a plurality of accurate and relevant attributes"@en;
+  fair:R1 dct:description "meta(data) are richly described with a plurality of accurate and relevant attributes"@en;
     dct:hasPart fair:R1.1, fair:R1.2, fair:R1.3;
     dct:title "R1"@en;
     a fair:FAIR-SubPrinciple .
@@ -695,13 +745,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/R1/RAt-ps2SyiZbPjFvqgogAZ-jqXW0lO9u0CEzKgRD9QOYY> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.1/RAiQIBvcvr97v_7Sqsw6UiOwXCJ-cLKNfj61CSMzAuyPg> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.1/RAiQIBvcvr97v_7Sqsw6UiOwXCJ-cLKNfj61CSMzAuyPg#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.1/RAZdklqVTdgHQ7IdqxdSYMecjNYyNIhPZ6Ipoi1apfInM> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.1/RAZdklqVTdgHQ7IdqxdSYMecjNYyNIhPZ6Ipoi1apfInM#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -718,7 +768,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:R1.1 dct:description "(meta)data are released with a clear and accessible data usage license"@en;
+  fair:R1.1 dct:description "(meta)data are released with a clear and accessible data usage license"@en;
     dct:title "R1.1"@en;
     a fair:FAIR-SubPrinciple .
 }
@@ -728,13 +778,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/R1.1/RAiQIBvcvr97v_7Sqsw6UiOwXCJ-cLKNfj61CSMzAuyPg> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.2/RAmDyIfvfxTcYFuCr9mI2cEyGJG3UAx6Y0liWy0mPEgz0> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.2/RAmDyIfvfxTcYFuCr9mI2cEyGJG3UAx6Y0liWy0mPEgz0#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.2/RA4UydT_em5Uak-q-QOxkVmZXopD-cX5Jn0uBLGIV9toA> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.2/RA4UydT_em5Uak-q-QOxkVmZXopD-cX5Jn0uBLGIV9toA#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -751,7 +801,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:R1.2 dct:description "(meta)data are associated with detailed provenance"@en;
+  fair:R1.2 dct:description "(meta)data are associated with detailed provenance"@en;
     dct:title "R1.2"@en;
     a fair:FAIR-SubPrinciple .
 }
@@ -761,13 +811,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/R1.2/RAmDyIfvfxTcYFuCr9mI2cEyGJG3UAx6Y0liWy0mPEgz0> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.3/RAKeEyr8369n92yQz42RoaT_Uny32WYxBO-VGCqFCS1Uk> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.3/RAKeEyr8369n92yQz42RoaT_Uny32WYxBO-VGCqFCS1Uk#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.3/RANqMfqA0Wa5ssEO7kwoYK4BKE7UxuzxvRlPaHNLL5670> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.3/RANqMfqA0Wa5ssEO7kwoYK4BKE7UxuzxvRlPaHNLL5670#> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -784,7 +834,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:R1.3 dct:description "(meta)data meet domain-relevant community standards"@en;
+  fair:R1.3 dct:description "(meta)data meet domain-relevant community standards"@en;
     dct:title "R1.3"@en;
     a fair:FAIR-SubPrinciple .
 }
@@ -794,8 +844,8 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime;
+  this: dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    npx:supersedes <https://w3id.org/fair/principles/np/R1.3/RAKeEyr8369n92yQz42RoaT_Uny32WYxBO-VGCqFCS1Uk> .
 }

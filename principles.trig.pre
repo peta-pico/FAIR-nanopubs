@@ -38,7 +38,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -78,7 +78,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -119,7 +119,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -157,7 +157,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -195,7 +195,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -232,7 +232,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -270,7 +270,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -296,7 +296,7 @@
 }
 
 :assertion {
-   fair:F4 dct:title "F4"@en ;
+  fair:F4 dct:title "F4"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "(meta)data are registered or indexed in a searchable resource"@en .}
 
@@ -307,7 +307,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -333,7 +333,7 @@
 }
 
 :assertion {
-   fair:A dct:title "Accessible"@en ;
+  fair:A dct:title "Accessible"@en ;
     a fair:FAIR-Principle ;
     dct:hasPart fair:A1, fair:A2 .
 }
@@ -345,7 +345,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -371,7 +371,7 @@
 }
 
 :assertion {
-   fair:A1 dct:title "A1"@en ;
+  fair:A1 dct:title "A1"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "(meta)data are retrievable by their identifier using a standardized communications protocol"@en ;
     dct:hasPart fair:A1.1, fair:A1.2 .
@@ -384,7 +384,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -410,7 +410,7 @@
 }
 
 :assertion {
-    :A1.1 dct:title "A1.1"@en ;
+  fair:A1.1 dct:title "A1.1"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "the protocol is open, free, and universally implementable"@en .
 }
@@ -422,7 +422,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -448,7 +448,7 @@
 }
 
 :assertion {
-   fair:A1.2 dct:title "A1.2"@en ;
+  fair:A1.2 dct:title "A1.2"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "the protocol allows for an authentication and authorization procedure, where necessary"@en .
 }
@@ -460,7 +460,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -486,7 +486,7 @@
 }
 
 :assertion {
-   fair:A2 dct:title "A2"@en ;
+  fair:A2 dct:title "A2"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "metadata are accessible, even when the data are no longer available"@en .
 }
@@ -498,7 +498,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -524,7 +524,7 @@
 }
 
 :assertion {
-  :I dct:title "Interoperable"@en ;
+  fair:I dct:title "Interoperable"@en ;
     a fair:FAIR-Principle ;
     dct:hasPart fair:I1, fair:I2, fair:I3 .
 }
@@ -536,7 +536,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -562,7 +562,7 @@
 }
 
 :assertion {
-  :I1 dct:title "I1"@en ;
+  fair:I1 dct:title "I1"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en .
 }
@@ -574,7 +574,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -600,7 +600,7 @@
 }
 
 :assertion {
-  :I2 dct:title "I2"@en ;
+  fair:I2 dct:title "I2"@en ;
     a fair:FAIR-SubPrinciple;
     dct:description "(meta)data use vocabularies that follow FAIR principles"@en .
 }
@@ -612,7 +612,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -638,7 +638,7 @@
 }
 
 :assertion {
-    :I3 dct:title "I3"@en ;
+  fair:I3 dct:title "I3"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "(meta)data include qualified references to other (meta)data"@en .
 }
@@ -650,7 +650,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -676,7 +676,7 @@
 }
 
 :assertion {
-  :R dct:title "Reusable"@en;
+  fair:R dct:title "Reusable"@en;
     a fair:FAIR-Principle ;
     dct:hasPart fair:R1 .
 }
@@ -688,7 +688,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -714,7 +714,7 @@
 }
 
 :assertion {
-  :R1 dct:title "R1"@en ;
+  fair:R1 dct:title "R1"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "meta(data) are richly described with a plurality of accurate and relevant attributes"@en ;
     dct:hasPart fair:R1.1, fair:R1.2, fair:R1.3 .
@@ -727,7 +727,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -753,7 +753,7 @@
 }
 
 :assertion {
-  :R1.1 dct:title "R1.1"@en ;
+  fair:R1.1 dct:title "R1.1"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "(meta)data are released with a clear and accessible data usage license"@en .
 }
@@ -765,7 +765,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -791,7 +791,7 @@
 }
 
 :assertion {
-  :R1.2 dct:title "R1.2"@en ;
+  fair:R1.2 dct:title "R1.2"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "(meta)data are associated with detailed provenance"@en .
 }
@@ -803,7 +803,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
@@ -829,7 +829,7 @@
 }
 
 :assertion {
-  :R1.3 dct:title "R1.3"@en ;
+  fair:R1.3 dct:title "R1.3"@en ;
     a fair:FAIR-SubPrinciple ;
     dct:description "(meta)data meet domain-relevant community standards"@en .
 }
@@ -841,7 +841,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-02-15T09:52:01.704+01:00"^^xsd:dateTime ;
+    dct:created "2019-05-07T22:12:25.459+02:00"^^xsd:dateTime ;
     npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
 }
 
