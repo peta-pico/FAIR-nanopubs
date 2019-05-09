@@ -29,3 +29,5 @@ fi
 scripts/make-rewrite-rules.sh $1
 
 scripts/make-large-htaccess.sh
+
+scripts/make-doc.sh $1
