@@ -3,4 +3,4 @@ FAIR Nanopublications
 
 Nanopublications expressing FAIR concepts.
 
-**- under construction -**
+- [FAIR Vocabulary](https://peta-pico.github.io/FAIR-nanopubs/principles/index-en.html)
