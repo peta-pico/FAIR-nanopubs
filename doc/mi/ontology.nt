@@ -1,0 +1,119 @@
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-5306-5690> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-6960-357X> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-8888-635X> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1164-1351> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1267-0234> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0003-4727-9435> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/description> "This is the formal vocabulary (ontology) describing the FAIR maturity indicators." .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/rights> <https://creativecommons.org/publicdomain/zero/1.0> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/dc/terms/title> "FAIR Maturity Indicator Vocabulary" .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/vocab/vann/preferredNamespacePrefix> "fairmi" .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/maturity_indicator/terms/Gen2/" .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/primaryTopic
+<http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/comments
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> <http://www.w3.org/2000/01/rdf-schema#label> "Comments"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> <http://www.w3.org/2004/02/skos/core#definition> "Additional comments on the described metric."@en .
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/examples
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> <http://www.w3.org/2000/01/rdf-schema#label> "Examples of their application across types of digital resource"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> <http://www.w3.org/2004/02/skos/core#definition> "A description of applications across different types of digital resources."@en .
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> <http://www.w3.org/2000/01/rdf-schema#label> "What is being measured?"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> <http://www.w3.org/2004/02/skos/core#definition> "A description of what is being measured by the metric."@en .
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> <http://www.w3.org/2000/01/rdf-schema#label> "How do we measure it?"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> <http://www.w3.org/2004/02/skos/core#definition> "A description of how the requirements are to be measured."@en .
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> <http://www.w3.org/2000/01/rdf-schema#label> "Why should we measure it?"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> <http://www.w3.org/2004/02/skos/core#definition> "A description of why this is being measured."@en .
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> <http://www.w3.org/2000/01/rdf-schema#label> "For which digital resource(s) is this relevant?"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> <http://www.w3.org/2004/02/skos/core#definition> "A description of digital resources for which this measure is relevant."@en .
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> <http://www.w3.org/2000/01/rdf-schema#label> "What must be provided?"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> <http://www.w3.org/2004/02/skos/core#definition> "A description of what requirements need to be met for the measure to be considered successful."@en .
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/validation
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> <http://www.w3.org/2000/01/rdf-schema#label> "What is a valid result?"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> <http://www.w3.org/2004/02/skos/core#definition> "A description of what constitutes a valid result."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator"@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR metric is a measure of the FAIRness of a digital resource."@en .
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/FAIR> .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

@@ -23,7 +23,7 @@ cat $1.trig \
   | grep '^@prefix this:' \
   | sed -r 's/^@prefix this: <//' \
   | sed -r 's/> .$//' \
-  | sed -r 's|^https://w3id.org/fair/([^/]+)/np/([^/]+)/([^/]+)$|RewriteRule ^\1/np/\2/latest$ http://np.inn.ac/\3 [R=302,L]|' \
+  | sed -r 's|^https://w3id.org/fair/([^/]+)/np/(.+)/([^/]+)$|RewriteRule ^\1/np/\2/latest$ http://np.inn.ac/\3 [R=302,L]|' \
   >> $1.htaccess
 
 if [ ! -f $1.index.trig ]; then
