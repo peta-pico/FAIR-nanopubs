@@ -22,8 +22,6 @@ fi
 
 $SCRIPTDIR/np op extract -a -o $1.ttl $1.trig
 
-rm -r doc/$1
-
 java -jar $WIDOCOJAR -ontFile $1.ttl -outFolder doc/$1
 
 rm $1.ttl

@@ -1,0 +1,400 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/fair/principles/terms/A"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/F"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/I"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/R"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/fair/principles/terms/A1"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/A1.1"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/A1.2"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/A2"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/F1"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/F2"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/F3"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/F4"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/I1"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/I2"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/I3"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/R1"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/R1.1"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/R1.2"
+    }, {
+      "@id" : "https://w3id.org/fair/principles/terms/R1.3"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/hasPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/partOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://semanticscience.org/resource/000090",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO:000137",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-Principle" ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A1"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/A2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accessible"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/A1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A1.1"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/A1.2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "A1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data are retrievable by their identifier using a standardized communications protocol"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/A1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "A1.1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "the protocol is open, free, and universally implementable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/A1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "A1.2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "the protocol allows for an authentication and authorization procedure, where necessary"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/A2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "A2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "metadata are accessible, even when the data are no longer available"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-Principle" ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F1"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/F2"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/F3"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/F4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Findable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "F1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data are assigned a globally unique and persistent identifier"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "F2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "data are described with rich metadata (defined by R1 below)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "F3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "metadata clearly and explicitly include the identifier of the data it describes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "F4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data are registered or indexed in a searchable resource"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/FAIR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/F"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/I"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/R"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR principles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://www.dtls.nl/fair-data/fair-principles-explained/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/000090"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/FAIR-Principle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/partOf" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/FAIR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR Principle"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR principle describes an essential aspects of FAIR."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/partOf" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/FAIR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR SubPrinciple"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO:000137"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR SubPrinciple is a sub-principle of a FAIR principle."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/FAIR-vocabulary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://orcid.org/0000-0002-1267-0234"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-4727-9435"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "This is the formal vocabulary (ontology) describing the FAIR principles."
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@id" : "http://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "FAIR Vocabulary"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "fair"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/fair/principles/terms/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/FAIR"
+  }, {
+    "@id" : "https://www.dtls.nl/fair-data/fair-principles-explained/"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-Principle" ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I1"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/I2"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/I3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interoperable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data use vocabularies that follow FAIR principles"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data include qualified references to other (meta)data"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-Principle" ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Reusable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.1"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.2"
+  }, {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "R1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "meta(data) are richly described with a plurality of accurate and relevant attributes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "R1.1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data are released with a clear and accessible data usage license"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "R1.2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data are associated with detailed provenance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "R1.3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "(meta)data meet domain-relevant community standards"
+  } ]
+} ]
