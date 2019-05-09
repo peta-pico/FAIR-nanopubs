@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/fair/principles/terms/FAIR-vocabulary#"
-     xml:base="https://w3id.org/fair/principles/terms/FAIR-vocabulary"
+<rdf:RDF xmlns="https://w3id.org/fair/principles/terms/FAIR-Vocabulary#"
+     xml:base="https://w3id.org/fair/principles/terms/FAIR-Vocabulary"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,7 +9,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org/fair/principles/terms/FAIR-vocabulary">
+    <owl:Ontology rdf:about="https://w3id.org/fair/principles/terms/FAIR-Vocabulary">
         <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0003-4727-9435"/>
         <terms:description>This is the formal vocabulary (ontology) describing the FAIR principles.</terms:description>

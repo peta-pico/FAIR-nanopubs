@@ -262,7 +262,7 @@
     "@value" : "A FAIR SubPrinciple is a sub-principle of a FAIR principle."
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/principles/terms/FAIR-vocabulary",
+  "@id" : "https://w3id.org/fair/principles/terms/FAIR-Vocabulary",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/creator" : [ {
     "@id" : "https://orcid.org/0000-0002-1267-0234"
