@@ -1,12 +1,12 @@
-@prefix : <https://w3id.org/fair/principles/terms/FAIR-vocabulary#> .
+@prefix : <https://w3id.org/fair/principles/terms/FAIR-Vocabulary#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/fair/principles/terms/FAIR-vocabulary> .
+@base <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> .
 
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> rdf:type owl:Ontology ;
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> rdf:type owl:Ontology ;
                                                           <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1267-0234> ,
                                                                                              <https://orcid.org/0000-0003-4727-9435> ;
                                                           <http://purl.org/dc/terms/description> "This is the formal vocabulary (ontology) describing the FAIR principles." ;

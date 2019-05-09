@@ -1,13 +1,13 @@
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1267-0234> .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0003-4727-9435> .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://purl.org/dc/terms/description> "This is the formal vocabulary (ontology) describing the FAIR principles." .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by/4.0/> .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://purl.org/dc/terms/title> "FAIR Vocabulary" .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://purl.org/vocab/vann/preferredNamespacePrefix> "fair" .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/principles/terms/" .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/principles/terms/FAIR> .
-<https://w3id.org/fair/principles/terms/FAIR-vocabulary> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dtls.nl/fair-data/fair-principles-explained/> .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1267-0234> .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0003-4727-9435> .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/description> "This is the formal vocabulary (ontology) describing the FAIR principles." .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/title> "FAIR Vocabulary" .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/vocab/vann/preferredNamespacePrefix> "fair" .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/principles/terms/" .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/principles/terms/FAIR> .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dtls.nl/fair-data/fair-principles-explained/> .
 # 
 # 
 # #################################################################
