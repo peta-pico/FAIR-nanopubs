@@ -1,0 +1,185 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/primaryTopic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR Maturity Indicator"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR metric is a measure of the FAIRness of a digital resource."
+  } ],
+  "http://xmlns.com/foaf/0.1/primaryTopic" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/FAIR"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://orcid.org/0000-0001-5306-5690"
+  }, {
+    "@id" : "https://orcid.org/0000-0001-6960-357X"
+  }, {
+    "@id" : "https://orcid.org/0000-0001-8888-635X"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-1164-1351"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-1267-0234"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-4727-9435"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "This is the formal vocabulary (ontology) describing the FAIR maturity indicators."
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@id" : "https://creativecommons.org/publicdomain/zero/1.0"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "FAIR Maturity Indicator Vocabulary"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "fairmi"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/"
+  } ],
+  "http://xmlns.com/foaf/0.1/primaryTopic" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/comments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Comments"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Additional comments on the described metric."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/examples",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Examples of their application across types of digital resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A description of applications across different types of digital resources."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "What is being measured?"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A description of what is being measured by the metric."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "How do we measure it?"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A description of how the requirements are to be measured."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Why should we measure it?"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A description of why this is being measured."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "For which digital resource(s) is this relevant?"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A description of digital resources for which this measure is relevant."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "What must be provided?"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A description of what requirements need to be met for the measure to be considered successful."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/validation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "What is a valid result?"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A description of what constitutes a valid result."
+  } ]
+} ]
