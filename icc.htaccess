@@ -1,5 +1,9 @@
 RewriteRule ^icc/terms/([^/]+)$ https://w3id.org/fair/principles/np/$1/latest [R=302,L]
-RewriteRule ^icc/np/[^/]+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/icc [R=302,L]
+RewriteRule ^icc/np/[^/]+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/$1 [R=302,L]
 
-RewriteRule ^icc/np/F1ex/latest$ http://np.inn.ac/RAMSEtGIB_JISf8UEXQubfW-rXdL7mjnI1fw5qLG3MCjs [R=302,L]
-RewriteRule ^icc/np/ICC1/latest$ http://np.inn.ac/RA6Hd_7IL2rjNtWCJ07jg19vsS6DsinpmHzF_OSRVPFD4 [R=302,L]
+RewriteRule ^icc/np/FAIR-Principles-Explained-Working-Group/latest$ http://np.inn.ac/RARIBADF5qYA12lf34I1kBWGwekeIDWsy9KrVmjTMYzK8 [R=302,L]
+RewriteRule ^icc/np/F1ex/latest$ http://np.inn.ac/RAuFaMvLwb_ypIaNlJ4RHSttgEkH9ofMwDBbmQcijb5Wc [R=302,L]
+RewriteRule ^icc/np/A1.1ex/latest$ http://np.inn.ac/RAHTItgaco11U7HNVXAJFI_PrvKAv1bmz4VuQb0e4X4wY [R=302,L]
+RewriteRule ^icc/np/A1.2ex/latest$ http://np.inn.ac/RAZLk1HQyas47H8kGZQzNnyWq0XTGsQ47f2i9nHx7pqDQ [R=302,L]
+RewriteRule ^icc/np/A1ex/latest$ http://np.inn.ac/RAp8ixy4FIAhWxbZfSxHMR9ZwtIozaMl4lUhXPdvCjcoc [R=302,L]
+RewriteRule ^icc/np/ICC1/latest$ http://np.inn.ac/RAzw4ThdUKufcFHsBtaEU0KpiJelHgvNI90yRMG06ZpQc [R=302,L]
