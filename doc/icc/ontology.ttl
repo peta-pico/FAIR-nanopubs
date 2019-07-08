@@ -61,8 +61,64 @@
 <http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
 
 
-###  https://w3id.org/fair/icc/terms/hasChallenge
-<https://w3id.org/fair/icc/terms/hasChallenge> rdf:type owl:AnnotationProperty .
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/fair/icc/terms/chosen-resource
+<https://w3id.org/fair/icc/terms/chosen-resource> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain <https://w3id.org/fair/icc/terms/ChoiceDeclaration> ;
+                                                  rdfs:range <https://w3id.org/fair/icc/terms/Resouce> ;
+                                                  rdfs:label "chosen resource"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#definition> "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"@en .
+
+
+###  https://w3id.org/fair/icc/terms/declared-by
+<https://w3id.org/fair/icc/terms/declared-by> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <https://w3id.org/fair/icc/terms/Declaration> ;
+                                              rdfs:range <https://w3id.org/fair/icc/terms/Community> ;
+                                              rdfs:label "declared by"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#definition> "Connects a Declaration to the Community that made the declaration"@en .
+
+
+###  https://w3id.org/fair/icc/terms/explains-principle
+<https://w3id.org/fair/icc/terms/explains-principle> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <https://w3id.org/fair/icc/terms/Explanation> ;
+                                                     rdfs:range <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> ;
+                                                     rdfs:label "explains principle"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "Links an explanation to the FAIR (sub)principle it explains"@en .
+
+
+###  https://w3id.org/fair/icc/terms/has-open-challenge
+<https://w3id.org/fair/icc/terms/has-open-challenge> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <https://w3id.org/fair/icc/terms/ChoiceDeclaration> ;
+                                                     rdfs:range <https://w3id.org/fair/icc/terms/ChallengeDeclaration> ;
+                                                     rdfs:label "has open challenge"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChoiceDeclaration that doesn't have a chosen resource to a ChallengeDeclaration that describes a challenge that has to be met before the community can choose a resource"@en .
+
+
+###  https://w3id.org/fair/icc/terms/refers-to-consideration
+<https://w3id.org/fair/icc/terms/refers-to-consideration> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain <https://w3id.org/fair/icc/terms/Declaration> ;
+                                                          rdfs:range <https://w3id.org/fair/icc/terms/Consideration> ;
+                                                          rdfs:label "refers to consideration"@en ;
+                                                          <http://www.w3.org/2004/02/skos/core#definition> "Connects a Declaration to the Consideration it is derived from (indicates row of the Matrix for choice declarations)"@en .
+
+
+###  https://w3id.org/fair/icc/terms/refers-to-principle
+<https://w3id.org/fair/icc/terms/refers-to-principle> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <https://w3id.org/fair/icc/terms/Consideration> ;
+                                                      rdfs:range <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> ;
+                                                      rdfs:label "refers to principle"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "Connects a Consideration to a FAIR (sub)principle it refers to"@en .
+
+
+###  https://w3id.org/fair/icc/terms/related-challenge
+<https://w3id.org/fair/icc/terms/related-challenge> rdf:type owl:ObjectProperty ;
+                                                    rdfs:domain <https://w3id.org/fair/icc/terms/Choice> ;
+                                                    rdfs:range <https://w3id.org/fair/icc/terms/Challenge> ;
+                                                    rdfs:label "related challenge"@en ;
+                                                    <http://www.w3.org/2004/02/skos/core#definition> "Connects a Choice to a Challenge that some communities might face before they can make the given kind of choice"@en .
 
 
 #################################################################
@@ -119,12 +175,14 @@
                                               <http://www.w3.org/2004/02/skos/core#definition> "Something that is either a ChoiceDeclaration or a ChallengeDeclaration"@en .
 
 
-###  https://w3id.org/fair/icc/terms/Implementation-Challenge
-<https://w3id.org/fair/icc/terms/Implementation-Challenge> rdf:type owl:Class .
+###  https://w3id.org/fair/icc/terms/Explanation
+<https://w3id.org/fair/icc/terms/Explanation> rdf:type owl:Class ;
+                                              rdfs:label "Explanation"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#definition> "An explanation of a FAIR (sub)principle"@en .
 
 
-###  https://w3id.org/fair/icc/terms/Implementation-Choice
-<https://w3id.org/fair/icc/terms/Implementation-Choice> rdf:type owl:Class .
+###  https://w3id.org/fair/icc/terms/Resouce
+<https://w3id.org/fair/icc/terms/Resouce> rdf:type owl:Class .
 
 
 ###  https://w3id.org/fair/icc/terms/Resource
@@ -133,25 +191,65 @@
                                            <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles (corresponds to the possible values of the cells in the Matrix)"@en .
 
 
+###  https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> rdf:type owl:Class .
+
+
 #################################################################
 #    Individuals
 #################################################################
 
+###  https://w3id.org/fair/icc/terms/A1-Explanation
+<https://w3id.org/fair/icc/terms/A1-Explanation> rdf:type owl:NamedIndividual ,
+                                                          <https://w3id.org/fair/icc/terms/Explanation> ;
+                                                 <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1> ;
+                                                 rdfs:comment "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ..." ;
+                                                 rdfs:label "A1 Explanation" ;
+                                                 rdfs:seeAlso <https://w3id.org/fair/icc/terms/A1.1-Explanation> ,
+                                                              <https://w3id.org/fair/icc/terms/A1.2-Explanation> .
+
+
+###  https://w3id.org/fair/icc/terms/A1.1-Explanation
+<https://w3id.org/fair/icc/terms/A1.1-Explanation> rdf:type owl:NamedIndividual ,
+                                                            <https://w3id.org/fair/icc/terms/Explanation> ;
+                                                   <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1.1> ;
+                                                   rdfs:comment "With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed)." ;
+                                                   rdfs:label "A1.1 Explanation" .
+
+
+###  https://w3id.org/fair/icc/terms/A1.2-Explanation
+<https://w3id.org/fair/icc/terms/A1.2-Explanation> rdf:type owl:NamedIndividual ,
+                                                            <https://w3id.org/fair/icc/terms/Explanation> ;
+                                                   <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1.2> ;
+                                                   rdfs:comment "Some digital resources, such as sensitive individual data, require additional measures to be followed, such as ethical approval, before access can be granted. The ‘A’ in FAIR does not imply ‘Open’ or ‘Free’, but it does require that the exact conditions and the process to access restricted data are transparent and made public. Any additional authentication and authorization procedures must be specified. Therefore, prior to the release of a restricted digital resource, publishers must take steps to clarify eligibility and process." ;
+                                                   rdfs:label "A1.2 Explanation" .
+
+
 ###  https://w3id.org/fair/icc/terms/F1-Challenge-1
 <https://w3id.org/fair/icc/terms/F1-Challenge-1> rdf:type owl:NamedIndividual ,
-                                                          <https://w3id.org/fair/icc/terms/Implementation-Challenge> ;
-                                                 <http://purl.org/dc/terms/description> "The community should define identifier registration service(s) that ensure global uniqueness for its digital resources." ;
+                                                          <https://w3id.org/fair/icc/terms/Challenge> ;
                                                  <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/fair/principles/terms/F1> ;
-                                                 rdfs:seeAlso <https://w3id.org/fair/icc/np/F1ex/RAb1viSLKOo9F6hOn7pphXuqO6KXdIbtCEH10V1H_7BEA> .
+                                                 rdfs:comment "The community should define identifier registration service(s) that ensure global uniqueness for its digital resources." ;
+                                                 rdfs:label "F1 Challenge 1" ;
+                                                 rdfs:seeAlso <https://w3id.org/fair/icc/terms/F1-Explanation> .
 
 
 ###  https://w3id.org/fair/icc/terms/F1-Choice
 <https://w3id.org/fair/icc/terms/F1-Choice> rdf:type owl:NamedIndividual ,
-                                                     <https://w3id.org/fair/icc/terms/Implementation-Choice> ;
-                                            <http://purl.org/dc/terms/description> "The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources." ;
+                                                     <https://w3id.org/fair/icc/terms/Choice> ;
+                                            <https://w3id.org/fair/icc/terms/related-challenge> <https://w3id.org/fair/icc/terms/F1-Challenge-1> ;
                                             <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/fair/principles/terms/F1> ;
-                                            rdfs:seeAlso <https://w3id.org/fair/icc/np/F1ex/RAb1viSLKOo9F6hOn7pphXuqO6KXdIbtCEH10V1H_7BEA> ;
-                                            <https://w3id.org/fair/icc/terms/hasChallenge> <https://w3id.org/fair/icc/terms/F1-Challenge-1> .
+                                            rdfs:comment "The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources." ;
+                                            rdfs:label "F1 Choice" ;
+                                            rdfs:seeAlso <https://w3id.org/fair/icc/terms/F1-Explanation> .
+
+
+###  https://w3id.org/fair/icc/terms/F1-Explanation
+<https://w3id.org/fair/icc/terms/F1-Explanation> rdf:type owl:NamedIndividual ,
+                                                          <https://w3id.org/fair/icc/terms/Explanation> ;
+                                                 <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/F1> ;
+                                                 rdfs:comment "Principle F1 states that resources, i.e. data and metadata, should be assigned a globally unique and persistent identifier (GUPID). ..." ;
+                                                 rdfs:label "F1 Explanation" .
 
 
 ###  https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group
@@ -197,6 +295,22 @@
                                                                                                              <https://orcid.org/0000-0003-4053-7825> ,
                                                                                                              <https://orcid.org/0000-0003-4098-0464> ,
                                                                                                              <https://orcid.org/0000-0003-4818-2360> .
+
+
+###  https://w3id.org/fair/principles/terms/A1
+<https://w3id.org/fair/principles/terms/A1> rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/fair/principles/terms/A1.1
+<https://w3id.org/fair/principles/terms/A1.1> rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/fair/principles/terms/A1.2
+<https://w3id.org/fair/principles/terms/A1.2> rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/fair/principles/terms/F1
+<https://w3id.org/fair/principles/terms/F1> rdf:type owl:NamedIndividual .
 
 
 #################################################################
@@ -318,20 +432,6 @@
 
 
 <https://orcid.org/0000-0003-4818-2360> <http://xmlns.com/foaf/0.1/name> "Annika Jacobsen" .
-
-
-<https://w3id.org/fair/principles/terms/A1> <http://purl.org/dc/terms/description> "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ..." ;
-                                            rdfs:seeAlso <https://w3id.org/fair/icc/np/A1.1ex/RAnweHj3NKsKwxhi0KNBt0pjxFSx9F6gXqKOahRlKKKVo> ,
-                                                         <https://w3id.org/fair/icc/np/A1.2ex/RAHKbw6LZwUn92lIrF41v_X1pkioH8mT4GRC9ck8F2TOQ> .
-
-
-<https://w3id.org/fair/principles/terms/A1.1> <http://purl.org/dc/terms/description> "With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed)." .
-
-
-<https://w3id.org/fair/principles/terms/A1.2> <http://purl.org/dc/terms/description> "Some digital resources, such as sensitive individual data, require additional measures to be followed, such as ethical approval, before access can be granted. The ‘A’ in FAIR does not imply ‘Open’ or ‘Free’, but it does require that the exact conditions and the process to access restricted data are transparent and made public. Any additional authentication and authorization procedures must be specified. Therefore, prior to the release of a restricted digital resource, publishers must take steps to clarify eligibility and process." .
-
-
-<https://w3id.org/fair/principles/terms/F1> <http://purl.org/dc/terms/description> "Principle F1 states that resources, i.e. data and metadata, should be assigned a globally unique and persistent identifier (GUPID). ..." .
 
 
 ###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
