@@ -167,7 +167,7 @@ fair:A1.2 rdfs:label "A1.2" .
     <https://orcid.org/0000-0003-4818-2360> .
 
 <https://w3id.org/fair/icc/terms/FAIR-ICC-Model> a <http://www.w3.org/2002/07/owl#Ontology>;
-  <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-6960-357X>, <https://orcid.org/0000-0002-1267-0234>,
+  <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
     <https://orcid.org/0000-0003-4818-2360>;
   <http://purl.org/dc/terms/description> "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.";
   <http://purl.org/dc/terms/rights> <https://creativecommons.org/publicdomain/zero/1.0/>;
