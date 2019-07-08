@@ -112,7 +112,7 @@
 :pubinfo {
   : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
-    dct:created "2019-06-24T16:21:10.893+02:00"^^xsd:dateTime .
+    dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime .
 }
 
 # Explanation of F1:
@@ -147,7 +147,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-06-24T16:21:10.893+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -185,7 +185,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-06-24T16:21:10.893+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -223,7 +223,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-06-24T16:21:10.893+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -262,7 +262,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-06-24T16:21:10.893+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -302,7 +302,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-06-24T16:21:10.893+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -341,7 +341,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-06-24T16:21:10.893+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
