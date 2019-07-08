@@ -1,3 +1,7 @@
+# Use this file (with '.pre' extension) for editing. The respective file
+# without that extension is automatically generated.
+
+
 # Introduce working group:
 
 @prefix : <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/> .
@@ -22,7 +26,7 @@
 }
 
 :assertion {
-  icc:FAIR-Principles-Explained-Working-Group dct:title "FAIR Principles Explained Working Group"@en ;
+  icc:FAIR-Principles-Explained-Working-Group rdfs:label "FAIR Principles Explained Working Group"@en ;
     a foaf:Group ;
     foaf:member orcid:0000-0003-4818-2360 ,
       orcid:0000-0002-7641-6446 ,
@@ -49,9 +53,9 @@
       orcid:0000-0002-4451-8042 ,
       orcid:0000-0001-8414-9272 ,
       orcid:0000-0002-4040-0215 ,
-      orcid:0000-0001-6594-9178  ,
+      orcid:0000-0001-6594-9178 ,
       orcid:0000-0002-3452-553X ,
-      orcid:0000-0001-7542-0286  ,
+      orcid:0000-0001-7542-0286 ,
       orcid:0000-0002-5301-3142 ,
       orcid:0000-0003-4098-0464 ,
       orcid:0000-0002-8042-4131 ,
@@ -112,8 +116,56 @@
 :pubinfo {
   : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
-    dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime .
+    dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime .
 }
+
+
+# Introduce ontology:
+
+@prefix : <https://w3id.org/fair/icc/np/FAIR-ICC-Model/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:FAIR-ICC-Model rdf:type owl:Ontology ;
+    vann:preferredNamespaceUri "https://w3id.org/fair/icc/terms/" ;
+    vann:preferredNamespacePrefix "icc" ;
+    dct:title "FAIR Implementation Choices and Challenges Model" ;
+    dct:description "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles." ;
+    rdfs:seeAlso fair:FAIR ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
 
 # Explanation of F1:
 
@@ -147,7 +199,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -185,7 +237,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -223,7 +275,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -262,7 +314,313 @@
 }
 
 :pubinfo {
-  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+# Class definitions:
+
+@prefix : <https://w3id.org/fair/icc/np/Consideration/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:Consideration rdfs:label "Consideration"@en ;
+    a owl:Class ;
+    skos:definition "Something that is either a Choice or a Challenge"@en .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/icc/np/Choice/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:Choice rdfs:label "Choice"@en ;
+    rdfs:subClassOf icc:Consideration ;
+    skos:definition "The kind of choice communities have to make (can be expressed as a question; choices are represented as rows in the Matrix)"@en .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/icc/np/Challenge/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:Challenge rdfs:label "Challenge"@en ;
+    rdfs:subClassOf icc:Consideration ;
+    skos:definition "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/icc/np/Declaration/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:Declaration rdfs:label "Declaration"@en ;
+    a owl:Class ;
+    skos:definition "Something that is either a ChoiceDeclaration or a ChallengeDeclaration"@en .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/icc/np/ChoiceDeclaration/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:ChoiceDeclaration rdfs:label "Choice Declaration"@en ;
+    rdfs:subClassOf icc:Declaration ;
+    skos:definition "The expression of a community of their choice made (corresponds to an answer to a question, i.e. a cell in the Matrix)"@en .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/icc/np/ChallengeDeclaration/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:ChallengeDeclaration rdfs:label "Challenge Declaration"@en ;
+    rdfs:subClassOf icc:Declaration ;
+    skos:definition "The expression of a community of a challenge they accepted"@en .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/icc/np/Community/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:Community rdfs:label "Community"@en ;
+    a owl:Class ;
+    skos:definition "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest (communities are represented as columns in the Matrix)"@en .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/icc/np/Resource/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:Resource rdfs:label "Resource"@en ;
+    a owl:Class ;
+    skos:definition "An artifact or service that can contribute to the implementation of the FAIR principles (corresponds to the possible values of the cells in the Matrix)"@en .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -302,7 +660,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -341,7 +699,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-07-08T08:57:55.229+02:00"^^xsd:dateTime ;
+  : dct:created "2019-07-08T09:23:49.785+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-6960-357X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }

@@ -2,5 +2,12 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 <..\index-en.html> a prov:Entity;
+	 dc:title "FAIR Implementation Choices and Challenges Model";
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-6960-357X>;
+	 dc:creator <https://orcid.org/0000-0001-6960-357X>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-1267-0234>;
+	 dc:creator <https://orcid.org/0000-0002-1267-0234>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0003-4818-2360>;
+	 dc:creator <https://orcid.org/0000-0003-4818-2360>;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 .
