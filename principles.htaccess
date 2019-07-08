@@ -3,8 +3,9 @@ RewriteRule ^principles/np/[^/]+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/$1 [R=
 
 RewriteRule ^principles/np/FAIR-Vocabulary/latest$ http://np.inn.ac/RA42Ifild4QRyoA2-A3tam25oe5fd6sDqqzXSVmzOpuYw [R=302,L]
 RewriteRule ^principles/np/FAIR/latest$ http://np.inn.ac/RAqJf-a0owHeudCLjz5PX1-dywxDvRcCFUsPAu7w8SgU4 [R=302,L]
-RewriteRule ^principles/np/FAIR-Principle/latest$ http://np.inn.ac/RApjgZFiQmH-ky25jiuor5sRbLQhJsPsKPu0-4S_6QaRk [R=302,L]
-RewriteRule ^principles/np/FAIR-SubPrinciple/latest$ http://np.inn.ac/RA00uuZAnatxDhs5q7bAIZs9dYiSB5KEZqUm54Ctec2zE [R=302,L]
+RewriteRule ^principles/np/FAIR-Principle-or-SubPrinciple/latest$ http://np.inn.ac/RATpj4nHXQC70Op3a5FfwhCuZoiHQSrsDZG8xYO0CVxQw [R=302,L]
+RewriteRule ^principles/np/FAIR-Principle/latest$ http://np.inn.ac/RAGWZQLR3ZG9em05gNBRoAk8IJ1v-KGLo3oZ6i6lu4F0U [R=302,L]
+RewriteRule ^principles/np/FAIR-SubPrinciple/latest$ http://np.inn.ac/RAc04kx-OZkCGw1NA40Tn4nIjgLE8pVlXvAoVs73EDxvs [R=302,L]
 RewriteRule ^principles/np/F/latest$ http://np.inn.ac/RALPRqKUUtSpaYz-HnGshG0hZyMIoX1lc-qZmE5Gh5Goo [R=302,L]
 RewriteRule ^principles/np/F1/latest$ http://np.inn.ac/RAMTUo7c9Hp6eYnG3cNB2otD8VES92GiTb0xYVtK67-z0 [R=302,L]
 RewriteRule ^principles/np/F2/latest$ http://np.inn.ac/RAeWoz5k17tU6Xr_aF969OqUjqvxT0hAdWdBPA8GZdF80 [R=302,L]
@@ -25,4 +26,4 @@ RewriteRule ^principles/np/R1.1/latest$ http://np.inn.ac/RAXwwJrPhJwFlO23c0EHKve
 RewriteRule ^principles/np/R1.2/latest$ http://np.inn.ac/RAKj2QQ36pDTaaj2Q44uF4cpRF2mMRkXJ9Xbu-IpMB9ZY [R=302,L]
 RewriteRule ^principles/np/R1.3/latest$ http://np.inn.ac/RA-9_Zv2ElUuTbbAqDQ-WZ4C6naz7qHXYdhXKumfO5dNk [R=302,L]
 
-RewriteRule ^principles/np/index/latest$ http://np.inn.ac/RAIZcFWraVM8vJsh_wyjnNnIl1pvGKbHRDqizvzTuX0P8 [R=302,L]
+RewriteRule ^principles/np/index/latest$ http://np.inn.ac/RAwHPGlvSZgP9yAtRHKLICBJdIDhwF8GILN1qeARcny5w [R=302,L]

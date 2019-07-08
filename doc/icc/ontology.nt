@@ -60,8 +60,7 @@
 <https://w3id.org/fair/icc/terms/chosen-resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/icc/terms/chosen-resource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/ChoiceDeclaration> .
 <https://w3id.org/fair/icc/terms/ChoiceDeclaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/icc/terms/chosen-resource> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Resouce> .
-<https://w3id.org/fair/icc/terms/Resouce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/icc/terms/chosen-resource> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Resource> .
 <https://w3id.org/fair/icc/terms/chosen-resource> <http://www.w3.org/2000/01/rdf-schema#label> "chosen resource"@en .
 <https://w3id.org/fair/icc/terms/chosen-resource> <http://www.w3.org/2004/02/skos/core#definition> "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"@en .
 # 
@@ -162,8 +161,6 @@
 <https://w3id.org/fair/icc/terms/Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/icc/terms/Explanation> <http://www.w3.org/2000/01/rdf-schema#label> "Explanation"@en .
 <https://w3id.org/fair/icc/terms/Explanation> <http://www.w3.org/2004/02/skos/core#definition> "An explanation of a FAIR (sub)principle"@en .
-# 
-# https://w3id.org/fair/icc/terms/Resouce
 # 
 # https://w3id.org/fair/icc/terms/Resource
 <https://w3id.org/fair/icc/terms/Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
