@@ -1,16 +1,28 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.w3.org/2002/07/owl"
+<rdf:RDF xmlns="https://w3id.org/fair/icc/terms/FAIR-ICC-Model#"
+     xml:base="https://w3id.org/fair/icc/terms/FAIR-ICC-Model"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:terms1="https://w3id.org/fair/icc/terms/"
      xmlns:resource="http://semanticscience.org/resource/">
-    <Ontology/>
+    <owl:Ontology rdf:about="https://w3id.org/fair/icc/terms/FAIR-ICC-Model">
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-6960-357X"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-4818-2360"/>
+        <terms:description>This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.</terms:description>
+        <terms:rights rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <terms:title>FAIR Implementation Choices and Challenges Model</terms:title>
+        <vann:preferredNamespacePrefix>icc</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/fair/icc/terms/</vann:preferredNamespaceUri>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
+    </owl:Ontology>
     
 
 
@@ -26,45 +38,80 @@
     
 
 
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
     <!-- http://purl.org/dc/terms/description -->
 
 
-    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/rights -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
     
 
 
     <!-- http://purl.org/dc/terms/title -->
 
 
-    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
     <!-- http://semanticscience.org/resource/SIO_000628 -->
 
 
-    <AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000628"/>
+    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000628"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
     
 
 
     <!-- http://xmlns.com/foaf/0.1/member -->
 
 
-    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/member"/>
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/member"/>
     
 
 
     <!-- http://xmlns.com/foaf/0.1/name -->
 
 
-    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
     
 
 
     <!-- https://w3id.org/fair/icc/terms/hasChallenge -->
 
 
-    <AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/hasChallenge"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/hasChallenge"/>
     
 
 
@@ -83,21 +130,105 @@
     <!-- http://xmlns.com/foaf/0.1/Group -->
 
 
-    <Class rdf:about="http://xmlns.com/foaf/0.1/Group"/>
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group"/>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Challenge -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Challenge">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/icc/terms/Consideration"/>
+        <rdfs:label xml:lang="en">Challenge</rdfs:label>
+        <skos:definition xml:lang="en">The kind of challenge that some communities face if the lack of existing resources doesn&apos;t allow them to make a choice yet</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/ChallengeDeclaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/ChallengeDeclaration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/icc/terms/Declaration"/>
+        <rdfs:label xml:lang="en">Challenge Declaration</rdfs:label>
+        <skos:definition xml:lang="en">The expression of a community of a challenge they accepted</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Choice -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Choice">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/icc/terms/Consideration"/>
+        <rdfs:label xml:lang="en">Choice</rdfs:label>
+        <skos:definition xml:lang="en">The kind of choice communities have to make (can be expressed as a question; choices are represented as rows in the Matrix)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/ChoiceDeclaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/ChoiceDeclaration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/icc/terms/Declaration"/>
+        <rdfs:label xml:lang="en">Choice Declaration</rdfs:label>
+        <skos:definition xml:lang="en">The expression of a community of their choice made (corresponds to an answer to a question, i.e. a cell in the Matrix)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Community -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Community">
+        <rdfs:label xml:lang="en">Community</rdfs:label>
+        <skos:definition xml:lang="en">A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest (communities are represented as columns in the Matrix)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Consideration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Consideration">
+        <rdfs:label xml:lang="en">Consideration</rdfs:label>
+        <skos:definition xml:lang="en">Something that is either a Choice or a Challenge</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Declaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Declaration">
+        <rdfs:label xml:lang="en">Declaration</rdfs:label>
+        <skos:definition xml:lang="en">Something that is either a ChoiceDeclaration or a ChallengeDeclaration</skos:definition>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fair/icc/terms/Implementation-Challenge -->
 
 
-    <Class rdf:about="https://w3id.org/fair/icc/terms/Implementation-Challenge"/>
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Implementation-Challenge"/>
     
 
 
     <!-- https://w3id.org/fair/icc/terms/Implementation-Choice -->
 
 
-    <Class rdf:about="https://w3id.org/fair/icc/terms/Implementation-Choice"/>
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Implementation-Choice"/>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Resource">
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+        <skos:definition xml:lang="en">An artifact or service that can contribute to the implementation of the FAIR principles (corresponds to the possible values of the cells in the Matrix)</skos:definition>
+    </owl:Class>
     
 
 
@@ -116,34 +247,34 @@
     <!-- https://w3id.org/fair/icc/terms/F1-Challenge-1 -->
 
 
-    <NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/F1-Challenge-1">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/F1-Challenge-1">
         <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Implementation-Challenge"/>
         <terms:description>The community should define identifier registration service(s) that ensure global uniqueness for its digital resources.</terms:description>
         <resource:SIO_000628 rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
-        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/np/F1ex/RAtYaw-yQN3nWj5L0DmrSvQW6sJ_0-yr5h3OV3N3l6ZpI"/>
-    </NamedIndividual>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/np/F1ex/RA1dbp7OPAJBhMps1g2jtDtEt9KktUifIx_yuo9NDWnG0"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fair/icc/terms/F1-Choice -->
 
 
-    <NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/F1-Choice">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/F1-Choice">
         <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Implementation-Choice"/>
         <terms:description>The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources.</terms:description>
         <resource:SIO_000628 rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
-        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/np/F1ex/RAtYaw-yQN3nWj5L0DmrSvQW6sJ_0-yr5h3OV3N3l6ZpI"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/np/F1ex/RA1dbp7OPAJBhMps1g2jtDtEt9KktUifIx_yuo9NDWnG0"/>
         <terms1:hasChallenge rdf:resource="https://w3id.org/fair/icc/terms/F1-Challenge-1"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group -->
 
 
-    <NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
-        <terms:title xml:lang="en">FAIR Principles Explained Working Group</terms:title>
+        <rdfs:label xml:lang="en">FAIR Principles Explained Working Group</rdfs:label>
         <foaf:member rdf:resource="https://orcid.org/0000-0001-5306-5690"/>
         <foaf:member rdf:resource="https://orcid.org/0000-0001-6441-6716"/>
         <foaf:member rdf:resource="https://orcid.org/0000-0001-6594-9178"/>
@@ -183,7 +314,7 @@
         <foaf:member rdf:resource="https://orcid.org/0000-0003-4053-7825"/>
         <foaf:member rdf:resource="https://orcid.org/0000-0003-4098-0464"/>
         <foaf:member rdf:resource="https://orcid.org/0000-0003-4818-2360"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
@@ -315,8 +446,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/fair/principles/terms/A1">
         <terms:description>FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ...</terms:description>
-        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/np/A1.1ex/RAt1-d6q9MBuyseDeIawjMPGkgESnqbv-8B8_PRqic8C0"/>
-        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/np/A1.2ex/RAW8HQuFimd9Nhxiova1TDRah4kq57dywsT8V8iovNb2A"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/np/A1.1ex/RACUDA3_qSmZ6YweDWdNOX1RbnHYhtJ2lV4GaNaH52tUo"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/np/A1.2ex/RAHrlCr21F87KfLaZ_44Dh8TfTX8yytm4eRjdz-0OSAi8"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/fair/principles/terms/A1.1">
         <terms:description>With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed).</terms:description>

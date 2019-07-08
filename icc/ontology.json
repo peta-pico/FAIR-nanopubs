@@ -1,14 +1,26 @@
 [ {
-  "@id" : "_:genid1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://semanticscience.org/resource/SIO_000628",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/Group",
@@ -215,6 +227,95 @@
     "@value" : "Annika Jacobsen"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/icc/terms/Challenge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/icc/terms/Consideration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/ChallengeDeclaration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Challenge Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/icc/terms/Declaration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The expression of a community of a challenge they accepted"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/Choice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Choice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/icc/terms/Consideration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The kind of choice communities have to make (can be expressed as a question; choices are represented as rows in the Matrix)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/ChoiceDeclaration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Choice Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/icc/terms/Declaration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The expression of a community of their choice made (corresponds to an answer to a question, i.e. a cell in the Matrix)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/Community",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Community"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest (communities are represented as columns in the Matrix)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/Consideration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Consideration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Something that is either a Choice or a Challenge"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/Declaration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Declaration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Something that is either a ChoiceDeclaration or a ChallengeDeclaration"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/icc/terms/F1-Challenge-1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Implementation-Challenge" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -224,7 +325,7 @@
     "@id" : "https://w3id.org/fair/principles/terms/F1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@id" : "https://w3id.org/fair/icc/np/F1ex/RAtYaw-yQN3nWj5L0DmrSvQW6sJ_0-yr5h3OV3N3l6ZpI"
+    "@id" : "https://w3id.org/fair/icc/np/F1ex/RA1dbp7OPAJBhMps1g2jtDtEt9KktUifIx_yuo9NDWnG0"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/F1-Choice",
@@ -236,15 +337,43 @@
     "@id" : "https://w3id.org/fair/principles/terms/F1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@id" : "https://w3id.org/fair/icc/np/F1ex/RAtYaw-yQN3nWj5L0DmrSvQW6sJ_0-yr5h3OV3N3l6ZpI"
+    "@id" : "https://w3id.org/fair/icc/np/F1ex/RA1dbp7OPAJBhMps1g2jtDtEt9KktUifIx_yuo9NDWnG0"
   } ],
   "https://w3id.org/fair/icc/terms/hasChallenge" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/F1-Challenge-1"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/icc/terms/FAIR-ICC-Model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://orcid.org/0000-0001-6960-357X"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-1267-0234"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-4818-2360"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles."
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@id" : "https://creativecommons.org/publicdomain/zero/1.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "FAIR Implementation Choices and Challenges Model"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "icc"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/fair/icc/terms/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/FAIR"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Group" ],
-  "http://purl.org/dc/terms/title" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "FAIR Principles Explained Working Group"
   } ],
@@ -334,6 +463,17 @@
   "@id" : "https://w3id.org/fair/icc/terms/Implementation-Choice",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "https://w3id.org/fair/icc/terms/Resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An artifact or service that can contribute to the implementation of the FAIR principles (corresponds to the possible values of the cells in the Matrix)"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/icc/terms/hasChallenge",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -342,9 +482,9 @@
     "@value" : "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ..."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@id" : "https://w3id.org/fair/icc/np/A1.1ex/RAt1-d6q9MBuyseDeIawjMPGkgESnqbv-8B8_PRqic8C0"
+    "@id" : "https://w3id.org/fair/icc/np/A1.1ex/RACUDA3_qSmZ6YweDWdNOX1RbnHYhtJ2lV4GaNaH52tUo"
   }, {
-    "@id" : "https://w3id.org/fair/icc/np/A1.2ex/RAW8HQuFimd9Nhxiova1TDRah4kq57dywsT8V8iovNb2A"
+    "@id" : "https://w3id.org/fair/icc/np/A1.2ex/RAHrlCr21F87KfLaZ_44Dh8TfTX8yytm4eRjdz-0OSAi8"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/A1.1",
