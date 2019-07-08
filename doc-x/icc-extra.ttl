@@ -1,0 +1,24 @@
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+foaf:member a owl:ObjectProperty .
+
+fair:FAIR-Principle-or-SubPrinciple rdfs:label "FAIR Principle or Sub-Principle" .
+
+fair:F1 rdfs:label "F1" .
+
+fair:A1 rdfs:label "A1" .
+fair:A1.1 rdfs:label "A1.1" .
+fair:A1.2 rdfs:label "A1.2" .
+

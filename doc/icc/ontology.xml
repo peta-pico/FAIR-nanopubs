@@ -10,8 +10,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:terms1="https://w3id.org/fair/icc/terms/"
-     xmlns:resource="http://semanticscience.org/resource/">
+     xmlns:terms1="https://w3id.org/fair/icc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/fair/icc/terms/FAIR-ICC-Model">
         <terms:creator rdf:resource="https://orcid.org/0000-0001-6960-357X"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
@@ -80,31 +79,10 @@
     
 
 
-    <!-- http://semanticscience.org/resource/SIO_000628 -->
-
-
-    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000628"/>
-    
-
-
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/member -->
-
-
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/member"/>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/name -->
-
-
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
     
 
 
@@ -117,6 +95,13 @@
      -->
 
 
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/member -->
+
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/member"/>
     
 
 
@@ -229,7 +214,7 @@
     <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Challenge">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/icc/terms/Consideration"/>
         <rdfs:label xml:lang="en">Challenge</rdfs:label>
-        <skos:definition xml:lang="en">The kind of challenge that some communities face if the lack of existing resources doesn&apos;t allow them to make a choice yet</skos:definition>
+        <skos:definition xml:lang="en">The kind of &lt;strong&gt;challenge&lt;/strong&gt; that some communities face if the lack of existing resources doesn&apos;t allow them to make a choice yet</skos:definition>
     </owl:Class>
     
 
@@ -320,7 +305,9 @@
     <!-- https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple -->
 
 
-    <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
+    <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
+        <rdfs:label>FAIR Principle or Sub-Principle</rdfs:label>
+    </owl:Class>
     
 
 
@@ -333,6 +320,357 @@
      -->
 
 
+    
+
+
+    <!-- https://orcid.org/0000-0001-5306-5690 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5306-5690">
+        <rdfs:label>Susanna-Assunta Sansone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6441-6716 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-6441-6716">
+        <rdfs:label>Natalie Meyers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6594-9178 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-6594-9178">
+        <rdfs:label>Christopher Brewster</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6960-357X -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-6960-357X">
+        <rdfs:label>Mark D. Wilkinson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7030-7030 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7030-7030">
+        <rdfs:label>Ignasi Labastida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7542-0286 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7542-0286">
+        <rdfs:label>Egon Willighagen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8414-9272 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8414-9272">
+        <rdfs:label>Simon Coles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8888-635X -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8888-635X">
+        <rdfs:label>Erik Schultes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9773-4008 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9773-4008">
+        <rdfs:label>Andra Waagmeester</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9853-5668 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9853-5668">
+        <rdfs:label>Philippe Rocca-Serra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1164-1351 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1164-1351">
+        <rdfs:label>Luiz Olavo Bonino da Silva Santos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1215-167X -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1215-167X">
+        <rdfs:label>Rajaram Kaliyaperumal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1267-0234 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1267-0234">
+        <rdfs:label>Tobias Kuhn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1704-5980 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1704-5980">
+        <rdfs:label>Ronal Cornet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2036-8350 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-2036-8350">
+        <rdfs:label>Nick Juty</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3452-553X -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3452-553X">
+        <rdfs:label>Giancarlo Guizzardi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4040-0215 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4040-0215">
+        <rdfs:label>Tobias Weigel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4182-7560 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4182-7560">
+        <rdfs:label>Kristina Hettne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4451-8042 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4451-8042">
+        <rdfs:label>Christine R. Kirkpatrick</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5301-3142 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5301-3142">
+        <rdfs:label>Chris T. Evelo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7633-1442 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-7633-1442">
+        <rdfs:label>Mark Thompson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7641-6446 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-7641-6446">
+        <rdfs:label>Ricardo de Miranda Azevedo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7664-3331 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-7664-3331">
+        <rdfs:label>Juliane Schneider</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8042-4131 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-8042-4131">
+        <rdfs:label>Myles Axton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8691-772X -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-8691-772X">
+        <rdfs:label>Marco Roos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9551-6370 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9551-6370">
+        <rdfs:label>Mélanie Courtot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0413-2003 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-0413-2003">
+        <rdfs:label>Annalisa Montesanti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0627-8014 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-0627-8014">
+        <rdfs:label>Mirjam van Reisen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2195-3997 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2195-3997">
+        <rdfs:label>Barbara Magagna</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2376-9755 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2376-9755">
+        <rdfs:label>Melanie Imming</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2687-1982 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2687-1982">
+        <rdfs:label>Peter McQuilton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2980-4400 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2980-4400">
+        <rdfs:label>Robert Pergl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3357-3027 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-3357-3027">
+        <rdfs:label>Martijn Kersloot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3538-0106 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-3538-0106">
+        <rdfs:label>Peter Wittenburg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3934-0072 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-3934-0072">
+        <rdfs:label>Barend Mons</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4014-4394 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4014-4394">
+        <rdfs:label>Ali Hasnain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4053-7825 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4053-7825">
+        <rdfs:label>Keith Jeffery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4098-0464 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4098-0464">
+        <rdfs:label>George Strawn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4818-2360 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4818-2360">
+        <rdfs:label>Annika Jacobsen</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
@@ -379,7 +717,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/F1-Challenge-1">
         <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Challenge"/>
-        <resource:SIO_000628 rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
         <rdfs:comment>The community should define identifier registration service(s) that ensure global uniqueness for its digital resources.</rdfs:comment>
         <rdfs:label>F1 Challenge 1</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/terms/F1-Explanation"/>
@@ -392,8 +730,8 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/F1-Choice">
         <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Choice"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
         <terms1:related-challenge rdf:resource="https://w3id.org/fair/icc/terms/F1-Challenge-1"/>
-        <resource:SIO_000628 rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
         <rdfs:comment>The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources.</rdfs:comment>
         <rdfs:label>F1 Choice</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://w3id.org/fair/icc/terms/F1-Explanation"/>
@@ -418,7 +756,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
-        <rdfs:label xml:lang="en">FAIR Principles Explained Working Group</rdfs:label>
         <foaf:member rdf:resource="https://orcid.org/0000-0001-5306-5690"/>
         <foaf:member rdf:resource="https://orcid.org/0000-0001-6441-6716"/>
         <foaf:member rdf:resource="https://orcid.org/0000-0001-6594-9178"/>
@@ -458,6 +795,7 @@
         <foaf:member rdf:resource="https://orcid.org/0000-0003-4053-7825"/>
         <foaf:member rdf:resource="https://orcid.org/0000-0003-4098-0464"/>
         <foaf:member rdf:resource="https://orcid.org/0000-0003-4818-2360"/>
+        <rdfs:label xml:lang="en">FAIR Principles Explained Working Group</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -465,157 +803,36 @@
     <!-- https://w3id.org/fair/principles/terms/A1 -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1">
+        <rdfs:label>A1</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fair/principles/terms/A1.1 -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.1"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.1">
+        <rdfs:label>A1.1</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fair/principles/terms/A1.2 -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.2"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.2">
+        <rdfs:label>A1.2</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fair/principles/terms/F1 -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F1"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-5306-5690">
-        <foaf:name>Susanna-Assunta Sansone</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-6441-6716">
-        <foaf:name>Natalie Meyers</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-6594-9178">
-        <foaf:name>Christopher Brewster</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-6960-357X">
-        <foaf:name>Mark D. Wilkinson</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-7030-7030">
-        <foaf:name>Ignasi Labastida</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-7542-0286">
-        <foaf:name>Egon Willighagen</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-8414-9272">
-        <foaf:name>Simon Coles</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-8888-635X">
-        <foaf:name>Erik Schultes</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-9773-4008">
-        <foaf:name>Andra Waagmeester</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0001-9853-5668">
-        <foaf:name>Philippe Rocca-Serra</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-1164-1351">
-        <foaf:name>Luiz Olavo Bonino da Silva Santos</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-1215-167X">
-        <foaf:name>Rajaram Kaliyaperumal</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-1267-0234">
-        <foaf:name>Tobias Kuhn</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-1704-5980">
-        <foaf:name>Ronal Cornet</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-2036-8350">
-        <foaf:name>Nick Juty</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-3452-553X">
-        <foaf:name>Giancarlo Guizzardi</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-4040-0215">
-        <foaf:name>Tobias Weigel</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-4182-7560">
-        <foaf:name>Kristina Hettne</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-4451-8042">
-        <foaf:name>Christine R. Kirkpatrick</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-5301-3142">
-        <foaf:name>Chris T. Evelo</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-7633-1442">
-        <foaf:name>Mark Thompson</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-7641-6446">
-        <foaf:name>Ricardo de Miranda Azevedo</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-7664-3331">
-        <foaf:name>Juliane Schneider</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-8042-4131">
-        <foaf:name>Myles Axton</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-8691-772X">
-        <foaf:name>Marco Roos</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0002-9551-6370">
-        <foaf:name>Mélanie Courtot</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-0413-2003">
-        <foaf:name>Annalisa Montesanti</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-0627-8014">
-        <foaf:name>Mirjam van Reisen</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-2195-3997">
-        <foaf:name>Barbara Magagna</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-2376-9755">
-        <foaf:name>Melanie Imming</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-2687-1982">
-        <foaf:name>Peter McQuilton</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-2980-4400">
-        <foaf:name>Robert Pergl</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-3357-3027">
-        <foaf:name>Martijn Kersloot</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-3538-0106">
-        <foaf:name>Peter Wittenburg</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-3934-0072">
-        <foaf:name>Barend Mons</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-4014-4394">
-        <foaf:name>Ali Hasnain</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-4053-7825">
-        <foaf:name>Keith Jeffery</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-4098-0464">
-        <foaf:name>George Strawn</foaf:name>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://orcid.org/0000-0003-4818-2360">
-        <foaf:name>Annika Jacobsen</foaf:name>
-    </rdf:Description>
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F1">
+        <rdfs:label>F1</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

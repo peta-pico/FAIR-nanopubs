@@ -17,9 +17,6 @@
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://semanticscience.org/resource/SIO_000628",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://www.w3.org/2004/02/skos/core#definition",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -27,203 +24,239 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/member",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://xmlns.com/foaf/0.1/name",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "https://orcid.org/0000-0001-5306-5690",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Susanna-Assunta Sansone"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-6441-6716",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Natalie Meyers"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-6594-9178",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Christopher Brewster"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-6960-357X",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Mark D. Wilkinson"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-7030-7030",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Ignasi Labastida"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-7542-0286",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Egon Willighagen"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-8414-9272",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Simon Coles"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-8888-635X",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Erik Schultes"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-9773-4008",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Andra Waagmeester"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-9853-5668",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Philippe Rocca-Serra"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-1164-1351",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Luiz Olavo Bonino da Silva Santos"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-1215-167X",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Rajaram Kaliyaperumal"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-1267-0234",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Tobias Kuhn"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-1704-5980",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Ronal Cornet"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-2036-8350",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Nick Juty"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-3452-553X",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Giancarlo Guizzardi"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-4040-0215",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Tobias Weigel"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-4182-7560",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Kristina Hettne"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-4451-8042",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Christine R. Kirkpatrick"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-5301-3142",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Chris T. Evelo"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-7633-1442",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Mark Thompson"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-7641-6446",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Ricardo de Miranda Azevedo"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-7664-3331",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Juliane Schneider"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-8042-4131",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Myles Axton"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-8691-772X",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Marco Roos"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0002-9551-6370",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Mélanie Courtot"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-0413-2003",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Annalisa Montesanti"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-0627-8014",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Mirjam van Reisen"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-2195-3997",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Barbara Magagna"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-2376-9755",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Melanie Imming"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-2687-1982",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Peter McQuilton"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-2980-4400",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Robert Pergl"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-3357-3027",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Martijn Kersloot"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-3538-0106",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Peter Wittenburg"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-3934-0072",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Barend Mons"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-4014-4394",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Ali Hasnain"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-4053-7825",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Keith Jeffery"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-4098-0464",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "George Strawn"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0003-4818-2360",
-  "http://xmlns.com/foaf/0.1/name" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Annika Jacobsen"
   } ]
 }, {
@@ -279,7 +312,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"
+    "@value" : "The kind of <strong>challenge</strong> that some communities face if the lack of existing resources doesn't allow them to make a choice yet"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/ChallengeDeclaration",
@@ -370,9 +403,6 @@
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/F1-Challenge-1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Challenge" ],
-  "http://semanticscience.org/resource/SIO_000628" : [ {
-    "@id" : "https://w3id.org/fair/principles/terms/F1"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The community should define identifier registration service(s) that ensure global uniqueness for its digital resources."
   } ],
@@ -381,13 +411,13 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/F1-Explanation"
+  } ],
+  "https://w3id.org/fair/icc/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F1"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/F1-Choice",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Choice" ],
-  "http://semanticscience.org/resource/SIO_000628" : [ {
-    "@id" : "https://w3id.org/fair/principles/terms/F1"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources."
   } ],
@@ -396,6 +426,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/F1-Explanation"
+  } ],
+  "https://w3id.org/fair/icc/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F1"
   } ],
   "https://w3id.org/fair/icc/terms/related-challenge" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/F1-Challenge-1"
@@ -658,17 +691,32 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/A1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A1"
+  } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/A1.1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A1.1"
+  } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/A1.2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A1.2"
+  } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/F1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "F1"
+  } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FAIR Principle or Sub-Principle"
+  } ]
 } ]

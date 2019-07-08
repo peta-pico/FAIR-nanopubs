@@ -22,6 +22,11 @@ fi
 
 $SCRIPTDIR/np op extract -a -o $1.ttl.pre $1.trig
 
+if [ -f doc-x/$1-extra.ttl ]; then
+  cat doc-x/$1-extra.ttl $1.ttl.pre > $1.ttl.pre2
+  mv $1.ttl.pre2 $1.ttl.pre
+fi
+
 (
   echo "# The content of this file is automatically extracted from $1.trig." ;
   echo "# Changes should be made in $1.trig.pre." ;
@@ -32,3 +37,7 @@ $SCRIPTDIR/np op extract -a -o $1.ttl.pre $1.trig
 rm $1.ttl.pre
 
 java -jar $WIDOCOJAR -rewriteAll -ontFile $1.ttl -outFolder doc/$1
+
+if [ -d doc-x/$1 ]; then
+  cp -r doc-x/$1 doc/
+fi
