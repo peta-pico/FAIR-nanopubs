@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:terms1="https://w3id.org/fair/icc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/fair/icc/terms/FAIR-ICC-Model">
-        <terms:creator rdf:resource="https://orcid.org/0000-0001-6960-357X"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0003-4818-2360"/>
         <terms:description>This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.</terms:description>
