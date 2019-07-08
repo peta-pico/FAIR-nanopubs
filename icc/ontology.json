@@ -325,7 +325,7 @@
     "@id" : "https://w3id.org/fair/principles/terms/F1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@id" : "https://w3id.org/fair/icc/np/F1ex/RA1dbp7OPAJBhMps1g2jtDtEt9KktUifIx_yuo9NDWnG0"
+    "@id" : "https://w3id.org/fair/icc/np/F1ex/RAb1viSLKOo9F6hOn7pphXuqO6KXdIbtCEH10V1H_7BEA"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/F1-Choice",
@@ -337,7 +337,7 @@
     "@id" : "https://w3id.org/fair/principles/terms/F1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@id" : "https://w3id.org/fair/icc/np/F1ex/RA1dbp7OPAJBhMps1g2jtDtEt9KktUifIx_yuo9NDWnG0"
+    "@id" : "https://w3id.org/fair/icc/np/F1ex/RAb1viSLKOo9F6hOn7pphXuqO6KXdIbtCEH10V1H_7BEA"
   } ],
   "https://w3id.org/fair/icc/terms/hasChallenge" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/F1-Challenge-1"
@@ -482,9 +482,9 @@
     "@value" : "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ..."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@id" : "https://w3id.org/fair/icc/np/A1.1ex/RACUDA3_qSmZ6YweDWdNOX1RbnHYhtJ2lV4GaNaH52tUo"
+    "@id" : "https://w3id.org/fair/icc/np/A1.1ex/RAnweHj3NKsKwxhi0KNBt0pjxFSx9F6gXqKOahRlKKKVo"
   }, {
-    "@id" : "https://w3id.org/fair/icc/np/A1.2ex/RAHrlCr21F87KfLaZ_44Dh8TfTX8yytm4eRjdz-0OSAi8"
+    "@id" : "https://w3id.org/fair/icc/np/A1.2ex/RAHKbw6LZwUn92lIrF41v_X1pkioH8mT4GRC9ck8F2TOQ"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/A1.1",
