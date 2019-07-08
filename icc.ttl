@@ -1,0 +1,231 @@
+# The content of this file is automatically extracted from icc.trig.
+# Changes should be made in icc.trig.pre.
+
+
+<https://orcid.org/0000-0001-5306-5690> <http://xmlns.com/foaf/0.1/name> "Susanna-Assunta Sansone" .
+
+<https://orcid.org/0000-0001-6441-6716> <http://xmlns.com/foaf/0.1/name> "Natalie Meyers" .
+
+<https://orcid.org/0000-0001-6594-9178> <http://xmlns.com/foaf/0.1/name> "Christopher Brewster" .
+
+<https://orcid.org/0000-0001-6960-357X> <http://xmlns.com/foaf/0.1/name> "Mark D. Wilkinson" .
+
+<https://orcid.org/0000-0001-7030-7030> <http://xmlns.com/foaf/0.1/name> "Ignasi Labastida" .
+
+<https://orcid.org/0000-0001-7542-0286> <http://xmlns.com/foaf/0.1/name> "Egon Willighagen" .
+
+<https://orcid.org/0000-0001-8414-9272> <http://xmlns.com/foaf/0.1/name> "Simon Coles" .
+
+<https://orcid.org/0000-0001-8888-635X> <http://xmlns.com/foaf/0.1/name> "Erik Schultes" .
+
+<https://orcid.org/0000-0001-9773-4008> <http://xmlns.com/foaf/0.1/name> "Andra Waagmeester" .
+
+<https://orcid.org/0000-0001-9853-5668> <http://xmlns.com/foaf/0.1/name> "Philippe Rocca-Serra" .
+
+<https://orcid.org/0000-0002-1164-1351> <http://xmlns.com/foaf/0.1/name> "Luiz Olavo Bonino da Silva Santos" .
+
+<https://orcid.org/0000-0002-1215-167X> <http://xmlns.com/foaf/0.1/name> "Rajaram Kaliyaperumal" .
+
+<https://orcid.org/0000-0002-1267-0234> <http://xmlns.com/foaf/0.1/name> "Tobias Kuhn" .
+
+<https://orcid.org/0000-0002-1704-5980> <http://xmlns.com/foaf/0.1/name> "Ronal Cornet" .
+
+<https://orcid.org/0000-0002-2036-8350> <http://xmlns.com/foaf/0.1/name> "Nick Juty" .
+
+<https://orcid.org/0000-0002-3452-553X> <http://xmlns.com/foaf/0.1/name> "Giancarlo Guizzardi" .
+
+<https://orcid.org/0000-0002-4040-0215> <http://xmlns.com/foaf/0.1/name> "Tobias Weigel" .
+
+<https://orcid.org/0000-0002-4182-7560> <http://xmlns.com/foaf/0.1/name> "Kristina Hettne" .
+
+<https://orcid.org/0000-0002-4451-8042> <http://xmlns.com/foaf/0.1/name> "Christine R. Kirkpatrick" .
+
+<https://orcid.org/0000-0002-5301-3142> <http://xmlns.com/foaf/0.1/name> "Chris T. Evelo" .
+
+<https://orcid.org/0000-0002-7633-1442> <http://xmlns.com/foaf/0.1/name> "Mark Thompson" .
+
+<https://orcid.org/0000-0002-7641-6446> <http://xmlns.com/foaf/0.1/name> "Ricardo de Miranda Azevedo" .
+
+<https://orcid.org/0000-0002-7664-3331> <http://xmlns.com/foaf/0.1/name> "Juliane Schneider" .
+
+<https://orcid.org/0000-0002-8042-4131> <http://xmlns.com/foaf/0.1/name> "Myles Axton" .
+
+<https://orcid.org/0000-0002-8691-772X> <http://xmlns.com/foaf/0.1/name> "Marco Roos" .
+
+<https://orcid.org/0000-0002-9551-6370> <http://xmlns.com/foaf/0.1/name> "Mélanie Courtot" .
+
+<https://orcid.org/0000-0003-0413-2003> <http://xmlns.com/foaf/0.1/name> "Annalisa Montesanti" .
+
+<https://orcid.org/0000-0003-0627-8014> <http://xmlns.com/foaf/0.1/name> "Mirjam van Reisen" .
+
+<https://orcid.org/0000-0003-2195-3997> <http://xmlns.com/foaf/0.1/name> "Barbara Magagna" .
+
+<https://orcid.org/0000-0003-2376-9755> <http://xmlns.com/foaf/0.1/name> "Melanie Imming" .
+
+<https://orcid.org/0000-0003-2687-1982> <http://xmlns.com/foaf/0.1/name> "Peter McQuilton" .
+
+<https://orcid.org/0000-0003-2980-4400> <http://xmlns.com/foaf/0.1/name> "Robert Pergl" .
+
+<https://orcid.org/0000-0003-3357-3027> <http://xmlns.com/foaf/0.1/name> "Martijn Kersloot" .
+
+<https://orcid.org/0000-0003-3538-0106> <http://xmlns.com/foaf/0.1/name> "Peter Wittenburg" .
+
+<https://orcid.org/0000-0003-3934-0072> <http://xmlns.com/foaf/0.1/name> "Barend Mons" .
+
+<https://orcid.org/0000-0003-4014-4394> <http://xmlns.com/foaf/0.1/name> "Ali Hasnain" .
+
+<https://orcid.org/0000-0003-4053-7825> <http://xmlns.com/foaf/0.1/name> "Keith Jeffery" .
+
+<https://orcid.org/0000-0003-4098-0464> <http://xmlns.com/foaf/0.1/name> "George Strawn" .
+
+<https://orcid.org/0000-0003-4818-2360> <http://xmlns.com/foaf/0.1/name> "Annika Jacobsen" .
+
+<https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group> a <http://xmlns.com/foaf/0.1/Group>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Principles Explained Working Group"@en;
+  <http://xmlns.com/foaf/0.1/member> <https://orcid.org/0000-0001-5306-5690>, <https://orcid.org/0000-0001-6441-6716>,
+    <https://orcid.org/0000-0001-6594-9178>, <https://orcid.org/0000-0001-6960-357X>,
+    <https://orcid.org/0000-0001-7030-7030>, <https://orcid.org/0000-0001-7542-0286>,
+    <https://orcid.org/0000-0001-8414-9272>, <https://orcid.org/0000-0001-8888-635X>,
+    <https://orcid.org/0000-0001-9773-4008>, <https://orcid.org/0000-0001-9853-5668>,
+    <https://orcid.org/0000-0002-1164-1351>, <https://orcid.org/0000-0002-1215-167X>,
+    <https://orcid.org/0000-0002-1267-0234>, <https://orcid.org/0000-0002-1704-5980>,
+    <https://orcid.org/0000-0002-2036-8350>, <https://orcid.org/0000-0002-3452-553X>,
+    <https://orcid.org/0000-0002-4040-0215>, <https://orcid.org/0000-0002-4182-7560>,
+    <https://orcid.org/0000-0002-4451-8042>, <https://orcid.org/0000-0002-5301-3142>,
+    <https://orcid.org/0000-0002-7633-1442>, <https://orcid.org/0000-0002-7641-6446>,
+    <https://orcid.org/0000-0002-7664-3331>, <https://orcid.org/0000-0002-8042-4131>,
+    <https://orcid.org/0000-0002-8691-772X>, <https://orcid.org/0000-0002-9551-6370>,
+    <https://orcid.org/0000-0003-0413-2003>, <https://orcid.org/0000-0003-0627-8014>,
+    <https://orcid.org/0000-0003-2195-3997>, <https://orcid.org/0000-0003-2376-9755>,
+    <https://orcid.org/0000-0003-2687-1982>, <https://orcid.org/0000-0003-2980-4400>,
+    <https://orcid.org/0000-0003-3357-3027>, <https://orcid.org/0000-0003-3538-0106>,
+    <https://orcid.org/0000-0003-3934-0072>, <https://orcid.org/0000-0003-4014-4394>,
+    <https://orcid.org/0000-0003-4053-7825>, <https://orcid.org/0000-0003-4098-0464>,
+    <https://orcid.org/0000-0003-4818-2360> .
+
+<https://w3id.org/fair/icc/terms/FAIR-ICC-Model> a <http://www.w3.org/2002/07/owl#Ontology>;
+  <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-6960-357X>, <https://orcid.org/0000-0002-1267-0234>,
+    <https://orcid.org/0000-0003-4818-2360>;
+  <http://purl.org/dc/terms/description> "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.";
+  <http://purl.org/dc/terms/rights> <https://creativecommons.org/publicdomain/zero/1.0/>;
+  <http://purl.org/dc/terms/title> "FAIR Implementation Choices and Challenges Model";
+  <http://purl.org/vocab/vann/preferredNamespacePrefix> "icc";
+  <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/icc/terms/";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/principles/terms/FAIR> .
+
+<https://w3id.org/fair/icc/terms/Consideration> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Consideration"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "Something that is either a Choice or a Challenge"@en .
+
+<https://w3id.org/fair/icc/terms/Choice> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Choice"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/icc/terms/Consideration>;
+  <http://www.w3.org/2004/02/skos/core#definition> "The kind of choice communities have to make (can be expressed as a question; choices are represented as rows in the Matrix)"@en .
+
+<https://w3id.org/fair/icc/terms/Challenge> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Challenge"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/icc/terms/Consideration>;
+  <http://www.w3.org/2004/02/skos/core#definition> "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
+
+<https://w3id.org/fair/icc/terms/Declaration> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Declaration"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "Something that is either a ChoiceDeclaration or a ChallengeDeclaration"@en .
+
+<https://w3id.org/fair/icc/terms/ChoiceDeclaration> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Choice Declaration"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/icc/terms/Declaration>;
+  <http://www.w3.org/2004/02/skos/core#definition> "The expression of a community of their choice made (corresponds to an answer to a question, i.e. a cell in the Matrix)"@en .
+
+<https://w3id.org/fair/icc/terms/ChallengeDeclaration> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Challenge Declaration"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/icc/terms/Declaration>;
+  <http://www.w3.org/2004/02/skos/core#definition> "The expression of a community of a challenge they accepted"@en .
+
+<https://w3id.org/fair/icc/terms/Community> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Community"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest (communities are represented as columns in the Matrix)"@en .
+
+<https://w3id.org/fair/icc/terms/Resource> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Resource"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles (corresponds to the possible values of the cells in the Matrix)"@en .
+
+<https://w3id.org/fair/icc/terms/Explanation> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Explanation"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "An explanation of a FAIR (sub)principle"@en .
+
+<https://w3id.org/fair/icc/terms/explains-principle> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "explains principle"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Links an explanation to the FAIR (sub)principle it explains"@en .
+
+<https://w3id.org/fair/icc/terms/refers-to-principle> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Consideration>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "refers to principle"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a Consideration to a FAIR (sub)principle it refers to"@en .
+
+<https://w3id.org/fair/icc/terms/related-challenge> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Choice>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "related challenge"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Challenge>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a Choice to a Challenge that some communities might face before they can make the given kind of choice"@en .
+
+<https://w3id.org/fair/icc/terms/refers-to-consideration> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "refers to consideration"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Consideration>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a Declaration to the Consideration it is derived from (indicates row of the Matrix for choice declarations)"@en .
+
+<https://w3id.org/fair/icc/terms/declared-by> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "declared by"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Community>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a Declaration to the Community that made the declaration"@en .
+
+<https://w3id.org/fair/icc/terms/chosen-resource> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/ChoiceDeclaration>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "chosen resource"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Resource>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"@en .
+
+<https://w3id.org/fair/icc/terms/has-open-challenge> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/ChoiceDeclaration>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "has open challenge"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/ChallengeDeclaration>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChoiceDeclaration that doesn't have a chosen resource to a ChallengeDeclaration that describes a challenge that has to be met before the community can choose a resource"@en .
+
+<https://w3id.org/fair/icc/terms/F1-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Principle F1 states that resources, i.e. data and metadata, should be assigned a globally unique and persistent identifier (GUPID). ...";
+  <http://www.w3.org/2000/01/rdf-schema#label> "F1 Explanation";
+  <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/F1> .
+
+<https://w3id.org/fair/icc/terms/A1.1-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed).";
+  <http://www.w3.org/2000/01/rdf-schema#label> "A1.1 Explanation";
+  <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1.1> .
+
+<https://w3id.org/fair/icc/terms/A1.2-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Some digital resources, such as sensitive individual data, require additional measures to be followed, such as ethical approval, before access can be granted. The ‘A’ in FAIR does not imply ‘Open’ or ‘Free’, but it does require that the exact conditions and the process to access restricted data are transparent and made public. Any additional authentication and authorization procedures must be specified. Therefore, prior to the release of a restricted digital resource, publishers must take steps to clarify eligibility and process.";
+  <http://www.w3.org/2000/01/rdf-schema#label> "A1.2 Explanation";
+  <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1.2> .
+
+<https://w3id.org/fair/icc/terms/A1-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ...";
+  <http://www.w3.org/2000/01/rdf-schema#label> "A1 Explanation";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/A1.1-Explanation>,
+    <https://w3id.org/fair/icc/terms/A1.2-Explanation>;
+  <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1> .
+
+<https://w3id.org/fair/icc/terms/F1-Challenge-1> a <https://w3id.org/fair/icc/terms/Challenge>;
+  <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/fair/principles/terms/F1>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "The community should define identifier registration service(s) that ensure global uniqueness for its digital resources.";
+  <http://www.w3.org/2000/01/rdf-schema#label> "F1 Challenge 1";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/F1-Explanation> .
+
+<https://w3id.org/fair/icc/terms/F1-Choice> a <https://w3id.org/fair/icc/terms/Choice>;
+  <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/fair/principles/terms/F1>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources.";
+  <http://www.w3.org/2000/01/rdf-schema#label> "F1 Choice";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/F1-Explanation>;
+  <https://w3id.org/fair/icc/terms/related-challenge> <https://w3id.org/fair/icc/terms/F1-Challenge-1> .

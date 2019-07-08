@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/principles/np/index/RAwHPGlvSZgP9yAtRHKLICBJdIDhwF8GILN1qeARcny5w> .
-@prefix sub: <https://w3id.org/fair/principles/np/index/RAwHPGlvSZgP9yAtRHKLICBJdIDhwF8GILN1qeARcny5w#> .
+@prefix this: <https://w3id.org/fair/principles/np/index/RAIq1fC_VmqUop9zDYKy7-Uc4fnMpljrtMo-7EjxWV_bA> .
+@prefix sub: <https://w3id.org/fair/principles/np/index/RAIq1fC_VmqUop9zDYKy7-Uc4fnMpljrtMo-7EjxWV_bA#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -26,9 +26,9 @@ sub:assertion {
       <https://w3id.org/fair/principles/np/F2/RAeWoz5k17tU6Xr_aF969OqUjqvxT0hAdWdBPA8GZdF80>,
       <https://w3id.org/fair/principles/np/F3/RAjoswB_p1gaGbLz0tX8JerOu-t5DRI03wKkAiBFYF7Po>,
       <https://w3id.org/fair/principles/np/F4/RAuUyc74hsNkm9PccdmfKT4T_Qj7Gsy6nBOumDvS6JPDY>,
-      <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RATpj4nHXQC70Op3a5FfwhCuZoiHQSrsDZG8xYO0CVxQw>,
-      <https://w3id.org/fair/principles/np/FAIR-Principle/RAGWZQLR3ZG9em05gNBRoAk8IJ1v-KGLo3oZ6i6lu4F0U>,
-      <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAc04kx-OZkCGw1NA40Tn4nIjgLE8pVlXvAoVs73EDxvs>,
+      <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RAobXAHWL6b7VUrFF4TmnR4cI8YOrgVysCVaiyA_j3IZw>,
+      <https://w3id.org/fair/principles/np/FAIR-Principle/RAOwjX4dkUwhmsl78T0R-6x2APnc63mH9tYFccEJuHt_w>,
+      <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAJyaCt_mYn8tldXKTSCLq23mPTFxEhMIN_z-9wzmV2so>,
       <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RA42Ifild4QRyoA2-A3tam25oe5fd6sDqqzXSVmzOpuYw>,
       <https://w3id.org/fair/principles/np/FAIR/RAqJf-a0owHeudCLjz5PX1-dywxDvRcCFUsPAu7w8SgU4>,
       <https://w3id.org/fair/principles/np/I/RALnK9XpRUygG40EFRy2vnNLob3LKUuxGLlAZiJj7tIaM>,
@@ -48,7 +48,7 @@ sub:provenance {
 
 sub:pubinfo {
   this: dce:title "Nanopublications representing the FAIR Principles";
-    dct:created "2019-07-08T11:02:51.236+02:00"^^xsd:dateTime;
+    dct:created "2019-07-08T13:22:36.976+02:00"^^xsd:dateTime;
     dct:license <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://w3id.org/fair/principles/np/index/RAIZcFWraVM8vJsh_wyjnNnIl1pvGKbHRDqizvzTuX0P8>;
     pav:createdBy <https://orcid.org/0000-0002-1267-0234>, <https://orcid.org/0000-0003-4727-9435>;
