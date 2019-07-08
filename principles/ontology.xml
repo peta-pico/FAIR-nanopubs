@@ -117,13 +117,6 @@
     
 
 
-    <!-- http://semanticscience.org/resource/SIO:000137 -->
-
-
-    <owl:Class rdf:about="http://semanticscience.org/resource/SIO:000137"/>
-    
-
-
     <!-- https://w3id.org/fair/principles/terms/FAIR -->
 
 
@@ -153,9 +146,21 @@
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
         <terms:partOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
         <rdfs:label xml:lang="en">FAIR Principle</rdfs:label>
-        <skos:definition xml:lang="en">A FAIR principle describes an essential aspects of FAIR.</skos:definition>
+        <skos:definition xml:lang="en">A FAIR principle describes an essential aspect of FAIR.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
+        <terms:partOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
+        <rdfs:label xml:lang="en">FAIR Principle or Sub-Principle</rdfs:label>
+        <skos:definition xml:lang="en">Either a FAIR principle or one of its sub-principles.</skos:definition>
     </owl:Class>
     
 
@@ -185,10 +190,10 @@
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO:000137"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
         <terms:partOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
         <rdfs:label xml:lang="en">FAIR SubPrinciple</rdfs:label>
-        <skos:definition xml:lang="en">A FAIR SubPrinciple is a sub-principle of a FAIR principle.</skos:definition>
+        <skos:definition xml:lang="en">A sub-principle of a FAIR principle.</skos:definition>
     </owl:Class>
     
 

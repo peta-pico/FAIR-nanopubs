@@ -65,10 +65,6 @@
 <http://semanticscience.org/resource/000090> rdf:type owl:Class .
 
 
-###  http://semanticscience.org/resource/SIO:000137
-<http://semanticscience.org/resource/SIO:000137> rdf:type owl:Class .
-
-
 ###  https://w3id.org/fair/principles/terms/FAIR
 <https://w3id.org/fair/principles/terms/FAIR> rdf:type owl:Class ;
                                               rdfs:subClassOf <http://semanticscience.org/resource/000090> ;
@@ -89,9 +85,17 @@
                                                                                           <https://w3id.org/fair/principles/terms/R>
                                                                                         )
                                                                             ] ;
+                                                        rdfs:subClassOf <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> ;
                                                         <http://purl.org/dc/terms/partOf> <https://w3id.org/fair/principles/terms/FAIR> ;
                                                         rdfs:label "FAIR Principle"@en ;
-                                                        <http://www.w3.org/2004/02/skos/core#definition> "A FAIR principle describes an essential aspects of FAIR."@en .
+                                                        <http://www.w3.org/2004/02/skos/core#definition> "A FAIR principle describes an essential aspect of FAIR."@en .
+
+
+###  https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> rdf:type owl:Class ;
+                                                                        <http://purl.org/dc/terms/partOf> <https://w3id.org/fair/principles/terms/FAIR> ;
+                                                                        rdfs:label "FAIR Principle or Sub-Principle"@en ;
+                                                                        <http://www.w3.org/2004/02/skos/core#definition> "Either a FAIR principle or one of its sub-principles."@en .
 
 
 ###  https://w3id.org/fair/principles/terms/FAIR-SubPrinciple
@@ -114,10 +118,10 @@
                                                                                              <https://w3id.org/fair/principles/terms/R1.3>
                                                                                            )
                                                                                ] ;
-                                                           rdfs:subClassOf <http://semanticscience.org/resource/SIO:000137> ;
+                                                           rdfs:subClassOf <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> ;
                                                            <http://purl.org/dc/terms/partOf> <https://w3id.org/fair/principles/terms/FAIR> ;
                                                            rdfs:label "FAIR SubPrinciple"@en ;
-                                                           <http://www.w3.org/2004/02/skos/core#definition> "A FAIR SubPrinciple is a sub-principle of a FAIR principle."@en .
+                                                           <http://www.w3.org/2004/02/skos/core#definition> "A sub-principle of a FAIR principle."@en .
 
 
 #################################################################

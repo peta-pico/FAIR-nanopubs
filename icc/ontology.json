@@ -527,9 +527,6 @@
     "@id" : "https://orcid.org/0000-0003-4818-2360"
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/icc/terms/Resouce",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
   "@id" : "https://w3id.org/fair/icc/terms/Resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -551,7 +548,7 @@
     "@value" : "chosen resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/fair/icc/terms/Resouce"
+    "@id" : "https://w3id.org/fair/icc/terms/Resource"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",

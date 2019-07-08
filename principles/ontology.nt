@@ -56,9 +56,6 @@
 # http://semanticscience.org/resource/000090
 <http://semanticscience.org/resource/000090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://semanticscience.org/resource/SIO:000137
-<http://semanticscience.org/resource/SIO:000137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # https://w3id.org/fair/principles/terms/FAIR
 <https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticscience.org/resource/000090> .
@@ -90,9 +87,16 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/R> .
 <https://w3id.org/fair/principles/terms/R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/fair/principles/terms/FAIR-Principle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> .
 <https://w3id.org/fair/principles/terms/FAIR-Principle> <http://purl.org/dc/terms/partOf> <https://w3id.org/fair/principles/terms/FAIR> .
 <https://w3id.org/fair/principles/terms/FAIR-Principle> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Principle"@en .
-<https://w3id.org/fair/principles/terms/FAIR-Principle> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR principle describes an essential aspects of FAIR."@en .
+<https://w3id.org/fair/principles/terms/FAIR-Principle> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR principle describes an essential aspect of FAIR."@en .
+# 
+# https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> <http://purl.org/dc/terms/partOf> <https://w3id.org/fair/principles/terms/FAIR> .
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Principle or Sub-Principle"@en .
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> <http://www.w3.org/2004/02/skos/core#definition> "Either a FAIR principle or one of its sub-principles."@en .
 # 
 # https://w3id.org/fair/principles/terms/FAIR-SubPrinciple
 <https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -159,10 +163,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/R1.3> .
 <https://w3id.org/fair/principles/terms/R1.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticscience.org/resource/SIO:000137> .
+<https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> .
 <https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> <http://purl.org/dc/terms/partOf> <https://w3id.org/fair/principles/terms/FAIR> .
 <https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR SubPrinciple"@en .
-<https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR SubPrinciple is a sub-principle of a FAIR principle."@en .
+<https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> <http://www.w3.org/2004/02/skos/core#definition> "A sub-principle of a FAIR principle."@en .
 # 
 # 
 # 
