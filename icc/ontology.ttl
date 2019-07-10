@@ -134,7 +134,7 @@
                                             rdfs:subClassOf <https://w3id.org/fair/icc/terms/Consideration> ;
                                             rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/Challenge> ;
                                             rdfs:label "Challenge"@en ;
-                                            <http://www.w3.org/2004/02/skos/core#definition> "The kind of <strong>challenge</strong> that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
+                                            <http://www.w3.org/2004/02/skos/core#definition> "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
 
 
 ###  https://w3id.org/fair/icc/terms/ChallengeDeclaration

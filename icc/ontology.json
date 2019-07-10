@@ -324,7 +324,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "The kind of <strong>challenge</strong> that some communities face if the lack of existing resources doesn't allow them to make a choice yet"
+    "@value" : "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/ChallengeDeclaration",
