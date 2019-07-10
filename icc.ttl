@@ -193,7 +193,7 @@ fair:A1.2 rdfs:label "A1.2" .
     <https://w3id.org/fair/icc/latest/Challenge>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Challenge"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/icc/terms/Consideration>;
-  <http://www.w3.org/2004/02/skos/core#definition> "The kind of <strong>challenge</strong> that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
+  <http://www.w3.org/2004/02/skos/core#definition> "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
 
 <https://w3id.org/fair/icc/terms/Declaration> a <http://www.w3.org/2002/07/owl#Class>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/Declaration>;

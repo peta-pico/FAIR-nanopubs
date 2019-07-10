@@ -223,7 +223,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/icc/terms/Consideration"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/icc/latest/Challenge"/>
         <rdfs:label xml:lang="en">Challenge</rdfs:label>
-        <skos:definition xml:lang="en">The kind of &lt;strong&gt;challenge&lt;/strong&gt; that some communities face if the lack of existing resources doesn&apos;t allow them to make a choice yet</skos:definition>
+        <skos:definition xml:lang="en">The kind of challenge that some communities face if the lack of existing resources doesn&apos;t allow them to make a choice yet</skos:definition>
     </owl:Class>
     
 
