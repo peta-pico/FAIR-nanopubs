@@ -265,6 +265,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ..."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/A1-Explanation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "A1 Explanation"
   } ],
@@ -282,6 +285,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed)."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/A1.1-Explanation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "A1.1 Explanation"
   } ],
@@ -294,6 +300,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Some digital resources, such as sensitive individual data, require additional measures to be followed, such as ethical approval, before access can be granted. The ‘A’ in FAIR does not imply ‘Open’ or ‘Free’, but it does require that the exact conditions and the process to access restricted data are transparent and made public. Any additional authentication and authorization procedures must be specified. Therefore, prior to the release of a restricted digital resource, publishers must take steps to clarify eligibility and process."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/A1.2-Explanation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "A1.2 Explanation"
   } ],
@@ -303,6 +312,9 @@
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Challenge",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/Challenge"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Challenge"
@@ -317,6 +329,9 @@
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/ChallengeDeclaration",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/ChallengeDeclaration"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Challenge Declaration"
@@ -331,6 +346,9 @@
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Choice",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/Choice"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Choice"
@@ -340,11 +358,14 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "The kind of choice communities have to make (can be expressed as a question; choices are represented as rows in the Matrix)"
+    "@value" : "The kind of choice communities have to make (can be expressed as a question)"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/ChoiceDeclaration",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/ChoiceDeclaration"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Choice Declaration"
@@ -354,22 +375,28 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "The expression of a community of their choice made (corresponds to an answer to a question, i.e. a cell in the Matrix)"
+    "@value" : "The expression of a community of their choice made (corresponds to an answer to a question)"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Community",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/Community"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Community"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest (communities are represented as columns in the Matrix)"
+    "@value" : "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Consideration",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/Consideration"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Consideration"
@@ -381,6 +408,9 @@
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Declaration",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/Declaration"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Declaration"
@@ -392,6 +422,9 @@
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Explanation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/Explanation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Explanation"
@@ -405,6 +438,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Challenge" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The community should define identifier registration service(s) that ensure global uniqueness for its digital resources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/F1-Challenge-1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "F1 Challenge 1"
@@ -420,6 +456,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Choice" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/F1-Choice"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "F1 Choice"
@@ -438,6 +477,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Principle F1 states that resources, i.e. data and metadata, should be assigned a globally unique and persistent identifier (GUPID). ..."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/F1-Explanation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "F1 Explanation"
@@ -470,12 +512,18 @@
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@value" : "https://w3id.org/fair/icc/terms/"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/FAIR-ICC-Model"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@id" : "https://w3id.org/fair/principles/terms/FAIR"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Group" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/FAIR-Principles-Explained-Working-Group"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "FAIR Principles Explained Working Group"
@@ -562,19 +610,25 @@
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/Resource"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Resource"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "An artifact or service that can contribute to the implementation of the FAIR principles (corresponds to the possible values of the cells in the Matrix)"
+    "@value" : "An artifact or service that can contribute to the implementation of the FAIR principles"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/chosen-resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/ChoiceDeclaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/chosen-resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -593,6 +647,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/Declaration"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/declared-by"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "declared by"
@@ -609,6 +666,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/explains-principle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -627,6 +687,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/ChoiceDeclaration"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/has-open-challenge"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has open challenge"
@@ -644,6 +707,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/Declaration"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/refers-to-consideration"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "refers to consideration"
@@ -653,13 +719,16 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "Connects a Declaration to the Consideration it is derived from (indicates row of the Matrix for choice declarations)"
+    "@value" : "Connects a Declaration to the Consideration it is derived from"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/refers-to-principle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/Consideration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/refers-to-principle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -677,6 +746,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/Choice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/related-challenge"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
