@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/principles/np/index/RAWArnOtepZTqnU3sm2Y4wkjCJnA2qW5GuA2wkCcUo0qk> .
-@prefix sub: <https://w3id.org/fair/principles/np/index/RAWArnOtepZTqnU3sm2Y4wkjCJnA2qW5GuA2wkCcUo0qk#> .
+@prefix this: <https://w3id.org/fair/principles/np/index/RA14I5TYjrb3BLn5ASImjM9I45-MK0LdJYuDYZpDvoUTE> .
+@prefix sub: <https://w3id.org/fair/principles/np/index/RA14I5TYjrb3BLn5ASImjM9I45-MK0LdJYuDYZpDvoUTE#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -16,30 +16,30 @@ sub:Head {
 }
 
 sub:assertion {
-  this: npx:includesElement <https://w3id.org/fair/principles/np/A/RAN_TPF7UpqQmZzJ7CGMQyVNMqSnsEzpI6TFXSbRUVvIE>,
-      <https://w3id.org/fair/principles/np/A1.1/RAU6i4WAF74kYJM1J6wLcRkXAK7W54HqxaGo0PnBox4WI>,
-      <https://w3id.org/fair/principles/np/A1.2/RAphxlRW48hr7xuGRRgkmP478f_8UbnZP8F0Zazd9ncS8>,
-      <https://w3id.org/fair/principles/np/A1/RAm8xMDy0rkWEp0wjEH8geHkapxihEnJgyzI0eAsgeUz0>,
-      <https://w3id.org/fair/principles/np/A2/RA1KFCsx-SzCLjKYKfvbChMp5RkF2mMSU_5l8Dq3E-VjY>,
-      <https://w3id.org/fair/principles/np/F/RALPRqKUUtSpaYz-HnGshG0hZyMIoX1lc-qZmE5Gh5Goo>,
-      <https://w3id.org/fair/principles/np/F1/RAMTUo7c9Hp6eYnG3cNB2otD8VES92GiTb0xYVtK67-z0>,
-      <https://w3id.org/fair/principles/np/F2/RAeWoz5k17tU6Xr_aF969OqUjqvxT0hAdWdBPA8GZdF80>,
-      <https://w3id.org/fair/principles/np/F3/RAjoswB_p1gaGbLz0tX8JerOu-t5DRI03wKkAiBFYF7Po>,
-      <https://w3id.org/fair/principles/np/F4/RAuUyc74hsNkm9PccdmfKT4T_Qj7Gsy6nBOumDvS6JPDY>,
-      <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RA6c0Z_3Zv_QpB1-e08TvpMDKwGkCpU1Rgwwms_wLWaPk>,
-      <https://w3id.org/fair/principles/np/FAIR-Principle/RAqDbTsOMtlYXWjYvCelkrubtTM93mFCC_1m-AB5GPE_0>,
-      <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAVGjLlasnkPASzP6g6ueIyc8YERLfUF61cX7jcWNfPjA>,
-      <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RA42Ifild4QRyoA2-A3tam25oe5fd6sDqqzXSVmzOpuYw>,
-      <https://w3id.org/fair/principles/np/FAIR/RAqJf-a0owHeudCLjz5PX1-dywxDvRcCFUsPAu7w8SgU4>,
-      <https://w3id.org/fair/principles/np/I/RALnK9XpRUygG40EFRy2vnNLob3LKUuxGLlAZiJj7tIaM>,
-      <https://w3id.org/fair/principles/np/I1/RA3XzNzT7YsyfUiSYHoY5iJcIY3i7qkwozamQyWJN0iQE>,
-      <https://w3id.org/fair/principles/np/I2/RA81qN-2p4avBYfa3xUgxMinYxKbP3txjVwdukHrvSs-M>,
-      <https://w3id.org/fair/principles/np/I3/RADG87qAbXCypBE5eU09xRv2l5XlVWhcoUE89XCcxzoHs>,
-      <https://w3id.org/fair/principles/np/R/RAThG1WEgyldQrd8q2OnH9yt8tJkZMm5iCOP_QkouTJWU>,
-      <https://w3id.org/fair/principles/np/R1.1/RAXwwJrPhJwFlO23c0EHKveyY7QIQhUmx2yKsQCYfJAtY>,
-      <https://w3id.org/fair/principles/np/R1.2/RAKj2QQ36pDTaaj2Q44uF4cpRF2mMRkXJ9Xbu-IpMB9ZY>,
-      <https://w3id.org/fair/principles/np/R1.3/RA-9_Zv2ElUuTbbAqDQ-WZ4C6naz7qHXYdhXKumfO5dNk>,
-      <https://w3id.org/fair/principles/np/R1/RA3u49Lb-Np-kV9FtdeEt5VbNWtTtccZWrRkF_HIeSdhM> .
+  this: npx:includesElement <https://w3id.org/fair/principles/np/A/RAVzXPteP71YPvqz3qhghRQFJv4p7xuVAWq0hOZuOqEI8>,
+      <https://w3id.org/fair/principles/np/A1.1/RAcWa7eQmTVYch4S-rbTCzsykZ1kIZy_FA9gNm0D-sJos>,
+      <https://w3id.org/fair/principles/np/A1.2/RAzBWVExJdg4WgCIaenAwuX-mFp1DKOv-X_n_qcQ4nII4>,
+      <https://w3id.org/fair/principles/np/A1/RAozxK2U0srNRpgjZIRxUaF9-Xd8g808ZQx4-0HxBc488>,
+      <https://w3id.org/fair/principles/np/A2/RANI0z997DeaoOyjPpgrE88t8P8dPAQIjJUet6607em7E>,
+      <https://w3id.org/fair/principles/np/F/RAmbsFl45cU6ikWcnvJlWASEGhd-5pFOUUBsjLhJIHppk>,
+      <https://w3id.org/fair/principles/np/F1/RA63hVLN0NdaNiMNG3_OvVDTbdvILaqfZkwLaEOEKqyRY>,
+      <https://w3id.org/fair/principles/np/F2/RAU4j3elt7XE8oBO4FlEOC1WVXxamLKfeKEZRlq4O3b8Q>,
+      <https://w3id.org/fair/principles/np/F3/RAUzlqH5p3NtaWYBwmZ2Vh-EoGcivMywm0Pk3juj8vmV0>,
+      <https://w3id.org/fair/principles/np/F4/RAnozdES3695SP99jkC68OlZ9OuSGlqColzHSYD-Ym3QM>,
+      <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RAgMb8yP8qcG1sVT__00iDJa8KMlkV_C86WV3l0xEL5P4>,
+      <https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo>,
+      <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk>,
+      <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RA_UuuaZlLmZv4UaRh3T8yMCYDbgAvKfaRPGGPszHnk20>,
+      <https://w3id.org/fair/principles/np/FAIR/RA4MRN3jir3fc_ihr3m8GEP_H6MsTUdoxxqbe33BspJSY>,
+      <https://w3id.org/fair/principles/np/I/RAXBHF2l6CZstDYZw4u0zhnxACeg38N9y6zzKQ1LBkxcI>,
+      <https://w3id.org/fair/principles/np/I1/RADEKF_ccgcTIQUnqtXPtW3DQaMv_kF2JytUeCu5z0Yfc>,
+      <https://w3id.org/fair/principles/np/I2/RA-rMnyBIv7xgwgKFAJvvQ13nU0pm2fLHowGJCmvqzOv8>,
+      <https://w3id.org/fair/principles/np/I3/RA2CseTjuQzY4QMyCITmcfkojqabfmV6vINnh0AS0smNw>,
+      <https://w3id.org/fair/principles/np/R/RA7nknQ8Zu1i-V5TixvxpgeXETdzy_5O-PHcmaByI19ao>,
+      <https://w3id.org/fair/principles/np/R1.1/RAj9DA4wglm4gIwfGwQfNFnUExJADlG8bvEwXpjBuud7k>,
+      <https://w3id.org/fair/principles/np/R1.2/RAP55rX0IOTigAO2o1W7L7yiPJzjtgJehcbzY8RU1S_kc>,
+      <https://w3id.org/fair/principles/np/R1.3/RAJxbaCxP366yEi0AcmEHhsqzR0GncUWlz3Wuwiavo6eo>,
+      <https://w3id.org/fair/principles/np/R1/RAa1huiY7KmsGyTXSWfbvXsGLyY3LMBkra4N3BHjDvGTU> .
 }
 
 sub:provenance {
@@ -48,7 +48,7 @@ sub:provenance {
 
 sub:pubinfo {
   this: dce:title "Nanopublications representing the FAIR Principles";
-    dct:created "2019-07-10T14:08:44.581+02:00"^^xsd:dateTime;
+    dct:created "2019-07-11T16:55:03.574+02:00"^^xsd:dateTime;
     dct:license <http://creativecommons.org/licenses/by/4.0/>;
     npx:supersedes <https://w3id.org/fair/principles/np/index/RAIZcFWraVM8vJsh_wyjnNnIl1pvGKbHRDqizvzTuX0P8>;
     pav:createdBy <https://orcid.org/0000-0002-1267-0234>, <https://orcid.org/0000-0003-4727-9435>;

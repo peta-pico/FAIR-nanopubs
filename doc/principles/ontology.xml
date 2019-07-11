@@ -17,6 +17,7 @@
         <terms:title>FAIR Vocabulary</terms:title>
         <vann:preferredNamespacePrefix>fair</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/fair/principles/terms/</vann:preferredNamespaceUri>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/FAIR-Vocabulary"/>
         <rdfs:seeAlso rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
         <rdfs:seeAlso rdf:resource="https://www.dtls.nl/fair-data/fair-principles-explained/"/>
     </owl:Ontology>
@@ -126,6 +127,7 @@
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/F"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/I"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/R"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/FAIR"/>
         <rdfs:label xml:lang="en">FAIR principles</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://www.dtls.nl/fair-data/fair-principles-explained/"/>
     </owl:Class>
@@ -148,6 +150,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
         <terms:partOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/FAIR-Principle"/>
         <rdfs:label xml:lang="en">FAIR Principle</rdfs:label>
         <skos:definition xml:lang="en">A FAIR principle describes an essential aspect of FAIR.</skos:definition>
     </owl:Class>
@@ -159,6 +162,7 @@
 
     <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
         <terms:partOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/FAIR-Principle-or-SubPrinciple"/>
         <rdfs:label xml:lang="en">FAIR Principle or Sub-Principle</rdfs:label>
         <skos:definition xml:lang="en">Either a FAIR principle or one of its sub-principles.</skos:definition>
     </owl:Class>
@@ -192,6 +196,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
         <terms:partOf rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/FAIR-SubPrinciple"/>
         <rdfs:label xml:lang="en">FAIR SubPrinciple</rdfs:label>
         <skos:definition xml:lang="en">A sub-principle of a FAIR principle.</skos:definition>
     </owl:Class>
@@ -217,6 +222,7 @@
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/A1"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/A2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/A"/>
         <rdfs:label xml:lang="en">Accessible</rdfs:label>
     </owl:NamedIndividual>
     
@@ -229,6 +235,7 @@
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/A1.1"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/A1.2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/A1"/>
         <rdfs:label xml:lang="en">A1</rdfs:label>
         <skos:definition xml:lang="en">(meta)data are retrievable by their identifier using a standardized communications protocol</skos:definition>
     </owl:NamedIndividual>
@@ -240,6 +247,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.1">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/A1.1"/>
         <rdfs:label xml:lang="en">A1.1</rdfs:label>
         <skos:definition xml:lang="en">the protocol is open, free, and universally implementable</skos:definition>
     </owl:NamedIndividual>
@@ -251,6 +259,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.2">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/A1.2"/>
         <rdfs:label xml:lang="en">A1.2</rdfs:label>
         <skos:definition xml:lang="en">the protocol allows for an authentication and authorization procedure, where necessary</skos:definition>
     </owl:NamedIndividual>
@@ -262,6 +271,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A2">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/A2"/>
         <rdfs:label xml:lang="en">A2</rdfs:label>
         <skos:definition xml:lang="en">metadata are accessible, even when the data are no longer available</skos:definition>
     </owl:NamedIndividual>
@@ -277,6 +287,7 @@
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/F2"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/F3"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/F"/>
         <rdfs:label xml:lang="en">Findable</rdfs:label>
     </owl:NamedIndividual>
     
@@ -287,6 +298,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F1">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/F1"/>
         <rdfs:label xml:lang="en">F1</rdfs:label>
         <skos:definition xml:lang="en">(meta)data are assigned a globally unique and persistent identifier</skos:definition>
     </owl:NamedIndividual>
@@ -298,6 +310,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F2">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/F2"/>
         <rdfs:label xml:lang="en">F2</rdfs:label>
         <skos:definition xml:lang="en">data are described with rich metadata (defined by R1 below)</skos:definition>
     </owl:NamedIndividual>
@@ -309,6 +322,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F3">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/F3"/>
         <rdfs:label xml:lang="en">F3</rdfs:label>
         <skos:definition xml:lang="en">metadata clearly and explicitly include the identifier of the data it describes</skos:definition>
     </owl:NamedIndividual>
@@ -320,6 +334,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F4">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/F4"/>
         <rdfs:label xml:lang="en">F4</rdfs:label>
         <skos:definition xml:lang="en">(meta)data are registered or indexed in a searchable resource</skos:definition>
     </owl:NamedIndividual>
@@ -334,6 +349,7 @@
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/I1"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/I2"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/I3"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/I"/>
         <rdfs:label xml:lang="en">Interoperable</rdfs:label>
     </owl:NamedIndividual>
     
@@ -344,6 +360,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/I1">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/I1"/>
         <rdfs:label xml:lang="en">I1</rdfs:label>
         <skos:definition xml:lang="en">(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</skos:definition>
     </owl:NamedIndividual>
@@ -355,6 +372,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/I2">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/I2"/>
         <rdfs:label xml:lang="en">I2</rdfs:label>
         <skos:definition xml:lang="en">(meta)data use vocabularies that follow FAIR principles</skos:definition>
     </owl:NamedIndividual>
@@ -366,6 +384,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/I3">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/I3"/>
         <rdfs:label xml:lang="en">I3</rdfs:label>
         <skos:definition xml:lang="en">(meta)data include qualified references to other (meta)data</skos:definition>
     </owl:NamedIndividual>
@@ -378,6 +397,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/R">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/R1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/R"/>
         <rdfs:label xml:lang="en">Reusable</rdfs:label>
     </owl:NamedIndividual>
     
@@ -391,6 +411,7 @@
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/R1.1"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/R1.2"/>
         <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/R1.3"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/R1"/>
         <rdfs:label xml:lang="en">R1</rdfs:label>
         <skos:definition xml:lang="en">meta(data) are richly described with a plurality of accurate and relevant attributes</skos:definition>
     </owl:NamedIndividual>
@@ -402,6 +423,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/R1.1">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/R1.1"/>
         <rdfs:label xml:lang="en">R1.1</rdfs:label>
         <skos:definition xml:lang="en">(meta)data are released with a clear and accessible data usage license</skos:definition>
     </owl:NamedIndividual>
@@ -413,6 +435,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/R1.2">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/R1.2"/>
         <rdfs:label xml:lang="en">R1.2</rdfs:label>
         <skos:definition xml:lang="en">(meta)data are associated with detailed provenance</skos:definition>
     </owl:NamedIndividual>
@@ -424,6 +447,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/R1.3">
         <rdf:type rdf:resource="https://w3id.org/fair/principles/terms/FAIR-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/R1.3"/>
         <rdfs:label xml:lang="en">R1.3</rdfs:label>
         <skos:definition xml:lang="en">(meta)data meet domain-relevant community standards</skos:definition>
     </owl:NamedIndividual>

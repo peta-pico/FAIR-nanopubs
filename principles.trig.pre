@@ -2,6 +2,7 @@
 # without that extension is automatically generated.
 
 @prefix : <https://w3id.org/fair/principles/np/FAIR-Vocabulary/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/FAIR-Vocabulary> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
@@ -32,7 +33,8 @@
     rdfs:seeAlso fair:FAIR ;
     rdfs:seeAlso <https://www.dtls.nl/fair-data/fair-principles-explained/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -42,12 +44,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/FAIR/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/FAIR> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
@@ -75,7 +77,8 @@
     a owl:Class ;
     rdfs:subClassOf sio:000090 ;
     rdfs:seeAlso <https://www.dtls.nl/fair-data/fair-principles-explained/> ;
-    dct:hasPart fair:F, fair:A, fair:I, fair:R .
+    dct:hasPart fair:F, fair:A, fair:I, fair:R ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -85,12 +88,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/FAIR-Principle-or-SubPrinciple> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -115,7 +118,8 @@
   fair:FAIR-Principle-or-SubPrinciple rdfs:label "FAIR Principle or Sub-Principle"@en ;
     a owl:Class ;
     skos:definition "Either a FAIR principle or one of its sub-principles."@en ;
-    dct:partOf fair:FAIR .
+    dct:partOf fair:FAIR ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -125,11 +129,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/FAIR-Principle/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/FAIR-Principle> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -156,7 +161,8 @@
     rdfs:subClassOf fair:FAIR-Principle-or-SubPrinciple ;
     skos:definition "A FAIR principle describes an essential aspect of FAIR."@en ;
     dct:partOf fair:FAIR ;
-    owl:oneOf (fair:F fair:A fair:I fair:R) .
+    owl:oneOf (fair:F fair:A fair:I fair:R) ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -166,12 +172,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/FAIR-SubPrinciple> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -198,7 +204,8 @@
     rdfs:subClassOf fair:FAIR-Principle-or-SubPrinciple ;
     skos:definition "A sub-principle of a FAIR principle."@en ;
     dct:partOf fair:FAIR;
-    owl:oneOf (fair:F1 fair:F2 fair:F3 fair:F4 fair:A1 fair:A1.1 fair:A1.2 fair:A2 fair:I1 fair:I2 fair:I3 fair:R1 fair:R1.1 fair:R1.2 fair:R1.3) .
+    owl:oneOf (fair:F1 fair:F2 fair:F3 fair:F4 fair:A1 fair:A1.1 fair:A1.2 fair:A2 fair:I1 fair:I2 fair:I3 fair:R1 fair:R1.1 fair:R1.2 fair:R1.3) ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -208,12 +215,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/F/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/F> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -237,7 +244,8 @@
 :assertion {
   fair:F rdfs:label "Findable"@en ;
     a fair:FAIR-Principle ;
-    dct:hasPart fair:F1, fair:F2, fair:F3, fair:F4 .
+    dct:hasPart fair:F1, fair:F2, fair:F3, fair:F4 ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -247,12 +255,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/F1/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/F1> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -276,7 +284,8 @@
 :assertion {
   fair:F1 rdfs:label "F1"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "(meta)data are assigned a globally unique and persistent identifier"@en .
+    skos:definition "(meta)data are assigned a globally unique and persistent identifier"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -286,12 +295,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/F2/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/F2> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -315,7 +324,9 @@
 :assertion {    
   fair:F2 rdfs:label "F2"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "data are described with rich metadata (defined by R1 below)"@en .}
+    skos:definition "data are described with rich metadata (defined by R1 below)"@en ;
+    rdfs:isDefinedBy latest: .
+}
 
 :provenance {
   :assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
@@ -324,12 +335,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/F3/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/F3> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -353,7 +364,8 @@
 :assertion {
   fair:F3 rdfs:label "F3"@en;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "metadata clearly and explicitly include the identifier of the data it describes"@en .
+    skos:definition "metadata clearly and explicitly include the identifier of the data it describes"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -363,12 +375,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/F4/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/F4> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -392,7 +404,9 @@
 :assertion {
   fair:F4 rdfs:label "F4"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "(meta)data are registered or indexed in a searchable resource"@en .}
+    skos:definition "(meta)data are registered or indexed in a searchable resource"@en ;
+    rdfs:isDefinedBy latest: .
+}
 
 :provenance {
   :assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
@@ -401,12 +415,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/A/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/A> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -430,7 +444,8 @@
 :assertion {
   fair:A rdfs:label "Accessible"@en ;
     a fair:FAIR-Principle ;
-    dct:hasPart fair:A1, fair:A2 .
+    dct:hasPart fair:A1, fair:A2 ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -440,12 +455,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/A1/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/A1> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -470,7 +485,8 @@
   fair:A1 rdfs:label "A1"@en ;
     a fair:FAIR-SubPrinciple ;
     skos:definition "(meta)data are retrievable by their identifier using a standardized communications protocol"@en ;
-    dct:hasPart fair:A1.1, fair:A1.2 .
+    dct:hasPart fair:A1.1, fair:A1.2 ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -480,12 +496,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/A1.1/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/A1.1> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -509,7 +525,8 @@
 :assertion {
   fair:A1.1 rdfs:label "A1.1"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "the protocol is open, free, and universally implementable"@en .
+    skos:definition "the protocol is open, free, and universally implementable"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -519,12 +536,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/A1.2/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/A1.2> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -548,7 +565,8 @@
 :assertion {
   fair:A1.2 rdfs:label "A1.2"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "the protocol allows for an authentication and authorization procedure, where necessary"@en .
+    skos:definition "the protocol allows for an authentication and authorization procedure, where necessary"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -558,12 +576,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/A2/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/A2> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -587,7 +605,8 @@
 :assertion {
   fair:A2 rdfs:label "A2"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "metadata are accessible, even when the data are no longer available"@en .
+    skos:definition "metadata are accessible, even when the data are no longer available"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -597,12 +616,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/I/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/I> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -626,7 +645,8 @@
 :assertion {
   fair:I rdfs:label "Interoperable"@en ;
     a fair:FAIR-Principle ;
-    dct:hasPart fair:I1, fair:I2, fair:I3 .
+    dct:hasPart fair:I1, fair:I2, fair:I3 ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -636,12 +656,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/I1/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/I1> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -665,7 +685,8 @@
 :assertion {
   fair:I1 rdfs:label "I1"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en .
+    skos:definition "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -675,12 +696,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/I2/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/I2> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -704,7 +725,8 @@
 :assertion {
   fair:I2 rdfs:label "I2"@en ;
     a fair:FAIR-SubPrinciple;
-    skos:definition "(meta)data use vocabularies that follow FAIR principles"@en .
+    skos:definition "(meta)data use vocabularies that follow FAIR principles"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -714,12 +736,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/I3/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/I3> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -743,7 +765,8 @@
 :assertion {
   fair:I3 rdfs:label "I3"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "(meta)data include qualified references to other (meta)data"@en .
+    skos:definition "(meta)data include qualified references to other (meta)data"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -753,12 +776,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/R/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/R> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -782,7 +805,8 @@
 :assertion {
   fair:R rdfs:label "Reusable"@en;
     a fair:FAIR-Principle ;
-    dct:hasPart fair:R1 .
+    dct:hasPart fair:R1 ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -792,12 +816,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/R1/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/R1> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -822,7 +846,8 @@
   fair:R1 rdfs:label "R1"@en ;
     a fair:FAIR-SubPrinciple ;
     skos:definition "meta(data) are richly described with a plurality of accurate and relevant attributes"@en ;
-    dct:hasPart fair:R1.1, fair:R1.2, fair:R1.3 .
+    dct:hasPart fair:R1.1, fair:R1.2, fair:R1.3 ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -832,12 +857,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/R1.1/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/R1.1> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -861,7 +886,8 @@
 :assertion {
   fair:R1.1 rdfs:label "R1.1"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "(meta)data are released with a clear and accessible data usage license"@en .
+    skos:definition "(meta)data are released with a clear and accessible data usage license"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -871,12 +897,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/R1.2/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/R1.2> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -900,7 +926,8 @@
 :assertion {
   fair:R1.2 rdfs:label "R1.2"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "(meta)data are associated with detailed provenance"@en .
+    skos:definition "(meta)data are associated with detailed provenance"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -910,12 +937,12 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
 
 @prefix : <https://w3id.org/fair/principles/np/R1.3/> .
+@prefix latest: <https://w3id.org/fair/principles/latest/R1.3> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -939,7 +966,8 @@
 :assertion {
   fair:R1.3 rdfs:label "R1.3"@en ;
     a fair:FAIR-SubPrinciple ;
-    skos:definition "(meta)data meet domain-relevant community standards"@en .
+    skos:definition "(meta)data meet domain-relevant community standards"@en ;
+    rdfs:isDefinedBy latest: .
 }
 
 :provenance {
@@ -949,7 +977,6 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2019-07-10T14:08:42.251+02:00"^^xsd:dateTime ;
-    npx:supersedes <https://raw.githubusercontent.com/FAIRDataInitiative/FAIR-principles/master/fair.trustyuri.trig#np.RA4FsMT1XSZMh-JgNmAuOVQ3qyTzkaMldT_KxR1HSdoUA> .
+    dct:created "2019-07-11T16:55:01.454+02:00"^^xsd:dateTime .
 }
 
