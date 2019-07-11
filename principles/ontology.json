@@ -86,6 +86,9 @@
   }, {
     "@id" : "https://w3id.org/fair/principles/terms/A2"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/A"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Accessible"
@@ -98,6 +101,9 @@
   }, {
     "@id" : "https://w3id.org/fair/principles/terms/A1.2"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/A1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "A1"
@@ -109,6 +115,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/A1.1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/A1.1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "A1.1"
@@ -120,6 +129,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/A1.2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/A1.2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "A1.2"
@@ -131,6 +143,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/A2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/A2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "A2"
@@ -151,6 +166,9 @@
   }, {
     "@id" : "https://w3id.org/fair/principles/terms/F4"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/F"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Findable"
@@ -158,6 +176,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/F1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/F1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "F1"
@@ -169,6 +190,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/F2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/F2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "F2"
@@ -180,6 +204,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/F3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/F3"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "F3"
@@ -191,6 +218,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/F4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/F4"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "F4"
@@ -211,6 +241,9 @@
   }, {
     "@id" : "https://w3id.org/fair/principles/terms/R"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/FAIR"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "FAIR principles"
@@ -226,6 +259,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/terms/partOf" : [ {
     "@id" : "https://w3id.org/fair/principles/terms/FAIR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/FAIR-Principle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -247,6 +283,9 @@
   "http://purl.org/dc/terms/partOf" : [ {
     "@id" : "https://w3id.org/fair/principles/terms/FAIR"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/FAIR-Principle-or-SubPrinciple"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "FAIR Principle or Sub-Principle"
@@ -260,6 +299,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/terms/partOf" : [ {
     "@id" : "https://w3id.org/fair/principles/terms/FAIR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/FAIR-SubPrinciple"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -298,6 +340,9 @@
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@value" : "https://w3id.org/fair/principles/terms/"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/FAIR-Vocabulary"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@id" : "https://w3id.org/fair/principles/terms/FAIR"
   }, {
@@ -313,6 +358,9 @@
   }, {
     "@id" : "https://w3id.org/fair/principles/terms/I3"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/I"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Interoperable"
@@ -320,6 +368,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/I1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/I1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "I1"
@@ -331,6 +382,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/I2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/I2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "I2"
@@ -342,6 +396,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/I3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/I3"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "I3"
@@ -355,6 +412,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-Principle" ],
   "http://purl.org/dc/terms/hasPart" : [ {
     "@id" : "https://w3id.org/fair/principles/terms/R1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/R"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -370,6 +430,9 @@
   }, {
     "@id" : "https://w3id.org/fair/principles/terms/R1.3"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/R1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "R1"
@@ -381,6 +444,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/R1.1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/R1.1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "R1.1"
@@ -392,6 +458,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/R1.2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/R1.2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "R1.2"
@@ -403,6 +472,9 @@
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/R1.3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/principles/terms/FAIR-SubPrinciple" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/principles/latest/R1.3"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "R1.3"
