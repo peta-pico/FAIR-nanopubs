@@ -10,7 +10,7 @@
                                                           <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1267-0234> ,
                                                                                              <https://orcid.org/0000-0003-4727-9435> ;
                                                           <http://purl.org/dc/terms/description> "This is the formal vocabulary (ontology) describing the FAIR principles." ;
-                                                          <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by/4.0/> ;
+                                                          <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> ;
                                                           <http://purl.org/dc/terms/title> "FAIR Vocabulary" ;
                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "fair" ;
                                                           <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/principles/terms/" ;
@@ -30,16 +30,12 @@
 <http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/hasPart
-<http://purl.org/dc/terms/hasPart> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/partOf
 <http://purl.org/dc/terms/partOf> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/terms/rights
-<http://purl.org/dc/terms/rights> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title
@@ -59,23 +55,25 @@
 
 
 #################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/dc/terms/hasPart
+<http://purl.org/dc/terms/hasPart> rdf:type owl:ObjectProperty .
+
+
+#################################################################
 #    Classes
 #################################################################
 
 ###  http://semanticscience.org/resource/000090
-<http://semanticscience.org/resource/000090> rdf:type owl:Class .
+<http://semanticscience.org/resource/000090> rdf:type owl:Class ;
+                                             rdfs:label "specification"@en .
 
 
 ###  https://w3id.org/fair/principles/terms/FAIR
 <https://w3id.org/fair/principles/terms/FAIR> rdf:type owl:Class ;
-                                              rdfs:subClassOf <http://semanticscience.org/resource/000090> ;
-                                              <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/A> ,
-                                                                                 <https://w3id.org/fair/principles/terms/F> ,
-                                                                                 <https://w3id.org/fair/principles/terms/I> ,
-                                                                                 <https://w3id.org/fair/principles/terms/R> ;
-                                              rdfs:isDefinedBy <https://w3id.org/fair/principles/latest/FAIR> ;
-                                              rdfs:label "FAIR principles"@en ;
-                                              rdfs:seeAlso <https://www.dtls.nl/fair-data/fair-principles-explained/> .
+                                              rdfs:subClassOf <http://semanticscience.org/resource/000090> .
 
 
 ###  https://w3id.org/fair/principles/terms/FAIR-Principle
@@ -219,6 +217,14 @@
                                             <http://www.w3.org/2004/02/skos/core#definition> "(meta)data are registered or indexed in a searchable resource"@en .
 
 
+###  https://w3id.org/fair/principles/terms/FAIR
+<https://w3id.org/fair/principles/terms/FAIR> rdf:type owl:NamedIndividual ;
+                                              <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/A> ,
+                                                                                 <https://w3id.org/fair/principles/terms/F> ,
+                                                                                 <https://w3id.org/fair/principles/terms/I> ,
+                                                                                 <https://w3id.org/fair/principles/terms/R> .
+
+
 ###  https://w3id.org/fair/principles/terms/I
 <https://w3id.org/fair/principles/terms/I> rdf:type owl:NamedIndividual ,
                                                     <https://w3id.org/fair/principles/terms/FAIR-Principle> ;
@@ -294,6 +300,15 @@
                                               rdfs:isDefinedBy <https://w3id.org/fair/principles/latest/R1.3> ;
                                               rdfs:label "R1.3"@en ;
                                               <http://www.w3.org/2004/02/skos/core#definition> "(meta)data meet domain-relevant community standards"@en .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<https://w3id.org/fair/principles/terms/FAIR> rdfs:isDefinedBy <https://w3id.org/fair/principles/latest/FAIR> ;
+                                              rdfs:label "FAIR principles"@en ;
+                                              rdfs:seeAlso <https://www.dtls.nl/fair-data/fair-principles-explained/> .
 
 
 ###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

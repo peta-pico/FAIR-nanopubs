@@ -11,7 +11,7 @@
                                                                                      <https://orcid.org/0000-0002-1267-0234> ,
                                                                                      <https://orcid.org/0000-0003-4818-2360> ;
                                                   <http://purl.org/dc/terms/description> "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles." ;
-                                                  <http://purl.org/dc/terms/rights> <https://creativecommons.org/publicdomain/zero/1.0/> ;
+                                                  <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> ;
                                                   <http://purl.org/dc/terms/title> "FAIR Implementation Choices and Challenges Model" ;
                                                   <http://purl.org/vocab/vann/preferredNamespacePrefix> "icc" ;
                                                   <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/icc/terms/" ;
@@ -30,8 +30,8 @@
 <http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/rights
-<http://purl.org/dc/terms/rights> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title

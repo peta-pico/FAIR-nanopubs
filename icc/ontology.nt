@@ -3,7 +3,7 @@
 <https://w3id.org/fair/icc/terms/FAIR-ICC-Model> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1267-0234> .
 <https://w3id.org/fair/icc/terms/FAIR-ICC-Model> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0003-4818-2360> .
 <https://w3id.org/fair/icc/terms/FAIR-ICC-Model> <http://purl.org/dc/terms/description> "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles." .
-<https://w3id.org/fair/icc/terms/FAIR-ICC-Model> <http://purl.org/dc/terms/rights> <https://creativecommons.org/publicdomain/zero/1.0/> .
+<https://w3id.org/fair/icc/terms/FAIR-ICC-Model> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://w3id.org/fair/icc/terms/FAIR-ICC-Model> <http://purl.org/dc/terms/title> "FAIR Implementation Choices and Challenges Model" .
 <https://w3id.org/fair/icc/terms/FAIR-ICC-Model> <http://purl.org/vocab/vann/preferredNamespacePrefix> "icc" .
 <https://w3id.org/fair/icc/terms/FAIR-ICC-Model> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/icc/terms/" .
@@ -24,8 +24,8 @@
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/rights
-<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
