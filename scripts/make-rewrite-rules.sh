@@ -13,6 +13,8 @@ if [ ! -f $1.trig ]; then
 fi
 
 (
+  echo "RewriteCond %{HTTP_ACCEPT} text/html";
+  echo "RewriteRule ^$1/terms/([^/]+)$ https://peta-pico.github.io/FAIR-nanopubs/$1/index-en.html#https://w3id.org/fair/$1/terms/\$1 [R=302,L,NE]";
   echo "RewriteRule ^$1/terms/([^/]+)$ https://w3id.org/fair/principles/latest/\$1 [R=302,L]";
   echo "RewriteRule ^$1/np/[^/]+/(RA[A-Za-z0-9_\\-]{43})$ http://np.inn.ac/\$1 [R=302,L]";
   echo
