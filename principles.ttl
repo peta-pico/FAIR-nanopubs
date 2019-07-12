@@ -1,11 +1,29 @@
 # The content of this file is automatically extracted from principles.trig.
 # Changes should be made in principles.trig.pre.
 
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+dct:hasPart a owl:ObjectProperty .
+
+sio:000090 rdfs:label "specification"@en .
 
 <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> a <http://www.w3.org/2002/07/owl#Ontology>;
   <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1267-0234>, <https://orcid.org/0000-0003-4727-9435>;
   <http://purl.org/dc/terms/description> "This is the formal vocabulary (ontology) describing the FAIR principles.";
-  <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by/4.0/>;
+  <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/>;
   <http://purl.org/dc/terms/title> "FAIR Vocabulary";
   <http://purl.org/vocab/vann/preferredNamespacePrefix> "fair";
   <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/principles/terms/";
@@ -27,19 +45,19 @@
   <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Principle or Sub-Principle"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Either a FAIR principle or one of its sub-principles."@en .
 
-<https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo#_1>
+<https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E#_1>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/F>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo#_2> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E#_2> .
 
-<https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo#_2>
+<https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E#_2>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/A>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo#_3> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E#_3> .
 
-<https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo#_3>
+<https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E#_3>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/I>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo#_4> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E#_4> .
 
-<https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo#_4>
+<https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E#_4>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/R>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 
@@ -48,75 +66,75 @@
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/principles/latest/FAIR-Principle>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Principle"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple>;
-  <http://www.w3.org/2002/07/owl#oneOf> <https://w3id.org/fair/principles/np/FAIR-Principle/RAdSyfxI1HH8lVeAlen4l7nrfaQWvHZ1IKXhKoOGpB0zo#_1>;
+  <http://www.w3.org/2002/07/owl#oneOf> <https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E#_1>;
   <http://www.w3.org/2004/02/skos/core#definition> "A FAIR principle describes an essential aspect of FAIR."@en .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_1>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_1>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/A1.1>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_2> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_2> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_10>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_10>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/R1.3>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_11>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_11>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/F1>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_12> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_12> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_12>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_12>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/F2>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_13> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_13> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_13>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_13>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/F3>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_14> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_14> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_14>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_14>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/F4>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_15> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_15> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_15>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_15>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/A1>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_1> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_1> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_2>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_2>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/A1.2>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_3> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_3> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_3>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_3>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/A2>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_4> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_4> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_4>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_4>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/I1>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_5> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_5> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_5>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_5>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/I2>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_6> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_6> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_6>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_6>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/I3>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_7> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_7> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_7>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_7>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/R1>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_8> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_8> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_8>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_8>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/R1.1>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_9> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_9> .
 
-<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_9>
+<https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_9>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/fair/principles/terms/R1.2>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_10> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_10> .
 
 <https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> a <http://www.w3.org/2002/07/owl#Class>;
   <http://purl.org/dc/terms/partOf> <https://w3id.org/fair/principles/terms/FAIR>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/principles/latest/FAIR-SubPrinciple>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FAIR SubPrinciple"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple>;
-  <http://www.w3.org/2002/07/owl#oneOf> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RA8tK3-NeNSA8kZV8keUDwgCQv52atAEui1tHUndwsSmk#_11>;
+  <http://www.w3.org/2002/07/owl#oneOf> <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ#_11>;
   <http://www.w3.org/2004/02/skos/core#definition> "A sub-principle of a FAIR principle."@en .
 
 <https://w3id.org/fair/principles/terms/F> a <https://w3id.org/fair/principles/terms/FAIR-Principle>;

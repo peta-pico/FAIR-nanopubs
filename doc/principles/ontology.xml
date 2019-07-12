@@ -13,7 +13,7 @@
         <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0003-4727-9435"/>
         <terms:description>This is the formal vocabulary (ontology) describing the FAIR principles.</terms:description>
-        <terms:rights rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>FAIR Vocabulary</terms:title>
         <vann:preferredNamespacePrefix>fair</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/fair/principles/terms/</vann:preferredNamespaceUri>
@@ -50,10 +50,10 @@
     
 
 
-    <!-- http://purl.org/dc/terms/hasPart -->
+    <!-- http://purl.org/dc/terms/license -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasPart"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -61,13 +61,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/partOf"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/rights -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
     
 
 
@@ -102,6 +95,25 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/hasPart -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/hasPart"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -114,7 +126,9 @@
     <!-- http://semanticscience.org/resource/000090 -->
 
 
-    <owl:Class rdf:about="http://semanticscience.org/resource/000090"/>
+    <owl:Class rdf:about="http://semanticscience.org/resource/000090">
+        <rdfs:label xml:lang="en">specification</rdfs:label>
+    </owl:Class>
     
 
 
@@ -123,13 +137,6 @@
 
     <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/000090"/>
-        <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/A"/>
-        <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/F"/>
-        <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/I"/>
-        <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/R"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/FAIR"/>
-        <rdfs:label xml:lang="en">FAIR principles</rdfs:label>
-        <rdfs:seeAlso rdf:resource="https://www.dtls.nl/fair-data/fair-principles-explained/"/>
     </owl:Class>
     
 
@@ -341,6 +348,18 @@
     
 
 
+    <!-- https://w3id.org/fair/principles/terms/FAIR -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/FAIR">
+        <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/A"/>
+        <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/F"/>
+        <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/I"/>
+        <terms:hasPart rdf:resource="https://w3id.org/fair/principles/terms/R"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/fair/principles/terms/I -->
 
 
@@ -451,6 +470,23 @@
         <rdfs:label xml:lang="en">R1.3</rdfs:label>
         <skos:definition xml:lang="en">(meta)data meet domain-relevant community standards</skos:definition>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/fair/principles/terms/FAIR">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/principles/latest/FAIR"/>
+        <rdfs:label xml:lang="en">FAIR principles</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dtls.nl/fair-data/fair-principles-explained/"/>
+    </rdf:Description>
 </rdf:RDF>
 
 

@@ -2,7 +2,7 @@
 <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1267-0234> .
 <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0003-4727-9435> .
 <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/description> "This is the formal vocabulary (ontology) describing the FAIR principles." .
-<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/dc/terms/title> "FAIR Vocabulary" .
 <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/vocab/vann/preferredNamespacePrefix> "fair" .
 <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/principles/terms/" .
@@ -24,14 +24,11 @@
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/hasPart
-<http://purl.org/dc/terms/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/partOf
 <http://purl.org/dc/terms/partOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/dc/terms/rights
-<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -49,6 +46,18 @@
 # 
 # #################################################################
 # #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/hasPart
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
 # #    Classes
 # #
 # #################################################################
@@ -56,17 +65,11 @@
 # 
 # http://semanticscience.org/resource/000090
 <http://semanticscience.org/resource/000090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/000090> <http://www.w3.org/2000/01/rdf-schema#label> "specification"@en .
 # 
 # https://w3id.org/fair/principles/terms/FAIR
 <https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticscience.org/resource/000090> .
-<https://w3id.org/fair/principles/terms/FAIR> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/A> .
-<https://w3id.org/fair/principles/terms/FAIR> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/F> .
-<https://w3id.org/fair/principles/terms/FAIR> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/I> .
-<https://w3id.org/fair/principles/terms/FAIR> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/R> .
-<https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/principles/latest/FAIR> .
-<https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR principles"@en .
-<https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dtls.nl/fair-data/fair-principles-explained/> .
 # 
 # https://w3id.org/fair/principles/terms/FAIR-Principle
 <https://w3id.org/fair/principles/terms/FAIR-Principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -248,6 +251,13 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <https://w3id.org/fair/principles/terms/F4> <http://www.w3.org/2000/01/rdf-schema#label> "F4"@en .
 <https://w3id.org/fair/principles/terms/F4> <http://www.w3.org/2004/02/skos/core#definition> "(meta)data are registered or indexed in a searchable resource"@en .
 # 
+# https://w3id.org/fair/principles/terms/FAIR
+<https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/principles/terms/FAIR> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/A> .
+<https://w3id.org/fair/principles/terms/FAIR> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/F> .
+<https://w3id.org/fair/principles/terms/FAIR> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/I> .
+<https://w3id.org/fair/principles/terms/FAIR> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/R> .
+# 
 # https://w3id.org/fair/principles/terms/I
 <https://w3id.org/fair/principles/terms/I> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/principles/terms/FAIR-Principle> .
 <https://w3id.org/fair/principles/terms/I> <http://purl.org/dc/terms/hasPart> <https://w3id.org/fair/principles/terms/I1> .
@@ -306,5 +316,18 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <https://w3id.org/fair/principles/terms/R1.3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/principles/latest/R1.3> .
 <https://w3id.org/fair/principles/terms/R1.3> <http://www.w3.org/2000/01/rdf-schema#label> "R1.3"@en .
 <https://w3id.org/fair/principles/terms/R1.3> <http://www.w3.org/2004/02/skos/core#definition> "(meta)data meet domain-relevant community standards"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/principles/latest/FAIR> .
+<https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR principles"@en .
+<https://w3id.org/fair/principles/terms/FAIR> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dtls.nl/fair-data/fair-principles-explained/> .
 # 
 # Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

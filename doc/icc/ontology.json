@@ -5,7 +5,7 @@
   "@id" : "http://purl.org/dc/terms/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/rights",
+  "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
@@ -500,7 +500,7 @@
   "http://purl.org/dc/terms/description" : [ {
     "@value" : "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles."
   } ],
-  "http://purl.org/dc/terms/rights" : [ {
+  "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/publicdomain/zero/1.0/"
   } ],
   "http://purl.org/dc/terms/title" : [ {

@@ -16,7 +16,7 @@
         <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0003-4818-2360"/>
         <terms:description>This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.</terms:description>
-        <terms:rights rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>FAIR Implementation Choices and Challenges Model</terms:title>
         <vann:preferredNamespacePrefix>icc</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/fair/icc/terms/</vann:preferredNamespaceUri>
@@ -52,10 +52,10 @@
     
 
 
-    <!-- http://purl.org/dc/terms/rights -->
+    <!-- http://purl.org/dc/terms/license -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
