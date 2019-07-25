@@ -319,9 +319,6 @@
     "@language" : "en",
     "@value" : "Challenge"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/icc/terms/Consideration"
-  } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"
@@ -352,9 +349,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Choice"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/icc/terms/Consideration"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -390,20 +384,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"
-  } ]
-}, {
-  "@id" : "https://w3id.org/fair/icc/terms/Consideration",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/icc/latest/Consideration"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Consideration"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "en",
-    "@value" : "Something that is either a Choice or a Challenge"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Declaration",
@@ -682,13 +662,13 @@
     "@value" : "Links an explanation to the FAIR (sub)principle it explains"
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/icc/terms/has-open-challenge",
+  "@id" : "https://w3id.org/fair/icc/terms/had-challenge",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/icc/terms/ChoiceDeclaration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/icc/latest/has-open-challenge"
+    "@id" : "https://w3id.org/fair/icc/latest/had-challenge"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -699,34 +679,51 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "Connects a ChoiceDeclaration that doesn't have a chosen resource to a ChallengeDeclaration that describes a challenge that has to be met before the community can choose a resource"
+    "@value" : "Connects a ChoiceDeclaration to a ChallengeDeclaration that describes a challenge that had to be met before the choice could be made"
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/icc/terms/refers-to-consideration",
+  "@id" : "https://w3id.org/fair/icc/terms/refers-to-challenge",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/fair/icc/terms/Declaration"
+    "@id" : "https://w3id.org/fair/icc/terms/ChallengeDeclaration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/icc/latest/refers-to-consideration"
+    "@id" : "https://w3id.org/fair/icc/latest/refers-to-challenge"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "refers to consideration"
+    "@value" : "refers to challenge"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/fair/icc/terms/Consideration"
+    "@id" : "https://w3id.org/fair/icc/terms/Challenge"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "Connects a Declaration to the Consideration it is derived from"
+    "@value" : "Connects a ChallengeDeclaration to the Challenge it is derived from"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/refers-to-choice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/icc/terms/ChoiceDeclaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/refers-to-choice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to choice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/icc/terms/Choice"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a ChoiceDeclaration to the Choice it is derived from"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/refers-to-principle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/fair/icc/terms/Consideration"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/icc/latest/refers-to-principle"
   } ],
@@ -739,7 +736,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "Connects a Consideration to a FAIR (sub)principle it refers to"
+    "@value" : "Connects an entity (for example a choice or challenge) to a FAIR (sub)principle it refers to"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/related-challenge",

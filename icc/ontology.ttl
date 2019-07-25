@@ -85,31 +85,39 @@
                                                      <http://www.w3.org/2004/02/skos/core#definition> "Links an explanation to the FAIR (sub)principle it explains"@en .
 
 
-###  https://w3id.org/fair/icc/terms/has-open-challenge
-<https://w3id.org/fair/icc/terms/has-open-challenge> rdf:type owl:ObjectProperty ;
-                                                     rdfs:domain <https://w3id.org/fair/icc/terms/ChoiceDeclaration> ;
-                                                     rdfs:range <https://w3id.org/fair/icc/terms/ChallengeDeclaration> ;
-                                                     rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/has-open-challenge> ;
-                                                     rdfs:label "has open challenge"@en ;
-                                                     <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChoiceDeclaration that doesn't have a chosen resource to a ChallengeDeclaration that describes a challenge that has to be met before the community can choose a resource"@en .
+###  https://w3id.org/fair/icc/terms/had-challenge
+<https://w3id.org/fair/icc/terms/had-challenge> rdf:type owl:ObjectProperty ;
+                                                rdfs:domain <https://w3id.org/fair/icc/terms/ChoiceDeclaration> ;
+                                                rdfs:range <https://w3id.org/fair/icc/terms/ChallengeDeclaration> ;
+                                                rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/had-challenge> ;
+                                                rdfs:label "has open challenge"@en ;
+                                                <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChoiceDeclaration to a ChallengeDeclaration that describes a challenge that had to be met before the choice could be made"@en .
 
 
-###  https://w3id.org/fair/icc/terms/refers-to-consideration
-<https://w3id.org/fair/icc/terms/refers-to-consideration> rdf:type owl:ObjectProperty ;
-                                                          rdfs:domain <https://w3id.org/fair/icc/terms/Declaration> ;
-                                                          rdfs:range <https://w3id.org/fair/icc/terms/Consideration> ;
-                                                          rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/refers-to-consideration> ;
-                                                          rdfs:label "refers to consideration"@en ;
-                                                          <http://www.w3.org/2004/02/skos/core#definition> "Connects a Declaration to the Consideration it is derived from"@en .
+###  https://w3id.org/fair/icc/terms/refers-to-challenge
+<https://w3id.org/fair/icc/terms/refers-to-challenge> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <https://w3id.org/fair/icc/terms/ChallengeDeclaration> ;
+                                                      rdfs:range <https://w3id.org/fair/icc/terms/Challenge> ;
+                                                      rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/refers-to-challenge> ;
+                                                      rdfs:label "refers to challenge"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChallengeDeclaration to the Challenge it is derived from"@en .
+
+
+###  https://w3id.org/fair/icc/terms/refers-to-choice
+<https://w3id.org/fair/icc/terms/refers-to-choice> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <https://w3id.org/fair/icc/terms/ChoiceDeclaration> ;
+                                                   rdfs:range <https://w3id.org/fair/icc/terms/Choice> ;
+                                                   rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/refers-to-choice> ;
+                                                   rdfs:label "refers to choice"@en ;
+                                                   <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChoiceDeclaration to the Choice it is derived from"@en .
 
 
 ###  https://w3id.org/fair/icc/terms/refers-to-principle
 <https://w3id.org/fair/icc/terms/refers-to-principle> rdf:type owl:ObjectProperty ;
-                                                      rdfs:domain <https://w3id.org/fair/icc/terms/Consideration> ;
                                                       rdfs:range <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> ;
                                                       rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/refers-to-principle> ;
                                                       rdfs:label "refers to principle"@en ;
-                                                      <http://www.w3.org/2004/02/skos/core#definition> "Connects a Consideration to a FAIR (sub)principle it refers to"@en .
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "Connects an entity (for example a choice or challenge) to a FAIR (sub)principle it refers to"@en .
 
 
 ###  https://w3id.org/fair/icc/terms/related-challenge
@@ -131,7 +139,6 @@
 
 ###  https://w3id.org/fair/icc/terms/Challenge
 <https://w3id.org/fair/icc/terms/Challenge> rdf:type owl:Class ;
-                                            rdfs:subClassOf <https://w3id.org/fair/icc/terms/Consideration> ;
                                             rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/Challenge> ;
                                             rdfs:label "Challenge"@en ;
                                             <http://www.w3.org/2004/02/skos/core#definition> "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
@@ -147,7 +154,6 @@
 
 ###  https://w3id.org/fair/icc/terms/Choice
 <https://w3id.org/fair/icc/terms/Choice> rdf:type owl:Class ;
-                                         rdfs:subClassOf <https://w3id.org/fair/icc/terms/Consideration> ;
                                          rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/Choice> ;
                                          rdfs:label "Choice"@en ;
                                          <http://www.w3.org/2004/02/skos/core#definition> "The kind of choice communities have to make (can be expressed as a question)"@en .
@@ -166,13 +172,6 @@
                                             rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/Community> ;
                                             rdfs:label "Community"@en ;
                                             <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
-
-
-###  https://w3id.org/fair/icc/terms/Consideration
-<https://w3id.org/fair/icc/terms/Consideration> rdf:type owl:Class ;
-                                                rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/Consideration> ;
-                                                rdfs:label "Consideration"@en ;
-                                                <http://www.w3.org/2004/02/skos/core#definition> "Something that is either a Choice or a Challenge"@en .
 
 
 ###  https://w3id.org/fair/icc/terms/Declaration
