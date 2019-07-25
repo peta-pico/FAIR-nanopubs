@@ -178,21 +178,14 @@ fair:A1.2 rdfs:label "A1.2" .
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/FAIR-ICC-Model>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/principles/terms/FAIR> .
 
-<https://w3id.org/fair/icc/terms/Consideration> a <http://www.w3.org/2002/07/owl#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/Consideration>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Consideration"@en;
-  <http://www.w3.org/2004/02/skos/core#definition> "Something that is either a Choice or a Challenge"@en .
-
-<https://w3id.org/fair/icc/terms/Choice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/icc/latest/Choice>;
+<https://w3id.org/fair/icc/terms/Choice> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/Choice>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Choice"@en;
-  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/icc/terms/Consideration>;
   <http://www.w3.org/2004/02/skos/core#definition> "The kind of choice communities have to make (can be expressed as a question)"@en .
 
-<https://w3id.org/fair/icc/terms/Challenge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/icc/latest/Challenge>;
+<https://w3id.org/fair/icc/terms/Challenge> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/Challenge>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Challenge"@en;
-  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/icc/terms/Consideration>;
   <http://www.w3.org/2004/02/skos/core#definition> "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
 
 <https://w3id.org/fair/icc/terms/Declaration> a <http://www.w3.org/2002/07/owl#Class>;
@@ -235,11 +228,10 @@ fair:A1.2 rdfs:label "A1.2" .
   <http://www.w3.org/2004/02/skos/core#definition> "Links an explanation to the FAIR (sub)principle it explains"@en .
 
 <https://w3id.org/fair/icc/terms/refers-to-principle> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Consideration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/refers-to-principle>;
   <http://www.w3.org/2000/01/rdf-schema#label> "refers to principle"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple>;
-  <http://www.w3.org/2004/02/skos/core#definition> "Connects a Consideration to a FAIR (sub)principle it refers to"@en .
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects an entity (for example a choice or challenge) to a FAIR (sub)principle it refers to"@en .
 
 <https://w3id.org/fair/icc/terms/related-challenge> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Choice>;
@@ -248,12 +240,19 @@ fair:A1.2 rdfs:label "A1.2" .
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Challenge>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a Choice to a Challenge that some communities might face before they can make the given kind of choice"@en .
 
-<https://w3id.org/fair/icc/terms/refers-to-consideration> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Declaration>;
-  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/refers-to-consideration>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "refers to consideration"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Consideration>;
-  <http://www.w3.org/2004/02/skos/core#definition> "Connects a Declaration to the Consideration it is derived from"@en .
+<https://w3id.org/fair/icc/terms/refers-to-choice> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/ChoiceDeclaration>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/refers-to-choice>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "refers to choice"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Choice>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChoiceDeclaration to the Choice it is derived from"@en .
+
+<https://w3id.org/fair/icc/terms/refers-to-challenge> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/ChallengeDeclaration>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/refers-to-challenge>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "refers to challenge"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Challenge>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChallengeDeclaration to the Challenge it is derived from"@en .
 
 <https://w3id.org/fair/icc/terms/declared-by> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/Declaration>;
@@ -269,12 +268,12 @@ fair:A1.2 rdfs:label "A1.2" .
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"@en .
 
-<https://w3id.org/fair/icc/terms/has-open-challenge> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/icc/terms/had-challenge> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/ChoiceDeclaration>;
-  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/has-open-challenge>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/had-challenge>;
   <http://www.w3.org/2000/01/rdf-schema#label> "has open challenge"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/ChallengeDeclaration>;
-  <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChoiceDeclaration that doesn't have a chosen resource to a ChallengeDeclaration that describes a challenge that has to be met before the community can choose a resource"@en .
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a ChoiceDeclaration to a ChallengeDeclaration that describes a challenge that had to be met before the choice could be made"@en .
 
 <https://w3id.org/fair/icc/terms/F1-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "Principle F1 states that resources, i.e. data and metadata, should be assigned a globally unique and persistent identifier (GUPID). ...";

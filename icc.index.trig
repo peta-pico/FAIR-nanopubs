@@ -1,0 +1,57 @@
+@prefix this: <https://w3id.org/fair/icc/np/index/RAkjQb8wTO8BqR_2Kj98NjV0naEFMvMo70QDE1NxRdO6c> .
+@prefix sub: <https://w3id.org/fair/icc/np/index/RAkjQb8wTO8BqR_2Kj98NjV0naEFMvMo70QDE1NxRdO6c#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  this: npx:includesElement <https://w3id.org/fair/icc/np/A1-Explanation/RAPPyqZ0wIQiB7fKMsj7wE_pfqdR4HARE0Xyk53TuCB2g>,
+      <https://w3id.org/fair/icc/np/A1.1-Explanation/RA____8nHzZc1uNHK4BNlf_xyTEhBE3c_UO6bwxFGWsEo>,
+      <https://w3id.org/fair/icc/np/A1.2-Explanation/RAiZ8I8c_kJQPz-o1Nsncz-nf3Mbl1CMH1afcZaaC10aE>,
+      <https://w3id.org/fair/icc/np/Challenge/RAzL7kgstGRcJxzo5iRKUuiLlg21UBlBKhuO613iJPv3I>,
+      <https://w3id.org/fair/icc/np/ChallengeDeclaration/RAfZRYM9ChSevPuDu-lBv8gJaxqDmr3FSwIMMjzpXcIcI>,
+      <https://w3id.org/fair/icc/np/Choice/RAjA96dVR5b7a5kRqxI8fqE0Zf82pBLjCoCtD8mwGpl_Q>,
+      <https://w3id.org/fair/icc/np/ChoiceDeclaration/RA32BIQzjfZk8SosDw-m_KhP93hnf7wRN3tU1ufJWsrUU>,
+      <https://w3id.org/fair/icc/np/Community/RACEARoGFX2domApAGazMpTGykAQ-1a17g-Y4xTTGGqFw>,
+      <https://w3id.org/fair/icc/np/Declaration/RAK_HbteQvkJj8gL2v-qfGksM_hrAcwMUVWUEJN51FUSc>,
+      <https://w3id.org/fair/icc/np/Explanation/RAzlb54NWqTmbsybiF7HBxfuo8loCwvhjKuHzVu6Eelms>,
+      <https://w3id.org/fair/icc/np/F1-Challenge-1/RApHag19KxWCc-AuAtriw2Q7pmp6_BBwIfipNC2XPkq00>,
+      <https://w3id.org/fair/icc/np/F1-Choice/RAL51rpqb3D6CjvV0uwMocFIzZuW5bYiFmm5VgYcOOXUs>,
+      <https://w3id.org/fair/icc/np/F1-Explanation/RAcb8UxCgSXP7ms7s6gyX0IX1aH-OJF4dzXf57shPaTd8>,
+      <https://w3id.org/fair/icc/np/FAIR-ICC-Model/RAAj2El7_Q1TO3CMnw8KYZ4ptgQEFZSneGTSWB0cBZx3I>,
+      <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/RAsNysn_bJkOdOm4hGtgfQKnFvQrE47Cq_ga1S3oR1j4w>,
+      <https://w3id.org/fair/icc/np/Resource/RAbvUcojPBoON0oQZH5Y9ZfnjccSNoP1RbrXQutM3Tw3s>,
+      <https://w3id.org/fair/icc/np/chosen-resource/RA4pL8OFXG2DgHWPDBAZmXfeOwwltS3De-ayXLBs_81ig>,
+      <https://w3id.org/fair/icc/np/declared-by/RANA1KaklWNvS2jg4c_6YR0JMNBO--mmh6qeRoaOJ0-pM>,
+      <https://w3id.org/fair/icc/np/explains-principle/RAZSCiU8myZDh8z0zaMvgf4_xHAOO6KkjLIk2EkHZHcOo>,
+      <https://w3id.org/fair/icc/np/had-challenge/RAd_k34Rkl2k_meLKEENdpjnq6r3Fz4ttsCaGKmg6X9dk>,
+      <https://w3id.org/fair/icc/np/refers-to-challenge/RAJxHsOq3jUMwKmYLnSCcF5ihT1S_uPUNyCsb3AGFCaNI>,
+      <https://w3id.org/fair/icc/np/refers-to-choice/RAMqbdgScrG-hYPwZlZ7nxjkiy5yffbX2zQ5BzCwk2X-E>,
+      <https://w3id.org/fair/icc/np/refers-to-principle/RADK-NSH3hYYaDys33WZeWswKok77V8W-GuhlxjNGSxls>,
+      <https://w3id.org/fair/icc/np/related-challenge/RA-O-MJmOCSTssyBxMOYjScnzUwWqJts5xRu0vFc1Lzm0> .
+}
+
+sub:provenance {
+  sub:assertion a npx:IndexAssertion .
+}
+
+sub:pubinfo {
+  this: dce:title "Nanopublications representing the FAIR Implementation Choices and Challenges Model";
+    dct:created "2019-07-25T08:46:57.298+02:00"^^xsd:dateTime;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    pav:createdBy <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
+      <https://orcid.org/0000-0003-4818-2360>;
+    a npx:NanopubIndex .
+}
+
+
