@@ -8,16 +8,16 @@ if [ ! -z $1 ]; then
   echo "Usage: $USAGE"; exit 1
 fi
 
-#LASTRELEASE=$(scripts/get-last-release-nr.sh icc)
+LASTRELEASE=$(scripts/get-last-release-nr.sh icc)
 
-#LASTINDEX=$(
-#  cat releases/icc.index.$LASTRELEASE.trig \
-#  | egrep '^@prefix this:' \
-#  | tail -1 \
-#  | sed -r 's/.*<(.*)>.*/\1/'
-#)
+LASTINDEX=$(
+  cat releases/icc.index.$LASTRELEASE.trig \
+  | egrep '^@prefix this:' \
+  | tail -1 \
+  | sed -r 's/.*<(.*)>.*/\1/'
+)
 
-#echo "Supersedes index: $LASTINDEX"
+echo "Supersedes index: $LASTINDEX"
 
 echo "Making index..."
 scripts/np mkindex \
@@ -27,7 +27,7 @@ scripts/np mkindex \
   -c https://orcid.org/0000-0003-4818-2360 \
   -t "Nanopublications representing the FAIR Implementation Choices and Challenges Model" \
   -l https://creativecommons.org/publicdomain/zero/1.0/ \
+  -x $LASTINDEX \
   -o icc.index.trig \
   icc.trig
 
-#  -x $LASTINDEX \

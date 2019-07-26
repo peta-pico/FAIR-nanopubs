@@ -13,6 +13,9 @@ fi
   echo
   echo
   cat principles.htaccess
+  echo
+  echo
+  cat icc.htaccess
 ) \
   > htaccess
 
