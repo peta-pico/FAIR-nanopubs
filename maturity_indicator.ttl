@@ -1,0 +1,386 @@
+# The content of this file is automatically extracted from maturity_indicator.trig.
+# Changes should be made in maturity_indicator.trig.pre.
+
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Vocabulary> a <http://www.w3.org/2002/07/owl#Ontology>;
+  <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-5306-5690>, <https://orcid.org/0000-0001-6960-357X>,
+    <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1164-1351>,
+    <https://orcid.org/0000-0002-1267-0234>, <https://orcid.org/0000-0003-4727-9435>;
+  <http://purl.org/dc/terms/description> "This is the formal vocabulary (ontology) describing the FAIR maturity indicators.";
+  <http://purl.org/dc/terms/rights> <https://creativecommons.org/publicdomain/zero/1.0>;
+  <http://purl.org/dc/terms/title> "FAIR Maturity Indicator Vocabulary";
+  <http://purl.org/vocab/vann/preferredNamespacePrefix> "fairmi";
+  <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/maturity_indicator/terms/Gen2/";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR metric is a measure of the FAIRness of a digital resource."@en;
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/FAIR> .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "What is being measured?"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A description of what is being measured by the metric."@en .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Why should we measure it?"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A description of why this is being measured."@en .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "What must be provided?"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A description of what requirements need to be met for the measure to be considered successful."@en .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "How do we measure it?"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A description of how the requirements are to be measured."@en .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "What is a valid result?"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A description of what constitutes a valid result."@en .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "For which digital resource(s) is this relevant?"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A description of digital resources for which this measure is relevant."@en .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Examples of their application across types of digital resource"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A description of applications across different types of digital resources."@en .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Comments"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "Additional comments on the described metric."@en .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_A1.1> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-A1.1";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/A1.1>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "If the resolution protocol is universally implementable with an open protocol";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """The GUID (either data or metadata) is mapped to a resolution protocol.  This resolution protocol
+is queried in FAIRSharing to determine if it meets the requirements of FAIRness.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> "Access to a resource may be limited by the specified communication protocol. In particular, we are worried about access to technical specifications and any costs associated with implementing the protocol. Protocols that are closed source or that have royalties associated with them could prevent users from being able to obtain the resource.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "FAIRSharing registry says the protocol is FAIR" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_A1.2> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-A1.2";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/A1.2>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "If the resolution protocol supports authentication and authorization for access to restricted content";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """The GUID (either data or metadata) is mapped to a resolution protocol.  The FAIRSharing registry is asked
+if that protocol supports authentication/authorization.  In addition, if a link using the Dublin Core \"accessRights\"
+property is found in the metadata, this is acceptable.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> "Not all content can be made available without restriction. For instance, access and distribution of personal health data may be restricted by law or by organizational policy. In such cases, it is important that the protocol by which such content can be accessed is fully specified. Ideally, electronic content can be obtained first by applying for access. Once the requester is formally authorized to access the content, they may receive it in some electronic means, for instance by obtaining an download URL, or through a more sophisticated transaction mechanism (e.g. authenticate, authorize), or by any other means. The goal should be to reduce the time it takes for valid requests to be fulfilled.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "FAIRSharing registry says the protocol supports authentication/authorization, or the metadata contains a dc:accessRights property with a value (either string or link)" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_A2> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-A2";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/A2>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "If there is a policy for metadata persistence";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """The GUID is resolved.  Any hash-style metadata (e.g. JSON or microformat) is queried for a 'persistencePolicy' key.
+If that key exists, the test passes.  Any Linked Data is queried for the http://www.w3.org/2000/10/swap/pim/doc""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> "Cross-references to data from third-party’s FAIR data and metadata will naturally degrade over time, and become “stale links”. In such cases, it is important for FAIR providers to continue to provide descriptors of what the data was to assist in the continued interpretation of those third-party data. As per FAIR Principle F3, this metadata remains discoverable, even in the absence of the data, because it contains an explicit reference to the IRI of the data.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "The presence of a persistencePolicy key, or a http://www.w3.org/2000/10/swap/pim/doc" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_F1A> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-F1A";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/F1>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> """Whether the GUID matches (regexp) a GUID scheme recognized as being globally unique in the FAIRSharing registry.
+
+Currently, we test:
+ * InChI Keys
+ * DOIs
+ * Handles
+ * URLs
+
+If you want an additional identifier scheme added to this Maturity Indicator, please let us know, and please register it with FAIRSharing.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """An identifier scheme is valid if and only if it
+ * can be recognized by a machine (regular expression)
+ * follows a GUID pattern registered in FAIRSharing
+ * The FAIRSharing registration acknowledges that the scheme guarantees global uniqueness""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> "The uniqueness of an identifier is a necessary condition to unambiguously refer that resource, and that resource alone. Otherwise, an identifier shared by multiple resources will confound efforts to describe that resource, or to use the identifier to retrieve it. Examples of identifier schemes include, but are not limited to URN, IRI, DOI, Handle, trustyURI, LSID, etc. For an in-depth understanding of the issues around identifiers, please see http://dx.plos.org/10.1371/journal.pbio.2001414";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "Matches the regular expression for a GUID type registered with FAIRSharing that is flagged as guaranteeing global uniqueness" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_F1B> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-F1B";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/F1>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> """Whether the GUID matches (regexp) a GUID scheme recognized as being persistent.
+This includes identifiers in the FAIRSharing registry that are known to be persistent:
+ * InChI Keys
+ * DOIs
+ * Handles
+
+For URLs, we test widely-used PURLs, currently:
+ * purl
+ * oclc
+ * fdlp
+ * purlz
+ * w3id
+ * ark
+
+If you want an additional identifier scheme added to this Maturity Indicator, please let us know, and please register it with FAIRSharing.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """Identifier scheme of the GUID is determined by pattern-match for Handle, DOI, InChI.  For URLs
+ we do further pattern-matches to determine if it matches the pattern for:
+ * purl
+ * oclc
+ * fdlp
+ * purlz
+ * w3id
+ * ark""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """The change to an identifier scheme will have widespread implications for resource lookup,
+linking, and data sharing. Providers of digital resources must try to use GUID types that
+are guaranteed, by stable third-parties, to be persistent.  This includes stable providers of
+PURLs.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "match successful" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_F2A> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-F2A";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/F2>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> """Whether the metadata of the record contains \"structured\" elements.
+These may be in the form of hash-like content (micrograph, JSON),
+or in one of the various forms of linked data (JSON-LD, RDFa, etc.)""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """Metadata is harvested by:
+1) resolving the GUID (following all redirects) with a Content-Type header specifically searching for some form of structured data.  e.g.
+   'Accept: text/turtle, application/n3, application/rdf+n3, application/turtle, application/x-turtle,text/n3,text/turtle, text/rdf+n3, text/rdf+turtle,application/json+ld, text/xhtml+xml,application/rdf+xml,application/n-triples'
+2) resolving any Link 'meta' HTTP Headers (processed independently according to this same process, but not iteratively)
+3) parsing the response body either as a hash (for non-linked data) or as a Graph for linked data, or both.
+4) All other data is passed to the 'extruct' tool (https://github.com/scrapinghub/extruct) or to the Apache Tika tool (https://tika.apache.org/) for deep exploration
+5) Any linked or hash-type data found by those tools are merged with the existing Hash or Graph data
+6) The Hash and Graph are interrogated v.v. if they contain any data""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """Structured data is inherently easier for machines to accurately process and
+interpret.  Even loosely structured metadata can have reliable parsers built
+to consume it, including those of major search engines.  Thus, it improves
+the findability of the record.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "Hash or Graph contains data." .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_F2B> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-F2B";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/F2>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> """BEWARE:  Apache Tika is capable of extracting metadata, in the form of Linked Data, from a wide range of opaue file-types such as PDFs and images.
+This process will therefore return Linked Data that can only be found using a special tool.  Therefore, passing this
+Maturity Indicator does not mean that the publisher has *actively* made grounded metadata available.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> """Whether the metadata of the record contains \"structured\" elements that are
+\"grounded\" in shared vocabularies.  For example, in one of the various forms
+of linked data (JSON-LD, RDFa, Turtle, etc.)""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """Metadata is harvested by:
+1) resolving the GUID (following all redirects) with a Content-Type header specifically searching for some form of structured data.  e.g.
+   'Accept: text/turtle, application/n3, application/rdf+n3, application/turtle, application/x-turtle,text/n3,text/turtle, text/rdf+n3, text/rdf+turtle,application/json+ld, text/xhtml+xml,application/rdf+xml,application/n-triples'
+2) resolving any Link 'meta' HTTP Headers (processed independently according to this same process, but not iteratively)
+3) parsing the response body either as a hash (for non-linked data) or as a Graph for linked data, or both.
+4) All other data is passed to the 'extruct' tool (https://github.com/scrapinghub/extruct) or to the Apache Tika tool (https://tika.apache.org/) for deep exploration
+5) Any linked or hash-type data found by those tools are merged with the existing Hash or Graph data
+6) The Graph is interrogated v.v. if it contains any data""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """Structured, grounded data is inherently easier for machines to accurately process and
+interpret, in particular by generic agents, who are able to precisely determine the
+meaning of an element based on it being a GUID (and thus, more FAIR)""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "Graph contains data." .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_F3> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-F3";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/F3>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> """A future iteration of this MI will require the use of specific predicates such as schema:identifier to
+point to the GUID of the Metadata document itself.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> """Whether the metadata document contains both its own GUID (which may be different from its address),
+and whether it also explicitly contains the GUID for the data resource it describes.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """Metadata is harvested by:
+1) resolving the GUID (following all redirects) with a Content-Type header specifically searching for some form of structured data.  e.g.
+   'Accept: text/turtle, application/n3, application/rdf+n3, application/turtle, application/x-turtle,text/n3,text/turtle, text/rdf+n3, text/rdf+turtle,application/json+ld, text/xhtml+xml,application/rdf+xml,application/n-triples'
+2) resolving any Link 'meta' HTTP Headers (processed independently according to this same process, but not iteratively)
+3) parsing the response body either as a hash (for non-linked data) or as a Graph for linked data, or both.
+4) All other data is passed to the 'extruct' tool (https://github.com/scrapinghub/extruct) or to the Apache Tika tool (https://tika.apache.org/) for deep exploration
+5) Any linked or hash-type data found by those tools are merged with the existing Hash or Graph data
+
+To locate the data identifier, hash data is tested for the keys:
+ * codeRepository
+ * mainEntity
+ * primaryTopic
+ * IAO:0000136 (is about)
+ * IAO_0000136
+ * SIO:000332 (is about)
+ * SIO_000332
+ * distribution
+ * contains
+
+Graph data is tested for the properties:
+ * schema:codeRepository
+ * schema:mainEntity
+ * foaf:primaryTopic
+ * IAO:0000136 (information artifact ontology 'is about')
+ * SIO:000332 (SemanticScience Integrated Ontology 'is about')
+ * schema:distribution
+ * DCAT:distribution (Data Catalogue vocabulary)
+ * ldp:contains (Linked Data Platform)
+
+To locate the Metadata's GUID:
+1) The values of all Hash keys are compared to the GUID provided to the test
+(this is not a rigorous test, but the key name cannot be
+predicted)
+2) The Graph metadata is explored for the \"objects\" of each triple pattern-matching or exact-matching the provided GUID.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """The discovery of digital object should be possible from its metadata. For this to happen,
+the metadata must explicitly contain the identifier for the digital resource it describes,
+and this should be present in the form of a qualified reference, indicating some manner of
+\"about\" relationship, to distinguish this identifier from the numerous others that will
+be present in the metadata.
+
+In addition, since many digital objects cannot be arbitrarily extended to
+include references to their metadata, in many cases the only means to
+discover the metadata related to a digital object will be to search based
+on the GUID of the digital object itself.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "Match found" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_F4> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-F4";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/F4>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "The degree to which the digital resource can be found using web-based search engines.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """The provided GUID is resolved to its metadata (i.e. a document) and the address of that document
+is captured (which may be distinct from the GUID itself)
+
+The GUID is then used in a search.  The top 50 results of that search are compared to the
+address of the metadata document.
+
+Hash metadata is parsed for the keys \"title\", and \"keywords\", and those values are captured
+and used in a search.  The top 50 results of that search are compared to the
+address of the metadata document.
+
+Graph metadata is queried for predicates containing \"title\" or \"keyword\", and those values are captured
+and used in a search.  The top 50 results of that search are compared to the
+address of the metadata document.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """Most people use a search engine to initiate a search for a particular digital resource of interest.
+If the resource or its metadata are not indexed by web search engines,
+then this would substantially diminish an individual’s ability to find and reuse it.
+Thus, the ability to discover the resource should be tested using i) its identifier,
+ii) other text-based metadata.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "Metadata document address is found in top 50 search results" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_I1A> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-I1A";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/I1>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "use of a formal, accessible, shared, and broadly applicable language for knowledge representation.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> "The GUID is resolved.  Any hash-style metadata (e.g. JSON or microformat) or Linked Data that can be found is considered a success.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """The unambiguous communication of knowledge and meaning (what symbols are, and how they relate to one another) necessitates the use of languages that are capable of representing these concepts in a machine-readable manner.
+
+There is debate in the community about what languages would be considered \"knowledge representation languages\", as such
+this Maturity Indicator is broken into two sub-MIs (Gen2-FM-I1A and Gen2-FM-I1B).  This MI takes a loose definition,
+that any kind of structured information is sufficient.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "The presence of hash-style, or linked data" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_I1B> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-I1B";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/I1>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "use of a formal, accessible, shared, and broadly applicable language for knowledge representation.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> "The GUID is resolved.  Any Linked Data that can be found is considered a success.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """The unambiguous communication of knowledge and meaning (what symbols are, and how they relate to one another) necessitates the use of languages that are capable of representing these concepts in a machine-readable manner.
+
+There is debate in the community about what languages would be considered \"knowledge representation languages\", as such
+this Maturity Indicator is broken into two sub-MIs (Gen2-FM-I1A and Gen2-FM-I1B).  This MI takes a strict interpretation,
+accepting only formats that are ontologically-grounded and machine-resolvable.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "The presence of linked data" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_I2A> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-I2A";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/I2>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "If the (meta)data uses vocabularies that are, themselves, FAIR";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """Any Linked Data that can be found is tested for the resolution of a subset of properties (predicates) present in it.
+Some proportion of these should resolve (the creator of the associated Maturity Test will decide what that
+proportion should be)""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """It is not possible to unambiguously interpret metadata represented as simple keywords or other non-qualified symbols. For interoperability, it must be possible to identify data that can be integrated like-with-like. This requires that the data, and the provenance descriptors of the data, should (where reasonable) use vocabularies and terminologies that are, themselves, FAIR.
+
+In this loose MI, we test only if the vocabulary terms resolve (e.g. to a human-readable page).  We do not test
+if they resolve to machine-readable information.  A second Maturity Indicator (Gen2-FM-I2B) is for that stricter test.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "Successful resolution of a proportion of predicates in Linked Data" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_I2B> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-I2B";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/I2>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "If the (meta)data uses vocabularies that are, themselves, FAIR";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """Any Linked Data that can be found after resolution of the GUID is tested for the resolution of a subset of properties (predicates) present in it.
+Some proportion of these should resolve to Linked Data via content-negotiation (the creator of the associated Maturity Test will decide what that
+proportion should be)""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> """It is not possible to unambiguously interpret metadata represented as simple keywords or other non-qualified symbols. For interoperability, it must be possible to identify data that can be integrated like-with-like. This requires that the data, and the provenance descriptors of the data, should (where reasonable) use vocabularies and terminologies that are, themselves, FAIR.
+
+In this strict Maturity Indicator, we test if the vocabulary terms resolve to machine-readable linked data. A second Maturity Indicator (Gen2-FM-I2A) is looser than this MI.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "Successful resolution of a proportion of predicates in Linked Data to more linked data" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_I3> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-I3";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/I3>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "Does the linked data metadata contain links that are not from the same source (domain/host)";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """The URI-representation of the priovided GUID is examined for its domain name.
+Any Linked Data that can be found after resolution of the GUID is parsed
+to determine the hostname of the object-resources.  A count is made of the number of objects
+that have a different domain from that of the originating host.  This Maturity Indicator could be made quantitative
+if a test wanted to be very strict.""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> "Data silos thwart interoperability. Thus, we should reasonably expect that some of the references/relations point outwards to other resources, owned by third-parties; this is one of the requirements for 5 star linked data.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "Discovery of third-party URIs as objets of triples" .
+
+<https://w3id.org/fair/maturity_indicator/terms/Gen2/Gen2_MI_R1.1> a <https://w3id.org/fair/maturity_indicator/terms/Gen2/FAIR-Maturity-Indicator>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Maturity Indicator Gen2-MI-R1.1";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <https://w3id.org/fair/principles/terms/R1.1>;
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/comments> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/examples> "";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/measuring> "A pointer in the metadata to the data license";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/procedure> """In hash-style (key/value) metadata, search for a \"license\" key.  The value may be a link or a string
+In Linked-data style metadata, search for one of the following predicates:
+http://www.w3.org/1999/xhtml/vocab""";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/rationale> "Data that does not have a license cannot (legitimately) be reused, since the conditions of that reuse are not known.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/relevance> "All";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/requirements> "The Metadata GUID.";
+  <https://w3id.org/fair/maturity_indicator/terms/Gen2/validation> "\"License\" key exists, or one of the above predicates exists, and has a resolvable URI as its value" .

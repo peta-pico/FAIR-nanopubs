@@ -16,6 +16,9 @@ fi
   echo
   echo
   cat icc.htaccess
+  echo
+  echo
+  cat maturity_indicator.htaccess
 ) \
   > htaccess
 
