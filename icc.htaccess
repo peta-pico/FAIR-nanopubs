@@ -1,5 +1,3 @@
-RewriteCond %{HTTP_ACCEPT} text/html
-RewriteRule ^icc/terms/(.+)$ https://peta-pico.github.io/FAIR-nanopubs/icc/index-en.html#https://w3id.org/fair/icc/terms/$1 [R=302,L,NE]
 RewriteRule ^icc/terms/(.+)$ https://w3id.org/fair/icc/latest/$1 [R=302,L]
 RewriteRule ^icc/np/.+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/$1 [R=302,L]
 

@@ -1,7 +1,5 @@
-RewriteCond %{HTTP_ACCEPT} text/html
-RewriteRule ^principles/terms/([^/]+)$ https://peta-pico.github.io/FAIR-nanopubs/principles/index-en.html#https://w3id.org/fair/principles/terms/$1 [R=302,L,NE]
-RewriteRule ^principles/terms/([^/]+)$ https://w3id.org/fair/principles/latest/$1 [R=302,L]
-RewriteRule ^principles/np/[^/]+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/$1 [R=302,L]
+RewriteRule ^principles/terms/(.+)$ https://w3id.org/fair/principles/latest/$1 [R=302,L]
+RewriteRule ^principles/np/.+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/$1 [R=302,L]
 
 RewriteRule ^principles/latest/FAIR-Vocabulary$ http://np.inn.ac/RAscnEDxqhJys07l4mKeNsbkwG-C_5RL_17GQRLRGu5Uo [R=302,L]
 RewriteRule ^principles/latest/FAIR$ http://np.inn.ac/RAm_hKag5obqTZQ5oP6KdK10bJpkyT9htktUIsCstHFEc [R=302,L]
