@@ -44,9 +44,9 @@ RewriteRule ^principles/latest/index$ http://np.inn.ac/RAU3d0bQabZcFpNM2n9nCCNmj
 
 
 RewriteCond %{HTTP_ACCEPT} text/html
-RewriteRule ^icc/terms/([^/]+)$ https://peta-pico.github.io/FAIR-nanopubs/icc/index-en.html#https://w3id.org/fair/icc/terms/$1 [R=302,L,NE]
-RewriteRule ^icc/terms/([^/]+)$ https://w3id.org/fair/principles/latest/$1 [R=302,L]
-RewriteRule ^icc/np/[^/]+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/$1 [R=302,L]
+RewriteRule ^icc/terms/(.+)$ https://peta-pico.github.io/FAIR-nanopubs/icc/index-en.html#https://w3id.org/fair/icc/terms/$1 [R=302,L,NE]
+RewriteRule ^icc/terms/(.+)$ https://w3id.org/fair/icc/latest/$1 [R=302,L]
+RewriteRule ^icc/np/.+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/$1 [R=302,L]
 
 RewriteRule ^icc/latest/FAIR-Principles-Explained-Working-Group$ http://np.inn.ac/RAIzJFInXhodHuHbFvQHlk4Yl1w1SkwNBjG7KSMizpwRc [R=302,L]
 RewriteRule ^icc/latest/FAIR-ICC-Model$ http://np.inn.ac/RAbU4Yae5K-MAi3KBvkjp8DcOh_j2cywK27LpLspPCNlY [R=302,L]
