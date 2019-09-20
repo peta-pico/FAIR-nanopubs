@@ -31,7 +31,7 @@
 }
 
 :provenance {
-  :assertion pav:authoredBy :authors .
+  :assertion pav:authoredBy orcid:0000-0002-4182-7560 , orcid:0000-0003-3538-0106 , orcid:0000-0001-8888-635X , orcid:0000-0003-3934-0072 , orcid:0000-0003-4818-2360 , orcid:0000-0003-2195-3997 .
 }
 
 :pubinfo {
