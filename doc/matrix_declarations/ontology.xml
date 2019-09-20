@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="https://w3id.org/fair/icc/terms/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/chosen-resource -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/chosen-resource"/>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/declared-by -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/declared-by"/>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/refers-to-choice -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/refers-to-choice"/>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/refers-to-principle -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/refers-to-principle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Choice -->
+
+
+    <Class rdf:about="https://w3id.org/fair/icc/terms/Choice"/>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/ChoiceDeclaration -->
+
+
+    <Class rdf:about="https://w3id.org/fair/icc/terms/ChoiceDeclaration"/>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Community -->
+
+
+    <Class rdf:about="https://w3id.org/fair/icc/terms/Community"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion">
+        <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Choice"/>
+        <rdfs:comment xml:lang="en">In the case that you are a researcher heavily creating data and depositing it in a repository, please, indicate the repositories you are using and which you will subsequently describe. If you are a repository manager describe your repository. Local as well domain or central repositories are in use, often these are just local servers with discs that are managed by a data manager. Please, also specify a PID that points to that repository. F4 applies: (Meta)data are registered or indexed in a searchable resource. Examples for repositories are: local (can be many), domain (can be many), generic (B2SAFE, B2SHARE, B2DROP, ZENODO, GITHUB, Dropbox, FIGSHARE, etc.)</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion"/>
+        <rdfs:label xml:lang="en">Which repositories do you use for data?</rdfs:label>
+        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer">
+        <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/ChoiceDeclaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion_FoodSystemsIN_answer"/>
+        <rdfs:label xml:lang="en">Food System IN uses CIRAD Dataverse</rdfs:label>
+        <terms:chosen-resource rdf:resource="https://dataverse.cirad.fr/"/>
+        <terms:declared-by rdf:resource="https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN"/>
+        <terms:refers-to-choice rdf:resource="https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN">
+        <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Community"/>
+        <rdfs:comment xml:lang="en">GO FAIR Implementation Network to advance a global data ecosystem for agriculture and food by implementing FAIR data and services.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/matrix_declarations/latest/FoodSystemsIN"/>
+        <rdfs:label xml:lang="en">Food System IN</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.go-fair.org/implementation-networks/overview/food-systems/"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+
