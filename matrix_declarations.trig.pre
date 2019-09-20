@@ -1,6 +1,8 @@
 # Use this file (with '.pre' extension) for editing. The respective file
 # without that extension is automatically generated.
 
+# Question definitions:
+
 @prefix : <https://w3id.org/fair/matrix_declarations/np/DataRepositoryQuestion/> .
 @prefix latest: <https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion> .
 @prefix md: <https://w3id.org/fair/matrix_declarations/terms/> .
@@ -35,7 +37,49 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T11:08:51.074+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T11:22:38.329+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+# Community definitions:
+
+@prefix : <https://w3id.org/fair/matrix_declarations/np/FoodSystemsIN/> .
+@prefix latest: <https://w3id.org/fair/matrix_declarations/latest/FoodSystemsIN> .
+@prefix md: <https://w3id.org/fair/matrix_declarations/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  md:FoodSystemsIN a icc:Community ;
+    rdfs:label "Food System IN"@en ;
+    rdfs:comment "GO FAIR Implementation Network to advance a global data ecosystem for agriculture and food by implementing FAIR data and services."@en ;
+    rdfs:isDefinedBy latest: ;
+    rdfs:seeAlso <https://www.go-fair.org/implementation-networks/overview/food-systems/> .
+}
+
+:provenance {
+  :assertion pav:authoredBy md:FoodSystemsIN .
+}
+
+:pubinfo {
+  : dct:created "2019-09-20T11:22:38.329+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
