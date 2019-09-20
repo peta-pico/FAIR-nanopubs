@@ -544,8 +544,8 @@ sub:pubinfo {
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RA1zWScFnnIYue5M01cEIAZl5QqOSxyR77G48U0pmq9Dk> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RA1zWScFnnIYue5M01cEIAZl5QqOSxyR77G48U0pmq9Dk#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RANVflq0GfQyFlxlL7HkE6H7c952RrHhPAPbDv3AQrFVE> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RANVflq0GfQyFlxlL7HkE6H7c952RrHhPAPbDv3AQrFVE#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/implementation-considerations> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -577,7 +577,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-20T14:51:19.009+02:00"^^xsd:dateTime;
+  this: dct:created "2019-09-20T14:56:45.277+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -586,8 +586,8 @@ sub:pubinfo {
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RAWi-JcomlR_Ayt-NtkFwLg2CRNqfnXpbPMbuXKVR2DTU> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RAWi-JcomlR_Ayt-NtkFwLg2CRNqfnXpbPMbuXKVR2DTU#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RAvgi7vg-JsZ5Aw-EetxxcXqGPQFblIMf1BY8h9h6TZYw> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RAvgi7vg-JsZ5Aw-EetxxcXqGPQFblIMf1BY8h9h6TZYw#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/implementation-examples> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -619,7 +619,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-20T14:51:19.009+02:00"^^xsd:dateTime;
+  this: dct:created "2019-09-20T14:56:45.277+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -930,8 +930,8 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
-@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAGSwbcnq4QBaJJ9BWps3UhCfZAUroIfnJFcbe6ihkwUA> .
-@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAGSwbcnq4QBaJJ9BWps3UhCfZAUroIfnJFcbe6ihkwUA#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAageviixhfRyA5t9RCbpuBmz-xJb4nyW27RDpXVJy3w0> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAageviixhfRyA5t9RCbpuBmz-xJb4nyW27RDpXVJy3w0#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F1-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -941,6 +941,7 @@ sub:pubinfo {
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
 
 sub:Head {
   this: np:hasAssertion sub:assertion;
@@ -954,6 +955,8 @@ sub:assertion {
     rdfs:comment "Principle F1 states that digital resources, i.e. data and metadata, must be assigned a globally unique and persistent identifier in order to be found and resolved by computers. This is the most fundamental of the FAIR principles, as globally unique and persistent identifiers are essential elements found in all of the other FAIR principles. Globally unique means that the identifier is guaranteed to unambiguously refer to exactly one resource in the world. Therefore, it is insufficient for it to be unique only locally (e.g. unique within a single, local database). Persistence refers to the requirement that this globally unique identifier is never reused in another context, and continues to identify the same resource, even if that resource no longer exists, or moves. In practice, this often involves using a third-party to generate an identifier that has guaranteed longevity and is project/organization-independent.";
     rdfs:isDefinedBy latest:;
     rdfs:label "F1 Explanation";
+    rdfs:seeAlso dbpedia:Digital_object_identifier, <https://doi.org/10.1371/journal.pbio.2001414>,
+      <https://doi.org/10.5281/zenodo.3267434>;
     icc:explains-principle fair:F1;
     icc:implementation-considerations "Current challenges relate to ensuring the longevity of identifiers - in particular, that identifiers created by a project/community should survive the termination of the project or the dissolution of the community. Obtaining a persistent identifier, therefore, may require reliance on a third-party organization that promises longevity, and maintains these identifiers independently of the project/community. Current choices are for each community to choose, for all appropriate digital resources (i.e. data and metadata), identifier registration service(s) such as these that ensure global uniqueness and that also comply with the community-defined criteria for identifier persistence and resolvability.";
     icc:implementation-examples "A common example of a useful identifier is the Digital Object Identifier (DOI) which is guaranteed by the DOI specification to be globally unique and persistent. DOIs provide an additional service, under principle A1, of being able to direct calls to the source data to the location of that data, even if the identified data moves. This ensures that identifiers are stable and valid beyond the project that generated them. In some circumstances, again with DOIs being an example, third-party persistent identifiers may also provide support for principle A2 (that metadata exists beyond the lifespan of the data) since these identifiers may still be responsive to Web calls, and be capable of providing metadata, even if the source resource is no longer active. For a discussion on identifiers see doi:10.1371/journal.pbio.2001414 and doi:10.5281/zenodo.3267434 ." .
@@ -964,7 +967,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-20T14:51:19.009+02:00"^^xsd:dateTime;
+  this: dct:created "2019-09-20T14:56:45.277+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/F1-Explanation/RA1HikSxbrsdMhHF5_TTqnKpd4eQ3RGoHDW-NL4JiPch8> .
