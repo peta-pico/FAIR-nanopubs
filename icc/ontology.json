@@ -1,9 +1,15 @@
 [ {
   "@id" : "http://dbpedia.org/resource/Data_Documentation_Initiative",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Documentation Initiative"
+  } ]
 }, {
   "@id" : "http://dbpedia.org/resource/Digital_object_identifier",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Digital object identifier"
+  } ]
 }, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -36,22 +42,40 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "https://doi.org/10.1038/s41587-019-0080-8",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sansone et al. 2019"
+  } ]
 }, {
   "@id" : "https://doi.org/10.1371/journal.pbio.2001414",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "McMurry et al. 2017"
+  } ]
 }, {
   "@id" : "https://doi.org/10.25504/FAIRsharing.1t5ws6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Documentation Initiative on FAIRsharing"
+  } ]
 }, {
   "@id" : "https://doi.org/10.5281/zenodo.3267434",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Juty et al. 2019"
+  } ]
 }, {
   "@id" : "https://fairsharing.org/FAIRsharing.s248mf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "W3C HCLS Dataset Description on FAIRsharing"
+  } ]
 }, {
   "@id" : "https://fairsharing.org/standards/",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FAIRsharing"
+  } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-5306-5690",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -489,7 +513,7 @@
     "@id" : "https://w3id.org/fair/icc/latest/F1-Explanation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "F1 Explanation"
+    "@value" : "Explanation of FAIR principle F1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@id" : "http://dbpedia.org/resource/Digital_object_identifier"
@@ -517,7 +541,7 @@
     "@id" : "https://w3id.org/fair/icc/latest/F2-Explanation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "F2 Explanation"
+    "@value" : "Explanation of FAIR principle F2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@id" : "http://dbpedia.org/resource/Data_Documentation_Initiative"
@@ -892,7 +916,10 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/F2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "F2"
+  } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
