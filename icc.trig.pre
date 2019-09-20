@@ -119,7 +119,7 @@
 :pubinfo {
   : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
-    dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime .
+    dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime .
 }
 
 
@@ -166,7 +166,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -208,7 +208,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -248,7 +248,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -288,7 +288,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -328,7 +328,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -368,7 +368,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -408,7 +408,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -448,7 +448,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -488,7 +488,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -522,7 +522,7 @@
   icc:explains-principle rdfs:label "explains principle"@en ;
     a rdf:Property ;
     rdfs:domain icc:Explanation ;
-    rdfs:range fair:FAIR-Principle-or-SubPrinciple ;  # TODO
+    rdfs:range fair:FAIR-Principle-or-SubPrinciple ;
     skos:definition "Links an explanation to the FAIR (sub)principle it explains"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -532,7 +532,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -574,7 +574,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -616,7 +616,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -657,7 +657,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -699,7 +699,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -741,7 +741,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -783,7 +783,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -825,7 +825,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -867,7 +867,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -909,7 +909,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -941,7 +941,7 @@
 }
 
 :assertion {
-  icc:F1-Explanation rdfs:label "F1 Explanation" ;
+  icc:F1-Explanation rdfs:label "Explanation of FAIR principle F1" ;
     a icc:Explanation ;
     icc:explains-principle fair:F1 ;
     rdfs:comment "Principle F1 states that digital resources, i.e. data and metadata, must be assigned a globally unique and persistent identifier in order to be found and resolved by computers. This is the most fundamental of the FAIR principles, as globally unique and persistent identifiers are essential elements found in all of the other FAIR principles. Globally unique means that the identifier is guaranteed to unambiguously refer to exactly one resource in the world. Therefore, it is insufficient for it to be unique only locally (e.g. unique within a single, local database). Persistence refers to the requirement that this globally unique identifier is never reused in another context, and continues to identify the same resource, even if that resource no longer exists, or moves. In practice, this often involves using a third-party to generate an identifier that has guaranteed longevity and is project/organization-independent." ;
@@ -951,6 +951,11 @@
     rdfs:seeAlso <https://doi.org/10.5281/zenodo.3267434> ;
     rdfs:seeAlso dbpedia:Digital_object_identifier ;
     rdfs:isDefinedBy latest: .
+
+  fair:F1 rdfs:label "F1" .
+  <https://doi.org/10.1371/journal.pbio.2001414> rdfs:label "McMurry et al. 2017" .
+  <https://doi.org/10.5281/zenodo.3267434> rdfs:label "Juty et al. 2019" .
+  dbpedia:Digital_object_identifier rdfs:label "Digital object identifier" .
 }
 
 :provenance {
@@ -958,7 +963,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -990,7 +995,7 @@
 }
 
 :assertion {
-  icc:F2-Explanation rdfs:label "F2 Explanation" ;
+  icc:F2-Explanation rdfs:label "Explanation of FAIR principle F2" ;
     a icc:Explanation ;
     icc:explains-principle fair:F2 ;
     rdfs:comment "Whereas principle F1 enables unambiguous identification of resources of interest, principle F2 speaks to the ability to discover a resource of interest through, for example, search or filtering. Digital resources must be described with rich metadata - descriptors of the content of the resource referred to by that identifier. It is hard to generally define the minimally required 'richness' of this metadata, except that the more generous it is, both for humans and computers, the more specifically findable it becomes in refined searches. While other principles speak to the specific kinds of metadata that should be included, principle F2 simply says that a digital resource that is not well-described cannot be accurately discovered. Thus, this principle encourages data providers to consider the various facets of search that might be employed by a user of their data, and to support those users in their discovery of the resource. To enable both global and local search engines to locate a resource, generic and domain-specific descriptors should be provided." ;
@@ -1003,6 +1008,14 @@
     rdfs:seeAlso <https://doi.org/10.1038/s41587-019-0080-8> ;
     rdfs:seeAlso dbpedia:Data_Documentation_Initiative ;
     rdfs:isDefinedBy latest: .
+
+  fair:F2 rdfs:label "F2" .
+  <https://fairsharing.org/standards/> rdfs:label "FAIRsharing" .
+  <https://doi.org/10.25504/FAIRsharing.1t5ws6> rdfs:label "Data Documentation Initiative on FAIRsharing" .
+  <https://fairsharing.org/FAIRsharing.s248mf> rdfs:label "W3C HCLS Dataset Description on FAIRsharing" .
+  <https://doi.org/10.5281/zenodo.3267434> rdfs:label "Juty et al. 2019" .
+  <https://doi.org/10.1038/s41587-019-0080-8> rdfs:label "Sansone et al. 2019" .
+  dbpedia:Data_Documentation_Initiative rdfs:label "Data Documentation Initiative" .
 }
 
 :provenance {
@@ -1010,7 +1023,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1053,7 +1066,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1096,7 +1109,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1140,7 +1153,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1182,7 +1195,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1223,7 +1236,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T16:19:32.368+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
