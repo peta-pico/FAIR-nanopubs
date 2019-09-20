@@ -244,7 +244,11 @@ This section provides details for each class and property defined by FAIR Implem
          <dd>
             <a href="#https://w3id.org/fair/icc/terms/explains-principle"
                title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
-            <sup class="type-op" title="object property">op</sup>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+               title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+               title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+            <sup class="type-dp" title="data property">dp</sup>
          </dd>
          <dt>has members</dt>
          <dd>
@@ -575,6 +579,70 @@ This section provides details for each class and property defined by FAIR Implem
             <dt>has range</dt>
             <dd>
                <a href="#https://w3id.org/fair/icc/terms/Challenge" title="https://w3id.org/fair/icc/terms/Challenge">Challenge</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+            title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+            title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/implementation-considerations">
+      <h3>implementation consideration<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/implementation-considerations</p>
+      <div class="comment">
+         <span class="markdown">Explains considerations for communities who are about to implement the given principle.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/implementation-considerations">https://w3id.org/fair/icc/latest/implementation-considerations</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/implementation-examples">
+      <h3>implementation examples<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/implementation-examples</p>
+      <div class="comment">
+         <span class="markdown">Describes examples around the implementation of the given principle.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/implementation-examples">https://w3id.org/fair/icc/latest/implementation-examples</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -1024,7 +1092,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/icc/terms/F1-Explanation</p>
       <div class="comment">
-         <span class="markdown">Principle F1 states that resources, i.e. data and metadata, should be assigned a globally unique and persistent identifier (GUPID). ...</span>
+         <span class="markdown">Principle F1 states that digital resources, i.e. data and metadata, must be assigned a globally unique and persistent identifier in order to be found and resolved by computers. This is the most fundamental of the FAIR principles, as globally unique and persistent identifiers are essential elements found in all of the other FAIR principles. Globally unique means that the identifier is guaranteed to unambiguously refer to exactly one resource in the world. Therefore, it is insufficient for it to be unique only locally (e.g. unique within a single, local database). Persistence refers to the requirement that this globally unique identifier is never reused in another context, and continues to identify the same resource, even if that resource no longer exists, or moves. In practice, this often involves using a third-party to generate an identifier that has guaranteed longevity and is project/organization-independent.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1044,6 +1112,18 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/fair/principles/terms/F1" title="https://w3id.org/fair/principles/terms/F1">F1</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+               title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Current challenges relate to ensuring the longevity of identifiers - in particular, that identifiers created by a project/community should survive the termination of the project or the dissolution of the community. Obtaining a persistent identifier, therefore, may require reliance on a third-party organization that promises longevity, and maintains these identifiers independently of the project/community. Current choices are for each community to choose, for all appropriate digital resources (i.e. data and metadata), identifier registration service(s) such as these that ensure global uniqueness and that also comply with the community-defined criteria for identifier persistence and resolvability."</span>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+               title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"A common example of a useful identifier is the Digital Object Identifier (DOI) which is guaranteed by the DOI specification to be globally unique and persistent. DOIs provide an additional service, under principle A1, of being able to direct calls to the source data to the location of that data, even if the identified data moves. This ensures that identifiers are stable and valid beyond the project that generated them. In some circumstances, again with DOIs being an example, third-party persistent identifiers may also provide support for principle A2 (that metadata exists beyond the lifespan of the data) since these identifiers may still be responsive to Web calls, and be capable of providing metadata, even if the source resource is no longer active. For a discussion on identifiers see doi:10.1371/journal.pbio.2001414 and doi:10.5281/zenodo.3267434 ."</span>
          </dd>
       </dl>
    </div>

@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/icc/np/index/RAkKOWACURW9lBgiJDnvpFHtgQkGq4J0Y6qr3PiuMk43g> .
-@prefix sub: <https://w3id.org/fair/icc/np/index/RAkKOWACURW9lBgiJDnvpFHtgQkGq4J0Y6qr3PiuMk43g#> .
+@prefix this: <https://w3id.org/fair/icc/np/index/RAR_Ip4AJLgvqTUy3QWxWX7idGK_sglGD7C1INZQSKX-4> .
+@prefix sub: <https://w3id.org/fair/icc/np/index/RAR_Ip4AJLgvqTUy3QWxWX7idGK_sglGD7C1INZQSKX-4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -27,7 +27,7 @@ sub:assertion {
       <https://w3id.org/fair/icc/np/Explanation/RAfw5xlEcBm3FDe9hY_QYnT0jXMd5i-x8Nx6dMlVDAbyY>,
       <https://w3id.org/fair/icc/np/F1-Challenge-1/RA7sfcu2Oe8Hefn90TlUVHV2QiWMFB-ss-yVZDbX5Goxs>,
       <https://w3id.org/fair/icc/np/F1-Choice/RA-KyfTO38WCxHdmW_Tdk-Gs8gSSEJbPi2W-L2_8K2xEw>,
-      <https://w3id.org/fair/icc/np/F1-Explanation/RA1HikSxbrsdMhHF5_TTqnKpd4eQ3RGoHDW-NL4JiPch8>,
+      <https://w3id.org/fair/icc/np/F1-Explanation/RAGSwbcnq4QBaJJ9BWps3UhCfZAUroIfnJFcbe6ihkwUA>,
       <https://w3id.org/fair/icc/np/FAIR-ICC-Model/RAbU4Yae5K-MAi3KBvkjp8DcOh_j2cywK27LpLspPCNlY>,
       <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/RAIzJFInXhodHuHbFvQHlk4Yl1w1SkwNBjG7KSMizpwRc>,
       <https://w3id.org/fair/icc/np/Resource/RANrdR2CMwS5rGlF9AWG_8t5jDYcGSY8hknNFAfPHRcRo>,
@@ -35,6 +35,8 @@ sub:assertion {
       <https://w3id.org/fair/icc/np/declared-by/RAGRRxttAbn9-N_mD_PWa5gmY9Vh1jHqmJYGwsNmKp9fY>,
       <https://w3id.org/fair/icc/np/explains-principle/RAOxu4DFDTIDQ4hVvU90X1oVtFNs5zPamj34tQ-JjIscY>,
       <https://w3id.org/fair/icc/np/had-challenge/RAiKyrP13PsI8aqqXc9N3SJwDwoaJSVpV_FqZwlNsLVS4>,
+      <https://w3id.org/fair/icc/np/implementation-considerations/RA1zWScFnnIYue5M01cEIAZl5QqOSxyR77G48U0pmq9Dk>,
+      <https://w3id.org/fair/icc/np/implementation-examples/RAWi-JcomlR_Ayt-NtkFwLg2CRNqfnXpbPMbuXKVR2DTU>,
       <https://w3id.org/fair/icc/np/refers-to-challenge/RAyy5rB_wWeroxG9R0H9AnVydd8xCFHTSpginMrG_C_JQ>,
       <https://w3id.org/fair/icc/np/refers-to-choice/RAqsUQjgI2F6RJ5UeLUzet0O10FdoBbyDJ_g-kguBsGgI>,
       <https://w3id.org/fair/icc/np/refers-to-principle/RAzJwYsHzF1gVM8isfFA31ewMPC8lDg87iu1OUntrxBuk>,
@@ -47,8 +49,9 @@ sub:provenance {
 
 sub:pubinfo {
   this: dce:title "Nanopublications representing the FAIR Implementation Choices and Challenges Model";
-    dct:created "2019-07-26T13:27:48.839+02:00"^^xsd:dateTime;
+    dct:created "2019-09-20T14:51:21.382+02:00"^^xsd:dateTime;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:supersedes <https://w3id.org/fair/icc/np/index/RAkKOWACURW9lBgiJDnvpFHtgQkGq4J0Y6qr3PiuMk43g>;
     pav:createdBy <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
       <https://orcid.org/0000-0003-4818-2360>;
     a npx:NanopubIndex .
