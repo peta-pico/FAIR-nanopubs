@@ -256,6 +256,7 @@ This section provides details for each class and property defined by FAIR Implem
             <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/icc/terms/A1.1-Explanation" title="https://w3id.org/fair/icc/terms/A1.1-Explanation">A1.1 Explanation</a>
             <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/icc/terms/A1.2-Explanation" title="https://w3id.org/fair/icc/terms/A1.2-Explanation">A1.2 Explanation</a>
             <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/icc/terms/F1-Explanation" title="https://w3id.org/fair/icc/terms/F1-Explanation">F1 Explanation</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/icc/terms/F2-Explanation" title="https://w3id.org/fair/icc/terms/F2-Explanation">F2 Explanation</a>
             <sup class="type-ni" title="named individual">ni</sup>
          </dd>
       </dl>
@@ -715,6 +716,9 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#https://w3id.org/fair/icc/terms/F1-Explanation" title="https://w3id.org/fair/icc/terms/F1-Explanation">F1 Explanation</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/icc/terms/F2-Explanation" title="https://w3id.org/fair/icc/terms/F2-Explanation">F2 Explanation</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group"
             title="https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group">FAIR Principles Explained Working Group</a>
       </li>
@@ -1124,6 +1128,49 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="literal">"A common example of a useful identifier is the Digital Object Identifier (DOI) which is guaranteed by the DOI specification to be globally unique and persistent. DOIs provide an additional service, under principle A1, of being able to direct calls to the source data to the location of that data, even if the identified data moves. This ensures that identifiers are stable and valid beyond the project that generated them. In some circumstances, again with DOIs being an example, third-party persistent identifiers may also provide support for principle A2 (that metadata exists beyond the lifespan of the data) since these identifiers may still be responsive to Web calls, and be capable of providing metadata, even if the source resource is no longer active. For a discussion on identifiers see doi:10.1371/journal.pbio.2001414 and doi:10.5281/zenodo.3267434 ."</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/F2-Explanation">
+      <h3>F2 Explanation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/F2-Explanation</p>
+      <div class="comment">
+         <span class="markdown">Whereas principle F1 enables unambiguous identification of resources of interest, principle F2 speaks to the ability to discover a resource of interest through, for example, search or filtering. Digital resources must be described with rich metadata - descriptors of the content of the resource referred to by that identifier. It is hard to generally define the minimally required 'richness' of this metadata, except that the more generous it is, both for humans and computers, the more specifically findable it becomes in refined searches. While other principles speak to the specific kinds of metadata that should be included, principle F2 simply says that a digital resource that is not well-described cannot be accurately discovered. Thus, this principle encourages data providers to consider the various facets of search that might be employed by a user of their data, and to support those users in their discovery of the resource. To enable both global and local search engines to locate a resource, generic and domain-specific descriptors should be provided.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/F2-Explanation">https://w3id.org/fair/icc/latest/F2-Explanation</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+               title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted" title="https://w3id.org/fair/principles/terms/F2">f2</span>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+               title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"It is a challenge for each domain-specific community to define their own metadata descriptors necessary for optimizing findability. The minimal ‘richness’ of the metadata should be defined so that it serves its intended purpose and should also be guided by the requirements of the other FAIR principles. This then poses a challenge to each community to create machine-actionable templates that facilitate capturing uniform and harmonized metadata about similar data resources among all community stakeholders, and to provide a means to ensure that this metadata is updated and curated (doi:10.5281/zenodo.3267434)."</span>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+               title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Examples of metadata schemata can be found in FAIRsharing (https://fairsharing.org/standards/, doi:10.1038/s41587-019-0080-8, [McQuilton et al. Data Intell. DI-2019-0028, 2019]) and include for instance the Data Documentation Initiative (DDI) (https://doi.org/10.25504/FAIRsharing.1t5ws6), the HCLS Dataset Descriptors (https://fairsharing.org/FAIRsharing.s248mf), and many domain-specific “minimal information” models that have been invented."</span>
          </dd>
       </dl>
    </div>
