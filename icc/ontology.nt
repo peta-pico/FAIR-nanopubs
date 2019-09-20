@@ -48,6 +48,9 @@
 # #################################################################
 # 
 # 
+# http://www.w3.org/2000/01/rdf-schema#seeAlso
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
 # http://xmlns.com/foaf/0.1/member
 <http://xmlns.com/foaf/0.1/member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
@@ -212,6 +215,30 @@
 # #################################################################
 # 
 # 
+# http://dbpedia.org/resource/Data_Documentation_Initiative
+<http://dbpedia.org/resource/Data_Documentation_Initiative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://dbpedia.org/resource/Digital_object_identifier
+<http://dbpedia.org/resource/Digital_object_identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://doi.org/10.1038/s41587-019-0080-8
+<https://doi.org/10.1038/s41587-019-0080-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://doi.org/10.1371/journal.pbio.2001414
+<https://doi.org/10.1371/journal.pbio.2001414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://doi.org/10.25504/FAIRsharing.1t5ws6
+<https://doi.org/10.25504/FAIRsharing.1t5ws6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://doi.org/10.5281/zenodo.3267434
+<https://doi.org/10.5281/zenodo.3267434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://fairsharing.org/FAIRsharing.s248mf
+<https://fairsharing.org/FAIRsharing.s248mf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://fairsharing.org/standards/
+<https://fairsharing.org/standards/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
 # https://orcid.org/0000-0001-5306-5690
 <https://orcid.org/0000-0001-5306-5690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0001-5306-5690> <http://www.w3.org/2000/01/rdf-schema#label> "Susanna-Assunta Sansone" .
@@ -371,16 +398,17 @@
 # https://w3id.org/fair/icc/terms/A1-Explanation
 <https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/Explanation> .
+<https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/A1.1-Explanation> .
+<https://w3id.org/fair/icc/terms/A1.1-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/A1.2-Explanation> .
+<https://w3id.org/fair/icc/terms/A1.2-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/A1-Explanation> <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1> .
 <https://w3id.org/fair/principles/terms/A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/2000/01/rdf-schema#comment> "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ..." .
 <https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/A1-Explanation> .
 <https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/2000/01/rdf-schema#label> "A1 Explanation" .
-<https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/A1.1-Explanation> .
-<https://w3id.org/fair/icc/terms/A1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/A1.2-Explanation> .
 # 
 # https://w3id.org/fair/icc/terms/A1.1-Explanation
-<https://w3id.org/fair/icc/terms/A1.1-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/A1.1-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/Explanation> .
 <https://w3id.org/fair/icc/terms/A1.1-Explanation> <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1.1> .
 <https://w3id.org/fair/principles/terms/A1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -389,7 +417,6 @@
 <https://w3id.org/fair/icc/terms/A1.1-Explanation> <http://www.w3.org/2000/01/rdf-schema#label> "A1.1 Explanation" .
 # 
 # https://w3id.org/fair/icc/terms/A1.2-Explanation
-<https://w3id.org/fair/icc/terms/A1.2-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/A1.2-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/Explanation> .
 <https://w3id.org/fair/icc/terms/A1.2-Explanation> <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A1.2> .
 <https://w3id.org/fair/principles/terms/A1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -400,39 +427,45 @@
 # https://w3id.org/fair/icc/terms/F1-Challenge-1
 <https://w3id.org/fair/icc/terms/F1-Challenge-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/F1-Challenge-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/Challenge> .
+<https://w3id.org/fair/icc/terms/F1-Challenge-1> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/F1-Explanation> .
+<https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/F1-Challenge-1> <https://w3id.org/fair/icc/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F1> .
 <https://w3id.org/fair/principles/terms/F1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/F1-Challenge-1> <http://www.w3.org/2000/01/rdf-schema#comment> "The community should define identifier registration service(s) that ensure global uniqueness for its digital resources." .
 <https://w3id.org/fair/icc/terms/F1-Challenge-1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/F1-Challenge-1> .
 <https://w3id.org/fair/icc/terms/F1-Challenge-1> <http://www.w3.org/2000/01/rdf-schema#label> "F1 Challenge 1" .
-<https://w3id.org/fair/icc/terms/F1-Challenge-1> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/F1-Explanation> .
 # 
 # https://w3id.org/fair/icc/terms/F1-Choice
 <https://w3id.org/fair/icc/terms/F1-Choice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/F1-Choice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/Choice> .
+<https://w3id.org/fair/icc/terms/F1-Choice> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/F1-Explanation> .
 <https://w3id.org/fair/icc/terms/F1-Choice> <https://w3id.org/fair/icc/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F1> .
 <https://w3id.org/fair/icc/terms/F1-Choice> <https://w3id.org/fair/icc/terms/related-challenge> <https://w3id.org/fair/icc/terms/F1-Challenge-1> .
 <https://w3id.org/fair/icc/terms/F1-Choice> <http://www.w3.org/2000/01/rdf-schema#comment> "The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources." .
 <https://w3id.org/fair/icc/terms/F1-Choice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/F1-Choice> .
 <https://w3id.org/fair/icc/terms/F1-Choice> <http://www.w3.org/2000/01/rdf-schema#label> "F1 Choice" .
-<https://w3id.org/fair/icc/terms/F1-Choice> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/icc/terms/F1-Explanation> .
 # 
 # https://w3id.org/fair/icc/terms/F1-Explanation
-<https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/Explanation> .
+<https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Digital_object_identifier> .
+<https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.1371/journal.pbio.2001414> .
+<https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.5281/zenodo.3267434> .
 <https://w3id.org/fair/icc/terms/F1-Explanation> <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/F1> .
 <https://w3id.org/fair/icc/terms/F1-Explanation> <https://w3id.org/fair/icc/terms/implementation-considerations> "Current challenges relate to ensuring the longevity of identifiers - in particular, that identifiers created by a project/community should survive the termination of the project or the dissolution of the community. Obtaining a persistent identifier, therefore, may require reliance on a third-party organization that promises longevity, and maintains these identifiers independently of the project/community. Current choices are for each community to choose, for all appropriate digital resources (i.e. data and metadata), identifier registration service(s) such as these that ensure global uniqueness and that also comply with the community-defined criteria for identifier persistence and resolvability." .
 <https://w3id.org/fair/icc/terms/F1-Explanation> <https://w3id.org/fair/icc/terms/implementation-examples> "A common example of a useful identifier is the Digital Object Identifier (DOI) which is guaranteed by the DOI specification to be globally unique and persistent. DOIs provide an additional service, under principle A1, of being able to direct calls to the source data to the location of that data, even if the identified data moves. This ensures that identifiers are stable and valid beyond the project that generated them. In some circumstances, again with DOIs being an example, third-party persistent identifiers may also provide support for principle A2 (that metadata exists beyond the lifespan of the data) since these identifiers may still be responsive to Web calls, and be capable of providing metadata, even if the source resource is no longer active. For a discussion on identifiers see doi:10.1371/journal.pbio.2001414 and doi:10.5281/zenodo.3267434 ." .
 <https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#comment> "Principle F1 states that digital resources, i.e. data and metadata, must be assigned a globally unique and persistent identifier in order to be found and resolved by computers. This is the most fundamental of the FAIR principles, as globally unique and persistent identifiers are essential elements found in all of the other FAIR principles. Globally unique means that the identifier is guaranteed to unambiguously refer to exactly one resource in the world. Therefore, it is insufficient for it to be unique only locally (e.g. unique within a single, local database). Persistence refers to the requirement that this globally unique identifier is never reused in another context, and continues to identify the same resource, even if that resource no longer exists, or moves. In practice, this often involves using a third-party to generate an identifier that has guaranteed longevity and is project/organization-independent." .
 <https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/F1-Explanation> .
 <https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#label> "F1 Explanation" .
-<https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Digital_object_identifier> .
-<https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.1371/journal.pbio.2001414> .
-<https://w3id.org/fair/icc/terms/F1-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.5281/zenodo.3267434> .
 # 
 # https://w3id.org/fair/icc/terms/F2-Explanation
 <https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/Explanation> .
+<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Data_Documentation_Initiative> .
+<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.1038/s41587-019-0080-8> .
+<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.25504/FAIRsharing.1t5ws6> .
+<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.5281/zenodo.3267434> .
+<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fairsharing.org/FAIRsharing.s248mf> .
+<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fairsharing.org/standards/> .
 <https://w3id.org/fair/icc/terms/F2-Explanation> <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/F2> .
 <https://w3id.org/fair/principles/terms/F2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/icc/terms/F2-Explanation> <https://w3id.org/fair/icc/terms/implementation-considerations> "It is a challenge for each domain-specific community to define their own metadata descriptors necessary for optimizing findability. The minimal ‘richness’ of the metadata should be defined so that it serves its intended purpose and should also be guided by the requirements of the other FAIR principles. This then poses a challenge to each community to create machine-actionable templates that facilitate capturing uniform and harmonized metadata about similar data resources among all community stakeholders, and to provide a means to ensure that this metadata is updated and curated (doi:10.5281/zenodo.3267434)." .
@@ -440,12 +473,6 @@
 <https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#comment> "Whereas principle F1 enables unambiguous identification of resources of interest, principle F2 speaks to the ability to discover a resource of interest through, for example, search or filtering. Digital resources must be described with rich metadata - descriptors of the content of the resource referred to by that identifier. It is hard to generally define the minimally required 'richness' of this metadata, except that the more generous it is, both for humans and computers, the more specifically findable it becomes in refined searches. While other principles speak to the specific kinds of metadata that should be included, principle F2 simply says that a digital resource that is not well-described cannot be accurately discovered. Thus, this principle encourages data providers to consider the various facets of search that might be employed by a user of their data, and to support those users in their discovery of the resource. To enable both global and local search engines to locate a resource, generic and domain-specific descriptors should be provided." .
 <https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/F2-Explanation> .
 <https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#label> "F2 Explanation" .
-<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Data_Documentation_Initiative> .
-<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.1038/s41587-019-0080-8> .
-<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.25504/FAIRsharing.1t5ws6> .
-<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.5281/zenodo.3267434> .
-<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fairsharing.org/FAIRsharing.s248mf> .
-<https://w3id.org/fair/icc/terms/F2-Explanation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fairsharing.org/standards/> .
 # 
 # https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group
 <https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
