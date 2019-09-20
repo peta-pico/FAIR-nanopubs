@@ -464,6 +464,13 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "F1 Explanation"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://dbpedia.org/resource/Digital_object_identifier"
+  }, {
+    "@id" : "https://doi.org/10.1371/journal.pbio.2001414"
+  }, {
+    "@id" : "https://doi.org/10.5281/zenodo.3267434"
+  } ],
   "https://w3id.org/fair/icc/terms/explains-principle" : [ {
     "@id" : "https://w3id.org/fair/principles/terms/F1"
   } ],
