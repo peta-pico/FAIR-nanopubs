@@ -1,6 +1,5 @@
 RewriteRule ^matrix_declarations/terms/(.+)$ https://w3id.org/fair/matrix_declarations/latest/$1 [R=302,L]
 RewriteRule ^matrix_declarations/np/.+/(RA[A-Za-z0-9_\-]{43})$ http://np.inn.ac/$1 [R=302,L]
 
-RewriteRule ^matrix_declarations/latest/DataRepositoryQuestion$ http://np.inn.ac/RABznxJo33BgucrKiakd0GBiWvRpMg8oJfonCv_w3P-yo [R=302,L]
-RewriteRule ^matrix_declarations/latest/FoodSystemsIN$ http://np.inn.ac/RAaE-8w_JrVSrPr4NTTdzjs2pXSwldNxYPh-98u-XaT9w [R=302,L]
-RewriteRule ^matrix_declarations/latest/DataRepositoryQuestion_FoodSystemsIN_answer$ http://np.inn.ac/RAo7JTujNuC4YQvibOAzHIoLPd5jh2Vdu_Hlp5e329KFU [R=302,L]
+RewriteRule ^matrix_declarations/latest/FoodSystemsIN$ http://np.inn.ac/RAUNzmUDe1pFEH1DvpthE0gJFMgK_vgDk-qlJI6x9Azmk [R=302,L]
+RewriteRule ^matrix_declarations/latest/DataRepositoryQuestion_FoodSystemsIN_answer$ http://np.inn.ac/RAWBKNdM1eXu3kTGlrP1cyORc30NYLVdyjTNoGeI9KRkQ [R=302,L]

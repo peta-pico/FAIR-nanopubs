@@ -1,0 +1,1525 @@
+@prefix this: <https://w3id.org/fair/matrix_questions/np/DataRepositoryQuestion/RAIhWUA20vhL2b6KDzhIocsID_nXR0mRoEM6Xss6h6xPE> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/DataRepositoryQuestion/RAIhWUA20vhL2b6KDzhIocsID_nXR0mRoEM6Xss6h6xPE#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/DataRepositoryQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:DataRepositoryQuestion a icc:Choice;
+    rdfs:comment """In the case that you are a researcher heavily creating data and depositing it in a repository, please, indicate the repositories you are using and which you will subsequently describe. If you are a repository manager describe your repository. Local as well domain or central repositories are in use, often these are just local servers with discs that are managed by a data manager. Please, also specify a PID that points to that repository.
+
+F4 applies: (Meta)data are registered or indexed in a searchable resource.
+Examples for repositories are: local (can be many), domain (can be many), generic (B2SAFE, B2SHARE, B2DROP, ZENODO, GITHUB, Dropbox, FIGSHARE, etc.)"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which repositories do you use for data?"@en;
+    icc:refers-to-principle fair:F4 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/DataRepositorySoftwareQuestion/RA_UjgI3rGvIUMkGihTv7CtQgWcbcthLEzJagjP6_6aaQ> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/DataRepositorySoftwareQuestion/RA_UjgI3rGvIUMkGihTv7CtQgWcbcthLEzJagjP6_6aaQ#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/DataRepositorySoftwareQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:DataRepositorySoftwareQuestion a icc:Choice;
+    rdfs:comment """Often the repositories use specific software to manage the data. Some are widely used packages, others are specific home-made dvelopments.
+
+F4 applies: (Meta)data are registered or indexed in a searchable resource.
+Examples for typical repository software packages are: D-SPace, Fedora, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which repository software is being used?"@en;
+    icc:refers-to-principle fair:F4 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MetadataRepositoryQuestion/RA7pqz9pOMzSSQswanR040203dERc4uNhtTeKX4lsko8k> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MetadataRepositoryQuestion/RA7pqz9pOMzSSQswanR040203dERc4uNhtTeKX4lsko8k#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MetadataRepositoryQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MetadataRepositoryQuestion a icc:Choice;
+    rdfs:comment """Often metadata is stored differently than the data. Please, indicate how metadata is being stored. Here we are only interested in the type of store.
+
+F4 applies: (Meta)data are registered or indexed in a searchable resource
+Examples to store metadata are: relational databases, spreadsheets, XML Files, RDF assertions in Triple Stores, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which repositories do you use for metadata?"@en;
+    icc:refers-to-principle fair:F4 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositoryLocalPIDQuestion/RAYczTFAZJghh8rhsND4am1BdnZNuB2sHOzNJ-DHUWRYs> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositoryLocalPIDQuestion/RAYczTFAZJghh8rhsND4am1BdnZNuB2sHOzNJ-DHUWRYs#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositoryLocalPIDQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositoryLocalPIDQuestion a icc:Choice;
+    rdfs:comment """In general, repositories use some method to assign local identifiers which are globally unique with data and sometimes also with metadata. There are many methods being used in software packages. Please, specify which method/technology is being used.
+
+F1 applies: (Meta)data are assigned globally unique and persistent identifiers.
+Examples for local IDs are: URNs, UUIDs, NetCDF Oceansites ID, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Do your repositories use local PIDs? If so which IDs?"@en;
+    icc:refers-to-principle fair:F1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositoryGlobalPIDQuestion/RAuSfEBz71bcbk3gdYZn5mnloBiY17ZcIZ06eqS51VqFk> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositoryGlobalPIDQuestion/RAuSfEBz71bcbk3gdYZn5mnloBiY17ZcIZ06eqS51VqFk#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositoryGlobalPIDQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositoryGlobalPIDQuestion a icc:Choice;
+    rdfs:comment """Increasingly often repositories use persistent and unique identifiers that can be resolved globally. There are not so many schemes in use.
+
+F1 applies: (Meta)data are assigned globally unique and persistent identifiers.
+Examples are the most often used Handles and DOIs (which are Handles with prefix 10), ARKs, URL/URI/IRIs, BAR codes, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Do your repositories use globally resolvable PIDs? If so which PID systems?"@en;
+    icc:refers-to-principle fair:F1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/PIDRecordPropertiesQuestion/RASEVFMAj09Dz0O20lH9SQvtQez3sb-RGwZuS62OfSHrE> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/PIDRecordPropertiesQuestion/RASEVFMAj09Dz0O20lH9SQvtQez3sb-RGwZuS62OfSHrE#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/PIDRecordPropertiesQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:PIDRecordPropertiesQuestion a icc:Choice;
+    rdfs:comment """Increasingly often repositories use the PID record to store properties of the data and to refer to other information such as descriptive or system metadata. Please, indicate whether the PID record is used for such purposes and which kind of response (landing page, attribute set) is generated.
+
+F2 applies: Data are described with rich metadata
+The RDA Kernel Information group collected a number of useful attributes such as checksum, path to access the bit sequence, type of the bit sequence, path to the metadata, PID of previous version, etc.
+Typical response types: html landing page, attribute set, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Is the PID Record used to store properties of the data and what is the response type?"@en;
+    icc:refers-to-principle fair:F2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/PIDAssignmentQuestion/RAlQPC_yutZzibiIyRES9OfzlIRn__m4YB0btkNeLmTP8> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/PIDAssignmentQuestion/RAlQPC_yutZzibiIyRES9OfzlIRn__m4YB0btkNeLmTP8#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/PIDAssignmentQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:PIDAssignmentQuestion a icc:Choice;
+    rdfs:comment """Traditionally, DOIs for example are assigned manually to eePublications, but in big data increasingly often PIDs are assigned automatically by scripts to cope with the mass of PID registration requests.
+
+F1 applies: (Meta)data are assigned globally unique and persistent identifiers"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Does the repository assign PIDs manually or automatically?"@en;
+    icc:refers-to-principle fair:F1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/PIDProviderQuestion/RA57MIMoF-Bg1P4yRC7Bt3bkHccnrFHdDeKLQ5N-sIBMU> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/PIDProviderQuestion/RA57MIMoF-Bg1P4yRC7Bt3bkHccnrFHdDeKLQ5N-sIBMU#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/PIDProviderQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:PIDProviderQuestion a icc:Choice;
+    rdfs:comment """When assigning a global resolvable PID one needs to collaborate with a service provider which can issue PIDs except than one is using an own service that is connected to the global network.
+
+F1 applies: (Meta)data are assigned globally unique and persistent identifiers
+Examples: if you are registering DOIs, you will normally use providers such as DataCite or CrossRef, etc. If you ar using general Handles, for example, local or ePIC services are being used. In the case of ARKs an ARK service provider will be used."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which provider for globally resolvable PIDs do you use?"@en;
+    icc:refers-to-principle fair:F1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositoryPolicyQuestion/RAULP8yz2quQl4rBWqH70AxnxdpKUGAMW7NWR3S1BBUYY> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositoryPolicyQuestion/RAULP8yz2quQl4rBWqH70AxnxdpKUGAMW7NWR3S1BBUYY#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositoryPolicyQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositoryPolicyQuestion a icc:Choice;
+    rdfs:comment """Repositories adhere to different kinds of policies which should be made clear at the web-site.
+
+R1.1. applies: (Meta)data are released with a clear and accessible data usage license;
+This question is touching also other dimensions that are relevant for trustworthiness and sustainability.
+Examples for policy types are: persistency, nr. of automatic copies, openness levels, way of metadata creation/extension, PID creation, access methods, terms of use, code of conduct, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Are repository policies documented at their web-site? if so indicate the major ones."@en;
+    icc:refers-to-principle fair:R1.1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositoryRegistryQuestion/RAagPTPd8Von5jHfDLvz5GiIgXVLylcsc-L9VqfluyY3A> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositoryRegistryQuestion/RAagPTPd8Von5jHfDLvz5GiIgXVLylcsc-L9VqfluyY3A#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositoryRegistryQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositoryRegistryQuestion a icc:Choice;
+    rdfs:comment """Increasingly often repositories register in services to indicate their existence, their domain preferences, their offers, etc. to potential users and funders. There are generic registries and of course many domain specific registries
+
+F3 aplies: (Meta)data are registered or indexed in a searchable resource
+Examples for generic registries are: re3data, wds, DataCite, etc.
+Examples for domain specific registries can be found in many research infrastructures such as CLARIN: https://www.clarin.eu/content/overview-clarin-centres"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Are the repositories registered in a registry? If so which registry?"@en;
+    icc:refers-to-principle fair:F3 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositoryPersistanceGuaranteeeQuestion/RAVMGkfdfumaab5ZcqB5_0Wgq4h_ZwwufTUlMOcIioZpM> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositoryPersistanceGuaranteeeQuestion/RAVMGkfdfumaab5ZcqB5_0Wgq4h_ZwwufTUlMOcIioZpM#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositoryPersistanceGuaranteeeQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositoryPersistanceGuaranteeeQuestion a icc:Choice;
+    rdfs:comment """The garanties for long-term persistency are varying between repositories as well as their methods to make data safe. Please, add an indication about guarantees and methods to create redundant copiees etc.
+
+A1 applies: (meta)data are retrievable by their identifier using a standardized communication protocol;
+A2 applies: metadata are accessible, even when the data are no longer available
+A well known example is that many repositories give guarantees of 10 years, since this is the period one needs to manage data to allow checks.
+Often repositories do not give guarantees for more than 2 or 3 years which is their secured funding.
+In general commercial repositories can't give guarantees, since their business can fail."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which persistancy garanties are typically given?"@en;
+    icc:refers-to-principle fair:A1, fair:A2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/AuthenticationQuestion/RAodwK6DSAvkShf8BqG-QJqC3b9UE_MDnmPFPPDiT6WaI> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/AuthenticationQuestion/RAodwK6DSAvkShf8BqG-QJqC3b9UE_MDnmPFPPDiT6WaI#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/AuthenticationQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:AuthenticationQuestion a icc:Choice;
+    rdfs:comment """A number of different techniques are being used to do authentication in distributeed scenarios when users want to access data. Please, describe the methods of authentication which are supported by the repository.
+
+A1.2 applies: The protocol allows for an authentication and authorisation where necessary
+A large variety of solutions and combinations are being used such as multiple IdP, local user DB, service provider federations such as in the cas of CLARIN which is connected to 21 national identity federations: https://www.clarin.eu/content/service-provider-federation"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "How is authentication done?"@en;
+    icc:refers-to-principle fair:A1.2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositoryUserDatabaseQuestion/RA26dtxklPELv4mTA_JNhb09p6Hk0liGpIlg4KhkfjWtU> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositoryUserDatabaseQuestion/RA26dtxklPELv4mTA_JNhb09p6Hk0liGpIlg4KhkfjWtU#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositoryUserDatabaseQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositoryUserDatabaseQuestion a icc:Choice;
+    rdfs:comment """In most cases still local user databases are used by repositories to store identities and to pair them with authorisation information. Often distributed solutions do not work for all users. Please, describe the mechanisms being used.
+
+A1.2: The protocol allows for an authentication and authorisation where necessary"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Does the repository maintain an own user database?"@en;
+    icc:refers-to-principle fair:A1.2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/UserIdentificationQuestion/RAl4q3mg5u8SrKkzLakLnLF5LSdz4EZ1OJKoUm0W-t7l8> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/UserIdentificationQuestion/RAl4q3mg5u8SrKkzLakLnLF5LSdz4EZ1OJKoUm0W-t7l8#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/UserIdentificationQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:UserIdentificationQuestion a icc:Choice;
+    rdfs:comment """ORCIDs are widely used for publication purposes and most reesearchers will have an ORCID already. Please, specify whether these ORCIDs are being used for distributed authentiation purposes? If you don't use ORCIDs for authentication, which IDs are you using.
+
+A1.2: The protocol allows for an authentication and authorisation where necessary"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Do you use ORCID for user identification during authentication?"@en;
+    icc:refers-to-principle fair:A1.2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/AccessTechnologyQuestion/RAVIy1Keux68UpSU3k-QmGwiXheHjf9BDNdSvewTmC8AU> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/AccessTechnologyQuestion/RAVIy1Keux68UpSU3k-QmGwiXheHjf9BDNdSvewTmC8AU#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/AccessTechnologyQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:AccessTechnologyQuestion a icc:Choice;
+    rdfs:comment """There are a large number of different access technologies being used by repositories. Please, indicate the major components that are involved and indicate whether the protocols are open, free and universally implementable.
+
+A1.1: The protocol is open, free and universally implementable.
+A variety of components and protocols are being used. We can here just mention a few components that are often be used: OpenID, LDAP, SAML, Shibboleth/SAML2, eduGain, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "What is the major access technology supported?"@en;
+    icc:refers-to-principle fair:A1.1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/AccessProtocolQuestion/RAHsTdRZG70ZELMJDFOkYRYCssLn3HBOQczVUlmGVqzZU> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/AccessProtocolQuestion/RAHsTdRZG70ZELMJDFOkYRYCssLn3HBOQczVUlmGVqzZU#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/AccessProtocolQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:AccessProtocolQuestion a icc:Choice;
+    rdfs:comment """Please, describe the access protocol if applicable including a URL and indicate whether it is open.
+
+A1.1 applies: Is the protocol (royalty) free?"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Access Protocol"@en;
+    icc:refers-to-principle fair:A1.1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/AuthorisationQuestion/RAOdkl46MzOUtZgshYJwYWLAWxksA2SCvhy273ibnfPQo> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/AuthorisationQuestion/RAOdkl46MzOUtZgshYJwYWLAWxksA2SCvhy273ibnfPQo#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/AuthorisationQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:AuthorisationQuestion a icc:Choice;
+    rdfs:comment """Authorisation in distributed scenarios is currently not well supported. Please, indicate the process and the major components involved in authorisation.
+
+A1.2: The protocol allows for an authentication and authorisation where necessary
+Authorisation in general is dealt with locally using locally stored Access Control Lists associated with files etc. Database systems have their own embedded mechanisms. Cloud stores associate access information with the local ID all stored in a fast database."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "How is authorization done?"@en;
+    icc:refers-to-principle fair:A1.2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/LicenseQuestion/RA70h-1QoM0jVqB5KfLG2ZuAOGZtRXSoU4qiGZg_YoLRw> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/LicenseQuestion/RA70h-1QoM0jVqB5KfLG2ZuAOGZtRXSoU4qiGZg_YoLRw#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/LicenseQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:LicenseQuestion a icc:Choice;
+    rdfs:comment """Does the repository use specific licenses types for data. Creative Common licenses or similar start to become more popular currently. Please, specify which kinds of licences are used prefered with a reference. In case the use of a Code of Conduct specify a URL.
+
+R1.1. (Meta)data are released with a clear and accessible data usage license
+Examples of generic types of licences are: Code of Conduct, local license, CC BY 4.0, Creative Commons Attribution 3.0, CCBY, etc. For software the well-known GNU licences are widely used examples.
+An example for a Code of Conduct can be found here: http://dobes.mpi.nl/ethical_legal_aspects/DOBES-coc-v2.pdf"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which specific licenses do you use for your data?"@en;
+    icc:refers-to-principle fair:R1.1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/OpenMetadataQuestion/RAfAuO2IbNv-wV-RbY9qxKwfk_R-EJCPec37jKHHI23QQ> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/OpenMetadataQuestion/RAfAuO2IbNv-wV-RbY9qxKwfk_R-EJCPec37jKHHI23QQ#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/OpenMetadataQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:OpenMetadataQuestion a icc:Choice;
+    rdfs:comment """Please, specify whether the metadata being managed is openly accessible via some access mechanism.
+
+R1.1 applies: (Meta)data are released with a clear and accessible data usage license"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Are metadata openly available?"@en;
+    icc:refers-to-principle fair:R1.1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/DataTypesQuestion/RAtsIox-u0aEzyVyMvmdfBF77ij6aNvHHX7Ay_QIcRxHs> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/DataTypesQuestion/RAtsIox-u0aEzyVyMvmdfBF77ij6aNvHHX7Ay_QIcRxHs#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/DataTypesQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:DataTypesQuestion a icc:Choice;
+    rdfs:comment """In general, many different data types ranging from texts, media recordings to highly specific scientific types are being managed. Please, indicate the most relevant types being used. (In this context types are meant to be overall categories such as \"media\", while formats would be in the case of media jpg, png, wav, mp4, mpg, etc.).
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+I2 applies: (meta)data use vocabularies that follow FAIR principles.
+Examples for types are: audio, video, media, text, sructured, time series, relational database, trajectories, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which are the most popular data types used?"@en;
+    icc:refers-to-principle fair:I1, fair:I2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/DataFormatsQuestion/RANfbwJDPl0nJvcHWr5V-1WADNvxYh7Pe0tFuIA8sCNYA> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/DataFormatsQuestion/RANfbwJDPl0nJvcHWr5V-1WADNvxYh7Pe0tFuIA8sCNYA#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/DataFormatsQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:DataFormatsQuestion a icc:Choice;
+    rdfs:comment """In addition to types, probably a large number of different data formats are being used. Please, indicate some major ones.
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+I2 applies: (meta)data use vocabularies that follow FAIR principles.
+Typical examples for types are: txt, xls, doc, pdf, csv, netCDF, wav, mp4, jpg, json, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which are the preferred data formats?"@en;
+    icc:refers-to-principle fair:I1, fair:I2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MetadataHeadersQuestion/RAF9xZzQcOYy8oHwLnraTt4Wq9wFfzyWTkqUQHURSF9ZQ> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MetadataHeadersQuestion/RAF9xZzQcOYy8oHwLnraTt4Wq9wFfzyWTkqUQHURSF9ZQ#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MetadataHeadersQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MetadataHeadersQuestion a icc:Choice;
+    rdfs:comment """Many formats broadly used in research include metadata fields in their headers which can be extracted automatically.
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+Typical examples for formats with headers are: jpg, dicom, netCDF, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Do the formats mentioned include metadata headers? If so which?"@en;
+    icc:refers-to-principle fair:I1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MetadataFormatRegistryQuestion/RAzSflD7Sydwku78puyD7p6LzHN17tdKp4NdIIAK1ZLYg> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MetadataFormatRegistryQuestion/RAzSflD7Sydwku78puyD7p6LzHN17tdKp4NdIIAK1ZLYg#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MetadataFormatRegistryQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MetadataFormatRegistryQuestion a icc:Choice;
+    rdfs:comment """Some schemas/formats such as MPEG media files are standardised and well described and are typed by the MIME type registry, others such as netCDF, for example, are well described in open web-pages maintained by large organisations.
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+Examples for well specified data formats are all meedia formats: mp4, wav, jpg, mpeg, etc. (https://en.wikipedia.org/wiki/Moving_Picture_Experts_Group)"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Are the schemas registered in a common registry?"@en;
+    icc:refers-to-principle fair:I1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositorySearchQuestion/RA6NABVaBwesxu03Wn7NWeGV-rbh2p184T7rbv4CEVsSU> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositorySearchQuestion/RA6NABVaBwesxu03Wn7NWeGV-rbh2p184T7rbv4CEVsSU#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositorySearchQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositorySearchQuestion a icc:Choice;
+    rdfs:comment """Some repositories store structured data or texts on which content search is being supported. Some advanced repositories also offer search on music patterns or pictures, for example. Please, indicate whether such methods are supported.
+
+F4 applies: (meta)data are registered or indexed in a searchable resource
+There may be many examples allowing this feature."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Does the repository provide search on data?"@en;
+    icc:refers-to-principle fair:F4 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MetadataSchemasQuestion/RAEUI9tjYghrAz7UBudqL1KIVDr-XZ7_sQvy13060lxjg> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MetadataSchemasQuestion/RAEUI9tjYghrAz7UBudqL1KIVDr-XZ7_sQvy13060lxjg#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MetadataSchemasQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MetadataSchemasQuestion a icc:Choice;
+    rdfs:comment """Most people still use home-made excel sheets or databases to cover metadata, others use XML schema based files the schemas of which are defined within the community, etc. Increasingly often these schemas are broadly agreed in a community. Please, provide the kind of metadata that are used in the repository, if available refer to a schema and indicate its community relevance.
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation;
+R1.3 applies: (meta)data meat domain-relevant community standards
+As examples for well-specified metadata schemas we can refer to CMDI (https://www.clarin.eu/content/component-metadata) and DDI (http://www.ddialliance.org/community/join).
+As examples for more broader used schemas we can refer to: INSPIRE EF, SensorML, Netcdf, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which metadata schemas are mostly used?"@en;
+    icc:refers-to-principle fair:I1, fair:R3.1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/OpenMetadataSchemasQuestion/RAMbXnTKOvxoyOcC7yVkzSGj_HJ4Jm9c1llCbJRxNPeds> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/OpenMetadataSchemasQuestion/RAMbXnTKOvxoyOcC7yVkzSGj_HJ4Jm9c1llCbJRxNPeds#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/OpenMetadataSchemasQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:OpenMetadataSchemasQuestion a icc:Choice;
+    rdfs:comment """Are the semantic concepts used in the mentioned metadata schemas well-defined and openly registered so that others can point to them and/or reuse them for example for semantic mapping. If so, please, point to the location where the vocabularies and categories are being defined.
+
+I2 applies: (meta)data use vocabularies that follow FAIR principles
+As examples for well-specified metadata schemas including the vocabularies used we can again refer to CMDI (https://www.clarin.eu/content/component-metadata) and DDI (http://www.ddialliance.org/community/join).
+As examples for more generic vocabularies we can refer to: ISO 19115, ISO 19139, ISO 639, EML2.0, DCAT, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Are all categories used in the schemas defined in open registries?"@en;
+    icc:refers-to-principle fair:I2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/ProvenanceQuestion/RASwDO-ZY_exdEtteVzB2mwRHwMKomIcnTkvQ1Bz7-z8I> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/ProvenanceQuestion/RASwDO-ZY_exdEtteVzB2mwRHwMKomIcnTkvQ1Bz7-z8I#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/ProvenanceQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:ProvenanceQuestion a icc:Choice;
+    rdfs:comment """Most metadata schemas use some categories describing provenance without using standard categories, others may use separate W3C PROV categories included in separate provenance descriptions. There are different ways how to include provenance and which categories are being used. Please, indicate how provenance is included and whether a standard vocabulary is being used.
+
+F2 applies: data are described with rich metadata;
+R1.2 applies: (meta)data are associated with detailed provenance
+As an example for typical provenance vocabulary we can refer to W3C PROV."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "How is provenance included and is a standard vocabulary being used?"@en;
+    icc:refers-to-principle fair:F2, fair:R1.2 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MetadataPIDQuestion/RA6_U-9Uurzn-HuVFTOMApBLwNj2Yz3lA4OykV0_cfoQM> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MetadataPIDQuestion/RA6_U-9Uurzn-HuVFTOMApBLwNj2Yz3lA4OykV0_cfoQM#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MetadataPIDQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MetadataPIDQuestion a icc:Choice;
+    rdfs:comment """If PIDs are assigned by repositories, they should be findable in the metadata decription in a clearly defined metadata attribute. Please, indicate whether PIDs are included in the metadata and if so which attribute is used.
+
+I3: (Meta)data include qualified references to other meta(data);
+F3: Metadata clearly and explicitly include the identifier of the data they describe
+As an example we can refer to CMDI again which has a dedicated field as can be seen in this concrete example: https://archive.mpi.nl/islandora/object/lat%3A1839_00_0000_0000_0005_7928_A"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Are PIDs included in the metadata description?"@en;
+    icc:refers-to-principle fair:F3, fair:I1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MetadataStorageFormatsQuestion/RA27wNueTSb8mCPffPWG63HLoQsvvi8qnz0_qdu8wLuYU> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MetadataStorageFormatsQuestion/RA27wNueTSb8mCPffPWG63HLoQsvvi8qnz0_qdu8wLuYU#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MetadataStorageFormatsQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MetadataStorageFormatsQuestion a icc:Choice;
+    rdfs:comment """Most often people still use spreadsheets and relational databases to store metadata, others use XML files or RDF stores. Many other possibilities can be thought of. Please indicate what the primary sotragee format of metadata is.
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+Typical examples of storage formats are: XLS, relational DB such as mySQL, XML files, XML DB, Mungo DB, etc."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "What is the primary storage format for metadata?"@en;
+    icc:refers-to-principle fair:I1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MetadataExportFormatsQuestion/RAjuWAs8vRf8kI-ljy-mHPNXEAarIU3kUuA-4fcq9Bp5g> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MetadataExportFormatsQuestion/RAjuWAs8vRf8kI-ljy-mHPNXEAarIU3kUuA-4fcq9Bp5g#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MetadataExportFormatsQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MetadataExportFormatsQuestion a icc:Choice;
+    rdfs:comment """Metadata is being transformed and exported in various formats to support harvesting and re-using them for various purposes such as building large search indexes.
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+Typical examples of export formats are: HTML, XML, JSON and RDF."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which are the supported metadata export formats?"@en;
+    icc:refers-to-principle fair:I1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositoryLocalSearchEngineQuestion/RAL-SgWCizX1NSx5o_BMvtg99CoKA_D0Etjt-0k67dpAc> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositoryLocalSearchEngineQuestion/RAL-SgWCizX1NSx5o_BMvtg99CoKA_D0Etjt-0k67dpAc#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositoryLocalSearchEngineQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositoryLocalSearchEngineQuestion a icc:Choice;
+    rdfs:comment """Many repositories offer their own metadata search engine covering their collections. Please, indicate whether this is true and give a URL if possible.
+
+F4 applies: (meta)data are registered or indexed in a searchable resource
+There are many examples, in fact most repositories offer at least a simple search function."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Does your repository support a local search engine?"@en;
+    icc:refers-to-principle fair:F4 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MetadataHarvestingQuestion/RA1G_jX1F6Re-snx12SS7mQ65pocLVZdqV-knZUxn5p-g> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MetadataHarvestingQuestion/RA1G_jX1F6Re-snx12SS7mQ65pocLVZdqV-knZUxn5p-g#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MetadataHarvestingQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MetadataHarvestingQuestion a icc:Choice;
+    rdfs:comment """Repositories, in general, offer their metadata to be harvested using a specific method. Often repositories simply exchange XML files, many use OAI-PMH including offering DC conversions, others may already make use of ResourceSync. Please, specify which method is used by the repositories and if applicable identify the port for harvesting.
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+Typical examples for metadata harvesting methods are: OAI-PMH, just XML-files, ResourceSync, RDF triples."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which metadata exchange/harvesting methods are supported? Which port is used?"@en;
+    icc:refers-to-principle fair:I1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/RepositoryExternalSearchEngineQuestion/RAfBAmCldyaBD2fVINOSwklypt9bVXm9kZ667vRurfS3g> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/RepositoryExternalSearchEngineQuestion/RAfBAmCldyaBD2fVINOSwklypt9bVXm9kZ667vRurfS3g#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/RepositoryExternalSearchEngineQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:RepositoryExternalSearchEngineQuestion a icc:Choice;
+    rdfs:comment """Many repositories offer their metadata to specific community-based search engines. In the case of using OAI-PMH, any service provider can of course harvest the metadata records. But the metadata may be provided on purpose to a domain search engine. If so, please, indicate a few major ones and if possible add URLs.
+
+F4 applies: (meta)data are registered or indexed in a searchable resource
+One such example is for examplee the Virtual Language Observatory harvesting and indexing metadata about all possible language resources worldwide (https://www.clarin.eu/content/virtual-language-observatory-vlo). There are many other excellent examples."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Do you support external search engines?"@en;
+    icc:refers-to-principle fair:F4 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/AccessPolicyQuestion/RARjzltfJCGVPLyZm3X57AWrXYKPAi57Q5o6hMxNQj92M> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/AccessPolicyQuestion/RARjzltfJCGVPLyZm3X57AWrXYKPAi57Q5o6hMxNQj92M#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/AccessPolicyQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:AccessPolicyQuestion a icc:Choice;
+    rdfs:comment """Currently only few repositories provide clear access and license information. The formalisation of licenses via Creative Commons or other license types has not been widely adopted yet. Often this information is being offered in Code of Conducts or other means. Please, specify whether license information is given and how it is done.
+
+R1.1. (Meta)data are released with a clear and accessible data usage license"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Do repositories make clear statements about access policies?"@en;
+    icc:refers-to-principle fair:R1.1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/MachineActionableMetadataQuestion/RAsHdt3yV0lO4Ti3JTQBYWKJJ9vAPPVxmWRbqAnrQnnq4> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/MachineActionableMetadataQuestion/RAsHdt3yV0lO4Ti3JTQBYWKJJ9vAPPVxmWRbqAnrQnnq4#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/MachineActionableMetadataQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:MachineActionableMetadataQuestion a icc:Choice;
+    rdfs:comment """Do you believe that the metadata managed by the repository can be processed by machines? This requires, for example, that license and other information is encoded in a formal laguage. Please, indicated whether metadata is machine actionable and if not why not.
+
+I1: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation;
+R1.1. (Meta)data are released with a clear and accessible data usage license"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Is your metadata machine actionable?"@en;
+    icc:refers-to-principle fair:I1, fair:R1.1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/SemanticVocabulariesQuestion/RARw-4RRGb-UhjnOppB6pNYA2G7f6dIVvQ5FvNOf57V6o> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/SemanticVocabulariesQuestion/RARw-4RRGb-UhjnOppB6pNYA2G7f6dIVvQ5FvNOf57V6o#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/SemanticVocabulariesQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:SemanticVocabulariesQuestion a icc:Choice;
+    rdfs:comment """Metadata and data are based on vocabularies, ontologies etc. These can be local, discipline-specific or generic. Please, indicate which ones you are using mainly and add URLs. For eeach vocabulary you describe, please, add name, URL, type (taxonomy, thesaurus, etc.), vocabulary topic, vocabulary language)
+
+I1 applies: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation,
+I2 applies: (meta)data use vocabularies that follow FAIR principles,
+R1 applies: (Meta)data are richly described with a plurality of accurate and relevant attributes"""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Which Semantic Vocabularies are being used?"@en;
+    icc:refers-to-principle fair:I1, fair:I2, fair:R1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/matrix_questions/np/CommunityComplianceValidatorQuestion/RAaDRSC9s2Alae__uCh2eBr-joQX62mQ4W6uxDCMFdHYI> .
+@prefix sub: <https://w3id.org/fair/matrix_questions/np/CommunityComplianceValidatorQuestion/RAaDRSC9s2Alae__uCh2eBr-joQX62mQ4W6uxDCMFdHYI#> .
+@prefix latest: <https://w3id.org/fair/matrix_questions/latest/CommunityComplianceValidatorQuestion> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  mq:CommunityComplianceValidatorQuestion a icc:Choice;
+    rdfs:comment """In some cases people are using community compliance validator services. If applicable, please provide a nam and URL.
+
+R1.3 related: (meta)data meet domain-relevant community standards."""@en;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Do you use a community compliance validator?"@en;
+    icc:refers-to-principle fair:R1.3 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy orcid:0000-0001-8888-635X, orcid:0000-0002-4182-7560,
+      orcid:0000-0003-2195-3997, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072, orcid:0000-0003-4818-2360 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-09-25T12:25:23.431+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}

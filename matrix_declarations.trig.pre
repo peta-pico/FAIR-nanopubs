@@ -1,53 +1,12 @@
 # Use this file (with '.pre' extension) for editing. The respective file
 # without that extension is automatically generated.
 
-# Question definitions:
-
-@prefix : <https://w3id.org/fair/matrix_declarations/np/DataRepositoryQuestion/> .
-@prefix latest: <https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion> .
-@prefix md: <https://w3id.org/fair/matrix_declarations/terms/> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix orcid: <https://orcid.org/> .
-
-:Head {
-  : a np:Nanopublication;
-    np:hasAssertion :assertion ;
-    np:hasProvenance :provenance ;
-    np:hasPublicationInfo :pubinfo .
-}
-
-:assertion {
-  md:DataRepositoryQuestion a icc:Choice ;
-    rdfs:label "Which repositories do you use for data?"@en ;
-    rdfs:comment "In the case that you are a researcher heavily creating data and depositing it in a repository, please, indicate the repositories you are using and which you will subsequently describe. If you are a repository manager describe your repository. Local as well domain or central repositories are in use, often these are just local servers with discs that are managed by a data manager. Please, also specify a PID that points to that repository. F4 applies: (Meta)data are registered or indexed in a searchable resource. Examples for repositories are: local (can be many), domain (can be many), generic (B2SAFE, B2SHARE, B2DROP, ZENODO, GITHUB, Dropbox, FIGSHARE, etc.)"@en ;
-    icc:refers-to-principle fair:F4 ;
-    rdfs:isDefinedBy latest: .
-}
-
-:provenance {
-  :assertion pav:authoredBy orcid:0000-0002-4182-7560 , orcid:0000-0003-3538-0106 , orcid:0000-0001-8888-635X , orcid:0000-0003-3934-0072 , orcid:0000-0003-4818-2360 , orcid:0000-0003-2195-3997 .
-}
-
-:pubinfo {
-  : dct:created "2019-09-20T11:43:15.275+02:00"^^xsd:dateTime ;
-    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560 ;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
-}
-
-
 # Community definitions:
 
 @prefix : <https://w3id.org/fair/matrix_declarations/np/FoodSystemsIN/> .
 @prefix latest: <https://w3id.org/fair/matrix_declarations/latest/FoodSystemsIN> .
 @prefix md: <https://w3id.org/fair/matrix_declarations/terms/> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -79,7 +38,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T11:43:15.275+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-25T12:25:14.729+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -90,6 +49,7 @@
 @prefix : <https://w3id.org/fair/matrix_declarations/np/DataRepositoryQuestion_FoodSystemsIN_answer/> .
 @prefix latest: <https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion_FoodSystemsIN_answer> .
 @prefix md: <https://w3id.org/fair/matrix_declarations/terms/> .
+@prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -112,7 +72,7 @@
   md:DataRepositoryQuestion_FoodSystemsIN_answer a icc:ChoiceDeclaration ;
     rdfs:label "Food System IN uses CIRAD Dataverse"@en ;
     icc:declared-by md:FoodSystemsIN ;
-    icc:refers-to-choice md:DataRepositoryQuestion ;
+    icc:refers-to-choice mq:DataRepositoryQuestion ;
     icc:chosen-resource <https://dataverse.cirad.fr/> ;
     rdfs:isDefinedBy latest: .
 }
@@ -122,7 +82,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-20T11:43:15.275+02:00"^^xsd:dateTime ;
+  : dct:created "2019-09-25T12:25:14.729+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }

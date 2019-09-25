@@ -17,9 +17,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # https://w3id.org/fair/icc/terms/refers-to-choice
 <https://w3id.org/fair/icc/terms/refers-to-choice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# https://w3id.org/fair/icc/terms/refers-to-principle
-<https://w3id.org/fair/icc/terms/refers-to-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # 
 # 
 # #################################################################
@@ -28,9 +25,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #
 # #################################################################
 # 
-# 
-# https://w3id.org/fair/icc/terms/Choice
-<https://w3id.org/fair/icc/terms/Choice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # https://w3id.org/fair/icc/terms/ChoiceDeclaration
 <https://w3id.org/fair/icc/terms/ChoiceDeclaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -47,14 +41,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
-# https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion
-<https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/Choice> .
-<https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion> <http://www.w3.org/2000/01/rdf-schema#comment> "In the case that you are a researcher heavily creating data and depositing it in a repository, please, indicate the repositories you are using and which you will subsequently describe. If you are a repository manager describe your repository. Local as well domain or central repositories are in use, often these are just local servers with discs that are managed by a data manager. Please, also specify a PID that points to that repository. F4 applies: (Meta)data are registered or indexed in a searchable resource. Examples for repositories are: local (can be many), domain (can be many), generic (B2SAFE, B2SHARE, B2DROP, ZENODO, GITHUB, Dropbox, FIGSHARE, etc.)"@en .
-<https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion> .
-<https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion> <http://www.w3.org/2000/01/rdf-schema#label> "Which repositories do you use for data?"@en .
-<https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion> <https://w3id.org/fair/icc/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F4> .
-# 
 # https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer
 <https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/icc/terms/ChoiceDeclaration> .
@@ -62,7 +48,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer> <http://www.w3.org/2000/01/rdf-schema#label> "Food System IN uses CIRAD Dataverse"@en .
 <https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer> <https://w3id.org/fair/icc/terms/chosen-resource> <https://dataverse.cirad.fr/> .
 <https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer> <https://w3id.org/fair/icc/terms/declared-by> <https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN> .
-<https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer> <https://w3id.org/fair/icc/terms/refers-to-choice> <https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion> .
+<https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer> <https://w3id.org/fair/icc/terms/refers-to-choice> <https://w3id.org/fair/matrix_questions/terms/DataRepositoryQuestion> .
 # 
 # https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN
 <https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
