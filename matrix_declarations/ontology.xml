@@ -44,13 +44,6 @@
     
 
 
-    <!-- https://w3id.org/fair/icc/terms/refers-to-principle -->
-
-
-    <AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/refers-to-principle"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -60,13 +53,6 @@
      -->
 
 
-    
-
-
-    <!-- https://w3id.org/fair/icc/terms/Choice -->
-
-
-    <Class rdf:about="https://w3id.org/fair/icc/terms/Choice"/>
     
 
 
@@ -96,19 +82,6 @@
     
 
 
-    <!-- https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion -->
-
-
-    <NamedIndividual rdf:about="https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion">
-        <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Choice"/>
-        <rdfs:comment xml:lang="en">In the case that you are a researcher heavily creating data and depositing it in a repository, please, indicate the repositories you are using and which you will subsequently describe. If you are a repository manager describe your repository. Local as well domain or central repositories are in use, often these are just local servers with discs that are managed by a data manager. Please, also specify a PID that points to that repository. F4 applies: (Meta)data are registered or indexed in a searchable resource. Examples for repositories are: local (can be many), domain (can be many), generic (B2SAFE, B2SHARE, B2DROP, ZENODO, GITHUB, Dropbox, FIGSHARE, etc.)</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion"/>
-        <rdfs:label xml:lang="en">Which repositories do you use for data?</rdfs:label>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
-    </NamedIndividual>
-    
-
-
     <!-- https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer -->
 
 
@@ -118,7 +91,7 @@
         <rdfs:label xml:lang="en">Food System IN uses CIRAD Dataverse</rdfs:label>
         <terms:chosen-resource rdf:resource="https://dataverse.cirad.fr/"/>
         <terms:declared-by rdf:resource="https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN"/>
-        <terms:refers-to-choice rdf:resource="https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion"/>
+        <terms:refers-to-choice rdf:resource="https://w3id.org/fair/matrix_questions/terms/DataRepositoryQuestion"/>
     </NamedIndividual>
     
 
