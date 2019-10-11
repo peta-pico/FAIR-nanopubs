@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/matrix_declarations/np/FoodSystemsIN/RAUNzmUDe1pFEH1DvpthE0gJFMgK_vgDk-qlJI6x9Azmk> .
-@prefix sub: <https://w3id.org/fair/matrix_declarations/np/FoodSystemsIN/RAUNzmUDe1pFEH1DvpthE0gJFMgK_vgDk-qlJI6x9Azmk#> .
+@prefix this: <https://w3id.org/fair/matrix_declarations/np/FoodSystemsIN/RAqy21Rgly_ToSrkfsjdOEDIrHmj2jZzEo1IOrnpkzeDQ> .
+@prefix sub: <https://w3id.org/fair/matrix_declarations/np/FoodSystemsIN/RAqy21Rgly_ToSrkfsjdOEDIrHmj2jZzEo1IOrnpkzeDQ#> .
 @prefix latest: <https://w3id.org/fair/matrix_declarations/latest/FoodSystemsIN> .
 @prefix md: <https://w3id.org/fair/matrix_declarations/terms/> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
@@ -30,12 +30,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-25T12:25:14.729+02:00"^^xsd:dateTime;
+  this: dct:created "2019-10-11T14:52:11.190+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/matrix_declarations/np/DataRepositoryQuestion_FoodSystemsIN_answer/RAWBKNdM1eXu3kTGlrP1cyORc30NYLVdyjTNoGeI9KRkQ> .
-@prefix sub: <https://w3id.org/fair/matrix_declarations/np/DataRepositoryQuestion_FoodSystemsIN_answer/RAWBKNdM1eXu3kTGlrP1cyORc30NYLVdyjTNoGeI9KRkQ#> .
+@prefix this: <https://w3id.org/fair/matrix_declarations/np/DataRepositoryQuestion_FoodSystemsIN_answer/RA21aPGehwqEiGUjnLYsk2uweo-I60YoLKFHeXleJjVQ0> .
+@prefix sub: <https://w3id.org/fair/matrix_declarations/np/DataRepositoryQuestion_FoodSystemsIN_answer/RA21aPGehwqEiGUjnLYsk2uweo-I60YoLKFHeXleJjVQ0#> .
 @prefix latest: <https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion_FoodSystemsIN_answer> .
 @prefix md: <https://w3id.org/fair/matrix_declarations/terms/> .
 @prefix mq: <https://w3id.org/fair/matrix_questions/terms/> .
@@ -46,6 +46,7 @@ sub:pubinfo {
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 sub:Head {
   this: np:hasAssertion sub:assertion;
@@ -64,11 +65,16 @@ sub:assertion {
 }
 
 sub:provenance {
-  sub:assertion pav:authoredBy md:FoodSystemsIN .
+  sub:_1 rdfs:label "Fortuno Sophie";
+    foaf:member sub:_2, md:FoodSystemsIN .
+  
+  sub:_2 rdfs:label "CIRAD/ Environnement et Sociétés /UMR-TETIS Territoire, Environnement, Télédétection et informations spatiales" .
+  
+  sub:assertion pav:authoredBy sub:_1 .
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-25T12:25:14.729+02:00"^^xsd:dateTime;
+  this: dct:created "2019-10-11T14:52:11.190+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }

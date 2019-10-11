@@ -38,7 +38,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-09-25T12:25:14.729+02:00"^^xsd:dateTime ;
+  : dct:created "2019-10-11T14:52:11.190+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -60,6 +60,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 :Head {
   : a np:Nanopublication;
@@ -78,11 +79,15 @@
 }
 
 :provenance {
-  :assertion pav:authoredBy md:FoodSystemsIN .
+  :assertion pav:authoredBy [
+    rdfs:label "Fortuno Sophie" ;
+    foaf:member md:FoodSystemsIN ;
+    foaf:member [ rdfs:label "CIRAD/ Environnement et Sociétés /UMR-TETIS Territoire, Environnement, Télédétection et informations spatiales" ]
+  ] .
 }
 
 :pubinfo {
-  : dct:created "2019-09-25T12:25:14.729+02:00"^^xsd:dateTime ;
+  : dct:created "2019-10-11T14:52:11.190+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0002-4182-7560 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
