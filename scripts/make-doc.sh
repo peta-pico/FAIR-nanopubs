@@ -36,7 +36,7 @@ fi
 
 rm $1.ttl.pre
 
-java -jar $WIDOCOJAR -rewriteAll -ontFile $1.ttl -outFolder doc/$1
+java -jar $WIDOCOJAR -rewriteAll -uniteSections -ontFile $1.ttl -outFolder doc/$1
 
 if [ -d doc-x/$1 ]; then
   cp -r doc-x/$1 doc/
