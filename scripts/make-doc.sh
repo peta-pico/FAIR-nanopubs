@@ -48,8 +48,8 @@ if [ -f doc/$1/sections/description-en.html ]; then
     cat doc/$1/sections/description-en.html | sed -r 's_</?html>__g' ;
     awk '{if ($0 == "<!--DESCRIPTION SECTION-->") {p=1; next;} if (p==1 && $0 ~ /^<!--/) p=2; if (p==2) print $0;}' doc/$1/index-en.html
   ) > doc/$1/index-en.mod.html
+  mv doc/$1/index-en.mod.html doc/$1/index-en.html
 fi
-mv doc/$1/index-en.mod.html doc/$1/index-en.html
 
 if [ -f doc/$1/sections/introduction-en.html ]; then
   (
@@ -57,8 +57,8 @@ if [ -f doc/$1/sections/introduction-en.html ]; then
     cat doc/$1/sections/introduction-en.html | sed -r 's_</?html>__g' ;
     awk '{if ($0 == "<!--INTRODUCTION SECTION-->") {p=1; next;} if (p==1 && $0 ~ /^<!--/) p=2; if (p==2) print $0;}' doc/$1/index-en.html
   ) > doc/$1/index-en.mod.html
+  mv doc/$1/index-en.mod.html doc/$1/index-en.html
 fi
-mv doc/$1/index-en.mod.html doc/$1/index-en.html
 
 if [ -f doc/$1/sections/overview-en.html ]; then
   (
@@ -66,8 +66,8 @@ if [ -f doc/$1/sections/overview-en.html ]; then
     cat doc/$1/sections/overview-en.html | sed -r 's_</?html>__g' ;
     awk '{if ($0 == "<!--OVERVIEW SECTION-->") {p=1; next;} if (p==1 && $0 ~ /^<!--/) p=2; if (p==2) print $0;}' doc/$1/index-en.html
   ) > doc/$1/index-en.mod.html
+  mv doc/$1/index-en.mod.html doc/$1/index-en.html
 fi
-mv doc/$1/index-en.mod.html doc/$1/index-en.html
 
 if [ -f doc/$1/sections/references-en.html ]; then
   (
@@ -75,6 +75,6 @@ if [ -f doc/$1/sections/references-en.html ]; then
     cat doc/$1/sections/references-en.html | sed -r 's_</?html>__g' ;
     awk '{if ($0 == "<!--REFERENCES SECTION-->") {p=1; next;} if (p==1 && $0 ~ /^<!--/) p=2; if (p==2) print $0;}' doc/$1/index-en.html
   ) > doc/$1/index-en.mod.html
+  mv doc/$1/index-en.mod.html doc/$1/index-en.html
 fi
-mv doc/$1/index-en.mod.html doc/$1/index-en.html
 
