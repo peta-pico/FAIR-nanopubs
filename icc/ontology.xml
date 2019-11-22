@@ -409,6 +409,24 @@
     
 
 
+    <!-- http://www.dcc.ac.uk/ -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dcc.ac.uk/">
+        <rdfs:label>Digital Curation Centre</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dcc.ac.uk/resources/data-management-plans -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dcc.ac.uk/resources/data-management-plans">
+        <rdfs:label>Data Management Plan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://dash.harvard.edu/handle/1/4322580 -->
 
 
@@ -454,11 +472,29 @@
     
 
 
+    <!-- https://doi.org/10.1162/dint_a_00043 -->
+
+
+    <owl:NamedIndividual rdf:about="https://doi.org/10.1162/dint_a_00043">
+        <rdfs:label>Jones et al. 2019</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://doi.org/10.1371/journal.pbio.2001414 -->
 
 
     <owl:NamedIndividual rdf:about="https://doi.org/10.1371/journal.pbio.2001414">
         <rdfs:label>McMurry et al. 2017</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://doi.org/10.25490/a97f-egyk -->
+
+
+    <owl:NamedIndividual rdf:about="https://doi.org/10.25490/a97f-egyk">
+        <rdfs:label>Martone et al. 2014</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -910,6 +946,25 @@
     
 
 
+    <!-- https://w3id.org/fair/icc/terms/A2-Explanation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/A2-Explanation">
+        <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Explanation"/>
+        <rdfs:seeAlso rdf:resource="http://www.dcc.ac.uk/"/>
+        <rdfs:seeAlso rdf:resource="http://www.dcc.ac.uk/resources/data-management-plans"/>
+        <rdfs:seeAlso rdf:resource="https://doi.org/10.1162/dint_a_00043"/>
+        <rdfs:seeAlso rdf:resource="https://doi.org/10.25490/a97f-egyk"/>
+        <terms:explains-principle rdf:resource="https://w3id.org/fair/principles/terms/A2"/>
+        <terms:implementation-considerations>Current choices/challenges are for communities to choose/define a persistence policy for metadata that describes data that may not always be available, choose/define machine-actionable templates for a persistence policy document for metadata, and in addition choose/define a machine-actionable scheme to reference the metadata persistence policy.</terms:implementation-considerations>
+        <terms:implementation-examples>Examples of early attempts to address this critical principle relates closely to the principles of digital curation (http://www.dcc.ac.uk/) including the concept of a FAIR compliant DMP (Data Management Plan; http://www.dcc.ac.uk/resources/data-management-plans) (doi:10.1162/dint_a_00043). Many other efforts are underway to improve the long-term stewardship of reusable digital resources.</terms:implementation-examples>
+        <rdfs:comment>There is a continued focus on keeping relevant digital resources available in the future. Data may no longer be accessible either by design (e.g. a defined life-span within limited financial resources or legal requirements to destroy sensitive data) or by accident. However, given that those data may have been used and are referenced by others, it is important that consumers have, at the very least, access to high quality metadata that describes those resources sufficiently to minimally understand their nature and their provenance, even when the relevant data are not available anymore. This principle relies heavily on the ‘second purpose’ of principle F3 (the metadata record contains the identifier of the data), because in the case where the data record is no longer available, there must be a clear and precise way of discovering its historical metadata record. This aspect of accessibility is further elaborated in the Joint Declaration of Data Citation Principles (doi:10.25490/a97f-egyk).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/icc/latest/A2-Explanation"/>
+        <rdfs:label>A2 Explanation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/fair/icc/terms/F1-Challenge-1 -->
 
 
@@ -1085,6 +1140,15 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.2">
         <rdfs:label>A1.2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/A2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A2">
+        <rdfs:label>A2</rdfs:label>
     </owl:NamedIndividual>
     
 
