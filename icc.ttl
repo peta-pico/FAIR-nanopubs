@@ -344,6 +344,24 @@ fair:A1.2 rdfs:label "A1.2" .
 <https://w3id.org/fair/principles/terms/F2> <http://www.w3.org/2000/01/rdf-schema#label>
     "F2" .
 
+<https://doi.org/10.1162/dint_a_00031> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Thompson et al. 2019" .
+
+<https://w3id.org/fair/icc/terms/F3-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Principle F3 states that any description of a digital resource must contain the identifier of that resource being described. For instance, the description of a computational workflow, should explicitly contain the identifier for that workflow in a manner that is unambiguous. This is especially important where the resource and its metadata are stored independently, but persistently linked, which is generally considered good practice in FAIR. The purpose of this principle is twofold. First, it is perhaps trivial to say that a descriptor should explicitly say what object it is describing; however, there is a second, less-obvious reason for this principle. Many digital objects (such as workflows, as mentioned above) have well-defined structures that may disallow the addition of new fields, including fields that could point to the metadata about that digital object. Therefore, if you have one of these digital objects in-hand, the only way to discover its metadata is through a search using the identifier of that digital object. Thus, by requiring that a metadata descriptor contains the identifier of the thing being described, that identifier may then successfully be used as the search term to discover its metadata record.";
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/F3-Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Explanation of FAIR principle F3";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://doi.org/10.1162/dint_a_00031>,
+    <https://www.w3.org/TR/vocab-dcat/>;
+  <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/F3>;
+  <https://w3id.org/fair/icc/terms/implementation-considerations> "It is a challenge to each community to choose a machine-actionable metadata model that explicitly links a resource and its metadata.";
+  <https://w3id.org/fair/icc/terms/implementation-examples> "An example of a technology that provides this link is FAIR Data Point (doi:10.1162/dint_a_00031), which is based on the Data Catalogue model (DCAT, https://www.w3.org/TR/vocab-dcat/) that provides not only unique identifiers for potentially multiple layers of metadata, but also provides a single, predictable, and searchable path through these layers of descriptors, down to the data object itself." .
+
+<https://w3id.org/fair/principles/terms/F3> <http://www.w3.org/2000/01/rdf-schema#label>
+    "F3" .
+
+<https://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Catalogue model (DCAT)" .
+
 <https://w3id.org/fair/icc/terms/A1.1-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed).";
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/A1.1-Explanation>;

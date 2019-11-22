@@ -544,8 +544,8 @@ sub:pubinfo {
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RAue8_TQNc1V30o6RRDzPopDfjYQC_QRY_9BTt7STnRAs> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RAue8_TQNc1V30o6RRDzPopDfjYQC_QRY_9BTt7STnRAs#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RAcdUxHi9l0woLIfgPWMUDOdEJmCYBRmNor6_Zh2x3AQo> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RAcdUxHi9l0woLIfgPWMUDOdEJmCYBRmNor6_Zh2x3AQo#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/implementation-considerations> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -577,7 +577,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -586,8 +586,8 @@ sub:pubinfo {
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RAyGJnpB94SOg_7sjm8p2wFvwpQF7Lr1FcWezuhDBvOeI> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RAyGJnpB94SOg_7sjm8p2wFvwpQF7Lr1FcWezuhDBvOeI#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RAAbYREQczsFK4K4XKwkfQz6nNpw1whcOnlNLrIFWugac> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RAAbYREQczsFK4K4XKwkfQz6nNpw1whcOnlNLrIFWugac#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/implementation-examples> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -619,7 +619,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -930,8 +930,8 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
-@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAI_nGMf2WFVG_hbxlY_qim8W5EE7vprK_klY8XlR0eq4> .
-@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAI_nGMf2WFVG_hbxlY_qim8W5EE7vprK_klY8XlR0eq4#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAV1YmSshlrV41xytTkVt8FMjwMXvT90fhXXauZwWt9BM> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAV1YmSshlrV41xytTkVt8FMjwMXvT90fhXXauZwWt9BM#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F1-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -975,7 +975,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/F1-Explanation/RA1HikSxbrsdMhHF5_TTqnKpd4eQ3RGoHDW-NL4JiPch8> .
@@ -986,8 +986,8 @@ sub:pubinfo {
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RADkL-M7BXWIwRyyErYa_cx6t5IjYwpS8bWrRSDmQZvVc> .
-@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RADkL-M7BXWIwRyyErYa_cx6t5IjYwpS8bWrRSDmQZvVc#> .
+@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RAuS2mgb-E_-UZaCTSK9_ofhLi7rgkl22ZvERdF5WIpOc> .
+@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RAuS2mgb-E_-UZaCTSK9_ofhLi7rgkl22ZvERdF5WIpOc#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F2-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1038,7 +1038,59 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-09-20T16:31:19.875+02:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/F3-Explanation/RAP6Vyu9iPYafXU_I99aGstQZS03sYEkXkxJL_edk8fCY> .
+@prefix sub: <https://w3id.org/fair/icc/np/F3-Explanation/RAP6Vyu9iPYafXU_I99aGstQZS03sYEkXkxJL_edk8fCY#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F3-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://doi.org/10.1162/dint_a_00031> rdfs:label "Thompson et al. 2019" .
+  
+  icc:F3-Explanation a icc:Explanation;
+    rdfs:comment "Principle F3 states that any description of a digital resource must contain the identifier of that resource being described. For instance, the description of a computational workflow, should explicitly contain the identifier for that workflow in a manner that is unambiguous. This is especially important where the resource and its metadata are stored independently, but persistently linked, which is generally considered good practice in FAIR. The purpose of this principle is twofold. First, it is perhaps trivial to say that a descriptor should explicitly say what object it is describing; however, there is a second, less-obvious reason for this principle. Many digital objects (such as workflows, as mentioned above) have well-defined structures that may disallow the addition of new fields, including fields that could point to the metadata about that digital object. Therefore, if you have one of these digital objects in-hand, the only way to discover its metadata is through a search using the identifier of that digital object. Thus, by requiring that a metadata descriptor contains the identifier of the thing being described, that identifier may then successfully be used as the search term to discover its metadata record.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Explanation of FAIR principle F3";
+    rdfs:seeAlso <https://doi.org/10.1162/dint_a_00031>, <https://www.w3.org/TR/vocab-dcat/>;
+    icc:explains-principle fair:F3;
+    icc:implementation-considerations "It is a challenge to each community to choose a machine-actionable metadata model that explicitly links a resource and its metadata.";
+    icc:implementation-examples "An example of a technology that provides this link is FAIR Data Point (doi:10.1162/dint_a_00031), which is based on the Data Catalogue model (DCAT, https://www.w3.org/TR/vocab-dcat/) that provides not only unique identifiers for potentially multiple layers of metadata, but also provides a single, predictable, and searchable path through these layers of descriptors, down to the data object itself." .
+  
+  fair:F3 rdfs:label "F3" .
+  
+  <https://www.w3.org/TR/vocab-dcat/> rdfs:label "Data Catalogue model (DCAT)" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }

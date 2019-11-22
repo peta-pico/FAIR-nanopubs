@@ -47,6 +47,12 @@
     "@value" : "Sansone et al. 2019"
   } ]
 }, {
+  "@id" : "https://doi.org/10.1162/dint_a_00031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Thompson et al. 2019"
+  } ]
+}, {
   "@id" : "https://doi.org/10.1371/journal.pbio.2001414",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -566,6 +572,32 @@
     "@value" : "Examples of metadata schemata can be found in FAIRsharing (https://fairsharing.org/standards/, doi:10.1038/s41587-019-0080-8, [McQuilton et al. Data Intell. DI-2019-0028, 2019]) and include for instance the Data Documentation Initiative (DDI) (https://doi.org/10.25504/FAIRsharing.1t5ws6), the HCLS Dataset Descriptors (https://fairsharing.org/FAIRsharing.s248mf), and many domain-specific “minimal information” models that have been invented."
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/icc/terms/F3-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Principle F3 states that any description of a digital resource must contain the identifier of that resource being described. For instance, the description of a computational workflow, should explicitly contain the identifier for that workflow in a manner that is unambiguous. This is especially important where the resource and its metadata are stored independently, but persistently linked, which is generally considered good practice in FAIR. The purpose of this principle is twofold. First, it is perhaps trivial to say that a descriptor should explicitly say what object it is describing; however, there is a second, less-obvious reason for this principle. Many digital objects (such as workflows, as mentioned above) have well-defined structures that may disallow the addition of new fields, including fields that could point to the metadata about that digital object. Therefore, if you have one of these digital objects in-hand, the only way to discover its metadata is through a search using the identifier of that digital object. Thus, by requiring that a metadata descriptor contains the identifier of the thing being described, that identifier may then successfully be used as the search term to discover its metadata record."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/F3-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Explanation of FAIR principle F3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://doi.org/10.1162/dint_a_00031"
+  }, {
+    "@id" : "https://www.w3.org/TR/vocab-dcat/"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F3"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "It is a challenge to each community to choose a machine-actionable metadata model that explicitly links a resource and its metadata."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "An example of a technology that provides this link is FAIR Data Point (doi:10.1162/dint_a_00031), which is based on the Data Catalogue model (DCAT, https://www.w3.org/TR/vocab-dcat/) that provides not only unique identifiers for potentially multiple layers of metadata, but also provides a single, predictable, and searchable path through these layers of descriptors, down to the data object itself."
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/icc/terms/FAIR-ICC-Model",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/creator" : [ {
@@ -921,9 +953,21 @@
     "@value" : "F2"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/principles/terms/F3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "F3"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "FAIR Principle or Sub-Principle"
+  } ]
+}, {
+  "@id" : "https://www.w3.org/TR/vocab-dcat/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Catalogue model (DCAT)"
   } ]
 } ]
