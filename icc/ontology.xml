@@ -409,6 +409,15 @@
     
 
 
+    <!-- https://doi.org/10.1162/dint_a_00026 -->
+
+
+    <owl:NamedIndividual rdf:about="https://doi.org/10.1162/dint_a_00026">
+        <rdfs:label>Weigel et al. 2019</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://doi.org/10.1162/dint_a_00031 -->
 
 
@@ -814,6 +823,15 @@
     
 
 
+    <!-- https://toolbox.google.com/datasetsearch -->
+
+
+    <owl:NamedIndividual rdf:about="https://toolbox.google.com/datasetsearch">
+        <rdfs:label>Google Dataset Search</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/fair/icc/terms/A1-Explanation -->
 
 
@@ -940,6 +958,23 @@
     
 
 
+    <!-- https://w3id.org/fair/icc/terms/F4-Explanation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/icc/terms/F4-Explanation">
+        <rdf:type rdf:resource="https://w3id.org/fair/icc/terms/Explanation"/>
+        <rdfs:seeAlso rdf:resource="https://doi.org/10.1162/dint_a_00026"/>
+        <rdfs:seeAlso rdf:resource="https://toolbox.google.com/datasetsearch"/>
+        <terms:explains-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
+        <terms:implementation-considerations>Current challenges are numerous, significantly limiting, and largely outside of the control of the average data provider. First, there is no single-source for search that currently indexes all possible metadata fields in all domains. Second, there is no uniform way to execute a search, and thus every search tool must be accessed with tool-specific software. Finally, many search engines forbid automated searches, precluding their use by FAIR-enabled software. Various initiatives are emerging that attempt to address this, at least in part, by providing a well-defined, machine-accessible search interface over indexed metadata. Nevertheless, to our knowledge, none of these currently index all possible metadata properties, nor do they span all possible domains/communities; rather, they focus on specific metadata schemas such as schema.org, at the expense of other well-established metadata formats such as DCAT, and/or are limited to specific communities such as biotechnology, astronomy, law, or government/administration. Current choices are for each community to choose, and publicly declare, what search engine to use for their own purposes, general or field-specific, and should at a minimum provide metadata following the standard that is indexed by the search engine of choice. They should also provide a machine-readable interface definition that would allow an automated search without human intervention.</terms:implementation-considerations>
+        <terms:implementation-examples>An example of a generic searchable resource that supports manual exploration is Google Dataset Search (https://toolbox.google.com/datasetsearch); however, this suffers from several of the problems mentioned above, in particular, that it indexes only certain types of metadata (schema.org) and the search cannot be automated under the Google Terms of Service, and therefore cannot be implemented within FAIR software.</terms:implementation-examples>
+        <rdfs:comment>Principle F4 states that digital resources must be registered or indexed in a searchable resource. The searchable resource provides the infrastructure by which a metadata record (F1) can be discovered, using either the attributes in that metadata (F2) or the identifier of the data object itself (F3) (doi:10.1162/dint_a_00026).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/icc/latest/F4-Explanation"/>
+        <rdfs:label>Explanation of FAIR principle F4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group -->
 
 
@@ -1040,6 +1075,15 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F3">
         <rdfs:label>F3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/F4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F4">
+        <rdfs:label>F4</rdfs:label>
     </owl:NamedIndividual>
     
 

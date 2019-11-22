@@ -47,6 +47,12 @@
     "@value" : "Sansone et al. 2019"
   } ]
 }, {
+  "@id" : "https://doi.org/10.1162/dint_a_00026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Weigel et al. 2019"
+  } ]
+}, {
   "@id" : "https://doi.org/10.1162/dint_a_00031",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -315,6 +321,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Annika Jacobsen"
+  } ]
+}, {
+  "@id" : "https://toolbox.google.com/datasetsearch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Google Dataset Search"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/A1-Explanation",
@@ -596,6 +608,32 @@
   } ],
   "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
     "@value" : "An example of a technology that provides this link is FAIR Data Point (doi:10.1162/dint_a_00031), which is based on the Data Catalogue model (DCAT, https://www.w3.org/TR/vocab-dcat/) that provides not only unique identifiers for potentially multiple layers of metadata, but also provides a single, predictable, and searchable path through these layers of descriptors, down to the data object itself."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/F4-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Principle F4 states that digital resources must be registered or indexed in a searchable resource. The searchable resource provides the infrastructure by which a metadata record (F1) can be discovered, using either the attributes in that metadata (F2) or the identifier of the data object itself (F3) (doi:10.1162/dint_a_00026)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/F4-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Explanation of FAIR principle F4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://doi.org/10.1162/dint_a_00026"
+  }, {
+    "@id" : "https://toolbox.google.com/datasetsearch"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F4"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "Current challenges are numerous, significantly limiting, and largely outside of the control of the average data provider. First, there is no single-source for search that currently indexes all possible metadata fields in all domains. Second, there is no uniform way to execute a search, and thus every search tool must be accessed with tool-specific software. Finally, many search engines forbid automated searches, precluding their use by FAIR-enabled software. Various initiatives are emerging that attempt to address this, at least in part, by providing a well-defined, machine-accessible search interface over indexed metadata. Nevertheless, to our knowledge, none of these currently index all possible metadata properties, nor do they span all possible domains/communities; rather, they focus on specific metadata schemas such as schema.org, at the expense of other well-established metadata formats such as DCAT, and/or are limited to specific communities such as biotechnology, astronomy, law, or government/administration. Current choices are for each community to choose, and publicly declare, what search engine to use for their own purposes, general or field-specific, and should at a minimum provide metadata following the standard that is indexed by the search engine of choice. They should also provide a machine-readable interface definition that would allow an automated search without human intervention."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "An example of a generic searchable resource that supports manual exploration is Google Dataset Search (https://toolbox.google.com/datasetsearch); however, this suffers from several of the problems mentioned above, in particular, that it indexes only certain types of metadata (schema.org) and the search cannot be automated under the Google Terms of Service, and therefore cannot be implemented within FAIR software."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/FAIR-ICC-Model",
@@ -957,6 +995,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "F3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "F4"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple",
