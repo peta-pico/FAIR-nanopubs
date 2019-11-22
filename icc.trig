@@ -544,8 +544,8 @@ sub:pubinfo {
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RApQZg0sfoypAjEkxmO1DpRCPslAGP1t67uNNC5GiF3jo> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RApQZg0sfoypAjEkxmO1DpRCPslAGP1t67uNNC5GiF3jo#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RA-2sbfddVxPV7oF7IcXMsgYV6AsdLa60pP0LDhzMbrGI> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RA-2sbfddVxPV7oF7IcXMsgYV6AsdLa60pP0LDhzMbrGI#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/implementation-considerations> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -577,7 +577,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -586,8 +586,8 @@ sub:pubinfo {
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RAPutcq0SvyCnBsxIbNwS48ALSzTCeettQw6nbR55OuRA> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RAPutcq0SvyCnBsxIbNwS48ALSzTCeettQw6nbR55OuRA#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RAq1ELXg-_SUo4f93TT8_YQX2qp_nStt_s5NvK_bczl2U> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RAq1ELXg-_SUo4f93TT8_YQX2qp_nStt_s5NvK_bczl2U#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/implementation-examples> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -619,7 +619,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -930,8 +930,8 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
-@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAORt2B-XLgsTEVUjJ69DiGjIZNoxQPtz7Fcblhl_aNWY> .
-@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAORt2B-XLgsTEVUjJ69DiGjIZNoxQPtz7Fcblhl_aNWY#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RA_lBRFxb_lR1_YIDuHRYfOPsXUUcgVhuTK7t91tkVvwI> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RA_lBRFxb_lR1_YIDuHRYfOPsXUUcgVhuTK7t91tkVvwI#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F1-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -975,7 +975,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/F1-Explanation/RA1HikSxbrsdMhHF5_TTqnKpd4eQ3RGoHDW-NL4JiPch8> .
@@ -986,8 +986,8 @@ sub:pubinfo {
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RA_j6VM2WU4rRbFMSqLUGrAramGVI9_s2yIwwENS6LHGo> .
-@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RA_j6VM2WU4rRbFMSqLUGrAramGVI9_s2yIwwENS6LHGo#> .
+@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RAPXRk8UJojwdwj4d7f_O14Eyj_Pb6YTU_-qF7qhU8CAs> .
+@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RAPXRk8UJojwdwj4d7f_O14Eyj_Pb6YTU_-qF7qhU8CAs#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F2-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1038,7 +1038,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1049,8 +1049,8 @@ sub:pubinfo {
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/F3-Explanation/RAcfJFHTjpzpNShZ5GhaVRGj5O-uaZHHdQzgmxpeCfHec> .
-@prefix sub: <https://w3id.org/fair/icc/np/F3-Explanation/RAcfJFHTjpzpNShZ5GhaVRGj5O-uaZHHdQzgmxpeCfHec#> .
+@prefix this: <https://w3id.org/fair/icc/np/F3-Explanation/RAuPPVbDQORAT94jVBju4nkkACqHgOoFcy-6OviV0oCtM> .
+@prefix sub: <https://w3id.org/fair/icc/np/F3-Explanation/RAuPPVbDQORAT94jVBju4nkkACqHgOoFcy-6OviV0oCtM#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F3-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1090,7 +1090,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1101,8 +1101,8 @@ sub:pubinfo {
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/F4-Explanation/RAj9gy-N3W_LFPMu48WQbtU70ObMvUIVvsMYdIvifyCPk> .
-@prefix sub: <https://w3id.org/fair/icc/np/F4-Explanation/RAj9gy-N3W_LFPMu48WQbtU70ObMvUIVvsMYdIvifyCPk#> .
+@prefix this: <https://w3id.org/fair/icc/np/F4-Explanation/RAJhV5PhAXYIcxEzf-puXtNICbHitPcE-nyOSOrVTfKfM> .
+@prefix sub: <https://w3id.org/fair/icc/np/F4-Explanation/RAJhV5PhAXYIcxEzf-puXtNICbHitPcE-nyOSOrVTfKfM#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F4-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1142,18 +1142,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAybuBqRnSoPsqGuxmbFiI3y6_evmgIagjaacBet0dhZI> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAybuBqRnSoPsqGuxmbFiI3y6_evmgIagjaacBet0dhZI#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAqTYPOIDIQ12xBUdOxo9H06GO1rKO3W0KHDk7MsvZ1G4> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAqTYPOIDIQ12xBUdOxo9H06GO1rKO3W0KHDk7MsvZ1G4#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix latest: <https://w3id.org/fair/icc/latest/A1.1-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1172,11 +1167,20 @@ sub:Head {
 }
 
 sub:assertion {
+  dbpedia:Hypertext_Transfer_Protocol rdfs:label "Hypertext Transfer Protocol" .
+  
+  <https://dash.harvard.edu/handle/1/4322580> rdfs:label "Suber 2008" .
+  
   icc:A1.1-Explanation a icc:Explanation;
-    rdfs:comment "With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed).";
+    rdfs:comment "The protocol (mechanism) by which a digital resource is accessed (e.g. queried) should not pose any bottleneck. It describes an access process, hence does not directly pertain to restrictions that apply to using the resource. The protocols underlying the World-Wide Web, such as HTTP, are an archetype for an open, free, and universally implementable protocol. Such protocols reduce the cost of gaining access to digital resources, because they are well defined and open and allow any individual to create their own standards-compliant implementation. That the use of the protocols is free ensures that those lacking monetary means can equitably access the resource. That it is universally implementable ensures that the technology is available to all (and not restricted, for instance, by country or a sub-community), thus encompassing both the \"gratis\" and \"libre\" meaning of \"free\" (https://dash.harvard.edu/handle/1/4322580).";
     rdfs:isDefinedBy latest:;
     rdfs:label "A1.1 Explanation";
-    icc:explains-principle fair:A1.1 .
+    rdfs:seeAlso dbpedia:Hypertext_Transfer_Protocol, <https://dash.harvard.edu/handle/1/4322580>;
+    icc:explains-principle fair:A1.1;
+    icc:implementation-considerations "Current challenges are to explicitly and fully document access protocols that are not open/free (for example, access only after personal contact) and make those protocols available as a clearly identified facet of the machine-readable metadata. Current choices are for communities to choose standardized communication protocols that are open, free and universally implementable. ";
+    icc:implementation-examples "The most common example of a compliant protocol is the HTTP protocol that underlies the majority of Web traffic. It has additional useful features, including the ability to request metadata in a preferred format, and/or to inquire as to the formats that are available. It is also widely supported by software and common programming languages." .
+  
+  fair:A1.1 rdfs:label "A1.1" .
 }
 
 sub:provenance {
@@ -1184,19 +1188,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1.1-Explanation/RAybuBqRnSoPsqGuxmbFiI3y6_evmgIagjaacBet0dhZI> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/A1.2-Explanation/RA3Hr_3Jus0_C0exBw9rFxwq7IzZvyPxYEzuUzkRpsOLo> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1.2-Explanation/RA3Hr_3Jus0_C0exBw9rFxwq7IzZvyPxYEzuUzkRpsOLo#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1.2-Explanation/RAvMxTYUr4zvG9T8_E5ST8_aeUJ7qujC_lBknYruDYq3Q> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1.2-Explanation/RAvMxTYUr4zvG9T8_E5ST8_aeUJ7qujC_lBknYruDYq3Q#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/A1.2-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1215,11 +1213,18 @@ sub:Head {
 }
 
 sub:assertion {
+  <https://doi.org/10.1162/dint_a_00029> rdfs:label "Brewster et al. 2019" .
+  
   icc:A1.2-Explanation a icc:Explanation;
-    rdfs:comment "Some digital resources, such as sensitive individual data, require additional measures to be followed, such as ethical approval, before access can be granted. The ‘A’ in FAIR does not imply ‘Open’ or ‘Free’, but it does require that the exact conditions and the process to access restricted data are transparent and made public. Any additional authentication and authorization procedures must be specified. Therefore, prior to the release of a restricted digital resource, publishers must take steps to clarify eligibility and process.";
+    rdfs:comment "This principle clearly demonstrates that FAIR is not equal to ‘open’. Some digital resources, such as data that have access restrictions based on ethical, legal or contractual constraints, require additional measures to be accessed. This often pertains to assuring that the access requester is indeed that requester (authentication), that the requester’s profile and credentials match the access conditions of the resource (authorization), and that the intended use matches permitted use cases (e.g. non-commercial purposes only) (see also R1.1, where there are requirements to provide explicit documentation about who may use the data, and for what purposes). At the level of technical implementation, an additional authentication and authorization procedure must be specified, if it is not already defined by the protocol (see A1.1). A requester can be a human or a machine agent. In the latter case it is probably a proxy for a human or an organization to which the authentication and authorization protocol should be applied, in which case, the machine should be expected to present the appropriate credentials. The principle requires that a FAIR resource must provide such a protocol, but the protocol itself is not further specified. In practice, an Internet of FAIR Data and Services cannot function without implementing Authentication and Authorization Infrastructure (AAI, see also https://doi.org/10.1162/dint_a_00029).";
     rdfs:isDefinedBy latest:;
     rdfs:label "A1.2 Explanation";
-    icc:explains-principle fair:A1.2 .
+    rdfs:seeAlso <https://dash.harvard.edu/handle/1/4322580>, <https://doi.org/10.1162/dint_a_00029>;
+    icc:explains-principle fair:A1.2;
+    icc:implementation-considerations "Current choices are for communities to choose protocols to use when controlling access of agents to meta(data). Preferably these should be as generic as possible and as domain specific as necessary. Attempts to harmonize AAI approaches are numerous, but not covered in this article.";
+    icc:implementation-examples "Again, the most common example of a compliant protocol is the HTTP protocol. Another example is the life science AAI protocol. Brewster et al. (https://doi.org/10.1162/dint_a_00029) describe an early implementation of an ontology-based approach to this challenge." .
+  
+  fair:A1.2 rdfs:label "A1.2" .
 }
 
 sub:provenance {
@@ -1227,19 +1232,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1.2-Explanation/RA3Hr_3Jus0_C0exBw9rFxwq7IzZvyPxYEzuUzkRpsOLo> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/A1-Explanation/RAheXRabbcfujKMIKQdbsWyRitg3Z0qV9Y-_yYa5R_6UI> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1-Explanation/RAheXRabbcfujKMIKQdbsWyRitg3Z0qV9Y-_yYa5R_6UI#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1-Explanation/RAA5FeWGNafEJRHZsvlRP6j3OMyuB4LNFNWKVEPS1JjJc> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1-Explanation/RAA5FeWGNafEJRHZsvlRP6j3OMyuB4LNFNWKVEPS1JjJc#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/A1-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1259,11 +1258,16 @@ sub:Head {
 
 sub:assertion {
   icc:A1-Explanation a icc:Explanation;
-    rdfs:comment "FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ...";
+    rdfs:comment "A primary purpose of identifying a digital resource is to simultaneously provide the ability to retrieve the record of that digital resource, in some format, using some clearly-defined mechanism: hence the retrievability is a facet of FAIR Accessibility. Here, the emphasis is on 'ability': there should be no additional barrier retrieval of the record by some agent when its access protocol (A1.1) results in permitted access to that record. Note that the agent may be a machine working behind a firewall, if that agent has been permitted access. For fully mechanized access, this requires that the identifier (F1) follows a globally-accepted schema that is tied to a standardized, high-level communication protocol. The 'standardized communication protocol' is critical here. Its purpose is to provide a predictable way for an agent to access a resource, regardless of whether unrestricted access to the content of the resource is granted or not.";
     rdfs:isDefinedBy latest:;
     rdfs:label "A1 Explanation";
-    rdfs:seeAlso icc:A1.1-Explanation, icc:A1.2-Explanation;
-    icc:explains-principle fair:A1 .
+    rdfs:seeAlso icc:A1.1-Explanation, icc:A1.2-Explanation, <https://www.w3.org/Protocols/>;
+    icc:explains-principle fair:A1;
+    icc:implementation-examples "An example of a standardized access protocol is the Hypertext Transfer Protocol (HTTP1); however, FAIR does not preclude non-mechanized access protocols, such as a verbal request to the data holder in the case of highly sensitive data, so long as the access protocol is explicit and clearly defined. Conditions of compliance are further specified in sub-principles A1.1 and A1.2." .
+  
+  fair:A1 rdfs:label "A1" .
+  
+  <https://www.w3.org/Protocols/> rdfs:label "HTTP - Hypertext Transfer Protocol" .
 }
 
 sub:provenance {
@@ -1271,11 +1275,11 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1-Explanation/RAheXRabbcfujKMIKQdbsWyRitg3Z0qV9Y-_yYa5R_6UI> .
 }
-
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
