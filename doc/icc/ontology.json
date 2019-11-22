@@ -17,6 +17,12 @@
     "@value" : "Hypertext Transfer Protocol"
   } ]
 }, {
+  "@id" : "http://dbpedia.org/resource/Web_Ontology_Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Web Ontology Language (OWL)"
+  } ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -34,6 +40,18 @@
 }, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://sulab.org/2016/08/open-data-should-mean-cc0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Open Data should mean CC0, not CC-BY"
+  } ]
+}, {
+  "@id" : "http://wikidata.org/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "WikiData"
+  } ]
 }, {
   "@id" : "http://www.dcc.ac.uk/",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -59,16 +77,46 @@
   "@id" : "http://xmlns.com/foaf/0.1/member",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
+  "@id" : "https://bioportal.bioontology.org/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "BioPortal"
+  } ]
+}, {
+  "@id" : "https://bioportal.bioontology.org/ontologies/SIO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SemanticScience Integrated Ontology"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/share-your-work/public-domain/cc0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CC0"
+  } ]
+}, {
   "@id" : "https://dash.harvard.edu/handle/1/4322580",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Suber 2008"
   } ]
 }, {
+  "@id" : "https://doi.org/10.1038/ng1201-365",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Brazma et al. 2001"
+  } ]
+}, {
   "@id" : "https://doi.org/10.1038/s41587-019-0080-8",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Sansone et al. 2019"
+  } ]
+}, {
+  "@id" : "https://doi.org/10.1145/2187980.2188242",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vrandečić 2012"
   } ]
 }, {
   "@id" : "https://doi.org/10.1162/dint_a_00026",
@@ -87,6 +135,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Thompson et al. 2019"
+  } ]
+}, {
+  "@id" : "https://doi.org/10.1162/dint_a_00040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Guizzardi 2019"
   } ]
 }, {
   "@id" : "https://doi.org/10.1162/dint_a_00043",
@@ -119,6 +173,12 @@
     "@value" : "Juty et al. 2019"
   } ]
 }, {
+  "@id" : "https://ds-wizard.org",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Stewardship Wizard"
+  } ]
+}, {
   "@id" : "https://fairsharing.org/FAIRsharing.s248mf",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -129,6 +189,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "FAIRsharing"
+  } ]
+}, {
+  "@id" : "https://more.metadatacenter.org/tools-training/outreach/cedar-template-model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CEDAR"
   } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-5306-5690",
@@ -363,6 +429,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Annika Jacobsen"
+  } ]
+}, {
+  "@id" : "https://provenance.ecs.soton.ac.uk/prov-template/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PROV-Template"
   } ]
 }, {
   "@id" : "https://toolbox.google.com/datasetsearch",
@@ -855,6 +927,197 @@
     "@id" : "https://orcid.org/0000-0003-4818-2360"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/icc/terms/I1-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Consumers spend a disproportionate amount of time trying to make sense of the digital resources they need and designing accurate ways to combine them. This is most often due to a lack of suitably unambiguous content descriptors, or a lack of such descriptors entirely with respect to non-machine-interpretable data formats such as tables or “generic” XML. Community-defined data exchange formats work reasonably well within their original scope of a few types of data and a relatively homogeneous community, but not well beyond that. This makes interoperation and integration an expensive, often impossible task (even for humans), but also means that machines cannot easily make use of digital resources, which is the primary goal of FAIR. For example, when a machine visits two data files in which a field “temperature” is present, then it will need more contextual descriptions to distinguish between weather data in one file and body temperature measurements in another. Achieving a ‘common understanding’ of digital resources through a globally understood ‘language’ for machines is the purpose of principle I1, with emphasis on ‘knowledge’ and ‘knowledge representation’. This becomes critical when many differently formatted resources need to be visited or combined across organizations and countries and is especially challenging for interdisciplinary studies or for meta-analyses, where results from independent organizations, pertaining to the same topic, must be combined.  In this context, the principle says that producers of digital resources are required to use a language (i.e., a representation of data/knowledge) that has a defined mechanism for mechanized interpretation - a machine-readable “grammar” - where, for example, the difference between an entity, as well as any relevant relationship between entities, is defined in the structure of the language itself. This allows machines to consume the information with at least a basic “understanding” of its content. It is a step towards a common understanding of digital resources by machines, which is a prerequisite for a functional Internet of FAIR Data and Services. Several technologies can be chosen for principle I1."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/I1-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I1 Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://doi.org/10.1162/dint_a_00040"
+  }, {
+    "@id" : "https://www.w3.org/RDF/"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I1"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "Communities will have to choose an available technology or decide how they will otherwise deal with multiple representations and languages. In any case, they will have to make sure that each data item that is the same in multiple resources is interpreted in exactly the same way by every agent (human and computer), and that how items across resources relate to one another can be unambiguously understood by all agents (doi:10.1162/dint_a_00040). The key consideration in this regard is that FAIR speaks to the ability of data to be reused by a generic agent, rather than a community-specific agent. This is most easily accomplished by making the knowledge available in the most widely used format(s), even if this means duplication of the information in the community-specific format."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "The most widely-accepted choice to adhere to this principle, at the present time, is the Resource Description Framework (RDF) which is the W3C’s recommendation for how to represent knowledge on the Web in a machine-accessible format (https://www.w3.org/RDF/). Other choices may also be acceptable, for instance when they are already in widespread use within a given community. In that case, it would be helpful for the community to also provide a “translator” between their preferred format, and a more widely used format such as RDF."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/I2-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Principle I2 uses 'vocabularies' to refer to the methods that unambiguously represent concepts that exist in a given domain. The use of shared, and formally structured (I1), sets of terms is an essential part of FAIR. Terminology systems, including flat ‘vocabularies’, hierarchical ‘thesauri’ and more granular specifications of knowledge such as data models and ontologies, play an important role in community standards. However, the vocabularies used for metadata or data also need to be findable, accessible, interoperable, and reusable in their own right so that users (including machines) can fully understand the meaning of the terms used in the metadata. This principle has been criticized as ‘circular’ but as has been made clear earlier in this article, the simple use of a “label” (e.g. “temperature”) is insufficient to enable a machine to understand both the intent of that label (Body temperature? Melting temperature?) and the contexts within which it can be properly linked - same-with-same - to other similarly-labelled data. I2, therefore, requires that the vocabulary terms used in the knowledge representation language (principle I1) can be sufficiently distinguished, by a machine, to ensure detection of ‘false agreements’ as well as ‘false disagreements’."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/I2-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I2 Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://dbpedia.org/resource/Web_Ontology_Language"
+  }, {
+    "@id" : "https://bioportal.bioontology.org/"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I2"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "Current considerations are for communities to ensure that terminology systems and, for instance, the units of measure, classifications, and relationship definitions are themselves FAIR. Thesauri that are proprietary and not universally accessible should be avoided wherever possible, because machines (and indeed particular countries, regions or communities as a whole) may not have the authority to access their definitions, such that even data that is accessible after authentication via A1.2 may not be useful to an agent that has no authority to access the concept definitions used within that data."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "Ontologies defined in the ‘Web Ontology Language’ (OWL) and shared via a publicly accessible registry (e.g. BioPortal for life science ontologies; https://bioportal.bioontology.org/) are examples of formally represented, accessible, mapped, and shared knowledge representations in a broadly applicable language for knowledge representation, that are also compliant with the Findability requirements of FAIR, since BioPortal provides a machine-accessible search interface."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/I3-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An important aspect of FAIR is that data or metadata, generally speaking, does not exist in a silo - we must do what is necessary to ensure that the knowledge representing a resource is connected to that of other resources to create a meaningfully interlinked network of data and services. A “qualified reference” is a reference to another resource (i.e., referencing that external resource’s persistent identifier), in which the nature of the relationship is also clearly specified. For instance, when multiple versions of a metadata file are available, it may be useful to provide links to prior or next versions using a named relation such as “prior version” or “next version” (preferably using an appropriate community standard relationship that itself conforms to the FAIR principles). In the case of data, imagine a dataset that specifies the population of cities around the world. To be FAIR with respect to principle I3, the data could contain links to a resource containing city data (e.g. Wikidata: http://wikidata.org/, doi:10.1145/2187980.2188242), geographical and geospatial data, or other related domain resources that are generated by that city, so long as they are properly qualified references using meaningful, clearly-interpretable relationships. It is also important to note that many different metadata files (containers) being FAIR digital resources in themselves, can be pointing to the same ‘target’ object (a data set or a workflow for instance). We can for instance have intrinsic metadata (‘what is this’) and how was it created (provenance type metadata) as well as ‘secondary’ metadata that are for instance created (separately and later in time) by reusers of a particular digital resource. These could all be metadata containers essentially describing the same digital resource from different perspectives. This principle therefore also relates to the good practice to clearly distinguish between metadata (files/containers) and the resources they describe."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/I3-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I3 Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://wikidata.org/"
+  }, {
+    "@id" : "https://bioportal.bioontology.org/ontologies/SIO"
+  }, {
+    "@id" : "https://doi.org/10.1145/2187980.2188242"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I3"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "The considerations and choices made here are based on the same reasoning as the decisions made for principle I2. Vocabularies (often formal ontologies) of both concepts and relationships exist, and an appropriate relationship should either be selected from one of these, or “coined” and properly published following the FAIR Principles."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "It is worth noting as an example that several “upper ontologies” such as the SemanticScience Integrated Ontology (https://bioportal.bioontology.org/ontologies/SIO) have a wide range of precisely-defined relationships that can be used as-is, or as a starting-point for a newly-minted relationship that is more specific than the one provided in the upper-ontology. The benefit of “inheriting” from higher-level relationships is that agents capable of understanding these higher level concepts, can infer at least a basic interpretation of the intent of the new relationship coined within the community, and therefore enhances interoperability."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/R1-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "On its surface, principle R1 appears very similar to principle F2. However, the rationale behind principle F2 is to enable effective attribute-based search and query (findability), while the focus of R1 is to enable machines and humans to assess if the discovered resource is appropriate for reuse, given a specific task. For example, not all gene expression data for a given locus are relevant to a study of the effects of heat stress.  While inappropriate data may be discovered by the agent’s initial search (principle F2) for expression data about a given gene, here we address the ability to assess the discovered data based on suitability-for-purpose. This reiterates the need for providers to consider not only high-level metadata facets, that will assist in generic search, but also to consider more detailed metadata that will provide much more ‘operational’ instructions for re-use.  In this setting, a wide variety of factors may be needed to determine whether a resource is suitable for inclusion in an analysis, and how to adequately process it. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/R1-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1 Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/fair/icc/terms/R1.1-Explanation"
+  }, {
+    "@id" : "https://w3id.org/fair/icc/terms/R1.2-Explanation"
+  }, {
+    "@id" : "https://w3id.org/fair/icc/terms/R1.3-Explanation"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "The term “plurality” is used to indicate that the metadata author should be as generous as possible, not presuming who the consumer might be, and therefore provide as much metadata as possible to support the widest variety of use-cases and agent needs. The sub-principles R1.1, R1.2 and R1.3 define some critical types of attributes that contribute to R1."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/R1.1-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Digital resources and their metadata must always, without exception, include a license that describes under which conditions the resource can be used, even if that is ‘unconditional’. By default, resources cannot be legally used without this clarity. Note also that a license that cannot be found by an agent, is effectively the same as no license at all. Furthermore, the license may be different for a data resource and the metadata that describes it, which has implications for the indexing of metadata v.v. findability. This is a clear public domain statement, an equivalent such as terms of use or computer protocol to digitally facilitate an operation (for instance a smart contract). Thus, the absence of a license does not indicate “open”, but rather creates legal uncertainty that will deter (in fact, in many cases legally prevent) reuse. Note also that the combination of resources with restrictive license conditions may lead to adverse effects, and ultimately preclude the use of the combined resources. In order to facilitate reuse, the license chosen should be as open as possible."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/R1.1-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1.1 Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://sulab.org/2016/08/open-data-should-mean-cc0/"
+  }, {
+    "@id" : "https://creativecommons.org/share-your-work/public-domain/cc0/"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.1"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "A current challenge is that there is currently no well-defined relationship(s) that can be used to distinguish a license that applies to the data being described, versus a license that applies to the metadata record itself, resulting in potential ambiguity in the interpretation of a license referred-to in the metadata record. Current choices are for communities to choose which usage license(s) or licensing requirements to reusable digital resources as well as to their metadata for its own purposes, but also consider broader reuse than originally anticipated or intended."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "There are good reasons for choosing a CC0 license for data (http://sulab.org/2016/08/open-data-should-mean-cc0/) and these considerations should be assessed, alongside all other considerations, when a community decides on the license they wish to apply. It is critical, however, that a license is chosen. The community should then ensure that a qualified link to that license is contained in the metadata record."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/R1.2-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Detailed provenance includes facets such as how the resource was generated, why it was generated, by whom, under what conditions, using what starting-data or source-resource, using what funding/resources, who owns the data, who should be given credit, and any filters or cleansing processes that have been applied post-generation. Provenance information helps people and machines assess whether a resource meets their criteria for their intended reuse, and what data manipulation procedures may be necessary in order to reuse it appropriately."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/R1.2-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1.2 Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://ds-wizard.org"
+  }, {
+    "@id" : "https://doi.org/10.1162/dint_a_00043"
+  }, {
+    "@id" : "https://more.metadatacenter.org/tools-training/outreach/cedar-template-model"
+  }, {
+    "@id" : "https://provenance.ecs.soton.ac.uk/prov-template/"
+  }, {
+    "@id" : "https://www.castoredc.com/for-researchers/"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.2"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "Current choices are for communities to choose a set of metadata descriptions to optimize provenance to optimally enable machine and human reusability for its own purposes. These choices, and, as argued before the richness of the provenance associated with a digital resource will strongly influence its actual reuse. Therefore, the implementation considerations for implementing according to this principle are inherently the same as described for principle F2, but now more focused on appropriateness for reuse than on findability per se."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "Provenance descriptions can for instance be implemented following community specific templates according to the PROV-Template (https://provenance.ecs.soton.ac.uk/prov-template/) approach. These templates allow to predefine the structure of the intended collection of provenance information using variables which are later instantiated with appropriate data extracted from existing process output. Such templates also reduce the burden on community members to deeply understand the highly structured PROV ontology, and the well-defined data structures that emerge from its use - that is to say, PROV should not be treated as a simple vocabulary from which terms can be selected, but rather as a model that constrains how those terms must be used in relation to one another. Several early tools are under development to make the construction of FAIR metadata easier, including for instance CEDAR (https://more.metadatacenter.org/tools-training/outreach/cedar-template-model), CASTOR (https://www.castoredc.com/for-researchers/) and the knowledge models in the Data Stewardship Wizard (https://ds-wizard.org, doi:10.1162/dint_a_00043)."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/R1.3-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Where community standards or best practices for data archiving and sharing exist, they should be followed. Several disciplinary communities have defined Minimal Information Standards describing most often the minimal set of metadata items required to assess the quality of the data acquisition and processing and to facilitate reproducibility. Such standards are a good start, noting that true (interdisciplinary) reusability will generally require richer metadata. For a list of such standards, consult FAIRsharing (https://fairsharing.org/standards/, doi:10.1038/s41587-019-0080-8)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/R1.3-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1.3 Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://doi.org/10.1038/ng1201-365"
+  }, {
+    "@id" : "https://doi.org/10.1038/s41587-019-0080-8"
+  }, {
+    "@id" : "https://fairsharing.org/standards/"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.3"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "Current choices are for a community to choose which practices to use for data and metadata, taking into full consideration the relevant inter-domain interoperability requirements. Communities must then take-on the challenge of deciding which metadata elements, addressed within their community’s “boutique” standard(s), should be additionally represented using a more global standard (principles F2 and R1.2), even if this results in duplication of metadata, such that it can be used for search and interpretation by more generic, third-party agents."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "An example of minimal information standards is the MIAME standard (doi:10.1038/ng1201-365), and various metadata profiles have been defined on top of specifications (e.g. various DCAT profiles)."
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/icc/terms/Resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -1114,10 +1377,64 @@
     "@value" : "FAIR Principle or Sub-Principle"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/principles/terms/I1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1.2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1.3"
+  } ]
+}, {
+  "@id" : "https://www.castoredc.com/for-researchers/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CASTOR"
+  } ]
+}, {
   "@id" : "https://www.w3.org/Protocols/",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "HTTP - Hypertext Transfer Protocol"
+  } ]
+}, {
+  "@id" : "https://www.w3.org/RDF/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Resource Description Framework (RDF)"
   } ]
 }, {
   "@id" : "https://www.w3.org/TR/vocab-dcat/",
