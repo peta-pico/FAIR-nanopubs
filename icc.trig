@@ -544,8 +544,8 @@ sub:pubinfo {
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RA-2sbfddVxPV7oF7IcXMsgYV6AsdLa60pP0LDhzMbrGI> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RA-2sbfddVxPV7oF7IcXMsgYV6AsdLa60pP0LDhzMbrGI#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RArh1yXGYEC-o78mRBf5_lF0o-gHM4VXa7gOXWckIGufY> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RArh1yXGYEC-o78mRBf5_lF0o-gHM4VXa7gOXWckIGufY#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/implementation-considerations> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -577,7 +577,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -586,8 +586,8 @@ sub:pubinfo {
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RAq1ELXg-_SUo4f93TT8_YQX2qp_nStt_s5NvK_bczl2U> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RAq1ELXg-_SUo4f93TT8_YQX2qp_nStt_s5NvK_bczl2U#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RAu-STcxRD_BusAUf8TX5qwHNAmUH02SR7-oCLhOfNs_o> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RAu-STcxRD_BusAUf8TX5qwHNAmUH02SR7-oCLhOfNs_o#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/implementation-examples> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -619,7 +619,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -930,8 +930,8 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
-@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RA_lBRFxb_lR1_YIDuHRYfOPsXUUcgVhuTK7t91tkVvwI> .
-@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RA_lBRFxb_lR1_YIDuHRYfOPsXUUcgVhuTK7t91tkVvwI#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAP9XiDqTac9CTgHxZ5E4Ycs8Ss1lCzQxZkJ9C4om7lwo> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAP9XiDqTac9CTgHxZ5E4Ycs8Ss1lCzQxZkJ9C4om7lwo#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F1-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -975,7 +975,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/F1-Explanation/RA1HikSxbrsdMhHF5_TTqnKpd4eQ3RGoHDW-NL4JiPch8> .
@@ -986,8 +986,8 @@ sub:pubinfo {
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RAPXRk8UJojwdwj4d7f_O14Eyj_Pb6YTU_-qF7qhU8CAs> .
-@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RAPXRk8UJojwdwj4d7f_O14Eyj_Pb6YTU_-qF7qhU8CAs#> .
+@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RA-iDdxRUsPJuUJgXiyKDTk2NO5s6fkW6vE9tLcVO7lt0> .
+@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RA-iDdxRUsPJuUJgXiyKDTk2NO5s6fkW6vE9tLcVO7lt0#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F2-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1038,7 +1038,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1049,8 +1049,8 @@ sub:pubinfo {
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/F3-Explanation/RAuPPVbDQORAT94jVBju4nkkACqHgOoFcy-6OviV0oCtM> .
-@prefix sub: <https://w3id.org/fair/icc/np/F3-Explanation/RAuPPVbDQORAT94jVBju4nkkACqHgOoFcy-6OviV0oCtM#> .
+@prefix this: <https://w3id.org/fair/icc/np/F3-Explanation/RAQguwwewjJZAtm0wT18NhBCGRlSgn6f2_1tIF7XhUpcc> .
+@prefix sub: <https://w3id.org/fair/icc/np/F3-Explanation/RAQguwwewjJZAtm0wT18NhBCGRlSgn6f2_1tIF7XhUpcc#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F3-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1090,7 +1090,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1101,8 +1101,8 @@ sub:pubinfo {
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/F4-Explanation/RAJhV5PhAXYIcxEzf-puXtNICbHitPcE-nyOSOrVTfKfM> .
-@prefix sub: <https://w3id.org/fair/icc/np/F4-Explanation/RAJhV5PhAXYIcxEzf-puXtNICbHitPcE-nyOSOrVTfKfM#> .
+@prefix this: <https://w3id.org/fair/icc/np/F4-Explanation/RAZCrl7CK96sqeqFOx-hl6my7CrT77eRBvGA72Z_3gHXM> .
+@prefix sub: <https://w3id.org/fair/icc/np/F4-Explanation/RAZCrl7CK96sqeqFOx-hl6my7CrT77eRBvGA72Z_3gHXM#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/F4-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1142,12 +1142,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAqTYPOIDIQ12xBUdOxo9H06GO1rKO3W0KHDk7MsvZ1G4> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAqTYPOIDIQ12xBUdOxo9H06GO1rKO3W0KHDk7MsvZ1G4#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAYDo7jyv8iCbUjxuNdE9WrmKDz6meDMbvyFI0zDYvtFA> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAYDo7jyv8iCbUjxuNdE9WrmKDz6meDMbvyFI0zDYvtFA#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix latest: <https://w3id.org/fair/icc/latest/A1.1-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
@@ -1188,13 +1188,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1.1-Explanation/RAybuBqRnSoPsqGuxmbFiI3y6_evmgIagjaacBet0dhZI> .
 }
-@prefix this: <https://w3id.org/fair/icc/np/A1.2-Explanation/RAvMxTYUr4zvG9T8_E5ST8_aeUJ7qujC_lBknYruDYq3Q> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1.2-Explanation/RAvMxTYUr4zvG9T8_E5ST8_aeUJ7qujC_lBknYruDYq3Q#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1.2-Explanation/RAzKTppbzzpjiOMPnn6aXm39Pf0F6OaDaSZZMa_6jthm4> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1.2-Explanation/RAzKTppbzzpjiOMPnn6aXm39Pf0F6OaDaSZZMa_6jthm4#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/A1.2-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1232,13 +1232,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1.2-Explanation/RA3Hr_3Jus0_C0exBw9rFxwq7IzZvyPxYEzuUzkRpsOLo> .
 }
-@prefix this: <https://w3id.org/fair/icc/np/A1-Explanation/RAA5FeWGNafEJRHZsvlRP6j3OMyuB4LNFNWKVEPS1JjJc> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1-Explanation/RAA5FeWGNafEJRHZsvlRP6j3OMyuB4LNFNWKVEPS1JjJc#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1-Explanation/RA-SU9btfMdJnXKHBmQf0413gVUfrumZTgdKOhhoQtOr4> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1-Explanation/RA-SU9btfMdJnXKHBmQf0413gVUfrumZTgdKOhhoQtOr4#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/A1-Explanation> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -1275,10 +1275,67 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2019-11-22T15:25:54.948+01:00"^^xsd:dateTime;
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1-Explanation/RAheXRabbcfujKMIKQdbsWyRitg3Z0qV9Y-_yYa5R_6UI> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/A2-Explanation/RAOHHGHk9WYJJHKYpPthqJp1yKUntfoYp1NsGB7S9wfco> .
+@prefix sub: <https://w3id.org/fair/icc/np/A2-Explanation/RAOHHGHk9WYJJHKYpPthqJp1yKUntfoYp1NsGB7S9wfco#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A2-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://www.dcc.ac.uk/> rdfs:label "Digital Curation Centre" .
+  
+  <http://www.dcc.ac.uk/resources/data-management-plans> rdfs:label "Data Management Plan" .
+  
+  <https://doi.org/10.1162/dint_a_00043> rdfs:label "Jones et al. 2019" .
+  
+  <https://doi.org/10.25490/a97f-egyk> rdfs:label "Martone et al. 2014" .
+  
+  icc:A2-Explanation a icc:Explanation;
+    rdfs:comment "There is a continued focus on keeping relevant digital resources available in the future. Data may no longer be accessible either by design (e.g. a defined life-span within limited financial resources or legal requirements to destroy sensitive data) or by accident. However, given that those data may have been used and are referenced by others, it is important that consumers have, at the very least, access to high quality metadata that describes those resources sufficiently to minimally understand their nature and their provenance, even when the relevant data are not available anymore. This principle relies heavily on the ‘second purpose’ of principle F3 (the metadata record contains the identifier of the data), because in the case where the data record is no longer available, there must be a clear and precise way of discovering its historical metadata record. This aspect of accessibility is further elaborated in the Joint Declaration of Data Citation Principles (doi:10.25490/a97f-egyk).";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "A2 Explanation";
+    rdfs:seeAlso <http://www.dcc.ac.uk/>, <http://www.dcc.ac.uk/resources/data-management-plans>,
+      <https://doi.org/10.1162/dint_a_00043>, <https://doi.org/10.25490/a97f-egyk>;
+    icc:explains-principle fair:A2;
+    icc:implementation-considerations "Current choices/challenges are for communities to choose/define a persistence policy for metadata that describes data that may not always be available, choose/define machine-actionable templates for a persistence policy document for metadata, and in addition choose/define a machine-actionable scheme to reference the metadata persistence policy.";
+    icc:implementation-examples "Examples of early attempts to address this critical principle relates closely to the principles of digital curation (http://www.dcc.ac.uk/) including the concept of a FAIR compliant DMP (Data Management Plan; http://www.dcc.ac.uk/resources/data-management-plans) (doi:10.1162/dint_a_00043). Many other efforts are underway to improve the long-term stewardship of reusable digital resources." .
+  
+  fair:A2 rdfs:label "A2" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T16:10:23.538+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .

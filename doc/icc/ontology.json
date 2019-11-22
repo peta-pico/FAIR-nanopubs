@@ -35,6 +35,18 @@
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://www.dcc.ac.uk/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Digital Curation Centre"
+  } ]
+}, {
+  "@id" : "http://www.dcc.ac.uk/resources/data-management-plans",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Management Plan"
+  } ]
+}, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
@@ -77,10 +89,22 @@
     "@value" : "Thompson et al. 2019"
   } ]
 }, {
+  "@id" : "https://doi.org/10.1162/dint_a_00043",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Jones et al. 2019"
+  } ]
+}, {
   "@id" : "https://doi.org/10.1371/journal.pbio.2001414",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "McMurry et al. 2017"
+  } ]
+}, {
+  "@id" : "https://doi.org/10.25490/a97f-egyk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Martone et al. 2014"
   } ]
 }, {
   "@id" : "https://doi.org/10.25504/FAIRsharing.1t5ws6",
@@ -422,6 +446,36 @@
   } ],
   "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
     "@value" : "Again, the most common example of a compliant protocol is the HTTP protocol. Another example is the life science AAI protocol. Brewster et al. (https://doi.org/10.1162/dint_a_00029) describe an early implementation of an ontology-based approach to this challenge."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/A2-Explanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Explanation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "There is a continued focus on keeping relevant digital resources available in the future. Data may no longer be accessible either by design (e.g. a defined life-span within limited financial resources or legal requirements to destroy sensitive data) or by accident. However, given that those data may have been used and are referenced by others, it is important that consumers have, at the very least, access to high quality metadata that describes those resources sufficiently to minimally understand their nature and their provenance, even when the relevant data are not available anymore. This principle relies heavily on the ‘second purpose’ of principle F3 (the metadata record contains the identifier of the data), because in the case where the data record is no longer available, there must be a clear and precise way of discovering its historical metadata record. This aspect of accessibility is further elaborated in the Joint Declaration of Data Citation Principles (doi:10.25490/a97f-egyk)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/icc/latest/A2-Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A2 Explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://www.dcc.ac.uk/"
+  }, {
+    "@id" : "http://www.dcc.ac.uk/resources/data-management-plans"
+  }, {
+    "@id" : "https://doi.org/10.1162/dint_a_00043"
+  }, {
+    "@id" : "https://doi.org/10.25490/a97f-egyk"
+  } ],
+  "https://w3id.org/fair/icc/terms/explains-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A2"
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-considerations" : [ {
+    "@value" : "Current choices/challenges are for communities to choose/define a persistence policy for metadata that describes data that may not always be available, choose/define machine-actionable templates for a persistence policy document for metadata, and in addition choose/define a machine-actionable scheme to reference the metadata persistence policy."
+  } ],
+  "https://w3id.org/fair/icc/terms/implementation-examples" : [ {
+    "@value" : "Examples of early attempts to address this critical principle relates closely to the principles of digital curation (http://www.dcc.ac.uk/) including the concept of a FAIR compliant DMP (Data Management Plan; http://www.dcc.ac.uk/resources/data-management-plans) (doi:10.1162/dint_a_00043). Many other efforts are underway to improve the long-term stewardship of reusable digital resources."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/icc/terms/Challenge",
@@ -1022,6 +1076,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "A1.2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/A2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A2"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/F1",

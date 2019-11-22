@@ -430,6 +430,30 @@ fair:A1.2 rdfs:label "A1.2" .
 
 <https://www.w3.org/Protocols/> <http://www.w3.org/2000/01/rdf-schema#label> "HTTP - Hypertext Transfer Protocol" .
 
+<http://www.dcc.ac.uk/> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Curation Centre" .
+
+<http://www.dcc.ac.uk/resources/data-management-plans> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Data Management Plan" .
+
+<https://doi.org/10.1162/dint_a_00043> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Jones et al. 2019" .
+
+<https://doi.org/10.25490/a97f-egyk> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Martone et al. 2014" .
+
+<https://w3id.org/fair/icc/terms/A2-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "There is a continued focus on keeping relevant digital resources available in the future. Data may no longer be accessible either by design (e.g. a defined life-span within limited financial resources or legal requirements to destroy sensitive data) or by accident. However, given that those data may have been used and are referenced by others, it is important that consumers have, at the very least, access to high quality metadata that describes those resources sufficiently to minimally understand their nature and their provenance, even when the relevant data are not available anymore. This principle relies heavily on the ‘second purpose’ of principle F3 (the metadata record contains the identifier of the data), because in the case where the data record is no longer available, there must be a clear and precise way of discovering its historical metadata record. This aspect of accessibility is further elaborated in the Joint Declaration of Data Citation Principles (doi:10.25490/a97f-egyk).";
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/A2-Explanation>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "A2 Explanation";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.dcc.ac.uk/>, <http://www.dcc.ac.uk/resources/data-management-plans>,
+    <https://doi.org/10.1162/dint_a_00043>, <https://doi.org/10.25490/a97f-egyk>;
+  <https://w3id.org/fair/icc/terms/explains-principle> <https://w3id.org/fair/principles/terms/A2>;
+  <https://w3id.org/fair/icc/terms/implementation-considerations> "Current choices/challenges are for communities to choose/define a persistence policy for metadata that describes data that may not always be available, choose/define machine-actionable templates for a persistence policy document for metadata, and in addition choose/define a machine-actionable scheme to reference the metadata persistence policy.";
+  <https://w3id.org/fair/icc/terms/implementation-examples> "Examples of early attempts to address this critical principle relates closely to the principles of digital curation (http://www.dcc.ac.uk/) including the concept of a FAIR compliant DMP (Data Management Plan; http://www.dcc.ac.uk/resources/data-management-plans) (doi:10.1162/dint_a_00043). Many other efforts are underway to improve the long-term stewardship of reusable digital resources." .
+
+<https://w3id.org/fair/principles/terms/A2> <http://www.w3.org/2000/01/rdf-schema#label>
+    "A2" .
+
 <https://w3id.org/fair/icc/terms/F1-Choice> a <https://w3id.org/fair/icc/terms/Choice>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources.";
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/F1-Choice>;
