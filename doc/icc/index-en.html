@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/icc/terms/FAIR-ICC-Model","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/icc/terms/FAIR-ICC-Model","name":"FAIR Implementation Choices and Challenges Model", "headline":"This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.", "datePublished":"Fri Sep 20 16:31:25 CEST 2019", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-4818-2360","url":"https://orcid.org/0000-0003-4818-2360"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/icc/terms/FAIR-ICC-Model","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/icc/terms/FAIR-ICC-Model","name":"FAIR Implementation Choices and Challenges Model", "headline":"This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.", "datePublished":"Fri Nov 22 13:41:31 CET 2019", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-4818-2360","url":"https://orcid.org/0000-0003-4818-2360"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -44,15 +44,8 @@ function loadTOC(){
 }
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
- };    $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
-      $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
-      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
-    });
-    </script> 
+ }; 
+   </script> 
   </head> 
 
 <body>
@@ -77,20 +70,2127 @@ function loadTOC(){
 <div>
 <span>Ontology Specification Draft</span>
 </div>
-</div>     <div id="abstract"></div>
-<div id="toc"></div>     <div id="introduction"></div>
-     <div id="overview"></div>
-     <div id="description"></div>
-     <div id="crossref"></div>
-     <div id="references"></div>
-<html>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.</span>
+</div>
+<div id="toc"></div> 
+
+<!--INTRODUCTION SECTION-->
+    <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+<div id="namespacedeclarations">
+<h3 id="ns" class="list">Namespace declarations</h3>
+<div id="ns" align="center">
+<table>
+<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
+<tbody>
+<tr><td><b>icc</b></td><td>&lt;https://w3id.org/fair/icc/terms/FAIR-ICC-Model&gt;</td></tr>
+<tr><td><b>10-25504</b></td><td>&lt;https://doi.org/10.25504&gt;</td></tr>
+<tr><td><b>10-1371</b></td><td>&lt;https://doi.org/10.1371&gt;</td></tr>
+<tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
+<tr><td><b>resource</b></td><td>&lt;http://dbpedia.org/resource&gt;</td></tr>
+<tr><td><b>10-5281</b></td><td>&lt;https://doi.org/10.5281&gt;</td></tr>
+<tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
+<tr><td><b>skos</b></td><td>&lt;http://www.w3.org/2004/02/skos/core&gt;</td></tr>
+<tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
+<tr><td><b>orcid-org</b></td><td>&lt;https://orcid.org&gt;</td></tr>
+<tr><td><b>fairsharing-org</b></td><td>&lt;https://fairsharing.org&gt;</td></tr>
+<tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
+<tr><td><b>terms</b></td><td>&lt;https://w3id.org/fair/icc/terms&gt;</td></tr>
+<tr><td><b>10-1038</b></td><td>&lt;https://doi.org/10.1038&gt;</td></tr>
+<tr><td><b>terms1</b></td><td>&lt;http://purl.org/dc/terms&gt;</td></tr>
+<tr><td><b>vann</b></td><td>&lt;http://purl.org/vocab/vann&gt;</td></tr>
+<tr><td><b>foaf</b></td><td>&lt;http://xmlns.com/foaf/0.1&gt;</td></tr>
+<tr><td><b>latest</b></td><td>&lt;https://w3id.org/fair/icc/latest&gt;</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">FAIR Implementation Choices and Challenges Model: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul class="hlist">
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/Challenge" title="https://w3id.org/fair/icc/terms/Challenge">Challenge</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/ChallengeDeclaration"
+         title="https://w3id.org/fair/icc/terms/ChallengeDeclaration">Challenge Declaration</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/Choice" title="https://w3id.org/fair/icc/terms/Choice">Choice</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/ChoiceDeclaration"
+         title="https://w3id.org/fair/icc/terms/ChoiceDeclaration">Choice Declaration</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/Community" title="https://w3id.org/fair/icc/terms/Community">Community</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/Declaration" title="https://w3id.org/fair/icc/terms/Declaration">Declaration</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
+         title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/Resource" title="https://w3id.org/fair/icc/terms/Resource">Resource</a>
+   </li>
+</ul><h4>Object Properties</h4><ul class="hlist">
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/chosen-resource" title="https://w3id.org/fair/icc/terms/chosen-resource">chosen resource</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/declared-by" title="https://w3id.org/fair/icc/terms/declared-by">declared by</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+         title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/had-challenge" title="https://w3id.org/fair/icc/terms/had-challenge">has open challenge</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/refers-to-challenge"
+         title="https://w3id.org/fair/icc/terms/refers-to-challenge">refers to challenge</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/refers-to-choice" title="https://w3id.org/fair/icc/terms/refers-to-choice">refers to choice</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/refers-to-principle"
+         title="https://w3id.org/fair/icc/terms/refers-to-principle">refers to principle</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/related-challenge"
+         title="https://w3id.org/fair/icc/terms/related-challenge">related challenge</a>
+   </li>
+</ul><h4>Data Properties</h4><ul class="hlist">
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+         title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+         title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+   </li>
+</ul><h4>Named Individuals</h4><ul class="hlist">
+   <li>
+      <a href="#https://w3id.org/fair/principles/terms/A1" title="https://w3id.org/fair/principles/terms/A1">A1</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/A1-Explanation" title="https://w3id.org/fair/icc/terms/A1-Explanation">A1 Explanation</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/principles/terms/A1.1" title="https://w3id.org/fair/principles/terms/A1.1">A1.1</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/A1.1-Explanation" title="https://w3id.org/fair/icc/terms/A1.1-Explanation">A1.1 Explanation</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/principles/terms/A1.2" title="https://w3id.org/fair/principles/terms/A1.2">A1.2</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/A1.2-Explanation" title="https://w3id.org/fair/icc/terms/A1.2-Explanation">A1.2 Explanation</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-4014-4394" title="https://orcid.org/0000-0003-4014-4394">Ali Hasnain</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-9773-4008" title="https://orcid.org/0000-0001-9773-4008">Andra Waagmeester</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-0413-2003" title="https://orcid.org/0000-0003-0413-2003">Annalisa Montesanti</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-4818-2360" title="https://orcid.org/0000-0003-4818-2360">Annika Jacobsen</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-2195-3997" title="https://orcid.org/0000-0003-2195-3997">Barbara Magagna</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-3934-0072" title="https://orcid.org/0000-0003-3934-0072">Barend Mons</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-5301-3142" title="https://orcid.org/0000-0002-5301-3142">Chris T. Evelo</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-4451-8042" title="https://orcid.org/0000-0002-4451-8042">Christine R. Kirkpatrick</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-6594-9178" title="https://orcid.org/0000-0001-6594-9178">Christopher Brewster</a>
+   </li>
+   <li>
+      <a href="#http://dbpedia.org/resource/Data_Documentation_Initiative"
+         title="http://dbpedia.org/resource/Data_Documentation_Initiative">Data Documentation Initiative</a>
+   </li>
+   <li>
+      <a href="#https://doi.org/10.25504/FAIRsharing.1t5ws6" title="https://doi.org/10.25504/FAIRsharing.1t5ws6">Data Documentation Initiative on FAIRsharing</a>
+   </li>
+   <li>
+      <a href="#http://dbpedia.org/resource/Digital_object_identifier"
+         title="http://dbpedia.org/resource/Digital_object_identifier">Digital object identifier</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-7542-0286" title="https://orcid.org/0000-0001-7542-0286">Egon Willighagen</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-8888-635X" title="https://orcid.org/0000-0001-8888-635X">Erik Schultes</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/F1-Explanation" title="https://w3id.org/fair/icc/terms/F1-Explanation">Explanation of FAIR principle F1</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/F2-Explanation" title="https://w3id.org/fair/icc/terms/F2-Explanation">Explanation of FAIR principle F2</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/principles/terms/F1" title="https://w3id.org/fair/principles/terms/F1">F1</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/F1-Challenge-1" title="https://w3id.org/fair/icc/terms/F1-Challenge-1">F1 Challenge 1</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/F1-Choice" title="https://w3id.org/fair/icc/terms/F1-Choice">F1 Choice</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/principles/terms/F2" title="https://w3id.org/fair/principles/terms/F2">F2</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group"
+         title="https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group">FAIR Principles Explained Working Group</a>
+   </li>
+   <li>
+      <a href="#https://fairsharing.org/standards/" title="https://fairsharing.org/standards/">FAIRsharing</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-4098-0464" title="https://orcid.org/0000-0003-4098-0464">George Strawn</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-3452-553X" title="https://orcid.org/0000-0002-3452-553X">Giancarlo Guizzardi</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-7030-7030" title="https://orcid.org/0000-0001-7030-7030">Ignasi Labastida</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-7664-3331" title="https://orcid.org/0000-0002-7664-3331">Juliane Schneider</a>
+   </li>
+   <li>
+      <a href="#https://doi.org/10.5281/zenodo.3267434" title="https://doi.org/10.5281/zenodo.3267434">Juty et al. 2019</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-4053-7825" title="https://orcid.org/0000-0003-4053-7825">Keith Jeffery</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-4182-7560" title="https://orcid.org/0000-0002-4182-7560">Kristina Hettne</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-1164-1351" title="https://orcid.org/0000-0002-1164-1351">Luiz Olavo Bonino da Silva Santos</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-8691-772X" title="https://orcid.org/0000-0002-8691-772X">Marco Roos</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-6960-357X" title="https://orcid.org/0000-0001-6960-357X">Mark D. Wilkinson</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-7633-1442" title="https://orcid.org/0000-0002-7633-1442">Mark Thompson</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-3357-3027" title="https://orcid.org/0000-0003-3357-3027">Martijn Kersloot</a>
+   </li>
+   <li>
+      <a href="#https://doi.org/10.1371/journal.pbio.2001414" title="https://doi.org/10.1371/journal.pbio.2001414">McMurry et al. 2017</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-2376-9755" title="https://orcid.org/0000-0003-2376-9755">Melanie Imming</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-0627-8014" title="https://orcid.org/0000-0003-0627-8014">Mirjam van Reisen</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-8042-4131" title="https://orcid.org/0000-0002-8042-4131">Myles Axton</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-9551-6370" title="https://orcid.org/0000-0002-9551-6370">Mélanie Courtot</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-6441-6716" title="https://orcid.org/0000-0001-6441-6716">Natalie Meyers</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-2036-8350" title="https://orcid.org/0000-0002-2036-8350">Nick Juty</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-2687-1982" title="https://orcid.org/0000-0003-2687-1982">Peter McQuilton</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-3538-0106" title="https://orcid.org/0000-0003-3538-0106">Peter Wittenburg</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-9853-5668" title="https://orcid.org/0000-0001-9853-5668">Philippe Rocca-Serra</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-1215-167X" title="https://orcid.org/0000-0002-1215-167X">Rajaram Kaliyaperumal</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-7641-6446" title="https://orcid.org/0000-0002-7641-6446">Ricardo de Miranda Azevedo</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0003-2980-4400" title="https://orcid.org/0000-0003-2980-4400">Robert Pergl</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-1704-5980" title="https://orcid.org/0000-0002-1704-5980">Ronal Cornet</a>
+   </li>
+   <li>
+      <a href="#https://doi.org/10.1038/s41587-019-0080-8" title="https://doi.org/10.1038/s41587-019-0080-8">Sansone et al. 2019</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-8414-9272" title="https://orcid.org/0000-0001-8414-9272">Simon Coles</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0001-5306-5690" title="https://orcid.org/0000-0001-5306-5690">Susanna-Assunta Sansone</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-1267-0234" title="https://orcid.org/0000-0002-1267-0234">Tobias Kuhn</a>
+   </li>
+   <li>
+      <a href="#https://orcid.org/0000-0002-4040-0215" title="https://orcid.org/0000-0002-4040-0215">Tobias Weigel</a>
+   </li>
+   <li>
+      <a href="#https://fairsharing.org/FAIRsharing.s248mf" title="https://fairsharing.org/FAIRsharing.s248mf">W3C HCLS Dataset Description on FAIRsharing</a>
+   </li>
+</ul>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">FAIR Implementation Choices and Challenges Model: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
+
+</div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for FAIR Implementation Choices and Challenges Model classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by FAIR Implementation Choices and Challenges Model.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/Challenge" title="https://w3id.org/fair/icc/terms/Challenge">Challenge</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/ChallengeDeclaration"
+            title="https://w3id.org/fair/icc/terms/ChallengeDeclaration">Challenge Declaration</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/Choice" title="https://w3id.org/fair/icc/terms/Choice">Choice</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/ChoiceDeclaration"
+            title="https://w3id.org/fair/icc/terms/ChoiceDeclaration">Choice Declaration</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/Community" title="https://w3id.org/fair/icc/terms/Community">Community</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/Declaration" title="https://w3id.org/fair/icc/terms/Declaration">Declaration</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
+            title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/Resource" title="https://w3id.org/fair/icc/terms/Resource">Resource</a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/Challenge">
+      <h3>Challenge<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/Challenge</p>
+      <div class="comment">
+         <span class="markdown">The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/Challenge">https://w3id.org/fair/icc/latest/Challenge</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/refers-to-challenge"
+               title="https://w3id.org/fair/icc/terms/refers-to-challenge">refers to challenge</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/icc/terms/related-challenge"
+               title="https://w3id.org/fair/icc/terms/related-challenge">related challenge</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/F1-Challenge-1" title="https://w3id.org/fair/icc/terms/F1-Challenge-1">F1 Challenge 1</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/ChallengeDeclaration">
+      <h3>Challenge Declaration<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/ChallengeDeclaration</p>
+      <div class="comment">
+         <span class="markdown">The expression of a community of a challenge they accepted</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/ChallengeDeclaration">https://w3id.org/fair/icc/latest/ChallengeDeclaration</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Declaration" title="https://w3id.org/fair/icc/terms/Declaration">Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/refers-to-challenge"
+               title="https://w3id.org/fair/icc/terms/refers-to-challenge">refers to challenge</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/had-challenge" title="https://w3id.org/fair/icc/terms/had-challenge">has open challenge</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/Choice">
+      <h3>Choice<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/Choice</p>
+      <div class="comment">
+         <span class="markdown">The kind of choice communities have to make (can be expressed as a question)</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/Choice">https://w3id.org/fair/icc/latest/Choice</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/related-challenge"
+               title="https://w3id.org/fair/icc/terms/related-challenge">related challenge</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/refers-to-choice" title="https://w3id.org/fair/icc/terms/refers-to-choice">refers to choice</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/F1-Choice" title="https://w3id.org/fair/icc/terms/F1-Choice">F1 Choice</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/ChoiceDeclaration">
+      <h3>Choice Declaration<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/ChoiceDeclaration</p>
+      <div class="comment">
+         <span class="markdown">The expression of a community of their choice made (corresponds to an answer to a question)</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/ChoiceDeclaration">https://w3id.org/fair/icc/latest/ChoiceDeclaration</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Declaration" title="https://w3id.org/fair/icc/terms/Declaration">Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/chosen-resource" title="https://w3id.org/fair/icc/terms/chosen-resource">chosen resource</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/icc/terms/had-challenge" title="https://w3id.org/fair/icc/terms/had-challenge">has open challenge</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/icc/terms/refers-to-choice" title="https://w3id.org/fair/icc/terms/refers-to-choice">refers to choice</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/Community">
+      <h3>Community<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/Community</p>
+      <div class="comment">
+         <span class="markdown">A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/Community">https://w3id.org/fair/icc/latest/Community</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/declared-by" title="https://w3id.org/fair/icc/terms/declared-by">declared by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/Declaration">
+      <h3>Declaration<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/Declaration</p>
+      <div class="comment">
+         <span class="markdown">Something that is either a ChoiceDeclaration or a ChallengeDeclaration</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/Declaration">https://w3id.org/fair/icc/latest/Declaration</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/ChallengeDeclaration"
+               title="https://w3id.org/fair/icc/terms/ChallengeDeclaration">Challenge Declaration</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/icc/terms/ChoiceDeclaration"
+               title="https://w3id.org/fair/icc/terms/ChoiceDeclaration">Choice Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/declared-by" title="https://w3id.org/fair/icc/terms/declared-by">declared by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/Explanation">
+      <h3>Explanation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/Explanation</p>
+      <div class="comment">
+         <span class="markdown">An explanation of a FAIR (sub)principle</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/Explanation">https://w3id.org/fair/icc/latest/Explanation</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+               title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+               title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+               title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/A1-Explanation" title="https://w3id.org/fair/icc/terms/A1-Explanation">A1 Explanation</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/icc/terms/A1.1-Explanation" title="https://w3id.org/fair/icc/terms/A1.1-Explanation">A1.1 Explanation</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/icc/terms/A1.2-Explanation" title="https://w3id.org/fair/icc/terms/A1.2-Explanation">A1.2 Explanation</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/icc/terms/F1-Explanation" title="https://w3id.org/fair/icc/terms/F1-Explanation">Explanation of FAIR principle F1</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/icc/terms/F2-Explanation" title="https://w3id.org/fair/icc/terms/F2-Explanation">Explanation of FAIR principle F2</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
+      <h3>FAIR Principle or Sub-Principle<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple</p>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+               title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/icc/terms/refers-to-principle"
+               title="https://w3id.org/fair/icc/terms/refers-to-principle">refers to principle</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/Resource">
+      <h3>Resource<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/Resource</p>
+      <div class="comment">
+         <span class="markdown">An artifact or service that can contribute to the implementation of the FAIR principles</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/Resource">https://w3id.org/fair/icc/latest/Resource</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/chosen-resource" title="https://w3id.org/fair/icc/terms/chosen-resource">chosen resource</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/chosen-resource" title="https://w3id.org/fair/icc/terms/chosen-resource">chosen resource</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/declared-by" title="https://w3id.org/fair/icc/terms/declared-by">declared by</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+            title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/had-challenge" title="https://w3id.org/fair/icc/terms/had-challenge">has open challenge</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/refers-to-challenge"
+            title="https://w3id.org/fair/icc/terms/refers-to-challenge">refers to challenge</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/refers-to-choice" title="https://w3id.org/fair/icc/terms/refers-to-choice">refers to choice</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/refers-to-principle"
+            title="https://w3id.org/fair/icc/terms/refers-to-principle">refers to principle</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/related-challenge"
+            title="https://w3id.org/fair/icc/terms/related-challenge">related challenge</a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/chosen-resource">
+      <h3>chosen resource<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/chosen-resource</p>
+      <div class="comment">
+         <span class="markdown">Connects ChoiceDeclaration to the Resource that was chosen through the declaration</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/chosen-resource">https://w3id.org/fair/icc/latest/chosen-resource</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/ChoiceDeclaration"
+                  title="https://w3id.org/fair/icc/terms/ChoiceDeclaration">Choice Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Resource" title="https://w3id.org/fair/icc/terms/Resource">Resource</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/declared-by">
+      <h3>declared by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/declared-by</p>
+      <div class="comment">
+         <span class="markdown">Connects a Declaration to the Community that made the declaration</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/declared-by">https://w3id.org/fair/icc/latest/declared-by</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Declaration" title="https://w3id.org/fair/icc/terms/Declaration">Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Community" title="https://w3id.org/fair/icc/terms/Community">Community</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/explains-principle">
+      <h3>explains principle<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/explains-principle</p>
+      <div class="comment">
+         <span class="markdown">Links an explanation to the FAIR (sub)principle it explains</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/explains-principle">https://w3id.org/fair/icc/latest/explains-principle</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
+                  title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/had-challenge">
+      <h3>has open challenge<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/had-challenge</p>
+      <div class="comment">
+         <span class="markdown">Connects a ChoiceDeclaration to a ChallengeDeclaration that describes a challenge that had to be met before the choice could be made</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/had-challenge">https://w3id.org/fair/icc/latest/had-challenge</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/ChoiceDeclaration"
+                  title="https://w3id.org/fair/icc/terms/ChoiceDeclaration">Choice Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/ChallengeDeclaration"
+                  title="https://w3id.org/fair/icc/terms/ChallengeDeclaration">Challenge Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/refers-to-challenge">
+      <h3>refers to challenge<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/refers-to-challenge</p>
+      <div class="comment">
+         <span class="markdown">Connects a ChallengeDeclaration to the Challenge it is derived from</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/refers-to-challenge">https://w3id.org/fair/icc/latest/refers-to-challenge</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/ChallengeDeclaration"
+                  title="https://w3id.org/fair/icc/terms/ChallengeDeclaration">Challenge Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Challenge" title="https://w3id.org/fair/icc/terms/Challenge">Challenge</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/refers-to-choice">
+      <h3>refers to choice<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/refers-to-choice</p>
+      <div class="comment">
+         <span class="markdown">Connects a ChoiceDeclaration to the Choice it is derived from</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/refers-to-choice">https://w3id.org/fair/icc/latest/refers-to-choice</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/ChoiceDeclaration"
+                  title="https://w3id.org/fair/icc/terms/ChoiceDeclaration">Choice Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Choice" title="https://w3id.org/fair/icc/terms/Choice">Choice</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/refers-to-principle">
+      <h3>refers to principle<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/refers-to-principle</p>
+      <div class="comment">
+         <span class="markdown">Connects an entity (for example a choice or challenge) to a FAIR (sub)principle it refers to</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/refers-to-principle">https://w3id.org/fair/icc/latest/refers-to-principle</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
+                  title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/related-challenge">
+      <h3>related challenge<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/related-challenge</p>
+      <div class="comment">
+         <span class="markdown">Connects a Choice to a Challenge that some communities might face before they can make the given kind of choice</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/related-challenge">https://w3id.org/fair/icc/latest/related-challenge</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Choice" title="https://w3id.org/fair/icc/terms/Choice">Choice</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Challenge" title="https://w3id.org/fair/icc/terms/Challenge">Challenge</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+            title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+            title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/implementation-considerations">
+      <h3>implementation consideration<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/implementation-considerations</p>
+      <div class="comment">
+         <span class="markdown">Explains considerations for communities who are about to implement the given principle.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/implementation-considerations">https://w3id.org/fair/icc/latest/implementation-considerations</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/implementation-examples">
+      <h3>implementation examples<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/implementation-examples</p>
+      <div class="comment">
+         <span class="markdown">Describes examples around the implementation of the given principle.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/implementation-examples">https://w3id.org/fair/icc/latest/implementation-examples</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/fair/principles/terms/A1" title="https://w3id.org/fair/principles/terms/A1">A1</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/A1-Explanation" title="https://w3id.org/fair/icc/terms/A1-Explanation">A1 Explanation</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/principles/terms/A1.1" title="https://w3id.org/fair/principles/terms/A1.1">A1.1</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/A1.1-Explanation" title="https://w3id.org/fair/icc/terms/A1.1-Explanation">A1.1 Explanation</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/principles/terms/A1.2" title="https://w3id.org/fair/principles/terms/A1.2">A1.2</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/A1.2-Explanation" title="https://w3id.org/fair/icc/terms/A1.2-Explanation">A1.2 Explanation</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-4014-4394" title="https://orcid.org/0000-0003-4014-4394">Ali Hasnain</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-9773-4008" title="https://orcid.org/0000-0001-9773-4008">Andra Waagmeester</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-0413-2003" title="https://orcid.org/0000-0003-0413-2003">Annalisa Montesanti</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-4818-2360" title="https://orcid.org/0000-0003-4818-2360">Annika Jacobsen</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-2195-3997" title="https://orcid.org/0000-0003-2195-3997">Barbara Magagna</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-3934-0072" title="https://orcid.org/0000-0003-3934-0072">Barend Mons</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-5301-3142" title="https://orcid.org/0000-0002-5301-3142">Chris T. Evelo</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-4451-8042" title="https://orcid.org/0000-0002-4451-8042">Christine R. Kirkpatrick</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-6594-9178" title="https://orcid.org/0000-0001-6594-9178">Christopher Brewster</a>
+      </li>
+      <li>
+         <a href="#http://dbpedia.org/resource/Data_Documentation_Initiative"
+            title="http://dbpedia.org/resource/Data_Documentation_Initiative">Data Documentation Initiative</a>
+      </li>
+      <li>
+         <a href="#https://doi.org/10.25504/FAIRsharing.1t5ws6" title="https://doi.org/10.25504/FAIRsharing.1t5ws6">Data Documentation Initiative on FAIRsharing</a>
+      </li>
+      <li>
+         <a href="#http://dbpedia.org/resource/Digital_object_identifier"
+            title="http://dbpedia.org/resource/Digital_object_identifier">Digital object identifier</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-7542-0286" title="https://orcid.org/0000-0001-7542-0286">Egon Willighagen</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-8888-635X" title="https://orcid.org/0000-0001-8888-635X">Erik Schultes</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/F1-Explanation" title="https://w3id.org/fair/icc/terms/F1-Explanation">Explanation of FAIR principle F1</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/F2-Explanation" title="https://w3id.org/fair/icc/terms/F2-Explanation">Explanation of FAIR principle F2</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/principles/terms/F1" title="https://w3id.org/fair/principles/terms/F1">F1</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/F1-Challenge-1" title="https://w3id.org/fair/icc/terms/F1-Challenge-1">F1 Challenge 1</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/F1-Choice" title="https://w3id.org/fair/icc/terms/F1-Choice">F1 Choice</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/principles/terms/F2" title="https://w3id.org/fair/principles/terms/F2">F2</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group"
+            title="https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group">FAIR Principles Explained Working Group</a>
+      </li>
+      <li>
+         <a href="#https://fairsharing.org/standards/" title="https://fairsharing.org/standards/">FAIRsharing</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-4098-0464" title="https://orcid.org/0000-0003-4098-0464">George Strawn</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-3452-553X" title="https://orcid.org/0000-0002-3452-553X">Giancarlo Guizzardi</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-7030-7030" title="https://orcid.org/0000-0001-7030-7030">Ignasi Labastida</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-7664-3331" title="https://orcid.org/0000-0002-7664-3331">Juliane Schneider</a>
+      </li>
+      <li>
+         <a href="#https://doi.org/10.5281/zenodo.3267434" title="https://doi.org/10.5281/zenodo.3267434">Juty et al. 2019</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-4053-7825" title="https://orcid.org/0000-0003-4053-7825">Keith Jeffery</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-4182-7560" title="https://orcid.org/0000-0002-4182-7560">Kristina Hettne</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-1164-1351" title="https://orcid.org/0000-0002-1164-1351">Luiz Olavo Bonino da Silva Santos</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-8691-772X" title="https://orcid.org/0000-0002-8691-772X">Marco Roos</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-6960-357X" title="https://orcid.org/0000-0001-6960-357X">Mark D. Wilkinson</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-7633-1442" title="https://orcid.org/0000-0002-7633-1442">Mark Thompson</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-3357-3027" title="https://orcid.org/0000-0003-3357-3027">Martijn Kersloot</a>
+      </li>
+      <li>
+         <a href="#https://doi.org/10.1371/journal.pbio.2001414" title="https://doi.org/10.1371/journal.pbio.2001414">McMurry et al. 2017</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-2376-9755" title="https://orcid.org/0000-0003-2376-9755">Melanie Imming</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-0627-8014" title="https://orcid.org/0000-0003-0627-8014">Mirjam van Reisen</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-8042-4131" title="https://orcid.org/0000-0002-8042-4131">Myles Axton</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-9551-6370" title="https://orcid.org/0000-0002-9551-6370">Mélanie Courtot</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-6441-6716" title="https://orcid.org/0000-0001-6441-6716">Natalie Meyers</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-2036-8350" title="https://orcid.org/0000-0002-2036-8350">Nick Juty</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-2687-1982" title="https://orcid.org/0000-0003-2687-1982">Peter McQuilton</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-3538-0106" title="https://orcid.org/0000-0003-3538-0106">Peter Wittenburg</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-9853-5668" title="https://orcid.org/0000-0001-9853-5668">Philippe Rocca-Serra</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-1215-167X" title="https://orcid.org/0000-0002-1215-167X">Rajaram Kaliyaperumal</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-7641-6446" title="https://orcid.org/0000-0002-7641-6446">Ricardo de Miranda Azevedo</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0003-2980-4400" title="https://orcid.org/0000-0003-2980-4400">Robert Pergl</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-1704-5980" title="https://orcid.org/0000-0002-1704-5980">Ronal Cornet</a>
+      </li>
+      <li>
+         <a href="#https://doi.org/10.1038/s41587-019-0080-8" title="https://doi.org/10.1038/s41587-019-0080-8">Sansone et al. 2019</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-8414-9272" title="https://orcid.org/0000-0001-8414-9272">Simon Coles</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0001-5306-5690" title="https://orcid.org/0000-0001-5306-5690">Susanna-Assunta Sansone</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-1267-0234" title="https://orcid.org/0000-0002-1267-0234">Tobias Kuhn</a>
+      </li>
+      <li>
+         <a href="#https://orcid.org/0000-0002-4040-0215" title="https://orcid.org/0000-0002-4040-0215">Tobias Weigel</a>
+      </li>
+      <li>
+         <a href="#https://fairsharing.org/FAIRsharing.s248mf" title="https://fairsharing.org/FAIRsharing.s248mf">W3C HCLS Dataset Description on FAIRsharing</a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/fair/principles/terms/A1">
+      <h3>A1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/principles/terms/A1</p>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/A1-Explanation">
+      <h3>A1 Explanation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/A1-Explanation</p>
+      <div class="comment">
+         <span class="markdown">FAIR resources and their metadata should be retrievable  using their identifiers in combination with standardised communication protocols. Conditions of compliance are further specified in sub-principles A1.1 and A1.2. ...</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/A1-Explanation">https://w3id.org/fair/icc/latest/A1-Explanation</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/icc/terms/A1.1-Explanation" title="https://w3id.org/fair/icc/terms/A1.1-Explanation">A1.1 Explanation</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/icc/terms/A1.2-Explanation" title="https://w3id.org/fair/icc/terms/A1.2-Explanation">A1.2 Explanation</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+               title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/principles/terms/A1" title="https://w3id.org/fair/principles/terms/A1">A1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/principles/terms/A1.1">
+      <h3>A1.1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/principles/terms/A1.1</p>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/A1.1-Explanation">
+      <h3>A1.1 Explanation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/A1.1-Explanation</p>
+      <div class="comment">
+         <span class="markdown">With the advent of the World Wide Web, based on open, free, and standardised communication protocols, reduce the cost of gaining access to digital resources. Having a protocol that is open allows any individual to create their own standard-compliant implementation, that it is free reduces the possibility that those lacking monetary means cannot access the resource, and that it is universally implementable ensures that such technology is available to all (and not restricted, for instance by country or creed).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/A1.1-Explanation">https://w3id.org/fair/icc/latest/A1.1-Explanation</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+               title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/principles/terms/A1.1" title="https://w3id.org/fair/principles/terms/A1.1">A1.1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/principles/terms/A1.2">
+      <h3>A1.2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/principles/terms/A1.2</p>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/A1.2-Explanation">
+      <h3>A1.2 Explanation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/A1.2-Explanation</p>
+      <div class="comment">
+         <span class="markdown">Some digital resources, such as sensitive individual data, require additional measures to be followed, such as ethical approval, before access can be granted. The ‘A’ in FAIR does not imply ‘Open’ or ‘Free’, but it does require that the exact conditions and the process to access restricted data are transparent and made public. Any additional authentication and authorization procedures must be specified. Therefore, prior to the release of a restricted digital resource, publishers must take steps to clarify eligibility and process.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/A1.2-Explanation">https://w3id.org/fair/icc/latest/A1.2-Explanation</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+               title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/principles/terms/A1.2" title="https://w3id.org/fair/principles/terms/A1.2">A1.2</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-4014-4394">
+      <h3>Ali Hasnain<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-4014-4394</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-9773-4008">
+      <h3>Andra Waagmeester<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-9773-4008</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-0413-2003">
+      <h3>Annalisa Montesanti<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-0413-2003</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-4818-2360">
+      <h3>Annika Jacobsen<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-4818-2360</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-2195-3997">
+      <h3>Barbara Magagna<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-2195-3997</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-3934-0072">
+      <h3>Barend Mons<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-3934-0072</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-5301-3142">
+      <h3>Chris T. Evelo<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-5301-3142</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-4451-8042">
+      <h3>Christine R. Kirkpatrick<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-4451-8042</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-6594-9178">
+      <h3>Christopher Brewster<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-6594-9178</p>
+   </div>
+   <div class="entity" id="http://dbpedia.org/resource/Data_Documentation_Initiative">
+      <h3>Data Documentation Initiative<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/resource/Data_Documentation_Initiative</p>
+   </div>
+   <div class="entity" id="https://doi.org/10.25504/FAIRsharing.1t5ws6">
+      <h3>Data Documentation Initiative on FAIRsharing<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://doi.org/10.25504/FAIRsharing.1t5ws6</p>
+   </div>
+   <div class="entity" id="http://dbpedia.org/resource/Digital_object_identifier">
+      <h3>Digital object identifier<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/resource/Digital_object_identifier</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-7542-0286">
+      <h3>Egon Willighagen<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-7542-0286</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-8888-635X">
+      <h3>Erik Schultes<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-8888-635X</p>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/F1-Explanation">
+      <h3>Explanation of FAIR principle F1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/F1-Explanation</p>
+      <div class="comment">
+         <span class="markdown">Principle F1 states that digital resources, i.e. data and metadata, must be assigned a globally unique and persistent identifier in order to be found and resolved by computers. This is the most fundamental of the FAIR principles, as globally unique and persistent identifiers are essential elements found in all of the other FAIR principles. Globally unique means that the identifier is guaranteed to unambiguously refer to exactly one resource in the world. Therefore, it is insufficient for it to be unique only locally (e.g. unique within a single, local database). Persistence refers to the requirement that this globally unique identifier is never reused in another context, and continues to identify the same resource, even if that resource no longer exists, or moves. In practice, this often involves using a third-party to generate an identifier that has guaranteed longevity and is project/organization-independent.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/F1-Explanation">https://w3id.org/fair/icc/latest/F1-Explanation</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#http://dbpedia.org/resource/Digital_object_identifier"
+               title="http://dbpedia.org/resource/Digital_object_identifier">Digital object identifier</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://doi.org/10.1371/journal.pbio.2001414" title="https://doi.org/10.1371/journal.pbio.2001414">McMurry et al. 2017</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://doi.org/10.5281/zenodo.3267434" title="https://doi.org/10.5281/zenodo.3267434">Juty et al. 2019</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+               title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/principles/terms/F1" title="https://w3id.org/fair/principles/terms/F1">F1</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+               title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Current challenges relate to ensuring the longevity of identifiers - in particular, that identifiers created by a project/community should survive the termination of the project or the dissolution of the community. Obtaining a persistent identifier, therefore, may require reliance on a third-party organization that promises longevity, and maintains these identifiers independently of the project/community. Current choices are for each community to choose, for all appropriate digital resources (i.e. data and metadata), identifier registration service(s) such as these that ensure global uniqueness and that also comply with the community-defined criteria for identifier persistence and resolvability."</span>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+               title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"A common example of a useful identifier is the Digital Object Identifier (DOI) which is guaranteed by the DOI specification to be globally unique and persistent. DOIs provide an additional service, under principle A1, of being able to direct calls to the source data to the location of that data, even if the identified data moves. This ensures that identifiers are stable and valid beyond the project that generated them. In some circumstances, again with DOIs being an example, third-party persistent identifiers may also provide support for principle A2 (that metadata exists beyond the lifespan of the data) since these identifiers may still be responsive to Web calls, and be capable of providing metadata, even if the source resource is no longer active. For a discussion on identifiers see doi:10.1371/journal.pbio.2001414 and doi:10.5281/zenodo.3267434 ."</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/F2-Explanation">
+      <h3>Explanation of FAIR principle F2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/F2-Explanation</p>
+      <div class="comment">
+         <span class="markdown">Whereas principle F1 enables unambiguous identification of resources of interest, principle F2 speaks to the ability to discover a resource of interest through, for example, search or filtering. Digital resources must be described with rich metadata - descriptors of the content of the resource referred to by that identifier. It is hard to generally define the minimally required 'richness' of this metadata, except that the more generous it is, both for humans and computers, the more specifically findable it becomes in refined searches. While other principles speak to the specific kinds of metadata that should be included, principle F2 simply says that a digital resource that is not well-described cannot be accurately discovered. Thus, this principle encourages data providers to consider the various facets of search that might be employed by a user of their data, and to support those users in their discovery of the resource. To enable both global and local search engines to locate a resource, generic and domain-specific descriptors should be provided.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/F2-Explanation">https://w3id.org/fair/icc/latest/F2-Explanation</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Explanation" title="https://w3id.org/fair/icc/terms/Explanation">Explanation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#http://dbpedia.org/resource/Data_Documentation_Initiative"
+               title="http://dbpedia.org/resource/Data_Documentation_Initiative">Data Documentation Initiative</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://doi.org/10.1038/s41587-019-0080-8" title="https://doi.org/10.1038/s41587-019-0080-8">Sansone et al. 2019</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://doi.org/10.25504/FAIRsharing.1t5ws6" title="https://doi.org/10.25504/FAIRsharing.1t5ws6">Data Documentation Initiative on FAIRsharing</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://doi.org/10.5281/zenodo.3267434" title="https://doi.org/10.5281/zenodo.3267434">Juty et al. 2019</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://fairsharing.org/FAIRsharing.s248mf" title="https://fairsharing.org/FAIRsharing.s248mf">W3C HCLS Dataset Description on FAIRsharing</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://fairsharing.org/standards/" title="https://fairsharing.org/standards/">FAIRsharing</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/explains-principle"
+               title="https://w3id.org/fair/icc/terms/explains-principle">explains principle</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/principles/terms/F2" title="https://w3id.org/fair/principles/terms/F2">F2</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/implementation-considerations"
+               title="https://w3id.org/fair/icc/terms/implementation-considerations">implementation consideration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"It is a challenge for each domain-specific community to define their own metadata descriptors necessary for optimizing findability. The minimal ‘richness’ of the metadata should be defined so that it serves its intended purpose and should also be guided by the requirements of the other FAIR principles. This then poses a challenge to each community to create machine-actionable templates that facilitate capturing uniform and harmonized metadata about similar data resources among all community stakeholders, and to provide a means to ensure that this metadata is updated and curated (doi:10.5281/zenodo.3267434)."</span>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/implementation-examples"
+               title="https://w3id.org/fair/icc/terms/implementation-examples">implementation examples</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Examples of metadata schemata can be found in FAIRsharing (https://fairsharing.org/standards/, doi:10.1038/s41587-019-0080-8, [McQuilton et al. Data Intell. DI-2019-0028, 2019]) and include for instance the Data Documentation Initiative (DDI) (https://doi.org/10.25504/FAIRsharing.1t5ws6), the HCLS Dataset Descriptors (https://fairsharing.org/FAIRsharing.s248mf), and many domain-specific “minimal information” models that have been invented."</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/principles/terms/F1">
+      <h3>F1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/principles/terms/F1</p>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/F1-Challenge-1">
+      <h3>F1 Challenge 1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/F1-Challenge-1</p>
+      <div class="comment">
+         <span class="markdown">The community should define identifier registration service(s) that ensure global uniqueness for its digital resources.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/F1-Challenge-1">https://w3id.org/fair/icc/latest/F1-Challenge-1</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Challenge" title="https://w3id.org/fair/icc/terms/Challenge">Challenge</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/icc/terms/F1-Explanation" title="https://w3id.org/fair/icc/terms/F1-Explanation">Explanation of FAIR principle F1</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/refers-to-principle"
+               title="https://w3id.org/fair/icc/terms/refers-to-principle">refers to principle</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/principles/terms/F1" title="https://w3id.org/fair/principles/terms/F1">F1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/F1-Choice">
+      <h3>F1 Choice<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/F1-Choice</p>
+      <div class="comment">
+         <span class="markdown">The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/F1-Choice">https://w3id.org/fair/icc/latest/F1-Choice</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/Choice" title="https://w3id.org/fair/icc/terms/Choice">Choice</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">see also</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/icc/terms/F1-Explanation" title="https://w3id.org/fair/icc/terms/F1-Explanation">Explanation of FAIR principle F1</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/refers-to-principle"
+               title="https://w3id.org/fair/icc/terms/refers-to-principle">refers to principle</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/principles/terms/F1" title="https://w3id.org/fair/principles/terms/F1">F1</a>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/fair/icc/terms/related-challenge"
+               title="https://w3id.org/fair/icc/terms/related-challenge">related challenge</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/fair/icc/terms/F1-Challenge-1" title="https://w3id.org/fair/icc/terms/F1-Challenge-1">F1 Challenge 1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/principles/terms/F2">
+      <h3>F2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/principles/terms/F2</p>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group">
+      <h3>FAIR Principles Explained Working Group<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/icc/terms/FAIR-Principles-Explained-Working-Group</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/icc/latest/FAIR-Principles-Explained-Working-Group">https://w3id.org/fair/icc/latest/FAIR-Principles-Explained-Working-Group</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Group">group</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-5306-5690" title="https://orcid.org/0000-0001-5306-5690">Susanna-Assunta Sansone</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-6441-6716" title="https://orcid.org/0000-0001-6441-6716">Natalie Meyers</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-6594-9178" title="https://orcid.org/0000-0001-6594-9178">Christopher Brewster</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-6960-357X" title="https://orcid.org/0000-0001-6960-357X">Mark D. Wilkinson</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-7030-7030" title="https://orcid.org/0000-0001-7030-7030">Ignasi Labastida</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-7542-0286" title="https://orcid.org/0000-0001-7542-0286">Egon Willighagen</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-8414-9272" title="https://orcid.org/0000-0001-8414-9272">Simon Coles</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-8888-635X" title="https://orcid.org/0000-0001-8888-635X">Erik Schultes</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-9773-4008" title="https://orcid.org/0000-0001-9773-4008">Andra Waagmeester</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0001-9853-5668" title="https://orcid.org/0000-0001-9853-5668">Philippe Rocca-Serra</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-1164-1351" title="https://orcid.org/0000-0002-1164-1351">Luiz Olavo Bonino da Silva Santos</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-1215-167X" title="https://orcid.org/0000-0002-1215-167X">Rajaram Kaliyaperumal</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-1267-0234" title="https://orcid.org/0000-0002-1267-0234">Tobias Kuhn</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-1704-5980" title="https://orcid.org/0000-0002-1704-5980">Ronal Cornet</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-2036-8350" title="https://orcid.org/0000-0002-2036-8350">Nick Juty</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-3452-553X" title="https://orcid.org/0000-0002-3452-553X">Giancarlo Guizzardi</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-4040-0215" title="https://orcid.org/0000-0002-4040-0215">Tobias Weigel</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-4182-7560" title="https://orcid.org/0000-0002-4182-7560">Kristina Hettne</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-4451-8042" title="https://orcid.org/0000-0002-4451-8042">Christine R. Kirkpatrick</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-5301-3142" title="https://orcid.org/0000-0002-5301-3142">Chris T. Evelo</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-7633-1442" title="https://orcid.org/0000-0002-7633-1442">Mark Thompson</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-7641-6446" title="https://orcid.org/0000-0002-7641-6446">Ricardo de Miranda Azevedo</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-7664-3331" title="https://orcid.org/0000-0002-7664-3331">Juliane Schneider</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-8042-4131" title="https://orcid.org/0000-0002-8042-4131">Myles Axton</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-8691-772X" title="https://orcid.org/0000-0002-8691-772X">Marco Roos</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0002-9551-6370" title="https://orcid.org/0000-0002-9551-6370">Mélanie Courtot</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-0413-2003" title="https://orcid.org/0000-0003-0413-2003">Annalisa Montesanti</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-0627-8014" title="https://orcid.org/0000-0003-0627-8014">Mirjam van Reisen</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-2195-3997" title="https://orcid.org/0000-0003-2195-3997">Barbara Magagna</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-2376-9755" title="https://orcid.org/0000-0003-2376-9755">Melanie Imming</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-2687-1982" title="https://orcid.org/0000-0003-2687-1982">Peter McQuilton</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-2980-4400" title="https://orcid.org/0000-0003-2980-4400">Robert Pergl</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-3357-3027" title="https://orcid.org/0000-0003-3357-3027">Martijn Kersloot</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-3538-0106" title="https://orcid.org/0000-0003-3538-0106">Peter Wittenburg</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-3934-0072" title="https://orcid.org/0000-0003-3934-0072">Barend Mons</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-4014-4394" title="https://orcid.org/0000-0003-4014-4394">Ali Hasnain</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-4053-7825" title="https://orcid.org/0000-0003-4053-7825">Keith Jeffery</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-4098-0464" title="https://orcid.org/0000-0003-4098-0464">George Strawn</a>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://orcid.org/0000-0003-4818-2360" title="https://orcid.org/0000-0003-4818-2360">Annika Jacobsen</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://fairsharing.org/standards/">
+      <h3>FAIRsharing<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://fairsharing.org/standards/</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-4098-0464">
+      <h3>George Strawn<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-4098-0464</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-3452-553X">
+      <h3>Giancarlo Guizzardi<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-3452-553X</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-7030-7030">
+      <h3>Ignasi Labastida<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-7030-7030</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-7664-3331">
+      <h3>Juliane Schneider<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-7664-3331</p>
+   </div>
+   <div class="entity" id="https://doi.org/10.5281/zenodo.3267434">
+      <h3>Juty et al. 2019<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://doi.org/10.5281/zenodo.3267434</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-4053-7825">
+      <h3>Keith Jeffery<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-4053-7825</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-4182-7560">
+      <h3>Kristina Hettne<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-4182-7560</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-1164-1351">
+      <h3>Luiz Olavo Bonino da Silva Santos<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-1164-1351</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-8691-772X">
+      <h3>Marco Roos<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-8691-772X</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-6960-357X">
+      <h3>Mark D. Wilkinson<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-6960-357X</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-7633-1442">
+      <h3>Mark Thompson<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-7633-1442</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-3357-3027">
+      <h3>Martijn Kersloot<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-3357-3027</p>
+   </div>
+   <div class="entity" id="https://doi.org/10.1371/journal.pbio.2001414">
+      <h3>McMurry et al. 2017<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://doi.org/10.1371/journal.pbio.2001414</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-2376-9755">
+      <h3>Melanie Imming<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-2376-9755</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-0627-8014">
+      <h3>Mirjam van Reisen<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-0627-8014</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-8042-4131">
+      <h3>Myles Axton<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-8042-4131</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-9551-6370">
+      <h3>Mélanie Courtot<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-9551-6370</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-6441-6716">
+      <h3>Natalie Meyers<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-6441-6716</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-2036-8350">
+      <h3>Nick Juty<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-2036-8350</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-2687-1982">
+      <h3>Peter McQuilton<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-2687-1982</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-3538-0106">
+      <h3>Peter Wittenburg<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-3538-0106</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-9853-5668">
+      <h3>Philippe Rocca-Serra<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-9853-5668</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-1215-167X">
+      <h3>Rajaram Kaliyaperumal<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-1215-167X</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-7641-6446">
+      <h3>Ricardo de Miranda Azevedo<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-7641-6446</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0003-2980-4400">
+      <h3>Robert Pergl<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0003-2980-4400</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-1704-5980">
+      <h3>Ronal Cornet<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-1704-5980</p>
+   </div>
+   <div class="entity" id="https://doi.org/10.1038/s41587-019-0080-8">
+      <h3>Sansone et al. 2019<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://doi.org/10.1038/s41587-019-0080-8</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-8414-9272">
+      <h3>Simon Coles<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-8414-9272</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0001-5306-5690">
+      <h3>Susanna-Assunta Sansone<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0001-5306-5690</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-1267-0234">
+      <h3>Tobias Kuhn<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-1267-0234</p>
+   </div>
+   <div class="entity" id="https://orcid.org/0000-0002-4040-0215">
+      <h3>Tobias Weigel<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://orcid.org/0000-0002-4040-0215</p>
+   </div>
+   <div class="entity" id="https://fairsharing.org/FAIRsharing.s248mf">
+      <h3>W3C HCLS Dataset Description on FAIRsharing<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://fairsharing.org/FAIRsharing.s248mf</p>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
+    
+
+<!--REFERENCES SECTION-->
+  <div id="references">
+<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+Add your references here. It is recommended to have them as a list.</span>
+
+</div>
 <div id="acknowledgements">
 <h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>
 The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
 </div>
 
-</html>
 
 </div>
 </body>
