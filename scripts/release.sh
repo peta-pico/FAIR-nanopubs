@@ -2,7 +2,7 @@
 
 set -e
 
-USAGE="$ scripts/publish.sh principles"
+USAGE="$ scripts/release.sh principles"
 
 if [ -z $1 ] || [ ! -z $2 ]; then
   echo "Usage: $USAGE"; exit 1
