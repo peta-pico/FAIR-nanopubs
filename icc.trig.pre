@@ -119,7 +119,7 @@
 :pubinfo {
   : dct:rights <https://creativecommons.org/publicdomain/zero/1.0> ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
-    dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime .
+    dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime .
 }
 
 
@@ -166,7 +166,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -208,7 +208,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -248,7 +248,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -288,7 +288,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -328,7 +328,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -368,7 +368,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -408,7 +408,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -448,7 +448,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -488,7 +488,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -532,7 +532,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -574,7 +574,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -616,7 +616,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -657,7 +657,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -699,7 +699,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -741,7 +741,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -783,7 +783,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -825,7 +825,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -867,7 +867,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -909,7 +909,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -963,7 +963,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1023,7 +1023,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1075,7 +1075,59 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+# Explanation of F4:
+
+@prefix : <https://w3id.org/fair/icc/np/F4-Explanation/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F4-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix refers-to: <http://semanticscience.org/resource/SIO_000628> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  icc:F4-Explanation rdfs:label "Explanation of FAIR principle F4" ;
+    a icc:Explanation ;
+    icc:explains-principle fair:F4 ;
+    rdfs:comment "Principle F4 states that digital resources must be registered or indexed in a searchable resource. The searchable resource provides the infrastructure by which a metadata record (F1) can be discovered, using either the attributes in that metadata (F2) or the identifier of the data object itself (F3) (doi:10.1162/dint_a_00026)." ;
+    icc:implementation-considerations "Current challenges are numerous, significantly limiting, and largely outside of the control of the average data provider. First, there is no single-source for search that currently indexes all possible metadata fields in all domains. Second, there is no uniform way to execute a search, and thus every search tool must be accessed with tool-specific software. Finally, many search engines forbid automated searches, precluding their use by FAIR-enabled software. Various initiatives are emerging that attempt to address this, at least in part, by providing a well-defined, machine-accessible search interface over indexed metadata. Nevertheless, to our knowledge, none of these currently index all possible metadata properties, nor do they span all possible domains/communities; rather, they focus on specific metadata schemas such as schema.org, at the expense of other well-established metadata formats such as DCAT, and/or are limited to specific communities such as biotechnology, astronomy, law, or government/administration. Current choices are for each community to choose, and publicly declare, what search engine to use for their own purposes, general or field-specific, and should at a minimum provide metadata following the standard that is indexed by the search engine of choice. They should also provide a machine-readable interface definition that would allow an automated search without human intervention." ;
+    icc:implementation-examples "An example of a generic searchable resource that supports manual exploration is Google Dataset Search (https://toolbox.google.com/datasetsearch); however, this suffers from several of the problems mentioned above, in particular, that it indexes only certain types of metadata (schema.org) and the search cannot be automated under the Google Terms of Service, and therefore cannot be implemented within FAIR software." ;
+    rdfs:seeAlso <https://doi.org/10.1162/dint_a_00026> ;
+    rdfs:seeAlso <https://toolbox.google.com/datasetsearch> ;
+    rdfs:isDefinedBy latest: .
+
+  fair:F4 rdfs:label "F4" .
+  <https://doi.org/10.1162/dint_a_00026> rdfs:label "Weigel et al. 2019" .
+  <https://toolbox.google.com/datasetsearch> rdfs:label "Google Dataset Search" .
+}
+
+:provenance {
+  :assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+:pubinfo {
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1118,7 +1170,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1161,7 +1213,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1205,7 +1257,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1247,7 +1299,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1288,7 +1340,7 @@
 }
 
 :pubinfo {
-  : dct:created "2019-11-22T15:01:13.826+01:00"^^xsd:dateTime ;
+  : dct:created "2019-11-22T15:09:02.730+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
