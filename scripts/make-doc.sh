@@ -60,6 +60,15 @@ if [ -f doc/$1/sections/introduction-en.html ]; then
 fi
 mv doc/$1/index-en.mod.html doc/$1/index-en.html
 
+if [ -f doc/$1/sections/overview-en.html ]; then
+  (
+    awk '{if ($0 == "<!--OVERVIEW SECTION-->") exit; print $0;}' doc/$1/index-en.html ;
+    cat doc/$1/sections/overview-en.html | sed -r 's_</?html>__g' ;
+    awk '{if ($0 == "<!--OVERVIEW SECTION-->") {p=1; next;} if (p==1 && $0 ~ /^<!--/) p=2; if (p==2) print $0;}' doc/$1/index-en.html
+  ) > doc/$1/index-en.mod.html
+fi
+mv doc/$1/index-en.mod.html doc/$1/index-en.html
+
 if [ -f doc/$1/sections/references-en.html ]; then
   (
     awk '{if ($0 == "<!--REFERENCES SECTION-->") exit; print $0;}' doc/$1/index-en.html ;
