@@ -1,0 +1,142 @@
+@prefix : <https://w3id.org/fair/fip/terms/FIP-Ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/fair/fip/terms/FIP-Ontology> .
+
+<https://w3id.org/fair/fip/terms/FIP-Ontology> rdf:type owl:Ontology ;
+                                                <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-8888-635X> ,
+                                                                                   <https://orcid.org/0000-0002-1267-0234> ,
+                                                                                   <https://orcid.org/0000-0003-2195-3997> ;
+                                                <http://purl.org/dc/terms/description> "This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles." ;
+                                                <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> ;
+                                                <http://purl.org/dc/terms/title> "FAIR Implementation Profile (FIP) Ontology" ;
+                                                <http://purl.org/vocab/vann/preferredNamespacePrefix> "fip" ;
+                                                <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/fair/fip/terms/" ;
+                                                rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Ontology> ;
+                                                rdfs:seeAlso <https://w3id.org/fair/principles/terms/FAIR> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/fair/icc/terms/chosen-resource
+<https://w3id.org/fair/icc/terms/chosen-resource> rdf:type owl:AnnotationProperty ;
+                                                  rdfs:domain <https://w3id.org/fair/icc/terms/ChoiceDeclaration> .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/fair/fip/terms/declared-by
+<https://w3id.org/fair/fip/terms/declared-by> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                              rdfs:range <https://w3id.org/fair/fip/terms/Community> ;
+                                              rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declared-by> ;
+                                              rdfs:label "declared by"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
+
+
+###  https://w3id.org/fair/fip/terms/refers-to-principle
+<https://w3id.org/fair/fip/terms/refers-to-principle> rdf:type owl:ObjectProperty ;
+                                                      rdfs:range <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> ;
+                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/refers-to-principle> ;
+                                                      rdfs:label "refers to principle"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "Connects an entity (for example a FIP declaration) to a FAIR (sub)principle it refers to"@en .
+
+
+###  https://w3id.org/fair/fip/terms/refers-to-question
+<https://w3id.org/fair/fip/terms/refers-to-question> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                                     rdfs:range <https://w3id.org/fair/fip/terms/FIP-Question> ;
+                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/refers-to-question> ;
+                                                     rdfs:label "refers to question"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the FIP question it is addressing"@en .
+
+
+###  https://w3id.org/fair/icc/terms/chosen-resource
+<https://w3id.org/fair/icc/terms/chosen-resource> rdf:type owl:ObjectProperty ;
+                                                  rdfs:range <https://w3id.org/fair/icc/terms/Resource> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/fair/fip/terms/Community
+<https://w3id.org/fair/fip/terms/Community> rdf:type owl:Class ;
+                                            rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Community> ;
+                                            rdfs:label "Community"@en ;
+                                            <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
+
+
+###  https://w3id.org/fair/fip/terms/FAIR-Resource
+<https://w3id.org/fair/fip/terms/FAIR-Resource> rdf:type owl:Class ;
+                                                rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Resource> ;
+                                                rdfs:label "FAIR Resource"@en ;
+                                                <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
+
+
+###  https://w3id.org/fair/fip/terms/FIP-Declaration
+<https://w3id.org/fair/fip/terms/FIP-Declaration> rdf:type owl:Class ;
+                                                  rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Declaration> ;
+                                                  rdfs:label "FIP Declaration"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#definition> "The expression of a community on how they address a FIP question"@en .
+
+
+###  https://w3id.org/fair/fip/terms/FIP-Question
+<https://w3id.org/fair/fip/terms/FIP-Question> rdf:type owl:Class ;
+                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question> ;
+                                               rdfs:label "FIP Question"@en ;
+                                               <http://www.w3.org/2004/02/skos/core#definition> "A question communities have to address when declaring their FAIR Implementation Profiles"@en .
+
+
+###  https://w3id.org/fair/icc/terms/Resource
+<https://w3id.org/fair/icc/terms/Resource> rdf:type owl:Class .
+
+
+###  https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> rdf:type owl:Class .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<https://w3id.org/fair/icc/terms/chosen-resource> rdfs:isDefinedBy <https://w3id.org/fair/icc/latest/chosen-resource> ;
+                                                  rdfs:label "chosen resource"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#definition> "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"@en .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

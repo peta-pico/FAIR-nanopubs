@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/fair/fip/terms/FIP-Ontology#"
+     xml:base="https://w3id.org/fair/fip/terms/FIP-Ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:terms1="https://w3id.org/fair/icc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/fair/fip/terms/FIP-Ontology">
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2195-3997"/>
+        <terms:description>This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <terms:title>FAIR Implementation Profile (FIP) Ontology</terms:title>
+        <vann:preferredNamespacePrefix>fip</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/fair/fip/terms/</vann:preferredNamespaceUri>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Ontology"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/chosen-resource -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/chosen-resource">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/icc/terms/ChoiceDeclaration"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declared-by -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declared-by">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declared-by"/>
+        <rdfs:label xml:lang="en">declared by</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the community that made the declaration</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/refers-to-principle -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/refers-to-principle">
+        <rdfs:range rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/refers-to-principle"/>
+        <rdfs:label xml:lang="en">refers to principle</rdfs:label>
+        <skos:definition xml:lang="en">Connects an entity (for example a FIP declaration) to a FAIR (sub)principle it refers to</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/refers-to-question -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/refers-to-question">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/refers-to-question"/>
+        <rdfs:label xml:lang="en">refers to question</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the FIP question it is addressing</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/chosen-resource -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/icc/terms/chosen-resource">
+        <rdfs:range rdf:resource="https://w3id.org/fair/icc/terms/Resource"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Community -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Community">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Community"/>
+        <rdfs:label xml:lang="en">Community</rdfs:label>
+        <skos:definition xml:lang="en">A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Resource">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Resource"/>
+        <rdfs:label xml:lang="en">FAIR Resource</rdfs:label>
+        <skos:definition xml:lang="en">An artifact or service that can contribute to the implementation of the FAIR principles</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Declaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-Declaration">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Declaration"/>
+        <rdfs:label xml:lang="en">FIP Declaration</rdfs:label>
+        <skos:definition xml:lang="en">The expression of a community on how they address a FIP question</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-Question">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question"/>
+        <rdfs:label xml:lang="en">FIP Question</rdfs:label>
+        <skos:definition xml:lang="en">A question communities have to address when declaring their FAIR Implementation Profiles</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/icc/terms/Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Resource"/>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/fair/icc/terms/chosen-resource">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/icc/latest/chosen-resource"/>
+        <rdfs:label xml:lang="en">chosen resource</rdfs:label>
+        <skos:definition xml:lang="en">Connects ChoiceDeclaration to the Resource that was chosen through the declaration</skos:definition>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
+
+
