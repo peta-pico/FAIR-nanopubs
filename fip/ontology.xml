@@ -5,18 +5,20 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:terms1="https://w3id.org/fair/icc/terms/">
+     xmlns:terms="https://w3id.org/fair/icc/terms/"
+     xmlns:terms1="http://purl.org/dc/terms/"
+     xmlns:terms2="https://w3id.org/fair/fip/terms/">
     <owl:Ontology rdf:about="https://w3id.org/fair/fip/terms/FIP-Ontology">
-        <terms:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
-        <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
-        <terms:creator rdf:resource="https://orcid.org/0000-0003-2195-3997"/>
-        <terms:description>This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.</terms:description>
-        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <terms:title>FAIR Implementation Profile (FIP) Ontology</terms:title>
+        <terms1:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
+        <terms1:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
+        <terms1:creator rdf:resource="https://orcid.org/0000-0003-2195-3997"/>
+        <terms1:description>This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.</terms1:description>
+        <terms1:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <terms1:title>FAIR Implementation Profile (FIP) Ontology</terms1:title>
         <vann:preferredNamespacePrefix>fip</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/fair/fip/terms/</vann:preferredNamespaceUri>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Ontology"/>
@@ -86,6 +88,26 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/member -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/member"/>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-data-steward -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/fair/fip/terms/has-data-steward">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-data-steward"/>
+        <rdfs:label xml:lang="en">has data steward</rdfs:label>
+        <skos:definition xml:lang="en">Specifies the data steward for a FAIR community</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/member"/>
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Community"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- https://w3id.org/fair/icc/terms/chosen-resource -->
 
 
@@ -112,7 +134,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declared-by">
         <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
-        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Community"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Community"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declared-by"/>
         <rdfs:label xml:lang="en">declared by</rdfs:label>
         <skos:definition xml:lang="en">Connects a FIP declaration to the community that made the declaration</skos:definition>
@@ -166,23 +188,23 @@
     
 
 
-    <!-- https://w3id.org/fair/fip/terms/Community -->
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Community -->
 
 
-    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Community">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Community"/>
-        <rdfs:label xml:lang="en">Community</rdfs:label>
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Community">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Community"/>
+        <rdfs:label xml:lang="en">FAIR-Community</rdfs:label>
         <skos:definition xml:lang="en">A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest</skos:definition>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/fair/fip/terms/FAIR-Resource -->
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource -->
 
 
-    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Resource">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Resource"/>
-        <rdfs:label xml:lang="en">FAIR Resource</rdfs:label>
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource"/>
+        <rdfs:label xml:lang="en">FAIR-Enabling Resource</rdfs:label>
         <skos:definition xml:lang="en">An artifact or service that can contribute to the implementation of the FAIR principles</skos:definition>
     </owl:Class>
     

@@ -50,6 +50,19 @@
 <http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
 
 
+###  http://xmlns.com/foaf/0.1/member
+<http://xmlns.com/foaf/0.1/member> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/fair/fip/terms/has-data-steward
+<https://w3id.org/fair/fip/terms/has-data-steward> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/has-data-steward> ;
+                                                   rdfs:label "has data steward"@en ;
+                                                   <http://www.w3.org/2004/02/skos/core#definition> "Specifies the data steward for a FAIR community"@en ;
+                                                   rdf:type owl:AnnotationProperty ;
+                                                   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/member> ;
+                                                   rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Community> .
+
+
 ###  https://w3id.org/fair/icc/terms/chosen-resource
 <https://w3id.org/fair/icc/terms/chosen-resource> rdf:type owl:AnnotationProperty ;
                                                   rdfs:domain <https://w3id.org/fair/icc/terms/ChoiceDeclaration> .
@@ -62,7 +75,7 @@
 ###  https://w3id.org/fair/fip/terms/declared-by
 <https://w3id.org/fair/fip/terms/declared-by> rdf:type owl:ObjectProperty ;
                                               rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
-                                              rdfs:range <https://w3id.org/fair/fip/terms/Community> ;
+                                              rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Community> ;
                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declared-by> ;
                                               rdfs:label "declared by"@en ;
                                               <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
@@ -94,18 +107,18 @@
 #    Classes
 #################################################################
 
-###  https://w3id.org/fair/fip/terms/Community
-<https://w3id.org/fair/fip/terms/Community> rdf:type owl:Class ;
-                                            rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Community> ;
-                                            rdfs:label "Community"@en ;
-                                            <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
+###  https://w3id.org/fair/fip/terms/FAIR-Community
+<https://w3id.org/fair/fip/terms/FAIR-Community> rdf:type owl:Class ;
+                                                 rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Community> ;
+                                                 rdfs:label "FAIR-Community"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
 
 
-###  https://w3id.org/fair/fip/terms/FAIR-Resource
-<https://w3id.org/fair/fip/terms/FAIR-Resource> rdf:type owl:Class ;
-                                                rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Resource> ;
-                                                rdfs:label "FAIR Resource"@en ;
-                                                <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
+###  https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource> ;
+                                                         rdfs:label "FAIR-Enabling Resource"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Declaration
