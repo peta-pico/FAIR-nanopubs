@@ -261,6 +261,42 @@
     <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
         <rdfs:label>FAIR Principle or Sub-Principle</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Data-Question -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Data-Question">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Data-Question"/>
+        <rdfs:label xml:lang="en">FIP Data Question</rdfs:label>
+        <skos:definition xml:lang="en">A FIP question that is relevant for the actual data (as compared to just their metadata)</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Metadata-Question -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Metadata-Question"/>
+        <rdfs:label xml:lang="en">FIP Metadata Question</rdfs:label>
+        <skos:definition xml:lang="en">A FIP question that is relevant for metadata (as compared to the data themselves)</skos:definition>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
