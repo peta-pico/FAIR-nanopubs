@@ -37,6 +37,16 @@ fair:FAIR-Principle-or-SubPrinciple rdfs:label "FAIR Principle or Sub-Principle"
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "A question communities have to address when declaring their FAIR Implementation Profiles"@en .
 
+<https://w3id.org/fair/fip/terms/FIP-Data-Question> a <https://w3id.org/fair/fip/terms/FIP-Question>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Data-Question>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FIP Data Question"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for the actual data (as compared to just their metadata)"@en .
+
+<https://w3id.org/fair/fip/terms/FIP-Metadata-Question> a <https://w3id.org/fair/fip/terms/FIP-Question>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Metadata-Question>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FIP Metadata Question"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for metadata (as compared to the data themselves)"@en .
+
 <https://w3id.org/fair/fip/terms/FIP-Declaration> a <http://www.w3.org/2002/07/owl#Class>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Declaration"@en;
