@@ -5,12 +5,10 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:terms1="https://w3id.org/fair/fip/terms/">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/fair/fip/terms/FIP-Ontology">
         <terms:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
@@ -87,26 +85,6 @@
     
 
 
-    <!-- http://xmlns.com/foaf/0.1/member -->
-
-
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/member"/>
-    
-
-
-    <!-- https://w3id.org/fair/fip/terms/has-data-steward -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/fair/fip/terms/has-data-steward">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-data-steward"/>
-        <rdfs:label xml:lang="en">has data steward</rdfs:label>
-        <skos:definition xml:lang="en">Specifies the data steward for a FAIR community</skos:definition>
-        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/member"/>
-        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Community"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -116,6 +94,20 @@
      -->
 
 
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/member -->
+
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/member"/>
     
 
 
@@ -141,6 +133,19 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declared-by"/>
         <rdfs:label xml:lang="en">declared by</rdfs:label>
         <skos:definition xml:lang="en">Connects a FIP declaration to the community that made the declaration</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-data-steward -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-data-steward">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/member"/>
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-data-steward"/>
+        <rdfs:label xml:lang="en">has data steward</rdfs:label>
+        <skos:definition xml:lang="en">Specifies the data steward for a FAIR community</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -253,7 +258,9 @@
     <!-- https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple -->
 
 
-    <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
+    <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
+        <rdfs:label>FAIR Principle or Sub-Principle</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Thu Sep 24 06:50:40 CEST 2020", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Thu Sep 24 06:53:43 CEST 2020", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -87,6 +87,10 @@ This ontology has the following classes and properties.</span>
 <h4>Classes</h4>
 <ul class="hlist">
    <li>
+      <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
+         title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/FAIR-Community" title="https://w3id.org/fair/fip/terms/FAIR-Community">FAIR-Community</a>
    </li>
    <li>
@@ -105,6 +109,9 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
@@ -137,6 +144,10 @@ This section provides details for each class and property defined by FAIR Implem
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
+         <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
+            title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/FAIR-Community" title="https://w3id.org/fair/fip/terms/FAIR-Community">FAIR-Community</a>
       </li>
       <li>
@@ -150,6 +161,22 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
       </li>
    </ul>
+   <div class="entity" id="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
+      <h3>FAIR Principle or Sub-Principle<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple</p>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
+               title="https://w3id.org/fair/fip/terms/refers-to-principle">refers to principle</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Community">
       <h3>FAIR-Community<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -169,7 +196,8 @@ This section provides details for each class and property defined by FAIR Implem
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <span class="dotted" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</span>
+            <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
@@ -265,6 +293,9 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
             title="https://w3id.org/fair/fip/terms/refers-to-principle">refers to principle</a>
       </li>
@@ -336,6 +367,37 @@ This section provides details for each class and property defined by FAIR Implem
          </dl>
       </div>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/has-data-steward">
+      <h3>has data steward<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/has-data-steward</p>
+      <div class="comment">
+         <span class="markdown">Specifies the data steward for a FAIR community</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/has-data-steward">https://w3id.org/fair/fip/latest/has-data-steward</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://xmlns.com/foaf/0.1/member">member</span>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Community" title="https://w3id.org/fair/fip/terms/FAIR-Community">FAIR-Community</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/refers-to-principle">
       <h3>refers to principle<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -356,8 +418,8 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has range</dt>
             <dd>
-               <span class="dotted"
-                     title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">f a i r principle or sub principle</span>
+               <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
+                  title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
