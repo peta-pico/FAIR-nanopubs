@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Ontology/RASTArOGWf7EejdIKjV6yZMlLP6amMTWGJeATrulvPGOg> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Ontology/RASTArOGWf7EejdIKjV6yZMlLP6amMTWGJeATrulvPGOg#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Ontology/RA95-loOVNfEj-H4eSjoIwh4pYH2A8fcFabsEusdSwsJs> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Ontology/RA95-loOVNfEj-H4eSjoIwh4pYH2A8fcFabsEusdSwsJs#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Ontology> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -36,12 +36,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question/RAW9QXs_ppS0pHVIEmYrApmdcriW04sXYpsn_RZpEsoe0> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question/RAW9QXs_ppS0pHVIEmYrApmdcriW04sXYpsn_RZpEsoe0#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question/RA-0JicB4_LJ1ITn8TooXlEwBFE9-uAH5HiWqGfwMmR7c> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question/RA-0JicB4_LJ1ITn8TooXlEwBFE9-uAH5HiWqGfwMmR7c#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -71,12 +71,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Declaration/RAYdC8dtm8LHqLJPCvRR5QUBNvGCpm6fBZP8S1Ufx1XN8> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Declaration/RAYdC8dtm8LHqLJPCvRR5QUBNvGCpm6fBZP8S1Ufx1XN8#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Declaration/RAM-JQoCQ8yxyaPEFlot5zogLMkRb05uQ0LXrtGRL4tmQ> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Declaration/RAM-JQoCQ8yxyaPEFlot5zogLMkRb05uQ0LXrtGRL4tmQ#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Declaration> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -106,14 +106,14 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Community/RA8q_42rM8Vjryv0okoS3cblZuAqXRUXCODfDkbhvKwnk> .
-@prefix sub: <https://w3id.org/fair/fip/np/Community/RA8q_42rM8Vjryv0okoS3cblZuAqXRUXCODfDkbhvKwnk#> .
+@prefix this: <https://w3id.org/fair/fip/np/FAIR-Community/RAZkU3aGRzYdEHI8CKAIYzVEY1SBIWad2pYvLSpYx5PmQ> .
+@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Community/RAZkU3aGRzYdEHI8CKAIYzVEY1SBIWad2pYvLSpYx5PmQ#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix latest: <https://w3id.org/fair/fip/latest/Community> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FAIR-Community> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -130,9 +130,9 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:Community a owl:Class;
+  fip:FAIR-Community a owl:Class;
     rdfs:isDefinedBy latest:;
-    rdfs:label "Community"@en;
+    rdfs:label "FAIR-Community"@en;
     skos:definition "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
 }
 
@@ -141,14 +141,52 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/FAIR-Resource/RAZE8bcWcn5dOhvTpOGBuz5ucnPSXuSXk4qsRjym0K1Hc> .
-@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Resource/RAZE8bcWcn5dOhvTpOGBuz5ucnPSXuSXk4qsRjym0K1Hc#> .
+@prefix this: <https://w3id.org/fair/fip/np/has-data-steward/RAyzkoD3WgoIR8wgnS50WAbL_TSk2w5PBGrbivJSJxGAU> .
+@prefix sub: <https://w3id.org/fair/fip/np/has-data-steward/RAyzkoD3WgoIR8wgnS50WAbL_TSk2w5PBGrbivJSJxGAU#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/has-data-steward> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:has-data-steward a rdf:Property;
+    rdfs:domain fip:FAIR-Community;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "has data steward"@en;
+    rdfs:subPropertyOf foaf:member;
+    skos:definition "Specifies the data steward for a FAIR community"@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/fip/np/FAIR-Enabling-Resource/RAMJjbn4vX6zUH3-iHU13OKIFwcIcCw9RqO_-M9G9WMNc> .
+@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Enabling-Resource/RAMJjbn4vX6zUH3-iHU13OKIFwcIcCw9RqO_-M9G9WMNc#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix latest: <https://w3id.org/fair/fip/latest/FAIR-Resource> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -165,9 +203,9 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FAIR-Resource a owl:Class;
+  fip:FAIR-Enabling-Resource a owl:Class;
     rdfs:isDefinedBy latest:;
-    rdfs:label "FAIR Resource"@en;
+    rdfs:label "FAIR-Enabling Resource"@en;
     skos:definition "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
 }
 
@@ -176,12 +214,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/refers-to-principle/RA9BHArY390p7kPuzotmRJQCodrQas6x6uO4Mxl9srKng> .
-@prefix sub: <https://w3id.org/fair/fip/np/refers-to-principle/RA9BHArY390p7kPuzotmRJQCodrQas6x6uO4Mxl9srKng#> .
+@prefix this: <https://w3id.org/fair/fip/np/refers-to-principle/RAUFFMkvT_qSfm84pKfWdIutOVcfr1sPSha09xOreU-aU> .
+@prefix sub: <https://w3id.org/fair/fip/np/refers-to-principle/RAUFFMkvT_qSfm84pKfWdIutOVcfr1sPSha09xOreU-aU#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/refers-to-principle> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
@@ -213,12 +251,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/refers-to-question/RAH7pJ-DNdUDBZwUWgZKaV79W7hkcW2WA1ICQSZKq7I3s> .
-@prefix sub: <https://w3id.org/fair/fip/np/refers-to-question/RAH7pJ-DNdUDBZwUWgZKaV79W7hkcW2WA1ICQSZKq7I3s#> .
+@prefix this: <https://w3id.org/fair/fip/np/refers-to-question/RAa_VLgrkW-Pc9U-KsU2-23JWPI6CrHXaxGUjbBUe9HZg> .
+@prefix sub: <https://w3id.org/fair/fip/np/refers-to-question/RAa_VLgrkW-Pc9U-KsU2-23JWPI6CrHXaxGUjbBUe9HZg#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/refers-to-question> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -250,12 +288,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/declared-by/RAUUY3YxcDTl27KuXa1NEWAcSVjhLPdiBXdYbvYqFrmVw> .
-@prefix sub: <https://w3id.org/fair/fip/np/declared-by/RAUUY3YxcDTl27KuXa1NEWAcSVjhLPdiBXdYbvYqFrmVw#> .
+@prefix this: <https://w3id.org/fair/fip/np/declared-by/RAOX1Fei8nz5TyRRbLInEIxF_MgXmEajdmBKPFUwcL7CM> .
+@prefix sub: <https://w3id.org/fair/fip/np/declared-by/RAOX1Fei8nz5TyRRbLInEIxF_MgXmEajdmBKPFUwcL7CM#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/declared-by> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -278,7 +316,7 @@ sub:assertion {
     rdfs:domain fip:FIP-Declaration;
     rdfs:isDefinedBy latest:;
     rdfs:label "declared by"@en;
-    rdfs:range fip:Community;
+    rdfs:range fip:FAIR-Community;
     skos:definition "Connects a FIP declaration to the community that made the declaration"@en .
 }
 
@@ -287,12 +325,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/icc/np/chosen-resource/RAfLjOuRmHVkd4KFrBNp-F_n-kxpOs5I9q5drR7jUL2Ys> .
-@prefix sub: <https://w3id.org/fair/icc/np/chosen-resource/RAfLjOuRmHVkd4KFrBNp-F_n-kxpOs5I9q5drR7jUL2Ys#> .
+@prefix this: <https://w3id.org/fair/icc/np/chosen-resource/RAZDwNOE4I3tiUVvljHbRrGHSs5G6nAjI6gw47okmHZFw> .
+@prefix sub: <https://w3id.org/fair/icc/np/chosen-resource/RAZDwNOE4I3tiUVvljHbRrGHSs5G6nAjI6gw47okmHZFw#> .
 @prefix latest: <https://w3id.org/fair/icc/latest/chosen-resource> .
 @prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -325,7 +363,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime;
+  this: dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }

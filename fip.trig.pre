@@ -45,7 +45,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -87,7 +87,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -127,14 +127,14 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
 
-@prefix : <https://w3id.org/fair/fip/np/Community/> .
-@prefix latest: <https://w3id.org/fair/fip/latest/Community> .
+@prefix : <https://w3id.org/fair/fip/np/FAIR-Community/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FAIR-Community> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -156,7 +156,7 @@
 }
 
 :assertion {
-  fip:Community rdfs:label "Community"@en ;
+  fip:FAIR-Community rdfs:label "FAIR-Community"@en ;
     a owl:Class ;
     skos:definition "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en ;
     rdfs:isDefinedBy latest: .
@@ -167,14 +167,57 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
 
-@prefix : <https://w3id.org/fair/fip/np/FAIR-Resource/> .
-@prefix latest: <https://w3id.org/fair/fip/latest/FAIR-Resource> .
+@prefix : <https://w3id.org/fair/fip/np/has-data-steward/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/has-data-steward> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:has-data-steward rdfs:label "has data steward"@en ;
+    a rdf:Property ;
+    rdfs:subPropertyOf foaf:member ;
+    rdfs:domain fip:FAIR-Community ;
+    skos:definition "Specifies the data steward for a FAIR community"@en ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FAIR-Enabling-Resource/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -196,7 +239,7 @@
 }
 
 :assertion {
-  fip:FAIR-Resource rdfs:label "FAIR Resource"@en ;
+  fip:FAIR-Enabling-Resource rdfs:label "FAIR-Enabling Resource"@en ;
     a owl:Class ;
     skos:definition "An artifact or service that can contribute to the implementation of the FAIR principles"@en ;
     rdfs:isDefinedBy latest: .
@@ -207,7 +250,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -248,7 +291,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -290,7 +333,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -322,7 +365,7 @@
   fip:declared-by rdfs:label "declared by"@en ;
     a rdf:Property ;
     rdfs:domain fip:FIP-Declaration ;
-    rdfs:range fip:Community ;
+    rdfs:range fip:FAIR-Community ;
     skos:definition "Connects a FIP declaration to the community that made the declaration"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -332,7 +375,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -374,7 +417,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-22T14:25:15.584+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-24T06:37:58.427+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }

@@ -39,6 +39,17 @@
 # http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://xmlns.com/foaf/0.1/member
+<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/fair/fip/terms/has-data-steward
+<https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-data-steward> .
+<https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/2000/01/rdf-schema#label> "has data steward"@en .
+<https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/2004/02/skos/core#definition> "Specifies the data steward for a FAIR community"@en .
+<https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/member> .
+<https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Community> .
+# 
 # https://w3id.org/fair/icc/terms/chosen-resource
 <https://w3id.org/fair/icc/terms/chosen-resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <https://w3id.org/fair/icc/terms/chosen-resource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/ChoiceDeclaration> .
@@ -55,7 +66,7 @@
 # https://w3id.org/fair/fip/terms/declared-by
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
-<https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Community> .
+<https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Community> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-by> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#label> "declared by"@en .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
@@ -90,17 +101,17 @@
 # #################################################################
 # 
 # 
-# https://w3id.org/fair/fip/terms/Community
-<https://w3id.org/fair/fip/terms/Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/fip/terms/Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Community> .
-<https://w3id.org/fair/fip/terms/Community> <http://www.w3.org/2000/01/rdf-schema#label> "Community"@en .
-<https://w3id.org/fair/fip/terms/Community> <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
+# https://w3id.org/fair/fip/terms/FAIR-Community
+<https://w3id.org/fair/fip/terms/FAIR-Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Community> .
+<https://w3id.org/fair/fip/terms/FAIR-Community> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Community"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Community> <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
 # 
-# https://w3id.org/fair/fip/terms/FAIR-Resource
-<https://w3id.org/fair/fip/terms/FAIR-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/fip/terms/FAIR-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Resource> .
-<https://w3id.org/fair/fip/terms/FAIR-Resource> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Resource"@en .
-<https://w3id.org/fair/fip/terms/FAIR-Resource> <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
+# https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Enabling Resource"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
 # 
 # https://w3id.org/fair/fip/terms/FIP-Declaration
 <https://w3id.org/fair/fip/terms/FIP-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
