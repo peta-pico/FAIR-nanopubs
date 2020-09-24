@@ -4,12 +4,14 @@ set -e
 
 function download-nanopub-jar {
   >&2 echo "Getting latest nanopub version..."
-  NANOPUB_VERSION=$(
+  NANOPUB_LATEST_LOCATION=$(
     curl --head -s https://github.com/Nanopublication/nanopub-java/releases/latest \
-    | egrep '^Location:' \
-    | sed -r 's/^.*-([.0-9]*)\s*$/\1/'
+    | egrep -i '^location:'
   )
+  NANOPUB_VERSION=${NANOPUB_LATEST_LOCATION##*-}
+  NANOPUB_VERSION="${NANOPUB_VERSION%"${NANOPUB_VERSION##*[![:space:]]}"}" 
   >&2 echo "Downloading nanopub jar file version $NANOPUB_VERSION..."
+  echo "$SCRIPTDIR/nanopub-${NANOPUB_VERSION}-jar-with-dependencies.jar"
   curl -L --output "$SCRIPTDIR/nanopub-${NANOPUB_VERSION}-jar-with-dependencies.jar" "https://github.com/Nanopublication/nanopub-java/releases/download/nanopub-${NANOPUB_VERSION}/nanopub-${NANOPUB_VERSION}-jar-with-dependencies.jar"
 }
 
