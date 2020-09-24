@@ -60,9 +60,15 @@
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Community>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
 
-<https://w3id.org/fair/icc/terms/chosen-resource> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/icc/terms/ChoiceDeclaration>;
-  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/icc/latest/chosen-resource>;
+<https://w3id.org/fair/fip/terms/chosen-resource> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/chosen-resource>;
   <http://www.w3.org/2000/01/rdf-schema#label> "chosen resource"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/icc/terms/Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"@en .
+
+<https://w3id.org/fair/fip/terms/considerations> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/considerations>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "considerations"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "Considerations that led to a given FIP declaration"@en .

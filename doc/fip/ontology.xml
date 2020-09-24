@@ -9,16 +9,15 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:terms="https://w3id.org/fair/icc/terms/"
-     xmlns:terms1="http://purl.org/dc/terms/"
-     xmlns:terms2="https://w3id.org/fair/fip/terms/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:terms1="https://w3id.org/fair/fip/terms/">
     <owl:Ontology rdf:about="https://w3id.org/fair/fip/terms/FIP-Ontology">
-        <terms1:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
-        <terms1:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
-        <terms1:creator rdf:resource="https://orcid.org/0000-0003-2195-3997"/>
-        <terms1:description>This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.</terms1:description>
-        <terms1:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <terms1:title>FAIR Implementation Profile (FIP) Ontology</terms1:title>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2195-3997"/>
+        <terms:description>This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <terms:title>FAIR Implementation Profile (FIP) Ontology</terms:title>
         <vann:preferredNamespacePrefix>fip</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/fair/fip/terms/</vann:preferredNamespaceUri>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Ontology"/>
@@ -108,15 +107,6 @@
     
 
 
-    <!-- https://w3id.org/fair/icc/terms/chosen-resource -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/fair/icc/terms/chosen-resource">
-        <rdfs:domain rdf:resource="https://w3id.org/fair/icc/terms/ChoiceDeclaration"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -126,6 +116,19 @@
      -->
 
 
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/chosen-resource -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/chosen-resource">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/chosen-resource"/>
+        <rdfs:label xml:lang="en">chosen resource</rdfs:label>
+        <skos:definition xml:lang="en">Connects ChoiceDeclaration to the Resource that was chosen through the declaration</skos:definition>
+    </owl:ObjectProperty>
     
 
 
@@ -167,12 +170,27 @@
     
 
 
-    <!-- https://w3id.org/fair/icc/terms/chosen-resource -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/fair/icc/terms/chosen-resource">
-        <rdfs:range rdf:resource="https://w3id.org/fair/icc/terms/Resource"/>
-    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/considerations -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/fair/fip/terms/considerations">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/considerations"/>
+        <rdfs:label xml:lang="en">considerations</rdfs:label>
+        <skos:definition xml:lang="en">Considerations that led to a given FIP declaration</skos:definition>
+    </owl:DatatypeProperty>
     
 
 
@@ -232,34 +250,10 @@
     
 
 
-    <!-- https://w3id.org/fair/icc/terms/Resource -->
-
-
-    <owl:Class rdf:about="https://w3id.org/fair/icc/terms/Resource"/>
-    
-
-
     <!-- https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple -->
 
 
     <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <rdf:Description rdf:about="https://w3id.org/fair/icc/terms/chosen-resource">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/icc/latest/chosen-resource"/>
-        <rdfs:label xml:lang="en">chosen resource</rdfs:label>
-        <skos:definition xml:lang="en">Connects ChoiceDeclaration to the Resource that was chosen through the declaration</skos:definition>
-    </rdf:Description>
 </rdf:RDF>
 
 

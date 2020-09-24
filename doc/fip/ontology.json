@@ -110,6 +110,43 @@
     "@value" : "A question communities have to address when declaring their FAIR Implementation Profiles"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/chosen-resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/chosen-resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chosen resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/considerations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/considerations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "considerations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Considerations that led to a given FIP declaration"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/declared-by",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -185,29 +222,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Connects a FIP declaration to the FIP question it is addressing"
-  } ]
-}, {
-  "@id" : "https://w3id.org/fair/icc/terms/Resource",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "https://w3id.org/fair/icc/terms/chosen-resource",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/fair/icc/terms/ChoiceDeclaration"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/icc/latest/chosen-resource"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "chosen resource"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/fair/icc/terms/Resource"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "en",
-    "@value" : "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple",
