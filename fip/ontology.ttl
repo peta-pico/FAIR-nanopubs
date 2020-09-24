@@ -62,15 +62,6 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 <http://xmlns.com/foaf/0.1/member> rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/fair/fip/terms/chosen-resource
-<https://w3id.org/fair/fip/terms/chosen-resource> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
-                                                  rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
-                                                  rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/chosen-resource> ;
-                                                  rdfs:label "chosen resource"@en ;
-                                                  <http://www.w3.org/2004/02/skos/core#definition> "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"@en .
-
-
 ###  https://w3id.org/fair/fip/terms/declared-by
 <https://w3id.org/fair/fip/terms/declared-by> rdf:type owl:ObjectProperty ;
                                               rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
@@ -78,6 +69,33 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declared-by> ;
                                               rdfs:label "declared by"@en ;
                                               <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
+
+
+###  https://w3id.org/fair/fip/terms/declares-current-use-of
+<https://w3id.org/fair/fip/terms/declares-current-use-of> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                                          rdfs:range <https://w3id.org/fair/fip/terms/Available-Resource> ;
+                                                          rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declares-current-use-of> ;
+                                                          rdfs:label "declares current use of"@en ;
+                                                          <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to currently use"@en .
+
+
+###  https://w3id.org/fair/fip/terms/declares-planned-development-of
+<https://w3id.org/fair/fip/terms/declares-planned-development-of> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                                                  rdfs:range <https://w3id.org/fair/fip/terms/Resource-to-be-Developed> ;
+                                                                  rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declares-planned-development-of> ;
+                                                                  rdfs:label "declares planned development of"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to develop"@en .
+
+
+###  https://w3id.org/fair/fip/terms/declares-planned-use-of
+<https://w3id.org/fair/fip/terms/declares-planned-use-of> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                                          rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                          rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declares-planned-use-of> ;
+                                                          rdfs:label "declares planned use of"@en ;
+                                                          <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"@en .
 
 
 ###  https://w3id.org/fair/fip/terms/has-data-steward
@@ -122,6 +140,14 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 #    Classes
 #################################################################
 
+###  https://w3id.org/fair/fip/terms/Available-Resource
+<https://w3id.org/fair/fip/terms/Available-Resource> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Available-Resource> ;
+                                                     rdfs:label "Available Resource"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is available for use"@en .
+
+
 ###  https://w3id.org/fair/fip/terms/FAIR-Community
 <https://w3id.org/fair/fip/terms/FAIR-Community> rdf:type owl:Class ;
                                                  rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Community> ;
@@ -136,11 +162,27 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                          <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
 
 
+###  https://w3id.org/fair/fip/terms/FIP-Data-Question
+<https://w3id.org/fair/fip/terms/FIP-Data-Question> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://w3id.org/fair/fip/terms/FIP-Question> ;
+                                                    rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Data-Question> ;
+                                                    rdfs:label "FIP Data Question"@en ;
+                                                    <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for the actual data (as compared to just their metadata)"@en .
+
+
 ###  https://w3id.org/fair/fip/terms/FIP-Declaration
 <https://w3id.org/fair/fip/terms/FIP-Declaration> rdf:type owl:Class ;
                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Declaration> ;
                                                   rdfs:label "FIP Declaration"@en ;
                                                   <http://www.w3.org/2004/02/skos/core#definition> "The expression of a community on how they address a FIP question"@en .
+
+
+###  https://w3id.org/fair/fip/terms/FIP-Metadata-Question
+<https://w3id.org/fair/fip/terms/FIP-Metadata-Question> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://w3id.org/fair/fip/terms/FIP-Question> ;
+                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Metadata-Question> ;
+                                                        rdfs:label "FIP Metadata Question"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for metadata (as compared to the data themselves)"@en .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question
@@ -150,29 +192,17 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                <http://www.w3.org/2004/02/skos/core#definition> "A question communities have to address when declaring their FAIR Implementation Profiles"@en .
 
 
+###  https://w3id.org/fair/fip/terms/Resource-to-be-Developed
+<https://w3id.org/fair/fip/terms/Resource-to-be-Developed> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Resource-to-be-Developed> ;
+                                                           rdfs:label "Resource to be Developed"@en ;
+                                                           <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is not yet available but still needs to be developed"@en .
+
+
 ###  https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple
 <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> rdf:type owl:Class ;
                                                                         rdfs:label "FAIR Principle or Sub-Principle" .
-
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  https://w3id.org/fair/fip/terms/FIP-Data-Question
-<https://w3id.org/fair/fip/terms/FIP-Data-Question> rdf:type owl:NamedIndividual ,
-                                                             <https://w3id.org/fair/fip/terms/FIP-Question> ;
-                                                    rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Data-Question> ;
-                                                    rdfs:label "FIP Data Question"@en ;
-                                                    <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for the actual data (as compared to just their metadata)"@en .
-
-
-###  https://w3id.org/fair/fip/terms/FIP-Metadata-Question
-<https://w3id.org/fair/fip/terms/FIP-Metadata-Question> rdf:type owl:NamedIndividual ,
-                                                                 <https://w3id.org/fair/fip/terms/FIP-Question> ;
-                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Metadata-Question> ;
-                                                        rdfs:label "FIP Metadata Question"@en ;
-                                                        <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for metadata (as compared to the data themselves)"@en .
 
 
 ###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

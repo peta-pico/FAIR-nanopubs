@@ -26,6 +26,23 @@
   "@id" : "http://xmlns.com/foaf/0.1/member",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/Available-Resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Available-Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Available Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR-enabling resource that is available for use"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/FAIR-Community",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -55,13 +72,16 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Data-Question",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Data-Question"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "FIP Data Question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Question"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -83,13 +103,16 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Metadata-Question",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Metadata-Question"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "FIP Metadata Question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Question"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -141,24 +164,21 @@
     "@value" : "A question communities have to address when declaring their FAIR Implementation Profiles"
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/chosen-resource",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
-  } ],
+  "@id" : "https://w3id.org/fair/fip/terms/Resource-to-be-Developed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/chosen-resource"
+    "@id" : "https://w3id.org/fair/fip/latest/Resource-to-be-Developed"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "chosen resource"
+    "@value" : "Resource to be Developed"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"
+    "@value" : "A FAIR-enabling resource that is not yet available but still needs to be developed"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/considerations",
@@ -196,6 +216,66 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Connects a FIP declaration to the community that made the declaration"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/declares-current-use-of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/declares-current-use-of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "declares current use of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/Available-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FIP declaration to the resource that the community thereby declares to currently use"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/declares-planned-development-of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/declares-planned-development-of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "declares planned development of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/Resource-to-be-Developed"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FIP declaration to the resource that the community thereby declares to plan to develop"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/declares-planned-use-of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/declares-planned-use-of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "declares planned use of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/has-data-steward",
