@@ -111,19 +111,6 @@
     
 
 
-    <!-- https://w3id.org/fair/fip/terms/chosen-resource -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/chosen-resource">
-        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
-        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/chosen-resource"/>
-        <rdfs:label xml:lang="en">chosen resource</rdfs:label>
-        <skos:definition xml:lang="en">Connects ChoiceDeclaration to the Resource that was chosen through the declaration</skos:definition>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/fair/fip/terms/declared-by -->
 
 
@@ -133,6 +120,45 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declared-by"/>
         <rdfs:label xml:lang="en">declared by</rdfs:label>
         <skos:definition xml:lang="en">Connects a FIP declaration to the community that made the declaration</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declares-current-use-of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declares-current-use-of">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Available-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declares-current-use-of"/>
+        <rdfs:label xml:lang="en">declares current use of</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the resource that the community thereby declares to currently use</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declares-planned-development-of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declares-planned-development-of">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Resource-to-be-Developed"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declares-planned-development-of"/>
+        <rdfs:label xml:lang="en">declares planned development of</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the resource that the community thereby declares to plan to develop</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declares-planned-use-of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declares-planned-use-of">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declares-planned-use-of"/>
+        <rdfs:label xml:lang="en">declares planned use of</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -211,6 +237,18 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/Available-Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Available-Resource">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Available-Resource"/>
+        <rdfs:label xml:lang="en">Available Resource</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR-enabling resource that is available for use</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/FAIR-Community -->
 
 
@@ -233,6 +271,18 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/FIP-Data-Question -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-Data-Question">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Data-Question"/>
+        <rdfs:label xml:lang="en">FIP Data Question</rdfs:label>
+        <skos:definition xml:lang="en">A FIP question that is relevant for the actual data (as compared to just their metadata)</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/FIP-Declaration -->
 
 
@@ -240,6 +290,18 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Declaration"/>
         <rdfs:label xml:lang="en">FIP Declaration</rdfs:label>
         <skos:definition xml:lang="en">The expression of a community on how they address a FIP question</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Metadata-Question -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Metadata-Question"/>
+        <rdfs:label xml:lang="en">FIP Metadata Question</rdfs:label>
+        <skos:definition xml:lang="en">A FIP question that is relevant for metadata (as compared to the data themselves)</skos:definition>
     </owl:Class>
     
 
@@ -255,48 +317,24 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/Resource-to-be-Developed -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Resource-to-be-Developed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Resource-to-be-Developed"/>
+        <rdfs:label xml:lang="en">Resource to be Developed</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR-enabling resource that is not yet available but still needs to be developed</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple -->
 
 
     <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
         <rdfs:label>FAIR Principle or Sub-Principle</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    
-
-
-    <!-- https://w3id.org/fair/fip/terms/FIP-Data-Question -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Data-Question">
-        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Data-Question"/>
-        <rdfs:label xml:lang="en">FIP Data Question</rdfs:label>
-        <skos:definition xml:lang="en">A FIP question that is relevant for the actual data (as compared to just their metadata)</skos:definition>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/fair/fip/terms/FIP-Metadata-Question -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">
-        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Metadata-Question"/>
-        <rdfs:label xml:lang="en">FIP Metadata Question</rdfs:label>
-        <skos:definition xml:lang="en">A FIP question that is relevant for metadata (as compared to the data themselves)</skos:definition>
-    </owl:NamedIndividual>
 </rdf:RDF>
 
 

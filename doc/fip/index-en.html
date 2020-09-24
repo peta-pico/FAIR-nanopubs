@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Thu Sep 24 07:00:22 CEST 2020", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Thu Sep 24 07:51:28 CEST 2020", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -87,6 +87,10 @@ This ontology has the following classes and properties.</span>
 <h4>Classes</h4>
 <ul class="hlist">
    <li>
+      <a href="#https://w3id.org/fair/fip/terms/Available-Resource"
+         title="https://w3id.org/fair/fip/terms/Available-Resource">Available Resource</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
          title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
    </li>
@@ -98,17 +102,38 @@ This ontology has the following classes and properties.</span>
          title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
    </li>
    <li>
+      <a href="#https://w3id.org/fair/fip/terms/FIP-Data-Question"
+         title="https://w3id.org/fair/fip/terms/FIP-Data-Question">FIP Data Question</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/FIP-Metadata-Question"
+         title="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">FIP Metadata Question</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
    </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/Resource-to-be-Developed"
+         title="https://w3id.org/fair/fip/terms/Resource-to-be-Developed">Resource to be Developed</a>
+   </li>
 </ul><h4>Object Properties</h4><ul class="hlist">
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/chosen-resource" title="https://w3id.org/fair/fip/terms/chosen-resource">chosen resource</a>
+      <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
    </li>
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
+      <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
+         title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
+         title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
+         title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
@@ -124,15 +149,6 @@ This ontology has the following classes and properties.</span>
 </ul><h4>Data Properties</h4><ul class="hlist">
    <li>
       <a href="#https://w3id.org/fair/fip/terms/considerations" title="https://w3id.org/fair/fip/terms/considerations">considerations</a>
-   </li>
-</ul><h4>Named Individuals</h4><ul class="hlist">
-   <li>
-      <a href="#https://w3id.org/fair/fip/terms/FIP-Data-Question"
-         title="https://w3id.org/fair/fip/terms/FIP-Data-Question">FIP Data Question</a>
-   </li>
-   <li>
-      <a href="#https://w3id.org/fair/fip/terms/FIP-Metadata-Question"
-         title="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">FIP Metadata Question</a>
    </li>
 </ul>
 </div>
@@ -153,6 +169,10 @@ This section provides details for each class and property defined by FAIR Implem
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/Available-Resource"
+            title="https://w3id.org/fair/fip/terms/Available-Resource">Available Resource</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
             title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
       </li>
@@ -164,12 +184,55 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/FIP-Data-Question"
+            title="https://w3id.org/fair/fip/terms/FIP-Data-Question">FIP Data Question</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/FIP-Metadata-Question"
+            title="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">FIP Metadata Question</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
       </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/Resource-to-be-Developed"
+            title="https://w3id.org/fair/fip/terms/Resource-to-be-Developed">Resource to be Developed</a>
+      </li>
    </ul>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Available-Resource">
+      <h3>Available Resource<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Available-Resource</p>
+      <div class="comment">
+         <span class="markdown">A FAIR-enabling resource that is available for use</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/Available-Resource">https://w3id.org/fair/fip/latest/Available-Resource</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+               title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
+               title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
       <h3>FAIR Principle or Sub-Principle<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -232,10 +295,43 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
       <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/Available-Resource"
+               title="https://w3id.org/fair/fip/terms/Available-Resource">Available Resource</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Resource-to-be-Developed"
+               title="https://w3id.org/fair/fip/terms/Resource-to-be-Developed">Resource to be Developed</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/chosen-resource" title="https://w3id.org/fair/fip/terms/chosen-resource">chosen resource</a>
+            <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
             <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FIP-Data-Question">
+      <h3>FIP Data Question<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FIP-Data-Question</p>
+      <div class="comment">
+         <span class="markdown">A FIP question that is relevant for the actual data (as compared to just their metadata)</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FIP-Data-Question">https://w3id.org/fair/fip/latest/FIP-Data-Question</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
+            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -258,12 +354,41 @@ This section provides details for each class and property defined by FAIR Implem
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/chosen-resource" title="https://w3id.org/fair/fip/terms/chosen-resource">chosen resource</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/considerations" title="https://w3id.org/fair/fip/terms/considerations">considerations</a>
+            <a href="#https://w3id.org/fair/fip/terms/considerations" title="https://w3id.org/fair/fip/terms/considerations">considerations</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
+               title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/refers-to-question"
                title="https://w3id.org/fair/fip/terms/refers-to-question">refers to question</a>
             <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">
+      <h3>FIP Metadata Question<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FIP-Metadata-Question</p>
+      <div class="comment">
+         <span class="markdown">A FIP question that is relevant for metadata (as compared to the data themselves)</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FIP-Metadata-Question">https://w3id.org/fair/fip/latest/FIP-Metadata-Question</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
+            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -284,19 +409,50 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
       <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FIP-Data-Question"
+               title="https://w3id.org/fair/fip/terms/FIP-Data-Question">FIP Data Question</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FIP-Metadata-Question"
+               title="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">FIP Metadata Question</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/refers-to-question"
                title="https://w3id.org/fair/fip/terms/refers-to-question">refers to question</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
-         <dt>has members</dt>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Resource-to-be-Developed">
+      <h3>Resource to be Developed<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Resource-to-be-Developed</p>
+      <div class="comment">
+         <span class="markdown">A FAIR-enabling resource that is not yet available but still needs to be developed</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/FIP-Data-Question"
-               title="https://w3id.org/fair/fip/terms/FIP-Data-Question">FIP Data Question</a>
-            <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://w3id.org/fair/fip/terms/FIP-Metadata-Question"
-               title="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">FIP Metadata Question</a>
-            <sup class="type-ni" title="named individual">ni</sup>
+            <a href="https://w3id.org/fair/fip/latest/Resource-to-be-Developed">https://w3id.org/fair/fip/latest/Resource-to-be-Developed</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+               title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -304,10 +460,19 @@ This section provides details for each class and property defined by FAIR Implem
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/chosen-resource" title="https://w3id.org/fair/fip/terms/chosen-resource">chosen resource</a>
+         <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
       </li>
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
+         <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
+            title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
+            title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
+            title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
@@ -321,38 +486,6 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/refers-to-question">refers to question</a>
       </li>
    </ul>
-   <div class="entity" id="https://w3id.org/fair/fip/terms/chosen-resource">
-      <h3>chosen resource<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/chosen-resource</p>
-      <div class="comment">
-         <span class="markdown">Connects ChoiceDeclaration to the Resource that was chosen through the declaration</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="https://w3id.org/fair/fip/latest/chosen-resource">https://w3id.org/fair/fip/latest/chosen-resource</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
-                  title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/declared-by">
       <h3>declared by<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -379,6 +512,102 @@ This section provides details for each class and property defined by FAIR Implem
             <dt>has range</dt>
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/FAIR-Community" title="https://w3id.org/fair/fip/terms/FAIR-Community">FAIR-Community</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/declares-current-use-of">
+      <h3>declares current use of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/declares-current-use-of</p>
+      <div class="comment">
+         <span class="markdown">Connects a FIP declaration to the resource that the community thereby declares to currently use</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/declares-current-use-of">https://w3id.org/fair/fip/latest/declares-current-use-of</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/Available-Resource"
+                  title="https://w3id.org/fair/fip/terms/Available-Resource">Available Resource</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/declares-planned-development-of">
+      <h3>declares planned development of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/declares-planned-development-of</p>
+      <div class="comment">
+         <span class="markdown">Connects a FIP declaration to the resource that the community thereby declares to plan to develop</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/declares-planned-development-of">https://w3id.org/fair/fip/latest/declares-planned-development-of</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/Resource-to-be-Developed"
+                  title="https://w3id.org/fair/fip/terms/Resource-to-be-Developed">Resource to be Developed</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/declares-planned-use-of">
+      <h3>declares planned use of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/declares-planned-use-of</p>
+      <div class="comment">
+         <span class="markdown">Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/declares-planned-use-of">https://w3id.org/fair/fip/latest/declares-planned-use-of</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -505,66 +734,6 @@ This section provides details for each class and property defined by FAIR Implem
             </dd>
          </dl>
       </div>
-   </div>
-</div><div id="namedindividuals">
-   <h3 id="namedindividuals" class="list">Named Individuals</h3>
-   <ul class="hlist">
-      <li>
-         <a href="#https://w3id.org/fair/fip/terms/FIP-Data-Question"
-            title="https://w3id.org/fair/fip/terms/FIP-Data-Question">FIP Data Question</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/fair/fip/terms/FIP-Metadata-Question"
-            title="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">FIP Metadata Question</a>
-      </li>
-   </ul>
-   <div class="entity" id="https://w3id.org/fair/fip/terms/FIP-Data-Question">
-      <h3>FIP Data Question<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FIP-Data-Question</p>
-      <div class="comment">
-         <span class="markdown">A FIP question that is relevant for the actual data (as compared to just their metadata)</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="https://w3id.org/fair/fip/latest/FIP-Data-Question">https://w3id.org/fair/fip/latest/FIP-Data-Question</a>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="https://w3id.org/fair/fip/terms/FIP-Metadata-Question">
-      <h3>FIP Metadata Question<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FIP-Metadata-Question</p>
-      <div class="comment">
-         <span class="markdown">A FIP question that is relevant for metadata (as compared to the data themselves)</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="https://w3id.org/fair/fip/latest/FIP-Metadata-Question">https://w3id.org/fair/fip/latest/FIP-Metadata-Question</a>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
    </div>
 </div><div id="legend">
 <h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
