@@ -26,14 +26,14 @@
   "@id" : "http://xmlns.com/foaf/0.1/member",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/Available-Resource",
+  "@id" : "https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/Available-Resource"
+    "@id" : "https://w3id.org/fair/fip/latest/Available-FAIR-Enabling-Resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Available Resource"
+    "@value" : "Available FAIR-Enabling Resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
@@ -41,20 +41,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A FAIR-enabling resource that is available for use"
-  } ]
-}, {
-  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Community",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Community"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "FAIR-Community"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "en",
-    "@value" : "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource",
@@ -71,14 +57,45 @@
     "@value" : "An artifact or service that can contribute to the implementation of the FAIR principles"
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/FIP-Data-Question",
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/FIP-Data-Question"
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource-to-be-Developed"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FIP Data Question"
+    "@value" : "FAIR-Enabling Resource to be Developed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR-enabling resource that is not yet available but still needs to be developed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Implementation-Community"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR Implementation Community"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Data-related-Question",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Data-related-Question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Data-related Question"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FIP-Question"
@@ -102,14 +119,14 @@
     "@value" : "The expression of a community on how they address a FIP question"
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/FIP-Metadata-Question",
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Metadata-related-Question",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/FIP-Metadata-Question"
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Metadata-related-Question"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FIP Metadata Question"
+    "@value" : "FIP Metadata-related Question"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FIP-Question"
@@ -164,23 +181,6 @@
     "@value" : "A question communities have to address when declaring their FAIR Implementation Profiles"
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/Resource-to-be-Developed",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/Resource-to-be-Developed"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Resource to be Developed"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "en",
-    "@value" : "A FAIR-enabling resource that is not yet available but still needs to be developed"
-  } ]
-}, {
   "@id" : "https://w3id.org/fair/fip/terms/considerations",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -211,7 +211,7 @@
     "@value" : "declared by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Community"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -231,7 +231,7 @@
     "@value" : "declares current use of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/Available-Resource"
+    "@id" : "https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -251,7 +251,7 @@
     "@value" : "declares planned development of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/Resource-to-be-Developed"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -281,7 +281,7 @@
   "@id" : "https://w3id.org/fair/fip/terms/has-data-steward",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Community"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/has-data-steward"
@@ -295,7 +295,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "Specifies the data steward for a FAIR community"
+    "@value" : "Specifies the data steward for a FAIR implementation community"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/refers-to-principle",
