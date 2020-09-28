@@ -1,0 +1,888 @@
+@prefix this: <http://purl.org/np/RACXDZHEowTYDAzZvdmD0qIGpXZwY5ghMRBBlt6N8Iu5s> .
+@prefix sub: <http://purl.org/np/RACXDZHEowTYDAzZvdmD0qIGpXZwY5ghMRBBlt6N8Iu5s#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix agrovoc: <http://aims.fao.org/aos/agrovoc/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix fs: <http://www.fairsharing.org/ontology/subject/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  agrovoc:c_10967 rdfs:label "Food Security"@en .
+  
+  agrovoc:c_11669 rdfs:label "Hydrogeology"@en .
+  
+  agrovoc:c_1335455465014 rdfs:label "Linguistics"@en .
+  
+  agrovoc:c_1344 rdfs:label "Cartography"@en .
+  
+  agrovoc:c_16129 rdfs:label "Forest Management"@en .
+  
+  agrovoc:c_16379 rdfs:label "Plant Nutrition"@en .
+  
+  agrovoc:c_1648 rdfs:label "Civil Engineering"@en .
+  
+  agrovoc:c_177f109f rdfs:label "Farming Systems Research"@en .
+  
+  agrovoc:c_2018 rdfs:label "Plant Cultivation"@en .
+  
+  agrovoc:c_203 rdfs:label "Agriculture"@en .
+  
+  agrovoc:c_211 rdfs:label "Agronomy"@en .
+  
+  agrovoc:c_2468 rdfs:label "Econometrics"@en .
+  
+  agrovoc:c_2481 rdfs:label "Economics"@en .
+  
+  agrovoc:c_24848 rdfs:label "Geochemistry"@en .
+  
+  agrovoc:c_25187 rdfs:label "Animal Physiology"@en .
+  
+  agrovoc:c_25189 rdfs:label "Plant Physiology"@en .
+  
+  agrovoc:c_2638 rdfs:label "Ergonomics"@en .
+  
+  agrovoc:c_27925 rdfs:label "Animal Nutrition"@en .
+  
+  agrovoc:c_28633 rdfs:label "Agricultural Law"@en .
+  
+  agrovoc:c_28672 rdfs:label "Economic Policy"@en .
+  
+  agrovoc:c_2934 rdfs:label "Fisheries Science"@en .
+  
+  agrovoc:c_3228 rdfs:label "Geodesy"@en .
+  
+  agrovoc:c_3235 rdfs:label "Geophysics"@en .
+  
+  agrovoc:c_331401 rdfs:label "Logistics Engineering"@en .
+  
+  agrovoc:c_331559 rdfs:label "Environmental Science"@en .
+  
+  agrovoc:c_3671 rdfs:label "Horticulture"@en .
+  
+  agrovoc:c_3713 rdfs:label "Hydraulic Engineering"@en .
+  
+  agrovoc:c_3731 rdfs:label "Hydrology"@en .
+  
+  agrovoc:c_37948 rdfs:label "Urban Planning"@en .
+  
+  agrovoc:c_423 rdfs:label "Animal Breeding"@en .
+  
+  agrovoc:c_4318 rdfs:label "Life Science"@en .
+  
+  agrovoc:c_4343 rdfs:label "Limnology"@en .
+  
+  agrovoc:c_4682 rdfs:label "Mechanical Engineering"@en .
+  
+  agrovoc:c_4856 rdfs:label "Mineralogy"@en .
+  
+  agrovoc:c_49911 rdfs:label "Acoustics"@en .
+  
+  agrovoc:c_49985 rdfs:label "Plant Genetics"@en .
+  
+  agrovoc:c_550 rdfs:label "Aquaculture"@en .
+  
+  agrovoc:c_5807 rdfs:label "Photogrammetry"@en .
+  
+  agrovoc:c_5836 rdfs:label "Physical Geography"@en .
+  
+  agrovoc:c_5956 rdfs:label "Plant Breeding"@en .
+  
+  agrovoc:c_5963 rdfs:label "Plant Ecology"@en .
+  
+  agrovoc:c_6347 rdfs:label "Public Finance"@en .
+  
+  agrovoc:c_6498 rdfs:label "Remote Sensing"@en .
+  
+  agrovoc:c_6707 rdfs:label "Rural and Agricultural Sociology"@en .
+  
+  agrovoc:c_694 rdfs:label "Atmospheric Science"@en .
+  
+  agrovoc:c_7128 rdfs:label "Social Anthropology"@en .
+  
+  agrovoc:c_7132 rdfs:label "Social Policy"@en .
+  
+  agrovoc:c_7188 rdfs:label "Soil Science"@en .
+  
+  agrovoc:c_8320 rdfs:label "Water Management"@en .
+  
+  agrovoc:c_8532 rdfs:label "Animal Husbandry"@en .
+  
+  agrovoc:c_8672 rdfs:label "Agricultural Economics"@en .
+  
+  agrovoc:c_8673 rdfs:label "Agricultural Engineering"@en .
+  
+  agrovoc:c_9000089 rdfs:label "Knowledge and Information Systems"@en .
+  
+  agrovoc:c_92381 rdfs:label "Agroecology"@en .
+  
+  edam:topic_0084 rdfs:label "Phylogeny"@en .
+  
+  edam:topic_0085 rdfs:label "Functional Genomics"@en .
+  
+  edam:topic_0089 rdfs:label "Ontology and Terminology"@en .
+  
+  edam:topic_0122 rdfs:label "Structural Genomics"@en .
+  
+  edam:topic_0194 rdfs:label "Phylogenomics"@en .
+  
+  edam:topic_0208 rdfs:label "Pharmacogenomics"@en .
+  
+  edam:topic_0209 rdfs:label "Medicinal Chemistry"@en .
+  
+  edam:topic_0219 rdfs:label "Data Submission, Annotation and Curation"@en .
+  
+  edam:topic_0605 rdfs:label "Informatics"@en .
+  
+  edam:topic_0637 rdfs:label "Taxonomy"@en .
+  
+  edam:topic_0780 rdfs:label "Botany"@en .
+  
+  edam:topic_0781 rdfs:label "Virology"@en .
+  
+  edam:topic_0797 rdfs:label "Comparative Genomics"@en .
+  
+  edam:topic_2258 rdfs:label "Cheminformatics"@en .
+  
+  edam:topic_2259 rdfs:label "Systems Biology"@en .
+  
+  edam:topic_3047 rdfs:label "Molecular biology"@en .
+  
+  edam:topic_3050 rdfs:label "Biodiversity"@en .
+  
+  edam:topic_3055 rdfs:label "Quantitative Genetics"@en .
+  
+  edam:topic_3056 rdfs:label "Population Genetics"@en .
+  
+  edam:topic_3065 rdfs:label "Embryology"@en .
+  
+  edam:topic_3067 rdfs:label "Anatomy"@en .
+  
+  edam:topic_3071 rdfs:label "Data Management"@en .
+  
+  edam:topic_3172 rdfs:label "Metabolomics"@en .
+  
+  edam:topic_3173 rdfs:label "Epigenomics"@en .
+  
+  edam:topic_3174 rdfs:label "Metagenomics"@en .
+  
+  edam:topic_3263 rdfs:label "Data Security"@en .
+  
+  edam:topic_3292 rdfs:label "Biochemistry"@en .
+  
+  edam:topic_3293 rdfs:label "Phylogenetics"@en .
+  
+  edam:topic_3297 rdfs:label "Biotechnology"@en .
+  
+  edam:topic_3298 rdfs:label "Phenomics"@en .
+  
+  edam:topic_3299 rdfs:label "Evolutionary Biology"@en .
+  
+  edam:topic_3300 rdfs:label "Physiology"@en .
+  
+  edam:topic_3304 rdfs:label "Neurobiology"@en .
+  
+  edam:topic_3307 rdfs:label "Computational Biology"@en .
+  
+  edam:topic_3308 rdfs:label "Transcriptomics"@en .
+  
+  edam:topic_3315 rdfs:label "Mathematics"@en .
+  
+  edam:topic_3316 rdfs:label "Computer Science"@en .
+  
+  edam:topic_3318 rdfs:label "Physics"@en .
+  
+  edam:topic_3321 rdfs:label "Molecular Genetics"@en .
+  
+  edam:topic_3336 rdfs:label "Drug Discovery"@en .
+  
+  edam:topic_3342 rdfs:label "Translational Medicine"@en .
+  
+  edam:topic_3368 rdfs:label "Biomaterials"@en .
+  
+  edam:topic_3369 rdfs:label "Chemical Biology"@en .
+  
+  edam:topic_3370 rdfs:label "Analytical Chemistry"@en .
+  
+  edam:topic_3371 rdfs:label "Synthetic Chemistry"@en .
+  
+  edam:topic_3373 rdfs:label "Drug Development"@en .
+  
+  edam:topic_3374 rdfs:label "Biotherapeutics"@en .
+  
+  edam:topic_3387 rdfs:label "Marine Biology"@en .
+  
+  edam:topic_3388 rdfs:label "Molecular Medicine"@en .
+  
+  edam:topic_3390 rdfs:label "Nutritional Science"@en .
+  
+  edam:topic_3391 rdfs:label "Omics"@en .
+  
+  edam:topic_3396 rdfs:label "Systems Medicine"@en .
+  
+  edam:topic_3397 rdfs:label "Veterinary Medicine"@en .
+  
+  edam:topic_3399 rdfs:label "Geriatric Medicine"@en .
+  
+  edam:topic_3401 rdfs:label "Pain Medicine"@en .
+  
+  edam:topic_3402 rdfs:label "Anaesthesiology"@en .
+  
+  edam:topic_3403 rdfs:label "Critical Care Medicine"@en .
+  
+  edam:topic_3405 rdfs:label "Dentistry"@en .
+  
+  edam:topic_3406 rdfs:label "Otolaryngology"@en .
+  
+  edam:topic_3410 rdfs:label "Gender Medicine"@en .
+  
+  edam:topic_3414 rdfs:label "Traumatology"@en .
+  
+  edam:topic_3415 rdfs:label "Medical Toxicology"@en .
+  
+  edam:topic_3418 rdfs:label "Pediatrics"@en .
+  
+  edam:topic_3423 rdfs:label "Traditional Medicine"@en .
+  
+  edam:topic_3569 rdfs:label "Applied Mathematics"@en .
+  
+  edam:topic_3570 rdfs:label "Pure Mathematics"@en .
+  
+  edam:topic_3571 rdfs:label "Data Governance"@en .
+  
+  edam:topic_3573 rdfs:label "Freshwater Science"@en .
+  
+  edam:topic_3574 rdfs:label "Human Genetics"@en .
+  
+  edam:topic_3575 rdfs:label "Tropical Medicine"@en .
+  
+  edam:topic_3576 rdfs:label "Medical Biotechnology"@en .
+  
+  edam:topic_3577 rdfs:label "Personalized Medicine"@en .
+  
+  edam:topic_3697 rdfs:label "Microbial Ecology"@en .
+  
+  obo:NCIT_C105692 rdfs:label "Respiratory Medicine"@en .
+  
+  obo:NCIT_C105699 rdfs:label "Vascular Surgery"@en .
+  
+  obo:NCIT_C119712 rdfs:label "Proteogenomics"@en .
+  
+  obo:NCIT_C142491 rdfs:label "Data Quality"@en .
+  
+  obo:NCIT_C142642 rdfs:label "Preclinical Studies"@en .
+  
+  obo:NCIT_C15188 rdfs:label "Biomedical Science"@en .
+  
+  obo:NCIT_C15206 rdfs:label "Clinical Studies"@en .
+  
+  obo:NCIT_C15245 rdfs:label "Health Services Research"@en .
+  
+  obo:NCIT_C15308 rdfs:label "Psychotherapy"@en .
+  
+  obo:NCIT_C153192 rdfs:label "Glycomics"@en .
+  
+  obo:NCIT_C16294 rdfs:label "Anthropology"@en .
+  
+  obo:NCIT_C16304 rdfs:label "Architecture"@en .
+  
+  obo:NCIT_C16309 rdfs:label "Artificial Intelligence"@en .
+  
+  obo:NCIT_C16345 rdfs:label "Biology"@en .
+  
+  obo:NCIT_C16349 rdfs:label "Biophysics"@en .
+  
+  obo:NCIT_C16413 rdfs:label "Chemical Engineering"@en .
+  
+  obo:NCIT_C16414 rdfs:label "Chemistry"@en .
+  
+  obo:NCIT_C16417 rdfs:label "Clinical Chemistry"@en .
+  
+  obo:NCIT_C16419 rdfs:label "Organic Chemistry"@en .
+  
+  obo:NCIT_C16421 rdfs:label "Physical Chemistry"@en .
+  
+  obo:NCIT_C16439 rdfs:label "Medical Informatics"@en .
+  
+  obo:NCIT_C16478 rdfs:label "Culture"@en .
+  
+  obo:NCIT_C16495 rdfs:label "Demographics"@en .
+  
+  obo:NCIT_C16500 rdfs:label "Dermatology"@en .
+  
+  obo:NCIT_C16501 rdfs:label "Developmental Biology"@en .
+  
+  obo:NCIT_C16526 rdfs:label "Ecology"@en .
+  
+  obo:NCIT_C16540 rdfs:label "Electrophysiology"@en .
+  
+  obo:NCIT_C16548 rdfs:label "Engineering Science"@en .
+  
+  obo:NCIT_C16550 rdfs:label "Entomology"@en .
+  
+  obo:NCIT_C16556 rdfs:label "Epidemiology"@en .
+  
+  obo:NCIT_C16591 rdfs:label "Forensic Medicine"@en .
+  
+  obo:NCIT_C16603 rdfs:label "Gastroenterology"@en .
+  
+  obo:NCIT_C16624 rdfs:label "Genetics"@en .
+  
+  obo:NCIT_C16633 rdfs:label "Geography"@en .
+  
+  obo:NCIT_C16658 rdfs:label "Gynecology"@en .
+  
+  obo:NCIT_C16673 rdfs:label "Hematology"@en .
+  
+  obo:NCIT_C16715 rdfs:label "Immunogenetics"@en .
+  
+  obo:NCIT_C16851 rdfs:label "Microbiology"@en .
+  
+  obo:NCIT_C16902 rdfs:label "Nephrology"@en .
+  
+  obo:NCIT_C16908 rdfs:label "Neurology"@en .
+  
+  obo:NCIT_C16910 rdfs:label "Neurophysiology"@en .
+  
+  obo:NCIT_C16922 rdfs:label "Nuclear Medicine"@en .
+  
+  obo:NCIT_C16928 rdfs:label "Obstetrics"@en .
+  
+  obo:NCIT_C16931 rdfs:label "Occupational Medicine"@en .
+  
+  obo:NCIT_C16939 rdfs:label "Ophthalmology"@en .
+  
+  obo:NCIT_C16974 rdfs:label "Pharmacology"@en .
+  
+  obo:NCIT_C17026 rdfs:label "Psychiatry"@en .
+  
+  obo:NCIT_C17027 rdfs:label "Psychology"@en .
+  
+  obo:NCIT_C17028 rdfs:label "Clinical Psychology"@en .
+  
+  obo:NCIT_C17030 rdfs:label "Educational Psychology"@en .
+  
+  obo:NCIT_C17038 rdfs:label "Psychosomatic Medicine"@en .
+  
+  obo:NCIT_C17039 rdfs:label "Public Health"@en .
+  
+  obo:NCIT_C17055 rdfs:label "Radiobiology"@en .
+  
+  obo:NCIT_C17059 rdfs:label "Radiology"@en .
+  
+  obo:NCIT_C17099 rdfs:label "Rheumatology"@en .
+  
+  obo:NCIT_C17141 rdfs:label "Social Science"@en .
+  
+  obo:NCIT_C17147 rdfs:label "Software Engineering"@en .
+  
+  obo:NCIT_C17167 rdfs:label "Statistics"@en .
+  
+  obo:NCIT_C17173 rdfs:label "Surgery"@en .
+  
+  obo:NCIT_C17174 rdfs:label "Oral Surgery"@en .
+  
+  obo:NCIT_C17193 rdfs:label "Thermodynamics"@en .
+  
+  obo:NCIT_C17206 rdfs:label "Toxicology"@en .
+  
+  obo:NCIT_C17243 rdfs:label "Urology"@en .
+  
+  obo:NCIT_C17269 rdfs:label "Zoology"@en .
+  
+  obo:NCIT_C17606 rdfs:label "Digital Image Processing"@en .
+  
+  obo:NCIT_C17735 rdfs:label "Policy"@en .
+  
+  obo:NCIT_C17837 rdfs:label "Oncology"@en .
+  
+  obo:NCIT_C17940 rdfs:label "Microbial Genetics"@en .
+  
+  obo:NCIT_C17964 rdfs:label "Bioinformatics"@en .
+  
+  obo:NCIT_C17992 rdfs:label "Cell Biology"@en .
+  
+  obo:NCIT_C18011 rdfs:label "Immunology"@en .
+  
+  obo:NCIT_C18076 rdfs:label "Bioengineering"@en .
+  
+  obo:NCIT_C18088 rdfs:label "Developmental Neurobiology"@en .
+  
+  obo:NCIT_C18097 rdfs:label "Molecular Dynamics"@en .
+  
+  obo:NCIT_C18111 rdfs:label "Structural Biology"@en .
+  
+  obo:NCIT_C18189 rdfs:label "Pathology"@en .
+  
+  obo:NCIT_C18220 rdfs:label "Human Biology"@en .
+  
+  obo:NCIT_C18470 rdfs:label "Computational Chemistry"@en .
+  
+  obo:NCIT_C18478 rdfs:label "Nanotechnology"@en .
+  
+  obo:NCIT_C18633 rdfs:label "Animal Genetics"@en .
+  
+  obo:NCIT_C18645 rdfs:label "Enzymology"@en .
+  
+  obo:NCIT_C18701 rdfs:label "Clinical Immunology"@en .
+  
+  obo:NCIT_C18729 rdfs:label "Database Management"@en .
+  
+  obo:NCIT_C18740 rdfs:label "Developmental Psychology"@en .
+  
+  obo:NCIT_C18873 rdfs:label "Microbial Physiology"@en .
+  
+  obo:NCIT_C18874 rdfs:label "Medical Microbiology"@en .
+  
+  obo:NCIT_C18948 rdfs:label "Polymer Chemistry"@en .
+  
+  obo:NCIT_C19199 rdfs:label "Health Science"@en .
+  
+  obo:NCIT_C19349 rdfs:label "Electrical Engineering"@en .
+  
+  obo:NCIT_C19638 rdfs:label "Mechanics"@en .
+  
+  obo:NCIT_C20085 rdfs:label "Proteomics"@en .
+  
+  obo:NCIT_C20179 rdfs:label "Toxicogenomics"@en .
+  
+  obo:NCIT_C20609 rdfs:label "Synthesis Chemistry"@en .
+  
+  obo:NCIT_C26633 rdfs:label "Drug Metabolism"@en .
+  
+  obo:NCIT_C39794 rdfs:label "Philosophy"@en .
+  
+  obo:NCIT_C54625 rdfs:label "History"@en .
+  
+  obo:NCIT_C84343 rdfs:label "Genomics"@en .
+  
+  obo:NCIT_C86055 rdfs:label "Cardiology"@en .
+  
+  obo:NCIT_C93254 rdfs:label "Regenerative Medicine"@en .
+  
+  obo:NCIT_C95096 rdfs:label "Neuroscience"@en .
+  
+  obo:OBI_0200111 rdfs:label "Data Visualization"@en .
+  
+  obo:OMIT_0001094 rdfs:label "Cognitive Neuroscience"@en .
+  
+  obo:OMIT_0002286 rdfs:label "Cultural Anthropology"@en .
+  
+  obo:OMIT_0002494 rdfs:label "Classical Archaeology"@en .
+  
+  obo:OMIT_0002540 rdfs:label "Art"@en .
+  
+  obo:OMIT_0002710 rdfs:label "Automation"@en .
+  
+  obo:OMIT_0004711 rdfs:label "Criminal Law"@en .
+  
+  obo:OMIT_0004713 rdfs:label "Criminology"@en .
+  
+  obo:OMIT_0007039 rdfs:label "Geology"@en .
+  
+  obo:OMIT_0007951 rdfs:label "Humanities"@en .
+  
+  obo:OMIT_0008715 rdfs:label "Jurisprudence"@en .
+  
+  obo:OMIT_0009577 rdfs:label "Medicine"@en .
+  
+  obo:OMIT_0009732 rdfs:label "Metallurgy"@en .
+  
+  obo:OMIT_0010809 rdfs:label "Oceanography"@en .
+  
+  obo:OMIT_0010991 rdfs:label "Musculoskeletal Medicine"@en .
+  
+  obo:OMIT_0011166 rdfs:label "Paleontology"@en .
+  
+  obo:OMIT_0011270 rdfs:label "Parasitology"@en .
+  
+  obo:OMIT_0011594 rdfs:label "Pharmacy"@en .
+  
+  obo:OMIT_0011790 rdfs:label "Natural Science"@en .
+  
+  obo:OMIT_0012123 rdfs:label "Population Dynamics"@en .
+  
+  obo:OMIT_0012276 rdfs:label "Primary Health Care"@en .
+  
+  obo:OMIT_0012532 rdfs:label "Medical Psychology"@en .
+  
+  obo:OMIT_0013823 rdfs:label "Social Medicine"@en .
+  
+  obo:OMIT_0015767 rdfs:label "Global Health"@en .
+  
+  obo:OMIT_0018016 rdfs:label "Nonlinear Dynamics"@en .
+  
+  obo:OMIT_0018052 rdfs:label "Ecosystem Science"@en .
+  
+  obo:OMIT_0018936 rdfs:label "Radiation Oncology"@en .
+  
+  obo:OMIT_0019137 rdfs:label "Natural History"@en .
+  
+  obo:OMIT_0021467 rdfs:label "Theology"@en .
+  
+  obo:OMIT_0024194 rdfs:label "Ancient History"@en .
+  
+  obo:OMIT_0024195 rdfs:label "Medieval History"@en .
+  
+  obo:OMIT_0026346 rdfs:label "Infectious Disease Medicine"@en .
+  
+  obo:OMIT_0026522 rdfs:label "Meteorology"@en .
+  
+  obo:OMIT_0026615 rdfs:label "Earth Science"@en .
+  
+  obo:OMIT_0026929 rdfs:label "Data Mining"@en .
+  
+  obo:OMIT_0027237 rdfs:label "Drug Repositioning" .
+  
+  obo:OMIT_0027298 rdfs:label "Synthetic Biology"@en .
+  
+  obo:OMIT_0027812 rdfs:label "Reproductive Health"@en .
+  
+  obo:OMIT_0028546 rdfs:label "Transfusion Medicine"@en .
+  
+  obo:PO_0025131 rdfs:label "Plant Anatomy"@en .
+  
+  fs:SRAO_0000002 rdfs:label "Humanities and Social Sciences"@en .
+  
+  fs:SRAO_0000004 rdfs:label "Ancient Cultures"@en .
+  
+  fs:SRAO_0000005 rdfs:label "Prehistory"@en .
+  
+  fs:SRAO_0000006 rdfs:label "Classical Philology"@en .
+  
+  fs:SRAO_0000009 rdfs:label "Egyptology"@en .
+  
+  fs:SRAO_0000012 rdfs:label "Early Modern History"@en .
+  
+  fs:SRAO_0000013 rdfs:label "Modern History"@en .
+  
+  fs:SRAO_0000014 rdfs:label "History of Science"@en .
+  
+  fs:SRAO_0000015 rdfs:label "Fine Arts"@en .
+  
+  fs:SRAO_0000016 rdfs:label "Art History"@en .
+  
+  fs:SRAO_0000017 rdfs:label "Musicology"@en .
+  
+  fs:SRAO_0000018 rdfs:label "Media Studies"@en .
+  
+  fs:SRAO_0000020 rdfs:label "Applied Linguistics"@en .
+  
+  fs:SRAO_0000022 rdfs:label "Historical Linguistics"@en .
+  
+  fs:SRAO_0000023 rdfs:label "Literary Studies"@en .
+  
+  fs:SRAO_0000024 rdfs:label "Medieval German Literature"@en .
+  
+  fs:SRAO_0000025 rdfs:label "German Literature"@en .
+  
+  fs:SRAO_0000026 rdfs:label "European Literature"@en .
+  
+  fs:SRAO_0000027 rdfs:label "Comparative Literature"@en .
+  
+  fs:SRAO_0000030 rdfs:label "Asian Studies"@en .
+  
+  fs:SRAO_0000031 rdfs:label "African Studies"@en .
+  
+  fs:SRAO_0000032 rdfs:label "Islamic Studies"@en .
+  
+  fs:SRAO_0000033 rdfs:label "Religious Studies"@en .
+  
+  fs:SRAO_0000035 rdfs:label "Protestant Theology"@en .
+  
+  fs:SRAO_0000036 rdfs:label "Roman Catholic Theology"@en .
+  
+  fs:SRAO_0000038 rdfs:label "History of Philosophy"@en .
+  
+  fs:SRAO_0000039 rdfs:label "Theoretical Philosophy"@en .
+  
+  fs:SRAO_0000040 rdfs:label "Practical Philosophy"@en .
+  
+  fs:SRAO_0000041 rdfs:label "Social and Behavioural Science"@en .
+  
+  fs:SRAO_0000042 rdfs:label "Education Science"@en .
+  
+  fs:SRAO_0000044 rdfs:label "Research on Teaching, Learning and Training"@en .
+  
+  fs:SRAO_0000045 rdfs:label "Professional Socialization"@en .
+  
+  fs:SRAO_0000047 rdfs:label "Biological Psychology"@en .
+  
+  fs:SRAO_0000049 rdfs:label "Social Psychology"@en .
+  
+  fs:SRAO_0000050 rdfs:label "Differential Psychology"@en .
+  
+  fs:SRAO_0000052 rdfs:label "Sociological Theory"@en .
+  
+  fs:SRAO_0000053 rdfs:label "Empirical Social Research"@en .
+  
+  fs:SRAO_0000054 rdfs:label "Communication Science"@en .
+  
+  fs:SRAO_0000055 rdfs:label "Political Science"@en .
+  
+  fs:SRAO_0000057 rdfs:label "Economic Theory"@en .
+  
+  fs:SRAO_0000060 rdfs:label "Business Administration"@en .
+  
+  fs:SRAO_0000062 rdfs:label "Economic and Social History"@en .
+  
+  fs:SRAO_0000064 rdfs:label "Philosophy of Law"@en .
+  
+  fs:SRAO_0000065 rdfs:label "Private Law"@en .
+  
+  fs:SRAO_0000066 rdfs:label "Public Law"@en .
+  
+  fs:SRAO_0000083 rdfs:label "Inter-organismic Interactions of Plants"@en .
+  
+  fs:SRAO_0000085 rdfs:label "Phytochemistry"@en .
+  
+  fs:SRAO_0000086 rdfs:label "Plant Cell Biology"@en .
+  
+  fs:SRAO_0000092 rdfs:label "Behavioural Biology"@en .
+  
+  fs:SRAO_0000097 rdfs:label "Molecular Microbiology"@en .
+  
+  fs:SRAO_0000098 rdfs:label "Applied Microbiology"@en .
+  
+  fs:SRAO_0000099 rdfs:label "Molecular Infection Biology"@en .
+  
+  fs:SRAO_0000103 rdfs:label "Medical Biometry"@en .
+  
+  fs:SRAO_0000109 rdfs:label "Pathobiochemistry"@en .
+  
+  fs:SRAO_0000128 rdfs:label "Cardiothoracic Surgery"@en .
+  
+  fs:SRAO_0000134 rdfs:label "Medical Physics"@en .
+  
+  fs:SRAO_0000136 rdfs:label "Molecular Neuroscience"@en .
+  
+  fs:SRAO_0000137 rdfs:label "Cellular Neuroscience"@en .
+  
+  fs:SRAO_0000139 rdfs:label "Systemic Neuroscience"@en .
+  
+  fs:SRAO_0000140 rdfs:label "Comparative Neurobiology"@en .
+  
+  fs:SRAO_0000142 rdfs:label "Molecular Neurology"@en .
+  
+  fs:SRAO_0000144 rdfs:label "Biological Psychiatry"@en .
+  
+  fs:SRAO_0000153 rdfs:label "Phytomedicine"@en .
+  
+  fs:SRAO_0000161 rdfs:label "Clinical Veterinary Medicine"@en .
+  
+  fs:SRAO_0000164 rdfs:label "Molecular Chemistry"@en .
+  
+  fs:SRAO_0000165 rdfs:label "Inorganic Molecular Chemistry"@en .
+  
+  fs:SRAO_0000166 rdfs:label "Organic Molecular Chemistry"@en .
+  
+  fs:SRAO_0000169 rdfs:label "Solid-State Chemistry"@en .
+  
+  fs:SRAO_0000172 rdfs:label "Molecular Physical Chemistry"@en .
+  
+  fs:SRAO_0000173 rdfs:label "Theoretical Chemistry"@en .
+  
+  fs:SRAO_0000176 rdfs:label "Biomimetic Chemistry"@en .
+  
+  fs:SRAO_0000177 rdfs:label "Food Chemistry"@en .
+  
+  fs:SRAO_0000178 rdfs:label "Polymer Research"@en .
+  
+  fs:SRAO_0000180 rdfs:label "Polymer Physics"@en .
+  
+  fs:SRAO_0000183 rdfs:label "Condensed Matter Physics"@en .
+  
+  fs:SRAO_0000184 rdfs:label "Experimental Condensed Matter Physics"@en .
+  
+  fs:SRAO_0000185 rdfs:label "Theoretical Condensed Matter Physics"@en .
+  
+  fs:SRAO_0000186 rdfs:label "Atomic, Molecular, Optical and Plasma Physics"@en .
+  
+  fs:SRAO_0000187 rdfs:label "Particles, Nuclei and Fields"@en .
+  
+  fs:SRAO_0000188 rdfs:label "Soft Matter Physics"@en .
+  
+  fs:SRAO_0000189 rdfs:label "Astrophysics and Astronomy"@en .
+  
+  fs:SRAO_0000198 rdfs:label "Geoinformatics"@en .
+  
+  fs:SRAO_0000202 rdfs:label "Human Geography"@en .
+  
+  fs:SRAO_0000203 rdfs:label "Water Research"@en .
+  
+  fs:SRAO_0000206 rdfs:label "Industrial Engineering"@en .
+  
+  fs:SRAO_0000207 rdfs:label "Production Technology"@en .
+  
+  fs:SRAO_0000208 rdfs:label "Metal-Cutting Manufacturing Engineering"@en .
+  
+  fs:SRAO_0000209 rdfs:label "Primary Shaping Technology"@en .
+  
+  fs:SRAO_0000211 rdfs:label "Plastics Engineering"@en .
+  
+  fs:SRAO_0000218 rdfs:label "Thermal Engineering"@en .
+  
+  fs:SRAO_0000219 rdfs:label "Process Engineering"@en .
+  
+  fs:SRAO_0000221 rdfs:label "Technical Chemistry"@en .
+  
+  fs:SRAO_0000222 rdfs:label "Mechanical Process Engineering"@en .
+  
+  fs:SRAO_0000223 rdfs:label "Biological Process Engineering"@en .
+  
+  fs:SRAO_0000224 rdfs:label "Thermal Technology"@en .
+  
+  fs:SRAO_0000225 rdfs:label "Energy Engineering"@en .
+  
+  fs:SRAO_0000227 rdfs:label "Fluid Mechanics"@en .
+  
+  fs:SRAO_0000230 rdfs:label "Materials Engineering"@en .
+  
+  fs:SRAO_0000231 rdfs:label "Thermomechanical Processing"@en .
+  
+  fs:SRAO_0000232 rdfs:label "Sintering"@en .
+  
+  fs:SRAO_0000233 rdfs:label "Composite Materials"@en .
+  
+  fs:SRAO_0000234 rdfs:label "Mechanical Behaviour of Construction Materials"@en .
+  
+  fs:SRAO_0000235 rdfs:label "Coating and Surface Technology"@en .
+  
+  fs:SRAO_0000236 rdfs:label "Materials Science"@en .
+  
+  fs:SRAO_0000238 rdfs:label "Functional Materials Research"@en .
+  
+  fs:SRAO_0000239 rdfs:label "Microstructural Mechanical Properties of Materials"@en .
+  
+  fs:SRAO_0000240 rdfs:label "Materials Structuring and Functionalisation"@en .
+  
+  fs:SRAO_0000243 rdfs:label "Systems Engineering"@en .
+  
+  fs:SRAO_0000244 rdfs:label "Robotics"@en .
+  
+  fs:SRAO_0000245 rdfs:label "Measurement Systems"@en .
+  
+  fs:SRAO_0000246 rdfs:label "Microsystems"@en .
+  
+  fs:SRAO_0000248 rdfs:label "Human-Machine Systems Engineering"@en .
+  
+  fs:SRAO_0000250 rdfs:label "Component Engineering"@en .
+  
+  fs:SRAO_0000251 rdfs:label "Telecommunication Engineering"@en .
+  
+  fs:SRAO_0000252 rdfs:label "Power Engineering"@en .
+  
+  fs:SRAO_0000254 rdfs:label "Theoretical Computer Science"@en .
+  
+  fs:SRAO_0000258 rdfs:label "Computer Architecture"@en .
+  
+  fs:SRAO_0000259 rdfs:label "Construction Engineering"@en .
+  
+  fs:SRAO_0000260 rdfs:label "Construction History"@en .
+  
+  fs:SRAO_0000261 rdfs:label "Transportation Planning"@en .
+  
+  fs:SRAO_0000262 rdfs:label "Building Engineering Physics"@en .
+  
+  fs:SRAO_0000263 rdfs:label "Structural Engineering"@en .
+  
+  fs:SRAO_0000264 rdfs:label "Applied Mechanics"@en .
+  
+  fs:SRAO_0000265 rdfs:label "Geotechnics"@en .
+  
+  fs:SRAO_0000282 rdfs:label "Maritime Engineering"@en .
+  
+  fs:SRAO_0000283 rdfs:label "Aerospace Engineering"@en .
+  
+  fs:SRAO_0000285 rdfs:label "Building Informatics"@en .
+  
+  fs:SRAO_0000286 rdfs:label "Landscape Planning"@en .
+  
+  fs:SRAO_0000287 rdfs:label "Sustainable Building Technology"@en .
+  
+  fs:SRAO_0000288 rdfs:label "Building Design"@en .
+  
+  fs:SRAO_0000290 rdfs:label "Materials Informatics"@en .
+  
+  fs:SRAO_0000294 rdfs:label "Neurogenetics"@en .
+  
+  fs:SRAO_0000295 rdfs:label "Computational Neuroscience"@en .
+  
+  fs:SRAO_0000296 rdfs:label "Mathematical Psychology"@en .
+  
+  fs:SRAO_0000297 rdfs:label "Industrial and Organisational Psychology"@en .
+  
+  fs:SRAO_0000298 rdfs:label "Surface Science"@en .
+  
+  fs:SRAO_0000299 rdfs:label "Area Studies"@en .
+  
+  fs:SRAO_0000300 rdfs:label "American Studies"@en .
+  
+  fs:SRAO_0000301 rdfs:label "Oceania Studies"@en .
+  
+  fs:SRAO_0000302 rdfs:label "Arabian Studies"@en .
+  
+  fs:SRAO_0000303 rdfs:label "Jewish Studies"@en .
+  
+  fs:SRAO_0000304 rdfs:label "Diabetology"@en .
+  
+  fs:SRAO_0000305 rdfs:label "Theatre Studies"@en .
+  
+  fs:SRAO_0000306 rdfs:label "Data Integration"@en .
+  
+  fs:SRAO_0000307 rdfs:label "Food Process Engineering"@en .
+  
+  fs:SRAO_0000308 rdfs:label "Statistical Physics"@en .
+  
+  fs:SRAO_0000309 rdfs:label "Angiology"@en .
+  
+  fs:SRAO_0000310 rdfs:label "Legal History"@en .
+  
+  fs:SRAO_0000311 rdfs:label "American Literature"@en .
+  
+  fs:SRAO_0000312 rdfs:label "Cultural Studies"@en .
+  
+  fs:SRAO_0000313 rdfs:label "Ancient Near Eastern Studies"@en .
+  
+  fs:SRAO_0000314 rdfs:label "Orthopedic Surgery"@en .
+  
+  fs:SRAO_0000315 rdfs:label "Community Care"@en .
+  
+  fs:SRAO_0000316 rdfs:label "Epigenetics"@en .
+  
+  fs:SRAO_0000318 rdfs:label "Medicines Research and Development"@en .
+  
+  fs:SRAO_0000319 rdfs:label "Safety Science"@en .
+  
+  fs:SRAO_0000320 rdfs:label "Endocrinology"@en .
+  
+  fs:SRAO_0000400 rdfs:label "Medical Virology"@en .
+}
+
+sub:provenance {
+  sub:assertion rdfs:seeAlso <https://www.ebi.ac.uk/ols/ontologies/srao>;
+    prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/releases/SRAO.owl> .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "Y093nwEzPNFlmA0rDDb8RkTkb+85bxkxNNzRvUf1GIffP6HydZRcB16qm7M3nCHMPypLJT+RRMnCuU6088FBG7zjk02+iuxnG+/VS2g+Z5gMR7Pyy2txzqedHG9juTOlstG4smastGOexuv9hmGBsi9sIxKhwj05lmyQC+04EV0=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-09-28T10:47:26.879+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}

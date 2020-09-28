@@ -1,0 +1,35 @@
+@prefix : <http://purl.org/nanopub/temp/srao-labels-nanopub/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix agrovoc: <http://aims.fao.org/aos/agrovoc/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix fs: <http://www.fairsharing.org/ontology/subject/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+
+}
+
+:provenance {
+	:assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/releases/SRAO.owl> ;
+		rdfs:seeAlso <https://www.ebi.ac.uk/ols/ontologies/srao> .
+}
+
+:pubinfo {
+	: dct:created "2020-09-28T10:47:26.879+02:00"^^xsd:dateTime ;
+		dct:creator orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}

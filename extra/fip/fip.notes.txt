@@ -1,0 +1,42 @@
+Questions:
+
+https://w3id.org/fair/fip/terms/FIP-Question-F1-D
+https://w3id.org/fair/fip/terms/FIP-Question-F1-MD
+https://w3id.org/fair/fip/terms/FIP-Question-F2
+https://w3id.org/fair/fip/terms/FIP-Question-F3
+https://w3id.org/fair/fip/terms/FIP-Question-F4-D
+https://w3id.org/fair/fip/terms/FIP-Question-F4-MD
+https://w3id.org/fair/fip/terms/FIP-Question-A1-D
+https://w3id.org/fair/fip/terms/FIP-Question-A1-MD
+https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D
+https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD
+https://w3id.org/fair/fip/terms/FIP-Question-A1.2
+https://w3id.org/fair/fip/terms/FIP-Question-I1-D
+https://w3id.org/fair/fip/terms/FIP-Question-I1-MD
+https://w3id.org/fair/fip/terms/FIP-Question-I2-D
+https://w3id.org/fair/fip/terms/FIP-Question-I2-MD
+https://w3id.org/fair/fip/terms/FIP-Question-I3-D
+https://w3id.org/fair/fip/terms/FIP-Question-I3-MD
+https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D
+https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD
+https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D
+https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD
+
+Resource types:
+
+Identifier type
+Metadata schema
+Metadata-Data linking mechanism
+Searchable index
+Communication protocol
+Authentication and authorization technique
+Metadata longevity plan
+Knowledge representation language
+Annotation vocabulary
+Data schema
+License
+Provenance model
+
+Get SRAO owl file:
+
+$ wget https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/releases/SRAO.owl

@@ -1,0 +1,459 @@
+@prefix : <http://purl.org/nanopub/temp/srao-labels-nanopub/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix agrovoc: <http://aims.fao.org/aos/agrovoc/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix fs: <http://www.fairsharing.org/ontology/subject/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+<http://aims.fao.org/aos/agrovoc/c_10967> <http://www.w3.org/2000/01/rdf-schema#label> "Food Security"@en .
+<http://aims.fao.org/aos/agrovoc/c_11669> <http://www.w3.org/2000/01/rdf-schema#label> "Hydrogeology"@en .
+<http://aims.fao.org/aos/agrovoc/c_1335455465014> <http://www.w3.org/2000/01/rdf-schema#label> "Linguistics"@en .
+<http://aims.fao.org/aos/agrovoc/c_1344> <http://www.w3.org/2000/01/rdf-schema#label> "Cartography"@en .
+<http://aims.fao.org/aos/agrovoc/c_16129> <http://www.w3.org/2000/01/rdf-schema#label> "Forest Management"@en .
+<http://aims.fao.org/aos/agrovoc/c_16379> <http://www.w3.org/2000/01/rdf-schema#label> "Plant Nutrition"@en .
+<http://aims.fao.org/aos/agrovoc/c_1648> <http://www.w3.org/2000/01/rdf-schema#label> "Civil Engineering"@en .
+<http://aims.fao.org/aos/agrovoc/c_177f109f> <http://www.w3.org/2000/01/rdf-schema#label> "Farming Systems Research"@en .
+<http://aims.fao.org/aos/agrovoc/c_2018> <http://www.w3.org/2000/01/rdf-schema#label> "Plant Cultivation"@en .
+<http://aims.fao.org/aos/agrovoc/c_203> <http://www.w3.org/2000/01/rdf-schema#label> "Agriculture"@en .
+<http://aims.fao.org/aos/agrovoc/c_211> <http://www.w3.org/2000/01/rdf-schema#label> "Agronomy"@en .
+<http://aims.fao.org/aos/agrovoc/c_2468> <http://www.w3.org/2000/01/rdf-schema#label> "Econometrics"@en .
+<http://aims.fao.org/aos/agrovoc/c_2481> <http://www.w3.org/2000/01/rdf-schema#label> "Economics"@en .
+<http://aims.fao.org/aos/agrovoc/c_24848> <http://www.w3.org/2000/01/rdf-schema#label> "Geochemistry"@en .
+<http://aims.fao.org/aos/agrovoc/c_25187> <http://www.w3.org/2000/01/rdf-schema#label> "Animal Physiology"@en .
+<http://aims.fao.org/aos/agrovoc/c_25189> <http://www.w3.org/2000/01/rdf-schema#label> "Plant Physiology"@en .
+<http://aims.fao.org/aos/agrovoc/c_2638> <http://www.w3.org/2000/01/rdf-schema#label> "Ergonomics"@en .
+<http://aims.fao.org/aos/agrovoc/c_27925> <http://www.w3.org/2000/01/rdf-schema#label> "Animal Nutrition"@en .
+<http://aims.fao.org/aos/agrovoc/c_28633> <http://www.w3.org/2000/01/rdf-schema#label> "Agricultural Law"@en .
+<http://aims.fao.org/aos/agrovoc/c_28672> <http://www.w3.org/2000/01/rdf-schema#label> "Economic Policy"@en .
+<http://aims.fao.org/aos/agrovoc/c_2934> <http://www.w3.org/2000/01/rdf-schema#label> "Fisheries Science"@en .
+<http://aims.fao.org/aos/agrovoc/c_3228> <http://www.w3.org/2000/01/rdf-schema#label> "Geodesy"@en .
+<http://aims.fao.org/aos/agrovoc/c_3235> <http://www.w3.org/2000/01/rdf-schema#label> "Geophysics"@en .
+<http://aims.fao.org/aos/agrovoc/c_331401> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Engineering"@en .
+<http://aims.fao.org/aos/agrovoc/c_331559> <http://www.w3.org/2000/01/rdf-schema#label> "Environmental Science"@en .
+<http://aims.fao.org/aos/agrovoc/c_3671> <http://www.w3.org/2000/01/rdf-schema#label> "Horticulture"@en .
+<http://aims.fao.org/aos/agrovoc/c_3713> <http://www.w3.org/2000/01/rdf-schema#label> "Hydraulic Engineering"@en .
+<http://aims.fao.org/aos/agrovoc/c_3731> <http://www.w3.org/2000/01/rdf-schema#label> "Hydrology"@en .
+<http://aims.fao.org/aos/agrovoc/c_37948> <http://www.w3.org/2000/01/rdf-schema#label> "Urban Planning"@en .
+<http://aims.fao.org/aos/agrovoc/c_423> <http://www.w3.org/2000/01/rdf-schema#label> "Animal Breeding"@en .
+<http://aims.fao.org/aos/agrovoc/c_4318> <http://www.w3.org/2000/01/rdf-schema#label> "Life Science"@en .
+<http://aims.fao.org/aos/agrovoc/c_4343> <http://www.w3.org/2000/01/rdf-schema#label> "Limnology"@en .
+<http://aims.fao.org/aos/agrovoc/c_4682> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanical Engineering"@en .
+<http://aims.fao.org/aos/agrovoc/c_4856> <http://www.w3.org/2000/01/rdf-schema#label> "Mineralogy"@en .
+<http://aims.fao.org/aos/agrovoc/c_49911> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustics"@en .
+<http://aims.fao.org/aos/agrovoc/c_49985> <http://www.w3.org/2000/01/rdf-schema#label> "Plant Genetics"@en .
+<http://aims.fao.org/aos/agrovoc/c_550> <http://www.w3.org/2000/01/rdf-schema#label> "Aquaculture"@en .
+<http://aims.fao.org/aos/agrovoc/c_5807> <http://www.w3.org/2000/01/rdf-schema#label> "Photogrammetry"@en .
+<http://aims.fao.org/aos/agrovoc/c_5836> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Geography"@en .
+<http://aims.fao.org/aos/agrovoc/c_5956> <http://www.w3.org/2000/01/rdf-schema#label> "Plant Breeding"@en .
+<http://aims.fao.org/aos/agrovoc/c_5963> <http://www.w3.org/2000/01/rdf-schema#label> "Plant Ecology"@en .
+<http://aims.fao.org/aos/agrovoc/c_6347> <http://www.w3.org/2000/01/rdf-schema#label> "Public Finance"@en .
+<http://aims.fao.org/aos/agrovoc/c_6498> <http://www.w3.org/2000/01/rdf-schema#label> "Remote Sensing"@en .
+<http://aims.fao.org/aos/agrovoc/c_6707> <http://www.w3.org/2000/01/rdf-schema#label> "Rural and Agricultural Sociology"@en .
+<http://aims.fao.org/aos/agrovoc/c_694> <http://www.w3.org/2000/01/rdf-schema#label> "Atmospheric Science"@en .
+<http://aims.fao.org/aos/agrovoc/c_7128> <http://www.w3.org/2000/01/rdf-schema#label> "Social Anthropology"@en .
+<http://aims.fao.org/aos/agrovoc/c_7132> <http://www.w3.org/2000/01/rdf-schema#label> "Social Policy"@en .
+<http://aims.fao.org/aos/agrovoc/c_7188> <http://www.w3.org/2000/01/rdf-schema#label> "Soil Science"@en .
+<http://aims.fao.org/aos/agrovoc/c_8320> <http://www.w3.org/2000/01/rdf-schema#label> "Water Management"@en .
+<http://aims.fao.org/aos/agrovoc/c_8532> <http://www.w3.org/2000/01/rdf-schema#label> "Animal Husbandry"@en .
+<http://aims.fao.org/aos/agrovoc/c_8672> <http://www.w3.org/2000/01/rdf-schema#label> "Agricultural Economics"@en .
+<http://aims.fao.org/aos/agrovoc/c_8673> <http://www.w3.org/2000/01/rdf-schema#label> "Agricultural Engineering"@en .
+<http://aims.fao.org/aos/agrovoc/c_9000089> <http://www.w3.org/2000/01/rdf-schema#label> "Knowledge and Information Systems"@en .
+<http://aims.fao.org/aos/agrovoc/c_92381> <http://www.w3.org/2000/01/rdf-schema#label> "Agroecology"@en .
+<http://edamontology.org/topic_0084> <http://www.w3.org/2000/01/rdf-schema#label> "Phylogeny"@en .
+<http://edamontology.org/topic_0085> <http://www.w3.org/2000/01/rdf-schema#label> "Functional Genomics"@en .
+<http://edamontology.org/topic_0089> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology and Terminology"@en .
+<http://edamontology.org/topic_0122> <http://www.w3.org/2000/01/rdf-schema#label> "Structural Genomics"@en .
+<http://edamontology.org/topic_0194> <http://www.w3.org/2000/01/rdf-schema#label> "Phylogenomics"@en .
+<http://edamontology.org/topic_0208> <http://www.w3.org/2000/01/rdf-schema#label> "Pharmacogenomics"@en .
+<http://edamontology.org/topic_0209> <http://www.w3.org/2000/01/rdf-schema#label> "Medicinal Chemistry"@en .
+<http://edamontology.org/topic_0219> <http://www.w3.org/2000/01/rdf-schema#label> "Data Submission, Annotation and Curation"@en .
+<http://edamontology.org/topic_0605> <http://www.w3.org/2000/01/rdf-schema#label> "Informatics"@en .
+<http://edamontology.org/topic_0637> <http://www.w3.org/2000/01/rdf-schema#label> "Taxonomy"@en .
+<http://edamontology.org/topic_0780> <http://www.w3.org/2000/01/rdf-schema#label> "Botany"@en .
+<http://edamontology.org/topic_0781> <http://www.w3.org/2000/01/rdf-schema#label> "Virology"@en .
+<http://edamontology.org/topic_0797> <http://www.w3.org/2000/01/rdf-schema#label> "Comparative Genomics"@en .
+<http://edamontology.org/topic_2258> <http://www.w3.org/2000/01/rdf-schema#label> "Cheminformatics"@en .
+<http://edamontology.org/topic_2259> <http://www.w3.org/2000/01/rdf-schema#label> "Systems Biology"@en .
+<http://edamontology.org/topic_3047> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular biology"@en .
+<http://edamontology.org/topic_3050> <http://www.w3.org/2000/01/rdf-schema#label> "Biodiversity"@en .
+<http://edamontology.org/topic_3055> <http://www.w3.org/2000/01/rdf-schema#label> "Quantitative Genetics"@en .
+<http://edamontology.org/topic_3056> <http://www.w3.org/2000/01/rdf-schema#label> "Population Genetics"@en .
+<http://edamontology.org/topic_3065> <http://www.w3.org/2000/01/rdf-schema#label> "Embryology"@en .
+<http://edamontology.org/topic_3067> <http://www.w3.org/2000/01/rdf-schema#label> "Anatomy"@en .
+<http://edamontology.org/topic_3071> <http://www.w3.org/2000/01/rdf-schema#label> "Data Management"@en .
+<http://edamontology.org/topic_3172> <http://www.w3.org/2000/01/rdf-schema#label> "Metabolomics"@en .
+<http://edamontology.org/topic_3173> <http://www.w3.org/2000/01/rdf-schema#label> "Epigenomics"@en .
+<http://edamontology.org/topic_3174> <http://www.w3.org/2000/01/rdf-schema#label> "Metagenomics"@en .
+<http://edamontology.org/topic_3263> <http://www.w3.org/2000/01/rdf-schema#label> "Data Security"@en .
+<http://edamontology.org/topic_3292> <http://www.w3.org/2000/01/rdf-schema#label> "Biochemistry"@en .
+<http://edamontology.org/topic_3293> <http://www.w3.org/2000/01/rdf-schema#label> "Phylogenetics"@en .
+<http://edamontology.org/topic_3297> <http://www.w3.org/2000/01/rdf-schema#label> "Biotechnology"@en .
+<http://edamontology.org/topic_3298> <http://www.w3.org/2000/01/rdf-schema#label> "Phenomics"@en .
+<http://edamontology.org/topic_3299> <http://www.w3.org/2000/01/rdf-schema#label> "Evolutionary Biology"@en .
+<http://edamontology.org/topic_3300> <http://www.w3.org/2000/01/rdf-schema#label> "Physiology"@en .
+<http://edamontology.org/topic_3304> <http://www.w3.org/2000/01/rdf-schema#label> "Neurobiology"@en .
+<http://edamontology.org/topic_3307> <http://www.w3.org/2000/01/rdf-schema#label> "Computational Biology"@en .
+<http://edamontology.org/topic_3308> <http://www.w3.org/2000/01/rdf-schema#label> "Transcriptomics"@en .
+<http://edamontology.org/topic_3315> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematics"@en .
+<http://edamontology.org/topic_3316> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Science"@en .
+<http://edamontology.org/topic_3318> <http://www.w3.org/2000/01/rdf-schema#label> "Physics"@en .
+<http://edamontology.org/topic_3321> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Genetics"@en .
+<http://edamontology.org/topic_3336> <http://www.w3.org/2000/01/rdf-schema#label> "Drug Discovery"@en .
+<http://edamontology.org/topic_3342> <http://www.w3.org/2000/01/rdf-schema#label> "Translational Medicine"@en .
+<http://edamontology.org/topic_3368> <http://www.w3.org/2000/01/rdf-schema#label> "Biomaterials"@en .
+<http://edamontology.org/topic_3369> <http://www.w3.org/2000/01/rdf-schema#label> "Chemical Biology"@en .
+<http://edamontology.org/topic_3370> <http://www.w3.org/2000/01/rdf-schema#label> "Analytical Chemistry"@en .
+<http://edamontology.org/topic_3371> <http://www.w3.org/2000/01/rdf-schema#label> "Synthetic Chemistry"@en .
+<http://edamontology.org/topic_3373> <http://www.w3.org/2000/01/rdf-schema#label> "Drug Development"@en .
+<http://edamontology.org/topic_3374> <http://www.w3.org/2000/01/rdf-schema#label> "Biotherapeutics"@en .
+<http://edamontology.org/topic_3387> <http://www.w3.org/2000/01/rdf-schema#label> "Marine Biology"@en .
+<http://edamontology.org/topic_3388> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Medicine"@en .
+<http://edamontology.org/topic_3390> <http://www.w3.org/2000/01/rdf-schema#label> "Nutritional Science"@en .
+<http://edamontology.org/topic_3391> <http://www.w3.org/2000/01/rdf-schema#label> "Omics"@en .
+<http://edamontology.org/topic_3396> <http://www.w3.org/2000/01/rdf-schema#label> "Systems Medicine"@en .
+<http://edamontology.org/topic_3397> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Medicine"@en .
+<http://edamontology.org/topic_3399> <http://www.w3.org/2000/01/rdf-schema#label> "Geriatric Medicine"@en .
+<http://edamontology.org/topic_3401> <http://www.w3.org/2000/01/rdf-schema#label> "Pain Medicine"@en .
+<http://edamontology.org/topic_3402> <http://www.w3.org/2000/01/rdf-schema#label> "Anaesthesiology"@en .
+<http://edamontology.org/topic_3403> <http://www.w3.org/2000/01/rdf-schema#label> "Critical Care Medicine"@en .
+<http://edamontology.org/topic_3405> <http://www.w3.org/2000/01/rdf-schema#label> "Dentistry"@en .
+<http://edamontology.org/topic_3406> <http://www.w3.org/2000/01/rdf-schema#label> "Otolaryngology"@en .
+<http://edamontology.org/topic_3410> <http://www.w3.org/2000/01/rdf-schema#label> "Gender Medicine"@en .
+<http://edamontology.org/topic_3414> <http://www.w3.org/2000/01/rdf-schema#label> "Traumatology"@en .
+<http://edamontology.org/topic_3415> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Toxicology"@en .
+<http://edamontology.org/topic_3418> <http://www.w3.org/2000/01/rdf-schema#label> "Pediatrics"@en .
+<http://edamontology.org/topic_3423> <http://www.w3.org/2000/01/rdf-schema#label> "Traditional Medicine"@en .
+<http://edamontology.org/topic_3569> <http://www.w3.org/2000/01/rdf-schema#label> "Applied Mathematics"@en .
+<http://edamontology.org/topic_3570> <http://www.w3.org/2000/01/rdf-schema#label> "Pure Mathematics"@en .
+<http://edamontology.org/topic_3571> <http://www.w3.org/2000/01/rdf-schema#label> "Data Governance"@en .
+<http://edamontology.org/topic_3573> <http://www.w3.org/2000/01/rdf-schema#label> "Freshwater Science"@en .
+<http://edamontology.org/topic_3574> <http://www.w3.org/2000/01/rdf-schema#label> "Human Genetics"@en .
+<http://edamontology.org/topic_3575> <http://www.w3.org/2000/01/rdf-schema#label> "Tropical Medicine"@en .
+<http://edamontology.org/topic_3576> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Biotechnology"@en .
+<http://edamontology.org/topic_3577> <http://www.w3.org/2000/01/rdf-schema#label> "Personalized Medicine"@en .
+<http://edamontology.org/topic_3697> <http://www.w3.org/2000/01/rdf-schema#label> "Microbial Ecology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C105692> <http://www.w3.org/2000/01/rdf-schema#label> "Respiratory Medicine"@en .
+<http://purl.obolibrary.org/obo/NCIT_C105699> <http://www.w3.org/2000/01/rdf-schema#label> "Vascular Surgery"@en .
+<http://purl.obolibrary.org/obo/NCIT_C119712> <http://www.w3.org/2000/01/rdf-schema#label> "Proteogenomics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C142491> <http://www.w3.org/2000/01/rdf-schema#label> "Data Quality"@en .
+<http://purl.obolibrary.org/obo/NCIT_C142642> <http://www.w3.org/2000/01/rdf-schema#label> "Preclinical Studies"@en .
+<http://purl.obolibrary.org/obo/NCIT_C15188> <http://www.w3.org/2000/01/rdf-schema#label> "Biomedical Science"@en .
+<http://purl.obolibrary.org/obo/NCIT_C15206> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Studies"@en .
+<http://purl.obolibrary.org/obo/NCIT_C15245> <http://www.w3.org/2000/01/rdf-schema#label> "Health Services Research"@en .
+<http://purl.obolibrary.org/obo/NCIT_C15308> <http://www.w3.org/2000/01/rdf-schema#label> "Psychotherapy"@en .
+<http://purl.obolibrary.org/obo/NCIT_C153192> <http://www.w3.org/2000/01/rdf-schema#label> "Glycomics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16294> <http://www.w3.org/2000/01/rdf-schema#label> "Anthropology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16304> <http://www.w3.org/2000/01/rdf-schema#label> "Architecture"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16309> <http://www.w3.org/2000/01/rdf-schema#label> "Artificial Intelligence"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16345> <http://www.w3.org/2000/01/rdf-schema#label> "Biology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16349> <http://www.w3.org/2000/01/rdf-schema#label> "Biophysics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16413> <http://www.w3.org/2000/01/rdf-schema#label> "Chemical Engineering"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16414> <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16417> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Chemistry"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16419> <http://www.w3.org/2000/01/rdf-schema#label> "Organic Chemistry"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16421> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Chemistry"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16439> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Informatics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16478> <http://www.w3.org/2000/01/rdf-schema#label> "Culture"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16495> <http://www.w3.org/2000/01/rdf-schema#label> "Demographics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16500> <http://www.w3.org/2000/01/rdf-schema#label> "Dermatology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16501> <http://www.w3.org/2000/01/rdf-schema#label> "Developmental Biology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16526> <http://www.w3.org/2000/01/rdf-schema#label> "Ecology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16540> <http://www.w3.org/2000/01/rdf-schema#label> "Electrophysiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16548> <http://www.w3.org/2000/01/rdf-schema#label> "Engineering Science"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16550> <http://www.w3.org/2000/01/rdf-schema#label> "Entomology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16556> <http://www.w3.org/2000/01/rdf-schema#label> "Epidemiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16591> <http://www.w3.org/2000/01/rdf-schema#label> "Forensic Medicine"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16603> <http://www.w3.org/2000/01/rdf-schema#label> "Gastroenterology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16624> <http://www.w3.org/2000/01/rdf-schema#label> "Genetics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16633> <http://www.w3.org/2000/01/rdf-schema#label> "Geography"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16658> <http://www.w3.org/2000/01/rdf-schema#label> "Gynecology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16673> <http://www.w3.org/2000/01/rdf-schema#label> "Hematology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16715> <http://www.w3.org/2000/01/rdf-schema#label> "Immunogenetics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16851> <http://www.w3.org/2000/01/rdf-schema#label> "Microbiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16902> <http://www.w3.org/2000/01/rdf-schema#label> "Nephrology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16908> <http://www.w3.org/2000/01/rdf-schema#label> "Neurology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16910> <http://www.w3.org/2000/01/rdf-schema#label> "Neurophysiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16922> <http://www.w3.org/2000/01/rdf-schema#label> "Nuclear Medicine"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16928> <http://www.w3.org/2000/01/rdf-schema#label> "Obstetrics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16931> <http://www.w3.org/2000/01/rdf-schema#label> "Occupational Medicine"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16939> <http://www.w3.org/2000/01/rdf-schema#label> "Ophthalmology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C16974> <http://www.w3.org/2000/01/rdf-schema#label> "Pharmacology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17026> <http://www.w3.org/2000/01/rdf-schema#label> "Psychiatry"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17027> <http://www.w3.org/2000/01/rdf-schema#label> "Psychology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17028> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Psychology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17030> <http://www.w3.org/2000/01/rdf-schema#label> "Educational Psychology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17038> <http://www.w3.org/2000/01/rdf-schema#label> "Psychosomatic Medicine"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17039> <http://www.w3.org/2000/01/rdf-schema#label> "Public Health"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17055> <http://www.w3.org/2000/01/rdf-schema#label> "Radiobiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17059> <http://www.w3.org/2000/01/rdf-schema#label> "Radiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17099> <http://www.w3.org/2000/01/rdf-schema#label> "Rheumatology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17141> <http://www.w3.org/2000/01/rdf-schema#label> "Social Science"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17147> <http://www.w3.org/2000/01/rdf-schema#label> "Software Engineering"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17167> <http://www.w3.org/2000/01/rdf-schema#label> "Statistics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17173> <http://www.w3.org/2000/01/rdf-schema#label> "Surgery"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17174> <http://www.w3.org/2000/01/rdf-schema#label> "Oral Surgery"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17193> <http://www.w3.org/2000/01/rdf-schema#label> "Thermodynamics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17206> <http://www.w3.org/2000/01/rdf-schema#label> "Toxicology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17243> <http://www.w3.org/2000/01/rdf-schema#label> "Urology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17269> <http://www.w3.org/2000/01/rdf-schema#label> "Zoology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17606> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Image Processing"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17735> <http://www.w3.org/2000/01/rdf-schema#label> "Policy"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17837> <http://www.w3.org/2000/01/rdf-schema#label> "Oncology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17940> <http://www.w3.org/2000/01/rdf-schema#label> "Microbial Genetics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17964> <http://www.w3.org/2000/01/rdf-schema#label> "Bioinformatics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C17992> <http://www.w3.org/2000/01/rdf-schema#label> "Cell Biology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18011> <http://www.w3.org/2000/01/rdf-schema#label> "Immunology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18076> <http://www.w3.org/2000/01/rdf-schema#label> "Bioengineering"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18088> <http://www.w3.org/2000/01/rdf-schema#label> "Developmental Neurobiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18097> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Dynamics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18111> <http://www.w3.org/2000/01/rdf-schema#label> "Structural Biology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18189> <http://www.w3.org/2000/01/rdf-schema#label> "Pathology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18220> <http://www.w3.org/2000/01/rdf-schema#label> "Human Biology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18470> <http://www.w3.org/2000/01/rdf-schema#label> "Computational Chemistry"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18478> <http://www.w3.org/2000/01/rdf-schema#label> "Nanotechnology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18633> <http://www.w3.org/2000/01/rdf-schema#label> "Animal Genetics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18645> <http://www.w3.org/2000/01/rdf-schema#label> "Enzymology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18701> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Immunology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18729> <http://www.w3.org/2000/01/rdf-schema#label> "Database Management"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18740> <http://www.w3.org/2000/01/rdf-schema#label> "Developmental Psychology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18873> <http://www.w3.org/2000/01/rdf-schema#label> "Microbial Physiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18874> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Microbiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C18948> <http://www.w3.org/2000/01/rdf-schema#label> "Polymer Chemistry"@en .
+<http://purl.obolibrary.org/obo/NCIT_C19199> <http://www.w3.org/2000/01/rdf-schema#label> "Health Science"@en .
+<http://purl.obolibrary.org/obo/NCIT_C19349> <http://www.w3.org/2000/01/rdf-schema#label> "Electrical Engineering"@en .
+<http://purl.obolibrary.org/obo/NCIT_C19638> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C20085> <http://www.w3.org/2000/01/rdf-schema#label> "Proteomics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C20179> <http://www.w3.org/2000/01/rdf-schema#label> "Toxicogenomics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C20609> <http://www.w3.org/2000/01/rdf-schema#label> "Synthesis Chemistry"@en .
+<http://purl.obolibrary.org/obo/NCIT_C26633> <http://www.w3.org/2000/01/rdf-schema#label> "Drug Metabolism"@en .
+<http://purl.obolibrary.org/obo/NCIT_C39794> <http://www.w3.org/2000/01/rdf-schema#label> "Philosophy"@en .
+<http://purl.obolibrary.org/obo/NCIT_C54625> <http://www.w3.org/2000/01/rdf-schema#label> "History"@en .
+<http://purl.obolibrary.org/obo/NCIT_C84343> <http://www.w3.org/2000/01/rdf-schema#label> "Genomics"@en .
+<http://purl.obolibrary.org/obo/NCIT_C86055> <http://www.w3.org/2000/01/rdf-schema#label> "Cardiology"@en .
+<http://purl.obolibrary.org/obo/NCIT_C93254> <http://www.w3.org/2000/01/rdf-schema#label> "Regenerative Medicine"@en .
+<http://purl.obolibrary.org/obo/NCIT_C95096> <http://www.w3.org/2000/01/rdf-schema#label> "Neuroscience"@en .
+<http://purl.obolibrary.org/obo/OBI_0200111> <http://www.w3.org/2000/01/rdf-schema#label> "Data Visualization"@en .
+<http://purl.obolibrary.org/obo/OMIT_0001094> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive Neuroscience"@en .
+<http://purl.obolibrary.org/obo/OMIT_0002286> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural Anthropology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0002494> <http://www.w3.org/2000/01/rdf-schema#label> "Classical Archaeology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0002540> <http://www.w3.org/2000/01/rdf-schema#label> "Art"@en .
+<http://purl.obolibrary.org/obo/OMIT_0002710> <http://www.w3.org/2000/01/rdf-schema#label> "Automation"@en .
+<http://purl.obolibrary.org/obo/OMIT_0004711> <http://www.w3.org/2000/01/rdf-schema#label> "Criminal Law"@en .
+<http://purl.obolibrary.org/obo/OMIT_0004713> <http://www.w3.org/2000/01/rdf-schema#label> "Criminology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0007039> <http://www.w3.org/2000/01/rdf-schema#label> "Geology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0007951> <http://www.w3.org/2000/01/rdf-schema#label> "Humanities"@en .
+<http://purl.obolibrary.org/obo/OMIT_0008715> <http://www.w3.org/2000/01/rdf-schema#label> "Jurisprudence"@en .
+<http://purl.obolibrary.org/obo/OMIT_0009577> <http://www.w3.org/2000/01/rdf-schema#label> "Medicine"@en .
+<http://purl.obolibrary.org/obo/OMIT_0009732> <http://www.w3.org/2000/01/rdf-schema#label> "Metallurgy"@en .
+<http://purl.obolibrary.org/obo/OMIT_0010809> <http://www.w3.org/2000/01/rdf-schema#label> "Oceanography"@en .
+<http://purl.obolibrary.org/obo/OMIT_0010991> <http://www.w3.org/2000/01/rdf-schema#label> "Musculoskeletal Medicine"@en .
+<http://purl.obolibrary.org/obo/OMIT_0011166> <http://www.w3.org/2000/01/rdf-schema#label> "Paleontology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0011270> <http://www.w3.org/2000/01/rdf-schema#label> "Parasitology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0011594> <http://www.w3.org/2000/01/rdf-schema#label> "Pharmacy"@en .
+<http://purl.obolibrary.org/obo/OMIT_0011790> <http://www.w3.org/2000/01/rdf-schema#label> "Natural Science"@en .
+<http://purl.obolibrary.org/obo/OMIT_0012123> <http://www.w3.org/2000/01/rdf-schema#label> "Population Dynamics"@en .
+<http://purl.obolibrary.org/obo/OMIT_0012276> <http://www.w3.org/2000/01/rdf-schema#label> "Primary Health Care"@en .
+<http://purl.obolibrary.org/obo/OMIT_0012532> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Psychology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0013823> <http://www.w3.org/2000/01/rdf-schema#label> "Social Medicine"@en .
+<http://purl.obolibrary.org/obo/OMIT_0015767> <http://www.w3.org/2000/01/rdf-schema#label> "Global Health"@en .
+<http://purl.obolibrary.org/obo/OMIT_0018016> <http://www.w3.org/2000/01/rdf-schema#label> "Nonlinear Dynamics"@en .
+<http://purl.obolibrary.org/obo/OMIT_0018052> <http://www.w3.org/2000/01/rdf-schema#label> "Ecosystem Science"@en .
+<http://purl.obolibrary.org/obo/OMIT_0018936> <http://www.w3.org/2000/01/rdf-schema#label> "Radiation Oncology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0019137> <http://www.w3.org/2000/01/rdf-schema#label> "Natural History"@en .
+<http://purl.obolibrary.org/obo/OMIT_0021467> <http://www.w3.org/2000/01/rdf-schema#label> "Theology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0024194> <http://www.w3.org/2000/01/rdf-schema#label> "Ancient History"@en .
+<http://purl.obolibrary.org/obo/OMIT_0024195> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval History"@en .
+<http://purl.obolibrary.org/obo/OMIT_0026346> <http://www.w3.org/2000/01/rdf-schema#label> "Infectious Disease Medicine"@en .
+<http://purl.obolibrary.org/obo/OMIT_0026522> <http://www.w3.org/2000/01/rdf-schema#label> "Meteorology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0026615> <http://www.w3.org/2000/01/rdf-schema#label> "Earth Science"@en .
+<http://purl.obolibrary.org/obo/OMIT_0026929> <http://www.w3.org/2000/01/rdf-schema#label> "Data Mining"@en .
+<http://purl.obolibrary.org/obo/OMIT_0027237> <http://www.w3.org/2000/01/rdf-schema#label> "Drug Repositioning" .
+<http://purl.obolibrary.org/obo/OMIT_0027298> <http://www.w3.org/2000/01/rdf-schema#label> "Synthetic Biology"@en .
+<http://purl.obolibrary.org/obo/OMIT_0027812> <http://www.w3.org/2000/01/rdf-schema#label> "Reproductive Health"@en .
+<http://purl.obolibrary.org/obo/OMIT_0028546> <http://www.w3.org/2000/01/rdf-schema#label> "Transfusion Medicine"@en .
+<http://purl.obolibrary.org/obo/PO_0025131> <http://www.w3.org/2000/01/rdf-schema#label> "Plant Anatomy"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "Humanities and Social Sciences"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "Ancient Cultures"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "Prehistory"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000006> <http://www.w3.org/2000/01/rdf-schema#label> "Classical Philology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000009> <http://www.w3.org/2000/01/rdf-schema#label> "Egyptology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000012> <http://www.w3.org/2000/01/rdf-schema#label> "Early Modern History"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000013> <http://www.w3.org/2000/01/rdf-schema#label> "Modern History"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000014> <http://www.w3.org/2000/01/rdf-schema#label> "History of Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000015> <http://www.w3.org/2000/01/rdf-schema#label> "Fine Arts"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000016> <http://www.w3.org/2000/01/rdf-schema#label> "Art History"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000017> <http://www.w3.org/2000/01/rdf-schema#label> "Musicology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000018> <http://www.w3.org/2000/01/rdf-schema#label> "Media Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000020> <http://www.w3.org/2000/01/rdf-schema#label> "Applied Linguistics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000022> <http://www.w3.org/2000/01/rdf-schema#label> "Historical Linguistics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000023> <http://www.w3.org/2000/01/rdf-schema#label> "Literary Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000024> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval German Literature"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000025> <http://www.w3.org/2000/01/rdf-schema#label> "German Literature"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000026> <http://www.w3.org/2000/01/rdf-schema#label> "European Literature"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000027> <http://www.w3.org/2000/01/rdf-schema#label> "Comparative Literature"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000030> <http://www.w3.org/2000/01/rdf-schema#label> "Asian Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000031> <http://www.w3.org/2000/01/rdf-schema#label> "African Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000032> <http://www.w3.org/2000/01/rdf-schema#label> "Islamic Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000033> <http://www.w3.org/2000/01/rdf-schema#label> "Religious Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000035> <http://www.w3.org/2000/01/rdf-schema#label> "Protestant Theology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000036> <http://www.w3.org/2000/01/rdf-schema#label> "Roman Catholic Theology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000038> <http://www.w3.org/2000/01/rdf-schema#label> "History of Philosophy"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000039> <http://www.w3.org/2000/01/rdf-schema#label> "Theoretical Philosophy"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000040> <http://www.w3.org/2000/01/rdf-schema#label> "Practical Philosophy"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000041> <http://www.w3.org/2000/01/rdf-schema#label> "Social and Behavioural Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000042> <http://www.w3.org/2000/01/rdf-schema#label> "Education Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000044> <http://www.w3.org/2000/01/rdf-schema#label> "Research on Teaching, Learning and Training"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000045> <http://www.w3.org/2000/01/rdf-schema#label> "Professional Socialization"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000047> <http://www.w3.org/2000/01/rdf-schema#label> "Biological Psychology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000049> <http://www.w3.org/2000/01/rdf-schema#label> "Social Psychology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000050> <http://www.w3.org/2000/01/rdf-schema#label> "Differential Psychology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000052> <http://www.w3.org/2000/01/rdf-schema#label> "Sociological Theory"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000053> <http://www.w3.org/2000/01/rdf-schema#label> "Empirical Social Research"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000054> <http://www.w3.org/2000/01/rdf-schema#label> "Communication Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000055> <http://www.w3.org/2000/01/rdf-schema#label> "Political Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000057> <http://www.w3.org/2000/01/rdf-schema#label> "Economic Theory"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000060> <http://www.w3.org/2000/01/rdf-schema#label> "Business Administration"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000062> <http://www.w3.org/2000/01/rdf-schema#label> "Economic and Social History"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000064> <http://www.w3.org/2000/01/rdf-schema#label> "Philosophy of Law"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000065> <http://www.w3.org/2000/01/rdf-schema#label> "Private Law"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000066> <http://www.w3.org/2000/01/rdf-schema#label> "Public Law"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000083> <http://www.w3.org/2000/01/rdf-schema#label> "Inter-organismic Interactions of Plants"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000085> <http://www.w3.org/2000/01/rdf-schema#label> "Phytochemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000086> <http://www.w3.org/2000/01/rdf-schema#label> "Plant Cell Biology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000092> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioural Biology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000097> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Microbiology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000098> <http://www.w3.org/2000/01/rdf-schema#label> "Applied Microbiology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000099> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Infection Biology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000103> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Biometry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000109> <http://www.w3.org/2000/01/rdf-schema#label> "Pathobiochemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000128> <http://www.w3.org/2000/01/rdf-schema#label> "Cardiothoracic Surgery"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000134> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000136> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Neuroscience"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000137> <http://www.w3.org/2000/01/rdf-schema#label> "Cellular Neuroscience"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000139> <http://www.w3.org/2000/01/rdf-schema#label> "Systemic Neuroscience"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000140> <http://www.w3.org/2000/01/rdf-schema#label> "Comparative Neurobiology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000142> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Neurology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000144> <http://www.w3.org/2000/01/rdf-schema#label> "Biological Psychiatry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000153> <http://www.w3.org/2000/01/rdf-schema#label> "Phytomedicine"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000161> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Veterinary Medicine"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000164> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000165> <http://www.w3.org/2000/01/rdf-schema#label> "Inorganic Molecular Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000166> <http://www.w3.org/2000/01/rdf-schema#label> "Organic Molecular Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000169> <http://www.w3.org/2000/01/rdf-schema#label> "Solid-State Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000172> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular Physical Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000173> <http://www.w3.org/2000/01/rdf-schema#label> "Theoretical Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000176> <http://www.w3.org/2000/01/rdf-schema#label> "Biomimetic Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000177> <http://www.w3.org/2000/01/rdf-schema#label> "Food Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000178> <http://www.w3.org/2000/01/rdf-schema#label> "Polymer Research"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000180> <http://www.w3.org/2000/01/rdf-schema#label> "Polymer Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000183> <http://www.w3.org/2000/01/rdf-schema#label> "Condensed Matter Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000184> <http://www.w3.org/2000/01/rdf-schema#label> "Experimental Condensed Matter Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000185> <http://www.w3.org/2000/01/rdf-schema#label> "Theoretical Condensed Matter Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000186> <http://www.w3.org/2000/01/rdf-schema#label> "Atomic, Molecular, Optical and Plasma Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000187> <http://www.w3.org/2000/01/rdf-schema#label> "Particles, Nuclei and Fields"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000188> <http://www.w3.org/2000/01/rdf-schema#label> "Soft Matter Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000189> <http://www.w3.org/2000/01/rdf-schema#label> "Astrophysics and Astronomy"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000198> <http://www.w3.org/2000/01/rdf-schema#label> "Geoinformatics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000202> <http://www.w3.org/2000/01/rdf-schema#label> "Human Geography"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000203> <http://www.w3.org/2000/01/rdf-schema#label> "Water Research"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000206> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000207> <http://www.w3.org/2000/01/rdf-schema#label> "Production Technology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000208> <http://www.w3.org/2000/01/rdf-schema#label> "Metal-Cutting Manufacturing Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000209> <http://www.w3.org/2000/01/rdf-schema#label> "Primary Shaping Technology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000211> <http://www.w3.org/2000/01/rdf-schema#label> "Plastics Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000218> <http://www.w3.org/2000/01/rdf-schema#label> "Thermal Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000219> <http://www.w3.org/2000/01/rdf-schema#label> "Process Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000221> <http://www.w3.org/2000/01/rdf-schema#label> "Technical Chemistry"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000222> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanical Process Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000223> <http://www.w3.org/2000/01/rdf-schema#label> "Biological Process Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000224> <http://www.w3.org/2000/01/rdf-schema#label> "Thermal Technology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000225> <http://www.w3.org/2000/01/rdf-schema#label> "Energy Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000227> <http://www.w3.org/2000/01/rdf-schema#label> "Fluid Mechanics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000230> <http://www.w3.org/2000/01/rdf-schema#label> "Materials Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000231> <http://www.w3.org/2000/01/rdf-schema#label> "Thermomechanical Processing"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000232> <http://www.w3.org/2000/01/rdf-schema#label> "Sintering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000233> <http://www.w3.org/2000/01/rdf-schema#label> "Composite Materials"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000234> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanical Behaviour of Construction Materials"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000235> <http://www.w3.org/2000/01/rdf-schema#label> "Coating and Surface Technology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000236> <http://www.w3.org/2000/01/rdf-schema#label> "Materials Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000238> <http://www.w3.org/2000/01/rdf-schema#label> "Functional Materials Research"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000239> <http://www.w3.org/2000/01/rdf-schema#label> "Microstructural Mechanical Properties of Materials"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000240> <http://www.w3.org/2000/01/rdf-schema#label> "Materials Structuring and Functionalisation"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000243> <http://www.w3.org/2000/01/rdf-schema#label> "Systems Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000244> <http://www.w3.org/2000/01/rdf-schema#label> "Robotics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000245> <http://www.w3.org/2000/01/rdf-schema#label> "Measurement Systems"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000246> <http://www.w3.org/2000/01/rdf-schema#label> "Microsystems"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000248> <http://www.w3.org/2000/01/rdf-schema#label> "Human-Machine Systems Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000250> <http://www.w3.org/2000/01/rdf-schema#label> "Component Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000251> <http://www.w3.org/2000/01/rdf-schema#label> "Telecommunication Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000252> <http://www.w3.org/2000/01/rdf-schema#label> "Power Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000254> <http://www.w3.org/2000/01/rdf-schema#label> "Theoretical Computer Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000258> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Architecture"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000259> <http://www.w3.org/2000/01/rdf-schema#label> "Construction Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000260> <http://www.w3.org/2000/01/rdf-schema#label> "Construction History"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000261> <http://www.w3.org/2000/01/rdf-schema#label> "Transportation Planning"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000262> <http://www.w3.org/2000/01/rdf-schema#label> "Building Engineering Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000263> <http://www.w3.org/2000/01/rdf-schema#label> "Structural Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000264> <http://www.w3.org/2000/01/rdf-schema#label> "Applied Mechanics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000265> <http://www.w3.org/2000/01/rdf-schema#label> "Geotechnics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000282> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000283> <http://www.w3.org/2000/01/rdf-schema#label> "Aerospace Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000285> <http://www.w3.org/2000/01/rdf-schema#label> "Building Informatics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000286> <http://www.w3.org/2000/01/rdf-schema#label> "Landscape Planning"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000287> <http://www.w3.org/2000/01/rdf-schema#label> "Sustainable Building Technology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000288> <http://www.w3.org/2000/01/rdf-schema#label> "Building Design"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000290> <http://www.w3.org/2000/01/rdf-schema#label> "Materials Informatics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000294> <http://www.w3.org/2000/01/rdf-schema#label> "Neurogenetics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000295> <http://www.w3.org/2000/01/rdf-schema#label> "Computational Neuroscience"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000296> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematical Psychology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000297> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial and Organisational Psychology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000298> <http://www.w3.org/2000/01/rdf-schema#label> "Surface Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000299> <http://www.w3.org/2000/01/rdf-schema#label> "Area Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000300> <http://www.w3.org/2000/01/rdf-schema#label> "American Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000301> <http://www.w3.org/2000/01/rdf-schema#label> "Oceania Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000302> <http://www.w3.org/2000/01/rdf-schema#label> "Arabian Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000303> <http://www.w3.org/2000/01/rdf-schema#label> "Jewish Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000304> <http://www.w3.org/2000/01/rdf-schema#label> "Diabetology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000305> <http://www.w3.org/2000/01/rdf-schema#label> "Theatre Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000306> <http://www.w3.org/2000/01/rdf-schema#label> "Data Integration"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000307> <http://www.w3.org/2000/01/rdf-schema#label> "Food Process Engineering"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000308> <http://www.w3.org/2000/01/rdf-schema#label> "Statistical Physics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000309> <http://www.w3.org/2000/01/rdf-schema#label> "Angiology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000310> <http://www.w3.org/2000/01/rdf-schema#label> "Legal History"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000311> <http://www.w3.org/2000/01/rdf-schema#label> "American Literature"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000312> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000313> <http://www.w3.org/2000/01/rdf-schema#label> "Ancient Near Eastern Studies"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000314> <http://www.w3.org/2000/01/rdf-schema#label> "Orthopedic Surgery"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000315> <http://www.w3.org/2000/01/rdf-schema#label> "Community Care"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000316> <http://www.w3.org/2000/01/rdf-schema#label> "Epigenetics"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000318> <http://www.w3.org/2000/01/rdf-schema#label> "Medicines Research and Development"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000319> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Science"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000320> <http://www.w3.org/2000/01/rdf-schema#label> "Endocrinology"@en .
+<http://www.fairsharing.org/ontology/subject/SRAO_0000400> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Virology"@en .
+}
+
+:provenance {
+	:assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/releases/SRAO.owl> ;
+		rdfs:seeAlso <https://www.ebi.ac.uk/ols/ontologies/srao> .
+}
+
+:pubinfo {
+	: dct:created "2020-09-28T10:47:26.879+02:00"^^xsd:dateTime ;
+		dct:creator orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
