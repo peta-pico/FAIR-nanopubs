@@ -27,16 +27,13 @@ Resource types:
 Identifier type
 Metadata schema
 Metadata-Data linking mechanism
-Searchable index
+Search engine
 Communication protocol
 Authentication and authorization technique
 Metadata longevity plan
 Knowledge representation language
-Annotation vocabulary
+Structured vocabulary
 Data schema
-License
+Data usage license
 Provenance model
 
-Get SRAO owl file:
-
-$ wget https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/releases/SRAO.owl
