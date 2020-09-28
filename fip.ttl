@@ -37,15 +37,15 @@ fair:FAIR-Principle-or-SubPrinciple rdfs:label "FAIR Principle or Sub-Principle"
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "A question communities have to address when declaring their FAIR Implementation Profiles"@en .
 
-<https://w3id.org/fair/fip/terms/FIP-Data-Question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/fip/latest/FIP-Data-Question>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "FIP Data Question"@en;
+<https://w3id.org/fair/fip/terms/FIP-Data-related-Question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/FIP-Data-related-Question>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FIP Data-related Question"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for the actual data (as compared to just their metadata)"@en .
 
-<https://w3id.org/fair/fip/terms/FIP-Metadata-Question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/fip/latest/FIP-Metadata-Question>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "FIP Metadata Question"@en;
+<https://w3id.org/fair/fip/terms/FIP-Metadata-related-Question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/FIP-Metadata-related-Question>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FIP Metadata-related Question"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for metadata (as compared to the data themselves)"@en .
 
@@ -54,32 +54,32 @@ fair:FAIR-Principle-or-SubPrinciple rdfs:label "FAIR Principle or Sub-Principle"
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Declaration"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "The expression of a community on how they address a FIP question"@en .
 
-<https://w3id.org/fair/fip/terms/FAIR-Community> a <http://www.w3.org/2002/07/owl#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Community>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Community"@en;
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Implementation-Community>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Implementation Community"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
 
 <https://w3id.org/fair/fip/terms/has-data-steward> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Community>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-data-steward>;
   <http://www.w3.org/2000/01/rdf-schema#label> "has data steward"@en;
   <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/member>;
-  <http://www.w3.org/2004/02/skos/core#definition> "Specifies the data steward for a FAIR community"@en .
+  <http://www.w3.org/2004/02/skos/core#definition> "Specifies the data steward for a FAIR implementation community"@en .
 
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> a <http://www.w3.org/2002/07/owl#Class>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Enabling Resource"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
 
-<https://w3id.org/fair/fip/terms/Available-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/fip/latest/Available-Resource>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Available Resource"@en;
+<https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/Available-FAIR-Enabling-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Available FAIR-Enabling Resource"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is available for use"@en .
 
-<https://w3id.org/fair/fip/terms/Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/fip/latest/Resource-to-be-Developed>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Resource to be Developed"@en;
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource-to-be-Developed>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Enabling Resource to be Developed"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is not yet available but still needs to be developed"@en .
 
@@ -100,14 +100,14 @@ fair:FAIR-Principle-or-SubPrinciple rdfs:label "FAIR Principle or Sub-Principle"
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-by>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declared by"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Community>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
 
 <https://w3id.org/fair/fip/terms/declares-current-use-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-current-use-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares current use of"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to currently use"@en .
 
 <https://w3id.org/fair/fip/terms/declares-planned-use-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
@@ -121,7 +121,7 @@ fair:FAIR-Principle-or-SubPrinciple rdfs:label "FAIR Principle or Sub-Principle"
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-development-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares planned development of"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Resource-to-be-Developed>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to develop"@en .
 
 <https://w3id.org/fair/fip/terms/considerations> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
