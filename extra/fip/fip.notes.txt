@@ -24,16 +24,16 @@ https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD
 
 Resource types:
 
-Identifier type
-Metadata schema
-Metadata-Data linking mechanism
-Search engine
-Communication protocol
-Authentication and authorization technique
-Metadata longevity plan
-Knowledge representation language
-Structured vocabulary
-Data schema
-Data usage license
-Provenance model
+https://w3id.org/fair/fip/terms/Identifier-type
+https://w3id.org/fair/fip/terms/Metadata-schema
+https://w3id.org/fair/fip/terms/Metadata-data-linking-mechanism
+https://w3id.org/fair/fip/terms/Search-engine
+https://w3id.org/fair/fip/terms/Communication-protocol
+https://w3id.org/fair/fip/terms/Authentication-and-authorization-technique
+https://w3id.org/fair/fip/terms/Metadata-longevity-plan
+https://w3id.org/fair/fip/terms/Knowledge-representation-language
+https://w3id.org/fair/fip/terms/Structured-vocabulary
+https://w3id.org/fair/fip/terms/Data-schema
+https://w3id.org/fair/fip/terms/Data-usage-license
+https://w3id.org/fair/fip/terms/Provenance-model
 
