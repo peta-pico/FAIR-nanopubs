@@ -45,7 +45,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -87,7 +87,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -126,7 +126,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -165,7 +165,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -205,7 +205,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -245,7 +245,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -288,7 +288,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -328,7 +328,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -368,7 +368,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -408,7 +408,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -449,7 +449,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -491,7 +491,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -533,7 +533,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -575,7 +575,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -617,7 +617,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -659,7 +659,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -700,7 +700,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:53:24.906+02:00"^^xsd:dateTime ;
+  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
