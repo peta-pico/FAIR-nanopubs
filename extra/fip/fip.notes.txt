@@ -22,6 +22,10 @@ https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD
 https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D
 https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD
 
+New property:
+
+https://w3id.org/fair/fip/terms/has-answers-from
+
 Resource types:
 
 https://w3id.org/fair/fip/terms/Identifier-type
