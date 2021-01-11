@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/fip/np/index/508807247907915881/RA77hE-3M2pq-jBpo1zefw2ZZePypmq-IDImAMeR3DFRs> .
-@prefix sub: <https://w3id.org/fair/fip/np/index/508807247907915881/RA77hE-3M2pq-jBpo1zefw2ZZePypmq-IDImAMeR3DFRs#> .
+@prefix this: <https://w3id.org/fair/fip/np/index/RAfmcjp_awcXIjm2AXI0Xz7Qiv95zY4Q2c88yZ4ayJB4k> .
+@prefix sub: <https://w3id.org/fair/fip/np/index/RAfmcjp_awcXIjm2AXI0Xz7Qiv95zY4Q2c88yZ4ayJB4k#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -22,6 +22,27 @@ sub:assertion {
       <https://w3id.org/fair/fip/np/FIP-Declaration/RAB6j5LLI5-4389952-4TAvEEw67exfeAEUmeHLu2KLdk>,
       <https://w3id.org/fair/fip/np/FIP-Metadata-related-Question/RAQ5ztge2_B4nsUgEqxnTtaN7hjWNVrSz63Iap2R6p9qc>,
       <https://w3id.org/fair/fip/np/FIP-Ontology/RA1y8u-HpFm89uqnhtDZLhOTGFu0hdCO0zR54R1rBu91w>,
+      <https://w3id.org/fair/fip/np/FIP-Question-A1.1-D/RA5Ngd2vD2DIph4SjqQ4d1f2fQEFWDTld0J8bClNUweEY>,
+      <https://w3id.org/fair/fip/np/FIP-Question-A1.1-MD/RAZ5Xgeb8_QjDtdd5jvsOOscYYG_9jnRa4oZOhqpp86Yo>,
+      <https://w3id.org/fair/fip/np/FIP-Question-A1.2-D/RAwHYwRpFJZQeVFsv_N3WW216TrBFt9J4_7Xs76GbV9ZE>,
+      <https://w3id.org/fair/fip/np/FIP-Question-A1.2-MD/RA-6tIRSD7e4l5FzoAxsEqr7t0EnJdaH5GG1m_upoMOr8>,
+      <https://w3id.org/fair/fip/np/FIP-Question-A2/RA6AUc5Q4XZEWitpEqOtmmOlS8i08ZCYebE8Zi3enpdjw>,
+      <https://w3id.org/fair/fip/np/FIP-Question-F1-D/RAyA2guGvSZ5NQYEQyCorVi7Owdpd1mMSFo_J0FPWV7Qg>,
+      <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RAv1jc6uqjsYwglse3YGfy7dRcmIcOH7HUQWQRGLG2jto>,
+      <https://w3id.org/fair/fip/np/FIP-Question-F2/RAKH8O9joNMvlmb1wbxzk3Ze5tcCkFjnhriOJ7fl1eTLI>,
+      <https://w3id.org/fair/fip/np/FIP-Question-F3/RAVCU6N1jVsKvaib1PAKI44mNu9V6GkkPCYTfvDlojQj8>,
+      <https://w3id.org/fair/fip/np/FIP-Question-F4-D/RA4zERFr4dX8QhSi7s9_qKOi3rEEn-3IOWhLBMYpgqgYs>,
+      <https://w3id.org/fair/fip/np/FIP-Question-F4-MD/RAk-08EyxdOezj02a3-l5jWc5In-DGkH6H8OLsaVKEF2U>,
+      <https://w3id.org/fair/fip/np/FIP-Question-I1-D/RAqUpSmky1XknCDiaLFZc-zJMR197ano-wzUgOSG1eZ3U>,
+      <https://w3id.org/fair/fip/np/FIP-Question-I1-MD/RAQhbxlc8-jAg3vaKprokk6E4IQS1ePCLSd58NPkQaKzA>,
+      <https://w3id.org/fair/fip/np/FIP-Question-I2-D/RAD29LabUNU5w-3flW7QsuFwXBvxITC7jPnqEMJnON9v0>,
+      <https://w3id.org/fair/fip/np/FIP-Question-I2-MD/RACHEoAI1yVgdbnjto-v701X1fXs9uTeTi-lMaLyl1IOQ>,
+      <https://w3id.org/fair/fip/np/FIP-Question-I3-D/RAVBKsPBErfRKDzoOtW0ANF0yPEYmEC3VgB2whWVMOv9c>,
+      <https://w3id.org/fair/fip/np/FIP-Question-I3-MD/RAt7yOYOdKUfuoRIxsAg6dSTSvsAyP9rrZ31m44ogEcY8>,
+      <https://w3id.org/fair/fip/np/FIP-Question-R1.1-D/RAC_6liEHCfSoA4R0I82AbOjW1Hs6fLMDN2ukSv2n43oc>,
+      <https://w3id.org/fair/fip/np/FIP-Question-R1.1-MD/RAbqfS6lVWZ65EgPlTt8_ZnJ-RxpxvFoJpw3RVG2JzRUs>,
+      <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/RATmr9M9lw4iDi3q3mrHzvR0dJ023Y1PHxZarmKbqQxPA>,
+      <https://w3id.org/fair/fip/np/FIP-Question-R1.2-MD/RAkPEyiL-uDcRnrsc7oQ0wo-lyDJ7jMFw93SvHsAhxRDU>,
       <https://w3id.org/fair/fip/np/FIP-Question/RA8LZmNV-sJ9ssPIt6xjeMxjYnv5YwtwsQ-vxxZua7kBQ>,
       <https://w3id.org/fair/fip/np/considerations/RANo00qnprNSxcGcMwWYt22IAnUBRpeZUnt5kVPVAoVVg>,
       <https://w3id.org/fair/fip/np/declared-by/RAoB7vveyfYW_ghcVwH6QdI_iywESaoD7_Mq_8SCk-62s>,
@@ -39,11 +60,11 @@ sub:provenance {
 
 sub:pubinfo {
   this: dce:title "Nanopublications representing the FAIR Implementation Profiles (FIP) Ontology";
-    dct:created "2020-09-28T16:57:46.338+02:00"^^xsd:dateTime;
+    dct:created "2021-01-11T16:25:40.764+01:00"^^xsd:dateTime;
     dct:creator <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
       <https://orcid.org/0000-0003-2195-3997>;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    npx:supersedes <https://w3id.org/fair/fip/np/index/RAcIlp2QSUOHTWZor8dsGLa95AvHuiRograzjNrORG4HY>;
+    npx:supersedes <https://w3id.org/fair/fip/np/index/508807247907915881/RA77hE-3M2pq-jBpo1zefw2ZZePypmq-IDImAMeR3DFRs>;
     a npx:NanopubIndex .
 }
 

@@ -45,7 +45,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -87,7 +87,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -126,7 +126,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -165,7 +165,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -205,7 +205,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -245,7 +245,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -288,7 +288,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -328,7 +328,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -368,7 +368,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -408,7 +408,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -449,7 +449,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -491,7 +491,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -533,7 +533,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -575,7 +575,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -617,7 +617,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -659,7 +659,7 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -700,7 +700,870 @@
 }
 
 :pubinfo {
-  : dct:created "2020-09-28T16:57:44.516+02:00"^^xsd:dateTime ;
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+# Question instances:
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F1-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-F1-MD rdfs:label "FIP Question F1-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "What globally unique, persistent, resolvable identifiers do you use for metadata records?"@en ;
+    fip:refers-to-principle fair:F1 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-F1-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F1-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-F1-D rdfs:label "FIP Question F1-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "What globally unique, persistent, resolvable identifiers do you use for datasets?"@en ;
+    fip:refers-to-principle fair:F1 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-F2/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F2> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-F2 rdfs:label "FIP Question F2"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which metadata schemas do you use for findability?"@en ;
+    fip:refers-to-principle fair:F2 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-F3/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F3> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-F3 rdfs:label "FIP Question F3"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "What is the technology that links the persistent identifiers of your data to the metadata description?"@en ;
+    fip:refers-to-principle fair:F3 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-F4-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F4-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-F4-MD rdfs:label "FIP Question F4-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "In which search engines are your metadata records indexed?"@en ;
+    fip:refers-to-principle fair:F4 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-F4-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F4-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-F4-D rdfs:label "FIP Question F4-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "In which search engines are your datasets indexed?"@en ;
+    fip:refers-to-principle fair:F4 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-A1.1-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-A1.1-MD rdfs:label "FIP Question A1.1-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which standardized communication protocol do you use for metadata records?"@en ;
+    fip:refers-to-principle fair:A1.1 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-A1.1-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-A1.1-D rdfs:label "FIP Question A1.1-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which standardized communication protocol do you use for datasets?"@en ;
+    fip:refers-to-principle fair:A1.1 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-A1.2-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-A1.2-MD rdfs:label "FIP Question A1.2-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which authentication & authorisation technique do you use for metadata records?"@en ;
+    fip:refers-to-principle fair:A1.2 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-A1.2-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-A1.2-D rdfs:label "FIP Question A1.2-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which authentication & authorisation technique do you use for datasets?"@en ;
+    fip:refers-to-principle fair:A1.2 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-A2/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A2> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-A2 rdfs:label "FIP Question A2"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which metadata longevity plan do you use?"@en ;
+    fip:refers-to-principle fair:A2 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-I1-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I1-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-I1-MD rdfs:label "FIP Question I1-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which knowledge representation languages (allowing machine interoperation) do you use for metadata records?"@en ;
+    fip:refers-to-principle fair:I1 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-I1-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I1-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-I1-D rdfs:label "FIP Question I1-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which knowledge representation languages (allowing machine interoperation) do you use for datasets?"@en ;
+    fip:refers-to-principle fair:I1 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-I2-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I2-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-I2-MD rdfs:label "FIP Question I2-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which structured vocabularies do you use to annotate your metadata records?"@en ;
+    fip:refers-to-principle fair:I2 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-I2-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I2-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-I2-D rdfs:label "FIP Question I2-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which structured vocabularies do you use to encode your datasets?"@en ;
+    fip:refers-to-principle fair:I2 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-I3-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I3-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-I3-MD rdfs:label "FIP Question I3-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which models, schema(s) do you use for your metadata records?"@en ;
+    fip:refers-to-principle fair:I3 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-I3-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I3-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-I3-D rdfs:label "FIP Question I3-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which models, schema(s) do you use for your datasets?"@en ;
+    fip:refers-to-principle fair:I3 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-R1.1-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-R1.1-MD rdfs:label "FIP Question R1.1-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which usage license do you use for your metadata records?"@en ;
+    fip:refers-to-principle fair:R1.1 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-R1.1-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-R1.1-D rdfs:label "FIP Question R1.1-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which usage license do you use for your datasets?"@en ;
+    fip:refers-to-principle fair:R1.1 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-R1.2-MD/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-R1.2-MD rdfs:label "FIP Question R1.2-MD"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which metadata schemas do you use for describing the provenance of your metadata records?"@en ;
+    fip:refers-to-principle fair:R1.2 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
+    dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+
+@prefix : <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  fip:FIP-Question-R1.2-D rdfs:label "FIP Question R1.2-D"@en ;
+    a owl:NamedIndividual ;
+    skos:definition "Which metadata schemas do you use for describing the provenance of your datasets?"@en ;
+    fip:refers-to-principle fair:R1.2 ;
+    rdfs:isDefinedBy latest: .
+}
+
+:provenance {
+  :assertion dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+  : dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }

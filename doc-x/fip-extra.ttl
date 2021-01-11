@@ -17,3 +17,15 @@ rdfs:seeAlso a owl:ObjectProperty .
 
 fair:FAIR-Principle-or-SubPrinciple rdfs:label "FAIR Principle or Sub-Principle" .
 
+fair:F1 rdfs:label "F1" .
+fair:F2 rdfs:label "F2" .
+fair:F3 rdfs:label "F3" .
+fair:F4 rdfs:label "F4" .
+fair:A1.1 rdfs:label "A1.1" .
+fair:A1.2 rdfs:label "A1.2" .
+fair:A2 rdfs:label "A2" .
+fair:I1 rdfs:label "I1" .
+fair:I2 rdfs:label "I2" .
+fair:I3 rdfs:label "I3" .
+fair:R1.1 rdfs:label "R1.1" .
+fair:R1.2 rdfs:label "R1.2" .
