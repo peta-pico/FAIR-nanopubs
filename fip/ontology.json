@@ -181,6 +181,363 @@
     "@value" : "A question communities have to address when declaring their FAIR Implementation Profiles"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question A1.1-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which standardized communication protocol do you use for datasets?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A1.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question A1.1-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which standardized communication protocol do you use for metadata records?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A1.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question A1.2-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which authentication & authorisation technique do you use for datasets?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A1.2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question A1.2-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which authentication & authorisation technique do you use for metadata records?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A1.2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question A2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which metadata longevity plan do you use?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F1-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F1-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question F1-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "What globally unique, persistent, resolvable identifiers do you use for datasets?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F1-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F1-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question F1-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "What globally unique, persistent, resolvable identifiers do you use for metadata records?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question F2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which metadata schemas do you use for findability?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question F3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "What is the technology that links the persistent identifiers of your data to the metadata description?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F4-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F4-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question F4-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "In which search engines are your datasets indexed?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F4-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F4-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question F4-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "In which search engines are your metadata records indexed?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I1-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I1-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question I1-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which knowledge representation languages (allowing machine interoperation) do you use for datasets?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I1-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I1-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question I1-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which knowledge representation languages (allowing machine interoperation) do you use for metadata records?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I2-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I2-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question I2-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which structured vocabularies do you use to encode your datasets?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I2-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I2-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question I2-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which structured vocabularies do you use to annotate your metadata records?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I3-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I3-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question I3-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which models, schema(s) do you use for your datasets?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I3-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I3-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question I3-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which models, schema(s) do you use for your metadata records?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question R1.1-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which usage license do you use for your datasets?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question R1.1-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which usage license do you use for your metadata records?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question R1.2-D"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which metadata schemas do you use for describing the provenance of your datasets?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP Question R1.2-MD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Which metadata schemas do you use for describing the provenance of your metadata records?"
+  } ],
+  "https://w3id.org/fair/fip/terms/refers-to-principle" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.2"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/considerations",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -335,9 +692,81 @@
     "@value" : "Connects a FIP declaration to the FIP question it is addressing"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/principles/terms/A1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A1.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/A1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A1.2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/A2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "F1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "F2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "F3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/F4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "F4"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "FAIR Principle or Sub-Principle"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/I3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/principles/terms/R1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1.2"
   } ]
 } ]
