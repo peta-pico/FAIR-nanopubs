@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Mon Jan 11 16:25:44 CET 2021", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Tue Dec 14 13:20:37 CET 2021", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -131,6 +131,10 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
          title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/declares-planned-replacement-of"
+         title="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">declares planned replacement of</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
@@ -425,7 +429,9 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
+            <a href="#https://w3id.org/fair/fip/terms/declares-planned-replacement-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">declares planned replacement of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
                title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -511,6 +517,8 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
                title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-replacement-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">declares planned replacement of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
                title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/refers-to-question"
@@ -589,6 +597,10 @@ This section provides details for each class and property defined by FAIR Implem
       <li>
          <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
             title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/declares-planned-replacement-of"
+            title="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">declares planned replacement of</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
@@ -697,6 +709,38 @@ This section provides details for each class and property defined by FAIR Implem
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed"
                   title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed">FAIR-Enabling Resource to be Developed</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">
+      <h3>declares planned replacement of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/declares-planned-replacement-of</p>
+      <div class="comment">
+         <span class="markdown">Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/declares-planned-replacement-of">https://w3id.org/fair/fip/latest/declares-planned-replacement-of</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>

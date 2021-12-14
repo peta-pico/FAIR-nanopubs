@@ -16,6 +16,7 @@ RewriteRule ^fip/latest/refers-to-question$ http://purl.org/np/RAj710TeD1XPa50yI
 RewriteRule ^fip/latest/declared-by$ http://purl.org/np/RAoB7vveyfYW_ghcVwH6QdI_iywESaoD7_Mq_8SCk-62s [R=302,L]
 RewriteRule ^fip/latest/declares-current-use-of$ http://purl.org/np/RApLLC5Wnq_Cj9GnG0jLZD_d2xtGlF2yQ5XpcIfwVPBXg [R=302,L]
 RewriteRule ^fip/latest/declares-planned-use-of$ http://purl.org/np/RAyONTJrtIiarGvXdShFt2IZdSM-QdHfTHbr24usex1x4 [R=302,L]
+RewriteRule ^fip/latest/declares-planned-replacement-of$ http://purl.org/np/RAycMXvXJqbp2V-0vANxo2OJlyEu0SpS0tVA9kzsXVzxQ [R=302,L]
 RewriteRule ^fip/latest/declares-planned-development-of$ http://purl.org/np/RA_qlSmN0hWaLpc-Ya9-NSCQ7rRh3HgNWgSZV0-PrIVdk [R=302,L]
 RewriteRule ^fip/latest/considerations$ http://purl.org/np/RANo00qnprNSxcGcMwWYt22IAnUBRpeZUnt5kVPVAoVVg [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-F1-MD$ http://purl.org/np/RAv1jc6uqjsYwglse3YGfy7dRcmIcOH7HUQWQRGLG2jto [R=302,L]
@@ -40,4 +41,4 @@ RewriteRule ^fip/latest/FIP-Question-R1.1-D$ http://purl.org/np/RAC_6liEHCfSoA4R
 RewriteRule ^fip/latest/FIP-Question-R1.2-MD$ http://purl.org/np/RAkPEyiL-uDcRnrsc7oQ0wo-lyDJ7jMFw93SvHsAhxRDU [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-R1.2-D$ http://purl.org/np/RATmr9M9lw4iDi3q3mrHzvR0dJ023Y1PHxZarmKbqQxPA [R=302,L]
 
-RewriteRule ^fip/latest/index$ http://purl.org/np/RAfmcjp_awcXIjm2AXI0Xz7Qiv95zY4Q2c88yZ4ayJB4k [R=302,L]
+RewriteRule ^fip/latest/index$ http://purl.org/np/RAcY6sIEjRASfcG_UQafJ3X30OEZadJ3PZmmaiSPOKXaY [R=302,L]

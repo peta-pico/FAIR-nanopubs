@@ -151,6 +151,19 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/declares-planned-replacement-of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declares-planned-replacement-of"/>
+        <rdfs:label xml:lang="en">declares planned replacement of</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of).</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/declares-planned-use-of -->
 
 

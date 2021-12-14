@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/fip/np/index/RAcY6sIEjRASfcG_UQafJ3X30OEZadJ3PZmmaiSPOKXaY> .
-@prefix sub: <https://w3id.org/fair/fip/np/index/RAcY6sIEjRASfcG_UQafJ3X30OEZadJ3PZmmaiSPOKXaY#> .
+@prefix this: <https://w3id.org/fair/fip/np/index/RAfmcjp_awcXIjm2AXI0Xz7Qiv95zY4Q2c88yZ4ayJB4k> .
+@prefix sub: <https://w3id.org/fair/fip/np/index/RAfmcjp_awcXIjm2AXI0Xz7Qiv95zY4Q2c88yZ4ayJB4k#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -48,7 +48,6 @@ sub:assertion {
       <https://w3id.org/fair/fip/np/declared-by/RAoB7vveyfYW_ghcVwH6QdI_iywESaoD7_Mq_8SCk-62s>,
       <https://w3id.org/fair/fip/np/declares-current-use-of/RApLLC5Wnq_Cj9GnG0jLZD_d2xtGlF2yQ5XpcIfwVPBXg>,
       <https://w3id.org/fair/fip/np/declares-planned-development-of/RA_qlSmN0hWaLpc-Ya9-NSCQ7rRh3HgNWgSZV0-PrIVdk>,
-      <https://w3id.org/fair/fip/np/declares-planned-replacement-of/RAycMXvXJqbp2V-0vANxo2OJlyEu0SpS0tVA9kzsXVzxQ>,
       <https://w3id.org/fair/fip/np/declares-planned-use-of/RAyONTJrtIiarGvXdShFt2IZdSM-QdHfTHbr24usex1x4>,
       <https://w3id.org/fair/fip/np/has-data-steward/RA08kwOVtIpBUs6S8UpjmU7G9JBZ6xMJ15iOBGpX6uu5A>,
       <https://w3id.org/fair/fip/np/refers-to-principle/RA_tVVGjB8f-3mWwAVoq8owmlWIBAILiZpoYPq-EGkqcU>,
@@ -61,11 +60,11 @@ sub:provenance {
 
 sub:pubinfo {
   this: dce:title "Nanopublications representing the FAIR Implementation Profiles (FIP) Ontology";
-    dct:created "2021-12-14T13:20:35.543+01:00"^^xsd:dateTime;
+    dct:created "2021-01-11T16:25:40.764+01:00"^^xsd:dateTime;
     dct:creator <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
       <https://orcid.org/0000-0003-2195-3997>;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    npx:supersedes <https://w3id.org/fair/fip/np/index/RAfmcjp_awcXIjm2AXI0Xz7Qiv95zY4Q2c88yZ4ayJB4k>;
+    npx:supersedes <https://w3id.org/fair/fip/np/index/508807247907915881/RA77hE-3M2pq-jBpo1zefw2ZZePypmq-IDImAMeR3DFRs>;
     a npx:NanopubIndex .
 }
 
