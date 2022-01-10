@@ -202,6 +202,14 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                                 <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for metadata (as compared to the data themselves)"@en .
 
 
+###  https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration
+<https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                                            rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-No-Choice-Declaration> ;
+                                                            rdfs:label "FIP No-Choice Declaration"@en ;
+                                                            <http://www.w3.org/2004/02/skos/core#definition> "A declaration stating that no choice has been made (yet)"@en .
+
+
 ###  https://w3id.org/fair/fip/terms/FIP-Question
 <https://w3id.org/fair/fip/terms/FIP-Question> rdf:type owl:Class ;
                                                rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question> ;

@@ -136,6 +136,23 @@
     "@value" : "A FIP question that is relevant for metadata (as compared to the data themselves)"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FIP-No-Choice-Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FIP No-Choice Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A declaration stating that no choice has been made (yet)"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Ontology",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/creator" : [ {

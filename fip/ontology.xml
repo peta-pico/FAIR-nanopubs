@@ -332,6 +332,18 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-No-Choice-Declaration"/>
+        <rdfs:label xml:lang="en">FIP No-Choice Declaration</rdfs:label>
+        <skos:definition xml:lang="en">A declaration stating that no choice has been made (yet)</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/FIP-Question -->
 
 

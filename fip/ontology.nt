@@ -189,6 +189,13 @@
 <https://w3id.org/fair/fip/terms/FIP-Metadata-related-Question> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Metadata-related Question"@en .
 <https://w3id.org/fair/fip/terms/FIP-Metadata-related-Question> <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for metadata (as compared to the data themselves)"@en .
 # 
+# https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration
+<https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
+<https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-No-Choice-Declaration> .
+<https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration> <http://www.w3.org/2000/01/rdf-schema#label> "FIP No-Choice Declaration"@en .
+<https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration> <http://www.w3.org/2004/02/skos/core#definition> "A declaration stating that no choice has been made (yet)"@en .
+# 
 # https://w3id.org/fair/fip/terms/FIP-Question
 <https://w3id.org/fair/fip/terms/FIP-Question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FIP-Question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question> .
