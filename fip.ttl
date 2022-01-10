@@ -66,6 +66,12 @@ fair:R1.2 rdfs:label "R1.2" .
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Declaration"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "The expression of a community on how they address a FIP question"@en .
 
+<https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/FIP-No-Choice-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FIP No-Choice Declaration"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A declaration stating that no choice has been made (yet)"@en .
+
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> a <http://www.w3.org/2002/07/owl#Class>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Implementation-Community>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Implementation Community"@en;
