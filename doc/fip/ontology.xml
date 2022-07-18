@@ -251,6 +251,18 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/Authentication-and-authorization-service -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Authentication-and-authorization-service">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Authentication-and-authorization-service"/>
+        <rdfs:label xml:lang="en">Authentication and authorization service</rdfs:label>
+        <skos:definition xml:lang="en">A service that mediates access to digital objects according to specifed conditions.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource -->
 
 
@@ -259,6 +271,30 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Available-FAIR-Enabling-Resource"/>
         <rdfs:label xml:lang="en">Available FAIR-Enabling Resource</rdfs:label>
         <skos:definition xml:lang="en">A FAIR-enabling resource that is available for use</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Communication-protocol -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Communication-protocol">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Communication-protocol"/>
+        <rdfs:label xml:lang="en">Communication protocol</rdfs:label>
+        <skos:definition xml:lang="en">A specification how messages are structured and exchanged.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Data-usage-license -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Data-usage-license">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Data-usage-license"/>
+        <rdfs:label xml:lang="en">Data usage license</rdfs:label>
+        <skos:definition xml:lang="en">A document that describes the conditions under which a digital object can be legally used.</skos:definition>
     </owl:Class>
     
 
@@ -351,6 +387,114 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question"/>
         <rdfs:label xml:lang="en">FIP Question</rdfs:label>
         <skos:definition xml:lang="en">A question communities have to address when declaring their FAIR Implementation Profiles</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Identifier-service -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Identifier-service">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Identifier-service"/>
+        <rdfs:label xml:lang="en">Identifier service</rdfs:label>
+        <skos:definition xml:lang="en">A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Knowledge-representation-language -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Knowledge-representation-language">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Knowledge-representation-language"/>
+        <rdfs:label xml:lang="en">Knowledge representation language</rdfs:label>
+        <skos:definition xml:lang="en">A language specification whereby knowledge can be made processible by machines.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Metadata-data-linking-schema -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Metadata-data-linking-schema">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Metadata-data-linking-schema"/>
+        <rdfs:label xml:lang="en">Metadata-data linking schema</rdfs:label>
+        <skos:definition xml:lang="en">A specification (schema) that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Metadata-preservation-policy -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Metadata-preservation-policy">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Metadata-preservation-policy"/>
+        <rdfs:label xml:lang="en">Metadata preservation policy</rdfs:label>
+        <skos:definition xml:lang="en">A document that describes the conditions under which metadata are to be provisioned in the future (maybe part of a data management plan).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Metadata-schema -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Metadata-schema">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Metadata-schema"/>
+        <rdfs:label xml:lang="en">Metadata schema</rdfs:label>
+        <skos:definition xml:lang="en">A specification (schema) that specifies metadata fields describing attributes of data or other digital objects.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Provenance-model -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Provenance-model">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Provenance-model"/>
+        <rdfs:label xml:lang="en">Provenance model</rdfs:label>
+        <skos:definition xml:lang="en">A specification (schema) that specifies metadata fields describing the origin and lineage of data or other digital objects.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Registry -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Registry">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Registry"/>
+        <rdfs:label xml:lang="en">Registry</rdfs:label>
+        <skos:definition xml:lang="en">A service that indexes metadata and data and provides search over that index.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Semantic-model -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Semantic-model">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Semantic-model"/>
+        <rdfs:label xml:lang="en">Semantic model</rdfs:label>
+        <skos:definition xml:lang="en">A specification that defines qualified relations between entities describing data or other digital objects using structured vocabularies.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Structured-vocabulary -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Structured-vocabulary">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Structured-vocabulary"/>
+        <rdfs:label xml:lang="en">Structured vocabulary</rdfs:label>
+        <skos:definition xml:lang="en">A controlled list of uniquely identified and unambigous concepts with their definitions represented preferably using web standards.</skos:definition>
     </owl:Class>
     
 

@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/fip/np/index/RAuMfiujWYYE__yW17HVJqBJZ4ez663T-7vLg-zyCAGzU> .
-@prefix sub: <https://w3id.org/fair/fip/np/index/RAuMfiujWYYE__yW17HVJqBJZ4ez663T-7vLg-zyCAGzU#> .
+@prefix this: <https://w3id.org/fair/fip/np/index/RAc16dGZV7yrX17QbaUv2JuYqjMWtfU27W4UJtD36eAmU> .
+@prefix sub: <https://w3id.org/fair/fip/np/index/RAc16dGZV7yrX17QbaUv2JuYqjMWtfU27W4UJtD36eAmU#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -14,7 +14,10 @@ sub:Head {
 }
 
 sub:assertion {
-  this: npx:includesElement <https://w3id.org/fair/fip/np/Available-FAIR-Enabling-Resource/RAhmoWYlqsvUU4iagr1CCINzVt_VDEt21bLmMZRqONk5g>,
+  this: npx:includesElement <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAG0XX5A5BNktptCC4UeYl3rohTPgA4NJ2YzsYKc49eX4>,
+      <https://w3id.org/fair/fip/np/Available-FAIR-Enabling-Resource/RAhmoWYlqsvUU4iagr1CCINzVt_VDEt21bLmMZRqONk5g>,
+      <https://w3id.org/fair/fip/np/Communication-protocol/RAfG-o7ieWZgVh_MHVpXke6xYUbFWufxOMSEfONuGbqVo>,
+      <https://w3id.org/fair/fip/np/Data-usage-license/RA_Oq4WWDGsWEP4O9AhpO0bzeyiaYVkSc50Hfqxc50qnQ>,
       <https://w3id.org/fair/fip/np/FAIR-Enabling-Resource-to-be-Developed/RA6Q449-JBcEP0B1A5Ymq8s2UY8fLFCRFE-XP1vh4IJ5Y>,
       <https://w3id.org/fair/fip/np/FAIR-Enabling-Resource/RAtlKUYs8dk_WO2dHkCObpJNBRr9mycf8GLVqg-NsDQCk>,
       <https://w3id.org/fair/fip/np/FAIR-Implementation-Community/RA2w7n678arDzdQrdf1vlaznsUbYbSfsV1bZGUuJQMVag>,
@@ -45,6 +48,15 @@ sub:assertion {
       <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/RATmr9M9lw4iDi3q3mrHzvR0dJ023Y1PHxZarmKbqQxPA>,
       <https://w3id.org/fair/fip/np/FIP-Question-R1.2-MD/RAkPEyiL-uDcRnrsc7oQ0wo-lyDJ7jMFw93SvHsAhxRDU>,
       <https://w3id.org/fair/fip/np/FIP-Question/RA8LZmNV-sJ9ssPIt6xjeMxjYnv5YwtwsQ-vxxZua7kBQ>,
+      <https://w3id.org/fair/fip/np/Identifier-service/RAv7gN-ARySG5WL7tDvPDRUrgoWiDgqms3O7wExb-REZA>,
+      <https://w3id.org/fair/fip/np/Knowledge-representation-language/RAhhfu9Ig3-fvaAHekJtLyzp4Mcbtl0AR-Q_8EMZeXv7Y>,
+      <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RAWs6IutufXFMUtlGHpOgJKSTCDjrdYXmnGTki0wcc_Uo>,
+      <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RAjCX-zzCa1UiRQlMUjvWg-vy9lnd4bgj17VpOZkYcfDc>,
+      <https://w3id.org/fair/fip/np/Metadata-schema/RAx55A35bjBGlXWgjyRW7S3yNk7938lsZs8Qu5ok1V_eE>,
+      <https://w3id.org/fair/fip/np/Provenance-model/RAal0G45FgZzpuQEMxIfGLoS8BxAA6DAoqHJbTopdbtxo>,
+      <https://w3id.org/fair/fip/np/Registry/RA_L2QMUJhtYpKVUyxvjfrbhoLHyrglIodkWSv1CiZL-Q>,
+      <https://w3id.org/fair/fip/np/Semantic-model/RA80klxqeu58E-k-CV27GE8uGJDEaZBi2fSwi1kNXY0U4>,
+      <https://w3id.org/fair/fip/np/Structured-vocabulary/RAyjbHxlQvCbsFOhSG15KBphiNXwAmMS0O0u2O7f7IIXY>,
       <https://w3id.org/fair/fip/np/considerations/RANo00qnprNSxcGcMwWYt22IAnUBRpeZUnt5kVPVAoVVg>,
       <https://w3id.org/fair/fip/np/declared-by/RAoB7vveyfYW_ghcVwH6QdI_iywESaoD7_Mq_8SCk-62s>,
       <https://w3id.org/fair/fip/np/declares-current-use-of/RApLLC5Wnq_Cj9GnG0jLZD_d2xtGlF2yQ5XpcIfwVPBXg>,
@@ -62,11 +74,11 @@ sub:provenance {
 
 sub:pubinfo {
   this: dce:title "Nanopublications representing the FAIR Implementation Profiles (FIP) Ontology";
-    dct:created "2022-01-10T14:27:10.967+01:00"^^xsd:dateTime;
+    dct:created "2022-07-18T09:24:29.809+02:00"^^xsd:dateTime;
     dct:creator <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
       <https://orcid.org/0000-0003-2195-3997>;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    npx:supersedes <https://w3id.org/fair/fip/np/index/RAcY6sIEjRASfcG_UQafJ3X30OEZadJ3PZmmaiSPOKXaY>;
+    npx:supersedes <https://w3id.org/fair/fip/np/index/RAuMfiujWYYE__yW17HVJqBJZ4ez663T-7vLg-zyCAGzU>;
     a npx:NanopubIndex .
 }
 

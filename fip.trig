@@ -230,6 +230,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix this: <https://w3id.org/fair/fip/np/FAIR-Implementation-Community/RA2w7n678arDzdQrdf1vlaznsUbYbSfsV1bZGUuJQMVag> .
@@ -431,6 +432,474 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Identifier-service/RAv7gN-ARySG5WL7tDvPDRUrgoWiDgqms3O7wExb-REZA> .
+@prefix sub: <https://w3id.org/fair/fip/np/Identifier-service/RAv7gN-ARySG5WL7tDvPDRUrgoWiDgqms3O7wExb-REZA#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Identifier-service> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Identifier-service rdfs:isDefinedBy latest:;
+    rdfs:label "Identifier service"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Metadata-schema/RAx55A35bjBGlXWgjyRW7S3yNk7938lsZs8Qu5ok1V_eE> .
+@prefix sub: <https://w3id.org/fair/fip/np/Metadata-schema/RAx55A35bjBGlXWgjyRW7S3yNk7938lsZs8Qu5ok1V_eE#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Metadata-schema> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Metadata-schema rdfs:isDefinedBy latest:;
+    rdfs:label "Metadata schema"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A specification (schema) that specifies metadata fields describing attributes of data or other digital objects."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RAWs6IutufXFMUtlGHpOgJKSTCDjrdYXmnGTki0wcc_Uo> .
+@prefix sub: <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RAWs6IutufXFMUtlGHpOgJKSTCDjrdYXmnGTki0wcc_Uo#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Metadata-data-linking-schema> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Metadata-data-linking-schema rdfs:isDefinedBy latest:;
+    rdfs:label "Metadata-data linking schema"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A specification (schema) that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Registry/RA_L2QMUJhtYpKVUyxvjfrbhoLHyrglIodkWSv1CiZL-Q> .
+@prefix sub: <https://w3id.org/fair/fip/np/Registry/RA_L2QMUJhtYpKVUyxvjfrbhoLHyrglIodkWSv1CiZL-Q#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Registry> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Registry rdfs:isDefinedBy latest:;
+    rdfs:label "Registry"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A service that indexes metadata and data and provides search over that index."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Communication-protocol/RAfG-o7ieWZgVh_MHVpXke6xYUbFWufxOMSEfONuGbqVo> .
+@prefix sub: <https://w3id.org/fair/fip/np/Communication-protocol/RAfG-o7ieWZgVh_MHVpXke6xYUbFWufxOMSEfONuGbqVo#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Communication-protocol> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Communication-protocol rdfs:isDefinedBy latest:;
+    rdfs:label "Communication protocol"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A specification how messages are structured and exchanged."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAG0XX5A5BNktptCC4UeYl3rohTPgA4NJ2YzsYKc49eX4> .
+@prefix sub: <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAG0XX5A5BNktptCC4UeYl3rohTPgA4NJ2YzsYKc49eX4#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Authentication-and-authorization-service rdfs:isDefinedBy latest:;
+    rdfs:label "Authentication and authorization service"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A service that mediates access to digital objects according to specifed conditions."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RAjCX-zzCa1UiRQlMUjvWg-vy9lnd4bgj17VpOZkYcfDc> .
+@prefix sub: <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RAjCX-zzCa1UiRQlMUjvWg-vy9lnd4bgj17VpOZkYcfDc#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Metadata-preservation-policy> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Metadata-preservation-policy rdfs:isDefinedBy latest:;
+    rdfs:label "Metadata preservation policy"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A document that describes the conditions under which metadata are to be provisioned in the future (maybe part of a data management plan)."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Knowledge-representation-language/RAhhfu9Ig3-fvaAHekJtLyzp4Mcbtl0AR-Q_8EMZeXv7Y> .
+@prefix sub: <https://w3id.org/fair/fip/np/Knowledge-representation-language/RAhhfu9Ig3-fvaAHekJtLyzp4Mcbtl0AR-Q_8EMZeXv7Y#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Knowledge-representation-language> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Knowledge-representation-language rdfs:isDefinedBy latest:;
+    rdfs:label "Knowledge representation language"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A language specification whereby knowledge can be made processible by machines."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Structured-vocabulary/RAyjbHxlQvCbsFOhSG15KBphiNXwAmMS0O0u2O7f7IIXY> .
+@prefix sub: <https://w3id.org/fair/fip/np/Structured-vocabulary/RAyjbHxlQvCbsFOhSG15KBphiNXwAmMS0O0u2O7f7IIXY#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Structured-vocabulary> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Structured-vocabulary rdfs:isDefinedBy latest:;
+    rdfs:label "Structured vocabulary"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A controlled list of uniquely identified and unambigous concepts with their definitions represented preferably using web standards."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Semantic-model/RA80klxqeu58E-k-CV27GE8uGJDEaZBi2fSwi1kNXY0U4> .
+@prefix sub: <https://w3id.org/fair/fip/np/Semantic-model/RA80klxqeu58E-k-CV27GE8uGJDEaZBi2fSwi1kNXY0U4#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Semantic-model> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Semantic-model rdfs:isDefinedBy latest:;
+    rdfs:label "Semantic model"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A specification that defines qualified relations between entities describing data or other digital objects using structured vocabularies."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Data-usage-license/RA_Oq4WWDGsWEP4O9AhpO0bzeyiaYVkSc50Hfqxc50qnQ> .
+@prefix sub: <https://w3id.org/fair/fip/np/Data-usage-license/RA_Oq4WWDGsWEP4O9AhpO0bzeyiaYVkSc50Hfqxc50qnQ#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Data-usage-license> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Data-usage-license rdfs:isDefinedBy latest:;
+    rdfs:label "Data usage license"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A document that describes the conditions under which a digital object can be legally used."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/fip/np/Provenance-model/RAal0G45FgZzpuQEMxIfGLoS8BxAA6DAoqHJbTopdbtxo> .
+@prefix sub: <https://w3id.org/fair/fip/np/Provenance-model/RAal0G45FgZzpuQEMxIfGLoS8BxAA6DAoqHJbTopdbtxo#> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Provenance-model> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  fip:Provenance-model rdfs:isDefinedBy latest:;
+    rdfs:label "Provenance model"@en;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    skos:definition "A specification (schema) that specifies metadata fields describing the origin and lineage of data or other digital objects."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2022-07-18T09:24:25.483+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
