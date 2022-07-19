@@ -78,8 +78,10 @@ if [ -f doc/$1/sections/references-en.html ]; then
   mv doc/$1/index-en.mod.html doc/$1/index-en.html
 fi
 
-
-if [ -f doc-x/$1/name-map.csv ]; then
-  
+if [ -f doc-x/$1-namemap.csv ]; then
+  while IFS=',' read -ra LINE; do
+    sed -ir 's_\([^\"]\)'"${LINE[0]}"'_\1 '"${LINE[1]}"'_' doc/$1/index-en.html
+  done < doc-x/$1-namemap.csv
 fi
 
+rm -f doc/fip/index-en.htmlr
