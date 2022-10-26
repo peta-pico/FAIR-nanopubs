@@ -17,7 +17,7 @@ TIMESTAMP=$(scripts/np now)
 echo "Setting timestamp $TIMESTAMP..."
 
 cat $1.trig.pre \
-  | sed -r 's/dct:created "[^"]*"\^\^xsd:dateTime/dct:created "'"$TIMESTAMP"'"^^xsd:dateTime/' \
+  | sed -r 's_dct:created "[^"]*"\^\^xsd:dateTime_dct:created "'"$TIMESTAMP"'"^^xsd:dateTime_' \
   > $1.trig.pre.new
 
 mv $1.trig.pre.new $1.trig.pre

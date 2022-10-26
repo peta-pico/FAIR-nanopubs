@@ -32,20 +32,22 @@ cd $WORKINGDIR
 
 NANOPUBJAR=$(find $SCRIPTDIR -maxdepth 1 -name "nanopub-*-jar-with-dependencies.jar" 2>/dev/null | sort -n | tail -1)
 
+JAVAPARAMS="-Dsun.jnu.encoding=utf8 -Dfile.encoding=utf8"
+
 if [ ! -z "$NANOPUBJAR" ]; then
-  exec java -jar $NANOPUBJAR "$@"
+  exec java $JAVAPARAMS -jar $NANOPUBJAR "$@"
 fi
 
 NANOPUBJAR=$(find /usr/share/java/ -maxdepth 1 -name "nanopub-*-jar-with-dependencies.jar" 2>/dev/null | sort -n | tail -1)
 
 if [ ! -z "$NANOPUBJAR" ]; then
-  exec java -jar $NANOPUBJAR "$@"
+  exec java $JAVAPARAMS -jar $NANOPUBJAR "$@"
 fi
 
 NANOPUBJAR=$(find $PROJECTDIR/target/ -maxdepth 1 -name "nanopub-*-jar-with-dependencies.jar" 2>/dev/null | sort -n | tail -1)
 
 if [ ! -z "$NANOPUBJAR" ]; then
-  exec java -jar $NANOPUBJAR "$@"
+  exec java $JAVAPARAMS -jar $NANOPUBJAR "$@"
 fi
 
 >&2 echo "No nanopub jar file found. Downloading it from the web..."
@@ -54,7 +56,7 @@ download-nanopub-jar
 NANOPUBJAR=$(find $SCRIPTDIR -maxdepth 1 -name "nanopub-*-jar-with-dependencies.jar" 2>/dev/null | sort -n | tail -1)
 
 if [ ! -z "$NANOPUBJAR" ]; then
-  exec java -jar $NANOPUBJAR "$@"
+  exec java $JAVAPARAMS -jar $NANOPUBJAR "$@"
 fi
 
 >&2 echo "ERROR: Failed to find or download nanopub jar file."
