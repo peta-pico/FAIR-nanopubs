@@ -323,7 +323,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 #################################################################
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D
-<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> rdf:type owl:NamedIndividual ,
+                                                               <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                       <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.1> ;
                                                       rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D> ;
                                                       rdfs:label "FIP Question A1.1-D"@en ;
@@ -331,7 +332,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> rdf:type owl:NamedIndividual ,
+                                                                <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                        <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.1> ;
                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD> ;
                                                        rdfs:label "FIP Question A1.1-MD"@en ;
@@ -339,7 +341,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D
-<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D> rdf:type owl:NamedIndividual ,
+                                                               <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                       <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.2> ;
                                                       rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D> ;
                                                       rdfs:label "FIP Question A1.2-D"@en ;
@@ -347,7 +350,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> rdf:type owl:NamedIndividual ,
+                                                                <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                        <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.2> ;
                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD> ;
                                                        rdfs:label "FIP Question A1.2-MD"@en ;
@@ -355,7 +359,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-A2
-<https://w3id.org/fair/fip/terms/FIP-Question-A2> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-A2> rdf:type owl:NamedIndividual ,
+                                                           <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A2> ;
                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-A2> ;
                                                   rdfs:label "FIP Question A2"@en ;
@@ -363,7 +368,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-F1-D
-<https://w3id.org/fair/fip/terms/FIP-Question-F1-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-F1-D> rdf:type owl:NamedIndividual ,
+                                                             <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                     <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F1> ;
                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-F1-D> ;
                                                     rdfs:label "FIP Question F1-D"@en ;
@@ -371,7 +377,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-F1-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> rdf:type owl:NamedIndividual ,
+                                                              <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                      <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F1> ;
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-F1-MD> ;
                                                      rdfs:label "FIP Question F1-MD"@en ;
@@ -379,7 +386,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-F2
-<https://w3id.org/fair/fip/terms/FIP-Question-F2> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-F2> rdf:type owl:NamedIndividual ,
+                                                           <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F2> ;
                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-F2> ;
                                                   rdfs:label "FIP Question F2"@en ;
@@ -387,7 +395,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-F3
-<https://w3id.org/fair/fip/terms/FIP-Question-F3> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-F3> rdf:type owl:NamedIndividual ,
+                                                           <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F3> ;
                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-F3> ;
                                                   rdfs:label "FIP Question F3"@en ;
@@ -395,7 +404,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-F4-D
-<https://w3id.org/fair/fip/terms/FIP-Question-F4-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-F4-D> rdf:type owl:NamedIndividual ,
+                                                             <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                     <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F4> ;
                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-F4-D> ;
                                                     rdfs:label "FIP Question F4-D"@en ;
@@ -403,7 +413,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-F4-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> rdf:type owl:NamedIndividual ,
+                                                              <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                      <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F4> ;
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-F4-MD> ;
                                                      rdfs:label "FIP Question F4-MD"@en ;
@@ -411,7 +422,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-I1-D
-<https://w3id.org/fair/fip/terms/FIP-Question-I1-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-I1-D> rdf:type owl:NamedIndividual ,
+                                                             <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                     <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I1> ;
                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-I1-D> ;
                                                     rdfs:label "FIP Question I1-D"@en ;
@@ -419,7 +431,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-I1-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> rdf:type owl:NamedIndividual ,
+                                                              <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                      <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I1> ;
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-I1-MD> ;
                                                      rdfs:label "FIP Question I1-MD"@en ;
@@ -427,7 +440,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-I2-D
-<https://w3id.org/fair/fip/terms/FIP-Question-I2-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-I2-D> rdf:type owl:NamedIndividual ,
+                                                             <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                     <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I2> ;
                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-I2-D> ;
                                                     rdfs:label "FIP Question I2-D"@en ;
@@ -435,7 +449,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-I2-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> rdf:type owl:NamedIndividual ,
+                                                              <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                      <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I2> ;
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-I2-MD> ;
                                                      rdfs:label "FIP Question I2-MD"@en ;
@@ -443,7 +458,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-I3-D
-<https://w3id.org/fair/fip/terms/FIP-Question-I3-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-I3-D> rdf:type owl:NamedIndividual ,
+                                                             <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                     <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I3> ;
                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-I3-D> ;
                                                     rdfs:label "FIP Question I3-D"@en ;
@@ -451,7 +467,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-I3-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> rdf:type owl:NamedIndividual ,
+                                                              <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                      <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I3> ;
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-I3-MD> ;
                                                      rdfs:label "FIP Question I3-MD"@en ;
@@ -459,7 +476,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D
-<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D> rdf:type owl:NamedIndividual ,
+                                                               <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                       <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.1> ;
                                                       rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D> ;
                                                       rdfs:label "FIP Question R1.1-D"@en ;
@@ -467,7 +485,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> rdf:type owl:NamedIndividual ,
+                                                                <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                        <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.1> ;
                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD> ;
                                                        rdfs:label "FIP Question R1.1-MD"@en ;
@@ -475,7 +494,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D
-<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D> rdf:type owl:NamedIndividual ,
+                                                               <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                       <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.2> ;
                                                       rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D> ;
                                                       rdfs:label "FIP Question R1.2-D"@en ;
@@ -483,7 +503,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD
-<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> rdf:type owl:NamedIndividual ;
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> rdf:type owl:NamedIndividual ,
+                                                                <https://w3id.org/fair/fip/terms/FIP-Question> ;
                                                        <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.2> ;
                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD> ;
                                                        rdfs:label "FIP Question R1.2-MD"@en ;
