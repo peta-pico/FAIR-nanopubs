@@ -250,7 +250,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D"
   } ],
@@ -267,7 +267,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD"
   } ],
@@ -284,7 +284,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D"
   } ],
@@ -301,7 +301,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD"
   } ],
@@ -318,7 +318,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-A2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-A2"
   } ],
@@ -335,7 +335,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F1-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F1-D"
   } ],
@@ -352,7 +352,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F1-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F1-MD"
   } ],
@@ -369,7 +369,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F2"
   } ],
@@ -386,7 +386,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F3"
   } ],
@@ -403,7 +403,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F4-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F4-D"
   } ],
@@ -420,7 +420,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-F4-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-F4-MD"
   } ],
@@ -437,7 +437,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I1-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I1-D"
   } ],
@@ -454,7 +454,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I1-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I1-MD"
   } ],
@@ -471,7 +471,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I2-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I2-D"
   } ],
@@ -488,7 +488,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I2-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I2-MD"
   } ],
@@ -505,7 +505,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I3-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I3-D"
   } ],
@@ -522,7 +522,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-I3-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-I3-MD"
   } ],
@@ -539,7 +539,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D"
   } ],
@@ -556,7 +556,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD"
   } ],
@@ -573,7 +573,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D"
   } ],
@@ -590,7 +590,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/fip/terms/FIP-Question" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD"
   } ],

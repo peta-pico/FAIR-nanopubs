@@ -471,6 +471,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -510,6 +511,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -549,6 +551,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -588,6 +591,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -627,6 +631,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -666,6 +671,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -705,6 +711,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -744,6 +751,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -783,6 +791,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -822,6 +831,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -861,6 +871,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -900,6 +911,7 @@ sub:pubinfo {
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
+
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -1237,11 +1249,8 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
 
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RAv1jc6uqjsYwglse3YGfy7dRcmIcOH7HUQWQRGLG2jto> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RAv1jc6uqjsYwglse3YGfy7dRcmIcOH7HUQWQRGLG2jto#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RAXiPlRTRgv0qxKdxFSQN5PQwBplAGCj-oMaIfDclcQR8> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RAXiPlRTRgv0qxKdxFSQN5PQwBplAGCj-oMaIfDclcQR8#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F1-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1261,7 +1270,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-F1-MD a owl:NamedIndividual;
+  fip:FIP-Question-F1-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question F1-MD"@en;
     skos:definition "What globally unique, persistent, resolvable identifiers do you use for metadata records?"@en;
@@ -1273,16 +1282,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RAv1jc6uqjsYwglse3YGfy7dRcmIcOH7HUQWQRGLG2jto> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F1-D/RAyA2guGvSZ5NQYEQyCorVi7Owdpd1mMSFo_J0FPWV7Qg> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F1-D/RAyA2guGvSZ5NQYEQyCorVi7Owdpd1mMSFo_J0FPWV7Qg#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F1-D/RAn7FG3LYjSfDtQDmYL9f479dtrRQLxhzSbAN_36IlYac> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F1-D/RAn7FG3LYjSfDtQDmYL9f479dtrRQLxhzSbAN_36IlYac#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F1-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1302,7 +1308,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-F1-D a owl:NamedIndividual;
+  fip:FIP-Question-F1-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question F1-D"@en;
     skos:definition "What globally unique, persistent, resolvable identifiers do you use for datasets?"@en;
@@ -1314,16 +1320,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-F1-D/RAyA2guGvSZ5NQYEQyCorVi7Owdpd1mMSFo_J0FPWV7Qg> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F2/RAKH8O9joNMvlmb1wbxzk3Ze5tcCkFjnhriOJ7fl1eTLI> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F2/RAKH8O9joNMvlmb1wbxzk3Ze5tcCkFjnhriOJ7fl1eTLI#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F2/RAc3qKyMmXEAY9hzklOKk-SY_g2a1Ctmh9lkl3Rn98qig> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F2/RAc3qKyMmXEAY9hzklOKk-SY_g2a1Ctmh9lkl3Rn98qig#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F2> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1343,7 +1346,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-F2 a owl:NamedIndividual;
+  fip:FIP-Question-F2 a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question F2"@en;
     skos:definition "Which metadata schemas do you use for findability?"@en;
@@ -1355,16 +1358,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-F2/RAKH8O9joNMvlmb1wbxzk3Ze5tcCkFjnhriOJ7fl1eTLI> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F3/RAVCU6N1jVsKvaib1PAKI44mNu9V6GkkPCYTfvDlojQj8> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F3/RAVCU6N1jVsKvaib1PAKI44mNu9V6GkkPCYTfvDlojQj8#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F3/RAyO7qcNoOslhC3NfbjjHTJIk5sEDqBLXG1KYeyuL4AVo> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F3/RAyO7qcNoOslhC3NfbjjHTJIk5sEDqBLXG1KYeyuL4AVo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F3> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1384,7 +1384,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-F3 a owl:NamedIndividual;
+  fip:FIP-Question-F3 a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question F3"@en;
     skos:definition "What is the technology that links the persistent identifiers of your data to the metadata description?"@en;
@@ -1396,16 +1396,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-F3/RAVCU6N1jVsKvaib1PAKI44mNu9V6GkkPCYTfvDlojQj8> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F4-MD/RAk-08EyxdOezj02a3-l5jWc5In-DGkH6H8OLsaVKEF2U> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F4-MD/RAk-08EyxdOezj02a3-l5jWc5In-DGkH6H8OLsaVKEF2U#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F4-MD/RARZXfavS_nOtRr5aRnRf146u-x4DxFcBO_MrMrUiypBc> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F4-MD/RARZXfavS_nOtRr5aRnRf146u-x4DxFcBO_MrMrUiypBc#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F4-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1425,7 +1422,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-F4-MD a owl:NamedIndividual;
+  fip:FIP-Question-F4-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question F4-MD"@en;
     skos:definition "In which search engines are your metadata records indexed?"@en;
@@ -1437,16 +1434,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-F4-MD/RAk-08EyxdOezj02a3-l5jWc5In-DGkH6H8OLsaVKEF2U> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F4-D/RA4zERFr4dX8QhSi7s9_qKOi3rEEn-3IOWhLBMYpgqgYs> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F4-D/RA4zERFr4dX8QhSi7s9_qKOi3rEEn-3IOWhLBMYpgqgYs#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F4-D/RATP25Vjkt3lPhLCKd3MAzcs1yQWsLrqYzWLOlRWuIH8w> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F4-D/RATP25Vjkt3lPhLCKd3MAzcs1yQWsLrqYzWLOlRWuIH8w#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-F4-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1466,7 +1460,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-F4-D a owl:NamedIndividual;
+  fip:FIP-Question-F4-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question F4-D"@en;
     skos:definition "In which search engines are your datasets indexed?"@en;
@@ -1478,16 +1472,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-F4-D/RA4zERFr4dX8QhSi7s9_qKOi3rEEn-3IOWhLBMYpgqgYs> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A1.1-MD/RAZ5Xgeb8_QjDtdd5jvsOOscYYG_9jnRa4oZOhqpp86Yo> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A1.1-MD/RAZ5Xgeb8_QjDtdd5jvsOOscYYG_9jnRa4oZOhqpp86Yo#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A1.1-MD/RABwCAPyb_6skwQf0KhLdMd0yZsCuNTnWTBo03mP0aRBU> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A1.1-MD/RABwCAPyb_6skwQf0KhLdMd0yZsCuNTnWTBo03mP0aRBU#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1507,7 +1498,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-A1.1-MD a owl:NamedIndividual;
+  fip:FIP-Question-A1.1-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question A1.1-MD"@en;
     skos:definition "Which standardized communication protocol do you use for metadata records?"@en;
@@ -1519,16 +1510,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-A1.1-MD/RAZ5Xgeb8_QjDtdd5jvsOOscYYG_9jnRa4oZOhqpp86Yo> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A1.1-D/RA5Ngd2vD2DIph4SjqQ4d1f2fQEFWDTld0J8bClNUweEY> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A1.1-D/RA5Ngd2vD2DIph4SjqQ4d1f2fQEFWDTld0J8bClNUweEY#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A1.1-D/RAGvTS5tsrdowXkQXLec40IlLf0N6IMT4Frg6NOl2ZFV0> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A1.1-D/RAGvTS5tsrdowXkQXLec40IlLf0N6IMT4Frg6NOl2ZFV0#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1548,7 +1536,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-A1.1-D a owl:NamedIndividual;
+  fip:FIP-Question-A1.1-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question A1.1-D"@en;
     skos:definition "Which standardized communication protocol do you use for datasets?"@en;
@@ -1560,16 +1548,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-A1.1-D/RA5Ngd2vD2DIph4SjqQ4d1f2fQEFWDTld0J8bClNUweEY> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A1.2-MD/RA-6tIRSD7e4l5FzoAxsEqr7t0EnJdaH5GG1m_upoMOr8> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A1.2-MD/RA-6tIRSD7e4l5FzoAxsEqr7t0EnJdaH5GG1m_upoMOr8#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A1.2-MD/RADAqUT6doqx1OLlCQsMTtXOdkzjwV3WBMlKtK0W845co> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A1.2-MD/RADAqUT6doqx1OLlCQsMTtXOdkzjwV3WBMlKtK0W845co#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1589,7 +1574,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-A1.2-MD a owl:NamedIndividual;
+  fip:FIP-Question-A1.2-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question A1.2-MD"@en;
     skos:definition "Which authentication & authorisation technique do you use for metadata records?"@en;
@@ -1601,16 +1586,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-A1.2-MD/RA-6tIRSD7e4l5FzoAxsEqr7t0EnJdaH5GG1m_upoMOr8> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A1.2-D/RAwHYwRpFJZQeVFsv_N3WW216TrBFt9J4_7Xs76GbV9ZE> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A1.2-D/RAwHYwRpFJZQeVFsv_N3WW216TrBFt9J4_7Xs76GbV9ZE#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A1.2-D/RAdKTSYay9tnYtQbX-tBlFoIS8zRv96QsR5L1DBMM47Sg> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A1.2-D/RAdKTSYay9tnYtQbX-tBlFoIS8zRv96QsR5L1DBMM47Sg#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1630,7 +1612,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-A1.2-D a owl:NamedIndividual;
+  fip:FIP-Question-A1.2-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question A1.2-D"@en;
     skos:definition "Which authentication & authorisation technique do you use for datasets?"@en;
@@ -1642,16 +1624,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-A1.2-D/RAwHYwRpFJZQeVFsv_N3WW216TrBFt9J4_7Xs76GbV9ZE> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A2/RA6AUc5Q4XZEWitpEqOtmmOlS8i08ZCYebE8Zi3enpdjw> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A2/RA6AUc5Q4XZEWitpEqOtmmOlS8i08ZCYebE8Zi3enpdjw#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-A2/RA3l0KCKWGG0JKop2wQClIh2g03I7RYPJmxk1eZ7Wjyrs> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-A2/RA3l0KCKWGG0JKop2wQClIh2g03I7RYPJmxk1eZ7Wjyrs#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-A2> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1671,7 +1650,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-A2 a owl:NamedIndividual;
+  fip:FIP-Question-A2 a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question A2"@en;
     skos:definition "Which metadata longevity plan do you use?"@en;
@@ -1683,16 +1662,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-A2/RA6AUc5Q4XZEWitpEqOtmmOlS8i08ZCYebE8Zi3enpdjw> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I1-MD/RAQhbxlc8-jAg3vaKprokk6E4IQS1ePCLSd58NPkQaKzA> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I1-MD/RAQhbxlc8-jAg3vaKprokk6E4IQS1ePCLSd58NPkQaKzA#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I1-MD/RAcLXHVPLoRjC9CkByLSOixcDbPCpHXELq-c6__stf_Wc> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I1-MD/RAcLXHVPLoRjC9CkByLSOixcDbPCpHXELq-c6__stf_Wc#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I1-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1712,7 +1688,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-I1-MD a owl:NamedIndividual;
+  fip:FIP-Question-I1-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question I1-MD"@en;
     skos:definition "Which knowledge representation languages (allowing machine interoperation) do you use for metadata records?"@en;
@@ -1724,16 +1700,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-I1-MD/RAQhbxlc8-jAg3vaKprokk6E4IQS1ePCLSd58NPkQaKzA> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I1-D/RAqUpSmky1XknCDiaLFZc-zJMR197ano-wzUgOSG1eZ3U> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I1-D/RAqUpSmky1XknCDiaLFZc-zJMR197ano-wzUgOSG1eZ3U#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I1-D/RA_oFw5HdvYtmmn-v5nRapCCkwAGBavTbpMG2IcFIQspg> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I1-D/RA_oFw5HdvYtmmn-v5nRapCCkwAGBavTbpMG2IcFIQspg#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I1-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1753,7 +1726,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-I1-D a owl:NamedIndividual;
+  fip:FIP-Question-I1-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question I1-D"@en;
     skos:definition "Which knowledge representation languages (allowing machine interoperation) do you use for datasets?"@en;
@@ -1765,16 +1738,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-I1-D/RAqUpSmky1XknCDiaLFZc-zJMR197ano-wzUgOSG1eZ3U> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I2-MD/RACHEoAI1yVgdbnjto-v701X1fXs9uTeTi-lMaLyl1IOQ> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I2-MD/RACHEoAI1yVgdbnjto-v701X1fXs9uTeTi-lMaLyl1IOQ#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I2-MD/RAxSVTNwwngcbqKEVjaGt59NWnZFR2Oy4nfTQa33ZXGh4> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I2-MD/RAxSVTNwwngcbqKEVjaGt59NWnZFR2Oy4nfTQa33ZXGh4#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I2-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1794,7 +1764,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-I2-MD a owl:NamedIndividual;
+  fip:FIP-Question-I2-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question I2-MD"@en;
     skos:definition "Which structured vocabularies do you use to annotate your metadata records?"@en;
@@ -1806,16 +1776,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-I2-MD/RACHEoAI1yVgdbnjto-v701X1fXs9uTeTi-lMaLyl1IOQ> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I2-D/RAD29LabUNU5w-3flW7QsuFwXBvxITC7jPnqEMJnON9v0> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I2-D/RAD29LabUNU5w-3flW7QsuFwXBvxITC7jPnqEMJnON9v0#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I2-D/RAP6Gam01fO5o1ifvq1YwRWVmXG8UObj_MdbGnoRQmf-k> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I2-D/RAP6Gam01fO5o1ifvq1YwRWVmXG8UObj_MdbGnoRQmf-k#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I2-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1835,7 +1802,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-I2-D a owl:NamedIndividual;
+  fip:FIP-Question-I2-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question I2-D"@en;
     skos:definition "Which structured vocabularies do you use to encode your datasets?"@en;
@@ -1847,16 +1814,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-I2-D/RAD29LabUNU5w-3flW7QsuFwXBvxITC7jPnqEMJnON9v0> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I3-MD/RAt7yOYOdKUfuoRIxsAg6dSTSvsAyP9rrZ31m44ogEcY8> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I3-MD/RAt7yOYOdKUfuoRIxsAg6dSTSvsAyP9rrZ31m44ogEcY8#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I3-MD/RAg7xmk5jJm6oJvbqrDiU6BVv35Mkm8oW7dSAsAN3oFYc> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I3-MD/RAg7xmk5jJm6oJvbqrDiU6BVv35Mkm8oW7dSAsAN3oFYc#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I3-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1876,7 +1840,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-I3-MD a owl:NamedIndividual;
+  fip:FIP-Question-I3-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question I3-MD"@en;
     skos:definition "Which models, schema(s) do you use for your metadata records?"@en;
@@ -1888,16 +1852,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-I3-MD/RAt7yOYOdKUfuoRIxsAg6dSTSvsAyP9rrZ31m44ogEcY8> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I3-D/RAVBKsPBErfRKDzoOtW0ANF0yPEYmEC3VgB2whWVMOv9c> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I3-D/RAVBKsPBErfRKDzoOtW0ANF0yPEYmEC3VgB2whWVMOv9c#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-I3-D/RAfRArouTJi5HAeF3uHajyoJi3bjqT5zSuZlUQz3UPvcI> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-I3-D/RAfRArouTJi5HAeF3uHajyoJi3bjqT5zSuZlUQz3UPvcI#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-I3-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1917,7 +1878,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-I3-D a owl:NamedIndividual;
+  fip:FIP-Question-I3-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question I3-D"@en;
     skos:definition "Which models, schema(s) do you use for your datasets?"@en;
@@ -1929,16 +1890,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-I3-D/RAVBKsPBErfRKDzoOtW0ANF0yPEYmEC3VgB2whWVMOv9c> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-R1.1-MD/RAbqfS6lVWZ65EgPlTt8_ZnJ-RxpxvFoJpw3RVG2JzRUs> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-R1.1-MD/RAbqfS6lVWZ65EgPlTt8_ZnJ-RxpxvFoJpw3RVG2JzRUs#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-R1.1-MD/RAzlmOPxGX8QA1c4j0BVrzZjtKMA0NkST4FrIXnwueBn8> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-R1.1-MD/RAzlmOPxGX8QA1c4j0BVrzZjtKMA0NkST4FrIXnwueBn8#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1958,7 +1916,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-R1.1-MD a owl:NamedIndividual;
+  fip:FIP-Question-R1.1-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question R1.1-MD"@en;
     skos:definition "Which usage license do you use for your metadata records?"@en;
@@ -1970,16 +1928,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-R1.1-MD/RAbqfS6lVWZ65EgPlTt8_ZnJ-RxpxvFoJpw3RVG2JzRUs> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-R1.1-D/RAC_6liEHCfSoA4R0I82AbOjW1Hs6fLMDN2ukSv2n43oc> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-R1.1-D/RAC_6liEHCfSoA4R0I82AbOjW1Hs6fLMDN2ukSv2n43oc#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-R1.1-D/RACw63-arnlx2g3hJb6ZcVBOrxCNCex22oykEoMjPCYcY> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-R1.1-D/RACw63-arnlx2g3hJb6ZcVBOrxCNCex22oykEoMjPCYcY#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -1999,7 +1954,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-R1.1-D a owl:NamedIndividual;
+  fip:FIP-Question-R1.1-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question R1.1-D"@en;
     skos:definition "Which usage license do you use for your datasets?"@en;
@@ -2011,16 +1966,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-R1.1-D/RAC_6liEHCfSoA4R0I82AbOjW1Hs6fLMDN2ukSv2n43oc> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-R1.2-MD/RAkPEyiL-uDcRnrsc7oQ0wo-lyDJ7jMFw93SvHsAhxRDU> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-R1.2-MD/RAkPEyiL-uDcRnrsc7oQ0wo-lyDJ7jMFw93SvHsAhxRDU#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-R1.2-MD/RADFItKV0jhvR8T5beNGRQbsnceMZNBHegqCHovU9fVPk> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-R1.2-MD/RADFItKV0jhvR8T5beNGRQbsnceMZNBHegqCHovU9fVPk#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -2040,7 +1992,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-R1.2-MD a owl:NamedIndividual;
+  fip:FIP-Question-R1.2-MD a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question R1.2-MD"@en;
     skos:definition "Which metadata schemas do you use for describing the provenance of your metadata records?"@en;
@@ -2052,16 +2004,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-R1.2-MD/RAkPEyiL-uDcRnrsc7oQ0wo-lyDJ7jMFw93SvHsAhxRDU> .
 }
-
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/RATmr9M9lw4iDi3q3mrHzvR0dJ023Y1PHxZarmKbqQxPA> .
-@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/RATmr9M9lw4iDi3q3mrHzvR0dJ023Y1PHxZarmKbqQxPA#> .
+@prefix this: <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/RAw5eJhtewy4MBSAK9oAS8XW7Kenr6lrGVRt5I8r-itDc> .
+@prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/RAw5eJhtewy4MBSAK9oAS8XW7Kenr6lrGVRt5I8r-itDc#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
@@ -2081,7 +2030,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:FIP-Question-R1.2-D a owl:NamedIndividual;
+  fip:FIP-Question-R1.2-D a owl:NamedIndividual, fip:FIP-Question;
     rdfs:isDefinedBy latest:;
     rdfs:label "FIP Question R1.2-D"@en;
     skos:definition "Which metadata schemas do you use for describing the provenance of your datasets?"@en;
@@ -2093,8 +2042,8 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2021-01-11T16:25:38.313+01:00"^^xsd:dateTime;
+  this: dct:created "2022-10-26T16:06:31.366+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/RATmr9M9lw4iDi3q3mrHzvR0dJ023Y1PHxZarmKbqQxPA> .
 }
-

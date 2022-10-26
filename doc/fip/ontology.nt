@@ -300,6 +300,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.1> .
 <https://w3id.org/fair/principles/terms/A1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D> .
@@ -308,6 +309,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.1> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question A1.1-MD"@en .
@@ -315,6 +317,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.2> .
 <https://w3id.org/fair/principles/terms/A1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D> .
@@ -323,6 +326,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.2> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question A1.2-MD"@en .
@@ -330,6 +334,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-A2
 <https://w3id.org/fair/fip/terms/FIP-Question-A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A2> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A2> .
 <https://w3id.org/fair/principles/terms/A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A2> .
@@ -338,6 +343,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-F1-D
 <https://w3id.org/fair/fip/terms/FIP-Question-F1-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-F1-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F1-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F1> .
 <https://w3id.org/fair/principles/terms/F1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F1-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F1-D> .
@@ -346,6 +352,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-F1-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F1> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F1-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question F1-MD"@en .
@@ -353,6 +360,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-F2
 <https://w3id.org/fair/fip/terms/FIP-Question-F2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-F2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F2> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F2> .
 <https://w3id.org/fair/principles/terms/F2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F2> .
@@ -361,6 +369,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-F3
 <https://w3id.org/fair/fip/terms/FIP-Question-F3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-F3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F3> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F3> .
 <https://w3id.org/fair/principles/terms/F3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F3> .
@@ -369,6 +378,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-F4-D
 <https://w3id.org/fair/fip/terms/FIP-Question-F4-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-F4-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F4-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F4> .
 <https://w3id.org/fair/principles/terms/F4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F4-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F4-D> .
@@ -377,6 +387,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-F4-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F4> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F4-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question F4-MD"@en .
@@ -384,6 +395,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-I1-D
 <https://w3id.org/fair/fip/terms/FIP-Question-I1-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-I1-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I1-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I1> .
 <https://w3id.org/fair/principles/terms/I1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I1-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I1-D> .
@@ -392,6 +404,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-I1-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I1> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I1-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I1-MD"@en .
@@ -399,6 +412,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-I2-D
 <https://w3id.org/fair/fip/terms/FIP-Question-I2-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-I2-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I2-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I2> .
 <https://w3id.org/fair/principles/terms/I2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I2-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I2-D> .
@@ -407,6 +421,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-I2-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I2> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I2-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I2-MD"@en .
@@ -414,6 +429,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-I3-D
 <https://w3id.org/fair/fip/terms/FIP-Question-I3-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-I3-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I3-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I3> .
 <https://w3id.org/fair/principles/terms/I3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I3-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I3-D> .
@@ -422,6 +438,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-I3-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I3> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I3-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I3-MD"@en .
@@ -429,6 +446,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.1> .
 <https://w3id.org/fair/principles/terms/R1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D> .
@@ -437,6 +455,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.1> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question R1.1-MD"@en .
@@ -444,6 +463,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.2> .
 <https://w3id.org/fair/principles/terms/R1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D> .
@@ -452,6 +472,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.2> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD> .
 <https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question R1.2-MD"@en .

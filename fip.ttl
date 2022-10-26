@@ -227,127 +227,148 @@ fair:R1.2 rdfs:label "R1.2" .
   <http://www.w3.org/2000/01/rdf-schema#label> "considerations"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Considerations that led to a given FIP declaration"@en .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-F1-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F1-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question F1-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "What globally unique, persistent, resolvable identifiers do you use for metadata records?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F1> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-F1-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-F1-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F1-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question F1-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "What globally unique, persistent, resolvable identifiers do you use for datasets?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F1> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-F2> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-F2> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F2>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question F2"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which metadata schemas do you use for findability?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F2> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-F3> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-F3> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F3>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question F3"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "What is the technology that links the persistent identifiers of your data to the metadata description?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F3> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-F4-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F4-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question F4-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "In which search engines are your metadata records indexed?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F4> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-F4-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-F4-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-F4-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question F4-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "In which search engines are your datasets indexed?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/F4> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question A1.1-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which standardized communication protocol do you use for metadata records?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.1> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question A1.1-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which standardized communication protocol do you use for datasets?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.1> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question A1.2-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which authentication & authorisation technique do you use for metadata records?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.2> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question A1.2-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which authentication & authorisation technique do you use for datasets?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A1.2> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-A2> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-A2> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-A2>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question A2"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which metadata longevity plan do you use?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/A2> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-I1-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I1-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I1-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which knowledge representation languages (allowing machine interoperation) do you use for metadata records?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I1> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-I1-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-I1-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I1-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I1-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which knowledge representation languages (allowing machine interoperation) do you use for datasets?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I1> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-I2-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I2-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I2-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which structured vocabularies do you use to annotate your metadata records?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I2> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-I2-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-I2-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I2-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I2-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which structured vocabularies do you use to encode your datasets?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I2> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-I3-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I3-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I3-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which models, schema(s) do you use for your metadata records?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I3> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-I3-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-I3-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-I3-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question I3-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which models, schema(s) do you use for your datasets?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/I3> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question R1.1-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which usage license do you use for your metadata records?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.1> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question R1.1-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which usage license do you use for your datasets?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.1> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question R1.2-MD"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which metadata schemas do you use for describing the provenance of your metadata records?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.2> .
 
-<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>;
+<https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D> a <http://www.w3.org/2002/07/owl#NamedIndividual>,
+    <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FIP Question R1.2-D"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Which metadata schemas do you use for describing the provenance of your datasets?"@en;
