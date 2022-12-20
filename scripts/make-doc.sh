@@ -84,4 +84,6 @@ if [ -f doc-x/$1-namemap.csv ]; then
   done < doc-x/$1-namemap.csv
 fi
 
+cp $1.trig doc/$1/
+
 rm -f doc/$1/index-en.htmlr
