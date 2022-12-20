@@ -1,0 +1,1801 @@
+@prefix this: <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/RAIzJFInXhodHuHbFvQHlk4Yl1w1SkwNBjG7KSMizpwRc> .
+@prefix sub: <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/RAIzJFInXhodHuHbFvQHlk4Yl1w1SkwNBjG7KSMizpwRc#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/FAIR-Principles-Explained-Working-Group> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  orcid:0000-0001-5306-5690 rdfs:label "Susanna-Assunta Sansone" .
+  
+  orcid:0000-0001-6441-6716 rdfs:label "Natalie Meyers" .
+  
+  orcid:0000-0001-6594-9178 rdfs:label "Christopher Brewster" .
+  
+  orcid:0000-0001-6960-357X rdfs:label "Mark D. Wilkinson" .
+  
+  orcid:0000-0001-7030-7030 rdfs:label "Ignasi Labastida" .
+  
+  orcid:0000-0001-7542-0286 rdfs:label "Egon Willighagen" .
+  
+  orcid:0000-0001-8414-9272 rdfs:label "Simon Coles" .
+  
+  orcid:0000-0001-8888-635X rdfs:label "Erik Schultes" .
+  
+  orcid:0000-0001-9773-4008 rdfs:label "Andra Waagmeester" .
+  
+  orcid:0000-0001-9853-5668 rdfs:label "Philippe Rocca-Serra" .
+  
+  orcid:0000-0002-1164-1351 rdfs:label "Luiz Olavo Bonino da Silva Santos" .
+  
+  orcid:0000-0002-1215-167X rdfs:label "Rajaram Kaliyaperumal" .
+  
+  orcid:0000-0002-1267-0234 rdfs:label "Tobias Kuhn" .
+  
+  orcid:0000-0002-1704-5980 rdfs:label "Ronal Cornet" .
+  
+  orcid:0000-0002-2036-8350 rdfs:label "Nick Juty" .
+  
+  orcid:0000-0002-3452-553X rdfs:label "Giancarlo Guizzardi" .
+  
+  orcid:0000-0002-4040-0215 rdfs:label "Tobias Weigel" .
+  
+  orcid:0000-0002-4182-7560 rdfs:label "Kristina Hettne" .
+  
+  orcid:0000-0002-4451-8042 rdfs:label "Christine R. Kirkpatrick" .
+  
+  orcid:0000-0002-5301-3142 rdfs:label "Chris T. Evelo" .
+  
+  orcid:0000-0002-7633-1442 rdfs:label "Mark Thompson" .
+  
+  orcid:0000-0002-7641-6446 rdfs:label "Ricardo de Miranda Azevedo" .
+  
+  orcid:0000-0002-7664-3331 rdfs:label "Juliane Schneider" .
+  
+  orcid:0000-0002-8042-4131 rdfs:label "Myles Axton" .
+  
+  orcid:0000-0002-8691-772X rdfs:label "Marco Roos" .
+  
+  orcid:0000-0002-9551-6370 rdfs:label "Mélanie Courtot" .
+  
+  orcid:0000-0003-0413-2003 rdfs:label "Annalisa Montesanti" .
+  
+  orcid:0000-0003-0627-8014 rdfs:label "Mirjam van Reisen" .
+  
+  orcid:0000-0003-2195-3997 rdfs:label "Barbara Magagna" .
+  
+  orcid:0000-0003-2376-9755 rdfs:label "Melanie Imming" .
+  
+  orcid:0000-0003-2687-1982 rdfs:label "Peter McQuilton" .
+  
+  orcid:0000-0003-2980-4400 rdfs:label "Robert Pergl" .
+  
+  orcid:0000-0003-3357-3027 rdfs:label "Martijn Kersloot" .
+  
+  orcid:0000-0003-3538-0106 rdfs:label "Peter Wittenburg" .
+  
+  orcid:0000-0003-3934-0072 rdfs:label "Barend Mons" .
+  
+  orcid:0000-0003-4014-4394 rdfs:label "Ali Hasnain" .
+  
+  orcid:0000-0003-4053-7825 rdfs:label "Keith Jeffery" .
+  
+  orcid:0000-0003-4098-0464 rdfs:label "George Strawn" .
+  
+  orcid:0000-0003-4818-2360 rdfs:label "Annika Jacobsen" .
+  
+  icc:FAIR-Principles-Explained-Working-Group a foaf:Group;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "FAIR Principles Explained Working Group"@en;
+    foaf:member orcid:0000-0001-5306-5690, orcid:0000-0001-6441-6716, orcid:0000-0001-6594-9178,
+      orcid:0000-0001-6960-357X, orcid:0000-0001-7030-7030, orcid:0000-0001-7542-0286, orcid:0000-0001-8414-9272,
+      orcid:0000-0001-8888-635X, orcid:0000-0001-9773-4008, orcid:0000-0001-9853-5668, orcid:0000-0002-1164-1351,
+      orcid:0000-0002-1215-167X, orcid:0000-0002-1267-0234, orcid:0000-0002-1704-5980, orcid:0000-0002-2036-8350,
+      orcid:0000-0002-3452-553X, orcid:0000-0002-4040-0215, orcid:0000-0002-4182-7560, orcid:0000-0002-4451-8042,
+      orcid:0000-0002-5301-3142, orcid:0000-0002-7633-1442, orcid:0000-0002-7641-6446, orcid:0000-0002-7664-3331,
+      orcid:0000-0002-8042-4131, orcid:0000-0002-8691-772X, orcid:0000-0002-9551-6370, orcid:0000-0003-0413-2003,
+      orcid:0000-0003-0627-8014, orcid:0000-0003-2195-3997, orcid:0000-0003-2376-9755, orcid:0000-0003-2687-1982,
+      orcid:0000-0003-2980-4400, orcid:0000-0003-3357-3027, orcid:0000-0003-3538-0106, orcid:0000-0003-3934-0072,
+      orcid:0000-0003-4014-4394, orcid:0000-0003-4053-7825, orcid:0000-0003-4098-0464, orcid:0000-0003-4818-2360 .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:rights <https://creativecommons.org/publicdomain/zero/1.0> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix this: <https://w3id.org/fair/icc/np/FAIR-ICC-Model/RAbU4Yae5K-MAi3KBvkjp8DcOh_j2cywK27LpLspPCNlY> .
+@prefix sub: <https://w3id.org/fair/icc/np/FAIR-ICC-Model/RAbU4Yae5K-MAi3KBvkjp8DcOh_j2cywK27LpLspPCNlY#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/FAIR-ICC-Model> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:FAIR-ICC-Model dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234,
+      orcid:0000-0003-4818-2360;
+    dct:description "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.";
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dct:title "FAIR Implementation Choices and Challenges Model";
+    vann:preferredNamespacePrefix "icc";
+    vann:preferredNamespaceUri "https://w3id.org/fair/icc/terms/";
+    a owl:Ontology;
+    rdfs:isDefinedBy latest:;
+    rdfs:seeAlso fair:FAIR .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix this: <https://w3id.org/fair/icc/np/Choice/RAVzdItGRIcdSyY2SIjOSx07ohyd5EMQxxjUnr9BQ9ICc> .
+@prefix sub: <https://w3id.org/fair/icc/np/Choice/RAVzdItGRIcdSyY2SIjOSx07ohyd5EMQxxjUnr9BQ9ICc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Choice> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:Choice a owl:Class;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Choice"@en;
+    skos:definition "The kind of choice communities have to make (can be expressed as a question)"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix this: <https://w3id.org/fair/icc/np/Challenge/RAlXOsmhYthYfRhaYW5u4OV8668RsjaOz5iJXkPAuXJxs> .
+@prefix sub: <https://w3id.org/fair/icc/np/Challenge/RAlXOsmhYthYfRhaYW5u4OV8668RsjaOz5iJXkPAuXJxs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Challenge> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:Challenge a owl:Class;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Challenge"@en;
+    skos:definition "The kind of challenge that some communities face if the lack of existing resources doesn't allow them to make a choice yet"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix this: <https://w3id.org/fair/icc/np/Declaration/RAwZxfYbMd9_9FiAvKD7O4vlUgfROoL5gHfMxu0vKm_0g> .
+@prefix sub: <https://w3id.org/fair/icc/np/Declaration/RAwZxfYbMd9_9FiAvKD7O4vlUgfROoL5gHfMxu0vKm_0g#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Declaration> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:Declaration a owl:Class;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Declaration"@en;
+    skos:definition "Something that is either a ChoiceDeclaration or a ChallengeDeclaration"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/icc/np/ChoiceDeclaration/RABBdmfpeFNPViNA4zzTiQLhUyPXE5C4K66ljoIwR8D9c> .
+@prefix sub: <https://w3id.org/fair/icc/np/ChoiceDeclaration/RABBdmfpeFNPViNA4zzTiQLhUyPXE5C4K66ljoIwR8D9c#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/ChoiceDeclaration> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:ChoiceDeclaration rdfs:isDefinedBy latest:;
+    rdfs:label "Choice Declaration"@en;
+    rdfs:subClassOf icc:Declaration;
+    skos:definition "The expression of a community of their choice made (corresponds to an answer to a question)"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/icc/np/ChallengeDeclaration/RAB-CVmORNR6UvG5JYsRGXmw1GsmJDGmjTT_YgouPzPCI> .
+@prefix sub: <https://w3id.org/fair/icc/np/ChallengeDeclaration/RAB-CVmORNR6UvG5JYsRGXmw1GsmJDGmjTT_YgouPzPCI#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/ChallengeDeclaration> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:ChallengeDeclaration rdfs:isDefinedBy latest:;
+    rdfs:label "Challenge Declaration"@en;
+    rdfs:subClassOf icc:Declaration;
+    skos:definition "The expression of a community of a challenge they accepted"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix this: <https://w3id.org/fair/icc/np/Community/RAU8r8fNcs-CtB_84Sgqt1wW3xhdRYrfm1EhSrPfUqfy8> .
+@prefix sub: <https://w3id.org/fair/icc/np/Community/RAU8r8fNcs-CtB_84Sgqt1wW3xhdRYrfm1EhSrPfUqfy8#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Community> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:Community a owl:Class;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Community"@en;
+    skos:definition "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix this: <https://w3id.org/fair/icc/np/Resource/RANrdR2CMwS5rGlF9AWG_8t5jDYcGSY8hknNFAfPHRcRo> .
+@prefix sub: <https://w3id.org/fair/icc/np/Resource/RANrdR2CMwS5rGlF9AWG_8t5jDYcGSY8hknNFAfPHRcRo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Resource> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:Resource a owl:Class;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Resource"@en;
+    skos:definition "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix this: <https://w3id.org/fair/icc/np/Explanation/RAfw5xlEcBm3FDe9hY_QYnT0jXMd5i-x8Nx6dMlVDAbyY> .
+@prefix sub: <https://w3id.org/fair/icc/np/Explanation/RAfw5xlEcBm3FDe9hY_QYnT0jXMd5i-x8Nx6dMlVDAbyY#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:Explanation a owl:Class;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Explanation"@en;
+    skos:definition "An explanation of a FAIR (sub)principle"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/icc/np/explains-principle/RAOxu4DFDTIDQ4hVvU90X1oVtFNs5zPamj34tQ-JjIscY> .
+@prefix sub: <https://w3id.org/fair/icc/np/explains-principle/RAOxu4DFDTIDQ4hVvU90X1oVtFNs5zPamj34tQ-JjIscY#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/explains-principle> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:explains-principle a rdf:Property;
+    rdfs:domain icc:Explanation;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "explains principle"@en;
+    rdfs:range fair:FAIR-Principle-or-SubPrinciple;
+    skos:definition "Links an explanation to the FAIR (sub)principle it explains"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RAOdMOSqMLQDhwCY-okOGGgBlMIruSS9NfAgvksDREJxo> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RAOdMOSqMLQDhwCY-okOGGgBlMIruSS9NfAgvksDREJxo#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/implementation-considerations> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:implementation-considerations a owl:DatatypeProperty;
+    rdfs:domain icc:Explanation;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "implementation consideration"@en;
+    skos:definition "Explains considerations for communities who are about to implement the given principle."@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RACYaRUBHUPx2tibRF1cJ2mYamVHnaYCMj-Xx87kvvpS4> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RACYaRUBHUPx2tibRF1cJ2mYamVHnaYCMj-Xx87kvvpS4#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/implementation-examples> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:implementation-examples a owl:DatatypeProperty;
+    rdfs:domain icc:Explanation;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "implementation examples"@en;
+    skos:definition "Describes examples around the implementation of the given principle."@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix this: <https://w3id.org/fair/icc/np/refers-to-principle/RAzJwYsHzF1gVM8isfFA31ewMPC8lDg87iu1OUntrxBuk> .
+@prefix sub: <https://w3id.org/fair/icc/np/refers-to-principle/RAzJwYsHzF1gVM8isfFA31ewMPC8lDg87iu1OUntrxBuk#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-principle> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:refers-to-principle a rdf:Property;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "refers to principle"@en;
+    rdfs:range fair:FAIR-Principle-or-SubPrinciple;
+    skos:definition "Connects an entity (for example a choice or challenge) to a FAIR (sub)principle it refers to"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix this: <https://w3id.org/fair/icc/np/related-challenge/RASCiEgIEFsfJk0iQmqoSaQlP0MQ950_XwBW0kinTUIrM> .
+@prefix sub: <https://w3id.org/fair/icc/np/related-challenge/RASCiEgIEFsfJk0iQmqoSaQlP0MQ950_XwBW0kinTUIrM#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/related-challenge> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:related-challenge a rdf:Property;
+    rdfs:domain icc:Choice;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "related challenge"@en;
+    rdfs:range icc:Challenge;
+    skos:definition "Connects a Choice to a Challenge that some communities might face before they can make the given kind of choice"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix this: <https://w3id.org/fair/icc/np/refers-to-choice/RAqsUQjgI2F6RJ5UeLUzet0O10FdoBbyDJ_g-kguBsGgI> .
+@prefix sub: <https://w3id.org/fair/icc/np/refers-to-choice/RAqsUQjgI2F6RJ5UeLUzet0O10FdoBbyDJ_g-kguBsGgI#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-choice> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:refers-to-choice a rdf:Property;
+    rdfs:domain icc:ChoiceDeclaration;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "refers to choice"@en;
+    rdfs:range icc:Choice;
+    skos:definition "Connects a ChoiceDeclaration to the Choice it is derived from"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix this: <https://w3id.org/fair/icc/np/refers-to-challenge/RAyy5rB_wWeroxG9R0H9AnVydd8xCFHTSpginMrG_C_JQ> .
+@prefix sub: <https://w3id.org/fair/icc/np/refers-to-challenge/RAyy5rB_wWeroxG9R0H9AnVydd8xCFHTSpginMrG_C_JQ#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-challenge> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:refers-to-challenge a rdf:Property;
+    rdfs:domain icc:ChallengeDeclaration;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "refers to challenge"@en;
+    rdfs:range icc:Challenge;
+    skos:definition "Connects a ChallengeDeclaration to the Challenge it is derived from"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix this: <https://w3id.org/fair/icc/np/declared-by/RAGRRxttAbn9-N_mD_PWa5gmY9Vh1jHqmJYGwsNmKp9fY> .
+@prefix sub: <https://w3id.org/fair/icc/np/declared-by/RAGRRxttAbn9-N_mD_PWa5gmY9Vh1jHqmJYGwsNmKp9fY#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/declared-by> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:declared-by a rdf:Property;
+    rdfs:domain icc:Declaration;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "declared by"@en;
+    rdfs:range icc:Community;
+    skos:definition "Connects a Declaration to the Community that made the declaration"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix this: <https://w3id.org/fair/icc/np/chosen-resource/RARsj4NTi_U8rPTmJ7bL6cGZgb-atUqUHSGs5kc_R4D6s> .
+@prefix sub: <https://w3id.org/fair/icc/np/chosen-resource/RARsj4NTi_U8rPTmJ7bL6cGZgb-atUqUHSGs5kc_R4D6s#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/chosen-resource> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:chosen-resource a rdf:Property;
+    rdfs:domain icc:ChoiceDeclaration;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "chosen resource"@en;
+    rdfs:range icc:Resource;
+    skos:definition "Connects ChoiceDeclaration to the Resource that was chosen through the declaration"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix this: <https://w3id.org/fair/icc/np/had-challenge/RAiKyrP13PsI8aqqXc9N3SJwDwoaJSVpV_FqZwlNsLVS4> .
+@prefix sub: <https://w3id.org/fair/icc/np/had-challenge/RAiKyrP13PsI8aqqXc9N3SJwDwoaJSVpV_FqZwlNsLVS4#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/had-challenge> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:had-challenge a rdf:Property;
+    rdfs:domain icc:ChoiceDeclaration;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "has open challenge"@en;
+    rdfs:range icc:ChallengeDeclaration;
+    skos:definition "Connects a ChoiceDeclaration to a ChallengeDeclaration that describes a challenge that had to be met before the choice could be made"@en .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAIz8InxR_p9Dh5-j3SI6MHT-6gHu7AGBuh_m6L56USSg> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAIz8InxR_p9Dh5-j3SI6MHT-6gHu7AGBuh_m6L56USSg#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F1-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  dbpedia:Digital_object_identifier rdfs:label "Digital object identifier" .
+  
+  <https://doi.org/10.1371/journal.pbio.2001414> rdfs:label "McMurry et al. 2017" .
+  
+  <https://doi.org/10.5281/zenodo.3267434> rdfs:label "Juty et al. 2019" .
+  
+  icc:F1-Explanation a icc:Explanation;
+    rdfs:comment "Principle F1 states that digital resources, i.e. data and metadata, must be assigned a globally unique and persistent identifier in order to be found and resolved by computers. This is the most fundamental of the FAIR principles, as globally unique and persistent identifiers are essential elements found in all of the other FAIR principles. Globally unique means that the identifier is guaranteed to unambiguously refer to exactly one resource in the world. Therefore, it is insufficient for it to be unique only locally (e.g. unique within a single, local database). Persistence refers to the requirement that this globally unique identifier is never reused in another context, and continues to identify the same resource, even if that resource no longer exists, or moves. In practice, this often involves using a third-party to generate an identifier that has guaranteed longevity and is project/organization-independent.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Explanation of FAIR principle F1";
+    rdfs:seeAlso dbpedia:Digital_object_identifier, <https://doi.org/10.1371/journal.pbio.2001414>,
+      <https://doi.org/10.5281/zenodo.3267434>;
+    icc:explains-principle fair:F1;
+    icc:implementation-considerations "Current challenges relate to ensuring the longevity of identifiers - in particular, that identifiers created by a project/community should survive the termination of the project or the dissolution of the community. Obtaining a persistent identifier, therefore, may require reliance on a third-party organization that promises longevity, and maintains these identifiers independently of the project/community. Current choices are for each community to choose, for all appropriate digital resources (i.e. data and metadata), identifier registration service(s) such as these that ensure global uniqueness and that also comply with the community-defined criteria for identifier persistence and resolvability.";
+    icc:implementation-examples "A common example of a useful identifier is the Digital Object Identifier (DOI) which is guaranteed by the DOI specification to be globally unique and persistent. DOIs provide an additional service, under principle A1, of being able to direct calls to the source data to the location of that data, even if the identified data moves. This ensures that identifiers are stable and valid beyond the project that generated them. In some circumstances, again with DOIs being an example, third-party persistent identifiers may also provide support for principle A2 (that metadata exists beyond the lifespan of the data) since these identifiers may still be responsive to Web calls, and be capable of providing metadata, even if the source resource is no longer active. For a discussion on identifiers see doi:10.1371/journal.pbio.2001414 and doi:10.5281/zenodo.3267434 ." .
+  
+  fair:F1 rdfs:label "F1" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/F1-Explanation/RA1HikSxbrsdMhHF5_TTqnKpd4eQ3RGoHDW-NL4JiPch8> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RAgn3Iul-zhJSRzwj-gEHjZAYqjtJ-CuKRswkIhNNM3j4> .
+@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RAgn3Iul-zhJSRzwj-gEHjZAYqjtJ-CuKRswkIhNNM3j4#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F2-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  dbpedia:Data_Documentation_Initiative rdfs:label "Data Documentation Initiative" .
+  
+  <https://doi.org/10.1038/s41587-019-0080-8> rdfs:label "Sansone et al. 2019" .
+  
+  <https://doi.org/10.25504/FAIRsharing.1t5ws6> rdfs:label "Data Documentation Initiative on FAIRsharing" .
+  
+  <https://doi.org/10.5281/zenodo.3267434> rdfs:label "Juty et al. 2019" .
+  
+  <https://fairsharing.org/FAIRsharing.s248mf> rdfs:label "W3C HCLS Dataset Description on FAIRsharing" .
+  
+  <https://fairsharing.org/standards/> rdfs:label "FAIRsharing" .
+  
+  icc:F2-Explanation a icc:Explanation;
+    rdfs:comment "Whereas principle F1 enables unambiguous identification of resources of interest, principle F2 speaks to the ability to discover a resource of interest through, for example, search or filtering. Digital resources must be described with rich metadata - descriptors of the content of the resource referred to by that identifier. It is hard to generally define the minimally required 'richness' of this metadata, except that the more generous it is, both for humans and computers, the more specifically findable it becomes in refined searches. While other principles speak to the specific kinds of metadata that should be included, principle F2 simply says that a digital resource that is not well-described cannot be accurately discovered. Thus, this principle encourages data providers to consider the various facets of search that might be employed by a user of their data, and to support those users in their discovery of the resource. To enable both global and local search engines to locate a resource, generic and domain-specific descriptors should be provided.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Explanation of FAIR principle F2";
+    rdfs:seeAlso dbpedia:Data_Documentation_Initiative, <https://doi.org/10.1038/s41587-019-0080-8>,
+      <https://doi.org/10.25504/FAIRsharing.1t5ws6>, <https://doi.org/10.5281/zenodo.3267434>,
+      <https://fairsharing.org/FAIRsharing.s248mf>, <https://fairsharing.org/standards/>;
+    icc:explains-principle fair:F2;
+    icc:implementation-considerations "It is a challenge for each domain-specific community to define their own metadata descriptors necessary for optimizing findability. The minimal ‘richness’ of the metadata should be defined so that it serves its intended purpose and should also be guided by the requirements of the other FAIR principles. This then poses a challenge to each community to create machine-actionable templates that facilitate capturing uniform and harmonized metadata about similar data resources among all community stakeholders, and to provide a means to ensure that this metadata is updated and curated (doi:10.5281/zenodo.3267434).";
+    icc:implementation-examples "Examples of metadata schemata can be found in FAIRsharing (https://fairsharing.org/standards/, doi:10.1038/s41587-019-0080-8, [McQuilton et al. Data Intell. DI-2019-0028, 2019]) and include for instance the Data Documentation Initiative (DDI) (https://doi.org/10.25504/FAIRsharing.1t5ws6), the HCLS Dataset Descriptors (https://fairsharing.org/FAIRsharing.s248mf), and many domain-specific “minimal information” models that have been invented." .
+  
+  fair:F2 rdfs:label "F2" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/F3-Explanation/RAIIlDCGrUvI6nbPP4gZ6I6QacqqXsiCd5gM90HWDb3D0> .
+@prefix sub: <https://w3id.org/fair/icc/np/F3-Explanation/RAIIlDCGrUvI6nbPP4gZ6I6QacqqXsiCd5gM90HWDb3D0#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F3-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://doi.org/10.1162/dint_a_00031> rdfs:label "Thompson et al. 2019" .
+  
+  icc:F3-Explanation a icc:Explanation;
+    rdfs:comment "Principle F3 states that any description of a digital resource must contain the identifier of that resource being described. For instance, the description of a computational workflow, should explicitly contain the identifier for that workflow in a manner that is unambiguous. This is especially important where the resource and its metadata are stored independently, but persistently linked, which is generally considered good practice in FAIR. The purpose of this principle is twofold. First, it is perhaps trivial to say that a descriptor should explicitly say what object it is describing; however, there is a second, less-obvious reason for this principle. Many digital objects (such as workflows, as mentioned above) have well-defined structures that may disallow the addition of new fields, including fields that could point to the metadata about that digital object. Therefore, if you have one of these digital objects in-hand, the only way to discover its metadata is through a search using the identifier of that digital object. Thus, by requiring that a metadata descriptor contains the identifier of the thing being described, that identifier may then successfully be used as the search term to discover its metadata record.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Explanation of FAIR principle F3";
+    rdfs:seeAlso <https://doi.org/10.1162/dint_a_00031>, <https://www.w3.org/TR/vocab-dcat/>;
+    icc:explains-principle fair:F3;
+    icc:implementation-considerations "It is a challenge to each community to choose a machine-actionable metadata model that explicitly links a resource and its metadata.";
+    icc:implementation-examples "An example of a technology that provides this link is FAIR Data Point (doi:10.1162/dint_a_00031), which is based on the Data Catalogue model (DCAT, https://www.w3.org/TR/vocab-dcat/) that provides not only unique identifiers for potentially multiple layers of metadata, but also provides a single, predictable, and searchable path through these layers of descriptors, down to the data object itself." .
+  
+  fair:F3 rdfs:label "F3" .
+  
+  <https://www.w3.org/TR/vocab-dcat/> rdfs:label "Data Catalogue model (DCAT)" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/F4-Explanation/RALCFoxnyBIpxN7gjLeQDHaXF9K4v_gFvudEE_kfryYlM> .
+@prefix sub: <https://w3id.org/fair/icc/np/F4-Explanation/RALCFoxnyBIpxN7gjLeQDHaXF9K4v_gFvudEE_kfryYlM#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F4-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://doi.org/10.1162/dint_a_00026> rdfs:label "Weigel et al. 2019" .
+  
+  <https://toolbox.google.com/datasetsearch> rdfs:label "Google Dataset Search" .
+  
+  icc:F4-Explanation a icc:Explanation;
+    rdfs:comment "Principle F4 states that digital resources must be registered or indexed in a searchable resource. The searchable resource provides the infrastructure by which a metadata record (F1) can be discovered, using either the attributes in that metadata (F2) or the identifier of the data object itself (F3) (doi:10.1162/dint_a_00026).";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "Explanation of FAIR principle F4";
+    rdfs:seeAlso <https://doi.org/10.1162/dint_a_00026>, <https://toolbox.google.com/datasetsearch>;
+    icc:explains-principle fair:F4;
+    icc:implementation-considerations "Current challenges are numerous, significantly limiting, and largely outside of the control of the average data provider. First, there is no single-source for search that currently indexes all possible metadata fields in all domains. Second, there is no uniform way to execute a search, and thus every search tool must be accessed with tool-specific software. Finally, many search engines forbid automated searches, precluding their use by FAIR-enabled software. Various initiatives are emerging that attempt to address this, at least in part, by providing a well-defined, machine-accessible search interface over indexed metadata. Nevertheless, to our knowledge, none of these currently index all possible metadata properties, nor do they span all possible domains/communities; rather, they focus on specific metadata schemas such as schema.org, at the expense of other well-established metadata formats such as DCAT, and/or are limited to specific communities such as biotechnology, astronomy, law, or government/administration. Current choices are for each community to choose, and publicly declare, what search engine to use for their own purposes, general or field-specific, and should at a minimum provide metadata following the standard that is indexed by the search engine of choice. They should also provide a machine-readable interface definition that would allow an automated search without human intervention.";
+    icc:implementation-examples "An example of a generic searchable resource that supports manual exploration is Google Dataset Search (https://toolbox.google.com/datasetsearch); however, this suffers from several of the problems mentioned above, in particular, that it indexes only certain types of metadata (schema.org) and the search cannot be automated under the Google Terms of Service, and therefore cannot be implemented within FAIR software." .
+  
+  fair:F4 rdfs:label "F4" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix this: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAcOJlgyqXWCXlyUdNT0ahIIyqTxUFaXTE8gSKX7rkkwc> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAcOJlgyqXWCXlyUdNT0ahIIyqTxUFaXTE8gSKX7rkkwc#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A1.1-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  dbpedia:Hypertext_Transfer_Protocol rdfs:label "Hypertext Transfer Protocol" .
+  
+  <https://dash.harvard.edu/handle/1/4322580> rdfs:label "Suber 2008" .
+  
+  icc:A1.1-Explanation a icc:Explanation;
+    rdfs:comment "The protocol (mechanism) by which a digital resource is accessed (e.g. queried) should not pose any bottleneck. It describes an access process, hence does not directly pertain to restrictions that apply to using the resource. The protocols underlying the World-Wide Web, such as HTTP, are an archetype for an open, free, and universally implementable protocol. Such protocols reduce the cost of gaining access to digital resources, because they are well defined and open and allow any individual to create their own standards-compliant implementation. That the use of the protocols is free ensures that those lacking monetary means can equitably access the resource. That it is universally implementable ensures that the technology is available to all (and not restricted, for instance, by country or a sub-community), thus encompassing both the \"gratis\" and \"libre\" meaning of \"free\" (https://dash.harvard.edu/handle/1/4322580).";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "A1.1 Explanation";
+    rdfs:seeAlso dbpedia:Hypertext_Transfer_Protocol, <https://dash.harvard.edu/handle/1/4322580>;
+    icc:explains-principle fair:A1.1;
+    icc:implementation-considerations "Current challenges are to explicitly and fully document access protocols that are not open/free (for example, access only after personal contact) and make those protocols available as a clearly identified facet of the machine-readable metadata. Current choices are for communities to choose standardized communication protocols that are open, free and universally implementable. ";
+    icc:implementation-examples "The most common example of a compliant protocol is the HTTP protocol that underlies the majority of Web traffic. It has additional useful features, including the ability to request metadata in a preferred format, and/or to inquire as to the formats that are available. It is also widely supported by software and common programming languages." .
+  
+  fair:A1.1 rdfs:label "A1.1" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1.1-Explanation/RAybuBqRnSoPsqGuxmbFiI3y6_evmgIagjaacBet0dhZI> .
+}
+@prefix this: <https://w3id.org/fair/icc/np/A1.2-Explanation/RArg_clopv_e4aBuF6lFkQ94sQ4GsPQPBwC0fN6h1L73s> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1.2-Explanation/RArg_clopv_e4aBuF6lFkQ94sQ4GsPQPBwC0fN6h1L73s#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A1.2-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://doi.org/10.1162/dint_a_00029> rdfs:label "Brewster et al. 2019" .
+  
+  icc:A1.2-Explanation a icc:Explanation;
+    rdfs:comment "This principle clearly demonstrates that FAIR is not equal to ‘open’. Some digital resources, such as data that have access restrictions based on ethical, legal or contractual constraints, require additional measures to be accessed. This often pertains to assuring that the access requester is indeed that requester (authentication), that the requester’s profile and credentials match the access conditions of the resource (authorization), and that the intended use matches permitted use cases (e.g. non-commercial purposes only) (see also R1.1, where there are requirements to provide explicit documentation about who may use the data, and for what purposes). At the level of technical implementation, an additional authentication and authorization procedure must be specified, if it is not already defined by the protocol (see A1.1). A requester can be a human or a machine agent. In the latter case it is probably a proxy for a human or an organization to which the authentication and authorization protocol should be applied, in which case, the machine should be expected to present the appropriate credentials. The principle requires that a FAIR resource must provide such a protocol, but the protocol itself is not further specified. In practice, an Internet of FAIR Data and Services cannot function without implementing Authentication and Authorization Infrastructure (AAI, see also https://doi.org/10.1162/dint_a_00029).";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "A1.2 Explanation";
+    rdfs:seeAlso <https://dash.harvard.edu/handle/1/4322580>, <https://doi.org/10.1162/dint_a_00029>;
+    icc:explains-principle fair:A1.2;
+    icc:implementation-considerations "Current choices are for communities to choose protocols to use when controlling access of agents to meta(data). Preferably these should be as generic as possible and as domain specific as necessary. Attempts to harmonize AAI approaches are numerous, but not covered in this article.";
+    icc:implementation-examples "Again, the most common example of a compliant protocol is the HTTP protocol. Another example is the life science AAI protocol. Brewster et al. (https://doi.org/10.1162/dint_a_00029) describe an early implementation of an ontology-based approach to this challenge." .
+  
+  fair:A1.2 rdfs:label "A1.2" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1.2-Explanation/RA3Hr_3Jus0_C0exBw9rFxwq7IzZvyPxYEzuUzkRpsOLo> .
+}
+@prefix this: <https://w3id.org/fair/icc/np/A1-Explanation/RAPc_iF-f961V2yRDHAZ5oDqM9-1G6d6t2lLcz3jeosjE> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1-Explanation/RAPc_iF-f961V2yRDHAZ5oDqM9-1G6d6t2lLcz3jeosjE#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A1-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:A1-Explanation a icc:Explanation;
+    rdfs:comment "A primary purpose of identifying a digital resource is to simultaneously provide the ability to retrieve the record of that digital resource, in some format, using some clearly-defined mechanism: hence the retrievability is a facet of FAIR Accessibility. Here, the emphasis is on 'ability': there should be no additional barrier retrieval of the record by some agent when its access protocol (A1.1) results in permitted access to that record. Note that the agent may be a machine working behind a firewall, if that agent has been permitted access. For fully mechanized access, this requires that the identifier (F1) follows a globally-accepted schema that is tied to a standardized, high-level communication protocol. The 'standardized communication protocol' is critical here. Its purpose is to provide a predictable way for an agent to access a resource, regardless of whether unrestricted access to the content of the resource is granted or not.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "A1 Explanation";
+    rdfs:seeAlso icc:A1.1-Explanation, icc:A1.2-Explanation, <https://www.w3.org/Protocols/>;
+    icc:explains-principle fair:A1;
+    icc:implementation-examples "An example of a standardized access protocol is the Hypertext Transfer Protocol (HTTP1); however, FAIR does not preclude non-mechanized access protocols, such as a verbal request to the data holder in the case of highly sensitive data, so long as the access protocol is explicit and clearly defined. Conditions of compliance are further specified in sub-principles A1.1 and A1.2." .
+  
+  fair:A1 rdfs:label "A1" .
+  
+  <https://www.w3.org/Protocols/> rdfs:label "HTTP - Hypertext Transfer Protocol" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1-Explanation/RAheXRabbcfujKMIKQdbsWyRitg3Z0qV9Y-_yYa5R_6UI> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/A2-Explanation/RASqc1YjfNdnBZ8X3hAVGqdY3q_T3e6cPs-PsbW6NZDfE> .
+@prefix sub: <https://w3id.org/fair/icc/np/A2-Explanation/RASqc1YjfNdnBZ8X3hAVGqdY3q_T3e6cPs-PsbW6NZDfE#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A2-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://www.dcc.ac.uk/> rdfs:label "Digital Curation Centre" .
+  
+  <http://www.dcc.ac.uk/resources/data-management-plans> rdfs:label "Data Management Plan" .
+  
+  <https://doi.org/10.1162/dint_a_00043> rdfs:label "Jones et al. 2019" .
+  
+  <https://doi.org/10.25490/a97f-egyk> rdfs:label "Martone et al. 2014" .
+  
+  icc:A2-Explanation a icc:Explanation;
+    rdfs:comment "There is a continued focus on keeping relevant digital resources available in the future. Data may no longer be accessible either by design (e.g. a defined life-span within limited financial resources or legal requirements to destroy sensitive data) or by accident. However, given that those data may have been used and are referenced by others, it is important that consumers have, at the very least, access to high quality metadata that describes those resources sufficiently to minimally understand their nature and their provenance, even when the relevant data are not available anymore. This principle relies heavily on the ‘second purpose’ of principle F3 (the metadata record contains the identifier of the data), because in the case where the data record is no longer available, there must be a clear and precise way of discovering its historical metadata record. This aspect of accessibility is further elaborated in the Joint Declaration of Data Citation Principles (doi:10.25490/a97f-egyk).";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "A2 Explanation";
+    rdfs:seeAlso <http://www.dcc.ac.uk/>, <http://www.dcc.ac.uk/resources/data-management-plans>,
+      <https://doi.org/10.1162/dint_a_00043>, <https://doi.org/10.25490/a97f-egyk>;
+    icc:explains-principle fair:A2;
+    icc:implementation-considerations "Current choices/challenges are for communities to choose/define a persistence policy for metadata that describes data that may not always be available, choose/define machine-actionable templates for a persistence policy document for metadata, and in addition choose/define a machine-actionable scheme to reference the metadata persistence policy.";
+    icc:implementation-examples "Examples of early attempts to address this critical principle relates closely to the principles of digital curation (http://www.dcc.ac.uk/) including the concept of a FAIR compliant DMP (Data Management Plan; http://www.dcc.ac.uk/resources/data-management-plans) (doi:10.1162/dint_a_00043). Many other efforts are underway to improve the long-term stewardship of reusable digital resources." .
+  
+  fair:A2 rdfs:label "A2" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/I1-Explanation/RAYVAKb6KFlHN3-7y08ig7nrmV-_dH10Y4BFgjeowUtZg> .
+@prefix sub: <https://w3id.org/fair/icc/np/I1-Explanation/RAYVAKb6KFlHN3-7y08ig7nrmV-_dH10Y4BFgjeowUtZg#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/I1-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://doi.org/10.1162/dint_a_00040> rdfs:label "Guizzardi 2019" .
+  
+  icc:I1-Explanation a icc:Explanation;
+    rdfs:comment "Consumers spend a disproportionate amount of time trying to make sense of the digital resources they need and designing accurate ways to combine them. This is most often due to a lack of suitably unambiguous content descriptors, or a lack of such descriptors entirely with respect to non-machine-interpretable data formats such as tables or “generic” XML. Community-defined data exchange formats work reasonably well within their original scope of a few types of data and a relatively homogeneous community, but not well beyond that. This makes interoperation and integration an expensive, often impossible task (even for humans), but also means that machines cannot easily make use of digital resources, which is the primary goal of FAIR. For example, when a machine visits two data files in which a field “temperature” is present, then it will need more contextual descriptions to distinguish between weather data in one file and body temperature measurements in another. Achieving a ‘common understanding’ of digital resources through a globally understood ‘language’ for machines is the purpose of principle I1, with emphasis on ‘knowledge’ and ‘knowledge representation’. This becomes critical when many differently formatted resources need to be visited or combined across organizations and countries and is especially challenging for interdisciplinary studies or for meta-analyses, where results from independent organizations, pertaining to the same topic, must be combined.  In this context, the principle says that producers of digital resources are required to use a language (i.e., a representation of data/knowledge) that has a defined mechanism for mechanized interpretation - a machine-readable “grammar” - where, for example, the difference between an entity, as well as any relevant relationship between entities, is defined in the structure of the language itself. This allows machines to consume the information with at least a basic “understanding” of its content. It is a step towards a common understanding of digital resources by machines, which is a prerequisite for a functional Internet of FAIR Data and Services. Several technologies can be chosen for principle I1.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "I1 Explanation";
+    rdfs:seeAlso <https://doi.org/10.1162/dint_a_00040>, <https://www.w3.org/RDF/>;
+    icc:explains-principle fair:I1;
+    icc:implementation-considerations "Communities will have to choose an available technology or decide how they will otherwise deal with multiple representations and languages. In any case, they will have to make sure that each data item that is the same in multiple resources is interpreted in exactly the same way by every agent (human and computer), and that how items across resources relate to one another can be unambiguously understood by all agents (doi:10.1162/dint_a_00040). The key consideration in this regard is that FAIR speaks to the ability of data to be reused by a generic agent, rather than a community-specific agent. This is most easily accomplished by making the knowledge available in the most widely used format(s), even if this means duplication of the information in the community-specific format.";
+    icc:implementation-examples "The most widely-accepted choice to adhere to this principle, at the present time, is the Resource Description Framework (RDF) which is the W3C’s recommendation for how to represent knowledge on the Web in a machine-accessible format (https://www.w3.org/RDF/). Other choices may also be acceptable, for instance when they are already in widespread use within a given community. In that case, it would be helpful for the community to also provide a “translator” between their preferred format, and a more widely used format such as RDF." .
+  
+  fair:I1 rdfs:label "I1" .
+  
+  <https://www.w3.org/RDF/> rdfs:label "Resource Description Framework (RDF)" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix this: <https://w3id.org/fair/icc/np/I2-Explanation/RA1EiP8eu-CYb1s6CRVHz8EFk9IPcyntoEcGFxksuRaRM> .
+@prefix sub: <https://w3id.org/fair/icc/np/I2-Explanation/RA1EiP8eu-CYb1s6CRVHz8EFk9IPcyntoEcGFxksuRaRM#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/I2-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  dbpedia:Web_Ontology_Language rdfs:label "Web Ontology Language (OWL)" .
+  
+  <https://bioportal.bioontology.org/> rdfs:label "BioPortal" .
+  
+  icc:I2-Explanation a icc:Explanation;
+    rdfs:comment "Principle I2 uses 'vocabularies' to refer to the methods that unambiguously represent concepts that exist in a given domain. The use of shared, and formally structured (I1), sets of terms is an essential part of FAIR. Terminology systems, including flat ‘vocabularies’, hierarchical ‘thesauri’ and more granular specifications of knowledge such as data models and ontologies, play an important role in community standards. However, the vocabularies used for metadata or data also need to be findable, accessible, interoperable, and reusable in their own right so that users (including machines) can fully understand the meaning of the terms used in the metadata. This principle has been criticized as ‘circular’ but as has been made clear earlier in this article, the simple use of a “label” (e.g. “temperature”) is insufficient to enable a machine to understand both the intent of that label (Body temperature? Melting temperature?) and the contexts within which it can be properly linked - same-with-same - to other similarly-labelled data. I2, therefore, requires that the vocabulary terms used in the knowledge representation language (principle I1) can be sufficiently distinguished, by a machine, to ensure detection of ‘false agreements’ as well as ‘false disagreements’.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "I2 Explanation";
+    rdfs:seeAlso dbpedia:Web_Ontology_Language, <https://bioportal.bioontology.org/>;
+    icc:explains-principle fair:I2;
+    icc:implementation-considerations "Current considerations are for communities to ensure that terminology systems and, for instance, the units of measure, classifications, and relationship definitions are themselves FAIR. Thesauri that are proprietary and not universally accessible should be avoided wherever possible, because machines (and indeed particular countries, regions or communities as a whole) may not have the authority to access their definitions, such that even data that is accessible after authentication via A1.2 may not be useful to an agent that has no authority to access the concept definitions used within that data.";
+    icc:implementation-examples "Ontologies defined in the ‘Web Ontology Language’ (OWL) and shared via a publicly accessible registry (e.g. BioPortal for life science ontologies; https://bioportal.bioontology.org/) are examples of formally represented, accessible, mapped, and shared knowledge representations in a broadly applicable language for knowledge representation, that are also compliant with the Findability requirements of FAIR, since BioPortal provides a machine-accessible search interface." .
+  
+  fair:I2 rdfs:label "I2" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/I3-Explanation/RAdzD_IK0U7DT_JuP4eWNuGAcf_-DS5d1hvhXOzlDGkAE> .
+@prefix sub: <https://w3id.org/fair/icc/np/I3-Explanation/RAdzD_IK0U7DT_JuP4eWNuGAcf_-DS5d1hvhXOzlDGkAE#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/I3-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://wikidata.org/> rdfs:label "WikiData" .
+  
+  <https://bioportal.bioontology.org/ontologies/SIO> rdfs:label "SemanticScience Integrated Ontology" .
+  
+  <https://doi.org/10.1145/2187980.2188242> rdfs:label "Vrandečić 2012" .
+  
+  icc:I3-Explanation a icc:Explanation;
+    rdfs:comment "An important aspect of FAIR is that data or metadata, generally speaking, does not exist in a silo - we must do what is necessary to ensure that the knowledge representing a resource is connected to that of other resources to create a meaningfully interlinked network of data and services. A “qualified reference” is a reference to another resource (i.e., referencing that external resource’s persistent identifier), in which the nature of the relationship is also clearly specified. For instance, when multiple versions of a metadata file are available, it may be useful to provide links to prior or next versions using a named relation such as “prior version” or “next version” (preferably using an appropriate community standard relationship that itself conforms to the FAIR principles). In the case of data, imagine a dataset that specifies the population of cities around the world. To be FAIR with respect to principle I3, the data could contain links to a resource containing city data (e.g. Wikidata: http://wikidata.org/, doi:10.1145/2187980.2188242), geographical and geospatial data, or other related domain resources that are generated by that city, so long as they are properly qualified references using meaningful, clearly-interpretable relationships. It is also important to note that many different metadata files (containers) being FAIR digital resources in themselves, can be pointing to the same ‘target’ object (a data set or a workflow for instance). We can for instance have intrinsic metadata (‘what is this’) and how was it created (provenance type metadata) as well as ‘secondary’ metadata that are for instance created (separately and later in time) by reusers of a particular digital resource. These could all be metadata containers essentially describing the same digital resource from different perspectives. This principle therefore also relates to the good practice to clearly distinguish between metadata (files/containers) and the resources they describe.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "I3 Explanation";
+    rdfs:seeAlso <http://wikidata.org/>, <https://bioportal.bioontology.org/ontologies/SIO>,
+      <https://doi.org/10.1145/2187980.2188242>;
+    icc:explains-principle fair:I3;
+    icc:implementation-considerations "The considerations and choices made here are based on the same reasoning as the decisions made for principle I2. Vocabularies (often formal ontologies) of both concepts and relationships exist, and an appropriate relationship should either be selected from one of these, or “coined” and properly published following the FAIR Principles.";
+    icc:implementation-examples "It is worth noting as an example that several “upper ontologies” such as the SemanticScience Integrated Ontology (https://bioportal.bioontology.org/ontologies/SIO) have a wide range of precisely-defined relationships that can be used as-is, or as a starting-point for a newly-minted relationship that is more specific than the one provided in the upper-ontology. The benefit of “inheriting” from higher-level relationships is that agents capable of understanding these higher level concepts, can infer at least a basic interpretation of the intent of the new relationship coined within the community, and therefore enhances interoperability." .
+  
+  fair:I3 rdfs:label "I3" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/R1.1-Explanation/RA_-DA9A8JNFSDGMy2uR3hT_PsTGoxjMbchiKLD9MLEaU> .
+@prefix sub: <https://w3id.org/fair/icc/np/R1.1-Explanation/RA_-DA9A8JNFSDGMy2uR3hT_PsTGoxjMbchiKLD9MLEaU#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/R1.1-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://sulab.org/2016/08/open-data-should-mean-cc0/> rdfs:label "Open Data should mean CC0, not CC-BY" .
+  
+  <https://creativecommons.org/share-your-work/public-domain/cc0/> rdfs:label "CC0" .
+  
+  icc:R1.1-Explanation a icc:Explanation;
+    rdfs:comment "Digital resources and their metadata must always, without exception, include a license that describes under which conditions the resource can be used, even if that is ‘unconditional’. By default, resources cannot be legally used without this clarity. Note also that a license that cannot be found by an agent, is effectively the same as no license at all. Furthermore, the license may be different for a data resource and the metadata that describes it, which has implications for the indexing of metadata v.v. findability. This is a clear public domain statement, an equivalent such as terms of use or computer protocol to digitally facilitate an operation (for instance a smart contract). Thus, the absence of a license does not indicate “open”, but rather creates legal uncertainty that will deter (in fact, in many cases legally prevent) reuse. Note also that the combination of resources with restrictive license conditions may lead to adverse effects, and ultimately preclude the use of the combined resources. In order to facilitate reuse, the license chosen should be as open as possible.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "R1.1 Explanation";
+    rdfs:seeAlso <http://sulab.org/2016/08/open-data-should-mean-cc0/>, <https://creativecommons.org/share-your-work/public-domain/cc0/>;
+    icc:explains-principle fair:R1.1;
+    icc:implementation-considerations "A current challenge is that there is currently no well-defined relationship(s) that can be used to distinguish a license that applies to the data being described, versus a license that applies to the metadata record itself, resulting in potential ambiguity in the interpretation of a license referred-to in the metadata record. Current choices are for communities to choose which usage license(s) or licensing requirements to reusable digital resources as well as to their metadata for its own purposes, but also consider broader reuse than originally anticipated or intended.";
+    icc:implementation-examples "There are good reasons for choosing a CC0 license for data (http://sulab.org/2016/08/open-data-should-mean-cc0/) and these considerations should be assessed, alongside all other considerations, when a community decides on the license they wish to apply. It is critical, however, that a license is chosen. The community should then ensure that a qualified link to that license is contained in the metadata record." .
+  
+  fair:R1.1 rdfs:label "R1.1" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/R1.2-Explanation/RA50a_LNM7qUyVRCs0u8klptCFsXmne2JDej5wkGzM_Uw> .
+@prefix sub: <https://w3id.org/fair/icc/np/R1.2-Explanation/RA50a_LNM7qUyVRCs0u8klptCFsXmne2JDej5wkGzM_Uw#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/R1.2-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://doi.org/10.1162/dint_a_00043> rdfs:label "Jones et al. 2019" .
+  
+  <https://ds-wizard.org> rdfs:label "Data Stewardship Wizard" .
+  
+  <https://more.metadatacenter.org/tools-training/outreach/cedar-template-model> rdfs:label
+      "CEDAR" .
+  
+  <https://provenance.ecs.soton.ac.uk/prov-template/> rdfs:label "PROV-Template" .
+  
+  icc:R1.2-Explanation a icc:Explanation;
+    rdfs:comment "Detailed provenance includes facets such as how the resource was generated, why it was generated, by whom, under what conditions, using what starting-data or source-resource, using what funding/resources, who owns the data, who should be given credit, and any filters or cleansing processes that have been applied post-generation. Provenance information helps people and machines assess whether a resource meets their criteria for their intended reuse, and what data manipulation procedures may be necessary in order to reuse it appropriately.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "R1.2 Explanation";
+    rdfs:seeAlso <https://doi.org/10.1162/dint_a_00043>, <https://ds-wizard.org>, <https://more.metadatacenter.org/tools-training/outreach/cedar-template-model>,
+      <https://provenance.ecs.soton.ac.uk/prov-template/>, <https://www.castoredc.com/for-researchers/>;
+    icc:explains-principle fair:R1.2;
+    icc:implementation-considerations "Current choices are for communities to choose a set of metadata descriptions to optimize provenance to optimally enable machine and human reusability for its own purposes. These choices, and, as argued before the richness of the provenance associated with a digital resource will strongly influence its actual reuse. Therefore, the implementation considerations for implementing according to this principle are inherently the same as described for principle F2, but now more focused on appropriateness for reuse than on findability per se.";
+    icc:implementation-examples "Provenance descriptions can for instance be implemented following community specific templates according to the PROV-Template (https://provenance.ecs.soton.ac.uk/prov-template/) approach. These templates allow to predefine the structure of the intended collection of provenance information using variables which are later instantiated with appropriate data extracted from existing process output. Such templates also reduce the burden on community members to deeply understand the highly structured PROV ontology, and the well-defined data structures that emerge from its use - that is to say, PROV should not be treated as a simple vocabulary from which terms can be selected, but rather as a model that constrains how those terms must be used in relation to one another. Several early tools are under development to make the construction of FAIR metadata easier, including for instance CEDAR (https://more.metadatacenter.org/tools-training/outreach/cedar-template-model), CASTOR (https://www.castoredc.com/for-researchers/) and the knowledge models in the Data Stewardship Wizard (https://ds-wizard.org, doi:10.1162/dint_a_00043)." .
+  
+  fair:R1.2 rdfs:label "R1.2" .
+  
+  <https://www.castoredc.com/for-researchers/> rdfs:label "CASTOR" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/R1.3-Explanation/RAFH4n7LoMoHEs3TSB1zlVjFQuk7eAyLryEzad2jsku6M> .
+@prefix sub: <https://w3id.org/fair/icc/np/R1.3-Explanation/RAFH4n7LoMoHEs3TSB1zlVjFQuk7eAyLryEzad2jsku6M#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/R1.3-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://doi.org/10.1038/ng1201-365> rdfs:label "Brazma et al. 2001" .
+  
+  <https://doi.org/10.1038/s41587-019-0080-8> rdfs:label "Sansone et al. 2019" .
+  
+  <https://fairsharing.org/standards/> rdfs:label "FAIRsharing" .
+  
+  icc:R1.3-Explanation a icc:Explanation;
+    rdfs:comment "Where community standards or best practices for data archiving and sharing exist, they should be followed. Several disciplinary communities have defined Minimal Information Standards describing most often the minimal set of metadata items required to assess the quality of the data acquisition and processing and to facilitate reproducibility. Such standards are a good start, noting that true (interdisciplinary) reusability will generally require richer metadata. For a list of such standards, consult FAIRsharing (https://fairsharing.org/standards/, doi:10.1038/s41587-019-0080-8).";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "R1.3 Explanation";
+    rdfs:seeAlso <https://doi.org/10.1038/ng1201-365>, <https://doi.org/10.1038/s41587-019-0080-8>,
+      <https://fairsharing.org/standards/>;
+    icc:explains-principle fair:R1.3;
+    icc:implementation-considerations "Current choices are for a community to choose which practices to use for data and metadata, taking into full consideration the relevant inter-domain interoperability requirements. Communities must then take-on the challenge of deciding which metadata elements, addressed within their community’s “boutique” standard(s), should be additionally represented using a more global standard (principles F2 and R1.2), even if this results in duplication of metadata, such that it can be used for search and interpretation by more generic, third-party agents.";
+    icc:implementation-examples "An example of minimal information standards is the MIAME standard (doi:10.1038/ng1201-365), and various metadata profiles have been defined on top of specifications (e.g. various DCAT profiles)." .
+  
+  fair:R1.3 rdfs:label "R1.3" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix this: <https://w3id.org/fair/icc/np/R1-Explanation/RA_Ffc9B2FUGLS97DRueV5vl2GV79q4oNhyfj4ArLlj34> .
+@prefix sub: <https://w3id.org/fair/icc/np/R1-Explanation/RA_Ffc9B2FUGLS97DRueV5vl2GV79q4oNhyfj4ArLlj34#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/R1-Explanation> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:R1-Explanation a icc:Explanation;
+    rdfs:comment "On its surface, principle R1 appears very similar to principle F2. However, the rationale behind principle F2 is to enable effective attribute-based search and query (findability), while the focus of R1 is to enable machines and humans to assess if the discovered resource is appropriate for reuse, given a specific task. For example, not all gene expression data for a given locus are relevant to a study of the effects of heat stress.  While inappropriate data may be discovered by the agent’s initial search (principle F2) for expression data about a given gene, here we address the ability to assess the discovered data based on suitability-for-purpose. This reiterates the need for providers to consider not only high-level metadata facets, that will assist in generic search, but also to consider more detailed metadata that will provide much more ‘operational’ instructions for re-use.  In this setting, a wide variety of factors may be needed to determine whether a resource is suitable for inclusion in an analysis, and how to adequately process it. ";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "R1 Explanation";
+    rdfs:seeAlso icc:R1.1-Explanation, icc:R1.2-Explanation, icc:R1.3-Explanation;
+    icc:explains-principle fair:R1;
+    icc:implementation-examples "The term “plurality” is used to indicate that the metadata author should be as generous as possible, not presuming who the consumer might be, and therefore provide as much metadata as possible to support the widest variety of use-cases and agent needs. The sub-principles R1.1, R1.2 and R1.3 define some critical types of attributes that contribute to R1." .
+  
+  fair:R1 rdfs:label "R1" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Choice/RA-KyfTO38WCxHdmW_Tdk-Gs8gSSEJbPi2W-L2_8K2xEw> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Choice/RA-KyfTO38WCxHdmW_Tdk-Gs8gSSEJbPi2W-L2_8K2xEw#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F1-Choice> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:F1-Choice a icc:Choice;
+    rdfs:comment "The community should choose identifier registration service(s) that ensure global uniqueness for its digital resources.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "F1 Choice";
+    rdfs:seeAlso icc:F1-Explanation;
+    icc:refers-to-principle fair:F1;
+    icc:related-challenge icc:F1-Challenge-1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Challenge-1/RA7sfcu2Oe8Hefn90TlUVHV2QiWMFB-ss-yVZDbX5Goxs> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Challenge-1/RA7sfcu2Oe8Hefn90TlUVHV2QiWMFB-ss-yVZDbX5Goxs#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F1-Challenge-1> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  icc:F1-Challenge-1 a icc:Challenge;
+    rdfs:comment "The community should define identifier registration service(s) that ensure global uniqueness for its digital resources.";
+    rdfs:isDefinedBy latest:;
+    rdfs:label "F1 Challenge 1";
+    rdfs:seeAlso icc:F1-Explanation;
+    icc:refers-to-principle fair:F1 .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy icc:FAIR-Principles-Explained-Working-Group .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+}
+
