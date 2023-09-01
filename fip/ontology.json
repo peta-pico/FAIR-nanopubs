@@ -26,6 +26,23 @@
   "@id" : "http://xmlns.com/foaf/0.1/member",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/API",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/API"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Application Programming Interface"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An Application Programming Interface (API) is a service that allows different software applications to communicate with each other."
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/Authentication-and-authorization-service",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -37,6 +54,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -71,10 +90,46 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification how messages are structured and exchanged."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/Crosswalk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Crosswalk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Crosswalk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A crosswalk is a set of rules that defines how (meta)data elements or attributes (i.e., slots) from one schema or format can be aligned and mapped to (meta)data elements or attributes in another schema or format that share the same constraints and thus share the same semantic role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Data-Steward-Professional-Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR data steward professional profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR data steward professional profile is a list that documents the accumulated training qualifications and FAIR outputs authored by or contributed to, by that person. The profile may be augmented with additional statements regarding professional roles and skills."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Data-usage-license",
@@ -94,6 +149,88 @@
     "@value" : "A document that describes the conditions under which a digital object can be legally used."
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/Digital-Object-Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Digital-Object-Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Digital Object Type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A digital object type is a classification of digital objects with respect to their informational functions to specify the nature of the digital object and the operations that can be performed on it."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/Editor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Editor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Editor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An editor is a service that provides user-friendly interface for easy editing of metadata, vocabularies and crosswalks."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Data-Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Data-Policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR data policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR data policy is a document that specifies and guides FAIR data practices for a community."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Data-Stewardship-Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR data stewardship event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR data stewardship event is a meeting (online, in-person or hybrid) specifically designed for current or aspiring data stewards to provide a rigorous understanding of the FAIR principles from theory to their concrete implementation."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Data-Stewardship-Plan-Template"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR data stewardship template"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A template guiding data stewardship planning.The template must be completed with project-specific information in any given instance to outline how data are to be handled in preparation for the project,  during the research project, and after the project is completed."
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -103,9 +240,12 @@
     "@language" : "en",
     "@value" : "FAIR-Enabling Resource"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "An artifact or service that can contribute to the implementation of the FAIR principles"
+    "@value" : "A service, a specification or document that is essential to the operationalization of the FAIR Principles, i.e., puts FAIR into action. A FER provides a function needed to achieve some aspect of FAIR behavior and is explicitly linked to one or more FAIR principles."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed",
@@ -134,9 +274,111 @@
     "@language" : "en",
     "@value" : "FAIR Implementation Community"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"
+    "@value" : "A FAIR Implementation Community (FIC) is a self-identified collection of people and/or organizations with the aim to implement the FAIR Principles"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR Implementation Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Practice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Practice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR practice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR practice is an adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR specification is a precise description of features, requirements, constraints and recommendations for a specific implementation of a component, system or service supporting the implementation of the FAIR principles."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR Supporting Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Any resource that supports FAIR Data Stewardship. FSRs are represented as FAIR Digital Objects (using the nanopublication framework) with Globally Unique, Persistent, Resolvable Identifiers (GUPRI) that resolve to machine-readable metadata about the resource."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Supporting-Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR supporting service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A FAIR supporting service is any online accessible software system or component that supports the implementation of the FAIR Principles."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Training-Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Training-Material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR training material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "FAIR training material is any educational resource (such as the content or its published representation in text, presentation graphics, or video) that covers FAIR topics of interest."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FIP-Data-related-Question",
@@ -617,6 +859,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -634,6 +878,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -651,6 +897,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -685,10 +933,43 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification (schema) that specifies metadata fields describing attributes of data or other digital objects."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/Methodology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Methodology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Methodology"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Methodology is the applied practice aimed to guide how to plan, execute and evaluate investigations to generate the digital objects."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/Provenance-Tracking-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Provenance-Tracking-Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Provenance tracking service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A provenance tracking service is a system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Provenance-model",
@@ -702,6 +983,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -719,10 +1002,29 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A service that indexes metadata and data and provides search over that index."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Semantic-Interoperability-Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Semantic Interoperability Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A Semantic Interoperability Profil (SIP) is a list of FAIR Supporting Resources chosen by a community to support semantic interoperability of (meta)data."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Semantic-model",
@@ -736,6 +1038,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -753,10 +1057,29 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A controlled list of uniquely identified and unambigous concepts with their definitions represented preferably using web standards."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/Validation-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Validation-Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Validation service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A validation service is a system that verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/considerations",
@@ -794,6 +1117,46 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Connects a FIP declaration to the community that made the declaration"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/declared-for-digital-object-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/declared-for-digital-object-type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "declared for digital object type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/Digital-Object-Type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FIP declaration to the digital object type it applies to"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/declared-for-methodology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FIP-Declaration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/declared-for-methodology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "declared for methodology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/Methodology"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FIP declaration to the methodology it applies to"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/declares-current-use-of",

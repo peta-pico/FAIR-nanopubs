@@ -58,9 +58,26 @@
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-by> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#label> "declared by"@en .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
+# 
+# https://w3id.org/fair/fip/terms/declared-for-digital-object-type
+<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
+<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Digital-Object-Type> .
+<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-digital-object-type> .
+<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#label> "declared for digital object type"@en .
+<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the digital object type it applies to"@en .
+# 
+# https://w3id.org/fair/fip/terms/declared-for-methodology
+<https://w3id.org/fair/fip/terms/declared-for-methodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/fair/fip/terms/declared-for-methodology> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
+<https://w3id.org/fair/fip/terms/declared-for-methodology> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Methodology> .
+<https://w3id.org/fair/fip/terms/declared-for-methodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-methodology> .
+<https://w3id.org/fair/fip/terms/declared-for-methodology> <http://www.w3.org/2000/01/rdf-schema#label> "declared for methodology"@en .
+<https://w3id.org/fair/fip/terms/declared-for-methodology> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the methodology it applies to"@en .
 # 
 # https://w3id.org/fair/fip/terms/declares-current-use-of
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -84,6 +101,7 @@
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-replacement-of> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#label> "declares planned replacement of"@en .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of)."@en .
@@ -145,9 +163,18 @@
 # #################################################################
 # 
 # 
+# https://w3id.org/fair/fip/terms/API
+<https://w3id.org/fair/fip/terms/API> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/API> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/API> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/API> .
+<https://w3id.org/fair/fip/terms/API> <http://www.w3.org/2000/01/rdf-schema#label> "Application Programming Interface"@en .
+<https://w3id.org/fair/fip/terms/API> <http://www.w3.org/2004/02/skos/core#definition> "An Application Programming Interface (API) is a service that allows different software applications to communicate with each other."@en .
+# 
 # https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#label> "Authentication and authorization service"@en .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en .
@@ -161,9 +188,25 @@
 # https://w3id.org/fair/fip/terms/Communication-protocol
 <https://w3id.org/fair/fip/terms/Communication-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Communication-protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Communication-protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+<https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Communication-protocol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Communication-protocol> .
 <https://w3id.org/fair/fip/terms/Communication-protocol> <http://www.w3.org/2000/01/rdf-schema#label> "Communication protocol"@en .
 <https://w3id.org/fair/fip/terms/Communication-protocol> <http://www.w3.org/2004/02/skos/core#definition> "A specification how messages are structured and exchanged."@en .
+# 
+# https://w3id.org/fair/fip/terms/Crosswalk
+<https://w3id.org/fair/fip/terms/Crosswalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Crosswalk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+<https://w3id.org/fair/fip/terms/Crosswalk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Crosswalk> .
+<https://w3id.org/fair/fip/terms/Crosswalk> <http://www.w3.org/2000/01/rdf-schema#label> "Crosswalk"@en .
+<https://w3id.org/fair/fip/terms/Crosswalk> <http://www.w3.org/2004/02/skos/core#definition> "A crosswalk is a set of rules that defines how (meta)data elements or attributes (i.e., slots) from one schema or format can be aligned and mapped to (meta)data elements or attributes in another schema or format that share the same constraints and thus share the same semantic role"@en .
+# 
+# https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile
+<https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Data-Steward-Professional-Profile> .
+<https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR data steward professional profile"@en .
+<https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR data steward professional profile is a list that documents the accumulated training qualifications and FAIR outputs authored by or contributed to, by that person. The profile may be augmented with additional statements regarding professional roles and skills."@en .
 # 
 # https://w3id.org/fair/fip/terms/Data-usage-license
 <https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -172,11 +215,45 @@
 <https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/2000/01/rdf-schema#label> "Data usage license"@en .
 <https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/2004/02/skos/core#definition> "A document that describes the conditions under which a digital object can be legally used."@en .
 # 
+# https://w3id.org/fair/fip/terms/Digital-Object-Type
+<https://w3id.org/fair/fip/terms/Digital-Object-Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Digital-Object-Type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Digital-Object-Type> .
+<https://w3id.org/fair/fip/terms/Digital-Object-Type> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Object Type"@en .
+<https://w3id.org/fair/fip/terms/Digital-Object-Type> <http://www.w3.org/2004/02/skos/core#definition> "A digital object type is a classification of digital objects with respect to their informational functions to specify the nature of the digital object and the operations that can be performed on it."@en .
+# 
+# https://w3id.org/fair/fip/terms/Editor
+<https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Editor> .
+<https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2000/01/rdf-schema#label> "Editor"@en .
+<https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2004/02/skos/core#definition> "An editor is a service that provides user-friendly interface for easy editing of metadata, vocabularies and crosswalks."@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Data-Policy
+<https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Data-Policy> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR data policy"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR data policy is a document that specifies and guides FAIR data practices for a community."@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Data-Stewardship-Event> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR data stewardship event"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR data stewardship event is a meeting (online, in-person or hybrid) specifically designed for current or aspiring data stewards to provide a rigorous understanding of the FAIR principles from theory to their concrete implementation."@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Data-Stewardship-Plan-Template> .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR data stewardship template"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template> <http://www.w3.org/2004/02/skos/core#definition> "A template guiding data stewardship planning.The template must be completed with project-specific information in any given instance to outline how data are to be handled in preparation for the project,  during the research project, and after the project is completed."@en .
+# 
 # https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource
-<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Enabling Resource"@en .
-<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2004/02/skos/core#definition> "An artifact or service that can contribute to the implementation of the FAIR principles"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2004/02/skos/core#definition> "A service, a specification or document that is essential to the operationalization of the FAIR Principles, i.e., puts FAIR into action. A FER provides a function needed to achieve some aspect of FAIR behavior and is explicitly linked to one or more FAIR principles."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
@@ -185,10 +262,49 @@
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is not yet available but still needs to be developed"@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Implementation-Community
-<https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Implementation-Community> .
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Implementation Community"@en .
-<https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/2004/02/skos/core#definition> "A non-empty set of people and/or organizations that form a self-declared community with the aim to implement the FAIR principles for their fields of interest"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community (FIC) is a self-identified collection of people and/or organizations with the aim to implement the FAIR Principles"@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile> .
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Implementation Profile"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Practice
+<https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Practice> .
+<https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR practice"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR practice is an adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community."@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Specification
+<https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Specification> .
+<https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR specification"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR specification is a precise description of features, requirements, constraints and recommendations for a specific implementation of a component, system or service supporting the implementation of the FAIR principles."@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Supporting Resource"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> <http://www.w3.org/2004/02/skos/core#definition> "Any resource that supports FAIR Data Stewardship. FSRs are represented as FAIR Digital Objects (using the nanopublication framework) with Globally Unique, Persistent, Resolvable Identifiers (GUPRI) that resolve to machine-readable metadata about the resource."@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Supporting-Service
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR supporting service"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR supporting service is any online accessible software system or component that supports the implementation of the FAIR Principles."@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Training-Material
+<https://w3id.org/fair/fip/terms/FAIR-Training-Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Training-Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Training-Material> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Training-Material> .
+<https://w3id.org/fair/fip/terms/FAIR-Training-Material> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR training material"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Training-Material> <http://www.w3.org/2004/02/skos/core#definition> "FAIR training material is any educational resource (such as the content or its published representation in text, presentation graphics, or video) that covers FAIR topics of interest."@en .
 # 
 # https://w3id.org/fair/fip/terms/FIP-Data-related-Question
 <https://w3id.org/fair/fip/terms/FIP-Data-related-Question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -226,6 +342,7 @@
 # https://w3id.org/fair/fip/terms/Identifier-service
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Identifier-service> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier service"@en .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2004/02/skos/core#definition> "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en .
@@ -233,6 +350,7 @@
 # https://w3id.org/fair/fip/terms/Knowledge-representation-language
 <https://w3id.org/fair/fip/terms/Knowledge-representation-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Knowledge-representation-language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Knowledge-representation-language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
 <https://w3id.org/fair/fip/terms/Knowledge-representation-language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Knowledge-representation-language> .
 <https://w3id.org/fair/fip/terms/Knowledge-representation-language> <http://www.w3.org/2000/01/rdf-schema#label> "Knowledge representation language"@en .
 <https://w3id.org/fair/fip/terms/Knowledge-representation-language> <http://www.w3.org/2004/02/skos/core#definition> "A language specification whereby knowledge can be made processible by machines."@en .
@@ -240,6 +358,7 @@
 # https://w3id.org/fair/fip/terms/Metadata-data-linking-schema
 <https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
 <https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Metadata-data-linking-schema> .
 <https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata-data linking schema"@en .
 <https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> <http://www.w3.org/2004/02/skos/core#definition> "A specification (schema) that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en .
@@ -254,13 +373,28 @@
 # https://w3id.org/fair/fip/terms/Metadata-schema
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Metadata-schema> .
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata schema"@en .
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2004/02/skos/core#definition> "A specification (schema) that specifies metadata fields describing attributes of data or other digital objects."@en .
 # 
+# https://w3id.org/fair/fip/terms/Methodology
+<https://w3id.org/fair/fip/terms/Methodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Methodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Methodology> .
+<https://w3id.org/fair/fip/terms/Methodology> <http://www.w3.org/2000/01/rdf-schema#label> "Methodology"@en .
+<https://w3id.org/fair/fip/terms/Methodology> <http://www.w3.org/2004/02/skos/core#definition> "Methodology is the applied practice aimed to guide how to plan, execute and evaluate investigations to generate the digital objects."@en .
+# 
+# https://w3id.org/fair/fip/terms/Provenance-Tracking-Service
+<https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Provenance-Tracking-Service> .
+<https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance tracking service"@en .
+<https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2004/02/skos/core#definition> "A provenance tracking service is a system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects."@en .
+# 
 # https://w3id.org/fair/fip/terms/Provenance-model
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Provenance-model> .
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance model"@en .
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2004/02/skos/core#definition> "A specification (schema) that specifies metadata fields describing the origin and lineage of data or other digital objects."@en .
@@ -268,13 +402,22 @@
 # https://w3id.org/fair/fip/terms/Registry
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Registry> .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#label> "Registry"@en .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2004/02/skos/core#definition> "A service that indexes metadata and data and provides search over that index."@en .
 # 
+# https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile
+<https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Semantic-Interoperability-Profile> .
+<https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Interoperability Profile"@en .
+<https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile> <http://www.w3.org/2004/02/skos/core#definition> "A Semantic Interoperability Profil (SIP) is a list of FAIR Supporting Resources chosen by a community to support semantic interoperability of (meta)data."@en .
+# 
 # https://w3id.org/fair/fip/terms/Semantic-model
 <https://w3id.org/fair/fip/terms/Semantic-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Semantic-model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Semantic-model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
 <https://w3id.org/fair/fip/terms/Semantic-model> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Semantic-model> .
 <https://w3id.org/fair/fip/terms/Semantic-model> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic model"@en .
 <https://w3id.org/fair/fip/terms/Semantic-model> <http://www.w3.org/2004/02/skos/core#definition> "A specification that defines qualified relations between entities describing data or other digital objects using structured vocabularies."@en .
@@ -282,9 +425,17 @@
 # https://w3id.org/fair/fip/terms/Structured-vocabulary
 <https://w3id.org/fair/fip/terms/Structured-vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Structured-vocabulary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Structured-vocabulary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
 <https://w3id.org/fair/fip/terms/Structured-vocabulary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Structured-vocabulary> .
 <https://w3id.org/fair/fip/terms/Structured-vocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Structured vocabulary"@en .
 <https://w3id.org/fair/fip/terms/Structured-vocabulary> <http://www.w3.org/2004/02/skos/core#definition> "A controlled list of uniquely identified and unambigous concepts with their definitions represented preferably using web standards."@en .
+# 
+# https://w3id.org/fair/fip/terms/Validation-Service
+<https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Validation-Service> .
+<https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2000/01/rdf-schema#label> "Validation service"@en .
+<https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2004/02/skos/core#definition> "A validation service is a system that verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards."@en .
 # 
 # https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple
 <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Principle or Sub-Principle" .
