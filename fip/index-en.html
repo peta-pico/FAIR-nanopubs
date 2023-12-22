@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Fri Sep 01 12:05:25 CEST 2023", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Fri Dec 22 17:10:01 CET 2023", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -87,11 +87,15 @@ This ontology has the following classes and properties.</span>
 <h4>Classes</h4>
 <ul class="hlist">
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/API" title="https://w3id.org/fair/fip/terms/API">Application Programming Interface</a>
+      <a href="#https://w3id.org/fair/fip/terms/Web-API" title="https://w3id.org/fair/fip/terms/Web-API">Application Programming Interface</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/Authentication-and-authorization-service"
          title="https://w3id.org/fair/fip/terms/Authentication-and-authorization-service">Authentication and authorization service</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"
+         title="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource">Available FAIR Supporting Resource</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource"
@@ -100,6 +104,10 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/Communication-protocol"
          title="https://w3id.org/fair/fip/terms/Communication-protocol">Communication protocol</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/Cross-Domain-Community"
+         title="https://w3id.org/fair/fip/terms/Cross-Domain-Community">Cross domain community</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/Crosswalk" title="https://w3id.org/fair/fip/terms/Crosswalk">Crosswalk</a>
@@ -113,10 +121,17 @@ This ontology has the following classes and properties.</span>
          title="https://w3id.org/fair/fip/terms/Digital-Object-Type">Digital Object Type</a>
    </li>
    <li>
+      <a href="#https://w3id.org/fair/fip/terms/Domain-Specific-Community"
+         title="https://w3id.org/fair/fip/terms/Domain-Specific-Community">Domain specific community</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/Editor" title="https://w3id.org/fair/fip/terms/Editor">Editor</a>
    </li>
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR data policy</a>
+      <a href="#https://w3id.org/fair/fip/terms/FAIR-Case-Study" title="https://w3id.org/fair/fip/terms/FAIR-Case-Study">FAIR case study</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR Data Policy</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile"
@@ -128,7 +143,10 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template"
-         title="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template">FAIR data stewardship template</a>
+         title="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template">FAIR data stewardship plan template</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
@@ -139,11 +157,23 @@ This ontology has the following classes and properties.</span>
          title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile">FAIR Implementation Profile</a>
    </li>
    <li>
+      <a href="#https://w3id.org/fair/fip/terms/FAIR-Interpretation"
+         title="https://w3id.org/fair/fip/terms/FAIR-Interpretation">FAIR interpretation</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/FAIR-Practice" title="https://w3id.org/fair/fip/terms/FAIR-Practice">FAIR practice</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
          title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria"
+         title="https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria">FAIR Qualifcation Criteria</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/FAIR-Representation-Service"
+         title="https://w3id.org/fair/fip/terms/FAIR-Representation-Service">FAIR Representation Service</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/FAIR-Specification"
@@ -152,6 +182,10 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
          title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed"
+         title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed">FAIR Supporting Resource to be developed</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
@@ -188,6 +222,9 @@ This ontology has the following classes and properties.</span>
       <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
    </li>
    <li>
+      <a href="#https://w3id.org/fair/fip/terms/FSR-Declaration" title="https://w3id.org/fair/fip/terms/FSR-Declaration">FSR Declaration</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/Identifier-service"
          title="https://w3id.org/fair/fip/terms/Identifier-service">Identifier service</a>
    </li>
@@ -207,9 +244,6 @@ This ontology has the following classes and properties.</span>
          title="https://w3id.org/fair/fip/terms/Metadata-data-linking-schema">Metadata-data linking schema</a>
    </li>
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/Methodology" title="https://w3id.org/fair/fip/terms/Methodology">Methodology</a>
-   </li>
-   <li>
       <a href="#https://w3id.org/fair/fip/terms/Provenance-model" title="https://w3id.org/fair/fip/terms/Provenance-model">Provenance model</a>
    </li>
    <li>
@@ -227,6 +261,13 @@ This ontology has the following classes and properties.</span>
       <a href="#https://w3id.org/fair/fip/terms/Semantic-model" title="https://w3id.org/fair/fip/terms/Semantic-model">Semantic model</a>
    </li>
    <li>
+      <a href="#https://w3id.org/fair/fip/terms/SIP-Declaration" title="https://w3id.org/fair/fip/terms/SIP-Declaration">SIP Declaration</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/Specific-Community"
+         title="https://w3id.org/fair/fip/terms/Specific-Community">Specific community</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/Structured-vocabulary"
          title="https://w3id.org/fair/fip/terms/Structured-vocabulary">Structured vocabulary</a>
    </li>
@@ -239,12 +280,12 @@ This ontology has the following classes and properties.</span>
       <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
    </li>
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/declared-for-digital-object-type"
-         title="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">declared for digital object type</a>
+      <a href="#https://w3id.org/fair/fip/terms/declared-for-case-study"
+         title="https://w3id.org/fair/fip/terms/declared-for-case-study">declared for case study</a>
    </li>
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/declared-for-methodology"
-         title="https://w3id.org/fair/fip/terms/declared-for-methodology">declared for methodology</a>
+      <a href="#https://w3id.org/fair/fip/terms/declared-for-digital-object-type"
+         title="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">declared for digital object type</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
@@ -414,11 +455,15 @@ This section provides details for each class and property defined by FAIR Implem
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/API" title="https://w3id.org/fair/fip/terms/API">Application Programming Interface</a>
+         <a href="#https://w3id.org/fair/fip/terms/Web-API" title="https://w3id.org/fair/fip/terms/Web-API">Application Programming Interface</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Authentication-and-authorization-service"
             title="https://w3id.org/fair/fip/terms/Authentication-and-authorization-service">Authentication and authorization service</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"
+            title="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource">Available FAIR Supporting Resource</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource"
@@ -427,6 +472,10 @@ This section provides details for each class and property defined by FAIR Implem
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Communication-protocol"
             title="https://w3id.org/fair/fip/terms/Communication-protocol">Communication protocol</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/Cross-Domain-Community"
+            title="https://w3id.org/fair/fip/terms/Cross-Domain-Community">Cross domain community</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Crosswalk" title="https://w3id.org/fair/fip/terms/Crosswalk">Crosswalk</a>
@@ -440,10 +489,17 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/Digital-Object-Type">Digital Object Type</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/Domain-Specific-Community"
+            title="https://w3id.org/fair/fip/terms/Domain-Specific-Community">Domain specific community</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/Editor" title="https://w3id.org/fair/fip/terms/Editor">Editor</a>
       </li>
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR data policy</a>
+         <a href="#https://w3id.org/fair/fip/terms/FAIR-Case-Study" title="https://w3id.org/fair/fip/terms/FAIR-Case-Study">FAIR case study</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR Data Policy</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile"
@@ -455,7 +511,10 @@ This section provides details for each class and property defined by FAIR Implem
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template"
-            title="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template">FAIR data stewardship template</a>
+            title="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template">FAIR data stewardship plan template</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
@@ -466,11 +525,23 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile">FAIR Implementation Profile</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/FAIR-Interpretation"
+            title="https://w3id.org/fair/fip/terms/FAIR-Interpretation">FAIR interpretation</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/FAIR-Practice" title="https://w3id.org/fair/fip/terms/FAIR-Practice">FAIR practice</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
             title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria"
+            title="https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria">FAIR Qualifcation Criteria</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/FAIR-Representation-Service"
+            title="https://w3id.org/fair/fip/terms/FAIR-Representation-Service">FAIR Representation Service</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/FAIR-Specification"
@@ -479,6 +550,10 @@ This section provides details for each class and property defined by FAIR Implem
       <li>
          <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
             title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed"
+            title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed">FAIR Supporting Resource to be developed</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
@@ -515,6 +590,9 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/FSR-Declaration" title="https://w3id.org/fair/fip/terms/FSR-Declaration">FSR Declaration</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/Identifier-service"
             title="https://w3id.org/fair/fip/terms/Identifier-service">Identifier service</a>
       </li>
@@ -534,9 +612,6 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/Metadata-data-linking-schema">Metadata-data linking schema</a>
       </li>
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/Methodology" title="https://w3id.org/fair/fip/terms/Methodology">Methodology</a>
-      </li>
-      <li>
          <a href="#https://w3id.org/fair/fip/terms/Provenance-model" title="https://w3id.org/fair/fip/terms/Provenance-model">Provenance model</a>
       </li>
       <li>
@@ -554,6 +629,13 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#https://w3id.org/fair/fip/terms/Semantic-model" title="https://w3id.org/fair/fip/terms/Semantic-model">Semantic model</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/SIP-Declaration" title="https://w3id.org/fair/fip/terms/SIP-Declaration">SIP Declaration</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/Specific-Community"
+            title="https://w3id.org/fair/fip/terms/Specific-Community">Specific community</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/Structured-vocabulary"
             title="https://w3id.org/fair/fip/terms/Structured-vocabulary">Structured vocabulary</a>
       </li>
@@ -562,20 +644,20 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/Validation-Service">Validation service</a>
       </li>
    </ul>
-   <div class="entity" id="https://w3id.org/fair/fip/terms/API">
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Web-API">
       <h3>Application Programming Interface<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/API</p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Web-API</p>
       <div class="comment">
-         <span class="markdown">An Application Programming Interface (API) is a service that allows different software applications to communicate with each other.</span>
+         <span class="markdown">An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
-            <a href="https://w3id.org/fair/fip/latest/API">https://w3id.org/fair/fip/latest/API</a>
+            <a href="https://w3id.org/fair/fip/latest/Web-API">https://w3id.org/fair/fip/latest/Web-API</a>
          </dd>
       </dl>
       <dl class="description">
@@ -610,6 +692,31 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service">FAIR supporting service</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource">
+      <h3>Available FAIR Supporting Resource<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource</p>
+      <div class="comment">
+         <span class="markdown">A FAIR Supporting Resource that is available for use.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/Available-FAIR-Supporting-Resource">https://w3id.org/fair/fip/latest/Available-FAIR-Supporting-Resource</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+               title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -653,7 +760,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Communication-protocol</p>
       <div class="comment">
-         <span class="markdown">A specification how messages are structured and exchanged.</span>
+         <span class="markdown">A specification of how messages are structured and exchanged.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -672,6 +779,31 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Cross-Domain-Community">
+      <h3>Cross domain community<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Cross-Domain-Community</p>
+      <div class="comment">
+         <span class="markdown">A FAIR Implementation Communities with cross-domain coverage</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/Cross-Domain-Community">https://w3id.org/fair/fip/latest/Cross-Domain-Community</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+               title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">FAIR Implementation Community</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Crosswalk">
       <h3>Crosswalk<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -680,7 +812,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Crosswalk</p>
       <div class="comment">
-         <span class="markdown">A crosswalk is a set of rules that defines how (meta)data elements or attributes (i.e., slots) from one schema or format can be aligned and mapped to (meta)data elements or attributes in another schema or format that share the same constraints and thus share the same semantic role</span>
+         <span class="markdown">A specification consisting of a set of rules that define how (meta)data elements or attributes from one schema can be aligned and mapped to (meta)data elements or attributes in another schema that share the same constraints and thus share the same semantic role.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -705,7 +837,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Data-usage-license</p>
       <div class="comment">
-         <span class="markdown">A document that describes the conditions under which a digital object can be legally used.</span>
+         <span class="markdown">A data policy that specifies legal restrictions on the reuse of the data.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -716,7 +848,8 @@ This section provides details for each class and property defined by FAIR Implem
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR Data Policy</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -747,6 +880,31 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Domain-Specific-Community">
+      <h3>Domain specific community<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Domain-Specific-Community</p>
+      <div class="comment">
+         <span class="markdown">A FAIR Implementation Communities with domain coverage</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/Domain-Specific-Community">https://w3id.org/fair/fip/latest/Domain-Specific-Community</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+               title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">FAIR Implementation Community</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Editor">
       <h3>Editor<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -755,7 +913,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Editor</p>
       <div class="comment">
-         <span class="markdown">An editor is a service that provides user-friendly interface for easy editing of metadata, vocabularies and crosswalks.</span>
+         <span class="markdown">A service that provides a user-friendly interface for easy editing of metadata, vocabularies or crosswalks.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -772,15 +930,45 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Case-Study">
+      <h3>FAIR case study<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Case-Study</p>
+      <div class="comment">
+         <span class="markdown">A description of a real-life situation where FAIR requirements of digital objects play a central role.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FAIR-Case-Study">https://w3id.org/fair/fip/latest/FAIR-Case-Study</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/declared-for-case-study"
+               title="https://w3id.org/fair/fip/terms/declared-for-case-study">declared for case study</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">
-      <h3>FAIR data policy<sup class="type-c" title="class">c</sup>
+      <h3>FAIR Data Policy<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Data-Policy</p>
       <div class="comment">
-         <span class="markdown">A FAIR data policy is a document that specifies and guides FAIR data practices for a community.</span>
+         <span class="markdown">A policy that specifies and guides FAIR data practices for a community.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -795,6 +983,14 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/Data-usage-license"
+               title="https://w3id.org/fair/fip/terms/Data-usage-license">Data usage license</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Metadata-preservation-policy"
+               title="https://w3id.org/fair/fip/terms/Metadata-preservation-policy">Metadata preservation policy</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile">
@@ -805,7 +1001,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile</p>
       <div class="comment">
-         <span class="markdown">A FAIR data steward professional profile is a list that documents the accumulated training qualifications and FAIR outputs authored by or contributed to, by that person. The profile may be augmented with additional statements regarding professional roles and skills.</span>
+         <span class="markdown">A document stating the accumulated training qualifications and FAIR outputs authored by or contributed to, by that person. The profile may be augmented with additional statements regarding professional roles and skills.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -830,7 +1026,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event</p>
       <div class="comment">
-         <span class="markdown">A FAIR data stewardship event is a meeting (online, in-person or hybrid) specifically designed for current or aspiring data stewards to provide a rigorous understanding of the FAIR principles from theory to their concrete implementation.</span>
+         <span class="markdown">A meeting specifically designed for current or aspiring data stewards to provide a rigorous understanding of the FAIR principles from theory to their concrete implementation.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -848,14 +1044,14 @@ This section provides details for each class and property defined by FAIR Implem
       </dl>
    </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template">
-      <h3>FAIR data stewardship template<sup class="type-c" title="class">c</sup>
+      <h3>FAIR data stewardship plan template<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template</p>
       <div class="comment">
-         <span class="markdown">A template guiding data stewardship planning.The template must be completed with project-specific information in any given instance to outline how data are to be handled in preparation for the project,  during the research project, and after the project is completed.</span>
+         <span class="markdown">A template guiding data stewardship including how FAIR Principles should be implemented. The template must be completed with project-specific information in any given instance to outline how data are to be handled in preparation for the project,  during the research project, and after the project is completed.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -868,6 +1064,43 @@ This section provides details for each class and property defined by FAIR Implem
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Declaration">
+      <h3>FAIR Declaration<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Declaration</p>
+      <div class="comment">
+         <span class="markdown">The statement of a community on how it addresses a FAIR-related question.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FAIR-Declaration">https://w3id.org/fair/fip/latest/FAIR-Declaration</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+               title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria"
+               title="https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria">FAIR Qualifcation Criteria</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Case-Study" title="https://w3id.org/fair/fip/terms/FAIR-Case-Study">FAIR case study</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Interpretation"
+               title="https://w3id.org/fair/fip/terms/FAIR-Interpretation">FAIR interpretation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FSR-Declaration" title="https://w3id.org/fair/fip/terms/FSR-Declaration">FSR Declaration</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/SIP-Declaration" title="https://w3id.org/fair/fip/terms/SIP-Declaration">SIP Declaration</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -893,6 +1126,16 @@ This section provides details for each class and property defined by FAIR Implem
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/Cross-Domain-Community"
+               title="https://w3id.org/fair/fip/terms/Cross-Domain-Community">Cross domain community</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Domain-Specific-Community"
+               title="https://w3id.org/fair/fip/terms/Domain-Specific-Community">Domain specific community</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Specific-Community"
+               title="https://w3id.org/fair/fip/terms/Specific-Community">Specific community</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in domain of</dt>
@@ -932,6 +1175,30 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Interpretation">
+      <h3>FAIR interpretation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Interpretation</p>
+      <div class="comment">
+         <span class="markdown">A theoretical and practical explanation of the FAIR Principle by a recognized expert authority.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FAIR-Interpretation">https://w3id.org/fair/fip/latest/FAIR-Interpretation</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Practice">
       <h3>FAIR practice<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -940,7 +1207,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Practice</p>
       <div class="comment">
-         <span class="markdown">A FAIR practice is an adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community.</span>
+         <span class="markdown">An adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -973,6 +1240,55 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria">
+      <h3>FAIR Qualifcation Criteria<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria</p>
+      <div class="comment">
+         <span class="markdown">A proposition on which a qualification of FAIR Supporting Resources is based.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FAIR-Qualification-Criteria">https://w3id.org/fair/fip/latest/FAIR-Qualification-Criteria</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Representation-Service">
+      <h3>FAIR Representation Service<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Representation-Service</p>
+      <div class="comment">
+         <span class="markdown">A transformation service that converts non-FAIR data into a FAIR representation using machine-readable knowledge representation languages.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FAIR-Representation-Service">https://w3id.org/fair/fip/latest/FAIR-Representation-Service</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+               title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service">FAIR supporting service</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Specification">
       <h3>FAIR specification<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -981,7 +1297,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Specification</p>
       <div class="comment">
-         <span class="markdown">A FAIR specification is a precise description of features, requirements, constraints and recommendations for a specific implementation of a component, system or service supporting the implementation of the FAIR principles.</span>
+         <span class="markdown">A precise description of features, requirements, constraints and recommendations for a specific implementation of a component, system or service supporting the implementation of the FAIR principles.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1033,15 +1349,20 @@ This section provides details for each class and property defined by FAIR Implem
       <dl class="description">
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+            <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"
+               title="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource">Available FAIR Supporting Resource</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR Data Policy</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
                title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">FAIR Implementation Community</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR data policy</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed"
+               title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed">FAIR Supporting Resource to be developed</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile"
                title="https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile">FAIR data steward professional profile</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event"
                title="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event">FAIR data stewardship event</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template"
-               title="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template">FAIR data stewardship template</a>
+               title="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template">FAIR data stewardship plan template</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Practice" title="https://w3id.org/fair/fip/terms/FAIR-Practice">FAIR practice</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Specification"
                title="https://w3id.org/fair/fip/terms/FAIR-Specification">FAIR specification</a>
@@ -1057,6 +1378,31 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed">
+      <h3>FAIR Supporting Resource to be developed<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed</p>
+      <div class="comment">
+         <span class="markdown">A FAIR Supporting Resource that is not yet available but still needs to be developed.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FAIR-Supporting-Resource-to-be-Developed">https://w3id.org/fair/fip/latest/FAIR-Supporting-Resource-to-be-Developed</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+               title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service">
       <h3>FAIR supporting service<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -1065,7 +1411,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Supporting-Service</p>
       <div class="comment">
-         <span class="markdown">A FAIR supporting service is any online accessible software system or component that supports the implementation of the FAIR Principles.</span>
+         <span class="markdown">Any online accessible software system or component that supports the implementation of the FAIR Principles.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1082,10 +1428,12 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/API" title="https://w3id.org/fair/fip/terms/API">Application Programming Interface</a>
+            <a href="#https://w3id.org/fair/fip/terms/Web-API" title="https://w3id.org/fair/fip/terms/Web-API">Application Programming Interface</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Authentication-and-authorization-service"
                title="https://w3id.org/fair/fip/terms/Authentication-and-authorization-service">Authentication and authorization service</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Editor" title="https://w3id.org/fair/fip/terms/Editor">Editor</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Representation-Service"
+               title="https://w3id.org/fair/fip/terms/FAIR-Representation-Service">FAIR Representation Service</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Identifier-service"
                title="https://w3id.org/fair/fip/terms/Identifier-service">Identifier service</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Provenance-Tracking-Service"
@@ -1105,7 +1453,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Training-Material</p>
       <div class="comment">
-         <span class="markdown">FAIR training material is any educational resource (such as the content or its published representation in text, presentation graphics, or video) that covers FAIR topics of interest.</span>
+         <span class="markdown">Any educational resource (such as the content or its published representation in text, presentation graphics, or video) that covers FAIR topics of interest.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1130,7 +1478,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource</p>
       <div class="comment">
-         <span class="markdown">A service, a specification or document that is essential to the operationalization of the FAIR Principles, i.e., puts FAIR into action. A FER provides a function needed to achieve some aspect of FAIR behavior and is explicitly linked to one or more FAIR principles.</span>
+         <span class="markdown">A service, a specification or a data policy that is essential to the operationalization of the FAIR Principles, i.e., puts FAIR into action. A FAIR-Enabling Resource (FER) provides a function needed to achieve some aspect of FAIR behavior and is explicitly linked to one or more FAIR principles.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1257,6 +1605,11 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration"
@@ -1267,10 +1620,10 @@ This section provides details for each class and property defined by FAIR Implem
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/considerations" title="https://w3id.org/fair/fip/terms/considerations">considerations</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-for-case-study"
+               title="https://w3id.org/fair/fip/terms/declared-for-case-study">declared for case study</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-for-digital-object-type"
                title="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">declared for digital object type</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-for-methodology"
-               title="https://w3id.org/fair/fip/terms/declared-for-methodology">declared for methodology</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
                title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
@@ -1409,6 +1762,30 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/FSR-Declaration">
+      <h3>FSR Declaration<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FSR-Declaration</p>
+      <div class="comment">
+         <span class="markdown">The statement of a community on the usage of a FAIR Supporting Resource.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/FSR-Declaration">https://w3id.org/fair/fip/latest/FSR-Declaration</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Identifier-service">
       <h3>Identifier service<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -1444,7 +1821,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Knowledge-representation-language</p>
       <div class="comment">
-         <span class="markdown">A language specification whereby knowledge can be made processible by machines.</span>
+         <span class="markdown">A language specification that enables knowledge to be processed by machines.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1471,7 +1848,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Metadata-preservation-policy</p>
       <div class="comment">
-         <span class="markdown">A document that describes the conditions under which metadata are to be provisioned in the future (maybe part of a data management plan).</span>
+         <span class="markdown">A data policy that describes the conditions under which metadata should be provided in the future.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1482,7 +1859,8 @@ This section provides details for each class and property defined by FAIR Implem
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR Data Policy</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -1496,7 +1874,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Metadata-schema</p>
       <div class="comment">
-         <span class="markdown">A specification (schema) that specifies metadata fields describing attributes of data or other digital objects.</span>
+         <span class="markdown">A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1523,7 +1901,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Metadata-data-linking-schema</p>
       <div class="comment">
-         <span class="markdown">A specification (schema) that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe.</span>
+         <span class="markdown">A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1542,31 +1920,6 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
-   <div class="entity" id="https://w3id.org/fair/fip/terms/Methodology">
-      <h3>Methodology<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Methodology</p>
-      <div class="comment">
-         <span class="markdown">Methodology is the applied practice aimed to guide how to plan, execute and evaluate investigations to generate the digital objects.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="https://w3id.org/fair/fip/latest/Methodology">https://w3id.org/fair/fip/latest/Methodology</a>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/fair/fip/terms/declared-for-methodology"
-               title="https://w3id.org/fair/fip/terms/declared-for-methodology">declared for methodology</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Provenance-model">
       <h3>Provenance model<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -1575,7 +1928,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Provenance-model</p>
       <div class="comment">
-         <span class="markdown">A specification (schema) that specifies metadata fields describing the origin and lineage of data or other digital objects.</span>
+         <span class="markdown">A specification that specifies metadata describing the origin and lineage of data or other digital objects.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1602,7 +1955,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Provenance-Tracking-Service</p>
       <div class="comment">
-         <span class="markdown">A provenance tracking service is a system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects.</span>
+         <span class="markdown">A system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects creating metadata based on a provenance model. </span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1679,7 +2032,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Semantic-model</p>
       <div class="comment">
-         <span class="markdown">A specification that defines qualified relations between entities describing data or other digital objects using structured vocabularies.</span>
+         <span class="markdown">A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1698,6 +2051,55 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/SIP-Declaration">
+      <h3>SIP Declaration<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/SIP-Declaration</p>
+      <div class="comment">
+         <span class="markdown">The statement of a community on how it addresses a SIP question.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/SIP-Declaration">https://w3id.org/fair/fip/latest/SIP-Declaration</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Specific-Community">
+      <h3>Specific community<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Specific-Community</p>
+      <div class="comment">
+         <span class="markdown">A FAIR Implementation Communities with specific coverage within a domain</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/Specific-Community">https://w3id.org/fair/fip/latest/Specific-Community</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+               title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">FAIR Implementation Community</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Structured-vocabulary">
       <h3>Structured vocabulary<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -1706,7 +2108,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Structured-vocabulary</p>
       <div class="comment">
-         <span class="markdown">A controlled list of uniquely identified and unambigous concepts with their definitions represented preferably using web standards.</span>
+         <span class="markdown">A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1733,7 +2135,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Validation-Service</p>
       <div class="comment">
-         <span class="markdown">A validation service is a system that verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards.</span>
+         <span class="markdown">A system that automatically verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1757,12 +2159,12 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
       </li>
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/declared-for-digital-object-type"
-            title="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">declared for digital object type</a>
+         <a href="#https://w3id.org/fair/fip/terms/declared-for-case-study"
+            title="https://w3id.org/fair/fip/terms/declared-for-case-study">declared for case study</a>
       </li>
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/declared-for-methodology"
-            title="https://w3id.org/fair/fip/terms/declared-for-methodology">declared for methodology</a>
+         <a href="#https://w3id.org/fair/fip/terms/declared-for-digital-object-type"
+            title="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">declared for digital object type</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
@@ -1824,6 +2226,37 @@ This section provides details for each class and property defined by FAIR Implem
          </dl>
       </div>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/declared-for-case-study">
+      <h3>declared for case study<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/declared-for-case-study</p>
+      <div class="comment">
+         <span class="markdown">Connects a FIP declaration to the case study it refers to.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/declared-for-case-study">https://w3id.org/fair/fip/latest/declared-for-case-study</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Case-Study" title="https://w3id.org/fair/fip/terms/FAIR-Case-Study">FAIR case study</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">
       <h3>declared for digital object type<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1851,37 +2284,6 @@ This section provides details for each class and property defined by FAIR Implem
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/Digital-Object-Type"
                   title="https://w3id.org/fair/fip/terms/Digital-Object-Type">Digital Object Type</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="https://w3id.org/fair/fip/terms/declared-for-methodology">
-      <h3>declared for methodology<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/declared-for-methodology</p>
-      <div class="comment">
-         <span class="markdown">Connects a FIP declaration to the methodology it applies to</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="https://w3id.org/fair/fip/latest/declared-for-methodology">https://w3id.org/fair/fip/latest/declared-for-methodology</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/fair/fip/terms/Methodology" title="https://w3id.org/fair/fip/terms/Methodology">Methodology</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
