@@ -35,7 +35,7 @@ RewriteRule ^fip/latest/FAIR-Specification$ http://purl.org/np/RAVjoiMJfby1CKl06
 RewriteRule ^fip/latest/Crosswalk$ http://purl.org/np/RAjpFEm1BEoJSO9gXqNLfzmrrFe9W_5hGl3woHn3PSUo4 [R=302,L]
 RewriteRule ^fip/latest/FAIR-Supporting-Service$ http://purl.org/np/RACCuSjLnohqCqhoeiTRWwE7vJjX_-pJfP0bwQriXULjo [R=302,L]
 RewriteRule ^fip/latest/FAIR-Representation-Service$ http://purl.org/np/RA9j9D7dpjYzJhdRWidg2o8hQzBk0HwTSeMdK-Q8VfeIM [R=302,L]
-RewriteRule ^fip/latest/Web-API$ http://purl.org/np/RAoB1hGRT7JJJd3AhW02Ui7d6va0gMvrJ4Xl19Ou-LCTY [R=302,L]
+RewriteRule ^fip/latest/Web-API$ http://purl.org/np/RABDfH4VS3fV8JxcSnQUXRh7YmEU_pAot_ARDaDiD05eU [R=302,L]
 RewriteRule ^fip/latest/Editor$ http://purl.org/np/RAWOAs6zjRe2yaiIDVmNqw5ZvR4ht8-hZHSi4hqJQQdEA [R=302,L]
 RewriteRule ^fip/latest/Validation-Service$ http://purl.org/np/RAV600c2A5SH9KXBNPWxkDkw0SCG5oeEh_6lj_e_PwGWU [R=302,L]
 RewriteRule ^fip/latest/Provenance-Tracking-Service$ http://purl.org/np/RAZiRN2FKX5zq2lbUPuPkFpu9XpUuyHE1tr6P4tLWTDr8 [R=302,L]
@@ -85,4 +85,4 @@ RewriteRule ^fip/latest/FIP-Question-R1.1-D$ http://purl.org/np/RACw63-arnlx2g3h
 RewriteRule ^fip/latest/FIP-Question-R1.2-MD$ http://purl.org/np/RADFItKV0jhvR8T5beNGRQbsnceMZNBHegqCHovU9fVPk [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-R1.2-D$ http://purl.org/np/RAw5eJhtewy4MBSAK9oAS8XW7Kenr6lrGVRt5I8r-itDc [R=302,L]
 
-RewriteRule ^fip/latest/index$ http://purl.org/np/RAq1R2qbo2IJqcR0wyz8E2HC1wvYSl_6itF2l_dFJ-sKY [R=302,L]
+RewriteRule ^fip/latest/index$ http://purl.org/np/RA7Ct8eDGw5FYaoCZnPCfeFE9dPHCngmsa-v56U84ip64 [R=302,L]

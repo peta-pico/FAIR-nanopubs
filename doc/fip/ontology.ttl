@@ -572,7 +572,7 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 <https://w3id.org/fair/fip/terms/Web-API> rdf:type owl:Class ;
                                           rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Web-API> ;
-                                          rdfs:label "Application Programming Interface"@en ;
+                                          rdfs:label "Web-API"@en ;
                                           <http://www.w3.org/2004/02/skos/core#definition> "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."@en .
 
 

@@ -880,7 +880,7 @@
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Web-API">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Web-API"/>
-        <rdfs:label xml:lang="en">Application Programming Interface</rdfs:label>
+        <rdfs:label xml:lang="en">Web-API</rdfs:label>
         <skos:definition xml:lang="en">An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other.</skos:definition>
     </owl:Class>
     

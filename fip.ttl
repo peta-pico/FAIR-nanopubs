@@ -243,7 +243,7 @@ fair:R1.2 rdfs:label "R1.2" .
 
 <https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Web-API>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Application Programming Interface"@en;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Web-API"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service>;
   <http://www.w3.org/2004/02/skos/core#definition> "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."@en .
 

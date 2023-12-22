@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/fip/np/index/RAq1R2qbo2IJqcR0wyz8E2HC1wvYSl_6itF2l_dFJ-sKY> .
-@prefix sub: <https://w3id.org/fair/fip/np/index/RAq1R2qbo2IJqcR0wyz8E2HC1wvYSl_6itF2l_dFJ-sKY#> .
+@prefix this: <https://w3id.org/fair/fip/np/index/RA7Ct8eDGw5FYaoCZnPCfeFE9dPHCngmsa-v56U84ip64> .
+@prefix sub: <https://w3id.org/fair/fip/np/index/RA7Ct8eDGw5FYaoCZnPCfeFE9dPHCngmsa-v56U84ip64#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -85,7 +85,7 @@ sub:assertion {
       <https://w3id.org/fair/fip/np/Specific-Community/RA_R67uN1xNlTCjfmmHHip9vcVR6ChGNjocGqGZAtsnkw>,
       <https://w3id.org/fair/fip/np/Structured-vocabulary/RA9JwUVZk395ippZgv8Nk78ov9HV8bbTFf_tBjtxqPm44>,
       <https://w3id.org/fair/fip/np/Validation-Service/RAV600c2A5SH9KXBNPWxkDkw0SCG5oeEh_6lj_e_PwGWU>,
-      <https://w3id.org/fair/fip/np/Web-API/RAoB1hGRT7JJJd3AhW02Ui7d6va0gMvrJ4Xl19Ou-LCTY>,
+      <https://w3id.org/fair/fip/np/Web-API/RABDfH4VS3fV8JxcSnQUXRh7YmEU_pAot_ARDaDiD05eU>,
       <https://w3id.org/fair/fip/np/considerations/RANo00qnprNSxcGcMwWYt22IAnUBRpeZUnt5kVPVAoVVg>,
       <https://w3id.org/fair/fip/np/declared-by/RAoB7vveyfYW_ghcVwH6QdI_iywESaoD7_Mq_8SCk-62s>,
       <https://w3id.org/fair/fip/np/declared-for-case-study/RAooTUYhWiqE2gPMly_WNNreVynr2B598A9sshMu6BOTM>,
@@ -105,11 +105,11 @@ sub:provenance {
 
 sub:pubinfo {
   this: dce:title "Nanopublications representing the FAIR Implementation Profiles (FIP) Ontology";
-    dct:created "2023-12-22T17:09:54.175+01:00"^^xsd:dateTime;
+    dct:created "2023-12-22T17:13:13.988+01:00"^^xsd:dateTime;
     dct:creator <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
       <https://orcid.org/0000-0003-2195-3997>;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    npx:supersedes <https://w3id.org/fair/fip/np/index/RApxsF2bxJliqMn9unfc-W40JFkJkZTtX6QGxqDbxFYL8>;
+    npx:supersedes <https://w3id.org/fair/fip/np/index/RAq1R2qbo2IJqcR0wyz8E2HC1wvYSl_6itF2l_dFJ-sKY>;
     a npx:NanopubIndex .
 }
 

@@ -45,7 +45,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -87,7 +87,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -126,7 +126,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -165,7 +165,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -205,7 +205,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -245,7 +245,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -285,7 +285,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -325,7 +325,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -365,7 +365,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -405,7 +405,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -445,7 +445,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -485,7 +485,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -525,7 +525,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -565,7 +565,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -605,7 +605,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -645,7 +645,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -688,7 +688,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -728,7 +728,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -768,7 +768,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -808,7 +808,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -848,7 +848,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -888,7 +888,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -928,7 +928,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -968,7 +968,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1008,7 +1008,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1048,7 +1048,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1088,7 +1088,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1128,7 +1128,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1168,7 +1168,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1208,7 +1208,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1248,7 +1248,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1288,7 +1288,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1328,7 +1328,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1368,7 +1368,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1397,7 +1397,7 @@
 }
 
 :assertion {
-  fip:Web-API rdfs:label "Application Programming Interface"@en ;
+  fip:Web-API rdfs:label "Web-API"@en ;
     rdfs:subClassOf fip:FAIR-Supporting-Service ;
     skos:definition "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."@en ;
     rdfs:isDefinedBy latest: .
@@ -1408,7 +1408,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1448,7 +1448,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1488,7 +1488,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1528,7 +1528,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1568,7 +1568,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1608,7 +1608,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1648,7 +1648,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1688,7 +1688,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1728,7 +1728,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1768,7 +1768,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1808,7 +1808,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1848,7 +1848,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1888,7 +1888,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1928,7 +1928,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -1968,7 +1968,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2008,7 +2008,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2048,7 +2048,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2088,7 +2088,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2129,7 +2129,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2171,7 +2171,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2213,7 +2213,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2255,7 +2255,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2297,7 +2297,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2339,7 +2339,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2381,7 +2381,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2423,7 +2423,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2465,7 +2465,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2506,7 +2506,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2550,7 +2550,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2592,7 +2592,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2634,7 +2634,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2676,7 +2676,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2718,7 +2718,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2760,7 +2760,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2802,7 +2802,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2844,7 +2844,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2886,7 +2886,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2928,7 +2928,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -2970,7 +2970,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3012,7 +3012,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3054,7 +3054,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3096,7 +3096,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3138,7 +3138,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3180,7 +3180,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3222,7 +3222,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3264,7 +3264,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3306,7 +3306,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3348,7 +3348,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -3390,7 +3390,7 @@
 }
 
 :pubinfo {
-  : dct:created "2023-12-22T17:09:49.576+01:00"^^xsd:dateTime ;
+  : dct:created "2023-12-22T17:13:09.457+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
