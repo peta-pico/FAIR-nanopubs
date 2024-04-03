@@ -56,8 +56,8 @@
 # 
 # https://w3id.org/fair/fip/terms/declared-by
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
-<https://w3id.org/fair/fip/terms/FIP-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
+<https://w3id.org/fair/fip/terms/FAIR-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-by> .
@@ -66,7 +66,7 @@
 # 
 # https://w3id.org/fair/fip/terms/declared-for-case-study
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
+<https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Case-Study> .
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-case-study> .
@@ -75,7 +75,7 @@
 # 
 # https://w3id.org/fair/fip/terms/declared-for-digital-object-type
 <https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
+<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Digital-Object-Type> .
 <https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-digital-object-type> .
 <https://w3id.org/fair/fip/terms/declared-for-digital-object-type> <http://www.w3.org/2000/01/rdf-schema#label> "declared for digital object type"@en .
@@ -83,35 +83,34 @@
 # 
 # https://w3id.org/fair/fip/terms/declares-current-use-of
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
-<https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> .
-<https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
+<https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-current-use-of> .
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#label> "declares current use of"@en .
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to currently use"@en .
 # 
 # https://w3id.org/fair/fip/terms/declares-planned-development-of
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
-<https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> .
-<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
+<https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-development-of> .
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#label> "declares planned development of"@en .
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to develop"@en .
 # 
 # https://w3id.org/fair/fip/terms/declares-planned-replacement-of
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
-<https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
-<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
+<https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-replacement-of> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#label> "declares planned replacement of"@en .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of)."@en .
 # 
 # https://w3id.org/fair/fip/terms/declares-planned-use-of
 <https://w3id.org/fair/fip/terms/declares-planned-use-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/fair/fip/terms/declares-planned-use-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
-<https://w3id.org/fair/fip/terms/declares-planned-use-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/declares-planned-use-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
+<https://w3id.org/fair/fip/terms/declares-planned-use-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/declares-planned-use-of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-use-of> .
 <https://w3id.org/fair/fip/terms/declares-planned-use-of> <http://www.w3.org/2000/01/rdf-schema#label> "declares planned use of"@en .
 <https://w3id.org/fair/fip/terms/declares-planned-use-of> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"@en .
@@ -135,6 +134,7 @@
 # https://w3id.org/fair/fip/terms/refers-to-question
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
+<https://w3id.org/fair/fip/terms/FIP-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/refers-to-question> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#label> "refers to question"@en .
@@ -151,7 +151,7 @@
 # 
 # https://w3id.org/fair/fip/terms/considerations
 <https://w3id.org/fair/fip/terms/considerations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/fair/fip/terms/considerations> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
+<https://w3id.org/fair/fip/terms/considerations> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/considerations> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/considerations> .
 <https://w3id.org/fair/fip/terms/considerations> <http://www.w3.org/2000/01/rdf-schema#label> "considerations"@en .
 <https://w3id.org/fair/fip/terms/considerations> <http://www.w3.org/2004/02/skos/core#definition> "Considerations that led to a given FIP declaration"@en .
@@ -168,6 +168,7 @@
 # https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> .
@@ -175,13 +176,14 @@
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en .
 # 
 # https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource
+<https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Available-FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Available FAIR-Enabling Resource"@en .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is available for use"@en .
 # 
 # https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource
-<https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Available-FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Available FAIR Supporting Resource"@en .
@@ -248,7 +250,6 @@
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Case-Study
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
-<https://w3id.org/fair/fip/terms/FAIR-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Case-Study> .
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR case study"@en .
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/2004/02/skos/core#definition> "A description of a real-life situation where FAIR requirements of digital objects play a central role."@en .
@@ -286,7 +287,9 @@
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2004/02/skos/core#definition> "A service, a specification or a data policy that is essential to the operationalization of the FAIR Principles, i.e., puts FAIR into action. A FAIR-Enabling Resource (FER) provides a function needed to achieve some aspect of FAIR behavior and is explicitly linked to one or more FAIR principles."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource-to-be-Developed> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Enabling Resource to be Developed"@en .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is not yet available but still needs to be developed"@en .
@@ -345,7 +348,6 @@
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> <http://www.w3.org/2004/02/skos/core#definition> "Any resource that supports FAIR Data Stewardship. FSRs are represented as FAIR Digital Objects (using the nanopublication framework) with Globally Unique, Persistent, Resolvable Identifiers (GUPRI) that resolve to machine-readable metadata about the resource."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Resource-to-be-Developed> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Supporting Resource to be developed"@en .

@@ -172,13 +172,15 @@ fair:R1.2 rdfs:label "R1.2" .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Available-FAIR-Enabling-Resource>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Available FAIR-Enabling Resource"@en;
-  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource>,
+    <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is available for use"@en .
 
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource-to-be-Developed>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Enabling Resource to be Developed"@en;
-  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
+    <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed>;
   <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is not yet available but still needs to be developed"@en .
 
 <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
@@ -374,56 +376,56 @@ fair:R1.2 rdfs:label "R1.2" .
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the FIP question it is addressing"@en .
 
 <https://w3id.org/fair/fip/terms/declared-by> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-by>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declared by"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
 
 <https://w3id.org/fair/fip/terms/declares-current-use-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-current-use-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares current use of"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to currently use"@en .
 
 <https://w3id.org/fair/fip/terms/declares-planned-use-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-use-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares planned use of"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"@en .
 
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-replacement-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares planned replacement of"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of)."@en .
 
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-development-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares planned development of"@en;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to develop"@en .
 
 <https://w3id.org/fair/fip/terms/declared-for-digital-object-type> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-digital-object-type>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declared for digital object type"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Digital-Object-Type>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the digital object type it applies to"@en .
 
 <https://w3id.org/fair/fip/terms/declared-for-case-study> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-case-study>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declared for case study"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Case-Study>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the case study it refers to."@en .
 
 <https://w3id.org/fair/fip/terms/considerations> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/considerations>;
   <http://www.w3.org/2000/01/rdf-schema#label> "considerations"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Considerations that led to a given FIP declaration"@en .
