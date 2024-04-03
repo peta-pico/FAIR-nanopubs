@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Fri Dec 22 17:13:21 CET 2023", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Wed Apr 03 13:11:25 CEST 2024", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -443,9 +443,11 @@ This ontology has the following classes and properties.</span>
 
 <h2 id="desc" class="list">FAIR Implementation Profile (FIP) Ontology <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 
-<p>The diagram below shows the general structure of this model:</p>
+<p>These diagrams show the general structure of this model:</p>
 
 <img src="sections/fip-overview-diagram.svg" alt="">
+
+<img src="sections/sip-overview-diagram.svg" alt="">
 
 
 <!--CROSSREF SECTION-->
@@ -694,6 +696,18 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource"
+               title="https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource">Available FAIR-Enabling Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
+               title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource">
@@ -715,15 +729,11 @@ This section provides details for each class and property defined by FAIR Implem
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+            <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"
+               title="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource">Available FAIR Supporting Resource</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
-               title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -1078,6 +1088,24 @@ This section provides details for each class and property defined by FAIR Implem
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/SIP-Declaration" title="https://w3id.org/fair/fip/terms/SIP-Declaration">SIP Declaration</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/considerations" title="https://w3id.org/fair/fip/terms/considerations">considerations</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-for-case-study"
+               title="https://w3id.org/fair/fip/terms/declared-for-case-study">declared for case study</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-for-digital-object-type"
+               title="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">declared for digital object type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
+               title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-replacement-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">declares planned replacement of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">
@@ -1351,6 +1379,14 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile">Semantic Interoperability Profile</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/declares-planned-replacement-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">declares planned replacement of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed">
@@ -1375,6 +1411,18 @@ This section provides details for each class and property defined by FAIR Implem
             <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed"
+               title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed">FAIR-Enabling Resource to be Developed</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
+               title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -1498,14 +1546,6 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/Structured-vocabulary">Structured vocabulary</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/fair/fip/terms/declares-planned-replacement-of"
-               title="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">declares planned replacement of</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
-               title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
       </dl>
    </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed">
@@ -1527,15 +1567,11 @@ This section provides details for each class and property defined by FAIR Implem
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed"
+               title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed">FAIR Supporting Resource to be developed</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
-               title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -1593,21 +1629,7 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#https://w3id.org/fair/fip/terms/considerations" title="https://w3id.org/fair/fip/terms/considerations">considerations</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-for-case-study"
-               title="https://w3id.org/fair/fip/terms/declared-for-case-study">declared for case study</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declared-for-digital-object-type"
-               title="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">declared for digital object type</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-current-use-of"
-               title="https://w3id.org/fair/fip/terms/declares-current-use-of">declares current use of</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-development-of"
-               title="https://w3id.org/fair/fip/terms/declares-planned-development-of">declares planned development of</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-replacement-of"
-               title="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">declares planned replacement of</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
-               title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/refers-to-question"
+            <a href="#https://w3id.org/fair/fip/terms/refers-to-question"
                title="https://w3id.org/fair/fip/terms/refers-to-question">refers to question</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -2214,7 +2236,7 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2246,7 +2268,7 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2277,7 +2299,7 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2309,13 +2331,13 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource"
-                  title="https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource">Available FAIR-Enabling Resource</a>
+               <a href="#https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"
+                  title="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource">Available FAIR Supporting Resource</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -2341,13 +2363,13 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed"
-                  title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed">FAIR-Enabling Resource to be Developed</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed">FAIR Supporting Resource to be developed</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -2373,13 +2395,13 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
-                  title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -2405,13 +2427,13 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
-                  title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -2534,7 +2556,7 @@ This section provides details for each class and property defined by FAIR Implem
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/fair/fip/terms/FIP-Declaration" title="https://w3id.org/fair/fip/terms/FIP-Declaration">FIP Declaration</a>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Declaration" title="https://w3id.org/fair/fip/terms/FAIR-Declaration">FAIR Declaration</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>

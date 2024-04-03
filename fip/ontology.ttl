@@ -64,7 +64,7 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/declared-by
 <https://w3id.org/fair/fip/terms/declared-by> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                              rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
                                               rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> ;
                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declared-by> ;
                                               rdfs:label "declared by"@en ;
@@ -73,7 +73,7 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/declared-for-case-study
 <https://w3id.org/fair/fip/terms/declared-for-case-study> rdf:type owl:ObjectProperty ;
-                                                          rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                                          rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
                                                           rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Case-Study> ;
                                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declared-for-case-study> ;
                                                           rdfs:label "declared for case study"@en ;
@@ -82,7 +82,7 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/declared-for-digital-object-type
 <https://w3id.org/fair/fip/terms/declared-for-digital-object-type> rdf:type owl:ObjectProperty ;
-                                                                   rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                                                   rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
                                                                    rdfs:range <https://w3id.org/fair/fip/terms/Digital-Object-Type> ;
                                                                    rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declared-for-digital-object-type> ;
                                                                    rdfs:label "declared for digital object type"@en ;
@@ -91,8 +91,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/declares-current-use-of
 <https://w3id.org/fair/fip/terms/declares-current-use-of> rdf:type owl:ObjectProperty ;
-                                                          rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
-                                                          rdfs:range <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> ;
+                                                          rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
+                                                          rdfs:range <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> ;
                                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declares-current-use-of> ;
                                                           rdfs:label "declares current use of"@en ;
                                                           <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to currently use"@en .
@@ -100,8 +100,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/declares-planned-development-of
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> rdf:type owl:ObjectProperty ;
-                                                                  rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
-                                                                  rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> ;
+                                                                  rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
+                                                                  rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> ;
                                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declares-planned-development-of> ;
                                                                   rdfs:label "declares planned development of"@en ;
                                                                   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to develop"@en .
@@ -109,8 +109,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/declares-planned-replacement-of
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> rdf:type owl:ObjectProperty ;
-                                                                  rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
-                                                                  rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                                  rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
+                                                                  rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
                                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declares-planned-replacement-of> ;
                                                                   rdfs:label "declares planned replacement of"@en ;
                                                                   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of)."@en .
@@ -118,8 +118,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/declares-planned-use-of
 <https://w3id.org/fair/fip/terms/declares-planned-use-of> rdf:type owl:ObjectProperty ;
-                                                          rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
-                                                          rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                          rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
+                                                          rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
                                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declares-planned-use-of> ;
                                                           rdfs:label "declares planned use of"@en ;
                                                           <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"@en .
@@ -157,7 +157,7 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/considerations
 <https://w3id.org/fair/fip/terms/considerations> rdf:type owl:DatatypeProperty ;
-                                                 rdfs:domain <https://w3id.org/fair/fip/terms/FIP-Declaration> ;
+                                                 rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
                                                  rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/considerations> ;
                                                  rdfs:label "considerations"@en ;
                                                  <http://www.w3.org/2004/02/skos/core#definition> "Considerations that led to a given FIP declaration"@en .
@@ -178,7 +178,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource
 <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> rdf:type owl:Class ;
-                                                                   rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                                   rdfs:subClassOf <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> ,
+                                                                                   <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
                                                                    rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Available-FAIR-Enabling-Resource> ;
                                                                    rdfs:label "Available FAIR-Enabling Resource"@en ;
                                                                    <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is available for use"@en .
@@ -307,7 +308,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> rdf:type owl:Class ;
-                                                                         rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                                         rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
+                                                                                         <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> ;
                                                                          rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource-to-be-Developed> ;
                                                                          rdfs:label "FAIR-Enabling Resource to be Developed"@en ;
                                                                          <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is not yet available but still needs to be developed"@en .
