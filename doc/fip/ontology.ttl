@@ -110,7 +110,7 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 ###  https://w3id.org/fair/fip/terms/declares-planned-replacement-of
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> rdf:type owl:ObjectProperty ;
                                                                   rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
-                                                                  rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                                  rdfs:range <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> ;
                                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/declares-planned-replacement-of> ;
                                                                   rdfs:label "declares planned replacement of"@en ;
                                                                   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of)."@en .
