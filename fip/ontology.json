@@ -1413,7 +1413,7 @@
     "@value" : "declares planned replacement of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+    "@id" : "https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",

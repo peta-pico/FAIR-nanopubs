@@ -102,7 +102,7 @@
 # https://w3id.org/fair/fip/terms/declares-planned-replacement-of
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
-<https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-replacement-of> .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2000/01/rdf-schema#label> "declares planned replacement of"@en .
 <https://w3id.org/fair/fip/terms/declares-planned-replacement-of> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of)."@en .
