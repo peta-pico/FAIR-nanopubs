@@ -73,6 +73,10 @@ RewriteRule ^fip/terms/(.+)$ https://peta-pico.github.io/FAIR-nanopubs/fip/index
 RewriteRule ^maturity_indicator/?$ https://github.com/FAIRMetrics/Metrics [R=302,L]
 
 
+RewriteRule ^(3pff/.*)$ https://nanodash.knowledgepixels.com/term?id=https://w3id.org/fair/$1
+
+
+
 RewriteRule ^principles/terms/(.+)$ https://w3id.org/fair/principles/latest/$1 [R=302,L]
 RewriteRule ^principles/np/.+/(RA[A-Za-z0-9_\-]{43})$ http://purl.org/np/$1 [R=302,L]
 
