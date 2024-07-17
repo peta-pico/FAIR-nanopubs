@@ -84,6 +84,10 @@ if [ -f doc-x/$1-namemap.csv ]; then
   done < doc-x/$1-namemap.csv
 fi
 
+if [ -x doc-x/$1-postprocess.sh ]; then
+  doc-x/$1-postprocess.sh
+fi
+
 cp $1.trig doc/$1/ontology.trig
 
 rm -f doc/$1/index-en.htmlr

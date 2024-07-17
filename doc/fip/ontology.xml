@@ -216,6 +216,19 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/has-declaration-index -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-declaration-index">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:range rdf:resource="http://purl.org/nanopub/x/NanopubIndex"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-declaration-index"/>
+        <rdfs:label xml:lang="en">has declaration index</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/refers-to-principle -->
 
 
@@ -274,6 +287,15 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/nanopub/x/NanopubIndex -->
+
+
+    <owl:Class rdf:about="http://purl.org/nanopub/x/NanopubIndex">
+        <rdfs:label>Nanopublication Index</rdfs:label>
+    </owl:Class>
     
 
 
@@ -540,7 +562,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Practice"/>
         <rdfs:label xml:lang="en">FAIR practice</rdfs:label>
-        <skos:definition xml:lang="en">An adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community.</skos:definition>
+        <skos:definition xml:lang="en">A method description detailing the use of a specific resource or a combination of resources as applied by a community to achieve FAIR processing of information.</skos:definition>
     </owl:Class>
     
 

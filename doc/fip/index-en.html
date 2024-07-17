@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Mon May 06 08:23:11 CEST 2024", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Wed Jul 17 16:08:51 CEST 2024", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -57,11 +57,11 @@ function loadTOC(){
 
 <dl>
 <dt>Authors:</dt>
-<dd><a href="https://orcid.org/0000-0001-8888-635X"> Erik Schultes</a></dd><dd><a href="https://orcid.org/0000-0002-1267-0234"> Tobias Kuhn</a></dd><dd><a href="https://orcid.org/0000-0003-2195-3997"> Barbara Magagna</a></dd>
+<dd><a href="https://orcid.org/0000-0003-2195-3997">Barbara Magagna</a></dd><dd><a href="https://orcid.org/0000-0001-8888-635X">Erik Schultes</a></dd><dd><a href="https://orcid.org/0000-0002-1267-0234">Tobias Kuhn</a></dd>
 
 <dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/publicdomain/zero/1.0/-blue.svg" alt="https://creativecommons.org/publicdomain/zero/1.0/" /></a>
 </dd><dt>Cite as:</dt>
-<dd> Erik Schultes, Tobias Kuhn, Barbara Magagna. FAIR Implementation Profile (FIP) Ontology.</dd>
+<dd>Barbara Magagna, Erik Schultes, and Tobias Kuhn. FAIR Implementation Profile (FIP) Ontology.</dd>
 </dl>
 
 <a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
@@ -241,6 +241,9 @@ This ontology has the following classes and properties.</span>
          title="https://w3id.org/fair/fip/terms/Metadata-data-linking-schema">Metadata-data linking schema</a>
    </li>
    <li>
+      <a href="#http://purl.org/nanopub/x/NanopubIndex" title="http://purl.org/nanopub/x/NanopubIndex">Nanopublication Index</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/Provenance-model" title="https://w3id.org/fair/fip/terms/Provenance-model">Provenance model</a>
    </li>
    <li>
@@ -305,6 +308,10 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/has-declaration-index"
+         title="https://w3id.org/fair/fip/terms/has-declaration-index">has declaration index</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
@@ -615,6 +622,9 @@ This section provides details for each class and property defined by FAIR Implem
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Metadata-data-linking-schema"
             title="https://w3id.org/fair/fip/terms/Metadata-data-linking-schema">Metadata-data linking schema</a>
+      </li>
+      <li>
+         <a href="#http://purl.org/nanopub/x/NanopubIndex" title="http://purl.org/nanopub/x/NanopubIndex">Nanopublication Index</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Provenance-model" title="https://w3id.org/fair/fip/terms/Provenance-model">Provenance model</a>
@@ -1218,7 +1228,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Practice</p>
       <div class="comment">
-         <span class="markdown">An adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community.</span>
+         <span class="markdown">A method description detailing the use of a specific resource or a combination of resources as applied by a community to achieve FAIR processing of information.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1386,6 +1396,12 @@ This section provides details for each class and property defined by FAIR Implem
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile"
                title="https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile">Semantic Interoperability Profile</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/has-declaration-index"
+               title="https://w3id.org/fair/fip/terms/has-declaration-index">has declaration index</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
@@ -1923,6 +1939,22 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="http://purl.org/nanopub/x/NanopubIndex">
+      <h3>Nanopublication Index<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/nanopub/x/NanopubIndex</p>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/has-declaration-index"
+               title="https://w3id.org/fair/fip/terms/has-declaration-index">has declaration index</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Provenance-model">
       <h3>Provenance model<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -2214,6 +2246,10 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/has-declaration-index"
+            title="https://w3id.org/fair/fip/terms/has-declaration-index">has declaration index</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
             title="https://w3id.org/fair/fip/terms/refers-to-principle">refers to principle</a>
       </li>
@@ -2472,6 +2508,38 @@ This section provides details for each class and property defined by FAIR Implem
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
                   title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">FAIR Implementation Community</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/has-declaration-index">
+      <h3>has declaration index<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/has-declaration-index</p>
+      <div class="comment">
+         <span class="markdown">Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/has-declaration-index">https://w3id.org/fair/fip/latest/has-declaration-index</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://purl.org/nanopub/x/NanopubIndex" title="http://purl.org/nanopub/x/NanopubIndex">Nanopublication Index</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>

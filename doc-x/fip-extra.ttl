@@ -29,3 +29,6 @@ fair:I2 rdfs:label "I2" .
 fair:I3 rdfs:label "I3" .
 fair:R1.1 rdfs:label "R1.1" .
 fair:R1.2 rdfs:label "R1.2" .
+
+npx:NanopubIndex rdfs:label "Nanopublication Index" .
+

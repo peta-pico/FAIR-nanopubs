@@ -11,6 +11,12 @@
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/nanopub/x/NanopubIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Nanopublication Index"
+  } ]
+}, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -404,7 +410,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "An adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community."
+    "@value" : "A method description detailing the use of a specific resource or a combination of resources as applied by a community to achieve FAIR processing of information."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria",
@@ -1458,6 +1464,26 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Specifies the data steward for a FAIR implementation community"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/has-declaration-index",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/has-declaration-index"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has declaration index"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/nanopub/x/NanopubIndex"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/refers-to-principle",

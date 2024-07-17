@@ -33,6 +33,9 @@ fair:I3 rdfs:label "I3" .
 fair:R1.1 rdfs:label "R1.1" .
 fair:R1.2 rdfs:label "R1.2" .
 
+npx:NanopubIndex rdfs:label "Nanopublication Index" .
+
+
 <https://w3id.org/fair/fip/terms/FIP-Ontology> a <http://www.w3.org/2002/07/owl#Ontology>;
   <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
     <https://orcid.org/0000-0003-2195-3997>;
@@ -217,7 +220,7 @@ fair:R1.2 rdfs:label "R1.2" .
     <https://w3id.org/fair/fip/latest/FAIR-Practice>;
   <http://www.w3.org/2000/01/rdf-schema#label> "FAIR practice"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
-  <http://www.w3.org/2004/02/skos/core#definition> "An adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community."@en .
+  <http://www.w3.org/2004/02/skos/core#definition> "A method description detailing the use of a specific resource or a combination of resources as applied by a community to achieve FAIR processing of information."@en .
 
 <https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/FAIR-Specification>;
@@ -423,6 +426,13 @@ fair:R1.2 rdfs:label "R1.2" .
   <http://www.w3.org/2000/01/rdf-schema#label> "declared for case study"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Case-Study>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the case study it refers to."@en .
+
+<https://w3id.org/fair/fip/terms/has-declaration-index> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-declaration-index>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "has declaration index"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/nanopub/x/NanopubIndex>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations."@en .
 
 <https://w3id.org/fair/fip/terms/considerations> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;

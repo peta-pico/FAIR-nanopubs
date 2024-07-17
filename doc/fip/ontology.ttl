@@ -134,6 +134,15 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                    <http://www.w3.org/2004/02/skos/core#definition> "Specifies the data steward for a FAIR implementation community"@en .
 
 
+###  https://w3id.org/fair/fip/terms/has-declaration-index
+<https://w3id.org/fair/fip/terms/has-declaration-index> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                        rdfs:range <http://purl.org/nanopub/x/NanopubIndex> ;
+                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/has-declaration-index> ;
+                                                        rdfs:label "has declaration index"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations."@en .
+
+
 ###  https://w3id.org/fair/fip/terms/refers-to-principle
 <https://w3id.org/fair/fip/terms/refers-to-principle> rdf:type owl:ObjectProperty ;
                                                       rdfs:range <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> ;
@@ -166,6 +175,11 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 #################################################################
 #    Classes
 #################################################################
+
+###  http://purl.org/nanopub/x/NanopubIndex
+<http://purl.org/nanopub/x/NanopubIndex> rdf:type owl:Class ;
+                                         rdfs:label "Nanopublication Index" .
+
 
 ###  https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> rdf:type owl:Class ;
@@ -344,7 +358,7 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                 rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
                                                 rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Practice> ;
                                                 rdfs:label "FAIR practice"@en ;
-                                                <http://www.w3.org/2004/02/skos/core#definition> "An adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community."@en .
+                                                <http://www.w3.org/2004/02/skos/core#definition> "A method description detailing the use of a specific resource or a combination of resources as applied by a community to achieve FAIR processing of information."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria

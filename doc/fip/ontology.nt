@@ -123,6 +123,15 @@
 <https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/2000/01/rdf-schema#label> "has data steward"@en .
 <https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/2004/02/skos/core#definition> "Specifies the data steward for a FAIR implementation community"@en .
 # 
+# https://w3id.org/fair/fip/terms/has-declaration-index
+<https://w3id.org/fair/fip/terms/has-declaration-index> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/fair/fip/terms/has-declaration-index> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/has-declaration-index> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/nanopub/x/NanopubIndex> .
+<http://purl.org/nanopub/x/NanopubIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/has-declaration-index> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-declaration-index> .
+<https://w3id.org/fair/fip/terms/has-declaration-index> <http://www.w3.org/2000/01/rdf-schema#label> "has declaration index"@en .
+<https://w3id.org/fair/fip/terms/has-declaration-index> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations."@en .
+# 
 # https://w3id.org/fair/fip/terms/refers-to-principle
 <https://w3id.org/fair/fip/terms/refers-to-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/refers-to-principle> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> .
@@ -164,6 +173,9 @@
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/nanopub/x/NanopubIndex
+<http://purl.org/nanopub/x/NanopubIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Nanopublication Index" .
 # 
 # https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -319,7 +331,7 @@
 <https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Practice> .
 <https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR practice"@en .
-<https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2004/02/skos/core#definition> "An adopted use of a specific protocol, tool, procedure or workflow to support FAIRification within a community."@en .
+<https://w3id.org/fair/fip/terms/FAIR-Practice> <http://www.w3.org/2004/02/skos/core#definition> "A method description detailing the use of a specific resource or a combination of resources as applied by a community to achieve FAIR processing of information."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria
 <https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
