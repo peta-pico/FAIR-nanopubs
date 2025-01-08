@@ -118,6 +118,18 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community (FIC) is a self-identified collection of people and/or organizations with the aim to implement the FAIR Principles"@en .
 
+<https://w3id.org/fair/fip/terms/Mature-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/Mature-Community>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Mature community"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community that has reached maturity"@en .
+
+<https://w3id.org/fair/fip/terms/Emerging-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/Emerging-Community>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Emerging community"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community that hasn't reached maturity yet"@en .
+
 <https://w3id.org/fair/fip/terms/Cross-Domain-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Cross-Domain-Community>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Cross domain community"@en;

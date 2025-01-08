@@ -434,6 +434,18 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/Emerging-Community -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Emerging-Community">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Emerging-Community"/>
+        <rdfs:label xml:lang="en">Emerging community</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR Implementation Community that hasn&apos;t reached maturity yet</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/FAIR-Case-Study -->
 
 
@@ -743,6 +755,18 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Knowledge-representation-language"/>
         <rdfs:label xml:lang="en">Knowledge representation language</rdfs:label>
         <skos:definition xml:lang="en">A language specification that enables knowledge to be processed by machines.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Mature-Community -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Mature-Community">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Mature-Community"/>
+        <rdfs:label xml:lang="en">Mature community</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR Implementation Community that has reached maturity</skos:definition>
     </owl:Class>
     
 

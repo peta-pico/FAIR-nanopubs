@@ -168,6 +168,8 @@ RewriteRule ^fip/latest/FAIR-Qualification-Criteria$ http://purl.org/np/RA_QeDhC
 RewriteRule ^fip/latest/FAIR-Case-Study$ http://purl.org/np/RAbdww2Mnva2puMUwkgiv3Ai_Dq3pihigeyuj9GiDnq0Q [R=302,L]
 RewriteRule ^fip/latest/FIP-No-Choice-Declaration$ http://purl.org/np/RA7Yv2l9mMe9a0iW95MRm9FgISlcQpPNFXv6bnwfQaBEo [R=302,L]
 RewriteRule ^fip/latest/FAIR-Implementation-Community$ http://purl.org/np/RAbAkE1oLYsCgYDt5yaoJEj2x_mPb7H3EA0amnjwyZg9I [R=302,L]
+RewriteRule ^fip/latest/Mature-Community$ http://purl.org/np/RAaAcPVTRgugIYQorCUJDWy19zxep4611qPvjVSE7rZ_Q [R=302,L]
+RewriteRule ^fip/latest/Emerging-Community$ http://purl.org/np/RAA2c6ZmoSHW_SJMGipoxf9lNWug7YZ4ENVtMu5dSmKn4 [R=302,L]
 RewriteRule ^fip/latest/Cross-Domain-Community$ http://purl.org/np/RAD8yvCCnDLxVztq4PbvpFJsJqYv0CQdxKe6dsrnkstV8 [R=302,L]
 RewriteRule ^fip/latest/Domain-Specific-Community$ http://purl.org/np/RAx4t-goSEKa9bUNMidKrjeFbaeuu7l4Kout5SfmLICzg [R=302,L]
 RewriteRule ^fip/latest/Specific-Community$ http://purl.org/np/RA9Cl2lS1wbgwwZ8J-GnkjlbwAbd-jWVKQPGhpkFj7CDE [R=302,L]
@@ -240,7 +242,7 @@ RewriteRule ^fip/latest/FIP-Question-R1.1-D$ http://purl.org/np/RAs0YeHmBo5jJIuM
 RewriteRule ^fip/latest/FIP-Question-R1.2-MD$ http://purl.org/np/RAgrqmnFtqErqVw4PEGUvVSArdVoYNyYSGEhfD29Ob1yI [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-R1.2-D$ http://purl.org/np/RA-TkuQ_7EluDwUfEY0DRxe5w7Ug4829ShM77pEwQuHMI [R=302,L]
 
-RewriteRule ^fip/latest/index$ http://purl.org/np/RAPRNGu_fshzhkkGr9ws4HjJYBrMK4nRihm_pVTLNqxd0 [R=302,L]
+RewriteRule ^fip/latest/index$ http://purl.org/np/RA739P6Psw5J43s0j-I-oHggfigG17VpIbKO0rTxB1LpY [R=302,L]
 
 
 RewriteRule ^maturity_indicator/terms/(.+)$ https://w3id.org/fair/maturity_indicator/latest/$1 [R=302,L]
