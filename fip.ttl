@@ -121,32 +121,14 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
 <https://w3id.org/fair/fip/terms/Mature-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Mature-Community>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Mature community"@en;
-  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community that has reached maturity"@en .
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A well-established community interested to implement FAIR in their data and services."@en .
 
 <https://w3id.org/fair/fip/terms/Emerging-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Emerging-Community>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Emerging community"@en;
-  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community that hasn't reached maturity yet"@en .
-
-<https://w3id.org/fair/fip/terms/Cross-Domain-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/fip/latest/Cross-Domain-Community>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Cross domain community"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Communities with cross-domain coverage"@en .
-
-<https://w3id.org/fair/fip/terms/Domain-Specific-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/fip/latest/Domain-Specific-Community>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Domain specific community"@en;
-  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Communities with domain coverage"@en .
-
-<https://w3id.org/fair/fip/terms/Specific-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-    <https://w3id.org/fair/fip/latest/Specific-Community>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Specific community"@en;
-  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Communities with specific coverage within a domain"@en .
+  <http://www.w3.org/2004/02/skos/core#definition> "An early-stage community committed to adopting and promoting FAIR principles for its data and services from the outset."@en .
 
 <https://w3id.org/fair/fip/terms/has-data-steward> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
@@ -320,6 +302,18 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service>;
   <http://www.w3.org/2004/02/skos/core#definition> "A service that indexes metadata and data and provides search over that index."@en .
+
+<https://w3id.org/fair/fip/terms/Generalist-Registry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/Generalist-Registry>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Generalist registry"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/Registry>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A registry designed to collect, provide access to, and enable searching of data without any restrictions on the domain."@en .
+
+<https://w3id.org/fair/fip/terms/Domain-Specific-Registry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/Domain-Specific-Registry>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Domain-specific registry"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/Registry>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A registry designed to collect, provide access to, and enable searching of data within a particular domain or subject area"@en .
 
 <https://w3id.org/fair/fip/terms/Communication-protocol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Communication-protocol>;
