@@ -1,0 +1,38 @@
+@prefix this: <https://w3id.org/fair/test/np/index/RACIIanVr_CyxQfBZG4_j5KciBtCbNcZOcPzVYUvxz0D8> .
+@prefix sub: <https://w3id.org/fair/test/np/index/RACIIanVr_CyxQfBZG4_j5KciBtCbNcZOcPzVYUvxz0D8#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  this: npx:includesElement <https://w3id.org/fair/test/np/a/RAR9iqNDTSo1stvUtRyhYRJRnVat0R4BqE9VA_z6xwego>,
+      <https://w3id.org/fair/test/np/b/RAC0aOFqrZcSVX1Kq9QiAkHMZPQx36EUI23XRZcCongps>, <https://w3id.org/fair/test/np/c/RAr8kq2LzgDgrzZIpZ1QKJaSLnoaZz0zWJB2btMsu49Hs>,
+      <https://w3id.org/fair/test/np/d/RAsheEcsDcIJWTYAu-yACSFQMKTo6HAjVZLQ4dMF1irKs> .
+}
+
+sub:provenance {
+  sub:assertion a npx:IndexAssertion .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "lmkUQ4NmgBNlG3InFJnfB/R2izfB0zTOBCHf5pAjiY/554ug317SmXzjRM2Qt/KXH6UML1317qHRNA7pPCEkbgjkyJrz5SQg1WvfjHmcO8d0ShZs/jeiu/ByMxqoHyONJRFsF8Ti5PungLCSHC07VwKUQ+Fbgj2xOdWM6Y7yjks=";
+    npx:hasSignatureTarget this: .
+  
+  this: a npx:NanopubIndex;
+    dce:title "Test nanopublications";
+    dct:created "2025-01-08T10:27:11.131+01:00"^^xsd:dateTime;
+    dct:creator <https://orcid.org/0000-0002-1267-0234>;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:supersedes <https://w3id.org/fair/test/np/index/RAo9TWAwSL0qUmQOAhKUKLXpBvoB1T3je4iFswQDNmoyY> .
+}
