@@ -296,7 +296,7 @@ fair:A1.2 rdfs:label "A1.2" .
     "McMurry et al. 2017" .
 
 <https://doi.org/10.5281/zenodo.3267434> <http://www.w3.org/2000/01/rdf-schema#label>
-    "Juty et al. 2019" .
+    "Juty et al. 2019", "Juty et al. 2019" .
 
 <https://w3id.org/fair/icc/terms/F1-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "Principle F1 states that digital resources, i.e. data and metadata, must be assigned a globally unique and persistent identifier in order to be found and resolved by computers. This is the most fundamental of the FAIR principles, as globally unique and persistent identifiers are essential elements found in all of the other FAIR principles. Globally unique means that the identifier is guaranteed to unambiguously refer to exactly one resource in the world. Therefore, it is insufficient for it to be unique only locally (e.g. unique within a single, local database). Persistence refers to the requirement that this globally unique identifier is never reused in another context, and continues to identify the same resource, even if that resource no longer exists, or moves. In practice, this often involves using a third-party to generate an identifier that has guaranteed longevity and is project/organization-independent.";
@@ -315,19 +315,16 @@ fair:A1.2 rdfs:label "A1.2" .
     "Data Documentation Initiative" .
 
 <https://doi.org/10.1038/s41587-019-0080-8> <http://www.w3.org/2000/01/rdf-schema#label>
-    "Sansone et al. 2019" .
+    "Sansone et al. 2019", "Sansone et al. 2019" .
 
 <https://doi.org/10.25504/FAIRsharing.1t5ws6> <http://www.w3.org/2000/01/rdf-schema#label>
     "Data Documentation Initiative on FAIRsharing" .
-
-<https://doi.org/10.5281/zenodo.3267434> <http://www.w3.org/2000/01/rdf-schema#label>
-    "Juty et al. 2019" .
 
 <https://fairsharing.org/FAIRsharing.s248mf> <http://www.w3.org/2000/01/rdf-schema#label>
     "W3C HCLS Dataset Description on FAIRsharing" .
 
 <https://fairsharing.org/standards/> <http://www.w3.org/2000/01/rdf-schema#label>
-    "FAIRsharing" .
+    "FAIRsharing", "FAIRsharing" .
 
 <https://w3id.org/fair/icc/terms/F2-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "Whereas principle F1 enables unambiguous identification of resources of interest, principle F2 speaks to the ability to discover a resource of interest through, for example, search or filtering. Digital resources must be described with rich metadata - descriptors of the content of the resource referred to by that identifier. It is hard to generally define the minimally required 'richness' of this metadata, except that the more generous it is, both for humans and computers, the more specifically findable it becomes in refined searches. While other principles speak to the specific kinds of metadata that should be included, principle F2 simply says that a digital resource that is not well-described cannot be accurately discovered. Thus, this principle encourages data providers to consider the various facets of search that might be employed by a user of their data, and to support those users in their discovery of the resource. To enable both global and local search engines to locate a resource, generic and domain-specific descriptors should be provided.";
@@ -436,7 +433,7 @@ fair:A1.2 rdfs:label "A1.2" .
     "Data Management Plan" .
 
 <https://doi.org/10.1162/dint_a_00043> <http://www.w3.org/2000/01/rdf-schema#label>
-    "Jones et al. 2019" .
+    "Jones et al. 2019", "Jones et al. 2019" .
 
 <https://doi.org/10.25490/a97f-egyk> <http://www.w3.org/2000/01/rdf-schema#label>
     "Martone et al. 2014" .
@@ -531,9 +528,6 @@ fair:A1.2 rdfs:label "A1.2" .
 <https://w3id.org/fair/principles/terms/R1.1> <http://www.w3.org/2000/01/rdf-schema#label>
     "R1.1" .
 
-<https://doi.org/10.1162/dint_a_00043> <http://www.w3.org/2000/01/rdf-schema#label>
-    "Jones et al. 2019" .
-
 <https://ds-wizard.org> <http://www.w3.org/2000/01/rdf-schema#label> "Data Stewardship Wizard" .
 
 <https://more.metadatacenter.org/tools-training/outreach/cedar-template-model> <http://www.w3.org/2000/01/rdf-schema#label>
@@ -561,12 +555,6 @@ fair:A1.2 rdfs:label "A1.2" .
 
 <https://doi.org/10.1038/ng1201-365> <http://www.w3.org/2000/01/rdf-schema#label>
     "Brazma et al. 2001" .
-
-<https://doi.org/10.1038/s41587-019-0080-8> <http://www.w3.org/2000/01/rdf-schema#label>
-    "Sansone et al. 2019" .
-
-<https://fairsharing.org/standards/> <http://www.w3.org/2000/01/rdf-schema#label>
-    "FAIRsharing" .
 
 <https://w3id.org/fair/icc/terms/R1.3-Explanation> a <https://w3id.org/fair/icc/terms/Explanation>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "Where community standards or best practices for data archiving and sharing exist, they should be followed. Several disciplinary communities have defined Minimal Information Standards describing most often the minimal set of metadata items required to assess the quality of the data acquisition and processing and to facilitate reproducibility. Such standards are a good start, noting that true (interdisciplinary) reusability will generally require richer metadata. For a list of such standards, consult FAIRsharing (https://fairsharing.org/standards/, doi:10.1038/s41587-019-0080-8).";

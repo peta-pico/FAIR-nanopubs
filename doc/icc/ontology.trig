@@ -1,20 +1,21 @@
-@prefix this: <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/RAIzJFInXhodHuHbFvQHlk4Yl1w1SkwNBjG7KSMizpwRc> .
-@prefix sub: <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/RAIzJFInXhodHuHbFvQHlk4Yl1w1SkwNBjG7KSMizpwRc#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/FAIR-Principles-Explained-Working-Group> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix this: <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/RATGxiJD55SgsU-IWCWshNVT7jNIHZrOFi6MkO55dTPr8> .
+@prefix sub: <https://w3id.org/fair/icc/np/FAIR-Principles-Explained-Working-Group/RATGxiJD55SgsU-IWCWshNVT7jNIHZrOFi6MkO55dTPr8#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/FAIR-Principles-Explained-Working-Group> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -116,43 +117,45 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "jd1/zeUw/eqbjMoKc6za9M5Q5rDQ4koxMtHHui7H3OvQVYA2R9FzFhvaAbQoyIiMAwq7Qr0jzj96gkwRFjcG+OHLphvrekSBpFGObJUzOpBQ8HWQ3oExOqAHBfEE6aA2t3xuA7ndkhHfoXHH2vfyOoOMk2bqtJp24Lnek3PLGHA=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:rights <https://creativecommons.org/publicdomain/zero/1.0> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix this: <https://w3id.org/fair/icc/np/FAIR-ICC-Model/RAbU4Yae5K-MAi3KBvkjp8DcOh_j2cywK27LpLspPCNlY> .
-@prefix sub: <https://w3id.org/fair/icc/np/FAIR-ICC-Model/RAbU4Yae5K-MAi3KBvkjp8DcOh_j2cywK27LpLspPCNlY#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix latest: <https://w3id.org/fair/icc/latest/FAIR-ICC-Model> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix this: <https://w3id.org/fair/icc/np/FAIR-ICC-Model/RAAIx_KDI1q4mLVy7QH2JiC-PQGQQR67k2X0dYDN9O2Dw> .
+@prefix sub: <https://w3id.org/fair/icc/np/FAIR-ICC-Model/RAAIx_KDI1q4mLVy7QH2JiC-PQGQQR67k2X0dYDN9O2Dw#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/FAIR-ICC-Model> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-  icc:FAIR-ICC-Model dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234,
-      orcid:0000-0003-4818-2360;
+  icc:FAIR-ICC-Model a owl:Ontology;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:description "This is the formal model describing the Implementation Choices and Challenges for the FAIR principles.";
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     dct:title "FAIR Implementation Choices and Challenges Model";
     vann:preferredNamespacePrefix "icc";
     vann:preferredNamespaceUri "https://w3id.org/fair/icc/terms/";
-    a owl:Ontology;
     rdfs:isDefinedBy latest:;
     rdfs:seeAlso fair:FAIR .
 }
@@ -162,33 +165,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "WYM/hZtivHm38Fe4U6OQ4zglXJacRx29OAyWgilUOalLdEQJIRnAGjXioIfp+zZ+5Kmg2zOtdES63O6IM5Y+BuSQTmqcGQPKbPej/WiPBsM2ikWet89sA8auHRFKRwJP1VgveRuC6W9/tJSYPClY57PYQd3/KgoBIIwLrRFfgfc=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix this: <https://w3id.org/fair/icc/np/Choice/RAVzdItGRIcdSyY2SIjOSx07ohyd5EMQxxjUnr9BQ9ICc> .
-@prefix sub: <https://w3id.org/fair/icc/np/Choice/RAVzdItGRIcdSyY2SIjOSx07ohyd5EMQxxjUnr9BQ9ICc#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/Choice> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/Choice/RAg14BgVDVtx4CZuADLTCscequ_xd2by2BLh-kTvxHJ64> .
+@prefix sub: <https://w3id.org/fair/icc/np/Choice/RAg14BgVDVtx4CZuADLTCscequ_xd2by2BLh-kTvxHJ64#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Choice> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -203,33 +207,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "PYXUxpCNw7AbeC7l4CAs+JWjmnbzCgssPGmJfYMe4mObhKM/gj1rLfJIDXYPPDYnPKChn6icdwJxtGFMk+avKYm0P/+SDYpoXV2pOxVS1nEl4PIO/fP10m6ujX05zwMEqLWvobtvm8IqlPqdtOzu4BLJ91eZXWI+15YsqFxT1TA=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix this: <https://w3id.org/fair/icc/np/Challenge/RAlXOsmhYthYfRhaYW5u4OV8668RsjaOz5iJXkPAuXJxs> .
-@prefix sub: <https://w3id.org/fair/icc/np/Challenge/RAlXOsmhYthYfRhaYW5u4OV8668RsjaOz5iJXkPAuXJxs#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/Challenge> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/Challenge/RAt2WJVemaGicoQ9hOnwmqIyHGr93SnboTQ5c2prWuSiU> .
+@prefix sub: <https://w3id.org/fair/icc/np/Challenge/RAt2WJVemaGicoQ9hOnwmqIyHGr93SnboTQ5c2prWuSiU#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Challenge> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -244,33 +249,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "q81CgiICcv/xqGKyQHaOyXKjhH1i0c+7aje+DubE5aBVCp6xl5Fp25kl5pChD6J2DONt+nUfsoZUBwQ6MVDo2RroRtpq5MSVclXJQbVuAcw8V7bPDvvT5fFvMT127MxoTPkT0QiHqlwf5BkIPWo8UtosR1qFzmpXGOIsIJYOedE=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix this: <https://w3id.org/fair/icc/np/Declaration/RAwZxfYbMd9_9FiAvKD7O4vlUgfROoL5gHfMxu0vKm_0g> .
-@prefix sub: <https://w3id.org/fair/icc/np/Declaration/RAwZxfYbMd9_9FiAvKD7O4vlUgfROoL5gHfMxu0vKm_0g#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/Declaration> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/Declaration/RAzU8PCkZaqs7PVNm4JRfCvARPnKRaZ6BL56-DRVhWZE4> .
+@prefix sub: <https://w3id.org/fair/icc/np/Declaration/RAzU8PCkZaqs7PVNm4JRfCvARPnKRaZ6BL56-DRVhWZE4#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Declaration> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -285,33 +291,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "YjsLdVWk+qRdUUEvYzVvzQy2Qoak2HUqsO9k1QUANtI9TBRavKf3zAJG1392xwaHvBKBWUnwgUxH0UK3KkCLHvSqQLtOH/HLAPiIlS9/nlGmn+Yg21bghZsRax55x09ZJIYJLC1TzEWTmnwfrrKVE+CA1yKQ5v6+TpZBo3mkAz4=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix this: <https://w3id.org/fair/icc/np/ChoiceDeclaration/RABBdmfpeFNPViNA4zzTiQLhUyPXE5C4K66ljoIwR8D9c> .
-@prefix sub: <https://w3id.org/fair/icc/np/ChoiceDeclaration/RABBdmfpeFNPViNA4zzTiQLhUyPXE5C4K66ljoIwR8D9c#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/ChoiceDeclaration> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/ChoiceDeclaration/RA1gmcb_BsNUYBVnTk0-lZOCCCs8ef5cpNn5tMO6mgy9o> .
+@prefix sub: <https://w3id.org/fair/icc/np/ChoiceDeclaration/RA1gmcb_BsNUYBVnTk0-lZOCCCs8ef5cpNn5tMO6mgy9o#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/ChoiceDeclaration> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -326,33 +332,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "i+InSJp1y4D2Wy0Q7c0vtB4fPuY2k1DOi5wpcMRP1lDLqVSzffhTfEMVOZfnnwv5n0IGdpqACQMFCvMHzqo4QB/NyU64Sgf4fYCI4FqtMIuCcaJeO1jZPytC65dBneT1yX10aqWTXFFZweCdzZON84uxnJ8e0OF0D/qsWnIGG8U=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix this: <https://w3id.org/fair/icc/np/ChallengeDeclaration/RAB-CVmORNR6UvG5JYsRGXmw1GsmJDGmjTT_YgouPzPCI> .
-@prefix sub: <https://w3id.org/fair/icc/np/ChallengeDeclaration/RAB-CVmORNR6UvG5JYsRGXmw1GsmJDGmjTT_YgouPzPCI#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/ChallengeDeclaration> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/ChallengeDeclaration/RAtAqbsBkMOhdqNcstMMxG4MExXih3xqX9mAK-hxHbxTE> .
+@prefix sub: <https://w3id.org/fair/icc/np/ChallengeDeclaration/RAtAqbsBkMOhdqNcstMMxG4MExXih3xqX9mAK-hxHbxTE#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/ChallengeDeclaration> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -367,33 +373,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "MeqELoI1bc5g/aJhIGvoY93XBzG/9yHJxaeWKMjyFhnEjArEeHqCLmtphlZUM6MD3UgBK4sSdtUu4mdGpppbBEOK6IzrKhsFGZAF17LPEUjXBvYBbCgRyCEhERyY6MCjp1nqllhlO6ejW7K0FJxKsE73C1WXRAD6LVj0UyTsNdo=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix this: <https://w3id.org/fair/icc/np/Community/RAU8r8fNcs-CtB_84Sgqt1wW3xhdRYrfm1EhSrPfUqfy8> .
-@prefix sub: <https://w3id.org/fair/icc/np/Community/RAU8r8fNcs-CtB_84Sgqt1wW3xhdRYrfm1EhSrPfUqfy8#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/Community> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/Community/RA_P8plKztrs0YHNY-BCC3UkyiN0B9YssmdFpuICuF_b4> .
+@prefix sub: <https://w3id.org/fair/icc/np/Community/RA_P8plKztrs0YHNY-BCC3UkyiN0B9YssmdFpuICuF_b4#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Community> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -408,33 +415,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "pQQVzV9+T7G4O5CfZUBzIKsyrkwvUZp56XZJO52f4kqPDy83YhXpbUevjdJtbACrgqWrG2aeC4Bm1AnSJfOgl8Ml1tDbzmM9W1Y6nkCpsZ3YwN2kC0Kgf0R/AAT9KHcPzBMaSi1QsnmzY4MpETnoUwvtOQ3jIKFGsq94/ECMwoc=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix this: <https://w3id.org/fair/icc/np/Resource/RANrdR2CMwS5rGlF9AWG_8t5jDYcGSY8hknNFAfPHRcRo> .
-@prefix sub: <https://w3id.org/fair/icc/np/Resource/RANrdR2CMwS5rGlF9AWG_8t5jDYcGSY8hknNFAfPHRcRo#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/Resource> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/Resource/RARwwS9d1JI-JgiSvX7Ys0b4dAF0-TUhiT6CHzs4nnXBE> .
+@prefix sub: <https://w3id.org/fair/icc/np/Resource/RARwwS9d1JI-JgiSvX7Ys0b4dAF0-TUhiT6CHzs4nnXBE#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Resource> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -449,33 +457,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "hUJQIuvKnrapZLsjPh864gDOc4u1GLetdgQbYYiX80vCwO+MPI1NxR6Bj80GceKg5F9Wjom7HruZU0KgTACw0G/1COkjQbeeXKL8SIrfFTi5CyLFO+OoqONUPuOp2K5RVrCmNk4l18PFZV9JRqUznSlgiwiGIdiRkjGaVOOJWeY=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix this: <https://w3id.org/fair/icc/np/Explanation/RAfw5xlEcBm3FDe9hY_QYnT0jXMd5i-x8Nx6dMlVDAbyY> .
-@prefix sub: <https://w3id.org/fair/icc/np/Explanation/RAfw5xlEcBm3FDe9hY_QYnT0jXMd5i-x8Nx6dMlVDAbyY#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/Explanation/RATVIlA8ipc4s3AF-EwRNVQ_Uo9gCynAurzgkYM4r-NmU> .
+@prefix sub: <https://w3id.org/fair/icc/np/Explanation/RATVIlA8ipc4s3AF-EwRNVQ_Uo9gCynAurzgkYM4r-NmU#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -490,34 +499,35 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "XEMDO4VqT9syuSfEo4AXOI/HHSjqq/sH8tDd4vdn0hCcWDDNlmoGmqL7wiUOX02vQrgboy9o0s7ROPisEyGOkmGA8Wjf37h/XbSPhm4Uq5pLIjmM4uIZgfnNCH9uf1LRJY0+8e/ohvVC3yY/gePaOztnCvaPByZEmLektHAhfUc=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix this: <https://w3id.org/fair/icc/np/explains-principle/RAOxu4DFDTIDQ4hVvU90X1oVtFNs5zPamj34tQ-JjIscY> .
-@prefix sub: <https://w3id.org/fair/icc/np/explains-principle/RAOxu4DFDTIDQ4hVvU90X1oVtFNs5zPamj34tQ-JjIscY#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/explains-principle> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix pav: <http://purl.org/pav/> .
+@prefix this: <https://w3id.org/fair/icc/np/explains-principle/RAUqhx5p42Iab53A8pIb5_LtIfGi1lH622sD_hHxDtFmI> .
+@prefix sub: <https://w3id.org/fair/icc/np/explains-principle/RAUqhx5p42Iab53A8pIb5_LtIfGi1lH622sD_hHxDtFmI#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/explains-principle> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -534,34 +544,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "jUs/gAvCLeDlPt3CoNbf2wnUwCYUO39SGXPEuTSGu4CSc+M+cGg6TFL1rbPCOq2QxC8tBRNy2Do0n2ICOxowOp5CHUOOrp/icbeI6jAAJaN4MNF74fFv185u9XUL9cqlDock7EQ1xaXL2sD/yHIvyFWAhCjTESHV8zj3T7uW3wo=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RAOdMOSqMLQDhwCY-okOGGgBlMIruSS9NfAgvksDREJxo> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RAOdMOSqMLQDhwCY-okOGGgBlMIruSS9NfAgvksDREJxo#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/implementation-considerations> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-considerations/RAUtCnrUUbfWkt8lxnVEIlSfb1OGMj40esxLYbi04ZUzA> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-considerations/RAUtCnrUUbfWkt8lxnVEIlSfb1OGMj40esxLYbi04ZUzA#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/implementation-considerations> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -577,33 +587,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "WR37fZ1jW+ZXFYPh60t5gLW7NWhmSVGwCXwV8szBGahtz0CsJKVGEbmfOdyk669jQgHQm61ekhnVsBMn9F3SJ38JgqDfftEWTf6LgZ0qye9foNZm5aw1wKTo+Nvhqu6uEKf1nO5pWlfdjvWhXbbOhEtp36LveTFY9gufDzxv01U=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RACYaRUBHUPx2tibRF1cJ2mYamVHnaYCMj-Xx87kvvpS4> .
-@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RACYaRUBHUPx2tibRF1cJ2mYamVHnaYCMj-Xx87kvvpS4#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/implementation-examples> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/implementation-examples/RA2PbysNCpLH3oOyyW4gIkfafXuWbg33UU_Zn7dci6xZI> .
+@prefix sub: <https://w3id.org/fair/icc/np/implementation-examples/RA2PbysNCpLH3oOyyW4gIkfafXuWbg33UU_Zn7dci6xZI#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/implementation-examples> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -619,33 +630,35 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "juvgyw1Sk8SMvar1M2z0wayqOohggUL5zFn7oL6hCDsaGvPHGJF/PZxGaIy+5RbDR/tpYFNVy+0l1LXG9AWvev25OLIzIPBaEnXJw5N4Ezn542LGLwAfeFyMDjT5mBIE+PPIo9rvgg3G8bxcJh515OfTD/sT08OcrpO1t6zLyJU=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix this: <https://w3id.org/fair/icc/np/refers-to-principle/RAzJwYsHzF1gVM8isfFA31ewMPC8lDg87iu1OUntrxBuk> .
-@prefix sub: <https://w3id.org/fair/icc/np/refers-to-principle/RAzJwYsHzF1gVM8isfFA31ewMPC8lDg87iu1OUntrxBuk#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-principle> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix pav: <http://purl.org/pav/> .
+@prefix this: <https://w3id.org/fair/icc/np/refers-to-principle/RATp3jpCH9LkvOko1GSu2g81stRp2KZAeR4MyOj1dgg9k> .
+@prefix sub: <https://w3id.org/fair/icc/np/refers-to-principle/RATp3jpCH9LkvOko1GSu2g81stRp2KZAeR4MyOj1dgg9k#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-principle> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -661,34 +674,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "UthB9Dqzw79/LINGjbRBxZ02TIvm6Au5YLU/rQORSpknHV/48qt5mpx7d6Q12U/tq7cS2qapQY9bQfYxDTvy35TooJbkSOC+4huN2owqDbTx5846WAwfbqKssdKXmctiIpWNmUQgk4oSP8dH9p56OXRMcdgBpKZSeqMFhd2yrZA=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix this: <https://w3id.org/fair/icc/np/related-challenge/RASCiEgIEFsfJk0iQmqoSaQlP0MQ950_XwBW0kinTUIrM> .
-@prefix sub: <https://w3id.org/fair/icc/np/related-challenge/RASCiEgIEFsfJk0iQmqoSaQlP0MQ950_XwBW0kinTUIrM#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/related-challenge> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/related-challenge/RAfmL7KRuXWeuj8sqcorIhh2b3CDn_RX89AR6o2mgydpg> .
+@prefix sub: <https://w3id.org/fair/icc/np/related-challenge/RAfmL7KRuXWeuj8sqcorIhh2b3CDn_RX89AR6o2mgydpg#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/related-challenge> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -705,34 +718,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "JPPEh9lcdJMXZ58Ehi9fCIYLuRoXP4LiE5DTCDg6fOGf5lvXJJRFMOGQLWmN4NAlLx7t6CSqBn4xAzA3fNR5NN7tZPoxk/u+d1/ArGVaiIflDhlTrLMvXu+WGLYwxgicRnpsJ1gs1IQmsyMQBLKwAR7ktobubyAp1W1i15UX+J0=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix this: <https://w3id.org/fair/icc/np/refers-to-choice/RAqsUQjgI2F6RJ5UeLUzet0O10FdoBbyDJ_g-kguBsGgI> .
-@prefix sub: <https://w3id.org/fair/icc/np/refers-to-choice/RAqsUQjgI2F6RJ5UeLUzet0O10FdoBbyDJ_g-kguBsGgI#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-choice> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/refers-to-choice/RASvBa2viFD7u6E0IY8n9xhAYDkL7GcRUWYMOiLxxL-KE> .
+@prefix sub: <https://w3id.org/fair/icc/np/refers-to-choice/RASvBa2viFD7u6E0IY8n9xhAYDkL7GcRUWYMOiLxxL-KE#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-choice> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -749,34 +762,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "cXt3gVPa9DCqxMo48cc5PEle0mtGG9nmTBvHiZioU1rGrRdVCPm1V2gIoWnnr5cMK/L/96HIxOz6PtTRYKXwhz0Zx7hKQQJzy3jeJP/Nr/f5cFj3HBtLd7/V4kpQnTjVPUsU3uF6iLlxxtv98AnARR9EhctgpdnJ+5luQ8/Nseo=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix this: <https://w3id.org/fair/icc/np/refers-to-challenge/RAyy5rB_wWeroxG9R0H9AnVydd8xCFHTSpginMrG_C_JQ> .
-@prefix sub: <https://w3id.org/fair/icc/np/refers-to-challenge/RAyy5rB_wWeroxG9R0H9AnVydd8xCFHTSpginMrG_C_JQ#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-challenge> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/refers-to-challenge/RAnmcEcee6H_vnOknVVRgunRmTrQThibXgHza6mK8KZ5c> .
+@prefix sub: <https://w3id.org/fair/icc/np/refers-to-challenge/RAnmcEcee6H_vnOknVVRgunRmTrQThibXgHza6mK8KZ5c#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/refers-to-challenge> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -793,34 +806,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "im//RhUUwF3kxRrBBa6lcznBU48NRWHA1kv/Ni4dLUKoJFEjc1sJBQtncKuFa+DLiMjDvRvXihCKKNbb020JYarNmZzCqySzMqxFqcwX8JjTxWSPWLM5HBXvj9sXZQQg64ypRkyT2CpMcRDKjGoJQ0p47VeQ23TlIquyrXMexU0=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix this: <https://w3id.org/fair/icc/np/declared-by/RAGRRxttAbn9-N_mD_PWa5gmY9Vh1jHqmJYGwsNmKp9fY> .
-@prefix sub: <https://w3id.org/fair/icc/np/declared-by/RAGRRxttAbn9-N_mD_PWa5gmY9Vh1jHqmJYGwsNmKp9fY#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/declared-by> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/declared-by/RA7cfWvEEtbiLLa8uZ_ZHe1PjKye6wRMFDLoeq4PaYJOc> .
+@prefix sub: <https://w3id.org/fair/icc/np/declared-by/RA7cfWvEEtbiLLa8uZ_ZHe1PjKye6wRMFDLoeq4PaYJOc#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/declared-by> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -837,34 +850,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "oj01rkxMatlbDspHPly398xwmKHs3xUbJo/9d1sZjIRgbFxD+/Y9/VpNtizoZl7mB6DiJw3rbruWNCMPJCbQcr8nhbWzTevY0ktppiKKER6EOPlcXwWX+oOWihCBmR2DAZ+rUgBFtrd15vuqhcig1/QQvmheL1IyBNYjf5zvFug=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix this: <https://w3id.org/fair/icc/np/chosen-resource/RARsj4NTi_U8rPTmJ7bL6cGZgb-atUqUHSGs5kc_R4D6s> .
-@prefix sub: <https://w3id.org/fair/icc/np/chosen-resource/RARsj4NTi_U8rPTmJ7bL6cGZgb-atUqUHSGs5kc_R4D6s#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/chosen-resource> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/chosen-resource/RA83xsp4BXFgZWYDNqqooTPJxda5HJBxTMlmNBjUwFhUk> .
+@prefix sub: <https://w3id.org/fair/icc/np/chosen-resource/RA83xsp4BXFgZWYDNqqooTPJxda5HJBxTMlmNBjUwFhUk#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/chosen-resource> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -881,34 +894,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "VURll9xTgQ9jUyLXb5v4Jdaz+XEoITto8/EUHKLsTuGAY9XlEgWxUfjrLVInxTaJT+cOsmbZ11+BgUtMPvi3rl6e/sOlahaVLk3YS5BSLRnmcbEtomblCNDGqcAUP69eLQcFplNbZFGMChXANsC5tN50Zi6n2EVLw2CocYxMLqg=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix this: <https://w3id.org/fair/icc/np/had-challenge/RAiKyrP13PsI8aqqXc9N3SJwDwoaJSVpV_FqZwlNsLVS4> .
-@prefix sub: <https://w3id.org/fair/icc/np/had-challenge/RAiKyrP13PsI8aqqXc9N3SJwDwoaJSVpV_FqZwlNsLVS4#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/had-challenge> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/had-challenge/RAD64rp4RtDg1hLYD08OgB1wyphfztOgtyWO6av9xQD_s> .
+@prefix sub: <https://w3id.org/fair/icc/np/had-challenge/RAD64rp4RtDg1hLYD08OgB1wyphfztOgtyWO6av9xQD_s#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix orcid: <https://orcid.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/had-challenge> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -925,29 +938,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "K+1l3ZVFUZRyV6U/HwPwwitIXhvbmw2HmDgNWLPn44kYmw8nwdfOknC88Beyui3CezzE5+vF9W0QnXXLvFXHizOmBR8sa4ZJwQsahYfkArMAzb2kjJDgQ1wNMXXLq2B3exCoyvUZf3oiWrCUVMTg2eMYajJ1mSqezajZcNVP+D8=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAIz8InxR_p9Dh5-j3SI6MHT-6gHu7AGBuh_m6L56USSg> .
-@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAIz8InxR_p9Dh5-j3SI6MHT-6gHu7AGBuh_m6L56USSg#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/F1-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Explanation/RAl0vVgvfIedEN6LCkQ_Hmsoa0X7cydFVcF9jACkeaRUQ> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Explanation/RAl0vVgvfIedEN6LCkQ_Hmsoa0X7cydFVcF9jACkeaRUQ#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F1-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -975,35 +993,35 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "VxY76B7tpaGdxLSidljisjXgAhD8nMM+UqibACZYeiwxMdQxjOSqm5ASF0mh0kQ9rS0XU/v8tE3cSYftaVaTEWyWNdmPThulFHrkXPpXl4zmrvJMecmaarysHILG9hsiYORuwjcEDz1ubU2jmxxCipg3uCm6sZ/MFvP+vZqbVS8=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/F1-Explanation/RA1HikSxbrsdMhHF5_TTqnKpd4eQ3RGoHDW-NL4JiPch8> .
+    npx:supersedes <https://w3id.org/fair/icc/np/F1-Explanation/RA1HikSxbrsdMhHF5_TTqnKpd4eQ3RGoHDW-NL4JiPch8> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RAgn3Iul-zhJSRzwj-gEHjZAYqjtJ-CuKRswkIhNNM3j4> .
-@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RAgn3Iul-zhJSRzwj-gEHjZAYqjtJ-CuKRswkIhNNM3j4#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/F2-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/F2-Explanation/RAEZc2kD9tkq81T92JG70O1nujU-lAZircnXNy_6DHa9c> .
+@prefix sub: <https://w3id.org/fair/icc/np/F2-Explanation/RAEZc2kD9tkq81T92JG70O1nujU-lAZircnXNy_6DHa9c#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F2-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1038,34 +1056,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "Sjuz+3Hztc5TS9oQLdlwiVYfQKjnNXAb3yD/IhnfdmY8PHqr5Lrbe2aEk4cTZx5oEd1zE4Z2Qubj4siNMw4jU5tHnh2W2LhzEzVFzh2LeePyZNNpkszUBimEQiP3aC+A2AZnudhPO4pJgvWOdiX9l/Wjlo+jiR2Lr4cTeuZOzGk=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/F3-Explanation/RAIIlDCGrUvI6nbPP4gZ6I6QacqqXsiCd5gM90HWDb3D0> .
-@prefix sub: <https://w3id.org/fair/icc/np/F3-Explanation/RAIIlDCGrUvI6nbPP4gZ6I6QacqqXsiCd5gM90HWDb3D0#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/F3-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/F3-Explanation/RAchTs0MEUn_OAI4vFFkD5EAF0MjCIP_eJ5e2pyLWKj4U> .
+@prefix sub: <https://w3id.org/fair/icc/np/F3-Explanation/RAchTs0MEUn_OAI4vFFkD5EAF0MjCIP_eJ5e2pyLWKj4U#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F3-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1090,34 +1107,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "EHOGv3FO+XPacQ1wf0/rrp+KPfGGCVpVyPJIK3+yFCfoz6SzUFerDQSeIvYwyjOMTAWSAz/YTJ9mWD78j8BSqwCIEgW9LgHEFzU/njD7MW/ZjgqNqjSftfvLkwy4yMzLaix4ECU8Mu1qz4MBupS0iIdiaYiv0G3h1EvKZTA+ZYY=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/F4-Explanation/RALCFoxnyBIpxN7gjLeQDHaXF9K4v_gFvudEE_kfryYlM> .
-@prefix sub: <https://w3id.org/fair/icc/np/F4-Explanation/RALCFoxnyBIpxN7gjLeQDHaXF9K4v_gFvudEE_kfryYlM#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/F4-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/F4-Explanation/RAGLJJWzAXH99eGgWhk6EsntH2hpATd7JM5nCw82VQFsg> .
+@prefix sub: <https://w3id.org/fair/icc/np/F4-Explanation/RAGLJJWzAXH99eGgWhk6EsntH2hpATd7JM5nCw82VQFsg#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F4-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1142,28 +1158,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "k8wkZJ2zr7CyKQGeX6M1eEenvC1xROWZhmUU3vUrKkfwCi5a9a0zKu3zXgGJUuiPvCkakuef2A7oUL4l2XDX1XuaSlfUDpC++boBdVhctnjX7LdpBL5j3bDRSWYkPy1PnWnSffJAxPpn/Bn5092Z2O7oA+CG5vqQGGxP/RaV3BY=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix this: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAcOJlgyqXWCXlyUdNT0ahIIyqTxUFaXTE8gSKX7rkkwc> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAcOJlgyqXWCXlyUdNT0ahIIyqTxUFaXTE8gSKX7rkkwc#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix latest: <https://w3id.org/fair/icc/latest/A1.1-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAUoAkUVUP9NHzzYuRnCIxBVNxOfitCrQe1eldLg7Qw4A> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1.1-Explanation/RAUoAkUVUP9NHzzYuRnCIxBVNxOfitCrQe1eldLg7Qw4A#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A1.1-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1188,28 +1210,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "hoyiS/07cZ0/lF1XXNALha5q/5xdIievMil0678bZTDBhVPLIvG0xZAY2vok/+8+a2TS8LoTnFyvCEHSL9Wx5s6srYfhht+FjLvL3ogBXLMh/5MFLSO10MEo2aSZfBNEwBxNyQRGJZShBgSchLuBENN1DYu3FnkHC42sMFQJMmk=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1.1-Explanation/RAybuBqRnSoPsqGuxmbFiI3y6_evmgIagjaacBet0dhZI> .
+    npx:supersedes <https://w3id.org/fair/icc/np/A1.1-Explanation/RAybuBqRnSoPsqGuxmbFiI3y6_evmgIagjaacBet0dhZI> .
 }
-@prefix this: <https://w3id.org/fair/icc/np/A1.2-Explanation/RArg_clopv_e4aBuF6lFkQ94sQ4GsPQPBwC0fN6h1L73s> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1.2-Explanation/RArg_clopv_e4aBuF6lFkQ94sQ4GsPQPBwC0fN6h1L73s#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/A1.2-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1.2-Explanation/RAttOhP6r94H0aL1lH-coBvsdsA0oVdAX5_3QQtlCChWU> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1.2-Explanation/RAttOhP6r94H0aL1lH-coBvsdsA0oVdAX5_3QQtlCChWU#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A1.2-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1232,28 +1260,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "hwnfiV4blGKo0tWCPPVQjeg9252uoyhh++4d4DDJ0cXkcUUFgkisfv2xohdBx3OO8gi4U87ACNXBMyuZhgoYaN2I//UiRpYDILAtJi7yFj+8Z/csyuCL8ZuyXfEWXog+0QIMAoIjiAWYQcCBX0PkgMrHstw1J+Tj5SZ9x9D8mrI=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1.2-Explanation/RA3Hr_3Jus0_C0exBw9rFxwq7IzZvyPxYEzuUzkRpsOLo> .
+    npx:supersedes <https://w3id.org/fair/icc/np/A1.2-Explanation/RA3Hr_3Jus0_C0exBw9rFxwq7IzZvyPxYEzuUzkRpsOLo> .
 }
-@prefix this: <https://w3id.org/fair/icc/np/A1-Explanation/RAPc_iF-f961V2yRDHAZ5oDqM9-1G6d6t2lLcz3jeosjE> .
-@prefix sub: <https://w3id.org/fair/icc/np/A1-Explanation/RAPc_iF-f961V2yRDHAZ5oDqM9-1G6d6t2lLcz3jeosjE#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/A1-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/A1-Explanation/RA29gKPhTjYHLcwB4d5-aCUF9oFq_1zJo8Z2xEKkU80CA> .
+@prefix sub: <https://w3id.org/fair/icc/np/A1-Explanation/RA29gKPhTjYHLcwB4d5-aCUF9oFq_1zJo8Z2xEKkU80CA#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A1-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1275,35 +1309,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "GcDx3kMuxdvCEr+QlqtzbKRL7sq62HKLN42n2ATOyzLhLtvxSB+PkC75baqorav9j5HAhUHd7ZujuN3S1i/WZBUsGrggesIriqBbvV2wmoVCcRZaXAYeoMrJMulzf8HU/Fs8jyIFZbEN5/wtMq5BhppB5ZxBdfLWgP+HiP9Q+r8=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    <http://purl.org/nanopub/x/supersedes> <https://w3id.org/fair/icc/np/A1-Explanation/RAheXRabbcfujKMIKQdbsWyRitg3Z0qV9Y-_yYa5R_6UI> .
+    npx:supersedes <https://w3id.org/fair/icc/np/A1-Explanation/RAheXRabbcfujKMIKQdbsWyRitg3Z0qV9Y-_yYa5R_6UI> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/A2-Explanation/RASqc1YjfNdnBZ8X3hAVGqdY3q_T3e6cPs-PsbW6NZDfE> .
-@prefix sub: <https://w3id.org/fair/icc/np/A2-Explanation/RASqc1YjfNdnBZ8X3hAVGqdY3q_T3e6cPs-PsbW6NZDfE#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/A2-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/A2-Explanation/RAoIMIKPsHeCZmHtvfifap5o5KbW11zPhdFxt0g3nx7Dc> .
+@prefix sub: <https://w3id.org/fair/icc/np/A2-Explanation/RAoIMIKPsHeCZmHtvfifap5o5KbW11zPhdFxt0g3nx7Dc#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/A2-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1333,34 +1366,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "qDFpaDQG+NA6EA2gVL1rMTx1vbMhx0FYIRI0ian/2DfGsnIcseQ8c+eSB2rue/MhqFDiOx789HpdnWskiBXUAtiOs7ZOl6n3JmCHnipyUHxWrLvKvG4UVkCZRF7pAmNdXKzRWkWhI8QQcmISTHlCXntqvZMcbnw84TVmXPsYTHE=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/I1-Explanation/RAYVAKb6KFlHN3-7y08ig7nrmV-_dH10Y4BFgjeowUtZg> .
-@prefix sub: <https://w3id.org/fair/icc/np/I1-Explanation/RAYVAKb6KFlHN3-7y08ig7nrmV-_dH10Y4BFgjeowUtZg#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/I1-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/I1-Explanation/RATIi7pPk_d5IOgxCstKpSN-t-7E1p3xrIj72JoFB5xUc> .
+@prefix sub: <https://w3id.org/fair/icc/np/I1-Explanation/RATIi7pPk_d5IOgxCstKpSN-t-7E1p3xrIj72JoFB5xUc#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/I1-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1385,34 +1417,34 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "a2rb8e2H2p1yrPxdpHTlHP04xgZjHooajPSuuOGkuJ1wIVj8OkdvAROOrib2v2tAtzNewckHBDdZkQfDcSyBIwoosVKjq40OAspDIVX7twXuiJDJ0Ota6BgNr4+VRNqgrE4KhmldhHv0ZvsX+eN+9+KJJwI39FYWQ+xN+Nqm9Jo=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/I2-Explanation/RA1EiP8eu-CYb1s6CRVHz8EFk9IPcyntoEcGFxksuRaRM> .
-@prefix sub: <https://w3id.org/fair/icc/np/I2-Explanation/RA1EiP8eu-CYb1s6CRVHz8EFk9IPcyntoEcGFxksuRaRM#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix latest: <https://w3id.org/fair/icc/latest/I2-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/I2-Explanation/RAkPi1TS-k6Zub6wTw62V6rVEz7wZ178h6_3iSxCyeoSA> .
+@prefix sub: <https://w3id.org/fair/icc/np/I2-Explanation/RAkPi1TS-k6Zub6wTw62V6rVEz7wZ178h6_3iSxCyeoSA#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/I2-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1437,34 +1469,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "ZHKb2qB8XayoAK5ECTcCZV7/cQxv0qqE+/VNJ2MvhdvH3Gdo4X+iQGHKmF8r2HHtwCJaGHhONkPk0dtjrSEYZQzPsmFpTRu63KkmnTvpMOw/GWy4/BhZAQ0q1fi6FUv++jvcBCWiSkrMaRsjcyHtAsQv7H0IAZsZxEfvKgdoPyI=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/I3-Explanation/RAdzD_IK0U7DT_JuP4eWNuGAcf_-DS5d1hvhXOzlDGkAE> .
-@prefix sub: <https://w3id.org/fair/icc/np/I3-Explanation/RAdzD_IK0U7DT_JuP4eWNuGAcf_-DS5d1hvhXOzlDGkAE#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/I3-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/I3-Explanation/RAQqA84T6twSJSK0q4TNO4vVbLLnpEEYTiUZIFE3sMVjE> .
+@prefix sub: <https://w3id.org/fair/icc/np/I3-Explanation/RAQqA84T6twSJSK0q4TNO4vVbLLnpEEYTiUZIFE3sMVjE#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/I3-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1492,34 +1523,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "bU2RRyc+130ncsWwoDT4tQpFWMm74/DZv/IkJvMw2/BSwLZAmkj/vKeqg6l0RE/lVBVOf64KhT/i3L4m4F6AbnaFL2PmyndFhMXxW4uFfSKnNs/GSzoT0zLqh6f6HhKsUL/npUat9vhfLAFGsNLFaAycbpUHkREjDftUahVVw7Y=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/R1.1-Explanation/RA_-DA9A8JNFSDGMy2uR3hT_PsTGoxjMbchiKLD9MLEaU> .
-@prefix sub: <https://w3id.org/fair/icc/np/R1.1-Explanation/RA_-DA9A8JNFSDGMy2uR3hT_PsTGoxjMbchiKLD9MLEaU#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/R1.1-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/R1.1-Explanation/RAyMDuN8dvB36I9IsbuRQH0yoeHRnPKBA0m4PE2jN9hoQ> .
+@prefix sub: <https://w3id.org/fair/icc/np/R1.1-Explanation/RAyMDuN8dvB36I9IsbuRQH0yoeHRnPKBA0m4PE2jN9hoQ#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/R1.1-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1544,34 +1574,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "OOmE0uLMFj6OCSgPP7hU4/yc7tgkNL+osZKqaqZ6ywGAjjlMc7jtmPGO698FJrIXv4NttIhP44MQMh33mQEYNP8EzaEVe3UH+q18pFbIeYGc3t8jO7aaGHSj9edG2D+uGi94DjdIeD8zuq+3lb3/Zjci0VoUnKj0lvpJ4g3k6v8=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/R1.2-Explanation/RA50a_LNM7qUyVRCs0u8klptCFsXmne2JDej5wkGzM_Uw> .
-@prefix sub: <https://w3id.org/fair/icc/np/R1.2-Explanation/RA50a_LNM7qUyVRCs0u8klptCFsXmne2JDej5wkGzM_Uw#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/R1.2-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/R1.2-Explanation/RAAyjjDt8ea0vk0h0FN_GZI_dfXZ7tzTqIG7s7nwV4LhM> .
+@prefix sub: <https://w3id.org/fair/icc/np/R1.2-Explanation/RAAyjjDt8ea0vk0h0FN_GZI_dfXZ7tzTqIG7s7nwV4LhM#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/R1.2-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1604,34 +1633,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "UK6TZcgBv7t9Mp/qxIACOrQ9C+dhI7IllDSmUEyJO6FQJ/GxLf1RYzEbZEZlhABpv3QSPzqBtYvKhdOo5ztLluQ2QutrUMLP7FA5SkWnZHqwHHKgJx3TpRqa6fmRIQTUM/fuhur1/872zNVNx/SCZ2EAvZZRnhSDf7EAAagc2ms=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/R1.3-Explanation/RAFH4n7LoMoHEs3TSB1zlVjFQuk7eAyLryEzad2jsku6M> .
-@prefix sub: <https://w3id.org/fair/icc/np/R1.3-Explanation/RAFH4n7LoMoHEs3TSB1zlVjFQuk7eAyLryEzad2jsku6M#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/R1.3-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/R1.3-Explanation/RAX2z9r1KpOJQ6w63D4rbwEUUJa7-yLlidxc8UiGpwnBU> .
+@prefix sub: <https://w3id.org/fair/icc/np/R1.3-Explanation/RAX2z9r1KpOJQ6w63D4rbwEUUJa7-yLlidxc8UiGpwnBU#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/R1.3-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1659,34 +1687,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "e9Go6WUYeyVMNbn4Dte/GV2qLMJdXM6JkmbusTuACzhpPrWXRz79leX43JwH3ZTkQODdPGRCnq0G5s+gvyF00lEDGDt7TkTDOfSmvBbk1pQm//Vnffx86h1YlP7UUMDhCCaRmpJydH7Bz6AObrBihzXAcwrJH7cVZZJyvyr+Ago=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix this: <https://w3id.org/fair/icc/np/R1-Explanation/RA_Ffc9B2FUGLS97DRueV5vl2GV79q4oNhyfj4ArLlj34> .
-@prefix sub: <https://w3id.org/fair/icc/np/R1-Explanation/RA_Ffc9B2FUGLS97DRueV5vl2GV79q4oNhyfj4ArLlj34#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/R1-Explanation> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/R1-Explanation/RAdQMTGlNXBkzARUNMVhOKZckIOLTybV656pdK8pSsAkU> .
+@prefix sub: <https://w3id.org/fair/icc/np/R1-Explanation/RAdQMTGlNXBkzARUNMVhOKZckIOLTybV656pdK8pSsAkU#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/R1-Explanation> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1706,33 +1733,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "QtjCP1YDwsP0VLM6Ep8aAeqdWtfGrkqORtPv4LBuEuduH8/Y6AxC6e+54Qihc4fQU8wFSlttkvvkGaUYs9bI6t9bYfLIUeDg89KYI1KZM3gH55j/Ht8G+QdthAt+ojEz9CBRTiC/WIDWdlJpXJAAcWsqp3wLrTf8X4jXvyuX7NI=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-11-22T18:41:24.945+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/F1-Choice/RA-KyfTO38WCxHdmW_Tdk-Gs8gSSEJbPi2W-L2_8K2xEw> .
-@prefix sub: <https://w3id.org/fair/icc/np/F1-Choice/RA-KyfTO38WCxHdmW_Tdk-Gs8gSSEJbPi2W-L2_8K2xEw#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/F1-Choice> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Choice/RApRQMP5i3Od52MsWLFWSztk1MHuLCfBWZsJ-NzyEo3sA> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Choice/RApRQMP5i3Od52MsWLFWSztk1MHuLCfBWZsJ-NzyEo3sA#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F1-Choice> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1750,34 +1777,33 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "fLKwHWRwQST0hAdOOaUiu/uhY/weS45fn8zKEKtwj5XKvJsJ+iR4ah6gQw6HH10yloPRTdg/y8FVmS+PV1RWDvk3gqGxiyuXnJy9jIjXodL0gxWV6DstHe6CL1nC6Nf3iwrncVmnAaJ64aTUO2PlzRbltbmnpOC7+HsF7YsYlnw=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix this: <https://w3id.org/fair/icc/np/F1-Challenge-1/RA7sfcu2Oe8Hefn90TlUVHV2QiWMFB-ss-yVZDbX5Goxs> .
-@prefix sub: <https://w3id.org/fair/icc/np/F1-Challenge-1/RA7sfcu2Oe8Hefn90TlUVHV2QiWMFB-ss-yVZDbX5Goxs#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix latest: <https://w3id.org/fair/icc/latest/F1-Challenge-1> .
-@prefix icc: <https://w3id.org/fair/icc/terms/> .
-@prefix fair: <https://w3id.org/fair/principles/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <https://w3id.org/fair/icc/np/F1-Challenge-1/RAb0k3_GKZrPUXDIjVY1hFhm9A2TmdPvXvmQbOTcOEMRA> .
+@prefix sub: <https://w3id.org/fair/icc/np/F1-Challenge-1/RAb0k3_GKZrPUXDIjVY1hFhm9A2TmdPvXvmQbOTcOEMRA#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix icc: <https://w3id.org/fair/icc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix latest: <https://w3id.org/fair/icc/latest/F1-Challenge-1> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
-  this: np:hasAssertion sub:assertion;
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
     np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
@@ -1794,8 +1820,12 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "gmUTeVOIyymGbwutTrqbbdP7bC5EtvE3hx3eJ+uM8dwbM8Q3a5z4abBuDZq69Rr9Thh8rRaETFr5ids4c0ik+aGKtt2JiG/8fC/DqO+O09EY35ZeQhSyedQdaOWx4yxbMCI4qf0wovZoz9xXm3+9HTUEp1PZSG5a/VNyuv1CRMI=";
+    npx:hasSignatureTarget this: .
+  
   this: dct:created "2019-07-26T13:27:47.420+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-4818-2360;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
-
