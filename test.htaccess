@@ -1,0 +1,9 @@
+RewriteRule ^test/terms/(.+)$ https://w3id.org/fair/test/latest/$1 [R=302,L]
+RewriteRule ^test/np/.+/(RA[A-Za-z0-9_\-]{43})$ http://purl.org/np/$1 [R=302,L]
+
+RewriteRule ^test/latest/a$ http://purl.org/np/RAR9iqNDTSo1stvUtRyhYRJRnVat0R4BqE9VA_z6xwego [R=302,L]
+RewriteRule ^test/latest/b$ http://purl.org/np/RAPFAU7-zmFzbWsE5xzFpQ-78qUocrT1w0EsZb5GCUjaI [R=302,L]
+RewriteRule ^test/latest/c$ http://purl.org/np/RAWn53q5CRmM73Ae1eGuO65P9iuPuXAFaTWr1LUGhqaF0 [R=302,L]
+RewriteRule ^test/latest/d$ http://purl.org/np/RAsheEcsDcIJWTYAu-yACSFQMKTo6HAjVZLQ4dMF1irKs [R=302,L]
+
+RewriteRule ^test/latest/index$ http://purl.org/np/RAJscsHb63vQvq8Pt2aI5IDGevwyp2U_oLKcTWA7gWJUU [R=302,L]

@@ -1,0 +1,16 @@
+# The content of this file is automatically extracted from test.trig.
+# Changes should be made in test.trig.pre.
+
+
+<https://w3id.org/fair/test/terms/a> a <http://www.w3.org/2002/07/owl#Class> .
+
+<https://w3id.org/fair/test/terms/b> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "some text just as an example";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/test/terms/a> .
+
+<https://w3id.org/fair/test/terms/c> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/fair/test/terms/a>,
+    <https://w3id.org/fair/test/terms/b> .
+
+<https://w3id.org/fair/test/terms/d> a <http://www.w3.org/2002/07/owl#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "just a comment" .

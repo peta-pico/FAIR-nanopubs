@@ -1,0 +1,161 @@
+# Use this file (with '.pre' extension) for editing. The respective file
+# without that extension is automatically generated.
+
+@prefix : <https://w3id.org/fair/test/np/a/> .
+@prefix latest: <https://w3id.org/fair/test/latest/a> .
+@prefix test: <https://w3id.org/fair/test/terms/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  test:a a owl:Class .
+}
+
+:provenance {
+  :assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+:pubinfo {
+  : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:creator orcid:0000-0002-1267-0234 ;
+    dct:created "2025-01-08T11:00:47.680+01:00"^^xsd:dateTime ;
+    a <http://purl.org/nanopub/x/ExampleNanopub> .
+}
+
+
+@prefix : <https://w3id.org/fair/test/np/b/> .
+@prefix latest: <https://w3id.org/fair/test/latest/b> .
+@prefix test: <https://w3id.org/fair/test/terms/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  test:b a owl:Class ;
+    rdfs:seeAlso test:a ;
+    rdfs:label "some text just as an example" .
+}
+
+:provenance {
+  :assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+:pubinfo {
+  : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:creator orcid:0000-0002-1267-0234 ;
+    dct:created "2025-01-08T11:00:47.680+01:00"^^xsd:dateTime ;
+    a <http://purl.org/nanopub/x/ExampleNanopub> .
+}
+
+
+@prefix : <https://w3id.org/fair/test/np/c/> .
+@prefix latest: <https://w3id.org/fair/test/latest/c> .
+@prefix test: <https://w3id.org/fair/test/terms/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  test:c a owl:Class ;
+    rdfs:seeAlso test:a ;
+    rdfs:seeAlso test:b .
+}
+
+:provenance {
+  :assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+:pubinfo {
+  : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:creator orcid:0000-0002-1267-0234 ;
+    dct:created "2025-01-08T11:00:47.680+01:00"^^xsd:dateTime ;
+    a <http://purl.org/nanopub/x/ExampleNanopub> .
+}
+
+
+@prefix : <https://w3id.org/fair/test/np/d/> .
+@prefix latest: <https://w3id.org/fair/test/latest/d> .
+@prefix test: <https://w3id.org/fair/test/terms/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Head {
+  : a np:Nanopublication;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  test:d a owl:Class ;
+    rdfs:label "just a comment" .
+}
+
+:provenance {
+  :assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+:pubinfo {
+  : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:creator orcid:0000-0002-1267-0234 ;
+    dct:created "2025-01-08T11:00:47.680+01:00"^^xsd:dateTime ;
+    a <http://purl.org/nanopub/x/ExampleNanopub> .
+}
