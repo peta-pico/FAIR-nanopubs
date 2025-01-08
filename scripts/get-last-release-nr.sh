@@ -10,7 +10,7 @@ fi
 
 (ls releases/$1.*.trig \
   | grep -v index \
+  | sed -r 's_releases/[a-z]*\.([0-9]+)\.trig_\1_' ) \
   | sort -nr \
   | head -1 \
-  | sed -r 's_releases/[a-z]*\.([0-9])\.trig_\1_' ) \
   2> /dev/null
