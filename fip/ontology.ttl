@@ -216,14 +216,6 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                          <http://www.w3.org/2004/02/skos/core#definition> "A specification of how messages are structured and exchanged."@en .
 
 
-###  https://w3id.org/fair/fip/terms/Cross-Domain-Community
-<https://w3id.org/fair/fip/terms/Cross-Domain-Community> rdf:type owl:Class ;
-                                                         rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> ;
-                                                         rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Cross-Domain-Community> ;
-                                                         rdfs:label "Cross domain community"@en ;
-                                                         <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Communities with cross-domain coverage"@en .
-
-
 ###  https://w3id.org/fair/fip/terms/Crosswalk
 <https://w3id.org/fair/fip/terms/Crosswalk> rdf:type owl:Class ;
                                             rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
@@ -256,12 +248,12 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                       <http://www.w3.org/2004/02/skos/core#definition> "A digital object type is a classification of digital objects with respect to their informational functions to specify the nature of the digital object and the operations that can be performed on it."@en .
 
 
-###  https://w3id.org/fair/fip/terms/Domain-Specific-Community
-<https://w3id.org/fair/fip/terms/Domain-Specific-Community> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> ;
-                                                            rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Domain-Specific-Community> ;
-                                                            rdfs:label "Domain specific community"@en ;
-                                                            <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Communities with domain coverage"@en .
+###  https://w3id.org/fair/fip/terms/Domain-Specific-Registry
+<https://w3id.org/fair/fip/terms/Domain-Specific-Registry> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://w3id.org/fair/fip/terms/Registry> ;
+                                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Domain-Specific-Registry> ;
+                                                           rdfs:label "Domain-specific registry"@en ;
+                                                           <http://www.w3.org/2004/02/skos/core#definition> "A registry designed to collect, provide access to, and enable searching of data within a particular domain or subject area"@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Editor
@@ -274,10 +266,10 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/Emerging-Community
 <https://w3id.org/fair/fip/terms/Emerging-Community> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> ;
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Emerging-Community> ;
                                                      rdfs:label "Emerging community"@en ;
-                                                     <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community that hasn't reached maturity yet"@en .
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "An early-stage community committed to adopting and promoting FAIR principles for its data and services from the outset."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/FAIR-Case-Study
@@ -471,6 +463,14 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                   <http://www.w3.org/2004/02/skos/core#definition> "The statement of a community on the usage of a FAIR Supporting Resource."@en .
 
 
+###  https://w3id.org/fair/fip/terms/Generalist-Registry
+<https://w3id.org/fair/fip/terms/Generalist-Registry> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://w3id.org/fair/fip/terms/Registry> ;
+                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Generalist-Registry> ;
+                                                      rdfs:label "Generalist registry"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "A registry designed to collect, provide access to, and enable searching of data without any restrictions on the domain."@en .
+
+
 ###  https://w3id.org/fair/fip/terms/Identifier-service
 <https://w3id.org/fair/fip/terms/Identifier-service> rdf:type owl:Class ;
                                                      rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
@@ -491,10 +491,10 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/Mature-Community
 <https://w3id.org/fair/fip/terms/Mature-Community> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                   rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> ;
                                                    rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Mature-Community> ;
                                                    rdfs:label "Mature community"@en ;
-                                                   <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community that has reached maturity"@en .
+                                                   <http://www.w3.org/2004/02/skos/core#definition> "A well-established community interested to implement FAIR in their data and services."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Metadata-data-linking-schema
@@ -573,14 +573,6 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                  rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Semantic-model> ;
                                                  rdfs:label "Semantic model"@en ;
                                                  <http://www.w3.org/2004/02/skos/core#definition> "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."@en .
-
-
-###  https://w3id.org/fair/fip/terms/Specific-Community
-<https://w3id.org/fair/fip/terms/Specific-Community> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> ;
-                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Specific-Community> ;
-                                                     rdfs:label "Specific community"@en ;
-                                                     <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Communities with specific coverage within a domain"@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Structured-vocabulary

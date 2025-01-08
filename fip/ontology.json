@@ -106,23 +106,6 @@
     "@value" : "A specification of how messages are structured and exchanged."
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/Cross-Domain-Community",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/Cross-Domain-Community"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Cross domain community"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "en",
-    "@value" : "A FAIR Implementation Communities with cross-domain coverage"
-  } ]
-}, {
   "@id" : "https://w3id.org/fair/fip/terms/Crosswalk",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -190,21 +173,21 @@
     "@value" : "A digital object type is a classification of digital objects with respect to their informational functions to specify the nature of the digital object and the operations that can be performed on it."
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/Domain-Specific-Community",
+  "@id" : "https://w3id.org/fair/fip/terms/Domain-Specific-Registry",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/Domain-Specific-Community"
+    "@id" : "https://w3id.org/fair/fip/latest/Domain-Specific-Registry"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Domain specific community"
+    "@value" : "Domain-specific registry"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+    "@id" : "https://w3id.org/fair/fip/terms/Registry"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "A FAIR Implementation Communities with domain coverage"
+    "@value" : "A registry designed to collect, provide access to, and enable searching of data within a particular domain or subject area"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Editor",
@@ -234,11 +217,11 @@
     "@value" : "Emerging community"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "A FAIR Implementation Community that hasn't reached maturity yet"
+    "@value" : "An early-stage community committed to adopting and promoting FAIR principles for its data and services from the outset."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FAIR-Case-Study",
@@ -1033,6 +1016,23 @@
     "@value" : "The statement of a community on the usage of a FAIR Supporting Resource."
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/Generalist-Registry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Generalist-Registry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Generalist registry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/Registry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A registry designed to collect, provide access to, and enable searching of data without any restrictions on the domain."
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/Identifier-service",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -1081,11 +1081,11 @@
     "@value" : "Mature community"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "A FAIR Implementation Community that has reached maturity"
+    "@value" : "A well-established community interested to implement FAIR in their data and services."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Metadata-data-linking-schema",
@@ -1251,23 +1251,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."
-  } ]
-}, {
-  "@id" : "https://w3id.org/fair/fip/terms/Specific-Community",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/Specific-Community"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Specific community"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "en",
-    "@value" : "A FAIR Implementation Communities with specific coverage within a domain"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Structured-vocabulary",

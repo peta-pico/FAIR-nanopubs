@@ -350,18 +350,6 @@
     
 
 
-    <!-- https://w3id.org/fair/fip/terms/Cross-Domain-Community -->
-
-
-    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Cross-Domain-Community">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Cross-Domain-Community"/>
-        <rdfs:label xml:lang="en">Cross domain community</rdfs:label>
-        <skos:definition xml:lang="en">A FAIR Implementation Communities with cross-domain coverage</skos:definition>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/fair/fip/terms/Crosswalk -->
 
 
@@ -410,14 +398,14 @@
     
 
 
-    <!-- https://w3id.org/fair/fip/terms/Domain-Specific-Community -->
+    <!-- https://w3id.org/fair/fip/terms/Domain-Specific-Registry -->
 
 
-    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Domain-Specific-Community">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Domain-Specific-Community"/>
-        <rdfs:label xml:lang="en">Domain specific community</rdfs:label>
-        <skos:definition xml:lang="en">A FAIR Implementation Communities with domain coverage</skos:definition>
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Domain-Specific-Registry">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Domain-Specific-Registry"/>
+        <rdfs:label xml:lang="en">Domain-specific registry</rdfs:label>
+        <skos:definition xml:lang="en">A registry designed to collect, provide access to, and enable searching of data within a particular domain or subject area</skos:definition>
     </owl:Class>
     
 
@@ -438,10 +426,10 @@
 
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Emerging-Community">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Emerging-Community"/>
         <rdfs:label xml:lang="en">Emerging community</rdfs:label>
-        <skos:definition xml:lang="en">A FAIR Implementation Community that hasn&apos;t reached maturity yet</skos:definition>
+        <skos:definition xml:lang="en">An early-stage community committed to adopting and promoting FAIR principles for its data and services from the outset.</skos:definition>
     </owl:Class>
     
 
@@ -733,6 +721,18 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/Generalist-Registry -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Generalist-Registry">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Generalist-Registry"/>
+        <rdfs:label xml:lang="en">Generalist registry</rdfs:label>
+        <skos:definition xml:lang="en">A registry designed to collect, provide access to, and enable searching of data without any restrictions on the domain.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/Identifier-service -->
 
 
@@ -763,10 +763,10 @@
 
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Mature-Community">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Mature-Community"/>
         <rdfs:label xml:lang="en">Mature community</rdfs:label>
-        <skos:definition xml:lang="en">A FAIR Implementation Community that has reached maturity</skos:definition>
+        <skos:definition xml:lang="en">A well-established community interested to implement FAIR in their data and services.</skos:definition>
     </owl:Class>
     
 
@@ -881,18 +881,6 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Semantic-model"/>
         <rdfs:label xml:lang="en">Semantic model</rdfs:label>
         <skos:definition xml:lang="en">A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fair/fip/terms/Specific-Community -->
-
-
-    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Specific-Community">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Specific-Community"/>
-        <rdfs:label xml:lang="en">Specific community</rdfs:label>
-        <skos:definition xml:lang="en">A FAIR Implementation Communities with specific coverage within a domain</skos:definition>
     </owl:Class>
     
 
