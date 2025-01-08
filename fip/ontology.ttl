@@ -272,6 +272,14 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                          <http://www.w3.org/2004/02/skos/core#definition> "A service that provides a user-friendly interface for easy editing of metadata, vocabularies or crosswalks."@en .
 
 
+###  https://w3id.org/fair/fip/terms/Emerging-Community
+<https://w3id.org/fair/fip/terms/Emerging-Community> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Emerging-Community> ;
+                                                     rdfs:label "Emerging community"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community that hasn't reached maturity yet"@en .
+
+
 ###  https://w3id.org/fair/fip/terms/FAIR-Case-Study
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> rdf:type owl:Class ;
                                                   rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
@@ -479,6 +487,14 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Knowledge-representation-language> ;
                                                                     rdfs:label "Knowledge representation language"@en ;
                                                                     <http://www.w3.org/2004/02/skos/core#definition> "A language specification that enables knowledge to be processed by machines."@en .
+
+
+###  https://w3id.org/fair/fip/terms/Mature-Community
+<https://w3id.org/fair/fip/terms/Mature-Community> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Mature-Community> ;
+                                                   rdfs:label "Mature community"@en ;
+                                                   <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Community that has reached maturity"@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Metadata-data-linking-schema
