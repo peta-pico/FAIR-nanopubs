@@ -33,7 +33,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Authentication-and-authorization-service",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Authentication-and-authorization-service"
   } ],
@@ -49,6 +49,9 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A service that mediates access to digital objects according to specifed conditions."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A1.2"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource",
@@ -88,7 +91,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Communication-protocol",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Communication-protocol"
   } ],
@@ -104,6 +107,9 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification of how messages are structured and exchanged."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A1.1"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Crosswalk",
@@ -141,7 +147,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Data-usage-license",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Data-usage-license"
   } ],
@@ -157,6 +163,9 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A data policy that specifies legal restrictions on the reuse of the data."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.1"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Digital-Object-Type",
@@ -1034,7 +1043,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Identifier-service",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Identifier-service"
   } ],
@@ -1050,10 +1059,13 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F1"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Knowledge-representation-language",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Knowledge-representation-language"
   } ],
@@ -1069,6 +1081,9 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A language specification that enables knowledge to be processed by machines."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I1"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Mature-Community",
@@ -1089,7 +1104,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Metadata-data-linking-schema",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Metadata-data-linking-schema"
   } ],
@@ -1105,10 +1120,13 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F3"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Metadata-preservation-policy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Metadata-preservation-policy"
   } ],
@@ -1124,10 +1142,13 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A data policy that describes the conditions under which metadata should be provided in the future."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/A2"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Metadata-schema",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Metadata-schema"
   } ],
@@ -1143,6 +1164,9 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F2"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Provenance-Tracking-Service",
@@ -1163,7 +1187,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Provenance-model",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Provenance-model"
   } ],
@@ -1179,10 +1203,13 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification that specifies metadata describing the origin and lineage of data or other digital objects."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/R1.2"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Registry",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Registry"
   } ],
@@ -1198,6 +1225,9 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A service that indexes metadata and data and provides search over that index."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/F4"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/SIP-Declaration",
@@ -1235,7 +1265,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Semantic-model",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Semantic-model"
   } ],
@@ -1251,10 +1281,13 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I3"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Structured-vocabulary",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/Structured-vocabulary"
   } ],
@@ -1270,6 +1303,9 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards."
+  } ],
+  "https://w3id.org/fair/fip/terms/enables" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/I2"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/Validation-Service",
@@ -1463,6 +1499,26 @@
     "@value" : "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/enables",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/enables"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "enables"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FAIR Enabling Resource class with the FAIR principles it enables"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/has-data-steward",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1501,6 +1557,40 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/has-research-domain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/has-research-domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has reasearch domain"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FAIR Implementation Community with research domains"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/metadata-availability-in-years",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/Metadata-preservation-policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/metadata-availability-in-years"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "metadata availability in years"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Specifies how many years metadata are preserved according to the metadata preservation policy"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/refers-to-principle",

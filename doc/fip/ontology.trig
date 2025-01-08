@@ -849,8 +849,8 @@ sub:pubinfo {
     npx:introduces fip:FAIR-Enabling-Resource;
     npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Enabling-Resource/RAhAJbPXhIuvOzT5YkltZThbzB6WubMmO-scokD4MjDbM> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAZCNc57L5muj9E5KwQANHCSsBIfeBr_aQ1Ea2FQzODZ0> .
-@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAZCNc57L5muj9E5KwQANHCSsBIfeBr_aQ1Ea2FQzODZ0#> .
+@prefix this: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAq0hpclXkMEjbBdbPtMmh4xzD-rhHmrSb9JqhW8QA6Rw> .
+@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAq0hpclXkMEjbBdbPtMmh4xzD-rhHmrSb9JqhW8QA6Rw#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -858,6 +858,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile> .
 
@@ -882,14 +883,15 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "GKZwp6b59BbdCAlvGKaZjD0Xk/JI7rc6p0jw9MIzgDAe+HdiiVx5HsWo4tdAn9pHXj8y34uMYr5wCJeLChtGi5sb1MQf2tEeNPnAeEybAVV5kHKAo/lVODWORfrwz5RNoY+hbWdZcZzUApedsY0t0T7QWp9lDk21yk5gJVyC8HE=";
+    npx:hasSignature "r1HfBZ7yvYoz8d6q45AIEjAETgZ/PhNc+PYGFBDgcKU8J7K1ARkyKrAw6bthRZGDQI9Ordyrj3asYwvRZXGLdG06HvdXnVlHLMKfBq7Rx5tQR8aZir/Zw/ppbT+cl1OiKREUePrXbjYvOSiKpJIQmVpnB+ebqTzw85Q1/weTZTE=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:FAIR-Implementation-Profile;
-    npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAJexeM9os5zyCEaOIIe2BIDQyvchtJ-v-7UUkal3s6ec> .
+    npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAZCNc57L5muj9E5KwQANHCSsBIfeBr_aQ1Ea2FQzODZ0>;
+    fip:enables fair:R1.3 .
 }
 @prefix this: <https://w3id.org/fair/fip/np/Available-FAIR-Enabling-Resource/RAoalzeszpwNn-P2U2wrduOwbdXbY4tGMvM2jTX7R5SjU> .
 @prefix sub: <https://w3id.org/fair/fip/np/Available-FAIR-Enabling-Resource/RAoalzeszpwNn-P2U2wrduOwbdXbY4tGMvM2jTX7R5SjU#> .
@@ -1648,8 +1650,8 @@ sub:pubinfo {
     npx:introduces fip:Digital-Object-Type;
     npx:supersedes <https://w3id.org/fair/fip/np/Digital-Object-Type/RASZMg5IaGIF6VIpzIr7JXaGcNMy4XxJbQLZo5CI5okAk> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Identifier-service/RANIT5hv4Ts79oWOAc4O8Dq40wa8lBCHMeOk4uNJvTa7M> .
-@prefix sub: <https://w3id.org/fair/fip/np/Identifier-service/RANIT5hv4Ts79oWOAc4O8Dq40wa8lBCHMeOk4uNJvTa7M#> .
+@prefix this: <https://w3id.org/fair/fip/np/Identifier-service/RAHCWZSlas5TZzNk95FQDXkeo85W25feIJZlikBc7O5h8> .
+@prefix sub: <https://w3id.org/fair/fip/np/Identifier-service/RAHCWZSlas5TZzNk95FQDXkeo85W25feIJZlikBc7O5h8#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -1657,6 +1659,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Identifier-service> .
 
@@ -1671,7 +1674,8 @@ sub:assertion {
   fip:Identifier-service rdfs:isDefinedBy latest:;
     rdfs:label "Identifier service"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Supporting-Service;
-    skos:definition "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en .
+    skos:definition "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en;
+    fip:enables fair:F1 .
 }
 
 sub:provenance {
@@ -1681,17 +1685,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "SAIZFCa9UBwAs35YEnBKOFRUl/Li1DGzpg5Ak6FmrosiAtdye7A4XU5lgEFM0qDLEO5uA9+3FwNDKHaZ06xJBoQRfA80uFugX8G+2cjnE8mSPSRYmcX619IRd3IZCHhMj8IVEyf9fplHcenS3VmMseicQr0cq/Gqw/hbD52DJ4I=";
+    npx:hasSignature "fENojExAjzXzqFIgRPXw9p4dKNePMlnqy1Epla4/3AmWPbhZJAcrWwA+YmEvFLclxSHh1ayWt8XmQ8jinvNuAUW48FEzLn4E6kvS/lXBFOjRiuRVc2bDHuaQAOyzDnCvajOP1UhiKIXtF7EYnv9WKEZhsc6T5ob+G+bt7kYTgJM=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Identifier-service;
-    npx:supersedes <https://w3id.org/fair/fip/np/Identifier-service/RAdWvGn8QX5WKGqwlTa4u_ZsxckKMr8h5c032vhJ6jshw> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Identifier-service/RANIT5hv4Ts79oWOAc4O8Dq40wa8lBCHMeOk4uNJvTa7M> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Metadata-schema/RAsPy8h_beN2AYlKK890cEcSLMvEJTRqeMJZicCZVPRow> .
-@prefix sub: <https://w3id.org/fair/fip/np/Metadata-schema/RAsPy8h_beN2AYlKK890cEcSLMvEJTRqeMJZicCZVPRow#> .
+@prefix this: <https://w3id.org/fair/fip/np/Metadata-schema/RA2Fvw3wZjCGYycSKaqbDpPi0GAL8x1RaF5OXcTBbBRqY> .
+@prefix sub: <https://w3id.org/fair/fip/np/Metadata-schema/RA2Fvw3wZjCGYycSKaqbDpPi0GAL8x1RaF5OXcTBbBRqY#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -1699,6 +1703,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Metadata-schema> .
 
@@ -1713,7 +1718,8 @@ sub:assertion {
   fip:Metadata-schema rdfs:isDefinedBy latest:;
     rdfs:label "Metadata schema"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
-    skos:definition "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en .
+    skos:definition "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en;
+    fip:enables fair:F2 .
 }
 
 sub:provenance {
@@ -1723,17 +1729,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "pQBUYLrraOb2jVzrC/UOR4/0IqXeyRyJtvnsGML2RclU3I6aFxhgH/+u4y8vz5ZFmiRT3ZrFj5MpZ0i4/ChB/LQ7o6/Isdhg0wHPT/60TF6OFeS6/3ZALwpN+Eo9d6CHxlhIsPweOZwGywjOfbX1Vfn//Sbt03mZXUXOK4wzgYo=";
+    npx:hasSignature "U4hbJT4JRxjByVP5aeg2cT6sKLogw3KlSaP/iP7bzaFjFXp4ri8m4LU8ZLvSnWsR64qp5bdNvVZI3NTg/LK7K5D/NIF2HF2ExpbupEC3yv2rs0WrYEGzyo/01rxchfUjXCQPtqlXjjo1/z5AZLqCbDMiRE7FhYrPf4fph5YVN8c=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Metadata-schema;
-    npx:supersedes <https://w3id.org/fair/fip/np/Metadata-schema/RA8XymxAgBm8lNUJOgGCA0taw3PeseqS3tRX9BF0MmdMk> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Metadata-schema/RAsPy8h_beN2AYlKK890cEcSLMvEJTRqeMJZicCZVPRow> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RA2TYTfFiKQV84FkSiqAQww3v0pomkMJvZCr0L5gyAuO0> .
-@prefix sub: <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RA2TYTfFiKQV84FkSiqAQww3v0pomkMJvZCr0L5gyAuO0#> .
+@prefix this: <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RAjUrmyEVf59aqVX8iffwOTEskgm4Njsav6cFWDofHWwA> .
+@prefix sub: <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RAjUrmyEVf59aqVX8iffwOTEskgm4Njsav6cFWDofHWwA#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -1741,6 +1747,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Metadata-data-linking-schema> .
 
@@ -1755,7 +1762,8 @@ sub:assertion {
   fip:Metadata-data-linking-schema rdfs:isDefinedBy latest:;
     rdfs:label "Metadata-data linking schema"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
-    skos:definition "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en .
+    skos:definition "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en;
+    fip:enables fair:F3 .
 }
 
 sub:provenance {
@@ -1765,17 +1773,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "Sr1PmSHhYBXrg6DRxEyv2w2wXOeMJ9AxYQMn4KIDrpagHKB8rbm+lYJ87DTSlQNT2VTQIUEyekIWTqeYQYTDutJGbiWZo2ddTqEuS7ernf9FH9/Yp3ckvYNhAPzLmlM4c+8DzKeOlE5feGU/XpcKCn6Ok8mVvp9G2KJKTEvLG0M=";
+    npx:hasSignature "Msl2+wzD4LMZRfuTCX4EjS/6xcK4id0Hvd+F6sFAMgImD73LDqnUM6WGfakX/18zvlUU0ck1TZ8V8WYTo4IUSKTi3z3OPyNyXbaKhPthibIe/RO6jdeXiXmwYNyu87vfbzn4vyvR9OJ6217RmOiF4Vw7bYUR1ZrKxcmJn3LYCdY=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Metadata-data-linking-schema;
-    npx:supersedes <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RA_vmLcSge3bd6LLQMnSRWa47a7h9F5D6I_JjcgkF0Ifs> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RA2TYTfFiKQV84FkSiqAQww3v0pomkMJvZCr0L5gyAuO0> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Registry/RANqpvVdIe3unNpSUnNSXIxOE1CIUfbvSIULcLvVzecXE> .
-@prefix sub: <https://w3id.org/fair/fip/np/Registry/RANqpvVdIe3unNpSUnNSXIxOE1CIUfbvSIULcLvVzecXE#> .
+@prefix this: <https://w3id.org/fair/fip/np/Registry/RAYdsd6CusJLmO1gBMhP4ZXviVrpA8rWhH6CpIGmw5diU> .
+@prefix sub: <https://w3id.org/fair/fip/np/Registry/RAYdsd6CusJLmO1gBMhP4ZXviVrpA8rWhH6CpIGmw5diU#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -1783,6 +1791,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Registry> .
 
@@ -1797,7 +1806,8 @@ sub:assertion {
   fip:Registry rdfs:isDefinedBy latest:;
     rdfs:label "Registry"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Supporting-Service;
-    skos:definition "A service that indexes metadata and data and provides search over that index."@en .
+    skos:definition "A service that indexes metadata and data and provides search over that index."@en;
+    fip:enables fair:F4 .
 }
 
 sub:provenance {
@@ -1807,14 +1817,14 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "n5ag0a/bu+9i0FbQrUAr9bnr1FseJgqJr/JD6Szuygyz8eht9mjOUaot3LtOr1nLsvsvvFxPTvloK1BQ+sIeiYLYukLNyx3UzT5FEmoCbJV70BjL/XTu0uOWYICTeNdClDJciiIJCk3XvLjRGMTW6fsVzIGI+VW0qc5cCfKR/gw=";
+    npx:hasSignature "fLLRbG915WYLeVMHtq3qhenn9INzcwqvImR21+RnRegI2IE+Qpx4dixlyr+faN2NSFON6D5A2CrBQvXN8Z3fmrRqbxD0icKfkriBOAF+AxKOTFt35Pd6kd4evNuLqaZo1I18BJK+3jt/xQX4SEGvXXP3MTpvQakEK1coYq6FVNU=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Registry;
-    npx:supersedes <https://w3id.org/fair/fip/np/Registry/RA70EiegLczAAyaWYa2BqZdnD5gujd_00uzT3Y8BWBibI> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Registry/RANqpvVdIe3unNpSUnNSXIxOE1CIUfbvSIULcLvVzecXE> .
 }
 @prefix this: <https://w3id.org/fair/fip/np/Generalist-Registry/RA7q8Qk5oJeP3nivz-XX0HBseYUBeUFvNQu1zeuRffn8I> .
 @prefix sub: <https://w3id.org/fair/fip/np/Generalist-Registry/RA7q8Qk5oJeP3nivz-XX0HBseYUBeUFvNQu1zeuRffn8I#> .
@@ -1898,8 +1908,8 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Domain-Specific-Registry .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Communication-protocol/RAeGzjtBhGlaBFW3_7A60c96Eh57yabVFY7nrrIdD5-3U> .
-@prefix sub: <https://w3id.org/fair/fip/np/Communication-protocol/RAeGzjtBhGlaBFW3_7A60c96Eh57yabVFY7nrrIdD5-3U#> .
+@prefix this: <https://w3id.org/fair/fip/np/Communication-protocol/RAr9TLSSWlHu5xdhTaBDxIr7Uwdage-CLdWMBwaJmzdH0> .
+@prefix sub: <https://w3id.org/fair/fip/np/Communication-protocol/RAr9TLSSWlHu5xdhTaBDxIr7Uwdage-CLdWMBwaJmzdH0#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -1907,6 +1917,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Communication-protocol> .
 
@@ -1921,7 +1932,8 @@ sub:assertion {
   fip:Communication-protocol rdfs:isDefinedBy latest:;
     rdfs:label "Communication protocol"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
-    skos:definition "A specification of how messages are structured and exchanged."@en .
+    skos:definition "A specification of how messages are structured and exchanged."@en;
+    fip:enables fair:A1.1 .
 }
 
 sub:provenance {
@@ -1931,17 +1943,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "nI3r+5ZodzojpPEdJtssJZi1bOwc2s07Gd4OlyJm2vxEec0Jm98syp57xXyYaZ1aBUAzuJZP41nszB3B9ZM2AHGUpANiZFfrvXbJyIhabGt4WcIsS8swSfgbVnu2oXA7DSD4czW1HClIQ6F5J013mE2Ep8jDEuXF2nRHMg5Mz2M=";
+    npx:hasSignature "JpD3dmUWXpxnxwr58kGmMLY81b45xNdxrcnpEtTkNnnkO+js1IFc5M11Q6/uFYHP61tpXd3Zam9CnF9y4fVKE1Y1jpAeaZZp2dUac/qGnabvrArH9Xj9uOSDXf/mgcI20r2aVvdhUvAigFpilaGbvxTX0+bJNv+uH0YEF8RlIPw=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Communication-protocol;
-    npx:supersedes <https://w3id.org/fair/fip/np/Communication-protocol/RAXhX-hy1JVDmBr5pSdnw4Fp5-sWN8lTrfTOyskqcdy8g> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Communication-protocol/RAeGzjtBhGlaBFW3_7A60c96Eh57yabVFY7nrrIdD5-3U> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAP0BfUE1mHEuSFD3SO4Nz5-UMlA2DbHVmypw9xZxiEms> .
-@prefix sub: <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAP0BfUE1mHEuSFD3SO4Nz5-UMlA2DbHVmypw9xZxiEms#> .
+@prefix this: <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAmXu227gU4fmqL_d_7kG1BZabJ9rDEyMNyxLsatCMvng> .
+@prefix sub: <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAmXu227gU4fmqL_d_7kG1BZabJ9rDEyMNyxLsatCMvng#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -1949,6 +1961,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> .
 
@@ -1963,7 +1976,8 @@ sub:assertion {
   fip:Authentication-and-authorization-service rdfs:isDefinedBy latest:;
     rdfs:label "Authentication and authorization service"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Supporting-Service;
-    skos:definition "A service that mediates access to digital objects according to specifed conditions."@en .
+    skos:definition "A service that mediates access to digital objects according to specifed conditions."@en;
+    fip:enables fair:A1.2 .
 }
 
 sub:provenance {
@@ -1973,17 +1987,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "C1Z0qkeEeKvIrE9wNPKhZ2BmTpGfl5DpkflJASRUK0N9H16IFB9B7eBuPC1NVYgXmxISEIDv2aug91IdLvCjp1u4VodGUFgO4qlsR7PPldsgCYKf7ONhYlwFSbDTKa1vjA/HarVQxhpi83ayJ7BTjq/asY9rYEZG5TFpDv9OSKk=";
+    npx:hasSignature "V3gHZgxAxkd6MEYIK7NSbWEBOhWT0IhXqe0cix7ppv+zckw5o7Ze/du3Q6zbBOB/o66fS2HRf0y3b8m2dzvnI47dQKr+D2eGd6nimI79MSpD05p2uU2opLILv/WXz7zLGyYupFNFryNLwNUX0Ye8kET9bAjy4L6oeNc1DTKQ4LI=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Authentication-and-authorization-service;
-    npx:supersedes <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RATkCT9Rbjz3TyYVi_bjDSnNc4dFBlIKsEHKCCUbwR8So> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAP0BfUE1mHEuSFD3SO4Nz5-UMlA2DbHVmypw9xZxiEms> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RA5VB6ZSCH8MUG3yXt8GTEVAl3kIQHnkQxQbBNZd8w-lg> .
-@prefix sub: <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RA5VB6ZSCH8MUG3yXt8GTEVAl3kIQHnkQxQbBNZd8w-lg#> .
+@prefix this: <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RAI4TA15KO3mr3M04akiQ65MqpT_Zqgx-YEI55LO03asI> .
+@prefix sub: <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RAI4TA15KO3mr3M04akiQ65MqpT_Zqgx-YEI55LO03asI#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -1991,6 +2005,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Metadata-preservation-policy> .
 
@@ -2005,7 +2020,8 @@ sub:assertion {
   fip:Metadata-preservation-policy rdfs:isDefinedBy latest:;
     rdfs:label "Metadata preservation policy"@en;
     rdfs:subClassOf fip:FAIR-Data-Policy, fip:FAIR-Enabling-Resource;
-    skos:definition "A data policy that describes the conditions under which metadata should be provided in the future."@en .
+    skos:definition "A data policy that describes the conditions under which metadata should be provided in the future."@en;
+    fip:enables fair:A2 .
 }
 
 sub:provenance {
@@ -2015,17 +2031,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "KND9F7BvCzi1XtYxNm+1ZazGPO9+Bt2hHkTfQKIStT86eHVJWppGGb/rXDZPzLcJJGTXbVDtjQWeddhw9n5lrlJB7IYhYqFKxFDJEHhiYv0VrqTGZP9RRDUc9O3znQY8yvvHe/Z9KYZhQWwJNJw2R5z0H0bsNvc0jCdj414Pj+k=";
+    npx:hasSignature "rQhZKVh6DdIAr3Lo6ZDdrpigtM+3rq8VWAMocn2RpRS8FSqtMzbvPHCRN11BKfDWjbEcDs9nHzSsycTvybr2m+jP+k9H9pd695nOOsTddDU9dtNcGrfKK+zf6BEOvZZ8dj30B0+dBv9mfSam7y7KV6Y+IYXIiBm0BsjDzPWv0J4=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Metadata-preservation-policy;
-    npx:supersedes <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RAjDXKr4A7GNyT5uq_gVn503AhgM9OV3hgH0bddfeOWs4> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RA5VB6ZSCH8MUG3yXt8GTEVAl3kIQHnkQxQbBNZd8w-lg> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Knowledge-representation-language/RA66x5Yt6_Ue-LynKfY56BLVz500vZpNCcb-Xr-EIKaO0> .
-@prefix sub: <https://w3id.org/fair/fip/np/Knowledge-representation-language/RA66x5Yt6_Ue-LynKfY56BLVz500vZpNCcb-Xr-EIKaO0#> .
+@prefix this: <https://w3id.org/fair/fip/np/Knowledge-representation-language/RAh1G8zBwLfRtuLNSbaQ0sBJwSik616ut9WfCasIHWrVM> .
+@prefix sub: <https://w3id.org/fair/fip/np/Knowledge-representation-language/RAh1G8zBwLfRtuLNSbaQ0sBJwSik616ut9WfCasIHWrVM#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -2033,6 +2049,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Knowledge-representation-language> .
 
@@ -2047,7 +2064,8 @@ sub:assertion {
   fip:Knowledge-representation-language rdfs:isDefinedBy latest:;
     rdfs:label "Knowledge representation language"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
-    skos:definition "A language specification that enables knowledge to be processed by machines."@en .
+    skos:definition "A language specification that enables knowledge to be processed by machines."@en;
+    fip:enables fair:I1 .
 }
 
 sub:provenance {
@@ -2057,17 +2075,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "PzEkoU1yzJk5AYijbZahsEo10kgQYg+HVb6sU7foSdBQ8+Zf0lxJLN/dBWSsIU4/1lIB7Tziq1Qfqu9gmZWdyjEXIArFz/cNYdq7pDd27XH/yF3aKQkDxwfloxcgWB7VES1v8NQeTzRt6Y/KfZ0qLAJUEYlQZyiIZB8y5YdVPNU=";
+    npx:hasSignature "lDjCaUKsrIETTEk0zt4Z/UW+JjmhIfrRJ+uVXKVR+2mxdiJiV0FZLfWnUbpx6QL8vGG1ykJixa8W97GX5KuihTY+zt07Ykg2MDccC4utTNrBjF00jWZIntwTpvvqIg6gEqA0EjUgh8rxCU10BM48XgFaYzD+PKHr1YwUexW4sjk=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Knowledge-representation-language;
-    npx:supersedes <https://w3id.org/fair/fip/np/Knowledge-representation-language/RAMt55sks48PC9G0Uu-tu8S5cY6GCSe9ozxEpiRezIF78> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Knowledge-representation-language/RA66x5Yt6_Ue-LynKfY56BLVz500vZpNCcb-Xr-EIKaO0> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Structured-vocabulary/RAQGR6FFsDiWK3UhtangF7KTiMkRMDYW8ELic1-tyH-fc> .
-@prefix sub: <https://w3id.org/fair/fip/np/Structured-vocabulary/RAQGR6FFsDiWK3UhtangF7KTiMkRMDYW8ELic1-tyH-fc#> .
+@prefix this: <https://w3id.org/fair/fip/np/Structured-vocabulary/RAWS28WQqsF5zEBRjHRLxCSmT2w04es-yQENHvRJjC1Xc> .
+@prefix sub: <https://w3id.org/fair/fip/np/Structured-vocabulary/RAWS28WQqsF5zEBRjHRLxCSmT2w04es-yQENHvRJjC1Xc#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -2075,6 +2093,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Structured-vocabulary> .
 
@@ -2089,7 +2108,8 @@ sub:assertion {
   fip:Structured-vocabulary rdfs:isDefinedBy latest:;
     rdfs:label "Structured vocabulary"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
-    skos:definition "A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards."@en .
+    skos:definition "A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards."@en;
+    fip:enables fair:I2 .
 }
 
 sub:provenance {
@@ -2099,17 +2119,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "OdmqyP/34aiUSrwcHQX1Razob1BHaPHCssDwedf/ehHtfTMaJalaWc167mb07Dpragah3cm0TWYXFxzUOzxOK5WF0yk5btWJgHkVVcD7+G7Q2+/VLDF2Jvno3o4/oFhRfhTF9hvfHvvFhpzrZpp7H0rZbAaEfv0c65y89xd85g8=";
+    npx:hasSignature "WSkyWBeGju4LIsvMqhKjiXYBrwt2dKO6SQEDoZd9++0S2Pgj6tVJTlUt35e2boLBG+ntyB2TzJd8V4EGzYaLn8laM4VbuQQLwCfBATj5ONSUjQwkFk1E/y4hrWLweF/b3I56o6myrTmtkcYpzrFHrR/TbcN/IcoBNd8Kdq6Rc7E=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Structured-vocabulary;
-    npx:supersedes <https://w3id.org/fair/fip/np/Structured-vocabulary/RA9JwUVZk395ippZgv8Nk78ov9HV8bbTFf_tBjtxqPm44> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Structured-vocabulary/RAQGR6FFsDiWK3UhtangF7KTiMkRMDYW8ELic1-tyH-fc> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Semantic-model/RAU4t3ZrIJX1oebFnN-y8d-N6zQRlRkOY32uaLnh7f5B8> .
-@prefix sub: <https://w3id.org/fair/fip/np/Semantic-model/RAU4t3ZrIJX1oebFnN-y8d-N6zQRlRkOY32uaLnh7f5B8#> .
+@prefix this: <https://w3id.org/fair/fip/np/Semantic-model/RATo-LR632nuP24VP_T5cAvz4w7lFAJWvvjgNE4jbi1kU> .
+@prefix sub: <https://w3id.org/fair/fip/np/Semantic-model/RATo-LR632nuP24VP_T5cAvz4w7lFAJWvvjgNE4jbi1kU#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -2117,6 +2137,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Semantic-model> .
 
@@ -2131,7 +2152,8 @@ sub:assertion {
   fip:Semantic-model rdfs:isDefinedBy latest:;
     rdfs:label "Semantic model"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
-    skos:definition "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."@en .
+    skos:definition "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."@en;
+    fip:enables fair:I3 .
 }
 
 sub:provenance {
@@ -2141,17 +2163,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "Zfvon4Pi112tvFiFjaFXYkY+mxemadNd/hkdXVa91fNrJCWYhmpv5P1uRivQURPhZfedGovX5a4bEEbj7YZO/a2ZJqvLRyfrzcdRDpYzmDPVlal54b3Tv3x12vynT8NwdtzIySgnUrSUbS6j7s6aqNg/bYcM+P6dtTjoyETSDbk=";
+    npx:hasSignature "oZb8QlofhYZhez3PdlxyKmeH+ZYx+20qXxhhotykRhWG/ue87Bbuw4NYrCKxWaTsd+IPCPcjSsDe5198fXEFDmDMizL0Mwwx4WjlhZ4rZcroLIY/LwGH0yftawOTmQx8i4rM4AhMdJxkBsAGxrBZ340O/AJqjc+hySU+CGhyQG4=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Semantic-model;
-    npx:supersedes <https://w3id.org/fair/fip/np/Semantic-model/RArOotoj04lZsfydu8fncZqH0wUErJZaQAgRbrKHaDNpc> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Semantic-model/RAU4t3ZrIJX1oebFnN-y8d-N6zQRlRkOY32uaLnh7f5B8> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Data-usage-license/RAjNolkzEpl4A_K9XA4IkZaCEWU5CuSioBfAry9Mnnl8A> .
-@prefix sub: <https://w3id.org/fair/fip/np/Data-usage-license/RAjNolkzEpl4A_K9XA4IkZaCEWU5CuSioBfAry9Mnnl8A#> .
+@prefix this: <https://w3id.org/fair/fip/np/Data-usage-license/RAMbuq0ExgnLp1DTDwX_0ep7XrD-tTrpT5PVENdVH2niY> .
+@prefix sub: <https://w3id.org/fair/fip/np/Data-usage-license/RAMbuq0ExgnLp1DTDwX_0ep7XrD-tTrpT5PVENdVH2niY#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -2159,6 +2181,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Data-usage-license> .
 
@@ -2173,7 +2196,8 @@ sub:assertion {
   fip:Data-usage-license rdfs:isDefinedBy latest:;
     rdfs:label "Data usage license"@en;
     rdfs:subClassOf fip:FAIR-Data-Policy, fip:FAIR-Enabling-Resource;
-    skos:definition "A data policy that specifies legal restrictions on the reuse of the data."@en .
+    skos:definition "A data policy that specifies legal restrictions on the reuse of the data."@en;
+    fip:enables fair:R1.1 .
 }
 
 sub:provenance {
@@ -2183,17 +2207,17 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "fcxyD+twofPcy++Gx2VwJRgtErBkeV6+vDHc/eA+EMvWfEd/VehQ/Yl2CG7zPZ6BVSDfmfswlrMECLo3sTLe8zXgUyaeDl7uU1BKqNqF1HDLaa2Ja4EJSYNoQ2738StVO7sG7lNSlzby76o25xwZd+JSRw2iY0zbnHjtlMb5SYg=";
+    npx:hasSignature "V7ARqhIk/od9lqj6xhOsQ4WvSrEbEZ1gW2msWJP5+C7glCjAa9vkPdVDp3q67lEfy2PCdKnrCjA0BlkXZoBdb2jqhaV6+UrlUe27gwAsNEjTKX7qLqRhM9pYE802U2uPHotxcrv1o89HYcdqOEmYP9JJ+SKDGq3wDUp9Mx6BTPY=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Data-usage-license;
-    npx:supersedes <https://w3id.org/fair/fip/np/Data-usage-license/RA-2Djy0Q3x4fvSM1XnrXCud3EqnAYLJ4cmAHaRC6WgfI> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Data-usage-license/RAjNolkzEpl4A_K9XA4IkZaCEWU5CuSioBfAry9Mnnl8A> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/Provenance-model/RAIrIKIfRBCeN8vnJmavMaq_dV-LruiYMwL2D57PUr8QE> .
-@prefix sub: <https://w3id.org/fair/fip/np/Provenance-model/RAIrIKIfRBCeN8vnJmavMaq_dV-LruiYMwL2D57PUr8QE#> .
+@prefix this: <https://w3id.org/fair/fip/np/Provenance-model/RA2yUNl-Q9kfOObQFnlWm8D-bl5nMX3jt3usspY-IRIjc> .
+@prefix sub: <https://w3id.org/fair/fip/np/Provenance-model/RA2yUNl-Q9kfOObQFnlWm8D-bl5nMX3jt3usspY-IRIjc#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -2201,6 +2225,7 @@ sub:pubinfo {
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
 @prefix latest: <https://w3id.org/fair/fip/latest/Provenance-model> .
 
@@ -2215,7 +2240,8 @@ sub:assertion {
   fip:Provenance-model rdfs:isDefinedBy latest:;
     rdfs:label "Provenance model"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
-    skos:definition "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en .
+    skos:definition "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en;
+    fip:enables fair:R1.2 .
 }
 
 sub:provenance {
@@ -2225,14 +2251,14 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "BjAwysnKaY/HWQW6Lhc/TUbE8y3cO5C4g1hdwYoFrVqknsR7ZiDgSZCfWxGuTwYKRENVStGyncu7c3T8XQHP1rsjOMVeAXGc+t+t1E2db+FDt5Bvd+JDumMxTa29KXSF6s+1FQoSZlFyu65eOd1tpVF9P/i4jTa41lABWmXIfIw=";
+    npx:hasSignature "bACLL4FfoM3BEwP0owlk2rvHTWGYhlHUJK1Y6fIn7iGqtnAgTNufk3HW6repiR+fgHKvQRvkpwefoH07AskdJMNz3T/fHMDDemTOvZFeanYR2wa7gV4F0pIp5Imm4UstPEgu3z8g+h8m4yPQBZveUtrFTByA9D+jPOOP0E9PiB0=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T12:09:13.845+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:Provenance-model;
-    npx:supersedes <https://w3id.org/fair/fip/np/Provenance-model/RAbaVAYwnwjO6LW7Bp30mHBDyy8vfvwe6zi5FiFDM2GFo> .
+    npx:supersedes <https://w3id.org/fair/fip/np/Provenance-model/RAIrIKIfRBCeN8vnJmavMaq_dV-LruiYMwL2D57PUr8QE> .
 }
 @prefix this: <https://w3id.org/fair/fip/np/refers-to-principle/RAdn1rqSJmfsgwiTp1h9cJAWkSSthe2_WGN3DGDoVRRms> .
 @prefix sub: <https://w3id.org/fair/fip/np/refers-to-principle/RAdn1rqSJmfsgwiTp1h9cJAWkSSthe2_WGN3DGDoVRRms#> .
@@ -2683,6 +2709,95 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:has-declaration-index .
 }
+@prefix this: <https://w3id.org/fair/fip/np/has-research-domain/RAYtwuon91q8XC-jZ1gNuI8RnLfCNTBcjWIqITmVWxsFE> .
+@prefix sub: <https://w3id.org/fair/fip/np/has-research-domain/RAYtwuon91q8XC-jZ1gNuI8RnLfCNTBcjWIqITmVWxsFE#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/has-research-domain> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:has-research-domain a rdf:Property;
+    rdfs:domain fip:FAIR-Implementation-Community;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "has reasearch domain"@en;
+    skos:definition "Connects a FAIR Implementation Community with research domains"@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "V3C7P/aHLN7VWK7h+XCNOkHgfIq2tUsXnp0zPgRVCFFi6mFPj+wNPQJRBthM0YUe3wuux0UUrpUQMo/6zjC5NkSNdHXedAhA9222s9A3z7HYLQ2bYgb6wK2IvZ/M9n1mXrDUrqNF0xT1nW1ygNiExSdYmonXUUTSuOgeAXCyvsg=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:has-research-domain .
+}
+@prefix this: <https://w3id.org/fair/fip/np/enables/RAxST45vh-0QiGLZ1usLaKf2Xwmn2O2TCHREEnv6A4fhM> .
+@prefix sub: <https://w3id.org/fair/fip/np/enables/RAxST45vh-0QiGLZ1usLaKf2Xwmn2O2TCHREEnv6A4fhM#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/enables> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:enables a rdf:Property;
+    rdfs:domain owl:Class;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "enables"@en;
+    rdfs:range fair:FAIR-Principle-or-SubPrinciple;
+    skos:definition "Connects a FAIR Enabling Resource class with the FAIR principles it enables"@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "XlHw2QD8f017Fs6blgpeCcVXQl/8Xly79TVEzxW3nA0TE6kDHdzZ3swT7exo46V10saKQp8wRhamzURcPn25UjY2eWdUwAHN1DifFlw1yMNKEAsn287uKRGLZe9T15bt5UXbhOuzPW9gojpg451dd0RRVN9o7yymlzpHqPKMCGg=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:enables .
+}
 @prefix this: <https://w3id.org/fair/fip/np/considerations/RAjaeCe4MAp3pTKYo1XYU9onJzwiYglwpVV5yoM__Rk6M> .
 @prefix sub: <https://w3id.org/fair/fip/np/considerations/RAjaeCe4MAp3pTKYo1XYU9onJzwiYglwpVV5yoM__Rk6M#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2726,6 +2841,49 @@ sub:pubinfo {
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:considerations;
     npx:supersedes <https://w3id.org/fair/fip/np/considerations/RANo00qnprNSxcGcMwWYt22IAnUBRpeZUnt5kVPVAoVVg> .
+}
+@prefix this: <https://w3id.org/fair/fip/np/metadata-availability-in-years/RAEZaQTVA0IarArMJOZP1o5eO__966QQI7P7D8PGYK4ZE> .
+@prefix sub: <https://w3id.org/fair/fip/np/metadata-availability-in-years/RAEZaQTVA0IarArMJOZP1o5eO__966QQI7P7D8PGYK4ZE#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/metadata-availability-in-years> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:metadata-availability-in-years a owl:DatatypeProperty;
+    rdfs:domain fip:Metadata-preservation-policy;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "metadata availability in years"@en;
+    skos:definition "Specifies how many years metadata are preserved according to the metadata preservation policy"@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "AWPzD04QE14JSaNS6fvFUNVx/JFGut1LTfMXSyTUwjAcfuSYGhaDnc23zW/8IJEKrXGSFrjZZ6utQZxKQsqcCC7HNgjE1jOTN7iSaSSPOKd/V6h7wZQFy68FVov2orL5THREGJ2pwtCQDwL7IyF7s0i9ikevDDskzp9mJDAeQCQ=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:metadata-availability-in-years .
 }
 @prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RA3JL2E8g6TdgVUwEZL-VbeKDZCboI0xX9hemEUD5NQWg> .
 @prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RA3JL2E8g6TdgVUwEZL-VbeKDZCboI0xX9hemEUD5NQWg#> .
