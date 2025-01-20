@@ -33,6 +33,13 @@ scripts/np mkindex \
   -t "Nanopublications representing the FAIR Implementation Profiles (FIP) Ontology" \
   -l https://creativecommons.org/publicdomain/zero/1.0/ \
   $LASTINDEXARG \
-  -o fip.index.trig \
+  -p \
+  -o fip.index.pre.trig \
   fip.trig
+
+scripts/np sign \
+  -o fip.index.trig \
+  fip.index.pre.trig
+
+rm fip.index.pre.trig
 
