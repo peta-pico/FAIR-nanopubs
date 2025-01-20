@@ -356,7 +356,8 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> rdf:type owl:Class ;
-                                                              rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                              rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
+                                                                              <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
                                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile> ;
                                                               rdfs:label "FAIR Implementation Profile"@en ;
                                                               <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "@en .

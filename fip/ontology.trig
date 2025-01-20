@@ -849,8 +849,8 @@ sub:pubinfo {
     npx:introduces fip:FAIR-Enabling-Resource;
     npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Enabling-Resource/RAhAJbPXhIuvOzT5YkltZThbzB6WubMmO-scokD4MjDbM> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAq0hpclXkMEjbBdbPtMmh4xzD-rhHmrSb9JqhW8QA6Rw> .
-@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAq0hpclXkMEjbBdbPtMmh4xzD-rhHmrSb9JqhW8QA6Rw#> .
+@prefix this: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RA365enYMHal1SqnvD5Rz0ZZHTZKPyvkxC1O5dw6PXauU> .
+@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RA365enYMHal1SqnvD5Rz0ZZHTZKPyvkxC1O5dw6PXauU#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -872,7 +872,7 @@ sub:Head {
 sub:assertion {
   fip:FAIR-Implementation-Profile rdfs:isDefinedBy latest:;
     rdfs:label "FAIR Implementation Profile"@en;
-    rdfs:subClassOf fip:FAIR-Enabling-Resource;
+    rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
     skos:definition "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "@en .
 }
 
@@ -883,14 +883,14 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "r1HfBZ7yvYoz8d6q45AIEjAETgZ/PhNc+PYGFBDgcKU8J7K1ARkyKrAw6bthRZGDQI9Ordyrj3asYwvRZXGLdG06HvdXnVlHLMKfBq7Rx5tQR8aZir/Zw/ppbT+cl1OiKREUePrXbjYvOSiKpJIQmVpnB+ebqTzw85Q1/weTZTE=";
+    npx:hasSignature "oaBxoScKcxUtUFZ4xaxQX4aj8WxYFKxkiYqIO2xDkgYKv3NUcEREiZj5yXsfLyzSyrtVPWeZQ+HhE2ALS7deB08PphSpksm7W7oRVgtp6oD/HLxoApdHgUKxFLkMGeutEWOl0RlwDKTq2kFxKjS8huKQoqbtTRQkhTQyHH8aAJw=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
+  this: dct:created "2025-01-20T08:33:17.760+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:FAIR-Implementation-Profile;
-    npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAZCNc57L5muj9E5KwQANHCSsBIfeBr_aQ1Ea2FQzODZ0>;
+    npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RAq0hpclXkMEjbBdbPtMmh4xzD-rhHmrSb9JqhW8QA6Rw>;
     fip:enables fair:R1.3 .
 }
 @prefix this: <https://w3id.org/fair/fip/np/Available-FAIR-Enabling-Resource/RAoalzeszpwNn-P2U2wrduOwbdXbY4tGMvM2jTX7R5SjU> .

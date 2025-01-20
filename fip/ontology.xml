@@ -569,6 +569,7 @@
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile"/>
         <rdfs:label xml:lang="en">FAIR Implementation Profile</rdfs:label>
         <skos:definition xml:lang="en">A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. </skos:definition>
