@@ -382,6 +382,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Specification"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",

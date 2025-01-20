@@ -21,7 +21,7 @@ RewriteRule ^fip/latest/FAIR-Supporting-Resource$ http://purl.org/np/RAJ7pju_y4y
 RewriteRule ^fip/latest/Available-FAIR-Supporting-Resource$ http://purl.org/np/RADCoZ-XC-K4vOFEmbBjZzl8QRLPXWgPC_Lt9dKOktJds [R=302,L]
 RewriteRule ^fip/latest/FAIR-Supporting-Resource-to-be-Developed$ http://purl.org/np/RA_NcF-1NpSNFG_xoEU3YToIm8WV6XNXtOH358VLSWDM0 [R=302,L]
 RewriteRule ^fip/latest/FAIR-Enabling-Resource$ http://purl.org/np/RAS-hcDogTb1U1KHtyf-CO-eSSOCjh84xs-Ncjb-A2mz4 [R=302,L]
-RewriteRule ^fip/latest/FAIR-Implementation-Profile$ http://purl.org/np/RAq0hpclXkMEjbBdbPtMmh4xzD-rhHmrSb9JqhW8QA6Rw [R=302,L]
+RewriteRule ^fip/latest/FAIR-Implementation-Profile$ http://purl.org/np/RA365enYMHal1SqnvD5Rz0ZZHTZKPyvkxC1O5dw6PXauU [R=302,L]
 RewriteRule ^fip/latest/Available-FAIR-Enabling-Resource$ http://purl.org/np/RAoalzeszpwNn-P2U2wrduOwbdXbY4tGMvM2jTX7R5SjU [R=302,L]
 RewriteRule ^fip/latest/FAIR-Enabling-Resource-to-be-Developed$ http://purl.org/np/RAcCyK8QldJU6jxmwnmKXxLJyHSkzO2aJZwyaAaQ5WCsI [R=302,L]
 RewriteRule ^fip/latest/FAIR-Data-Policy$ http://purl.org/np/RANNwYDIjt5qqeX-BAd7rO527OiAz3dEn-KfQRgq1OoCg [R=302,L]
@@ -90,4 +90,4 @@ RewriteRule ^fip/latest/FIP-Question-R1.1-D$ http://purl.org/np/RAs0YeHmBo5jJIuM
 RewriteRule ^fip/latest/FIP-Question-R1.2-MD$ http://purl.org/np/RAgrqmnFtqErqVw4PEGUvVSArdVoYNyYSGEhfD29Ob1yI [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-R1.2-D$ http://purl.org/np/RA-TkuQ_7EluDwUfEY0DRxe5w7Ug4829ShM77pEwQuHMI [R=302,L]
 
-RewriteRule ^fip/latest/index$ http://purl.org/np/RA8ScSBN1PBICA5nNUlRoizyk1oUbNpb5nKGi5-fUl_TI [R=302,L]
+RewriteRule ^fip/latest/index$ http://purl.org/np/RAWOSk3jd6uH9UhPOZyfGoyJ6jD7wQWSsud2HAJWaq77M [R=302,L]
