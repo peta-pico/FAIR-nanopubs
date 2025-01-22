@@ -3830,3 +3830,45 @@ sub:pubinfo {
     npx:introduces fip:FIP-Question-R1.2-D;
     npx:supersedes <https://w3id.org/fair/fip/np/FIP-Question-R1.2-D/RAw5eJhtewy4MBSAK9oAS8XW7Kenr6lrGVRt5I8r-itDc> .
 }
+@prefix this: <https://w3id.org/fair/fip/np/has-description-source/RAFnl-WsT5nesaSwffJGFp65vk_k0dx7lbPXlzfXq30dM> .
+@prefix sub: <https://w3id.org/fair/fip/np/has-description-source/RAFnl-WsT5nesaSwffJGFp65vk_k0dx7lbPXlzfXq30dM#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/has-description-source> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:has-description-source a rdf:Property;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "has description source"@en;
+    skos:definition "Denotes the source of the description that is asserted via dct:description"@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "iVMXtAMAekWIfLcSbWY0Pxw6q7Wq5wjwiN4yNvuWDrR+q677uk+recYvAIjfp98DrKdIwPCULTZy0jipud54ifuDnFUQOiegQYDgt4h6TWycMccGhTmiHtLXIQWBW7mwBLTwD3b+mJ+C23h1xMqJUmgJJfGSTmX801TV/KhT8f8=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2025-01-22T14:25:29.780+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:has-description-source .
+}
