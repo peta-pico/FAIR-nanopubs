@@ -625,7 +625,7 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2004/02/skos/core#definition> "Which metadata schemas do you use for describing the provenance of your datasets?"@en;
   <https://w3id.org/fair/fip/terms/refers-to-principle> <https://w3id.org/fair/principles/terms/R1.2> .
 
-<https://w3id.org/fair/fip/terms/has-description-source> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/has-description-source> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-description-source>;
   <http://www.w3.org/2000/01/rdf-schema#label> "has description source"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Denotes the source of the description that is asserted via dct:description"@en .
