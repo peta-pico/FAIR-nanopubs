@@ -243,8 +243,9 @@ RewriteRule ^fip/latest/FIP-Question-R1.1-MD$ http://purl.org/np/RASg4t4TI5IPEgs
 RewriteRule ^fip/latest/FIP-Question-R1.1-D$ http://purl.org/np/RAs0YeHmBo5jJIuMtQR_2X5IVRxUJrLueaKZ3Mwx06Al0 [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-R1.2-MD$ http://purl.org/np/RAgrqmnFtqErqVw4PEGUvVSArdVoYNyYSGEhfD29Ob1yI [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-R1.2-D$ http://purl.org/np/RA-TkuQ_7EluDwUfEY0DRxe5w7Ug4829ShM77pEwQuHMI [R=302,L]
+RewriteRule ^fip/latest/has-description-source$ http://purl.org/np/RAFnl-WsT5nesaSwffJGFp65vk_k0dx7lbPXlzfXq30dM [R=302,L]
 
-RewriteRule ^fip/latest/index$ http://purl.org/np/RACRHo3lSfBk0DpzEb2CuTFrHie5sYWc9X0exRGXSgcHY [R=302,L]
+RewriteRule ^fip/latest/index$ http://purl.org/np/RALJsU8KVJPKok9cDTFpFtLDtnOaq9na83Yq-HiHYiXhQ [R=302,L]
 
 
 RewriteRule ^maturity_indicator/terms/(.+)$ https://w3id.org/fair/maturity_indicator/latest/$1 [R=302,L]
