@@ -1562,6 +1562,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/has-description-source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/fair/fip/latest/has-description-source"
   } ],
