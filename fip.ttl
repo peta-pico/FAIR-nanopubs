@@ -281,32 +281,28 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#label> "Identifier service"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/F1> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en .
 
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Metadata-schema>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Metadata schema"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/F2> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en .
 
 <https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Metadata-data-linking-schema>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Metadata-data linking schema"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/F3> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en .
 
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Registry>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Registry"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A service that indexes metadata and data and provides search over that index."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/F4> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A service that indexes metadata and data and provides search over that index."@en .
 
 <https://w3id.org/fair/fip/terms/Generalist-Registry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Generalist-Registry>;
@@ -325,64 +321,56 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#label> "Communication protocol"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A specification of how messages are structured and exchanged."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/A1.1> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A specification of how messages are structured and exchanged."@en .
 
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Authentication and authorization service"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/A1.2> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en .
 
 <https://w3id.org/fair/fip/terms/Metadata-preservation-policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Metadata-preservation-policy>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Metadata preservation policy"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Data-Policy>,
     <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A data policy that describes the conditions under which metadata should be provided in the future."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/A2> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A data policy that describes the conditions under which metadata should be provided in the future."@en .
 
 <https://w3id.org/fair/fip/terms/Knowledge-representation-language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Knowledge-representation-language>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Knowledge representation language"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A language specification that enables knowledge to be processed by machines."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/I1> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A language specification that enables knowledge to be processed by machines."@en .
 
 <https://w3id.org/fair/fip/terms/Structured-vocabulary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Structured-vocabulary>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Structured vocabulary"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/I2> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards."@en .
 
 <https://w3id.org/fair/fip/terms/Semantic-model> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Semantic-model>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Semantic model"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/I3> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."@en .
 
 <https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Data-usage-license>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Data usage license"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Data-Policy>,
     <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A data policy that specifies legal restrictions on the reuse of the data."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/R1.1> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A data policy that specifies legal restrictions on the reuse of the data."@en .
 
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Provenance-model>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Provenance model"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en;
-  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/R1.2> .
+  <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en .
 
 <https://w3id.org/fair/fip/terms/refers-to-principle> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/refers-to-principle>;

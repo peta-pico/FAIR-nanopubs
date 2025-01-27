@@ -217,7 +217,10 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 ###  https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> rdf:type owl:Class ;
                                                                            rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                                           <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+                                                                                           <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> ;
+                                                                           rdfs:label "Authentication and authorization service"@en ;
+                                                                           <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource
@@ -240,7 +243,10 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 ###  https://w3id.org/fair/fip/terms/Communication-protocol
 <https://w3id.org/fair/fip/terms/Communication-protocol> rdf:type owl:Class ;
                                                          rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                         <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+                                                                         <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
+                                                         rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Communication-protocol> ;
+                                                         rdfs:label "Communication protocol"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "A specification of how messages are structured and exchanged."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Crosswalk
@@ -262,7 +268,10 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 ###  https://w3id.org/fair/fip/terms/Data-usage-license
 <https://w3id.org/fair/fip/terms/Data-usage-license> rdf:type owl:Class ;
                                                      rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> ,
-                                                                     <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+                                                                     <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Data-usage-license> ;
+                                                     rdfs:label "Data usage license"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "A data policy that specifies legal restrictions on the reuse of the data."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Digital-Object-Type
@@ -499,13 +508,19 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 ###  https://w3id.org/fair/fip/terms/Identifier-service
 <https://w3id.org/fair/fip/terms/Identifier-service> rdf:type owl:Class ;
                                                      rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                     <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+                                                                     <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Identifier-service> ;
+                                                     rdfs:label "Identifier service"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Knowledge-representation-language
 <https://w3id.org/fair/fip/terms/Knowledge-representation-language> rdf:type owl:Class ;
                                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                                    <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+                                                                                    <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
+                                                                    rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Knowledge-representation-language> ;
+                                                                    rdfs:label "Knowledge representation language"@en ;
+                                                                    <http://www.w3.org/2004/02/skos/core#definition> "A language specification that enables knowledge to be processed by machines."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Mature-Community
@@ -519,19 +534,28 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 ###  https://w3id.org/fair/fip/terms/Metadata-data-linking-schema
 <https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> rdf:type owl:Class ;
                                                                rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                               <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+                                                                               <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
+                                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Metadata-data-linking-schema> ;
+                                                               rdfs:label "Metadata-data linking schema"@en ;
+                                                               <http://www.w3.org/2004/02/skos/core#definition> "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Metadata-preservation-policy
 <https://w3id.org/fair/fip/terms/Metadata-preservation-policy> rdf:type owl:Class ;
                                                                rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> ,
-                                                                               <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+                                                                               <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Metadata-preservation-policy> ;
+                                                               rdfs:label "Metadata preservation policy"@en ;
+                                                               <http://www.w3.org/2004/02/skos/core#definition> "A data policy that describes the conditions under which metadata should be provided in the future."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Metadata-schema
 <https://w3id.org/fair/fip/terms/Metadata-schema> rdf:type owl:Class ;
                                                   rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                  <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+                                                                  <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
+                                                  rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Metadata-schema> ;
+                                                  rdfs:label "Metadata schema"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Provenance-Tracking-Service
@@ -545,13 +569,19 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 ###  https://w3id.org/fair/fip/terms/Provenance-model
 <https://w3id.org/fair/fip/terms/Provenance-model> rdf:type owl:Class ;
                                                    rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                   <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+                                                                   <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
+                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Provenance-model> ;
+                                                   rdfs:label "Provenance model"@en ;
+                                                   <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Registry
 <https://w3id.org/fair/fip/terms/Registry> rdf:type owl:Class ;
                                            rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                           <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+                                                           <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Registry> ;
+                                           rdfs:label "Registry"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#definition> "A service that indexes metadata and data and provides search over that index."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/SIP-Declaration
@@ -573,13 +603,19 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 ###  https://w3id.org/fair/fip/terms/Semantic-model
 <https://w3id.org/fair/fip/terms/Semantic-model> rdf:type owl:Class ;
                                                  rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                 <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+                                                                 <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
+                                                 rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Semantic-model> ;
+                                                 rdfs:label "Semantic model"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#definition> "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Structured-vocabulary
 <https://w3id.org/fair/fip/terms/Structured-vocabulary> rdf:type owl:Class ;
                                                         rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                        <https://w3id.org/fair/fip/terms/FAIR-Specification> .
+                                                                        <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
+                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Structured-vocabulary> ;
+                                                        rdfs:label "Structured vocabulary"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#definition> "A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Validation-Service
@@ -606,21 +642,6 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 #################################################################
 #    Individuals
 #################################################################
-
-###  https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
-<https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> rdf:type owl:NamedIndividual ;
-                                                                           <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/A1.2> .
-
-
-###  https://w3id.org/fair/fip/terms/Communication-protocol
-<https://w3id.org/fair/fip/terms/Communication-protocol> rdf:type owl:NamedIndividual ;
-                                                         <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/A1.1> .
-
-
-###  https://w3id.org/fair/fip/terms/Data-usage-license
-<https://w3id.org/fair/fip/terms/Data-usage-license> rdf:type owl:NamedIndividual ;
-                                                     <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/R1.1> .
-
 
 ###  https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D
 <https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D> rdf:type owl:NamedIndividual ,
@@ -811,51 +832,6 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                        <http://www.w3.org/2004/02/skos/core#definition> "Which metadata schemas do you use for describing the provenance of your metadata records?"@en .
 
 
-###  https://w3id.org/fair/fip/terms/Identifier-service
-<https://w3id.org/fair/fip/terms/Identifier-service> rdf:type owl:NamedIndividual ;
-                                                     <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/F1> .
-
-
-###  https://w3id.org/fair/fip/terms/Knowledge-representation-language
-<https://w3id.org/fair/fip/terms/Knowledge-representation-language> rdf:type owl:NamedIndividual ;
-                                                                    <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/I1> .
-
-
-###  https://w3id.org/fair/fip/terms/Metadata-data-linking-schema
-<https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> rdf:type owl:NamedIndividual ;
-                                                               <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/F3> .
-
-
-###  https://w3id.org/fair/fip/terms/Metadata-preservation-policy
-<https://w3id.org/fair/fip/terms/Metadata-preservation-policy> rdf:type owl:NamedIndividual ;
-                                                               <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/A2> .
-
-
-###  https://w3id.org/fair/fip/terms/Metadata-schema
-<https://w3id.org/fair/fip/terms/Metadata-schema> rdf:type owl:NamedIndividual ;
-                                                  <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/F2> .
-
-
-###  https://w3id.org/fair/fip/terms/Provenance-model
-<https://w3id.org/fair/fip/terms/Provenance-model> rdf:type owl:NamedIndividual ;
-                                                   <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/R1.2> .
-
-
-###  https://w3id.org/fair/fip/terms/Registry
-<https://w3id.org/fair/fip/terms/Registry> rdf:type owl:NamedIndividual ;
-                                           <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/F4> .
-
-
-###  https://w3id.org/fair/fip/terms/Semantic-model
-<https://w3id.org/fair/fip/terms/Semantic-model> rdf:type owl:NamedIndividual ;
-                                                 <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/I3> .
-
-
-###  https://w3id.org/fair/fip/terms/Structured-vocabulary
-<https://w3id.org/fair/fip/terms/Structured-vocabulary> rdf:type owl:NamedIndividual ;
-                                                        <https://w3id.org/fair/fip/terms/enables> <https://w3id.org/fair/principles/terms/I2> .
-
-
 ###  https://w3id.org/fair/principles/terms/A1.1
 <https://w3id.org/fair/principles/terms/A1.1> rdf:type owl:NamedIndividual ;
                                               rdfs:label "A1.1" .
@@ -919,66 +895,6 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 #################################################################
 #    Annotations
 #################################################################
-
-<https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> ;
-                                                                           rdfs:label "Authentication and authorization service"@en ;
-                                                                           <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en .
-
-
-<https://w3id.org/fair/fip/terms/Communication-protocol> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Communication-protocol> ;
-                                                         rdfs:label "Communication protocol"@en ;
-                                                         <http://www.w3.org/2004/02/skos/core#definition> "A specification of how messages are structured and exchanged."@en .
-
-
-<https://w3id.org/fair/fip/terms/Data-usage-license> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Data-usage-license> ;
-                                                     rdfs:label "Data usage license"@en ;
-                                                     <http://www.w3.org/2004/02/skos/core#definition> "A data policy that specifies legal restrictions on the reuse of the data."@en .
-
-
-<https://w3id.org/fair/fip/terms/Identifier-service> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Identifier-service> ;
-                                                     rdfs:label "Identifier service"@en ;
-                                                     <http://www.w3.org/2004/02/skos/core#definition> "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en .
-
-
-<https://w3id.org/fair/fip/terms/Knowledge-representation-language> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Knowledge-representation-language> ;
-                                                                    rdfs:label "Knowledge representation language"@en ;
-                                                                    <http://www.w3.org/2004/02/skos/core#definition> "A language specification that enables knowledge to be processed by machines."@en .
-
-
-<https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Metadata-data-linking-schema> ;
-                                                               rdfs:label "Metadata-data linking schema"@en ;
-                                                               <http://www.w3.org/2004/02/skos/core#definition> "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en .
-
-
-<https://w3id.org/fair/fip/terms/Metadata-preservation-policy> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Metadata-preservation-policy> ;
-                                                               rdfs:label "Metadata preservation policy"@en ;
-                                                               <http://www.w3.org/2004/02/skos/core#definition> "A data policy that describes the conditions under which metadata should be provided in the future."@en .
-
-
-<https://w3id.org/fair/fip/terms/Metadata-schema> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Metadata-schema> ;
-                                                  rdfs:label "Metadata schema"@en ;
-                                                  <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en .
-
-
-<https://w3id.org/fair/fip/terms/Provenance-model> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Provenance-model> ;
-                                                   rdfs:label "Provenance model"@en ;
-                                                   <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en .
-
-
-<https://w3id.org/fair/fip/terms/Registry> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Registry> ;
-                                           rdfs:label "Registry"@en ;
-                                           <http://www.w3.org/2004/02/skos/core#definition> "A service that indexes metadata and data and provides search over that index."@en .
-
-
-<https://w3id.org/fair/fip/terms/Semantic-model> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Semantic-model> ;
-                                                 rdfs:label "Semantic model"@en ;
-                                                 <http://www.w3.org/2004/02/skos/core#definition> "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."@en .
-
-
-<https://w3id.org/fair/fip/terms/Structured-vocabulary> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Structured-vocabulary> ;
-                                                        rdfs:label "Structured vocabulary"@en ;
-                                                        <http://www.w3.org/2004/02/skos/core#definition> "A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards."@en .
-
 
 <https://w3id.org/fair/fip/terms/enables> rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/enables> ;
                                           rdfs:label "enables"@en ;
