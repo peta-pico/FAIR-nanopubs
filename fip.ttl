@@ -130,7 +130,7 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
   <http://www.w3.org/2004/02/skos/core#definition> "An early-stage community committed to adopting and promoting FAIR principles for its data and services from the outset."@en .
 
-<https://w3id.org/fair/fip/terms/has-data-steward> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/has-data-steward> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-data-steward>;
   <http://www.w3.org/2000/01/rdf-schema#label> "has data steward"@en;
@@ -372,82 +372,82 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
   <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en .
 
-<https://w3id.org/fair/fip/terms/refers-to-principle> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/refers-to-principle> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/refers-to-principle>;
   <http://www.w3.org/2000/01/rdf-schema#label> "refers to principle"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects an entity (for example a FIP declaration) to a FAIR (sub)principle it refers to"@en .
 
-<https://w3id.org/fair/fip/terms/refers-to-question> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/refers-to-question> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/refers-to-question>;
   <http://www.w3.org/2000/01/rdf-schema#label> "refers to question"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FIP-Question>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the FIP question it is addressing"@en .
 
-<https://w3id.org/fair/fip/terms/declared-by> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/declared-by> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-by>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declared by"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
 
-<https://w3id.org/fair/fip/terms/declares-current-use-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/declares-current-use-of> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-current-use-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares current use of"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to currently use"@en .
 
-<https://w3id.org/fair/fip/terms/declares-planned-use-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/declares-planned-use-of> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-use-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares planned use of"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"@en .
 
-<https://w3id.org/fair/fip/terms/declares-planned-replacement-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/declares-planned-replacement-of> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-replacement-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares planned replacement of"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of)."@en .
 
-<https://w3id.org/fair/fip/terms/declares-planned-development-of> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/declares-planned-development-of> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-development-of>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declares planned development of"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to develop"@en .
 
-<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/declared-for-digital-object-type> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-digital-object-type>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declared for digital object type"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Digital-Object-Type>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the digital object type it applies to"@en .
 
-<https://w3id.org/fair/fip/terms/declared-for-case-study> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/declared-for-case-study> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-case-study>;
   <http://www.w3.org/2000/01/rdf-schema#label> "declared for case study"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Case-Study>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the case study it refers to."@en .
 
-<https://w3id.org/fair/fip/terms/has-declaration-index> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/has-declaration-index> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-declaration-index>;
   <http://www.w3.org/2000/01/rdf-schema#label> "has declaration index"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/nanopub/x/NanopubIndex>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations."@en .
 
-<https://w3id.org/fair/fip/terms/has-research-domain> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/has-research-domain> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-research-domain>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "has reasearch domain"@en;
+  <http://www.w3.org/2000/01/rdf-schema#label> "has research domain"@en;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Implementation Community with research domains"@en .
 
-<https://w3id.org/fair/fip/terms/enables> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+<https://w3id.org/fair/fip/terms/enables> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Class>;
   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/enables>;
   <http://www.w3.org/2000/01/rdf-schema#label> "enables"@en;

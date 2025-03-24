@@ -26,6 +26,9 @@
   "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
+  "@id" : "http://www.w3.org/2002/07/owl#Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
   "@id" : "http://www.w3.org/2004/02/skos/core#definition",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -1466,7 +1469,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/enables",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Class"
   } ],
@@ -1540,7 +1543,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/has-research-domain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
   } ],
@@ -1549,7 +1552,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "has reasearch domain"
+    "@value" : "has research domain"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",

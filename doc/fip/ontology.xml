@@ -8,15 +8,15 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:terms="https://w3id.org/fair/fip/terms/"
-     xmlns:terms1="http://purl.org/dc/terms/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:terms1="https://w3id.org/fair/fip/terms/">
     <owl:Ontology rdf:about="https://w3id.org/fair/fip/terms/FIP-Ontology">
-        <terms1:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
-        <terms1:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
-        <terms1:creator rdf:resource="https://orcid.org/0000-0003-2195-3997"/>
-        <terms1:description>This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.</terms1:description>
-        <terms1:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <terms1:title>FAIR Implementation Profile (FIP) Ontology</terms1:title>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2195-3997"/>
+        <terms:description>This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <terms:title>FAIR Implementation Profile (FIP) Ontology</terms:title>
         <vann:preferredNamespacePrefix>fip</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/fair/fip/terms/</vann:preferredNamespaceUri>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Ontology"/>
@@ -83,27 +83,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
-    
-
-
-    <!-- https://w3id.org/fair/fip/terms/enables -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/fair/fip/terms/enables">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- https://w3id.org/fair/fip/terms/has-research-domain -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/fair/fip/terms/has-research-domain">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-research-domain"/>
-        <rdfs:label xml:lang="en">has reasearch domain</rdfs:label>
-        <skos:definition xml:lang="en">Connects a FAIR Implementation Community with research domains</skos:definition>
-        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
-    </owl:AnnotationProperty>
     
 
 
@@ -228,7 +207,11 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/enables">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
         <rdfs:range rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/enables"/>
+        <rdfs:label xml:lang="en">enables</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource class with the FAIR principles it enables</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -266,6 +249,18 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-description-source"/>
         <rdfs:label xml:lang="en">has description source</rdfs:label>
         <skos:definition xml:lang="en">Denotes the source of the description that is asserted via dct:description</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-research-domain -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-research-domain">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-research-domain"/>
+        <rdfs:label xml:lang="en">has research domain</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Implementation Community with research domains</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -349,6 +344,13 @@
     <owl:Class rdf:about="http://purl.org/nanopub/x/NanopubIndex">
         <rdfs:label>Nanopublication Index</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Class -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class"/>
     
 
 
@@ -1002,7 +1004,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.1"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D"/>
         <rdfs:label xml:lang="en">FIP Question A1.1-D</rdfs:label>
         <skos:definition xml:lang="en">Which standardized communication protocol do you use for datasets?</skos:definition>
@@ -1015,7 +1017,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.1"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD"/>
         <rdfs:label xml:lang="en">FIP Question A1.1-MD</rdfs:label>
         <skos:definition xml:lang="en">Which standardized communication protocol do you use for metadata records?</skos:definition>
@@ -1028,7 +1030,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.2"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.2"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D"/>
         <rdfs:label xml:lang="en">FIP Question A1.2-D</rdfs:label>
         <skos:definition xml:lang="en">Which authentication &amp; authorisation technique do you use for datasets?</skos:definition>
@@ -1041,7 +1043,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.2"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.2"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD"/>
         <rdfs:label xml:lang="en">FIP Question A1.2-MD</rdfs:label>
         <skos:definition xml:lang="en">Which authentication &amp; authorisation technique do you use for metadata records?</skos:definition>
@@ -1054,7 +1056,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A2">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A2"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A2"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A2"/>
         <rdfs:label xml:lang="en">FIP Question A2</rdfs:label>
         <skos:definition xml:lang="en">Which metadata longevity plan do you use?</skos:definition>
@@ -1067,7 +1069,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F1-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F1-D"/>
         <rdfs:label xml:lang="en">FIP Question F1-D</rdfs:label>
         <skos:definition xml:lang="en">What globally unique, persistent, resolvable identifiers do you use for datasets?</skos:definition>
@@ -1080,7 +1082,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F1-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F1-MD"/>
         <rdfs:label xml:lang="en">FIP Question F1-MD</rdfs:label>
         <skos:definition xml:lang="en">What globally unique, persistent, resolvable identifiers do you use for metadata records?</skos:definition>
@@ -1093,7 +1095,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F2">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F2"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F2"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F2"/>
         <rdfs:label xml:lang="en">FIP Question F2</rdfs:label>
         <skos:definition xml:lang="en">Which metadata schemas do you use for findability?</skos:definition>
@@ -1106,7 +1108,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F3">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F3"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F3"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F3"/>
         <rdfs:label xml:lang="en">FIP Question F3</rdfs:label>
         <skos:definition xml:lang="en">What is the technology that links the persistent identifiers of your data to the metadata description?</skos:definition>
@@ -1119,7 +1121,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F4-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F4-D"/>
         <rdfs:label xml:lang="en">FIP Question F4-D</rdfs:label>
         <skos:definition xml:lang="en">In which search engines are your datasets indexed?</skos:definition>
@@ -1132,7 +1134,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F4-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F4-MD"/>
         <rdfs:label xml:lang="en">FIP Question F4-MD</rdfs:label>
         <skos:definition xml:lang="en">In which search engines are your metadata records indexed?</skos:definition>
@@ -1145,7 +1147,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I1-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I1"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I1-D"/>
         <rdfs:label xml:lang="en">FIP Question I1-D</rdfs:label>
         <skos:definition xml:lang="en">Which knowledge representation languages (allowing machine interoperation) do you use for datasets?</skos:definition>
@@ -1158,7 +1160,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I1-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I1"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I1-MD"/>
         <rdfs:label xml:lang="en">FIP Question I1-MD</rdfs:label>
         <skos:definition xml:lang="en">Which knowledge representation languages (allowing machine interoperation) do you use for metadata records?</skos:definition>
@@ -1171,7 +1173,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I2-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I2"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I2"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I2-D"/>
         <rdfs:label xml:lang="en">FIP Question I2-D</rdfs:label>
         <skos:definition xml:lang="en">Which structured vocabularies do you use to encode your datasets?</skos:definition>
@@ -1184,7 +1186,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I2-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I2"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I2"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I2-MD"/>
         <rdfs:label xml:lang="en">FIP Question I2-MD</rdfs:label>
         <skos:definition xml:lang="en">Which structured vocabularies do you use to annotate your metadata records?</skos:definition>
@@ -1197,7 +1199,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I3-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I3"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I3"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I3-D"/>
         <rdfs:label xml:lang="en">FIP Question I3-D</rdfs:label>
         <skos:definition xml:lang="en">Which models, schema(s) do you use for your datasets?</skos:definition>
@@ -1210,7 +1212,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I3-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I3"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I3"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I3-MD"/>
         <rdfs:label xml:lang="en">FIP Question I3-MD</rdfs:label>
         <skos:definition xml:lang="en">Which models, schema(s) do you use for your metadata records?</skos:definition>
@@ -1223,7 +1225,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.1"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D"/>
         <rdfs:label xml:lang="en">FIP Question R1.1-D</rdfs:label>
         <skos:definition xml:lang="en">Which usage license do you use for your datasets?</skos:definition>
@@ -1236,7 +1238,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.1"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.1"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD"/>
         <rdfs:label xml:lang="en">FIP Question R1.1-MD</rdfs:label>
         <skos:definition xml:lang="en">Which usage license do you use for your metadata records?</skos:definition>
@@ -1249,7 +1251,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.2"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.2"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D"/>
         <rdfs:label xml:lang="en">FIP Question R1.2-D</rdfs:label>
         <skos:definition xml:lang="en">Which metadata schemas do you use for describing the provenance of your datasets?</skos:definition>
@@ -1262,7 +1264,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD">
         <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
-        <terms:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.2"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.2"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD"/>
         <rdfs:label xml:lang="en">FIP Question R1.2-MD</rdfs:label>
         <skos:definition xml:lang="en">Which metadata schemas do you use for describing the provenance of your metadata records?</skos:definition>
@@ -1375,23 +1377,6 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/R1.2">
         <rdfs:label>R1.2</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <rdf:Description rdf:about="https://w3id.org/fair/fip/terms/enables">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/enables"/>
-        <rdfs:label xml:lang="en">enables</rdfs:label>
-        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource class with the FAIR principles it enables</skos:definition>
-    </rdf:Description>
 </rdf:RDF>
 
 
