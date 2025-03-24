@@ -39,17 +39,6 @@
 # http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# https://w3id.org/fair/fip/terms/enables
-<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# https://w3id.org/fair/fip/terms/has-research-domain
-<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-research-domain> .
-<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/2000/01/rdf-schema#label> "has reasearch domain"@en .
-<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Implementation Community with research domains"@en .
-<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
-# 
 # 
 # 
 # #################################################################
@@ -128,8 +117,13 @@
 # 
 # https://w3id.org/fair/fip/terms/enables
 <https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> .
 <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/enables> .
+<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2000/01/rdf-schema#label> "enables"@en .
+<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource class with the FAIR principles it enables"@en .
 # 
 # https://w3id.org/fair/fip/terms/has-data-steward
 <https://w3id.org/fair/fip/terms/has-data-steward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -153,6 +147,13 @@
 <https://w3id.org/fair/fip/terms/has-description-source> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-description-source> .
 <https://w3id.org/fair/fip/terms/has-description-source> <http://www.w3.org/2000/01/rdf-schema#label> "has description source"@en .
 <https://w3id.org/fair/fip/terms/has-description-source> <http://www.w3.org/2004/02/skos/core#definition> "Denotes the source of the description that is asserted via dct:description"@en .
+# 
+# https://w3id.org/fair/fip/terms/has-research-domain
+<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
+<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-research-domain> .
+<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/2000/01/rdf-schema#label> "has research domain"@en .
+<https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Implementation Community with research domains"@en .
 # 
 # https://w3id.org/fair/fip/terms/refers-to-principle
 <https://w3id.org/fair/fip/terms/refers-to-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -205,6 +206,8 @@
 # 
 # http://purl.org/nanopub/x/NanopubIndex
 <http://purl.org/nanopub/x/NanopubIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Nanopublication Index" .
+# 
+# http://www.w3.org/2002/07/owl#Class
 # 
 # https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -795,18 +798,5 @@
 # 
 # https://w3id.org/fair/principles/terms/R1.2
 <https://w3id.org/fair/principles/terms/R1.2> <http://www.w3.org/2000/01/rdf-schema#label> "R1.2" .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    Annotations
-# #
-# #################################################################
-# 
-# 
-<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/enables> .
-<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2000/01/rdf-schema#label> "enables"@en .
-<https://w3id.org/fair/fip/terms/enables> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource class with the FAIR principles it enables"@en .
 # 
 # Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

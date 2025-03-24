@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Mon Jan 27 10:52:19 CET 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Mon Mar 24 09:22:45 CET 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -311,9 +311,7 @@ This ontology has the following classes and properties.</span>
          title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
    </li>
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/enables" title="https://w3id.org/fair/fip/terms/enables">
-         <span>enables</span>
-      </a>
+      <a href="#https://w3id.org/fair/fip/terms/enables" title="https://w3id.org/fair/fip/terms/enables">enables</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
@@ -325,6 +323,10 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/has-description-source"
          title="https://w3id.org/fair/fip/terms/has-description-source">has description source</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/has-research-domain"
+         title="https://w3id.org/fair/fip/terms/has-research-domain">has research domain</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
@@ -1179,8 +1181,9 @@ This section provides details for each class and property defined by FAIR Implem
          <dt>is in domain of</dt>
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
-            <sup class="type-op" title="object property">op</sup>, <span class="dotted"
-                  title="https://w3id.org/fair/fip/terms/has-research-domain">has reasearch domain</span>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/has-research-domain"
+               title="https://w3id.org/fair/fip/terms/has-research-domain">has research domain</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
@@ -2306,9 +2309,7 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
       </li>
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/enables" title="https://w3id.org/fair/fip/terms/enables">
-            <span>enables</span>
-         </a>
+         <a href="#https://w3id.org/fair/fip/terms/enables" title="https://w3id.org/fair/fip/terms/enables">enables</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/has-data-steward" title="https://w3id.org/fair/fip/terms/has-data-steward">has data steward</a>
@@ -2320,6 +2321,10 @@ This section provides details for each class and property defined by FAIR Implem
       <li>
          <a href="#https://w3id.org/fair/fip/terms/has-description-source"
             title="https://w3id.org/fair/fip/terms/has-description-source">has description source</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/has-research-domain"
+            title="https://w3id.org/fair/fip/terms/has-research-domain">has research domain</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
@@ -2560,17 +2565,27 @@ This section provides details for each class and property defined by FAIR Implem
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/enables</p>
+      <div class="comment">
+         <span class="markdown">Connects a FAIR Enabling Resource class with the FAIR principles it enables</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/enables">https://w3id.org/fair/fip/latest/enables</a>
+         </dd>
+      </dl>
       <div class="description">
          <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Class">class</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dt>has range</dt>
             <dd>
                <a href="#https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"
                   title="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">FAIR Principle or Sub-Principle</a>
                <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is also defined as</dt>
-            <dd>
-               <a href="#https://w3id.org/fair/fip/terms/enables">annotation property</a>
             </dd>
          </dl>
       </div>
@@ -2655,6 +2670,33 @@ This section provides details for each class and property defined by FAIR Implem
             <a href="https://w3id.org/fair/fip/latest/has-description-source">https://w3id.org/fair/fip/latest/has-description-source</a>
          </dd>
       </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/has-research-domain">
+      <h3>has research domain<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/has-research-domain</p>
+      <div class="comment">
+         <span class="markdown">Connects a FAIR Implementation Community with research domains</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/has-research-domain">https://w3id.org/fair/fip/latest/has-research-domain</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">FAIR Implementation Community</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/refers-to-principle">
       <h3>refers to principle<sup class="type-op" title="object property">op</sup>
