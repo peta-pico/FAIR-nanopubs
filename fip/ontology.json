@@ -47,7 +47,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
   }, {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -203,7 +203,7 @@
     "@value" : "Editor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -445,7 +445,7 @@
     "@value" : "FAIR Representation Service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -500,14 +500,31 @@
     "@value" : "A FAIR Supporting Resource that is not yet available but still needs to be developed."
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service",
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Software",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Supporting-Software"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FAIR supporting service"
+    "@value" : "FAIR Supporting Software"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Any set of machine-readable instructions that support the implementation of FAIR, that conform to a given syntax, that are interpretable by a given processor, and that instruct a computer's processor to perform specific tasks."
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/FAIR-Supporting-Technology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR Supporting Technology"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
@@ -1050,7 +1067,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
   }, {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1160,7 +1177,7 @@
     "@value" : "Provenance tracking service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1198,7 +1215,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
   }, {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1287,7 +1304,7 @@
     "@value" : "Validation service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1304,7 +1321,7 @@
     "@value" : "Web-API"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",

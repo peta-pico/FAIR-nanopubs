@@ -359,7 +359,7 @@
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Authentication-and-authorization-service">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Authentication-and-authorization-service"/>
         <rdfs:label xml:lang="en">Authentication and authorization service</rdfs:label>
         <skos:definition xml:lang="en">A service that mediates access to digital objects according to specifed conditions.</skos:definition>
@@ -469,7 +469,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Editor">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Editor"/>
         <rdfs:label xml:lang="en">Editor</rdfs:label>
         <skos:definition xml:lang="en">A service that provides a user-friendly interface for easy editing of metadata, vocabularies or crosswalks.</skos:definition>
@@ -639,7 +639,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Representation-Service">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Representation-Service"/>
         <rdfs:label xml:lang="en">FAIR Representation Service</rdfs:label>
         <skos:definition xml:lang="en">A transformation service that converts non-FAIR data into a FAIR representation using machine-readable knowledge representation languages.</skos:definition>
@@ -682,13 +682,25 @@
     
 
 
-    <!-- https://w3id.org/fair/fip/terms/FAIR-Supporting-Service -->
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Supporting-Software -->
 
 
-    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service">
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Supporting-Software">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Supporting-Software"/>
+        <rdfs:label xml:lang="en">FAIR Supporting Software</rdfs:label>
+        <skos:definition xml:lang="en">Any set of machine-readable instructions that support the implementation of FAIR, that conform to a given syntax, that are interpretable by a given processor, and that instruct a computer&apos;s processor to perform specific tasks.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Supporting-Service"/>
-        <rdfs:label xml:lang="en">FAIR supporting service</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Supporting-Technology"/>
+        <rdfs:label xml:lang="en">FAIR Supporting Technology</rdfs:label>
         <skos:definition xml:lang="en">Any online accessible software system or component that supports the implementation of the FAIR Principles.</skos:definition>
     </owl:Class>
     
@@ -794,7 +806,7 @@
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Identifier-service">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Identifier-service"/>
         <rdfs:label xml:lang="en">Identifier service</rdfs:label>
         <skos:definition xml:lang="en">A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location.</skos:definition>
@@ -870,7 +882,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Provenance-Tracking-Service">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Provenance-Tracking-Service"/>
         <rdfs:label xml:lang="en">Provenance tracking service</rdfs:label>
         <skos:definition xml:lang="en">A system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects creating metadata based on a provenance model. </skos:definition>
@@ -896,7 +908,7 @@
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Registry">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Registry"/>
         <rdfs:label xml:lang="en">Registry</rdfs:label>
         <skos:definition xml:lang="en">A service that indexes metadata and data and provides search over that index.</skos:definition>
@@ -958,7 +970,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Validation-Service">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Validation-Service"/>
         <rdfs:label xml:lang="en">Validation service</rdfs:label>
         <skos:definition xml:lang="en">A system that automatically verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards.</skos:definition>
@@ -970,7 +982,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Web-API">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Service"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Web-API"/>
         <rdfs:label xml:lang="en">Web-API</rdfs:label>
         <skos:definition xml:lang="en">An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other.</skos:definition>
