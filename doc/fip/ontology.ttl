@@ -220,7 +220,7 @@ owl:Class rdf:type owl:Class .
 ###  https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> rdf:type owl:Class ;
                                                                            rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                                           <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                                                                           <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
                                                                            rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> ;
                                                                            rdfs:label "Authentication and authorization service"@en ;
                                                                            <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en .
@@ -294,7 +294,7 @@ owl:Class rdf:type owl:Class .
 
 ###  https://w3id.org/fair/fip/terms/Editor
 <https://w3id.org/fair/fip/terms/Editor> rdf:type owl:Class ;
-                                         rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                         rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
                                          rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Editor> ;
                                          rdfs:label "Editor"@en ;
                                          <http://www.w3.org/2004/02/skos/core#definition> "A service that provides a user-friendly interface for easy editing of metadata, vocabularies or crosswalks."@en .
@@ -408,7 +408,7 @@ owl:Class rdf:type owl:Class .
 
 ###  https://w3id.org/fair/fip/terms/FAIR-Representation-Service
 <https://w3id.org/fair/fip/terms/FAIR-Representation-Service> rdf:type owl:Class ;
-                                                              rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                                              rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
                                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Representation-Service> ;
                                                               rdfs:label "FAIR Representation Service"@en ;
                                                               <http://www.w3.org/2004/02/skos/core#definition> "A transformation service that converts non-FAIR data into a FAIR representation using machine-readable knowledge representation languages."@en .
@@ -437,12 +437,20 @@ owl:Class rdf:type owl:Class .
                                                                            <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Supporting Resource that is not yet available but still needs to be developed."@en .
 
 
-###  https://w3id.org/fair/fip/terms/FAIR-Supporting-Service
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> rdf:type owl:Class ;
-                                                          rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
-                                                          rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Supporting-Service> ;
-                                                          rdfs:label "FAIR supporting service"@en ;
-                                                          <http://www.w3.org/2004/02/skos/core#definition> "Any online accessible software system or component that supports the implementation of the FAIR Principles."@en .
+###  https://w3id.org/fair/fip/terms/FAIR-Supporting-Software
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
+                                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Supporting-Software> ;
+                                                           rdfs:label "FAIR Supporting Software"@en ;
+                                                           <http://www.w3.org/2004/02/skos/core#definition> "Any set of machine-readable instructions that support the implementation of FAIR, that conform to a given syntax, that are interpretable by a given processor, and that instruct a computer's processor to perform specific tasks."@en .
+
+
+###  https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                             rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Supporting-Technology> ;
+                                                             rdfs:label "FAIR Supporting Technology"@en ;
+                                                             <http://www.w3.org/2004/02/skos/core#definition> "Any online accessible software system or component that supports the implementation of the FAIR Principles."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/FAIR-Training-Material
@@ -511,7 +519,7 @@ owl:Class rdf:type owl:Class .
 ###  https://w3id.org/fair/fip/terms/Identifier-service
 <https://w3id.org/fair/fip/terms/Identifier-service> rdf:type owl:Class ;
                                                      rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                                     <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                                                     <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Identifier-service> ;
                                                      rdfs:label "Identifier service"@en ;
                                                      <http://www.w3.org/2004/02/skos/core#definition> "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en .
@@ -563,7 +571,7 @@ owl:Class rdf:type owl:Class .
 
 ###  https://w3id.org/fair/fip/terms/Provenance-Tracking-Service
 <https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> rdf:type owl:Class ;
-                                                              rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                                              rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
                                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Provenance-Tracking-Service> ;
                                                               rdfs:label "Provenance tracking service"@en ;
                                                               <http://www.w3.org/2004/02/skos/core#definition> "A system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects creating metadata based on a provenance model. "@en .
@@ -581,7 +589,7 @@ owl:Class rdf:type owl:Class .
 ###  https://w3id.org/fair/fip/terms/Registry
 <https://w3id.org/fair/fip/terms/Registry> rdf:type owl:Class ;
                                            rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ,
-                                                           <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                                           <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
                                            rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Registry> ;
                                            rdfs:label "Registry"@en ;
                                            <http://www.w3.org/2004/02/skos/core#definition> "A service that indexes metadata and data and provides search over that index."@en .
@@ -623,7 +631,7 @@ owl:Class rdf:type owl:Class .
 
 ###  https://w3id.org/fair/fip/terms/Validation-Service
 <https://w3id.org/fair/fip/terms/Validation-Service> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Validation-Service> ;
                                                      rdfs:label "Validation service"@en ;
                                                      <http://www.w3.org/2004/02/skos/core#definition> "A system that automatically verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards."@en .
@@ -631,7 +639,7 @@ owl:Class rdf:type owl:Class .
 
 ###  https://w3id.org/fair/fip/terms/Web-API
 <https://w3id.org/fair/fip/terms/Web-API> rdf:type owl:Class ;
-                                          rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> ;
+                                          rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> ;
                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Web-API> ;
                                           rdfs:label "Web-API"@en ;
                                           <http://www.w3.org/2004/02/skos/core#definition> "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."@en .

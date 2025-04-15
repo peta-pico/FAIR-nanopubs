@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/fair/fip/np/index/RALMoJU3xZoCyWlVAzxtbwct7W22AU-LLcE4U8QrnmUVM> .
-@prefix sub: <https://w3id.org/fair/fip/np/index/RALMoJU3xZoCyWlVAzxtbwct7W22AU-LLcE4U8QrnmUVM#> .
+@prefix this: <https://w3id.org/fair/fip/np/index/RAMWo6AwKw0NVWsTc0kFuHud7merIzFFpnaxX2BM55W-s> .
+@prefix sub: <https://w3id.org/fair/fip/np/index/RAMWo6AwKw0NVWsTc0kFuHud7merIzFFpnaxX2BM55W-s#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -14,7 +14,7 @@ sub:Head {
 }
 
 sub:assertion {
-  this: npx:includesElement <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RAFsqhz2WI3V10mbhzWKRNn487cPE-7Es7K7DDZLkvlMo>,
+  this: npx:includesElement <https://w3id.org/fair/fip/np/Authentication-and-authorization-service/RA2r7iEASY-Ccojb0Tn6THjF7J8RsnBqJx_M4Uu95_Gak>,
       <https://w3id.org/fair/fip/np/Available-FAIR-Enabling-Resource/RAoalzeszpwNn-P2U2wrduOwbdXbY4tGMvM2jTX7R5SjU>,
       <https://w3id.org/fair/fip/np/Available-FAIR-Supporting-Resource/RADCoZ-XC-K4vOFEmbBjZzl8QRLPXWgPC_Lt9dKOktJds>,
       <https://w3id.org/fair/fip/np/Communication-protocol/RAWBoyUMQawwJiGohpXkZjbC7ghh4nEeXimXbyZ-W-4WE>,
@@ -23,7 +23,7 @@ sub:assertion {
       <https://w3id.org/fair/fip/np/Data-usage-license/RAI9jXPZfNyLpsbEC1rrTGN1YXhzmOhVyBWT2MrgT8xKI>,
       <https://w3id.org/fair/fip/np/Digital-Object-Type/RAPSSM8dsBiEg2MzRQotlULcYsBA8dhBf1_85EGHbuKBA>,
       <https://w3id.org/fair/fip/np/Domain-Specific-Registry/RAqrRbtT9xUITBlg_wa3Gh2_ttBJcuvOsfPy5LLkORMNU>,
-      <https://w3id.org/fair/fip/np/Editor/RADxX9_-zK7_HeLl-9rGX1i1C_yopikXKJ5B0TffKuCzU>,
+      <https://w3id.org/fair/fip/np/Editor/RA-RLXmRJWN5uHxMO2doCd2VYyHBc4-d0ma1h0gU3bAEU>,
       <https://w3id.org/fair/fip/np/Emerging-Community/RA-d5NAchBnSojR9_7O4ftiXb5k2W_U4Yj2Zyw0Og3r50>,
       <https://w3id.org/fair/fip/np/FAIR-Case-Study/RAbdww2Mnva2puMUwkgiv3Ai_Dq3pihigeyuj9GiDnq0Q>,
       <https://w3id.org/fair/fip/np/FAIR-Data-Policy/RANNwYDIjt5qqeX-BAd7rO527OiAz3dEn-KfQRgq1OoCg>,
@@ -37,11 +37,12 @@ sub:assertion {
       <https://w3id.org/fair/fip/np/FAIR-Interpretation/RAhvHUxGNUkDKsjJhH5RfJLs2uqfBWtyBsklYWw6xMp7k>,
       <https://w3id.org/fair/fip/np/FAIR-Practice/RAFxJ9QUEUS8itoYVPr8P_i4IVK5KNUcAIfVOxConI8OM>,
       <https://w3id.org/fair/fip/np/FAIR-Qualification-Criteria/RA_QeDhCRnqPtKm1S3tlzRvROlRJtztBlk4CsVEBbK7cY>,
-      <https://w3id.org/fair/fip/np/FAIR-Representation-Service/RAjZAE-Zb9L6NaaIc-Of_qM0wHIPkSa99TOJ2IxkPdVFs>,
+      <https://w3id.org/fair/fip/np/FAIR-Representation-Service/RA2zK-sYa7k_TN-raIHbAVZpPJf6XtG6_2nxXEIkCgiEQ>,
       <https://w3id.org/fair/fip/np/FAIR-Specification/RA-TqO-UzR_im0rLVzhQ75uQBzJPNAjj5FK1sBWBwkHcY>,
       <https://w3id.org/fair/fip/np/FAIR-Supporting-Resource-to-be-Developed/RA_NcF-1NpSNFG_xoEU3YToIm8WV6XNXtOH358VLSWDM0>,
       <https://w3id.org/fair/fip/np/FAIR-Supporting-Resource/RAJ7pju_y4y4I4yyxuPw3kCas5kpG0KtjSxZRrZgnOnHk>,
-      <https://w3id.org/fair/fip/np/FAIR-Supporting-Service/RAet9oS9wMfinBkCzfaRlZ1ebvQXkktfUOOP3j0Trfd70>,
+      <https://w3id.org/fair/fip/np/FAIR-Supporting-Software/RAxfCrXUfJrlKyNvFSlbay7-0MHqHETy_Wu95q9kc9nxg>,
+      <https://w3id.org/fair/fip/np/FAIR-Supporting-Technology/RATTq-IqZua9bhjXF7NA_zwJc0g8Pwm44OSm7B5KK4vzs>,
       <https://w3id.org/fair/fip/np/FAIR-Training-Material/RAFqcRH7hVhFLTjeM9Fyo0-9xU-CnzyqcSP45nzyKm7dw>,
       <https://w3id.org/fair/fip/np/FIP-Data-related-Question/RADA4zxUj1UCddILOdQvVW4UfHv7rd-QWDDUPwmBRzkM4>,
       <https://w3id.org/fair/fip/np/FIP-Declaration/RAmO97KyAX_KPQSRzMOHY-kzKJmgVPScReb4VGmc6tEjU>,
@@ -72,21 +73,21 @@ sub:assertion {
       <https://w3id.org/fair/fip/np/FIP-Question/RA8t_hL1RiB6nlbhGg6BP2aNBvYncr-Ck1-snDessclOo>,
       <https://w3id.org/fair/fip/np/FSR-Declaration/RAjCgZlxyw1FrwbwNdHXNjF_2DBHZQa_zA2DD3-wl_SII>,
       <https://w3id.org/fair/fip/np/Generalist-Registry/RA7q8Qk5oJeP3nivz-XX0HBseYUBeUFvNQu1zeuRffn8I>,
-      <https://w3id.org/fair/fip/np/Identifier-service/RAiAJuczWtxf1LiBQRCoAw8MvFcJDJZ1I6_SaGmYJl0Co>,
+      <https://w3id.org/fair/fip/np/Identifier-service/RAugNhEU0kNzdVTXPQ7Z4fieEvuIE6uPwliSNXosOrch4>,
       <https://w3id.org/fair/fip/np/Knowledge-representation-language/RAvIp2QnwEpiPF1g1Ls7Sm-1RYFxU72RIJRn4azkNM_sM>,
       <https://w3id.org/fair/fip/np/Mature-Community/RAAkx4rOkjQUtl4iychOi2xa9hlH0b3cRJzoiIhCzwD6k>,
       <https://w3id.org/fair/fip/np/Metadata-data-linking-schema/RA1w-Cg4akNuX_ZCtzBlwv8rFmgfwil60Gfsb0nSSaB3s>,
       <https://w3id.org/fair/fip/np/Metadata-preservation-policy/RArKiMJ0yPQ98Z7qz4wxzTPBzpzPxOv7PMfb85UgP005w>,
       <https://w3id.org/fair/fip/np/Metadata-schema/RAhQaRZPb3a5nDFWLiqh41IRp-wfQ5MGpjrYXFuBgC5cw>,
-      <https://w3id.org/fair/fip/np/Provenance-Tracking-Service/RAraTnO5vK7nRDtl5N-CqlL5i0GoKUI9v6CCqmUfeqXVE>,
+      <https://w3id.org/fair/fip/np/Provenance-Tracking-Service/RA57Pc_CKWrRPk9KRb944FUzvRZkCbE8GugYSESVg-fZU>,
       <https://w3id.org/fair/fip/np/Provenance-model/RArHForB6Iwv_rgPDZuZi1hsu1reh_imrCl-UNoE-heNI>,
-      <https://w3id.org/fair/fip/np/Registry/RAJyUoNd5a1gT2Y44Fwp790ux7A8aVNSuYngsxr8DVjDo>,
+      <https://w3id.org/fair/fip/np/Registry/RAB90J03dl0igX-forcTRqdz4P5_4GYr6qUIekvzmzT-4>,
       <https://w3id.org/fair/fip/np/SIP-Declaration/RAKaXUYR_vaCHeRGw4-xSz0I8WTpNsI8AXirz-2S3ugoI>,
       <https://w3id.org/fair/fip/np/Semantic-Interoperability-Profile/RATFBxWYNuaAFefRKErOiZTlEWC8EpA5S8vnHHtp7bvYA>,
       <https://w3id.org/fair/fip/np/Semantic-model/RAMonnLlhVd9NqzR_zkbXut6GxElZKRzZfMKcXlru3vjU>,
       <https://w3id.org/fair/fip/np/Structured-vocabulary/RAD27HiNBAl1rdy4uF1LSh0OssoskynyLoeXlnmzDWLfI>,
-      <https://w3id.org/fair/fip/np/Validation-Service/RAg_A9uN1QkncRqLX5sIPF5QMJEEskqVVIQxfsrllwfss>,
-      <https://w3id.org/fair/fip/np/Web-API/RAAIKANilt-Dydj7k2rMwqPsH5ZyHu7WcLjVJK7LDg4HE>,
+      <https://w3id.org/fair/fip/np/Validation-Service/RA2IQaTj1nxe7rjQ2hgIyLmWQ_YbZh0dtRJ8TdU-gzSNk>,
+      <https://w3id.org/fair/fip/np/Web-API/RAePqjjWBeQDy_V-O0C7O7-WtAtN51NgI2Tg-jNZyB8lM>,
       <https://w3id.org/fair/fip/np/considerations/RAjaeCe4MAp3pTKYo1XYU9onJzwiYglwpVV5yoM__Rk6M>,
       <https://w3id.org/fair/fip/np/declared-by/RA-H_odGBijtXJt6B8wVrtFOfEyRy3B5sLS4lqlPv4j5M>,
       <https://w3id.org/fair/fip/np/declared-for-case-study/RA9FYOIhiCUtE0XJbdXp8FpRHyH5hK5uOMpgxVRqtDGMo>,
@@ -112,14 +113,14 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "ETpDs/I2VQ14T/UX5iyCtQ1c4YmwxvGJ/2TtL86uXxcdgIg/aQwPVMFPxH7hdlNCDKAi+3TfiNtE13/2SC9HD9SsPIWwOnfjHVs1A/BxW2PUHdSt/rHnQLuVr5xZpkwopqEb40966WljkPJ4S3TGmdfExYVqAA4tttK28tCG5k4=";
+    npx:hasSignature "qVo1aR25r4x6GEVzTdGfuIp52lQhOQPJbsbcUnhVpJPxZXKQmlGtA2UNKnWvSyrc4BpQaejYbZ11yvgoLMj2v9I+BC0v/BIZCHPSABBQc+CVE8TXF248uTcDlk8s3IrEvwTKBud2ofcpHNLY//kfbFGS2LDGR3oPHUXELFF7B5k=";
     npx:hasSignatureTarget this: .
   
   this: a npx:NanopubIndex;
     dce:title "Nanopublications representing the FAIR Implementation Profiles (FIP) Ontology";
-    dct:created "2025-03-24T09:22:43.302+01:00"^^xsd:dateTime;
+    dct:created "2025-04-15T09:14:56.673+02:00"^^xsd:dateTime;
     dct:creator <https://orcid.org/0000-0001-8888-635X>, <https://orcid.org/0000-0002-1267-0234>,
       <https://orcid.org/0000-0003-2195-3997>;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    npx:supersedes <https://w3id.org/fair/fip/np/index/RAptJnk7Pu7cz8GLbSWh_JApkABBhVZOtN9xytI2Ue40c> .
+    npx:supersedes <https://w3id.org/fair/fip/np/index/RALMoJU3xZoCyWlVAzxtbwct7W22AU-LLcE4U8QrnmUVM> .
 }

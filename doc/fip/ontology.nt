@@ -213,8 +213,8 @@
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#label> "Authentication and authorization service"@en .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en .
@@ -281,7 +281,7 @@
 # 
 # https://w3id.org/fair/fip/terms/Editor
 <https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Editor> .
 <https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2000/01/rdf-schema#label> "Editor"@en .
 <https://w3id.org/fair/fip/terms/Editor> <http://www.w3.org/2004/02/skos/core#definition> "A service that provides a user-friendly interface for easy editing of metadata, vocabularies or crosswalks."@en .
@@ -376,7 +376,7 @@
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Representation-Service
 <https://w3id.org/fair/fip/terms/FAIR-Representation-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/fip/terms/FAIR-Representation-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/FAIR-Representation-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/FAIR-Representation-Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Representation-Service> .
 <https://w3id.org/fair/fip/terms/FAIR-Representation-Service> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Representation Service"@en .
 <https://w3id.org/fair/fip/terms/FAIR-Representation-Service> <http://www.w3.org/2004/02/skos/core#definition> "A transformation service that converts non-FAIR data into a FAIR representation using machine-readable knowledge representation languages."@en .
@@ -399,11 +399,18 @@
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Supporting Resource to be developed"@en .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Supporting Resource that is not yet available but still needs to be developed."@en .
 # 
-# https://w3id.org/fair/fip/terms/FAIR-Supporting-Service
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Service> .
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR supporting service"@en .
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> <http://www.w3.org/2004/02/skos/core#definition> "Any online accessible software system or component that supports the implementation of the FAIR Principles."@en .
+# https://w3id.org/fair/fip/terms/FAIR-Supporting-Software
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Software> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Supporting Software"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/2004/02/skos/core#definition> "Any set of machine-readable instructions that support the implementation of FAIR, that conform to a given syntax, that are interpretable by a given processor, and that instruct a computer's processor to perform specific tasks."@en .
+# 
+# https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Technology> .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Supporting Technology"@en .
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/2004/02/skos/core#definition> "Any online accessible software system or component that supports the implementation of the FAIR Principles."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Training-Material
 <https://w3id.org/fair/fip/terms/FAIR-Training-Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -462,7 +469,7 @@
 # https://w3id.org/fair/fip/terms/Identifier-service
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
-<https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Identifier-service> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier service"@en .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2004/02/skos/core#definition> "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en .
@@ -507,7 +514,7 @@
 # 
 # https://w3id.org/fair/fip/terms/Provenance-Tracking-Service
 <https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Provenance-Tracking-Service> .
 <https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance tracking service"@en .
 <https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/2004/02/skos/core#definition> "A system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects creating metadata based on a provenance model. "@en .
@@ -522,7 +529,7 @@
 # 
 # https://w3id.org/fair/fip/terms/Registry
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
-<https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Registry> .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#label> "Registry"@en .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2004/02/skos/core#definition> "A service that indexes metadata and data and provides search over that index."@en .
@@ -559,14 +566,14 @@
 # 
 # https://w3id.org/fair/fip/terms/Validation-Service
 <https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Validation-Service> .
 <https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2000/01/rdf-schema#label> "Validation service"@en .
 <https://w3id.org/fair/fip/terms/Validation-Service> <http://www.w3.org/2004/02/skos/core#definition> "A system that automatically verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards."@en .
 # 
 # https://w3id.org/fair/fip/terms/Web-API
 <https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Service> .
+<https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Web-API> .
 <https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2000/01/rdf-schema#label> "Web-API"@en .
 <https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2004/02/skos/core#definition> "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."@en .
