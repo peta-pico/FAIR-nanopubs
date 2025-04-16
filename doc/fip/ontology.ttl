@@ -125,6 +125,15 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                           <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"@en .
 
 
+###  https://w3id.org/fair/fip/terms/depends-on
+<https://w3id.org/fair/fip/terms/depends-on> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                             rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> ;
+                                             rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/depends-on> ;
+                                             rdfs:label "depends on"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a FAIR Supporting Software."@en .
+
+
 ###  https://w3id.org/fair/fip/terms/enables
 <https://w3id.org/fair/fip/terms/enables> rdf:type owl:ObjectProperty ;
                                           rdfs:domain owl:Class ;

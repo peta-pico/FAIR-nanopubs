@@ -203,6 +203,19 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/depends-on -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/depends-on">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Software"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/depends-on"/>
+        <rdfs:label xml:lang="en">depends on</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource with a FAIR Supporting Software.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/enables -->
 
 
