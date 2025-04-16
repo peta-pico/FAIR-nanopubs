@@ -1485,6 +1485,26 @@
     "@value" : "Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/depends-on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/depends-on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "depends on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Software"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FAIR Enabling Resource with a FAIR Supporting Software."
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/enables",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {

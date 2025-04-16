@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Tue Apr 15 09:14:59 CEST 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Wed Apr 16 14:34:32 CEST 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -313,6 +313,9 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/declares-planned-use-of"
          title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/depends-on" title="https://w3id.org/fair/fip/terms/depends-on">depends on</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/enables" title="https://w3id.org/fair/fip/terms/enables">enables</a>
@@ -1506,6 +1509,11 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology">FAIR Supporting Technology</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/depends-on" title="https://w3id.org/fair/fip/terms/depends-on">depends on</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology">
@@ -1630,6 +1638,11 @@ This section provides details for each class and property defined by FAIR Implem
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Structured-vocabulary"
                title="https://w3id.org/fair/fip/terms/Structured-vocabulary">Structured vocabulary</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/depends-on" title="https://w3id.org/fair/fip/terms/depends-on">depends on</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -2344,6 +2357,9 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/declares-planned-use-of">declares planned use of</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/depends-on" title="https://w3id.org/fair/fip/terms/depends-on">depends on</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/enables" title="https://w3id.org/fair/fip/terms/enables">enables</a>
       </li>
       <li>
@@ -2588,6 +2604,39 @@ This section provides details for each class and property defined by FAIR Implem
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
                   title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/depends-on">
+      <h3>depends on<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/depends-on</p>
+      <div class="comment">
+         <span class="markdown">Connects a FAIR Enabling Resource with a FAIR Supporting Software.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/depends-on">https://w3id.org/fair/fip/latest/depends-on</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Software"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Software">FAIR Supporting Software</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
