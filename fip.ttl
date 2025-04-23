@@ -630,3 +630,44 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#label> "depends on"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Software>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a FAIR Supporting Software."@en .
+
+<https://w3id.org/fair/fip/terms/implements> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/implements>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "implements"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Specification>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a FAIR Specification"@en .
+
+<https://w3id.org/fair/fip/terms/has-data-usage-license> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-data-usage-license>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "has data usage license"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Data-usage-license>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a data usage license."@en .
+
+<https://w3id.org/fair/fip/terms/has-MPP> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/Registry>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-MPP>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "has metadata preservation policy"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Metadata-preservation-policy>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a registry with a metadata preservation policy."@en .
+
+<https://w3id.org/fair/fip/terms/has-AAS> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/Registry>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-AAS>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "uses authentication and authorization service"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a registry with an authentication and authorization service"@en .
+
+<https://w3id.org/fair/fip/terms/uses-identifier-service> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/Registry>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/uses-identifier-service>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "uses identifier service"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Identifier-service>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a registry with an identifier service."@en .
+
+<https://w3id.org/fair/fip/terms/has-purpose> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-purpose>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "has purpose"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "Specifies the purpose of FAIR Supporting Resources"@en .
