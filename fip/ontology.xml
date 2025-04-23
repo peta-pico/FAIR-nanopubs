@@ -229,6 +229,32 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/has-AAS -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-AAS">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Authentication-and-authorization-service"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-AAS"/>
+        <rdfs:label xml:lang="en">uses authentication and authorization service</rdfs:label>
+        <skos:definition xml:lang="en">Connects a registry with an authentication and authorization service</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-MPP -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-MPP">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Metadata-preservation-policy"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-MPP"/>
+        <rdfs:label xml:lang="en">has metadata preservation policy</rdfs:label>
+        <skos:definition xml:lang="en">Connects a registry with a metadata preservation policy.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/has-data-steward -->
 
 
@@ -238,6 +264,19 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-data-steward"/>
         <rdfs:label xml:lang="en">has data steward</rdfs:label>
         <skos:definition xml:lang="en">Specifies the data steward for a FAIR implementation community</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-data-usage-license -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-data-usage-license">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Data-usage-license"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-data-usage-license"/>
+        <rdfs:label xml:lang="en">has data usage license</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource with a data usage license.</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -266,6 +305,18 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/has-purpose -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-purpose">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-purpose"/>
+        <rdfs:label xml:lang="en">has purpose</rdfs:label>
+        <skos:definition xml:lang="en">Specifies the purpose of FAIR Supporting Resources</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/has-research-domain -->
 
 
@@ -274,6 +325,19 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-research-domain"/>
         <rdfs:label xml:lang="en">has research domain</rdfs:label>
         <skos:definition xml:lang="en">Connects a FAIR Implementation Community with research domains</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/implements -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/implements">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/implements"/>
+        <rdfs:label xml:lang="en">implements</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource with a FAIR Specification</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -299,6 +363,19 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/refers-to-question"/>
         <rdfs:label xml:lang="en">refers to question</rdfs:label>
         <skos:definition xml:lang="en">Connects a FIP declaration to the FIP question it is addressing</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/uses-identifier-service -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/uses-identifier-service">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Identifier-service"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/uses-identifier-service"/>
+        <rdfs:label xml:lang="en">uses identifier service</rdfs:label>
+        <skos:definition xml:lang="en">Connects a registry with an identifier service.</skos:definition>
     </owl:ObjectProperty>
     
 
