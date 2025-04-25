@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Wed Apr 23 08:33:03 CEST 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Fri Apr 25 11:37:38 CEST 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -256,6 +256,10 @@ This ontology has the following classes and properties.</span>
       <a href="#http://purl.org/nanopub/x/NanopubIndex" title="http://purl.org/nanopub/x/NanopubIndex">Nanopublication Index</a>
    </li>
    <li>
+      <a href="#https://w3id.org/fair/fip/terms/Persistency-Policy"
+         title="https://w3id.org/fair/fip/terms/Persistency-Policy">Persistency Policy</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/Provenance-model"
          title="https://w3id.org/fair/fip/terms/Provenance-model">Provenance model</a>
    </li>
@@ -340,7 +344,8 @@ This ontology has the following classes and properties.</span>
       <a href="#https://w3id.org/fair/fip/terms/has-MPP" title="https://w3id.org/fair/fip/terms/has-MPP">has metadata preservation policy</a>
    </li>
    <li>
-      <a href="#https://w3id.org/fair/fip/terms/has-purpose" title="https://w3id.org/fair/fip/terms/has-purpose">has purpose</a>
+      <a href="#https://w3id.org/fair/fip/terms/has-persistency-policy"
+         title="https://w3id.org/fair/fip/terms/has-persistency-policy">has persistency policy</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/has-research-domain"
@@ -356,6 +361,9 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/refers-to-question"
          title="https://w3id.org/fair/fip/terms/refers-to-question">refers to question</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/targets" title="https://w3id.org/fair/fip/terms/targets">targets</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/has-AAS" title="https://w3id.org/fair/fip/terms/has-AAS">uses authentication and authorization service</a>
@@ -686,6 +694,10 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#http://purl.org/nanopub/x/NanopubIndex" title="http://purl.org/nanopub/x/NanopubIndex">Nanopublication Index</a>
       </li>
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/Persistency-Policy"
+            title="https://w3id.org/fair/fip/terms/Persistency-Policy">Persistency Policy</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/Provenance-model"
             title="https://w3id.org/fair/fip/terms/Provenance-model">Provenance model</a>
       </li>
@@ -921,6 +933,7 @@ This section provides details for each class and property defined by FAIR Implem
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/declared-for-digital-object-type"
                title="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">declared for digital object type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/targets" title="https://w3id.org/fair/fip/terms/targets">targets</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -1058,6 +1071,8 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/Data-usage-license">Data usage license</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Metadata-preservation-policy"
                title="https://w3id.org/fair/fip/terms/Metadata-preservation-policy">Metadata preservation policy</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Persistency-Policy"
+               title="https://w3id.org/fair/fip/terms/Persistency-Policy">Persistency Policy</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -1478,7 +1493,9 @@ This section provides details for each class and property defined by FAIR Implem
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/has-declaration-index"
                title="https://w3id.org/fair/fip/terms/has-declaration-index">has declaration index</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/has-purpose" title="https://w3id.org/fair/fip/terms/has-purpose">has purpose</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/has-persistency-policy"
+               title="https://w3id.org/fair/fip/terms/has-persistency-policy">has persistency policy</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/targets" title="https://w3id.org/fair/fip/terms/targets">targets</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
@@ -1671,6 +1688,8 @@ This section provides details for each class and property defined by FAIR Implem
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Metadata-schema" title="https://w3id.org/fair/fip/terms/Metadata-schema">Metadata schema</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Metadata-data-linking-schema"
                title="https://w3id.org/fair/fip/terms/Metadata-data-linking-schema">Metadata-data linking schema</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Persistency-Policy"
+               title="https://w3id.org/fair/fip/terms/Persistency-Policy">Persistency Policy</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Provenance-model"
                title="https://w3id.org/fair/fip/terms/Provenance-model">Provenance model</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/Registry" title="https://w3id.org/fair/fip/terms/Registry">Registry</a>
@@ -2140,6 +2159,38 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Persistency-Policy">
+      <h3>Persistency Policy<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Persistency-Policy</p>
+      <div class="comment">
+         <span class="markdown">A policy with respect to persistency of resources.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/Persistency-Policy">https://w3id.org/fair/fip/latest/Persistency-Policy</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Data-Policy" title="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">FAIR Data Policy</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+               title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/has-persistency-policy"
+               title="https://w3id.org/fair/fip/terms/has-persistency-policy">has persistency policy</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Provenance-model">
       <h3>Provenance model<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -2443,7 +2494,8 @@ This section provides details for each class and property defined by FAIR Implem
          <a href="#https://w3id.org/fair/fip/terms/has-MPP" title="https://w3id.org/fair/fip/terms/has-MPP">has metadata preservation policy</a>
       </li>
       <li>
-         <a href="#https://w3id.org/fair/fip/terms/has-purpose" title="https://w3id.org/fair/fip/terms/has-purpose">has purpose</a>
+         <a href="#https://w3id.org/fair/fip/terms/has-persistency-policy"
+            title="https://w3id.org/fair/fip/terms/has-persistency-policy">has persistency policy</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/has-research-domain"
@@ -2459,6 +2511,9 @@ This section provides details for each class and property defined by FAIR Implem
       <li>
          <a href="#https://w3id.org/fair/fip/terms/refers-to-question"
             title="https://w3id.org/fair/fip/terms/refers-to-question">refers to question</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/targets" title="https://w3id.org/fair/fip/terms/targets">targets</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/has-AAS" title="https://w3id.org/fair/fip/terms/has-AAS">uses authentication and authorization service</a>
@@ -2902,20 +2957,20 @@ This section provides details for each class and property defined by FAIR Implem
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/fair/fip/terms/has-purpose">
-      <h3>has purpose<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/has-persistency-policy">
+      <h3>has persistency policy<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/has-purpose</p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/has-persistency-policy</p>
       <div class="comment">
-         <span class="markdown">Specifies the purpose of FAIR Supporting Resources</span>
+         <span class="markdown">Connects a FAIR Supporting Resource with a persistency policy</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
-            <a href="https://w3id.org/fair/fip/latest/has-purpose">https://w3id.org/fair/fip/latest/has-purpose</a>
+            <a href="https://w3id.org/fair/fip/latest/has-persistency-policy">https://w3id.org/fair/fip/latest/has-persistency-policy</a>
          </dd>
       </dl>
       <div class="description">
@@ -2924,6 +2979,12 @@ This section provides details for each class and property defined by FAIR Implem
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
                   title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/Persistency-Policy"
+                  title="https://w3id.org/fair/fip/terms/Persistency-Policy">Persistency Policy</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -3042,6 +3103,39 @@ This section provides details for each class and property defined by FAIR Implem
             <dt>has range</dt>
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/FIP-Question" title="https://w3id.org/fair/fip/terms/FIP-Question">FIP Question</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/targets">
+      <h3>targets<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/targets</p>
+      <div class="comment">
+         <span class="markdown">Specifies the type of digital object targeted by a FAIR Supporting Resources</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/targets">https://w3id.org/fair/fip/latest/targets</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/Digital-Object-Type"
+                  title="https://w3id.org/fair/fip/terms/Digital-Object-Type">Digital Object Type</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>

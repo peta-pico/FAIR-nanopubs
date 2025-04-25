@@ -2232,6 +2232,47 @@ sub:pubinfo {
     npx:introduces fip:Data-usage-license;
     npx:supersedes <https://w3id.org/fair/fip/np/Data-usage-license/RAMbuq0ExgnLp1DTDwX_0ep7XrD-tTrpT5PVENdVH2niY> .
 }
+@prefix this: <https://w3id.org/fair/fip/np/Persistency-Policy/RAKv0g31yG2xa64skBWCP0DOiIzNiexqBSeqcfLsjYuWA> .
+@prefix sub: <https://w3id.org/fair/fip/np/Persistency-Policy/RAKv0g31yG2xa64skBWCP0DOiIzNiexqBSeqcfLsjYuWA/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Persistency-Policy> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:Persistency-Policy rdfs:isDefinedBy latest:;
+    rdfs:label "Persistency Policy"@en;
+    rdfs:subClassOf fip:FAIR-Data-Policy, fip:FAIR-Enabling-Resource;
+    skos:definition "A policy with respect to persistency of resources."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2025-04-25T11:37:34.745+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:Persistency-Policy .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "ENCMwrGwV4vvMomLwyqxkdVm5ozHlLUnKJWQroM0W4isC6sR3QpiOUcnAWIWjQB0n8HwN2IoNKcWjbWiEFIJWee//HxiaYWFAAdJZCcPuPN8ahrgI45AR7Li9LMRF/KW4XeobQSrmFsMPXKLEFBwe53DLQH3Os5uGIeDa9wPYfo=";
+    npx:hasSignatureTarget this: .
+}
 @prefix this: <https://w3id.org/fair/fip/np/Provenance-model/RArHForB6Iwv_rgPDZuZi1hsu1reh_imrCl-UNoE-heNI> .
 @prefix sub: <https://w3id.org/fair/fip/np/Provenance-model/RArHForB6Iwv_rgPDZuZi1hsu1reh_imrCl-UNoE-heNI#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -4153,8 +4194,8 @@ sub:pubinfo {
     npx:hasSignature "L45MxK7rN3shdW9jb2+X6sftBfC1JKw50mM1C0bTRJ8IjA2p8qRTJKf7qm/BIT7CyVgcIDnfHYOrDX1+FYuUyuAvVg9EGKYjbWCHJRQmDL7RWgc7KiDB9/8/3YcTm5ZLFieGjg2xcE3irtUwZRzJYjAbqV2mR9BXj2wXi1uIVzo=";
     npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/fip/np/has-purpose/RAVJ2T4WRzMIobABUm7GkbyhnwQGatPkH2ZYJTmVK0jTs> .
-@prefix sub: <https://w3id.org/fair/fip/np/has-purpose/RAVJ2T4WRzMIobABUm7GkbyhnwQGatPkH2ZYJTmVK0jTs/> .
+@prefix this: <https://w3id.org/fair/fip/np/targets/RAIwhq80w9Wfuxt7EL5kqBCM9IQIxdAy4Dy4VRMsnJQAQ> .
+@prefix sub: <https://w3id.org/fair/fip/np/targets/RAIwhq80w9Wfuxt7EL5kqBCM9IQIxdAy4Dy4VRMsnJQAQ/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -4164,7 +4205,7 @@ sub:pubinfo {
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 @prefix fip: <https://w3id.org/fair/fip/terms/> .
-@prefix latest: <https://w3id.org/fair/fip/latest/has-purpose> .
+@prefix latest: <https://w3id.org/fair/fip/latest/targets> .
 
 sub:Head {
   this: a np:Nanopublication;
@@ -4174,11 +4215,12 @@ sub:Head {
 }
 
 sub:assertion {
-  fip:has-purpose a owl:ObjectProperty;
+  fip:targets a owl:ObjectProperty;
     rdfs:domain fip:FAIR-Supporting-Resource;
     rdfs:isDefinedBy latest:;
-    rdfs:label "has purpose"@en;
-    skos:definition "Specifies the purpose of FAIR Supporting Resources"@en .
+    rdfs:label "targets"@en;
+    rdfs:range fip:Digital-Object-Type;
+    skos:definition "Specifies the type of digital object targeted by a FAIR Supporting Resources"@en .
 }
 
 sub:provenance {
@@ -4186,13 +4228,57 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "2025-04-23T08:33:00.601+02:00"^^xsd:dateTime;
+  this: dct:created "2025-04-25T11:37:34.745+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    npx:introduces fip:has-purpose .
+    npx:introduces fip:targets .
   
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "CTVXK7HhUvx6zqLlZ8ZNeIA5rdg9B7XoJzN+9fGujQ7yDJnNDVkXx5rvxRHpmlUUFU7gB+tv3OcY+MddPuGY7CTgAqUTi5s560PiO4yGBNncftw3FAzqqDxKkSTs1kQ4fs8ln0xHrJXB4Z3um38t2ZgNKoX+QY/82D4NsJ4qrxk=";
+    npx:hasSignature "LVlcylYfIT/5AErCMJGT4t0F4etG6BgkXL5dRJ0ktsIPEnVOHjYjC9Db1X1VJlsUPeNcmYh5akHXhjTUC/UGtQWKSd8itU8t2si2pSK++AL5IOMcranX2Othguor7zu1/hDYVzessB42M0H/e6ImckNwICNvClBXxQ0KNOsEyL4=";
+    npx:hasSignatureTarget this: .
+}
+@prefix this: <https://w3id.org/fair/fip/np/has-persistency-policy/RAqsjYd7a0eA6f7-d1_c8ZmwdKUVUjS1-ohxSzRYIEopI> .
+@prefix sub: <https://w3id.org/fair/fip/np/has-persistency-policy/RAqsjYd7a0eA6f7-d1_c8ZmwdKUVUjS1-ohxSzRYIEopI/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/has-persistency-policy> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:has-persistency-policy a owl:ObjectProperty;
+    rdfs:domain fip:FAIR-Supporting-Resource;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "has persistency policy"@en;
+    rdfs:range fip:Persistency-Policy;
+    skos:definition "Connects a FAIR Supporting Resource with a persistency policy"@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2025-04-25T11:37:34.745+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:has-persistency-policy .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "dzq7PrVZ4CaSZI/wXLrGJVUcmy0l/9G21IEHiSplNjK6cCge8AEUM7aANxmYN9JVLpqtfJDe8QKfc3cYA+5uDPxCIs1fxg+MJDgwSv33GnG1FXXIGWZYaxNyntykpNHa/DZD4q0apZ5LuRG7HvBKoMXdILfMCXssKYSYi+s4jig=";
     npx:hasSignatureTarget this: .
 }

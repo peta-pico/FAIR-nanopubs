@@ -371,6 +371,13 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
     <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
   <http://www.w3.org/2004/02/skos/core#definition> "A data policy that specifies legal restrictions on the reuse of the data."@en .
 
+<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/Persistency-Policy>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Persistency Policy"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Data-Policy>,
+    <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A policy with respect to persistency of resources."@en .
+
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Provenance-model>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Provenance model"@en;
@@ -666,8 +673,16 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Identifier-service>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a registry with an identifier service."@en .
 
-<https://w3id.org/fair/fip/terms/has-purpose> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+<https://w3id.org/fair/fip/terms/targets> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
-  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-purpose>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "has purpose"@en;
-  <http://www.w3.org/2004/02/skos/core#definition> "Specifies the purpose of FAIR Supporting Resources"@en .
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/targets>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "targets"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Digital-Object-Type>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Specifies the type of digital object targeted by a FAIR Supporting Resources"@en .
+
+<https://w3id.org/fair/fip/terms/has-persistency-policy> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-persistency-policy>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "has persistency policy"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Persistency-Policy>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Supporting Resource with a persistency policy"@en .

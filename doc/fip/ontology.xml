@@ -305,14 +305,15 @@
     
 
 
-    <!-- https://w3id.org/fair/fip/terms/has-purpose -->
+    <!-- https://w3id.org/fair/fip/terms/has-persistency-policy -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-purpose">
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-persistency-policy">
         <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-purpose"/>
-        <rdfs:label xml:lang="en">has purpose</rdfs:label>
-        <skos:definition xml:lang="en">Specifies the purpose of FAIR Supporting Resources</skos:definition>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Persistency-Policy"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-persistency-policy"/>
+        <rdfs:label xml:lang="en">has persistency policy</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Supporting Resource with a persistency policy</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -363,6 +364,19 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/refers-to-question"/>
         <rdfs:label xml:lang="en">refers to question</rdfs:label>
         <skos:definition xml:lang="en">Connects a FIP declaration to the FIP question it is addressing</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/targets -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/targets">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Digital-Object-Type"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/targets"/>
+        <rdfs:label xml:lang="en">targets</rdfs:label>
+        <skos:definition xml:lang="en">Specifies the type of digital object targeted by a FAIR Supporting Resources</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -964,6 +978,19 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Metadata-schema"/>
         <rdfs:label xml:lang="en">Metadata schema</rdfs:label>
         <skos:definition xml:lang="en">A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Persistency-Policy -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Persistency-Policy">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Data-Policy"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Persistency-Policy"/>
+        <rdfs:label xml:lang="en">Persistency Policy</rdfs:label>
+        <skos:definition xml:lang="en">A policy with respect to persistency of resources.</skos:definition>
     </owl:Class>
     
 
