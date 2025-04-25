@@ -232,7 +232,8 @@ RewriteRule ^fip/latest/has-declaration-index$ http://purl.org/np/RAE-UwcJ4Q-Ccf
 RewriteRule ^fip/latest/has-research-domain$ http://purl.org/np/RAlEzYvcht_CyrzqGqcPIvV5_3CMb6sDa12ecAKaOmUBs [R=302,L]
 RewriteRule ^fip/latest/enables$ http://purl.org/np/RA2Aa7aWZeXl9mEa-aRusHdJyz0tkGA67IknAe_JS4ch0 [R=302,L]
 RewriteRule ^fip/latest/considerations$ http://purl.org/np/RAjaeCe4MAp3pTKYo1XYU9onJzwiYglwpVV5yoM__Rk6M [R=302,L]
-RewriteRule ^fip/latest/metadata-availability-in-years$ http://purl.org/np/RAEZaQTVA0IarArMJOZP1o5eO__966QQI7P7D8PGYK4ZE [R=302,L]
+RewriteRule ^fip/latest/availability-in-years$ http://purl.org/np/RAZtTQJ-IHxzx1cTmmIue6OW21M0W9hniUMGRgrndeYKQ [R=302,L]
+RewriteRule ^fip/latest/metadata-availability-in-years$ http://purl.org/np/RAp-IJxkU-po_tZhcDElqEHIP9-jg2RBb4IOBoiycMReY [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-F1-MD$ http://purl.org/np/RA3JL2E8g6TdgVUwEZL-VbeKDZCboI0xX9hemEUD5NQWg [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-F1-D$ http://purl.org/np/RA_yH5MvXUHee_rdxHFYe0ErstgZ97W95hrSqlb78dEb4 [R=302,L]
 RewriteRule ^fip/latest/FIP-Question-F2$ http://purl.org/np/RArYgu6jkB4toYrVtTNFiO8-y7dJbYqDyZ4HOXaTRpNDI [R=302,L]
@@ -264,7 +265,7 @@ RewriteRule ^fip/latest/uses-identifier-service$ http://purl.org/np/RAzajikXGoCp
 RewriteRule ^fip/latest/targets$ http://purl.org/np/RAIwhq80w9Wfuxt7EL5kqBCM9IQIxdAy4Dy4VRMsnJQAQ [R=302,L]
 RewriteRule ^fip/latest/has-persistency-policy$ http://purl.org/np/RAqsjYd7a0eA6f7-d1_c8ZmwdKUVUjS1-ohxSzRYIEopI [R=302,L]
 
-RewriteRule ^fip/latest/index$ http://purl.org/np/RAfUpUrSsM4hZuu6SKtr4tt7Sv_uympIqFnF4NBlL9w-U [R=302,L]
+RewriteRule ^fip/latest/index$ http://purl.org/np/RABX0T4cTycYL8FMdQlHKB6faClhd5d6uMIJIyFqA4c0s [R=302,L]
 
 
 RewriteRule ^maturity_indicator/terms/(.+)$ https://w3id.org/fair/maturity_indicator/latest/$1 [R=302,L]

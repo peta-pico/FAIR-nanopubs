@@ -406,6 +406,18 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/availability-in-years -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/fair/fip/terms/availability-in-years">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/availability-in-years"/>
+        <rdfs:label xml:lang="en">availability in years</rdfs:label>
+        <skos:definition xml:lang="en">Specifies how many years a resource is preserved according to a preservation policy</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/considerations -->
 
 
@@ -422,6 +434,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/fair/fip/terms/metadata-availability-in-years">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/fair/fip/terms/availability-in-years"/>
         <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/Metadata-preservation-policy"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/metadata-availability-in-years"/>
         <rdfs:label xml:lang="en">metadata availability in years</rdfs:label>
@@ -1104,6 +1117,13 @@
         <rdfs:label xml:lang="en">Web-API</rdfs:label>
         <skos:definition xml:lang="en">An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other.</skos:definition>
     </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy"/>
     
 
 

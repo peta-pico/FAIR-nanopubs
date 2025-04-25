@@ -2899,8 +2899,51 @@ sub:pubinfo {
     npx:introduces fip:considerations;
     npx:supersedes <https://w3id.org/fair/fip/np/considerations/RANo00qnprNSxcGcMwWYt22IAnUBRpeZUnt5kVPVAoVVg> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/metadata-availability-in-years/RAEZaQTVA0IarArMJOZP1o5eO__966QQI7P7D8PGYK4ZE> .
-@prefix sub: <https://w3id.org/fair/fip/np/metadata-availability-in-years/RAEZaQTVA0IarArMJOZP1o5eO__966QQI7P7D8PGYK4ZE#> .
+@prefix this: <https://w3id.org/fair/fip/np/availability-in-years/RAZtTQJ-IHxzx1cTmmIue6OW21M0W9hniUMGRgrndeYKQ> .
+@prefix sub: <https://w3id.org/fair/fip/np/availability-in-years/RAZtTQJ-IHxzx1cTmmIue6OW21M0W9hniUMGRgrndeYKQ/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/availability-in-years> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:availability-in-years a owl:DatatypeProperty;
+    rdfs:domain fip:fip:FAIR-Data-Policy;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "availability in years"@en;
+    skos:definition "Specifies how many years a resource is preserved according to a preservation policy"@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2025-04-25T16:45:37.924+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:availability-in-years .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "MWp/T9z5gqPeRjnWr3Qxq9SfpqeRQED1eG1XsLazfbiojUxCn95BRTqEFy2pqae7jAkK+Ik2XOmvxfRHlDmmCfCvcBsM4AUuB8Waudbqjatj1YHXTvUYCTSG+JsXUs0N7mxw3zvNgtZH892vTxJ4Qdepe3dnpfcQSwqkmZo8Fek=";
+    npx:hasSignatureTarget this: .
+}
+@prefix this: <https://w3id.org/fair/fip/np/metadata-availability-in-years/RAp-IJxkU-po_tZhcDElqEHIP9-jg2RBb4IOBoiycMReY> .
+@prefix sub: <https://w3id.org/fair/fip/np/metadata-availability-in-years/RAp-IJxkU-po_tZhcDElqEHIP9-jg2RBb4IOBoiycMReY/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -2924,6 +2967,7 @@ sub:assertion {
     rdfs:domain fip:Metadata-preservation-policy;
     rdfs:isDefinedBy latest:;
     rdfs:label "metadata availability in years"@en;
+    rdfs:subPropertyOf fip:availability-in-years;
     skos:definition "Specifies how many years metadata are preserved according to the metadata preservation policy"@en .
 }
 
@@ -2932,15 +2976,16 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "AWPzD04QE14JSaNS6fvFUNVx/JFGut1LTfMXSyTUwjAcfuSYGhaDnc23zW/8IJEKrXGSFrjZZ6utQZxKQsqcCC7HNgjE1jOTN7iSaSSPOKd/V6h7wZQFy68FVov2orL5THREGJ2pwtCQDwL7IyF7s0i9ikevDDskzp9mJDAeQCQ=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2025-01-08T14:11:56.477+01:00"^^xsd:dateTime;
+  this: dct:created "2025-04-25T16:45:37.924+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
-    npx:introduces fip:metadata-availability-in-years .
+    npx:introduces fip:metadata-availability-in-years;
+    npx:supersedes <https://w3id.org/fair/fip/np/metadata-availability-in-years/RAEZaQTVA0IarArMJOZP1o5eO__966QQI7P7D8PGYK4ZE> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "mv04iIMuiQLw+rxtuUdEfZ6j3H4ppC2HVcnT69TKeL7xbKAgs1069FU/9ueRtgj3adxAnhweQ2CtRfA3X5jVFOycNpGws4N28rMOX0FaZeK6PRUDPZhTu1LLk8hvpjPSrog8hVmbYO+E96Xb1WLY90+zXnvY/QtwxOeyVkbEhSg=";
+    npx:hasSignatureTarget this: .
 }
 @prefix this: <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RA3JL2E8g6TdgVUwEZL-VbeKDZCboI0xX9hemEUD5NQWg> .
 @prefix sub: <https://w3id.org/fair/fip/np/FIP-Question-F1-MD/RA3JL2E8g6TdgVUwEZL-VbeKDZCboI0xX9hemEUD5NQWg#> .

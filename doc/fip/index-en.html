@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Fri Apr 25 11:37:38 CEST 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Fri Apr 25 16:45:40 CEST 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -373,6 +373,10 @@ This ontology has the following classes and properties.</span>
          title="https://w3id.org/fair/fip/terms/uses-identifier-service">uses identifier service</a>
    </li>
 </ul><h4>Data Properties</h4><ul class="hlist">
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/availability-in-years"
+         title="https://w3id.org/fair/fip/terms/availability-in-years">availability in years</a>
+   </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/considerations" title="https://w3id.org/fair/fip/terms/considerations">considerations</a>
    </li>
@@ -3209,6 +3213,10 @@ This section provides details for each class and property defined by FAIR Implem
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
       <li>
+         <a href="#https://w3id.org/fair/fip/terms/availability-in-years"
+            title="https://w3id.org/fair/fip/terms/availability-in-years">availability in years</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/fair/fip/terms/considerations" title="https://w3id.org/fair/fip/terms/considerations">considerations</a>
       </li>
       <li>
@@ -3216,6 +3224,39 @@ This section provides details for each class and property defined by FAIR Implem
             title="https://w3id.org/fair/fip/terms/metadata-availability-in-years">metadata availability in years</a>
       </li>
    </ul>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/availability-in-years">
+      <h3>availability in years<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/availability-in-years</p>
+      <div class="comment">
+         <span class="markdown">Specifies how many years a resource is preserved according to a preservation policy</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/availability-in-years">https://w3id.org/fair/fip/latest/availability-in-years</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/metadata-availability-in-years"
+                  title="https://w3id.org/fair/fip/terms/metadata-availability-in-years">metadata availability in years</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted"
+                     title="https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy">fip: f a i r data policy</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/considerations">
       <h3>considerations<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -3260,6 +3301,12 @@ This section provides details for each class and property defined by FAIR Implem
       </dl>
       <div class="description">
          <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/availability-in-years"
+                  title="https://w3id.org/fair/fip/terms/availability-in-years">availability in years</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/Metadata-preservation-policy"
