@@ -260,6 +260,14 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 #    Data properties
 #################################################################
 
+###  https://w3id.org/fair/fip/terms/availability-in-years
+<https://w3id.org/fair/fip/terms/availability-in-years> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy> ;
+                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/availability-in-years> ;
+                                                        rdfs:label "availability in years"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#definition> "Specifies how many years a resource is preserved according to a preservation policy"@en .
+
+
 ###  https://w3id.org/fair/fip/terms/considerations
 <https://w3id.org/fair/fip/terms/considerations> rdf:type owl:DatatypeProperty ;
                                                  rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Declaration> ;
@@ -270,6 +278,7 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
 
 ###  https://w3id.org/fair/fip/terms/metadata-availability-in-years
 <https://w3id.org/fair/fip/terms/metadata-availability-in-years> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:subPropertyOf <https://w3id.org/fair/fip/terms/availability-in-years> ;
                                                                  rdfs:domain <https://w3id.org/fair/fip/terms/Metadata-preservation-policy> ;
                                                                  rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/metadata-availability-in-years> ;
                                                                  rdfs:label "metadata availability in years"@en ;
@@ -724,6 +733,10 @@ owl:Class rdf:type owl:Class .
                                           rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Web-API> ;
                                           rdfs:label "Web-API"@en ;
                                           <http://www.w3.org/2004/02/skos/core#definition> "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."@en .
+
+
+###  https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy
+<https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy> rdf:type owl:Class .
 
 
 ###  https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple

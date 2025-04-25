@@ -253,6 +253,14 @@
 # #################################################################
 # 
 # 
+# https://w3id.org/fair/fip/terms/availability-in-years
+<https://w3id.org/fair/fip/terms/availability-in-years> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/fip/terms/availability-in-years> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy> .
+<https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/availability-in-years> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/availability-in-years> .
+<https://w3id.org/fair/fip/terms/availability-in-years> <http://www.w3.org/2000/01/rdf-schema#label> "availability in years"@en .
+<https://w3id.org/fair/fip/terms/availability-in-years> <http://www.w3.org/2004/02/skos/core#definition> "Specifies how many years a resource is preserved according to a preservation policy"@en .
+# 
 # https://w3id.org/fair/fip/terms/considerations
 <https://w3id.org/fair/fip/terms/considerations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/fair/fip/terms/considerations> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
@@ -262,6 +270,7 @@
 # 
 # https://w3id.org/fair/fip/terms/metadata-availability-in-years
 <https://w3id.org/fair/fip/terms/metadata-availability-in-years> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/fair/fip/terms/metadata-availability-in-years> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/fair/fip/terms/availability-in-years> .
 <https://w3id.org/fair/fip/terms/metadata-availability-in-years> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/Metadata-preservation-policy> .
 <https://w3id.org/fair/fip/terms/metadata-availability-in-years> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/metadata-availability-in-years> .
 <https://w3id.org/fair/fip/terms/metadata-availability-in-years> <http://www.w3.org/2000/01/rdf-schema#label> "metadata availability in years"@en .
@@ -649,6 +658,8 @@
 <https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Web-API> .
 <https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2000/01/rdf-schema#label> "Web-API"@en .
 <https://w3id.org/fair/fip/terms/Web-API> <http://www.w3.org/2004/02/skos/core#definition> "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."@en .
+# 
+# https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy
 # 
 # https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple
 <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Principle or Sub-Principle" .

@@ -1347,6 +1347,23 @@
     "@value" : "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/availability-in-years",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/availability-in-years"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "availability in years"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Specifies how many years a resource is preserved according to a preservation policy"
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/considerations",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1544,6 +1561,9 @@
     "@value" : "Connects a FAIR Enabling Resource class with the FAIR principles it enables"
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/has-AAS",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1726,6 +1746,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "metadata availability in years"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/availability-in-years"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
