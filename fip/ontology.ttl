@@ -195,12 +195,13 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                          <http://www.w3.org/2004/02/skos/core#definition> "Denotes the source of the description that is asserted via dct:description"@en .
 
 
-###  https://w3id.org/fair/fip/terms/has-purpose
-<https://w3id.org/fair/fip/terms/has-purpose> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
-                                              rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/has-purpose> ;
-                                              rdfs:label "has purpose"@en ;
-                                              <http://www.w3.org/2004/02/skos/core#definition> "Specifies the purpose of FAIR Supporting Resources"@en .
+###  https://w3id.org/fair/fip/terms/has-persistency-policy
+<https://w3id.org/fair/fip/terms/has-persistency-policy> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                         rdfs:range <https://w3id.org/fair/fip/terms/Persistency-Policy> ;
+                                                         rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/has-persistency-policy> ;
+                                                         rdfs:label "has persistency policy"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Supporting Resource with a persistency policy"@en .
 
 
 ###  https://w3id.org/fair/fip/terms/has-research-domain
@@ -235,6 +236,15 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                                      rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/refers-to-question> ;
                                                      rdfs:label "refers to question"@en ;
                                                      <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the FIP question it is addressing"@en .
+
+
+###  https://w3id.org/fair/fip/terms/targets
+<https://w3id.org/fair/fip/terms/targets> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                          rdfs:range <https://w3id.org/fair/fip/terms/Digital-Object-Type> ;
+                                          rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/targets> ;
+                                          rdfs:label "targets"@en ;
+                                          <http://www.w3.org/2004/02/skos/core#definition> "Specifies the type of digital object targeted by a FAIR Supporting Resources"@en .
 
 
 ###  https://w3id.org/fair/fip/terms/uses-identifier-service
@@ -629,6 +639,15 @@ owl:Class rdf:type owl:Class .
                                                   rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Metadata-schema> ;
                                                   rdfs:label "Metadata schema"@en ;
                                                   <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en .
+
+
+###  https://w3id.org/fair/fip/terms/Persistency-Policy
+<https://w3id.org/fair/fip/terms/Persistency-Policy> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> ,
+                                                                     <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> ;
+                                                     rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Persistency-Policy> ;
+                                                     rdfs:label "Persistency Policy"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "A policy with respect to persistency of resources."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Provenance-Tracking-Service

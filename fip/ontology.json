@@ -1167,6 +1167,25 @@
     "@value" : "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/Persistency-Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Persistency-Policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Persistency Policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Data-Policy"
+  }, {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A policy with respect to persistency of resources."
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/Provenance-Tracking-Service",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -1639,21 +1658,24 @@
     "@value" : "Denotes the source of the description that is asserted via dct:description"
   } ]
 }, {
-  "@id" : "https://w3id.org/fair/fip/terms/has-purpose",
+  "@id" : "https://w3id.org/fair/fip/terms/has-persistency-policy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/fair/fip/latest/has-purpose"
+    "@id" : "https://w3id.org/fair/fip/latest/has-persistency-policy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "has purpose"
+    "@value" : "has persistency policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/Persistency-Policy"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "Specifies the purpose of FAIR Supporting Resources"
+    "@value" : "Connects a FAIR Supporting Resource with a persistency policy"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/has-research-domain",
@@ -1745,6 +1767,26 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Connects a FIP declaration to the FIP question it is addressing"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/targets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/targets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "targets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/Digital-Object-Type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the type of digital object targeted by a FAIR Supporting Resources"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/uses-identifier-service",

@@ -186,12 +186,14 @@
 <https://w3id.org/fair/fip/terms/has-description-source> <http://www.w3.org/2000/01/rdf-schema#label> "has description source"@en .
 <https://w3id.org/fair/fip/terms/has-description-source> <http://www.w3.org/2004/02/skos/core#definition> "Denotes the source of the description that is asserted via dct:description"@en .
 # 
-# https://w3id.org/fair/fip/terms/has-purpose
-<https://w3id.org/fair/fip/terms/has-purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/fair/fip/terms/has-purpose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
-<https://w3id.org/fair/fip/terms/has-purpose> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-purpose> .
-<https://w3id.org/fair/fip/terms/has-purpose> <http://www.w3.org/2000/01/rdf-schema#label> "has purpose"@en .
-<https://w3id.org/fair/fip/terms/has-purpose> <http://www.w3.org/2004/02/skos/core#definition> "Specifies the purpose of FAIR Supporting Resources"@en .
+# https://w3id.org/fair/fip/terms/has-persistency-policy
+<https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Persistency-Policy> .
+<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-persistency-policy> .
+<https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2000/01/rdf-schema#label> "has persistency policy"@en .
+<https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Supporting Resource with a persistency policy"@en .
 # 
 # https://w3id.org/fair/fip/terms/has-research-domain
 <https://w3id.org/fair/fip/terms/has-research-domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -224,6 +226,14 @@
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/refers-to-question> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#label> "refers to question"@en .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the FIP question it is addressing"@en .
+# 
+# https://w3id.org/fair/fip/terms/targets
+<https://w3id.org/fair/fip/terms/targets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/fair/fip/terms/targets> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/targets> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Digital-Object-Type> .
+<https://w3id.org/fair/fip/terms/targets> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/targets> .
+<https://w3id.org/fair/fip/terms/targets> <http://www.w3.org/2000/01/rdf-schema#label> "targets"@en .
+<https://w3id.org/fair/fip/terms/targets> <http://www.w3.org/2004/02/skos/core#definition> "Specifies the type of digital object targeted by a FAIR Supporting Resources"@en .
 # 
 # https://w3id.org/fair/fip/terms/uses-identifier-service
 <https://w3id.org/fair/fip/terms/uses-identifier-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -566,6 +576,13 @@
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Metadata-schema> .
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata schema"@en .
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en .
+# 
+# https://w3id.org/fair/fip/terms/Persistency-Policy
+<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> .
+<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
+<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Persistency-Policy> .
+<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2000/01/rdf-schema#label> "Persistency Policy"@en .
+<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2004/02/skos/core#definition> "A policy with respect to persistency of resources."@en .
 # 
 # https://w3id.org/fair/fip/terms/Provenance-Tracking-Service
 <https://w3id.org/fair/fip/terms/Provenance-Tracking-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
