@@ -1,6 +1,5 @@
 # Use this file (with '.pre' extension) for editing. The respective file
-# without that extension is automatically generated from the '.pre' file by
-# running make-trusty.sh.
+# without that extension is automatically generated from the '.pre' file.
 
 @prefix : <https://w3id.org/fair/maturity_indicator/np/Gen2/Vocabulary/> .
 @prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .

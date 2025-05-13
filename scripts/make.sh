@@ -9,7 +9,6 @@ if [ -z $1 ] || [ ! -z $2 ]; then
 fi
 
 scripts/update-timestamp.sh $1
-#scripts/make-trusty.sh $1
 
 LASTRELEASE=$(scripts/get-last-release-nr.sh $1)
 
