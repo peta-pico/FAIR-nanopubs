@@ -221,6 +221,15 @@ rdfs:seeAlso rdf:type owl:ObjectProperty .
                                              <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a FAIR Specification"@en .
 
 
+###  https://w3id.org/fair/fip/terms/recommended-by
+<https://w3id.org/fair/fip/terms/recommended-by> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> ;
+                                                 rdfs:range <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> ;
+                                                 rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/recommended-by> ;
+                                                 rdfs:label "is recommended by"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Supporting Resource with a FAIR Implementation Community that recommends the resource"@en .
+
+
 ###  https://w3id.org/fair/fip/terms/refers-to-principle
 <https://w3id.org/fair/fip/terms/refers-to-principle> rdf:type owl:ObjectProperty ;
                                                       rdfs:range <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> ;
@@ -460,7 +469,7 @@ owl:Class rdf:type owl:Class .
                                                                               <https://w3id.org/fair/fip/terms/FAIR-Specification> ;
                                                               rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile> ;
                                                               rdfs:label "FAIR Implementation Profile"@en ;
-                                                              <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "@en .
+                                                              <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/FAIR-Interpretation
@@ -674,6 +683,14 @@ owl:Class rdf:type owl:Class .
                                                    rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Provenance-model> ;
                                                    rdfs:label "Provenance model"@en ;
                                                    <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en .
+
+
+###  https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile
+<https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> ;
+                                                                        rdfs:isDefinedBy <https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile> ;
+                                                                        rdfs:label "Reference FAIR Implementation Profile"@en ;
+                                                                        <http://www.w3.org/2004/02/skos/core#definition> "A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
 
 
 ###  https://w3id.org/fair/fip/terms/Registry

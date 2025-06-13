@@ -211,6 +211,14 @@
 <https://w3id.org/fair/fip/terms/implements> <http://www.w3.org/2000/01/rdf-schema#label> "implements"@en .
 <https://w3id.org/fair/fip/terms/implements> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a FAIR Specification"@en .
 # 
+# https://w3id.org/fair/fip/terms/recommended-by
+<https://w3id.org/fair/fip/terms/recommended-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/fair/fip/terms/recommended-by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
+<https://w3id.org/fair/fip/terms/recommended-by> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
+<https://w3id.org/fair/fip/terms/recommended-by> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/recommended-by> .
+<https://w3id.org/fair/fip/terms/recommended-by> <http://www.w3.org/2000/01/rdf-schema#label> "is recommended by"@en .
+<https://w3id.org/fair/fip/terms/recommended-by> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Supporting Resource with a FAIR Implementation Community that recommends the resource"@en .
+# 
 # https://w3id.org/fair/fip/terms/refers-to-principle
 <https://w3id.org/fair/fip/terms/refers-to-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/refers-to-principle> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> .
@@ -427,7 +435,7 @@
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile> .
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Implementation Profile"@en .
-<https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "@en .
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Interpretation
 <https://w3id.org/fair/fip/terms/FAIR-Interpretation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -607,6 +615,13 @@
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Provenance-model> .
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance model"@en .
 <https://w3id.org/fair/fip/terms/Provenance-model> <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en .
+# 
+# https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile
+<https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile> .
+<https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile> .
+<https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#label> "Reference FAIR Implementation Profile"@en .
+<https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile> <http://www.w3.org/2004/02/skos/core#definition> "A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
 # 
 # https://w3id.org/fair/fip/terms/Registry
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .

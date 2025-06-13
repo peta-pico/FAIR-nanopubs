@@ -165,7 +165,13 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Implementation Profile"@en;
   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource>,
     <https://w3id.org/fair/fip/terms/FAIR-Specification>;
-  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "@en .
+  <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
+
+<https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    <https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Reference FAIR Implementation Profile"@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
 
 <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
     <https://w3id.org/fair/fip/latest/Available-FAIR-Enabling-Resource>;
@@ -693,3 +699,10 @@ npx:NanopubIndex rdfs:label "Nanopublication Index" .
   <http://www.w3.org/2000/01/rdf-schema#label> "has persistency policy"@en;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Persistency-Policy>;
   <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Supporting Resource with a persistency policy"@en .
+
+<https://w3id.org/fair/fip/terms/recommended-by> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource>;
+  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/recommended-by>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "is recommended by"@en;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Supporting Resource with a FAIR Implementation Community that recommends the resource"@en .
