@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Fri Apr 25 16:45:40 CEST 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/fair/fip/terms/FIP-Ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/fair/fip/terms/FIP-Ontology","name":"FAIR Implementation Profile (FIP) Ontology", "headline":"This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.", "datePublished":"Fri Jun 13 10:32:08 CEST 2025", "license":"https://creativecommons.org/publicdomain/zero/1.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-2195-3997","url":"https://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"https://orcid.org/0000-0002-1267-0234","url":"https://orcid.org/0000-0002-1267-0234"},{"@type":"Person","name":"https://orcid.org/0000-0001-8888-635X","url":"https://orcid.org/0000-0001-8888-635X"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -268,6 +268,10 @@ This ontology has the following classes and properties.</span>
          title="https://w3id.org/fair/fip/terms/Provenance-Tracking-Service">Provenance tracking service</a>
    </li>
    <li>
+      <a href="#https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile"
+         title="https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile">Reference FAIR Implementation Profile</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/fair/fip/terms/Registry" title="https://w3id.org/fair/fip/terms/Registry">Registry</a>
    </li>
    <li>
@@ -353,6 +357,9 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/implements" title="https://w3id.org/fair/fip/terms/implements">implements</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/fair/fip/terms/recommended-by" title="https://w3id.org/fair/fip/terms/recommended-by">is recommended by</a>
    </li>
    <li>
       <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
@@ -708,6 +715,10 @@ This section provides details for each class and property defined by FAIR Implem
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Provenance-Tracking-Service"
             title="https://w3id.org/fair/fip/terms/Provenance-Tracking-Service">Provenance tracking service</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile"
+            title="https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile">Reference FAIR Implementation Profile</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/Registry" title="https://w3id.org/fair/fip/terms/Registry">Registry</a>
@@ -1252,6 +1263,7 @@ This section provides details for each class and property defined by FAIR Implem
          <dt>is in range of</dt>
          <dd>
             <a href="#https://w3id.org/fair/fip/terms/declared-by" title="https://w3id.org/fair/fip/terms/declared-by">declared by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/recommended-by" title="https://w3id.org/fair/fip/terms/recommended-by">is recommended by</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -1264,7 +1276,7 @@ This section provides details for each class and property defined by FAIR Implem
       <p>
          <strong>IRI:</strong> https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile</p>
       <div class="comment">
-         <span class="markdown">A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. </span>
+         <span class="markdown">A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1279,6 +1291,12 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/FAIR-Specification">FAIR specification</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"
                title="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">FAIR-Enabling Resource</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile"
+               title="https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile">Reference FAIR Implementation Profile</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -1499,6 +1517,7 @@ This section provides details for each class and property defined by FAIR Implem
                title="https://w3id.org/fair/fip/terms/has-declaration-index">has declaration index</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/has-persistency-policy"
                title="https://w3id.org/fair/fip/terms/has-persistency-policy">has persistency policy</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/recommended-by" title="https://w3id.org/fair/fip/terms/recommended-by">is recommended by</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/fair/fip/terms/targets" title="https://w3id.org/fair/fip/terms/targets">targets</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -2247,6 +2266,31 @@ This section provides details for each class and property defined by FAIR Implem
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile">
+      <h3>Reference FAIR Implementation Profile<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile</p>
+      <div class="comment">
+         <span class="markdown">A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile">https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile"
+               title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile">FAIR Implementation Profile</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/fair/fip/terms/Registry">
       <h3>Registry<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -2507,6 +2551,9 @@ This section provides details for each class and property defined by FAIR Implem
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/implements" title="https://w3id.org/fair/fip/terms/implements">implements</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/fair/fip/terms/recommended-by" title="https://w3id.org/fair/fip/terms/recommended-by">is recommended by</a>
       </li>
       <li>
          <a href="#https://w3id.org/fair/fip/terms/refers-to-principle"
@@ -3049,6 +3096,39 @@ This section provides details for each class and property defined by FAIR Implem
             <dd>
                <a href="#https://w3id.org/fair/fip/terms/FAIR-Specification"
                   title="https://w3id.org/fair/fip/terms/FAIR-Specification">FAIR specification</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/fair/fip/terms/recommended-by">
+      <h3>is recommended by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/fair/fip/terms/recommended-by</p>
+      <div class="comment">
+         <span class="markdown">Connects a FAIR Supporting Resource with a FAIR Implementation Community that recommends the resource</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/fair/fip/latest/recommended-by">https://w3id.org/fair/fip/latest/recommended-by</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">FAIR Supporting Resource</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+                  title="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">FAIR Implementation Community</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>

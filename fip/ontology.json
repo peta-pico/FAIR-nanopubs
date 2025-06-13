@@ -381,7 +381,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "
+    "@value" : "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/FAIR-Interpretation",
@@ -1222,6 +1222,23 @@
     "@value" : "A specification that specifies metadata describing the origin and lineage of data or other digital objects."
   } ]
 }, {
+  "@id" : "https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Reference FAIR Implementation Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."
+  } ]
+}, {
   "@id" : "https://w3id.org/fair/fip/terms/Registry",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -1753,6 +1770,26 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Specifies how many years metadata are preserved according to the metadata preservation policy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/fip/terms/recommended-by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/fip/latest/recommended-by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is recommended by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Connects a FAIR Supporting Resource with a FAIR Implementation Community that recommends the resource"
   } ]
 }, {
   "@id" : "https://w3id.org/fair/fip/terms/refers-to-principle",

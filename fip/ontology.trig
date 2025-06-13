@@ -849,8 +849,8 @@ sub:pubinfo {
     npx:introduces fip:FAIR-Enabling-Resource;
     npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Enabling-Resource/RAhAJbPXhIuvOzT5YkltZThbzB6WubMmO-scokD4MjDbM> .
 }
-@prefix this: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RA-YxyQ5rjkT5MQZLyiWBJziuoBdxBusIrG6-_aorXVbk> .
-@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RA-YxyQ5rjkT5MQZLyiWBJziuoBdxBusIrG6-_aorXVbk#> .
+@prefix this: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RARbxH7yItOPhJLe-m-3lW_FXDvAglxRsDQSwjMiFb_HY> .
+@prefix sub: <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RARbxH7yItOPhJLe-m-3lW_FXDvAglxRsDQSwjMiFb_HY/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -872,7 +872,7 @@ sub:assertion {
   fip:FAIR-Implementation-Profile rdfs:isDefinedBy latest:;
     rdfs:label "FAIR Implementation Profile"@en;
     rdfs:subClassOf fip:FAIR-Enabling-Resource, fip:FAIR-Specification;
-    skos:definition "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. "@en .
+    skos:definition "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
 }
 
 sub:provenance {
@@ -880,16 +880,57 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "JzTMTzV7rIZh6gR3AQRokLvK3U1oW/IimkB1bIH2ffktiLY2Ik67Mb83WcegpTJCc31RYvDzFToAn3rinL+pDURu+UvcX75sHag97Qy+e8JA/w3lXT1R30WHRM2HqTyWlV+mT6xb1AH3CU6AuUWGfE8gooPElWOXIhTc5q6fc5c=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2025-01-27T10:52:13.389+01:00"^^xsd:dateTime;
+  this: dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
     npx:introduces fip:FAIR-Implementation-Profile;
-    npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RA365enYMHal1SqnvD5Rz0ZZHTZKPyvkxC1O5dw6PXauU> .
+    npx:supersedes <https://w3id.org/fair/fip/np/FAIR-Implementation-Profile/RA-YxyQ5rjkT5MQZLyiWBJziuoBdxBusIrG6-_aorXVbk> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "fjnSbQM6zyDITb1f4/MqtJBbQMj4epeG1hqPt/fXi8c3rXpZ62pyEYlJh+HzCdGtCGq1FMz9q6TUx2MSHcQ3/HHNJcQKuW3grtTBqU+PBdqa3IuGQ2vZDePkMvAy4TEWB7Lbze2+Z3I8RcsJWPHHzaaZG/jqfB9BrS4arY/FEOQ=";
+    npx:hasSignatureTarget this: .
+}
+@prefix this: <https://w3id.org/fair/fip/np/Reference-FAIR-Implementation-Profile/RAjEPq227G-r_SXnJsvPy997K-xEkU4V-V7nenoVDeNoc> .
+@prefix sub: <https://w3id.org/fair/fip/np/Reference-FAIR-Implementation-Profile/RAjEPq227G-r_SXnJsvPy997K-xEkU4V-V7nenoVDeNoc/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:Reference-FAIR-Implementation-Profile rdfs:isDefinedBy latest:;
+    rdfs:label "Reference FAIR Implementation Profile"@en;
+    rdfs:subClassOf fip:FAIR-Implementation-Profile;
+    skos:definition "A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:Reference-FAIR-Implementation-Profile .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "HUg2zrv3XEDqKVUC+W45D+5XS/vXRfNuYvb7TUK4Kg+Td2xyL8kCkWPy4FhV08rSmMxH5OPoJuyg8j961sj1hXMN1bQhXNHrLP0G88kKR3iHvsGeq5mIBYAscgd0kicj6F5fIaNxxZGWXGLGJ46FxNEHqYzcWWvepaEh5J+JNNw=";
+    npx:hasSignatureTarget this: .
 }
 @prefix this: <https://w3id.org/fair/fip/np/Available-FAIR-Enabling-Resource/RAoalzeszpwNn-P2U2wrduOwbdXbY4tGMvM2jTX7R5SjU> .
 @prefix sub: <https://w3id.org/fair/fip/np/Available-FAIR-Enabling-Resource/RAoalzeszpwNn-P2U2wrduOwbdXbY4tGMvM2jTX7R5SjU#> .
@@ -4325,5 +4366,49 @@ sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
     npx:hasSignature "dzq7PrVZ4CaSZI/wXLrGJVUcmy0l/9G21IEHiSplNjK6cCge8AEUM7aANxmYN9JVLpqtfJDe8QKfc3cYA+5uDPxCIs1fxg+MJDgwSv33GnG1FXXIGWZYaxNyntykpNHa/DZD4q0apZ5LuRG7HvBKoMXdILfMCXssKYSYi+s4jig=";
+    npx:hasSignatureTarget this: .
+}
+@prefix this: <https://w3id.org/fair/fip/np/recommended-by/RAq2_xU9GvIDR0TiE1byEHvhFVte2AdLZjEC4-ezSWU34> .
+@prefix sub: <https://w3id.org/fair/fip/np/recommended-by/RAq2_xU9GvIDR0TiE1byEHvhFVte2AdLZjEC4-ezSWU34/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fip: <https://w3id.org/fair/fip/terms/> .
+@prefix latest: <https://w3id.org/fair/fip/latest/recommended-by> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  fip:recommended-by a owl:ObjectProperty;
+    rdfs:domain fip:FAIR-Supporting-Resource;
+    rdfs:isDefinedBy latest:;
+    rdfs:label "is recommended by"@en;
+    rdfs:range fip:FAIR-Implementation-Community;
+    skos:definition "Connects a FAIR Supporting Resource with a FAIR Implementation Community that recommends the resource"@en .
+}
+
+sub:provenance {
+  sub:assertion dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997 .
+}
+
+sub:pubinfo {
+  this: dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0001-8888-635X, orcid:0000-0002-1267-0234, orcid:0000-0003-2195-3997;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    npx:introduces fip:recommended-by .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "n7mO7xPoZhsSBqIxGTCof/UyryYBjbTSJp6l4A5lHJ2lfaz+p6rZ50yM69P62SF7J0TL/LMizObK14Y32GcZbbh9iaxAFQoV08mBQqG6A563DWNP/ykMFYHgsbDSslmdSCT+owHQMirRUS62hDrdHwj0id/w+kSo2gBjx+7lBr0=";
     npx:hasSignatureTarget this: .
 }

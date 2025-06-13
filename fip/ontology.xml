@@ -343,6 +343,19 @@
     
 
 
+    <!-- https://w3id.org/fair/fip/terms/recommended-by -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/recommended-by">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/recommended-by"/>
+        <rdfs:label xml:lang="en">is recommended by</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Supporting Resource with a FAIR Implementation Community that recommends the resource</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/fair/fip/terms/refers-to-principle -->
 
 
@@ -711,7 +724,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile"/>
         <rdfs:label xml:lang="en">FAIR Implementation Profile</rdfs:label>
-        <skos:definition xml:lang="en">A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice. </skos:definition>
+        <skos:definition xml:lang="en">A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice.</skos:definition>
     </owl:Class>
     
 
@@ -1029,6 +1042,18 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Provenance-model"/>
         <rdfs:label xml:lang="en">Provenance model</rdfs:label>
         <skos:definition xml:lang="en">A specification that specifies metadata describing the origin and lineage of data or other digital objects.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile"/>
+        <rdfs:label xml:lang="en">Reference FAIR Implementation Profile</rdfs:label>
+        <skos:definition xml:lang="en">A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice.</skos:definition>
     </owl:Class>
     
 
