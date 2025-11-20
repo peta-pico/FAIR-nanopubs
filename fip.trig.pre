@@ -45,7 +45,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Ontology .
@@ -89,7 +89,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question .
@@ -119,6 +119,7 @@
 
 :assertion {
   fip:FIP-Data-related-Question rdfs:label "FIP Data-related Question"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FIP-Question ;
     skos:definition "A FIP question that is relevant for the actual data (as compared to just their metadata)"@en ;
     rdfs:isDefinedBy latest: .
@@ -129,7 +130,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 }
@@ -158,6 +159,7 @@
 
 :assertion {
   fip:FIP-Metadata-related-Question rdfs:label "FIP Metadata-related Question"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FIP-Question ;
     skos:definition "A FIP question that is relevant for metadata (as compared to the data themselves)"@en ;
     rdfs:isDefinedBy latest: .
@@ -168,7 +170,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Metadata-related-Question .
@@ -200,6 +202,7 @@
 :assertion {
   fip:FAIR-Declaration rdfs:label "FAIR Declaration"@en ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
+    a owl:Class ;
     skos:definition "The statement of a community on how it addresses a FAIR-related question."@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -209,7 +212,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Declaration .
@@ -240,6 +243,7 @@
 
 :assertion {
   fip:FIP-Declaration rdfs:label "FIP Declaration"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Declaration ;
     skos:definition "The expression of a community on how they address a FIP question"@en ;
     rdfs:isDefinedBy latest: .
@@ -250,7 +254,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Declaration .
@@ -281,6 +285,7 @@
 
 :assertion {
   fip:FSR-Declaration rdfs:label "FSR Declaration"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Declaration ;
     skos:definition "The statement of a community on the usage of a FAIR Supporting Resource."@en ;
     rdfs:isDefinedBy latest: .
@@ -291,7 +296,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FSR-Declaration .
@@ -322,6 +327,7 @@
 
 :assertion {
   fip:SIP-Declaration rdfs:label "SIP Declaration"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Declaration ;
     skos:definition "The statement of a community on how it addresses a SIP question."@en ;
     rdfs:isDefinedBy latest: .
@@ -332,7 +338,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:SIP-Declaration .
@@ -363,6 +369,7 @@
 
 :assertion {
   fip:FAIR-Interpretation rdfs:label "FAIR interpretation"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Declaration ;
     skos:definition "A theoretical and practical explanation of the FAIR Principle by a recognized expert authority."@en ;
     rdfs:isDefinedBy latest: .
@@ -373,7 +380,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Interpretation .
@@ -404,6 +411,7 @@
 
 :assertion {
   fip:FAIR-Qualification-Criteria rdfs:label "FAIR Qualifcation Criteria"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Declaration ;
     skos:definition "A proposition on which a qualification of FAIR Supporting Resources is based."@en ;
     rdfs:isDefinedBy latest: .
@@ -414,7 +422,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Qualification-Criteria .
@@ -445,6 +453,7 @@
 
 :assertion {
   fip:FAIR-Case-Study rdfs:label "FAIR case study"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Declaration ;
     skos:definition "A description of a real-life situation where FAIR requirements of digital objects play a central role."@en ;
     rdfs:isDefinedBy latest: .
@@ -455,7 +464,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Case-Study .
@@ -486,6 +495,7 @@
 
 :assertion {
   fip:FIP-No-Choice-Declaration rdfs:label "FIP No-Choice Declaration"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FIP-Declaration ;
     skos:definition "A declaration stating that no choice has been made (yet)"@en ;
     rdfs:isDefinedBy latest: .
@@ -496,7 +506,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-No-Choice-Declaration .
@@ -527,6 +537,7 @@
 
 :assertion {
   fip:FAIR-Implementation-Community rdfs:label "FAIR Implementation Community"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A FAIR Implementation Community (FIC) is a self-identified collection of people and/or organizations with the aim to implement the FAIR Principles"@en ;
     rdfs:isDefinedBy latest: .
@@ -537,7 +548,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Implementation-Community .
@@ -568,6 +579,7 @@
 
 :assertion {
   fip:Mature-Community rdfs:label "Mature community"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Implementation-Community ;
     skos:definition "A well-established community interested to implement FAIR in their data and services."@en ;
     rdfs:isDefinedBy latest: .
@@ -578,7 +590,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Mature-Community .
@@ -609,6 +621,7 @@
 
 :assertion {
   fip:Emerging-Community rdfs:label "Emerging community"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Implementation-Community ;
     skos:definition "An early-stage community committed to adopting and promoting FAIR principles for its data and services from the outset."@en ;
     rdfs:isDefinedBy latest: .
@@ -619,7 +632,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Emerging-Community .
@@ -652,6 +665,7 @@
 
 :assertion {
   fip:has-data-steward rdfs:label "has data steward"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:subPropertyOf foaf:member ;
     rdfs:domain fip:FAIR-Implementation-Community ;
@@ -664,7 +678,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:has-data-steward .
@@ -706,7 +720,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Supporting-Resource .
@@ -737,6 +751,7 @@
 
 :assertion {
   fip:Available-FAIR-Supporting-Resource rdfs:label "Available FAIR Supporting Resource"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A FAIR Supporting Resource that is available for use."@en ;
     rdfs:isDefinedBy latest: .
@@ -747,7 +762,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Available-FAIR-Supporting-Resource .
@@ -778,6 +793,7 @@
 
 :assertion {
   fip:FAIR-Supporting-Resource-to-be-Developed rdfs:label "FAIR Supporting Resource to be developed"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A FAIR Supporting Resource that is not yet available but still needs to be developed."@en ;
     rdfs:isDefinedBy latest: .
@@ -788,7 +804,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Supporting-Resource-to-be-Developed .
@@ -819,6 +835,7 @@
 
 :assertion {
   fip:FAIR-Enabling-Resource rdfs:label "FAIR-Enabling Resource"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A service, a specification or a data policy that is essential to the operationalization of the FAIR Principles, i.e., puts FAIR into action. A FAIR-Enabling Resource (FER) provides a function needed to achieve some aspect of FAIR behavior and is explicitly linked to one or more FAIR principles."@en ;
     rdfs:isDefinedBy latest: .
@@ -829,7 +846,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Enabling-Resource .
@@ -860,6 +877,7 @@
 
 :assertion {
   fip:FAIR-Implementation-Profile rdfs:label "FAIR Implementation Profile"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Specification ;
     skos:definition "A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en ;
     rdfs:isDefinedBy latest: .
@@ -870,7 +888,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
 #   fip:enables fair:R1.3 ;
@@ -902,6 +920,7 @@
 
 :assertion {
   fip:Reference-FAIR-Implementation-Profile rdfs:label "Reference FAIR Implementation Profile"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Implementation-Profile ;
     skos:definition "A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en ;
     rdfs:isDefinedBy latest: .
@@ -912,7 +931,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Reference-FAIR-Implementation-Profile .
@@ -943,6 +962,7 @@
 
 :assertion {
   fip:Available-FAIR-Enabling-Resource rdfs:label "Available FAIR-Enabling Resource"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:Available-FAIR-Supporting-Resource ;
     skos:definition "A FAIR-enabling resource that is available for use"@en ;
     rdfs:isDefinedBy latest: .
@@ -953,7 +973,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Available-FAIR-Enabling-Resource .
@@ -984,6 +1004,7 @@
 
 :assertion {
   fip:FAIR-Enabling-Resource-to-be-Developed rdfs:label "FAIR-Enabling Resource to be Developed"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Supporting-Resource-to-be-Developed ;
     skos:definition "A FAIR-enabling resource that is not yet available but still needs to be developed"@en ;
     rdfs:isDefinedBy latest: .
@@ -994,7 +1015,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Enabling-Resource-to-be-Developed .
@@ -1025,6 +1046,7 @@
 
 :assertion {
   fip:FAIR-Data-Policy rdfs:label "FAIR Data Policy"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A policy that specifies and guides FAIR data practices for a community."@en ;
     rdfs:isDefinedBy latest: .
@@ -1035,7 +1057,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Data-Policy .
@@ -1066,6 +1088,7 @@
 
 :assertion {
   fip:FAIR-Data-Stewardship-Plan-Template rdfs:label "FAIR data stewardship plan template"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A template guiding data stewardship including how FAIR Principles should be implemented. The template must be completed with project-specific information in any given instance to outline how data are to be handled in preparation for the project,  during the research project, and after the project is completed."@en ;
     rdfs:isDefinedBy latest: .
@@ -1076,7 +1099,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Data-Stewardship-Plan-Template .
@@ -1107,6 +1130,7 @@
 
 :assertion {
   fip:Data-Steward-Professional-Profile rdfs:label "FAIR data steward professional profile"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A document stating the accumulated training qualifications and FAIR outputs authored by or contributed to, by that person. The profile may be augmented with additional statements regarding professional roles and skills."@en ;
     rdfs:isDefinedBy latest: .
@@ -1117,7 +1141,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Data-Steward-Professional-Profile .
@@ -1148,6 +1172,7 @@
 
 :assertion {
   fip:FAIR-Data-Stewardship-Event rdfs:label "FAIR data stewardship event"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A meeting specifically designed for current or aspiring data stewards to provide a rigorous understanding of the FAIR principles from theory to their concrete implementation."@en ;
     rdfs:isDefinedBy latest: .
@@ -1158,7 +1183,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Data-Stewardship-Event .
@@ -1189,6 +1214,7 @@
 
 :assertion {
   fip:FAIR-Training-Material rdfs:label "FAIR training material"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "Any educational resource (such as the content or its published representation in text, presentation graphics, or video) that covers FAIR topics of interest."@en ;
     rdfs:isDefinedBy latest: .
@@ -1199,7 +1225,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Training-Material .
@@ -1230,6 +1256,7 @@
 
 :assertion {
   fip:FAIR-Practice rdfs:label "FAIR practice"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A method description detailing the use of a specific resource or a combination of resources as applied by a community to achieve FAIR processing of information."@en ;
     rdfs:isDefinedBy latest: .
@@ -1240,7 +1267,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Practice .
@@ -1271,6 +1298,7 @@
 
 :assertion {
   fip:FAIR-Specification rdfs:label "FAIR specification"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A precise description of features, requirements, constraints and recommendations for a specific implementation of a component, system or service supporting the implementation of the FAIR principles."@en ;
     rdfs:isDefinedBy latest: .
@@ -1281,7 +1309,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Specification .
@@ -1312,6 +1340,7 @@
 
 :assertion {
   fip:Crosswalk rdfs:label "Crosswalk"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Specification ;
     skos:definition "A specification consisting of a set of rules that define how (meta)data elements or attributes from one schema can be aligned and mapped to (meta)data elements or attributes in another schema that share the same constraints and thus share the same semantic role."@en ;
     rdfs:isDefinedBy latest: .
@@ -1322,7 +1351,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Crosswalk .
@@ -1353,6 +1382,7 @@
 
 :assertion {
   fip:FAIR-Supporting-Technology rdfs:label "FAIR Supporting Technology"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "Any online accessible software system or component that supports the implementation of the FAIR Principles."@en ;
     rdfs:isDefinedBy latest: .
@@ -1363,7 +1393,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Supporting-Technology .
@@ -1394,6 +1424,7 @@
 
 :assertion {
   fip:FAIR-Supporting-Software rdfs:label "FAIR Supporting Software"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Technology ;
     skos:definition "Any set of machine-readable instructions that support the implementation of FAIR, that conform to a given syntax, that are interpretable by a given processor, and that instruct a computer's processor to perform specific tasks."@en ;
     rdfs:isDefinedBy latest: .
@@ -1404,7 +1435,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Supporting-Software .
@@ -1435,6 +1466,7 @@
 
 :assertion {
   fip:FAIR-Representation-Service rdfs:label "FAIR Representation Service"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Technology ;
     skos:definition "A transformation service that converts non-FAIR data into a FAIR representation using machine-readable knowledge representation languages."@en ;
     rdfs:isDefinedBy latest: .
@@ -1445,7 +1477,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FAIR-Representation-Service .
@@ -1476,6 +1508,7 @@
 
 :assertion {
   fip:Web-API rdfs:label "Web-API"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Technology ;
     skos:definition "An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other."@en ;
     rdfs:isDefinedBy latest: .
@@ -1486,7 +1519,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Web-API .
@@ -1517,6 +1550,7 @@
 
 :assertion {
   fip:Editor rdfs:label "Editor"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Technology ;
     skos:definition "A service that provides a user-friendly interface for easy editing of metadata, vocabularies or crosswalks."@en ;
     rdfs:isDefinedBy latest: .
@@ -1527,7 +1561,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Editor .
@@ -1558,6 +1592,7 @@
 
 :assertion {
   fip:Validation-Service rdfs:label "Validation service"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Technology ;
     skos:definition "A system that automatically verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards."@en ;
     rdfs:isDefinedBy latest: .
@@ -1568,7 +1603,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Validation-Service .
@@ -1599,6 +1634,7 @@
 
 :assertion {
   fip:Provenance-Tracking-Service rdfs:label "Provenance tracking service"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Technology ;
     skos:definition "A system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects creating metadata based on a provenance model. "@en ;
     rdfs:isDefinedBy latest: .
@@ -1609,7 +1645,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Provenance-Tracking-Service .
@@ -1640,6 +1676,7 @@
 
 :assertion {
   fip:Semantic-Interoperability-Profile rdfs:label "Semantic Interoperability Profile"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Supporting-Resource ;
     skos:definition "A Semantic Interoperability Profil (SIP) is a list of FAIR Supporting Resources chosen by a community to support semantic interoperability of (meta)data."@en ;
     rdfs:isDefinedBy latest: .
@@ -1650,7 +1687,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Semantic-Interoperability-Profile .
@@ -1692,7 +1729,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Digital-Object-Type .
@@ -1723,6 +1760,7 @@
 
 :assertion {
   fip:Identifier-service rdfs:label "Identifier service"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Supporting-Technology ;
     skos:definition "A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location."@en ;
 #   fip:enables fair:F1 ;
@@ -1734,7 +1772,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Identifier-service .
@@ -1765,6 +1803,7 @@
 
 :assertion {
   fip:Metadata-schema rdfs:label "Metadata schema"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Specification ;
     skos:definition "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en ;
 #   fip:enables fair:F2 ;
@@ -1776,7 +1815,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Metadata-schema .
@@ -1807,6 +1846,7 @@
 
 :assertion {
   fip:Metadata-data-linking-schema rdfs:label "Metadata-data linking schema"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Specification ;
     skos:definition "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en ;
 #   fip:enables fair:F3 ;
@@ -1818,7 +1858,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Metadata-data-linking-schema .
@@ -1849,6 +1889,7 @@
 
 :assertion {
   fip:Registry rdfs:label "Registry"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Supporting-Technology ;
     skos:definition "A service that indexes metadata and data and provides search over that index."@en ;
 #   fip:enables fair:F4 ;
@@ -1860,7 +1901,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Registry .
@@ -1891,6 +1932,7 @@
 
 :assertion {
   fip:Generalist-Registry rdfs:label "Generalist registry"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:Registry ;
     skos:definition "A registry designed to collect, provide access to, and enable searching of data without any restrictions on the domain."@en ;
     rdfs:isDefinedBy latest: .
@@ -1901,7 +1943,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Generalist-Registry .
@@ -1932,6 +1974,7 @@
 
 :assertion {
   fip:Domain-Specific-Registry rdfs:label "Domain-specific registry"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:Registry ;
     skos:definition "A registry designed to collect, provide access to, and enable searching of data within a particular domain or subject area"@en ;
     rdfs:isDefinedBy latest: .
@@ -1942,7 +1985,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Domain-Specific-Registry .
@@ -1973,6 +2016,7 @@
 
 :assertion {
   fip:Communication-protocol rdfs:label "Communication protocol"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Specification ;
     skos:definition "A specification of how messages are structured and exchanged."@en ;
 #   fip:enables fair:A1.1 ;
@@ -1984,7 +2028,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Communication-protocol .
@@ -2015,6 +2059,7 @@
 
 :assertion {
   fip:Authentication-and-authorization-service rdfs:label "Authentication and authorization service"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Supporting-Technology ;
     skos:definition "A service that mediates access to digital objects according to specifed conditions."@en ;
 #   fip:enables fair:A1.2 ;
@@ -2026,7 +2071,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Authentication-and-authorization-service .
@@ -2057,6 +2102,7 @@
 
 :assertion {
   fip:Metadata-preservation-policy rdfs:label "Metadata preservation policy"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Data-Policy ;
     skos:definition "A data policy that describes the conditions under which metadata should be provided in the future."@en ;
 #   fip:enables fair:A2 ;
@@ -2068,7 +2114,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Metadata-preservation-policy .
@@ -2099,6 +2145,7 @@
 
 :assertion {
   fip:Knowledge-representation-language rdfs:label "Knowledge representation language"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Specification ;
     skos:definition "A language specification that enables knowledge to be processed by machines."@en ;
 #   fip:enables fair:I1 ;
@@ -2110,7 +2157,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Knowledge-representation-language .
@@ -2141,6 +2188,7 @@
 
 :assertion {
   fip:Structured-vocabulary rdfs:label "Structured vocabulary"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Specification ;
     skos:definition "A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards."@en ;
 #   fip:enables fair:I2 ;
@@ -2152,7 +2200,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Structured-vocabulary .
@@ -2183,6 +2231,7 @@
 
 :assertion {
   fip:Semantic-model rdfs:label "Semantic model"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Specification ;
     skos:definition "A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies."@en ;
 #   fip:enables fair:I3 ;
@@ -2194,7 +2243,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Semantic-model .
@@ -2225,6 +2274,7 @@
 
 :assertion {
   fip:Data-usage-license rdfs:label "Data usage license"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Data-Policy ;
     skos:definition "A data policy that specifies legal restrictions on the reuse of the data."@en ;
 #   fip:enables fair:R1.1 ;
@@ -2236,7 +2286,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Data-usage-license .
@@ -2267,6 +2317,7 @@
 
 :assertion {
   fip:Persistency-Policy rdfs:label "Persistency Policy"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Data-Policy ;
     skos:definition "A policy with respect to persistency of resources."@en ;
     rdfs:isDefinedBy latest: .
@@ -2277,7 +2328,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Persistency-Policy .
@@ -2308,6 +2359,7 @@
 
 :assertion {
   fip:Provenance-model rdfs:label "Provenance model"@en ;
+    a owl:Class ;
     rdfs:subClassOf fip:FAIR-Enabling-Resource , fip:FAIR-Specification ;
     skos:definition "A specification that specifies metadata describing the origin and lineage of data or other digital objects."@en ;
 #   fip:enables fair:R1.2 ;
@@ -2319,7 +2371,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:Provenance-model .
@@ -2351,6 +2403,7 @@
 
 :assertion {
   fip:refers-to-principle rdfs:label "refers to principle"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:range fair:FAIR-Principle-or-SubPrinciple ;
     skos:definition "Connects an entity (for example a FIP declaration) to a FAIR (sub)principle it refers to"@en ;
@@ -2362,7 +2415,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:refers-to-principle .
@@ -2394,6 +2447,7 @@
 
 :assertion {
   fip:refers-to-question rdfs:label "refers to question"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FIP-Declaration ;
     rdfs:range fip:FIP-Question ;
@@ -2406,7 +2460,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:refers-to-question .
@@ -2438,6 +2492,7 @@
 
 :assertion {
   fip:declared-by rdfs:label "declared by"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Declaration ;
     rdfs:range fip:FAIR-Implementation-Community ;
@@ -2450,7 +2505,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:declared-by .
@@ -2482,6 +2537,7 @@
 
 :assertion {
   fip:declares-current-use-of rdfs:label "declares current use of"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Declaration ;
     rdfs:range fip:Available-FAIR-Supporting-Resource ;
@@ -2494,7 +2550,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:declares-current-use-of .
@@ -2526,6 +2582,7 @@
 
 :assertion {
   fip:declares-planned-use-of rdfs:label "declares planned use of"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Declaration ;
     rdfs:range fip:FAIR-Supporting-Resource ;
@@ -2538,7 +2595,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:declares-planned-use-of .
@@ -2570,6 +2627,7 @@
 
 :assertion {
   fip:declares-planned-replacement-of rdfs:label "declares planned replacement of"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Declaration ;
     rdfs:range fip:Available-FAIR-Supporting-Resource ;
@@ -2582,7 +2640,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:declares-planned-replacement-of .
@@ -2614,6 +2672,7 @@
 
 :assertion {
   fip:declares-planned-development-of rdfs:label "declares planned development of"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Declaration ;
     rdfs:range fip:FAIR-Supporting-Resource-to-be-Developed ;
@@ -2626,7 +2685,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:declares-planned-development-of .
@@ -2658,6 +2717,7 @@
 
 :assertion {
   fip:declared-for-digital-object-type rdfs:label "declared for digital object type"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Declaration ;
     rdfs:range fip:Digital-Object-Type ;
@@ -2670,7 +2730,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:declared-for-digital-object-type .
@@ -2702,6 +2762,7 @@
 
 :assertion {
   fip:declared-for-case-study rdfs:label "declared for case study"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Declaration ;
     rdfs:range fip:FAIR-Case-Study ;
@@ -2714,7 +2775,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:declared-for-case-study .
@@ -2746,6 +2807,7 @@
 
 :assertion {
   fip:has-declaration-index rdfs:label "has declaration index"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Supporting-Resource ;
     rdfs:range npx:NanopubIndex ;
@@ -2758,7 +2820,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:has-declaration-index .
@@ -2790,6 +2852,7 @@
 
 :assertion {
   fip:has-research-domain rdfs:label "has research domain"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Implementation-Community ;
     skos:definition "Connects a FAIR Implementation Community with research domains"@en ;
@@ -2801,7 +2864,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:has-research-domain .
@@ -2833,6 +2896,7 @@
 
 :assertion {
   fip:enables rdfs:label "enables"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain owl:Class ;
     rdfs:range fair:FAIR-Principle-or-SubPrinciple ;
@@ -2845,7 +2909,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:enables .
@@ -2877,6 +2941,7 @@
 
 :assertion {
   fip:considerations rdfs:label "considerations"@en ;
+    a rdf:Property ;
     a owl:DatatypeProperty ;
     rdfs:domain fip:FAIR-Declaration ;
     skos:definition "Considerations that led to a given FIP declaration"@en ;
@@ -2888,7 +2953,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:considerations .
@@ -2920,6 +2985,7 @@
 
 :assertion {
   fip:availability-in-years rdfs:label "availability in years"@en ;
+    a rdf:Property ;
     a owl:DatatypeProperty ;
     rdfs:domain fip:fip:FAIR-Data-Policy ;
     skos:definition "Specifies how many years a resource is preserved according to a preservation policy"@en ;
@@ -2931,7 +2997,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:availability-in-years .
@@ -2963,6 +3029,7 @@
 
 :assertion {
   fip:metadata-availability-in-years rdfs:label "metadata availability in years"@en ;
+    a rdf:Property ;
     a owl:DatatypeProperty ;
     rdfs:subPropertyOf fip:availability-in-years ;
     rdfs:domain fip:Metadata-preservation-policy ;
@@ -2975,7 +3042,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:metadata-availability-in-years .
@@ -3021,7 +3088,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-F1-MD .
@@ -3065,7 +3132,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-F1-D .
@@ -3109,7 +3176,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-F2 .
@@ -3153,7 +3220,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-F3 .
@@ -3197,7 +3264,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-F4-MD .
@@ -3241,7 +3308,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-F4-D .
@@ -3285,7 +3352,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-A1.1-MD .
@@ -3329,7 +3396,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-A1.1-D .
@@ -3373,7 +3440,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-A1.2-MD .
@@ -3417,7 +3484,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-A1.2-D .
@@ -3461,7 +3528,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-A2 .
@@ -3505,7 +3572,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-I1-MD .
@@ -3549,7 +3616,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-I1-D .
@@ -3593,7 +3660,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-I2-MD .
@@ -3637,7 +3704,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-I2-D .
@@ -3681,7 +3748,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-I3-MD .
@@ -3725,7 +3792,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-I3-D .
@@ -3769,7 +3836,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-R1.1-MD .
@@ -3813,7 +3880,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-R1.1-D .
@@ -3857,7 +3924,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-R1.2-MD .
@@ -3901,7 +3968,7 @@
 }
 
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:FIP-Question-R1.2-D .
@@ -3933,6 +4000,7 @@
     
 :assertion {
   fip:has-description-source rdfs:label "has description source"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     skos:definition "Denotes the source of the description that is asserted via dct:description"@en ;
     rdfs:isDefinedBy latest: .
@@ -3943,7 +4011,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:has-description-source .
@@ -3975,6 +4043,7 @@
     
 :assertion {
   fip:depends-on rdfs:label "depends on"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Enabling-Resource ;
     rdfs:range fip:FAIR-Supporting-Software ;
@@ -3987,7 +4056,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:depends-on .
@@ -4019,6 +4088,7 @@
     
 :assertion {
   fip:implements rdfs:label "implements"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Enabling-Resource ;
     rdfs:range fip:FAIR-Specification ;
@@ -4031,7 +4101,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:implements .
@@ -4063,6 +4133,7 @@
     
 :assertion {
   fip:has-data-usage-license rdfs:label "has data usage license"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Enabling-Resource ;
     rdfs:range fip:Data-usage-license ;
@@ -4075,7 +4146,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:has-data-usage-license .
@@ -4107,6 +4178,7 @@
     
 :assertion {
   fip:has-MPP rdfs:label "has metadata preservation policy"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:Registry ;
     rdfs:range fip:Metadata-preservation-policy ;
@@ -4119,7 +4191,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:has-MPP .
@@ -4151,6 +4223,7 @@
     
 :assertion {
   fip:has-AAS rdfs:label "uses authentication and authorization service"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:Registry ;
     rdfs:range fip:Authentication-and-authorization-service ;
@@ -4163,7 +4236,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:has-AAS .
@@ -4195,6 +4268,7 @@
     
 :assertion {
   fip:uses-identifier-service rdfs:label "uses identifier service"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:Registry ;
     rdfs:range fip:Identifier-service ;
@@ -4207,7 +4281,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:uses-identifier-service .
@@ -4239,6 +4313,7 @@
     
 :assertion {
   fip:targets rdfs:label "targets"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Supporting-Resource ;
     rdfs:range fip:Digital-Object-Type ;
@@ -4251,7 +4326,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:targets .
@@ -4283,6 +4358,7 @@
     
 :assertion {
   fip:has-persistency-policy rdfs:label "has persistency policy"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Supporting-Resource ;
     rdfs:range fip:Persistency-Policy ;
@@ -4295,7 +4371,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:has-persistency-policy .
@@ -4327,6 +4403,7 @@
     
 :assertion {
   fip:recommended-by rdfs:label "is recommended by"@en ;
+    a rdf:Property ;
     a owl:ObjectProperty ;
     rdfs:domain fip:FAIR-Supporting-Resource ;
     rdfs:range fip:FAIR-Implementation-Community ;
@@ -4339,7 +4416,7 @@
 } 
     
 :pubinfo {
-  : dct:created "2025-06-13T10:32:05.526+02:00"^^xsd:dateTime ;
+  : dct:created "2025-11-20T08:21:58.635+01:00"^^xsd:dateTime ;
     dct:creator orcid:0000-0003-2195-3997 , orcid:0000-0001-8888-635X , orcid:0000-0002-1267-0234 ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     npx:introduces fip:recommended-by .

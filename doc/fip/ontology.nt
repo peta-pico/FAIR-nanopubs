@@ -57,9 +57,7 @@
 # https://w3id.org/fair/fip/terms/declared-by
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
-<https://w3id.org/fair/fip/terms/FAIR-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
-<https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-by> .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2000/01/rdf-schema#label> "declared by"@en .
 <https://w3id.org/fair/fip/terms/declared-by> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the community that made the declaration"@en .
@@ -68,7 +66,6 @@
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Case-Study> .
-<https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declared-for-case-study> .
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2000/01/rdf-schema#label> "declared for case study"@en .
 <https://w3id.org/fair/fip/terms/declared-for-case-study> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the case study it refers to."@en .
@@ -85,7 +82,6 @@
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> .
-<https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-current-use-of> .
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2000/01/rdf-schema#label> "declares current use of"@en .
 <https://w3id.org/fair/fip/terms/declares-current-use-of> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to currently use"@en .
@@ -94,7 +90,6 @@
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> .
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/declares-planned-development-of> .
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2000/01/rdf-schema#label> "declares planned development of"@en .
 <https://w3id.org/fair/fip/terms/declares-planned-development-of> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FIP declaration to the resource that the community thereby declares to plan to develop"@en .
@@ -118,9 +113,7 @@
 # https://w3id.org/fair/fip/terms/depends-on
 <https://w3id.org/fair/fip/terms/depends-on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/depends-on> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
-<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/depends-on> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> .
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/depends-on> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/depends-on> .
 <https://w3id.org/fair/fip/terms/depends-on> <http://www.w3.org/2000/01/rdf-schema#label> "depends on"@en .
 <https://w3id.org/fair/fip/terms/depends-on> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a FAIR Supporting Software."@en .
@@ -138,9 +131,7 @@
 # https://w3id.org/fair/fip/terms/has-AAS
 <https://w3id.org/fair/fip/terms/has-AAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/has-AAS> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/Registry> .
-<https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/has-AAS> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> .
-<https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/has-AAS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-AAS> .
 <https://w3id.org/fair/fip/terms/has-AAS> <http://www.w3.org/2000/01/rdf-schema#label> "uses authentication and authorization service"@en .
 <https://w3id.org/fair/fip/terms/has-AAS> <http://www.w3.org/2004/02/skos/core#definition> "Connects a registry with an authentication and authorization service"@en .
@@ -149,7 +140,6 @@
 <https://w3id.org/fair/fip/terms/has-MPP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/has-MPP> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/Registry> .
 <https://w3id.org/fair/fip/terms/has-MPP> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Metadata-preservation-policy> .
-<https://w3id.org/fair/fip/terms/Metadata-preservation-policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/has-MPP> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-MPP> .
 <https://w3id.org/fair/fip/terms/has-MPP> <http://www.w3.org/2000/01/rdf-schema#label> "has metadata preservation policy"@en .
 <https://w3id.org/fair/fip/terms/has-MPP> <http://www.w3.org/2004/02/skos/core#definition> "Connects a registry with a metadata preservation policy."@en .
@@ -166,7 +156,6 @@
 <https://w3id.org/fair/fip/terms/has-data-usage-license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/has-data-usage-license> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/has-data-usage-license> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Data-usage-license> .
-<https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/has-data-usage-license> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-data-usage-license> .
 <https://w3id.org/fair/fip/terms/has-data-usage-license> <http://www.w3.org/2000/01/rdf-schema#label> "has data usage license"@en .
 <https://w3id.org/fair/fip/terms/has-data-usage-license> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a data usage license."@en .
@@ -190,7 +179,6 @@
 <https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Persistency-Policy> .
-<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/has-persistency-policy> .
 <https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2000/01/rdf-schema#label> "has persistency policy"@en .
 <https://w3id.org/fair/fip/terms/has-persistency-policy> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Supporting Resource with a persistency policy"@en .
@@ -206,7 +194,6 @@
 <https://w3id.org/fair/fip/terms/implements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/implements> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/implements> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FAIR-Specification> .
-<https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/implements> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/implements> .
 <https://w3id.org/fair/fip/terms/implements> <http://www.w3.org/2000/01/rdf-schema#label> "implements"@en .
 <https://w3id.org/fair/fip/terms/implements> <http://www.w3.org/2004/02/skos/core#definition> "Connects a FAIR Enabling Resource with a FAIR Specification"@en .
@@ -229,7 +216,6 @@
 # https://w3id.org/fair/fip/terms/refers-to-question
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/FIP-Declaration> .
-<https://w3id.org/fair/fip/terms/FIP-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/FIP-Question> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/refers-to-question> .
 <https://w3id.org/fair/fip/terms/refers-to-question> <http://www.w3.org/2000/01/rdf-schema#label> "refers to question"@en .
@@ -247,7 +233,6 @@
 <https://w3id.org/fair/fip/terms/uses-identifier-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/fair/fip/terms/uses-identifier-service> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/fair/fip/terms/Registry> .
 <https://w3id.org/fair/fip/terms/uses-identifier-service> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/fair/fip/terms/Identifier-service> .
-<https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/uses-identifier-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/uses-identifier-service> .
 <https://w3id.org/fair/fip/terms/uses-identifier-service> <http://www.w3.org/2000/01/rdf-schema#label> "uses identifier service"@en .
 <https://w3id.org/fair/fip/terms/uses-identifier-service> <http://www.w3.org/2004/02/skos/core#definition> "Connects a registry with an identifier service."@en .
@@ -299,9 +284,9 @@
 # http://www.w3.org/2002/07/owl#Class
 # 
 # https://w3id.org/fair/fip/terms/Authentication-and-authorization-service
+<https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
-<https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Authentication-and-authorization-service> .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2000/01/rdf-schema#label> "Authentication and authorization service"@en .
 <https://w3id.org/fair/fip/terms/Authentication-and-authorization-service> <http://www.w3.org/2004/02/skos/core#definition> "A service that mediates access to digital objects according to specifed conditions."@en .
@@ -315,6 +300,7 @@
 <https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is available for use"@en .
 # 
 # https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource
+<https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Available-FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Available FAIR Supporting Resource"@en .
@@ -343,8 +329,8 @@
 <https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile> <http://www.w3.org/2004/02/skos/core#definition> "A document stating the accumulated training qualifications and FAIR outputs authored by or contributed to, by that person. The profile may be augmented with additional statements regarding professional roles and skills."@en .
 # 
 # https://w3id.org/fair/fip/terms/Data-usage-license
+<https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> .
-<https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Data-usage-license> .
 <https://w3id.org/fair/fip/terms/Data-usage-license> <http://www.w3.org/2000/01/rdf-schema#label> "Data usage license"@en .
@@ -378,12 +364,14 @@
 <https://w3id.org/fair/fip/terms/Emerging-Community> <http://www.w3.org/2004/02/skos/core#definition> "An early-stage community committed to adopting and promoting FAIR principles for its data and services from the outset."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Case-Study
+<https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Case-Study> .
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR case study"@en .
 <https://w3id.org/fair/fip/terms/FAIR-Case-Study> <http://www.w3.org/2004/02/skos/core#definition> "A description of a real-life situation where FAIR requirements of digital objects play a central role."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Data-Policy
+<https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Data-Policy> .
 <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Data Policy"@en .
@@ -404,12 +392,14 @@
 <https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template> <http://www.w3.org/2004/02/skos/core#definition> "A template guiding data stewardship including how FAIR Principles should be implemented. The template must be completed with project-specific information in any given instance to outline how data are to be handled in preparation for the project,  during the research project, and after the project is completed."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Declaration
+<https://w3id.org/fair/fip/terms/FAIR-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Declaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Declaration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/FAIR-Declaration> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Declaration"@en .
 <https://w3id.org/fair/fip/terms/FAIR-Declaration> <http://www.w3.org/2004/02/skos/core#definition> "The statement of a community on how it addresses a FAIR-related question."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource
+<https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR-Enabling Resource"@en .
@@ -424,6 +414,7 @@
 <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR-enabling resource that is not yet available but still needs to be developed"@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Implementation-Community
+<https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Implementation-Community> .
 <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Implementation Community"@en .
@@ -466,6 +457,7 @@
 <https://w3id.org/fair/fip/terms/FAIR-Representation-Service> <http://www.w3.org/2004/02/skos/core#definition> "A transformation service that converts non-FAIR data into a FAIR representation using machine-readable knowledge representation languages."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Specification
+<https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Specification> .
 <https://w3id.org/fair/fip/terms/FAIR-Specification> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR specification"@en .
@@ -478,18 +470,21 @@
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> <http://www.w3.org/2004/02/skos/core#definition> "Any resource that supports FAIR Data Stewardship. FSRs are represented as FAIR Digital Objects (using the nanopublication framework) with Globally Unique, Persistent, Resolvable Identifiers (GUPRI) that resolve to machine-readable metadata about the resource."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Resource-to-be-Developed> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Supporting Resource to be developed"@en .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed> <http://www.w3.org/2004/02/skos/core#definition> "A FAIR Supporting Resource that is not yet available but still needs to be developed."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Supporting-Software
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Software> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Supporting Software"@en .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Software> <http://www.w3.org/2004/02/skos/core#definition> "Any set of machine-readable instructions that support the implementation of FAIR, that conform to a given syntax, that are interpretable by a given processor, and that instruct a computer's processor to perform specific tasks."@en .
 # 
 # https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology
+<https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Supporting Technology"@en .
@@ -510,6 +505,7 @@
 <https://w3id.org/fair/fip/terms/FIP-Data-related-Question> <http://www.w3.org/2004/02/skos/core#definition> "A FIP question that is relevant for the actual data (as compared to just their metadata)"@en .
 # 
 # https://w3id.org/fair/fip/terms/FIP-Declaration
+<https://w3id.org/fair/fip/terms/FIP-Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/FIP-Declaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Declaration> .
 <https://w3id.org/fair/fip/terms/FIP-Declaration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/FIP-Declaration> .
 <https://w3id.org/fair/fip/terms/FIP-Declaration> <http://www.w3.org/2000/01/rdf-schema#label> "FIP Declaration"@en .
@@ -550,6 +546,7 @@
 <https://w3id.org/fair/fip/terms/Generalist-Registry> <http://www.w3.org/2004/02/skos/core#definition> "A registry designed to collect, provide access to, and enable searching of data without any restrictions on the domain."@en .
 # 
 # https://w3id.org/fair/fip/terms/Identifier-service
+<https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/Identifier-service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Identifier-service> .
@@ -580,6 +577,7 @@
 <https://w3id.org/fair/fip/terms/Metadata-data-linking-schema> <http://www.w3.org/2004/02/skos/core#definition> "A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe."@en .
 # 
 # https://w3id.org/fair/fip/terms/Metadata-preservation-policy
+<https://w3id.org/fair/fip/terms/Metadata-preservation-policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Metadata-preservation-policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> .
 <https://w3id.org/fair/fip/terms/Metadata-preservation-policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/Metadata-preservation-policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Metadata-preservation-policy> .
@@ -595,6 +593,7 @@
 <https://w3id.org/fair/fip/terms/Metadata-schema> <http://www.w3.org/2004/02/skos/core#definition> "A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality."@en .
 # 
 # https://w3id.org/fair/fip/terms/Persistency-Policy
+<https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Data-Policy> .
 <https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/Persistency-Policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Persistency-Policy> .
@@ -624,6 +623,7 @@
 <https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile> <http://www.w3.org/2004/02/skos/core#definition> "A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice."@en .
 # 
 # https://w3id.org/fair/fip/terms/Registry
+<https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource> .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology> .
 <https://w3id.org/fair/fip/terms/Registry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/fair/fip/latest/Registry> .
