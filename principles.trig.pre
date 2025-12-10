@@ -25,7 +25,7 @@
 }
 
 :assertion {
-  fair:FAIR-Vocabulary rdf:type owl:Ontology ;
+  fair:FAIR-Vocabulary a owl:Ontology ;
     vann:preferredNamespaceUri "https://w3id.org/fair/principles/terms/" ;
     vann:preferredNamespacePrefix "fair" ;
     dct:title "FAIR Vocabulary" ;
@@ -44,7 +44,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:FAIR-Vocabulary .
 }
 
 
@@ -88,7 +89,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:FAIR .
 }
 
 
@@ -129,7 +131,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:FAIR-Principle-or-SubPrinciple .
 }
 
 
@@ -172,7 +175,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:FAIR-Principle .
 }
 
 
@@ -215,7 +219,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:FAIR-SubPrinciple .
 }
 
 
@@ -244,6 +249,7 @@
 :assertion {
   fair:F rdfs:label "Findable"@en ;
     a fair:FAIR-Principle ;
+    a owl:NamedIndividual ;
     dct:hasPart fair:F1, fair:F2, fair:F3, fair:F4 ;
     rdfs:isDefinedBy latest: .
 }
@@ -255,7 +261,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:F .
 }
 
 
@@ -284,6 +291,7 @@
 :assertion {
   fair:F1 rdfs:label "F1"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data are assigned a globally unique and persistent identifier"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -295,7 +303,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:F1 .
 }
 
 
@@ -324,6 +333,7 @@
 :assertion {    
   fair:F2 rdfs:label "F2"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "data are described with rich metadata (defined by R1 below)"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -335,7 +345,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:F2 .
 }
 
 
@@ -364,6 +375,7 @@
 :assertion {
   fair:F3 rdfs:label "F3"@en;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "metadata clearly and explicitly include the identifier of the data it describes"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -375,7 +387,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:F3 .
 }
 
 
@@ -404,6 +417,7 @@
 :assertion {
   fair:F4 rdfs:label "F4"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data are registered or indexed in a searchable resource"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -415,7 +429,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:F4 .
 }
 
 
@@ -444,6 +459,7 @@
 :assertion {
   fair:A rdfs:label "Accessible"@en ;
     a fair:FAIR-Principle ;
+    a owl:NamedIndividual ;
     dct:hasPart fair:A1, fair:A2 ;
     rdfs:isDefinedBy latest: .
 }
@@ -455,7 +471,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:A .
 }
 
 
@@ -484,6 +501,7 @@
 :assertion {
   fair:A1 rdfs:label "A1"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data are retrievable by their identifier using a standardized communications protocol"@en ;
     dct:hasPart fair:A1.1, fair:A1.2 ;
     rdfs:isDefinedBy latest: .
@@ -496,7 +514,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:A1 .
 }
 
 
@@ -525,6 +544,7 @@
 :assertion {
   fair:A1.1 rdfs:label "A1.1"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "the protocol is open, free, and universally implementable"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -536,7 +556,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:A1.1 .
 }
 
 
@@ -565,6 +586,7 @@
 :assertion {
   fair:A1.2 rdfs:label "A1.2"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "the protocol allows for an authentication and authorization procedure, where necessary"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -576,7 +598,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:A1.2 .
 }
 
 
@@ -605,6 +628,7 @@
 :assertion {
   fair:A2 rdfs:label "A2"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "metadata are accessible, even when the data are no longer available"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -616,7 +640,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:A2 .
 }
 
 
@@ -645,6 +670,7 @@
 :assertion {
   fair:I rdfs:label "Interoperable"@en ;
     a fair:FAIR-Principle ;
+    a owl:NamedIndividual ;
     dct:hasPart fair:I1, fair:I2, fair:I3 ;
     rdfs:isDefinedBy latest: .
 }
@@ -656,7 +682,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:I .
 }
 
 
@@ -685,6 +712,7 @@
 :assertion {
   fair:I1 rdfs:label "I1"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -696,7 +724,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:I1 .
 }
 
 
@@ -724,7 +753,8 @@
 
 :assertion {
   fair:I2 rdfs:label "I2"@en ;
-    a fair:FAIR-SubPrinciple;
+    a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data use vocabularies that follow FAIR principles"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -736,7 +766,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:I2 .
 }
 
 
@@ -765,6 +796,7 @@
 :assertion {
   fair:I3 rdfs:label "I3"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data include qualified references to other (meta)data"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -776,7 +808,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:I3 .
 }
 
 
@@ -805,6 +838,7 @@
 :assertion {
   fair:R rdfs:label "Reusable"@en;
     a fair:FAIR-Principle ;
+    a owl:NamedIndividual ;
     dct:hasPart fair:R1 ;
     rdfs:isDefinedBy latest: .
 }
@@ -816,7 +850,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:R .
 }
 
 
@@ -845,6 +880,7 @@
 :assertion {
   fair:R1 rdfs:label "R1"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "meta(data) are richly described with a plurality of accurate and relevant attributes"@en ;
     dct:hasPart fair:R1.1, fair:R1.2, fair:R1.3 ;
     rdfs:isDefinedBy latest: .
@@ -857,7 +893,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:R1 .
 }
 
 
@@ -886,6 +923,7 @@
 :assertion {
   fair:R1.1 rdfs:label "R1.1"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data are released with a clear and accessible data usage license"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -897,7 +935,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:R1.1 .
 }
 
 
@@ -926,6 +965,7 @@
 :assertion {
   fair:R1.2 rdfs:label "R1.2"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data are associated with detailed provenance"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -937,7 +977,8 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:R1.2 .
 }
 
 
@@ -966,6 +1007,7 @@
 :assertion {
   fair:R1.3 rdfs:label "R1.3"@en ;
     a fair:FAIR-SubPrinciple ;
+    a owl:NamedIndividual ;
     skos:definition "(meta)data meet domain-relevant community standards"@en ;
     rdfs:isDefinedBy latest: .
 }
@@ -977,6 +1019,7 @@
 :pubinfo {
   : dct:rights <http://creativecommons.org/licenses/by/4.0/> ;
     dct:creator orcid:0000-0003-4727-9435 , orcid:0000-0002-1267-0234 ;
-    dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime .
+    dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime ;
+    npx:introduces fair:R1.3 .
 }
 

@@ -1,8 +1,9 @@
-@prefix this: <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RAET5spTgImGvHwx1aAbwCshWN9SUzthi9FkVoKME56xg> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RAET5spTgImGvHwx1aAbwCshWN9SUzthi9FkVoKME56xg#> .
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RAnKx_IaeSNLO9RDGGWfM8nXmYqGM9DjwtAPTAb8QVy5o> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RAnKx_IaeSNLO9RDGGWfM8nXmYqGM9DjwtAPTAb8QVy5o/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
@@ -10,7 +11,6 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix latest: <https://w3id.org/fair/principles/latest/FAIR-Vocabulary> .
-@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
   this: a np:Nanopublication;
@@ -36,21 +36,23 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "JS3otCyjaykzXTDTOdzGzsgJ61a/0MxJozKef8xHVJ05sTGh1fIqdvT2Mnm3NjMd2v93qSsCV3BTMhs/mvVPe6/m6Wt36cwFBLDhZNAcyFIO3u8y5Ikf+Pymvw83FP6IGjbbCth8b5AtliTmZOhPmajNUVe34g3DhJOgkQqAtJY=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RA42Ifild4QRyoA2-A3tam25oe5fd6sDqqzXSVmzOpuYw> .
+    npx:introduces fair:FAIR-Vocabulary;
+    npx:supersedes <https://w3id.org/fair/principles/np/FAIR-Vocabulary/RAET5spTgImGvHwx1aAbwCshWN9SUzthi9FkVoKME56xg> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "jdSoyx0USQI0RihD2bMU7fX7tO8UfwNeytOUv2Mlc1EwTFvWMhXIogow+y8Sm1yQQ25xLZ9FlFTvDkYZhukSNC0NYz57dZRq6Ypn9h3MsXpD6IawSBP1zCbDCQ4zxdmlEr/di+FA0n4hJSjxM/nVSs/mlcOjwNACNNcT2k1ThSs=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/FAIR/RAWFqJhnsRIM9veeSydTknzT9ZRCH4M7jiDeBkFKQt_mE> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR/RAWFqJhnsRIM9veeSydTknzT9ZRCH4M7jiDeBkFKQt_mE#> .
+@prefix this: <https://w3id.org/fair/principles/np/FAIR/RAw5w8i0PTOZ2DAtpB7C_YketaVg_OIXjRTRbnBO5bTJI> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR/RAw5w8i0PTOZ2DAtpB7C_YketaVg_OIXjRTRbnBO5bTJI/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -58,7 +60,6 @@ sub:pubinfo {
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix latest: <https://w3id.org/fair/principles/latest/FAIR> .
-@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
   this: a np:Nanopublication;
@@ -81,21 +82,23 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "QfpP2SF25zF2WmBzAWOMXt7KQCnF0Z31ClmcsgERP8RQtqJ3ZMH0+WHMkkSYzZlv/Fpb3UQjh831hvy4QlaCugfIvVFm/wxMIwGUAMxSSLE+MvRAeUuWlS0LgGw7vNRR8aVgxFSuE/KVt+4AXV+2viIP6W3QLcSAl6x02oz1ISk=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/FAIR/RAqJf-a0owHeudCLjz5PX1-dywxDvRcCFUsPAu7w8SgU4> .
+    npx:introduces fair:FAIR;
+    npx:supersedes <https://w3id.org/fair/principles/np/FAIR/RAWFqJhnsRIM9veeSydTknzT9ZRCH4M7jiDeBkFKQt_mE> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "ZCaqZa+uilSi/yr9bvo4xH8WQpbQpv9dSeBuV+eL8JKAEL1p166RiQh8H4i0VjDzkyfJNGJbJ4LfEYzzEuxp2Dhc4uyLXdNKlGj84MBQd5k3JlTWz+7g+Y/CSlrGLLF5pKul856N1Qhq2ct1S+MwhzFMp5NeVCZ+6ZF8K/WEx1o=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RAnmg_2yfHyEon53YfV1J3NY9j1QHMlTsdKuTapuC_UV0> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RAnmg_2yfHyEon53YfV1J3NY9j1QHMlTsdKuTapuC_UV0#> .
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RA-O_sf-HKhWESwLm5NUoX3mh5vlhVdpt3kYjS6z_VK3c> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RA-O_sf-HKhWESwLm5NUoX3mh5vlhVdpt3kYjS6z_VK3c/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -103,7 +106,6 @@ sub:pubinfo {
 @prefix fair: <https://w3id.org/fair/principles/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix latest: <https://w3id.org/fair/principles/latest/FAIR-Principle-or-SubPrinciple> .
-@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
   this: a np:Nanopublication;
@@ -125,17 +127,19 @@ sub:provenance {
 }
 
 sub:pubinfo {
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/>;
+    npx:introduces fair:FAIR-Principle-or-SubPrinciple;
+    npx:supersedes <https://w3id.org/fair/principles/np/FAIR-Principle-or-SubPrinciple/RAnmg_2yfHyEon53YfV1J3NY9j1QHMlTsdKuTapuC_UV0> .
+  
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "YwDBeYbWJSbNxK+2vjCBu9HSbR36Nz9azLi9p+THn8PvRjTHLoOL4XTDAk+VGX1WTNVzddnT5XLfWZGNFrZG044b5+uZqCgkxH3ZsRMKPYeKGnXdNjmcaNRGnNrSvObIALvCQaTfM153lFs2rbweUdOFyr+4dRaaoHWG9bTu/t8=";
+    npx:hasSignature "TGw1KIElDQ8MutK/DufaoHqs4/iNxH3gnvEtGDNG9AjSf9OK1fT8URkAXmfHaodRSoBBXvP70na9oZlXL1S1JOZP49ZtuouvCoy8eRnkFuPj0WBmZreyvyWyN/YqW+ZOxgsKoktaExcZg3AuLcWVsHeH7wBQIw8nOiDrD9s3yic=";
     npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
-    dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
-    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
 }
-@prefix this: <https://w3id.org/fair/principles/np/FAIR-Principle/RAqA0VJg5n3JV3TOAYHrdqLM4rPf07T6QYzPI9K6X_7pE> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Principle/RAqA0VJg5n3JV3TOAYHrdqLM4rPf07T6QYzPI9K6X_7pE#> .
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-Principle/RATxKqKgXUpNw-P3w_UnSWjesgeMJXIFupDaFar7dHX8A> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-Principle/RATxKqKgXUpNw-P3w_UnSWjesgeMJXIFupDaFar7dHX8A/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -163,18 +167,18 @@ sub:assertion {
   sub:_2 rdf:first fair:R;
     rdf:rest rdf:nil .
   
-  sub:_3 rdf:first fair:A;
-    rdf:rest sub:_1 .
+  sub:_3 rdf:first fair:F;
+    rdf:rest sub:_4 .
   
-  sub:_4 rdf:first fair:F;
-    rdf:rest sub:_3 .
+  sub:_4 rdf:first fair:A;
+    rdf:rest sub:_1 .
   
   fair:FAIR-Principle a owl:Class;
     dct:partOf fair:FAIR;
     rdfs:isDefinedBy latest:;
     rdfs:label "FAIR Principle"@en;
     rdfs:subClassOf fair:FAIR-Principle-or-SubPrinciple;
-    owl:oneOf sub:_4;
+    owl:oneOf sub:_3;
     skos:definition "A FAIR principle describes an essential aspect of FAIR."@en .
 }
 
@@ -183,18 +187,19 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "KKeDW2V+6X6UfrUY3JpVd09se5gO7l6JwfBRitGF6eCaQ2h6q2mBKs7VfBjTyZqZo1UpcaLSSYGpnCgt9SiZJFf23F+hpATvVOOtkXTPrRQPe9Bfx5sB5gklWLjrUT1cZNfJ6+dXO6rydHLYS8XWwdGFUJgcD5ho1b605tJ8DaI=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/FAIR-Principle/RArvgyYAkRh175vBksn6eHp1MVR4qqfTSwYRGd2ozRo3E> .
+    npx:introduces fair:FAIR-Principle;
+    npx:supersedes <https://w3id.org/fair/principles/np/FAIR-Principle/RAqA0VJg5n3JV3TOAYHrdqLM4rPf07T6QYzPI9K6X_7pE> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "RQ8O/4Y7R612Q0Qh/tcdz94hDtwV8B9tlA75JR4xaqlKPnJSttpfCo6xahSbAbmHtRpkL3eagIXATb1RjXJ1vDk5rz6zyXey/1xZpJu5Q3UybrIcxkmDkQzCEXJFPNFJ2/6exF9++uZTiOaJVv7GbM963apY3kpnU2yxI9dA9Oc=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAhcK5JpKd8n7Soo4GyRzCbTfEVeEIjmMadQgK0IMX4i4> .
-@prefix sub: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAhcK5JpKd8n7Soo4GyRzCbTfEVeEIjmMadQgK0IMX4i4#> .
+@prefix this: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAaYQI2QjxBTtIDj2uTP41524iD9hhR0yaWbvvlbdVfyQ> .
+@prefix sub: <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAaYQI2QjxBTtIDj2uTP41524iD9hhR0yaWbvvlbdVfyQ/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -216,57 +221,57 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:_1 rdf:first fair:R1.1;
+  sub:_1 rdf:first fair:I2;
     rdf:rest sub:_2 .
   
-  sub:_10 rdf:first fair:A1;
-    rdf:rest sub:_11 .
-  
-  sub:_11 rdf:first fair:A1.1;
-    rdf:rest sub:_5 .
-  
-  sub:_12 rdf:first fair:R1;
-    rdf:rest sub:_1 .
-  
-  sub:_13 rdf:first fair:F1;
-    rdf:rest sub:_14 .
-  
-  sub:_14 rdf:first fair:F2;
+  sub:_10 rdf:first fair:R1.1;
     rdf:rest sub:_7 .
   
-  sub:_15 rdf:first fair:I3;
+  sub:_11 rdf:first fair:A2;
     rdf:rest sub:_12 .
   
-  sub:_2 rdf:first fair:R1.2;
-    rdf:rest sub:_9 .
+  sub:_12 rdf:first fair:I1;
+    rdf:rest sub:_1 .
   
-  sub:_3 rdf:first fair:I1;
-    rdf:rest sub:_4 .
+  sub:_13 rdf:first fair:A1;
+    rdf:rest sub:_14 .
   
-  sub:_4 rdf:first fair:I2;
+  sub:_14 rdf:first fair:A1.1;
     rdf:rest sub:_15 .
   
-  sub:_5 rdf:first fair:A1.2;
+  sub:_15 rdf:first fair:A1.2;
+    rdf:rest sub:_11 .
+  
+  sub:_2 rdf:first fair:I3;
+    rdf:rest sub:_9 .
+  
+  sub:_3 rdf:first fair:F1;
+    rdf:rest sub:_4 .
+  
+  sub:_4 rdf:first fair:F2;
+    rdf:rest sub:_5 .
+  
+  sub:_5 rdf:first fair:F3;
     rdf:rest sub:_6 .
   
-  sub:_6 rdf:first fair:A2;
-    rdf:rest sub:_3 .
+  sub:_6 rdf:first fair:F4;
+    rdf:rest sub:_13 .
   
-  sub:_7 rdf:first fair:F3;
+  sub:_7 rdf:first fair:R1.2;
     rdf:rest sub:_8 .
   
-  sub:_8 rdf:first fair:F4;
-    rdf:rest sub:_10 .
-  
-  sub:_9 rdf:first fair:R1.3;
+  sub:_8 rdf:first fair:R1.3;
     rdf:rest rdf:nil .
+  
+  sub:_9 rdf:first fair:R1;
+    rdf:rest sub:_10 .
   
   fair:FAIR-SubPrinciple a owl:Class;
     dct:partOf fair:FAIR;
     rdfs:isDefinedBy latest:;
     rdfs:label "FAIR SubPrinciple"@en;
     rdfs:subClassOf fair:FAIR-Principle-or-SubPrinciple;
-    owl:oneOf sub:_13;
+    owl:oneOf sub:_3;
     skos:definition "A sub-principle of a FAIR principle."@en .
 }
 
@@ -275,20 +280,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "HTcVfQ2Jh6U2oHjWFMy2MIPJkrgz6vUZ4bYhuNIscHFF+02u94NkhUWqUQZTWNeA6DU9/5+6yI5VTRZLlRaD+XllgVRd4yhk/JAR7Uagv33/t9G7/zbLiw37TAXVq09GSwX64ECNwLCMJwtc5lCPo6FPWJgpLIwlhWzxn0bMpQw=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2025-01-08T11:24:06.208+01:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAuBeE6JEZTdH2-2XIg_LJU3zzaXMOZj9UVpJ77ij64eQ> .
+    npx:introduces fair:FAIR-SubPrinciple;
+    npx:supersedes <https://w3id.org/fair/principles/np/FAIR-SubPrinciple/RAhcK5JpKd8n7Soo4GyRzCbTfEVeEIjmMadQgK0IMX4i4> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "FcI+4tciyHVqDxiZJHclI8G3bLXpXEJw1IS7TR1Rb9tIwFNIbSPcxEeAo8zVDtHGSsqo3rt+REiJZdKLvC6JrlojwD6R/OEeJSxMu7Z/tO++22kclCAX6a40Lyn+L2ggClnrwknJ7aJ/QTUJ1N/HQGcUk5WWysdkJJwtwb9YMTU=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F/RA11nRzekolFovJG5z69JOVWGrOeIJQ5FKmOYW7QySBc0> .
-@prefix sub: <https://w3id.org/fair/principles/np/F/RA11nRzekolFovJG5z69JOVWGrOeIJQ5FKmOYW7QySBc0#> .
+@prefix this: <https://w3id.org/fair/principles/np/F/RAinP1aFLbZYYmnckUlW1q-jdKI0HEgviAUH3Z9619OMQ> .
+@prefix sub: <https://w3id.org/fair/principles/np/F/RAinP1aFLbZYYmnckUlW1q-jdKI0HEgviAUH3Z9619OMQ/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -305,7 +312,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:F a fair:FAIR-Principle;
+  fair:F a owl:NamedIndividual, fair:FAIR-Principle;
     dct:hasPart fair:F1, fair:F2, fair:F3, fair:F4;
     rdfs:isDefinedBy latest:;
     rdfs:label "Findable"@en .
@@ -316,20 +323,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "VYDdyf0/xiIKUouCtCos3bedLMrm8aowQPU43wSXR5mULjuNRadOWpl1u9nF4BcbmXLzfMzltF57VRbA/1P0xGQLQvQ7L4aOxPu8oxEqvzWBVCJQc7GyPQrjEYZeOFWZQFmSSjl1yHjgTRrUcIKGfdcEOaDzhMZqH0WYrc1zRTI=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/F/RALPRqKUUtSpaYz-HnGshG0hZyMIoX1lc-qZmE5Gh5Goo> .
+    npx:introduces fair:F;
+    npx:supersedes <https://w3id.org/fair/principles/np/F/RA11nRzekolFovJG5z69JOVWGrOeIJQ5FKmOYW7QySBc0> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "MJjBZPJDosoIchNATzcg659dJMlkfeq+CcHemIOVDd4AOQ1vv7cThuae9E73aXyfcrAk+j+KaWlEWwoXDIzIeyQty6dFnfG38j4FoIkeP3nhX5S2I13xyO8B08gMn6U/DH/L1NxrVlecnMrpj3MFD9o6Fi3HWTAvq8kEocVXyJU=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F1/RAkaJYVCbQYrGxLxiiLt2Z3UCBPFHt6pBPkVjVmzUbt3o> .
-@prefix sub: <https://w3id.org/fair/principles/np/F1/RAkaJYVCbQYrGxLxiiLt2Z3UCBPFHt6pBPkVjVmzUbt3o#> .
+@prefix this: <https://w3id.org/fair/principles/np/F1/RAI9Q8BxYAXy-w0vmz3jaajwCqZCK0c9Y0PxUNBNyffRo> .
+@prefix sub: <https://w3id.org/fair/principles/np/F1/RAI9Q8BxYAXy-w0vmz3jaajwCqZCK0c9Y0PxUNBNyffRo/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -347,7 +356,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:F1 a fair:FAIR-SubPrinciple;
+  fair:F1 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "F1"@en;
     skos:definition "(meta)data are assigned a globally unique and persistent identifier"@en .
@@ -358,20 +367,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "NBkd0HS751FSHkNS+JeOtDJ5pzTfyxmdfUESKk+sGySdneFOnZo9Lw7UcUloEQF4OXK9KrJA/JDAiiU28pkl+fkgS4p1/lw75mWoFi4h7K6gTHpSqYLdYIFR64vyWtkkS4qzPDXUmSlbDKRanyhOh0vL8lkX6557btSH1HAhaSo=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/F1/RAMTUo7c9Hp6eYnG3cNB2otD8VES92GiTb0xYVtK67-z0> .
+    npx:introduces fair:F1;
+    npx:supersedes <https://w3id.org/fair/principles/np/F1/RAkaJYVCbQYrGxLxiiLt2Z3UCBPFHt6pBPkVjVmzUbt3o> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "RQDMx84A6VC7DoxaULC+XvfvJ2uHvTjDTkhoy1f1Di0gI4UUVOPYJh1VL1oHmCsEbnztTUh96iH1b3GUkF9R0FwZ+iNDyOWCSYfIVlNeUnTjIGepaVd1a+5EyxFPQU68GTKHs4h8tL6sotFDZ57MllxmtKMEofE/nYn1LbrTw1I=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F2/RAUOeKCQBUXTKhDTtlJpWLKROZvyxtHM1rcHWsVvfsWNc> .
-@prefix sub: <https://w3id.org/fair/principles/np/F2/RAUOeKCQBUXTKhDTtlJpWLKROZvyxtHM1rcHWsVvfsWNc#> .
+@prefix this: <https://w3id.org/fair/principles/np/F2/RAsLax2CKr0_tUj-fe8V_rBXoAIuS2vFGiQJfczYMDhtY> .
+@prefix sub: <https://w3id.org/fair/principles/np/F2/RAsLax2CKr0_tUj-fe8V_rBXoAIuS2vFGiQJfczYMDhtY/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -389,7 +400,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:F2 a fair:FAIR-SubPrinciple;
+  fair:F2 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "F2"@en;
     skos:definition "data are described with rich metadata (defined by R1 below)"@en .
@@ -400,20 +411,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "PbkD0QNF3NQFM34BD62uSs4/Ib05iTMp7UqX7/XG8Jbfebt5Zwftieo4pkYrrZVNigCcbG6f4ksRyReF5qWLdvJgClT7GOSBvcQz4kXSu7UnW4VHa1fkddOW7R3vw3TRd7rs/252OnmWR8A0EG1ECSecBHwr4cDJjHLeHFZz/Ps=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/F2/RAeWoz5k17tU6Xr_aF969OqUjqvxT0hAdWdBPA8GZdF80> .
+    npx:introduces fair:F2;
+    npx:supersedes <https://w3id.org/fair/principles/np/F2/RAUOeKCQBUXTKhDTtlJpWLKROZvyxtHM1rcHWsVvfsWNc> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "XflS0dIikcJxGopzTset55xeEWA7LpKeUQSQ7WK+VlZh72jjyyqlxWceHvT4/e9+HfAikOzi/fqkf4Z7GYGCJAaFpmKScvANuLgAUxvlG3yPmq91r7w9ErrmOyMOrz3oVR7ara2XK3sGgD+LlBM0Ywwz9oUPtqlAsrzdSHpEOLI=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F3/RA9Jkp5FL8IPYF4C0lc1KnkK5K8DF9qxGdQJuBsqgPVM8> .
-@prefix sub: <https://w3id.org/fair/principles/np/F3/RA9Jkp5FL8IPYF4C0lc1KnkK5K8DF9qxGdQJuBsqgPVM8#> .
+@prefix this: <https://w3id.org/fair/principles/np/F3/RA6IR_MC8CfNVzKVZzokWFfJDb-tXJxpMZfF2fAFBngDY> .
+@prefix sub: <https://w3id.org/fair/principles/np/F3/RA6IR_MC8CfNVzKVZzokWFfJDb-tXJxpMZfF2fAFBngDY/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -431,7 +444,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:F3 a fair:FAIR-SubPrinciple;
+  fair:F3 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "F3"@en;
     skos:definition "metadata clearly and explicitly include the identifier of the data it describes"@en .
@@ -442,20 +455,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "TuiK8KbH3smKxBcDhX2D9CX5HmWlYclGsVKLs2CcRSR8p8SxnZv26Lhm6TnJsNC71IpL70smjpjBeWpsivhjEvU5fjflRaqopYs5MYzw5dD0k0mtofVWdaP5gjvq36TDC2m10X8JkyC7qbBQWXmNCya4Mi/WvhKtPqB+VLsbAGQ=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/F3/RAjoswB_p1gaGbLz0tX8JerOu-t5DRI03wKkAiBFYF7Po> .
+    npx:introduces fair:F3;
+    npx:supersedes <https://w3id.org/fair/principles/np/F3/RA9Jkp5FL8IPYF4C0lc1KnkK5K8DF9qxGdQJuBsqgPVM8> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "d9hopUxWGq3kO1nAtrQKeRybMBUbCnsPklwmp8NwNRCpboLtCZ/zu8vk6GUEkzLSqRGlLe2zSUbPwgz2iZjpfj1NhXDs5a9j5bJGLD+qO4BVKJmpB8D8Hw1mvLzQ+vAZ4+pwKYgDX3rKmCj3HXamREPKnwZ16kH0Khyd/Ai2dBY=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/F4/RAUeMavzqgj1Mn_xof0c21ZK9V511fHfsFoH0fq1ymma8> .
-@prefix sub: <https://w3id.org/fair/principles/np/F4/RAUeMavzqgj1Mn_xof0c21ZK9V511fHfsFoH0fq1ymma8#> .
+@prefix this: <https://w3id.org/fair/principles/np/F4/RAVPDpjKeH4ncWJtE_0ZEJjHHcpC2iGi7TMnSdSapfIFY> .
+@prefix sub: <https://w3id.org/fair/principles/np/F4/RAVPDpjKeH4ncWJtE_0ZEJjHHcpC2iGi7TMnSdSapfIFY/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -473,7 +488,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:F4 a fair:FAIR-SubPrinciple;
+  fair:F4 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "F4"@en;
     skos:definition "(meta)data are registered or indexed in a searchable resource"@en .
@@ -484,20 +499,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "O8lCE9iCcQYISPMB0E33vReYNfC4UjuYKFo9eW39KepUtXy+PIGUCk9hIB87gfNTN3KTlLjcr4yMLVsXpSfQ8nz7blmfE/QDfp/2nAFIVJRz2Jb9Kn7/m/n67hqtfJa1yXbSGypoLpmmCxc1OtIBZqwNt5zT5wkp3q2TXC7Dm5E=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/F4/RAuUyc74hsNkm9PccdmfKT4T_Qj7Gsy6nBOumDvS6JPDY> .
+    npx:introduces fair:F4;
+    npx:supersedes <https://w3id.org/fair/principles/np/F4/RAUeMavzqgj1Mn_xof0c21ZK9V511fHfsFoH0fq1ymma8> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "JbBnuVfhmlO6KTrhLT5n8ZzZY0cJPdbFuAv9ZXp5WAObP8z1iFYNE7K8LWQdoa21WBIkTb9T4zcDQR4bePFEiIHsbBPe386arZ8QobyMT2xtHq3MiteGdMaJRYRRtxS8R/Orw33I+qxjbZSK3kGByHHdHyxg7im3lpsSvE9q3SI=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A/RAw9GkBlxfd_GhvnxBg2VSjUwTLUxGsmRgIX9OOKB8Muk> .
-@prefix sub: <https://w3id.org/fair/principles/np/A/RAw9GkBlxfd_GhvnxBg2VSjUwTLUxGsmRgIX9OOKB8Muk#> .
+@prefix this: <https://w3id.org/fair/principles/np/A/RA-K3FrMixyeBP3h088HK0xZAynw6nyPX0E9YFD9HQ8Ko> .
+@prefix sub: <https://w3id.org/fair/principles/np/A/RA-K3FrMixyeBP3h088HK0xZAynw6nyPX0E9YFD9HQ8Ko/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -514,7 +531,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:A a fair:FAIR-Principle;
+  fair:A a owl:NamedIndividual, fair:FAIR-Principle;
     dct:hasPart fair:A1, fair:A2;
     rdfs:isDefinedBy latest:;
     rdfs:label "Accessible"@en .
@@ -525,20 +542,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "TXDUJhjE5kny1q0DlYkSsEPeSk6Hil4mQFiB7o/r/xnqE3ND/hRl6IqPacwO3p4woyOitnCgPJXk/3vswddYQdIpGCoZM1e6IIRzHZRrFN+DbwsrXmGw30XIcSymAEWdsMyzJxRjaH7blt6cYA3rW+yJ2B24+AGYb16OBB7uasQ=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/A/RAN_TPF7UpqQmZzJ7CGMQyVNMqSnsEzpI6TFXSbRUVvIE> .
+    npx:introduces fair:A;
+    npx:supersedes <https://w3id.org/fair/principles/np/A/RAw9GkBlxfd_GhvnxBg2VSjUwTLUxGsmRgIX9OOKB8Muk> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "QKB7cNpW8Xe25VCCfBvQV6mn/IclFlfPdS2aO7Sv+Oxf6PXF7s0cyxc6Tg8bbVwPUNWYnsSwcZAUuTHGqF5Oh0LFTQCXj6I10ny27M6G4ZsgYsa+Nt4Z1iPFREDIb64CHJ7E5hGapF/fFkZQH+6DjzHtvvVWI5BNLqdx49KSCr4=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A1/RArQmwGEq7ACDrG4TbMf_5lXsfMqZDpEKoZspJ1Ko1U_s> .
-@prefix sub: <https://w3id.org/fair/principles/np/A1/RArQmwGEq7ACDrG4TbMf_5lXsfMqZDpEKoZspJ1Ko1U_s#> .
+@prefix this: <https://w3id.org/fair/principles/np/A1/RAq_ngixbxytmsQKUccCsEJ4WjkCXoakAItgCibK3I__U> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1/RAq_ngixbxytmsQKUccCsEJ4WjkCXoakAItgCibK3I__U/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -556,7 +575,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:A1 a fair:FAIR-SubPrinciple;
+  fair:A1 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     dct:hasPart fair:A1.1, fair:A1.2;
     rdfs:isDefinedBy latest:;
     rdfs:label "A1"@en;
@@ -568,20 +587,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "dOkLEndjVXg2dqbBbd+BfTnt4airD66l2YARNfc4swgItw23YOkfJCTKjqfxD1KKpxQUkS+x6w2sxvrh8Gtmfux2ZlPatUdYnL8uakW/RT/chKXdZipR10DxbOI5vlNQtUjAlvMtw8QMMnWiBVv/Sa5gkY1vY97eiIzRlug0pFU=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/A1/RAm8xMDy0rkWEp0wjEH8geHkapxihEnJgyzI0eAsgeUz0> .
+    npx:introduces fair:A1;
+    npx:supersedes <https://w3id.org/fair/principles/np/A1/RArQmwGEq7ACDrG4TbMf_5lXsfMqZDpEKoZspJ1Ko1U_s> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "SuW73CaW3+6MOb2a3EwZJoJdPjyDgl8qrc8eBdqwIU1YUiTH2MR8/LNSI6taEPPJz09gI0MLrgON3WMYl3SGDmW4GbE1q/1mDG/fFtN1aY0vwTsYCcOgq8dHhl+zV3078cfeYBkVmI0yYrNYujXNi2mLW1zc2XDDgWCW6F0+LQ4=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A1.1/RAeoqhM3Q3z5A86NIEhhyfnD6Emv_yRLSzMtoW-qnG9gM> .
-@prefix sub: <https://w3id.org/fair/principles/np/A1.1/RAeoqhM3Q3z5A86NIEhhyfnD6Emv_yRLSzMtoW-qnG9gM#> .
+@prefix this: <https://w3id.org/fair/principles/np/A1.1/RAdU5PDBTuXz4crLqyIYhUtv8d-ZRYEMC0sEXohMkmebc> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1.1/RAdU5PDBTuXz4crLqyIYhUtv8d-ZRYEMC0sEXohMkmebc/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -599,7 +620,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:A1.1 a fair:FAIR-SubPrinciple;
+  fair:A1.1 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "A1.1"@en;
     skos:definition "the protocol is open, free, and universally implementable"@en .
@@ -610,20 +631,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "EiUw4K/v9afpQn59mjW1nJxF49Xkss46QdywNbOD7FdN3w5LV/rpBehpp2fAL7cZx05vsdPNhxXSmWaqa64mbzStnBGMz3NWQAYNdGZpLghl52nC795vSjLhvNRMLNsEXnyx1UtzmAuVjyTKnv6S8LbDKYTupXvh5vLN+f50FSM=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/A1.1/RAU6i4WAF74kYJM1J6wLcRkXAK7W54HqxaGo0PnBox4WI> .
+    npx:introduces fair:A1.1;
+    npx:supersedes <https://w3id.org/fair/principles/np/A1.1/RAeoqhM3Q3z5A86NIEhhyfnD6Emv_yRLSzMtoW-qnG9gM> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "ZaPVmEDcVctEHhJCOO3EGS3+MNawBaUTgM+KqUqogC1GVnrbYXBVq+3tkZ5d7vP+Yc8KFpKlA9Va2reLK+OkHMunltrZG2AWs6fL0NltXOHaTUKmO4UZLQfSU96e+MkzMWXF/h5ptFcgBftVsBgjK9abY63Q4MLYzppR3fO2Xgw=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A1.2/RA8qyGd7G7wjYnXbZ9Ndh4wcXgo0GmtM2PKn09jgr7iEA> .
-@prefix sub: <https://w3id.org/fair/principles/np/A1.2/RA8qyGd7G7wjYnXbZ9Ndh4wcXgo0GmtM2PKn09jgr7iEA#> .
+@prefix this: <https://w3id.org/fair/principles/np/A1.2/RAzHXCAeHgB3jwPjA1B0WoeThMz_H8r_3W34gZRicTeOc> .
+@prefix sub: <https://w3id.org/fair/principles/np/A1.2/RAzHXCAeHgB3jwPjA1B0WoeThMz_H8r_3W34gZRicTeOc/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -641,7 +664,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:A1.2 a fair:FAIR-SubPrinciple;
+  fair:A1.2 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "A1.2"@en;
     skos:definition "the protocol allows for an authentication and authorization procedure, where necessary"@en .
@@ -652,20 +675,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "Cx4WvpGQSKSzPqpVwt18o4ZZ5VwKmKeatPC8X4KdJOxvmzl7uhOqTU0FQipOmBS8ZNtq9izrjADSznOF38V9Z6jfKLuIqX7EqIzEG4Uh/e4RUIvhym4NqeP5HgCTVtZFdJh+wAGWng2CkQoD0fSS6fcU/1QspWynxPyitks5gHA=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/A1.2/RAphxlRW48hr7xuGRRgkmP478f_8UbnZP8F0Zazd9ncS8> .
+    npx:introduces fair:A1.2;
+    npx:supersedes <https://w3id.org/fair/principles/np/A1.2/RA8qyGd7G7wjYnXbZ9Ndh4wcXgo0GmtM2PKn09jgr7iEA> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "mochFl3LhneOOu0/4f9nyQSCh6GH9f1RxSMPmY70v/NjU/K3B+ZFaFG1QECdoCVTr5VjQHasde+K38NsP9l2xM8tgZtl8bxVrjiIvo/z+UWIUT8GjfMWOsAe+z1XoITa0+VV43xhGlSOnRt23FilsJAkWiSwwfscc9704yIfItc=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/A2/RApdBA8D_TWE-1nDnPApVLAWR_8Q2z7lcHQOFKQ3vG3Nw> .
-@prefix sub: <https://w3id.org/fair/principles/np/A2/RApdBA8D_TWE-1nDnPApVLAWR_8Q2z7lcHQOFKQ3vG3Nw#> .
+@prefix this: <https://w3id.org/fair/principles/np/A2/RA_jfWLb7TVvuoWoVOEPH_uLxHTWt6EpqX4eFsLl4Lh5w> .
+@prefix sub: <https://w3id.org/fair/principles/np/A2/RA_jfWLb7TVvuoWoVOEPH_uLxHTWt6EpqX4eFsLl4Lh5w/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -683,7 +708,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:A2 a fair:FAIR-SubPrinciple;
+  fair:A2 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "A2"@en;
     skos:definition "metadata are accessible, even when the data are no longer available"@en .
@@ -694,20 +719,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "Q3yO/WTFZnJnGwymEIwi7zpWziuj+Q05EamsAD4d8nhBSx9mDjbgf1GTc7QzoZXrHL4LUqREs5SqCGJaYHWXNBNDuoyB8SzXQRs9NwOHq2TVdZcpPexfQPlsqGLnke97Lf++r9ktz4GelPJri1XjfpFKzFAnx9quGBCwKD7Uif8=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/A2/RA1KFCsx-SzCLjKYKfvbChMp5RkF2mMSU_5l8Dq3E-VjY> .
+    npx:introduces fair:A2;
+    npx:supersedes <https://w3id.org/fair/principles/np/A2/RApdBA8D_TWE-1nDnPApVLAWR_8Q2z7lcHQOFKQ3vG3Nw> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "TQdjeoE0gZ6PxJN2/1uw8xErrOdrDJ/8zphNA60bRhNv8TPd8hmXFR1/IwXNjcmzdsU5EgBtEY/Uj+PCe6PQSshND3NewfAWBl72EUu7xrI3yEuO9l02zdn6uC3RHfH6DaOXaT+CEiRbOEw5HxQV1i4GIe26VFuFcSBVtjvESkk=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I/RArqv-MNECNL8xflST5l-cPpVrBuR_SJkcLNEz_izzOtQ> .
-@prefix sub: <https://w3id.org/fair/principles/np/I/RArqv-MNECNL8xflST5l-cPpVrBuR_SJkcLNEz_izzOtQ#> .
+@prefix this: <https://w3id.org/fair/principles/np/I/RAemVZSqaY6DRH6bLD0CX_80LJJFIpoQlNF08Tp-EOAIM> .
+@prefix sub: <https://w3id.org/fair/principles/np/I/RAemVZSqaY6DRH6bLD0CX_80LJJFIpoQlNF08Tp-EOAIM/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -724,7 +751,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:I a fair:FAIR-Principle;
+  fair:I a owl:NamedIndividual, fair:FAIR-Principle;
     dct:hasPart fair:I1, fair:I2, fair:I3;
     rdfs:isDefinedBy latest:;
     rdfs:label "Interoperable"@en .
@@ -735,20 +762,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "QxHrh3PyolagqcAUjrLj/jN7vaYHdEKXhEddnSIh2FffGO4fjd/sKzW7oOZ1e+nabmM8zSqkr7joWNW3vP+nrGGFUnFvHQbt1xPIzz0si36aUdGt2FcOhiDifxao+cxVP5XBAQqew6EmpoHI9NDgKUvudLH3HQypWvLqYsutRVY=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/I/RALnK9XpRUygG40EFRy2vnNLob3LKUuxGLlAZiJj7tIaM> .
+    npx:introduces fair:I;
+    npx:supersedes <https://w3id.org/fair/principles/np/I/RArqv-MNECNL8xflST5l-cPpVrBuR_SJkcLNEz_izzOtQ> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "jCZuffrtC0thfKGYYFuz+PiTRLbrsqG3YeSOqfCJ2imF7Mc4o+HTQ/p1SHteSDeJL/0dqF8773FK6bBEu7+VMz+cpVXYRcq/SG8nWJx9N/I5tq+Eky8pQIGLeVgzxNZ6Yf90H0G1R7xdmbrDzeW7VJ2T+ga3CHYi924bxX7pwQE=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I1/RAKdqLP_qhMhwPnMf1U-EbyMpWcRjb4xkeBRbvS7BJ8LE> .
-@prefix sub: <https://w3id.org/fair/principles/np/I1/RAKdqLP_qhMhwPnMf1U-EbyMpWcRjb4xkeBRbvS7BJ8LE#> .
+@prefix this: <https://w3id.org/fair/principles/np/I1/RApSx37r93QumWhkTVt2KzmL7ZKoD5rfTy1B6uAmeH-RI> .
+@prefix sub: <https://w3id.org/fair/principles/np/I1/RApSx37r93QumWhkTVt2KzmL7ZKoD5rfTy1B6uAmeH-RI/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -766,7 +795,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:I1 a fair:FAIR-SubPrinciple;
+  fair:I1 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "I1"@en;
     skos:definition "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation"@en .
@@ -777,20 +806,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "YXjhhOK5/6NuRkHMhTsZ+B9lXOQtuvi5lPz7XYQRrBSl3jdLahnk3okdJFNcWMzbUaP7D4+HNRX4RTMqosptaLh4eimm6O/cUl3lLFNmuALFGa8OdSPwdJfV47pcR1qZQ16XGFppn6xoQepxFjB8WbLQOjISUoQx2jI7tUn9S6U=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/I1/RA3XzNzT7YsyfUiSYHoY5iJcIY3i7qkwozamQyWJN0iQE> .
+    npx:introduces fair:I1;
+    npx:supersedes <https://w3id.org/fair/principles/np/I1/RAKdqLP_qhMhwPnMf1U-EbyMpWcRjb4xkeBRbvS7BJ8LE> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "oJFLnxx2SmWP3DNRZQ3hRG6hlrpmGOI1jD09yZvHvMjNgxIvQOkHfOk4Q4Q+0+RsD2SKlujCAACTzVcZgzEVlpKDpKht/m+nrdPzKu7jDR70F3dR+X24gKE3mN+Sm1ZmTTH2pUiEZ4xI5L0/kxQIWhPbiogyC8QYvH1ZHXRyoLQ=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I2/RAwuqh_hwlebiFNd8BRWI3Drv-G81-5SfYEEk1QtewZNA> .
-@prefix sub: <https://w3id.org/fair/principles/np/I2/RAwuqh_hwlebiFNd8BRWI3Drv-G81-5SfYEEk1QtewZNA#> .
+@prefix this: <https://w3id.org/fair/principles/np/I2/RASWtQLkk6tMlZP9Z65AYnzAAxyOSxS0b2aAT1VQr7mK0> .
+@prefix sub: <https://w3id.org/fair/principles/np/I2/RASWtQLkk6tMlZP9Z65AYnzAAxyOSxS0b2aAT1VQr7mK0/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -808,7 +839,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:I2 a fair:FAIR-SubPrinciple;
+  fair:I2 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "I2"@en;
     skos:definition "(meta)data use vocabularies that follow FAIR principles"@en .
@@ -819,20 +850,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "KDhlzT/0NOgTGWQGT0WVarV69Y0Lndo4yQR1wVgIxVz5ujF64thqd6Es9GOZkGWeosy4R5hrtmLnBao04CNVe9mB3hieMo+mtqP/cHtiWZd4/FJPUqB0q4AwGhxsnkEAHQ/i1gtUkdOnJeMJiTHQj0EOlrpTmpOLTYfxOS0TxC8=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/I2/RA81qN-2p4avBYfa3xUgxMinYxKbP3txjVwdukHrvSs-M> .
+    npx:introduces fair:I2;
+    npx:supersedes <https://w3id.org/fair/principles/np/I2/RAwuqh_hwlebiFNd8BRWI3Drv-G81-5SfYEEk1QtewZNA> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "ZVC4iVm02rHQjUGC/g0AKuE6CVZpPbeK+TMEbnKMQfojq/1gp8BoC3Iwd+Z9vpqQ1s8xdTSa6Ubfh1kQ3wxJyLBoj7asbL8AYGedUczXI1naLEManjfc+pTKH0gDGKP0iOMPGsEzo8wb6C+57n2lajXy8w5VAS9epTCF/0GENU0=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/I3/RAdpvfkrMD0CfsCMn5cZaoEJZ13T6gNVSqE4vLBz78UKQ> .
-@prefix sub: <https://w3id.org/fair/principles/np/I3/RAdpvfkrMD0CfsCMn5cZaoEJZ13T6gNVSqE4vLBz78UKQ#> .
+@prefix this: <https://w3id.org/fair/principles/np/I3/RAPOCw1ybHY5yiAc-4mZBQFAG2EfU7PLxzeX-cAkakDVU> .
+@prefix sub: <https://w3id.org/fair/principles/np/I3/RAPOCw1ybHY5yiAc-4mZBQFAG2EfU7PLxzeX-cAkakDVU/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -850,7 +883,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:I3 a fair:FAIR-SubPrinciple;
+  fair:I3 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "I3"@en;
     skos:definition "(meta)data include qualified references to other (meta)data"@en .
@@ -861,20 +894,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "a4YeIQoLWMK1oYhDV1aHETWm/dvBR/YcelxpGuzKSvOpMqEx7roE8lRFi4ovY14VdEFJ3ynm+8tcdR43IusCV2vuMebhNhEG7R8fTT+awC2aBbILF63QAel1NbHMC1llyedoYgWU9LhESsqAdboFRe0l6fw4xZmrcxHpZPuWD7w=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/I3/RADG87qAbXCypBE5eU09xRv2l5XlVWhcoUE89XCcxzoHs> .
+    npx:introduces fair:I3;
+    npx:supersedes <https://w3id.org/fair/principles/np/I3/RAdpvfkrMD0CfsCMn5cZaoEJZ13T6gNVSqE4vLBz78UKQ> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "Dyd2AR9Ao7DGTzDDLqU3r7i4giD3vWkQ3o77o02WJfgTGJx9VbuVWldNer5QA+TkyaN4DZz0QRp2ZeCsD5p0b0TBmnV6vSk3AQVrHctEdp6hAvpcmqclb91uny4cC1Vejtmr9hlcd7uGVSDUKf+zNfAr+OfvDr2h1cWujlOHXHg=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R/RAN84jnrSPSbk-cvPNv5kNQv-edq8EFjIPrVZqHb5AZT0> .
-@prefix sub: <https://w3id.org/fair/principles/np/R/RAN84jnrSPSbk-cvPNv5kNQv-edq8EFjIPrVZqHb5AZT0#> .
+@prefix this: <https://w3id.org/fair/principles/np/R/RAxcOWvVtYL2uwTPePSisl6ztoyqrTVfRVREOHzau6CVc> .
+@prefix sub: <https://w3id.org/fair/principles/np/R/RAxcOWvVtYL2uwTPePSisl6ztoyqrTVfRVREOHzau6CVc/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -891,7 +926,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:R a fair:FAIR-Principle;
+  fair:R a owl:NamedIndividual, fair:FAIR-Principle;
     dct:hasPart fair:R1;
     rdfs:isDefinedBy latest:;
     rdfs:label "Reusable"@en .
@@ -902,20 +937,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "AeRKyqBkrOFlajXqkGjl7O4XnOOj7LdusrTXjadKdtT8DxAn9gzQuwmKEIiJ0CTSrUgVW6rQ/j5/MK4xWMD6deaaK2qdaOEXmDA3RUXsC8p5d7ENsPlHcDBY07vZgZGtPjWRPM7EJUW6N+5aXe/cjdTDHJy9lXV3CNL4/Y6C74E=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/R/RAThG1WEgyldQrd8q2OnH9yt8tJkZMm5iCOP_QkouTJWU> .
+    npx:introduces fair:R;
+    npx:supersedes <https://w3id.org/fair/principles/np/R/RAN84jnrSPSbk-cvPNv5kNQv-edq8EFjIPrVZqHb5AZT0> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "BPCXoT2a4+JuNMQKbKbmwvopYdnxv4LgG1Zo1ON74l3/mcn0uxSWTnmJ8VfcsMtLld6gk88oC3cCycvCPJse0rxsVq89BhzsikDbKfLuIWJYNk6EYpTH7nJSwAw6NKzq/sxpJTu0dtdgc8ZXR73K6Qczxl6on8KvoLnApBDmU30=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1/RAY3fmtZ3CovrdZ8Ve1NS_9UcPPR6IyiGqO49mGJQVLEY> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1/RAY3fmtZ3CovrdZ8Ve1NS_9UcPPR6IyiGqO49mGJQVLEY#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1/RAZZzhwlMDY7dHiV2szZMngkh98PAtXXmSyimD6MKgk1Y> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1/RAZZzhwlMDY7dHiV2szZMngkh98PAtXXmSyimD6MKgk1Y/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -933,7 +970,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:R1 a fair:FAIR-SubPrinciple;
+  fair:R1 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     dct:hasPart fair:R1.1, fair:R1.2, fair:R1.3;
     rdfs:isDefinedBy latest:;
     rdfs:label "R1"@en;
@@ -945,20 +982,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "WTqNY7gEH4RcJCHfl+dUzueLjqTyxjXkVcOtq9AnJPqbJBwuHBIvWj8s1R+aW+YIDod3zXkvsEZq0T/6gP6syLiHxlVoGSlldidRToJy8VkPGjX9M2lvjKN3XJ2FiySTYiPtiRDnS6uyPPptd+Rlyz1H07neQaeje6cHubFJj+8=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/R1/RA3u49Lb-Np-kV9FtdeEt5VbNWtTtccZWrRkF_HIeSdhM> .
+    npx:introduces fair:R1;
+    npx:supersedes <https://w3id.org/fair/principles/np/R1/RAY3fmtZ3CovrdZ8Ve1NS_9UcPPR6IyiGqO49mGJQVLEY> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "d4G5ufksvGoiFBsbO9fz+704qwirwqOtRzV3ZxN/LI/yi+94WEkJxPnJ7GUZFxDSU+e7FqXhcMBz7NP2yW/rqXH2RywBfiAJqLaG9yLQ8O4J8PhYlo/YXcZV8pQGl2mcSrHpc21+dukVpecHjLq/Yc56xKqx7ZJUWhnH/rYihf8=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.1/RAZJ_g_kGNQ4o7MMTQoUdJ8GkdInPDM7RbvJeFgyKxK_U> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.1/RAZJ_g_kGNQ4o7MMTQoUdJ8GkdInPDM7RbvJeFgyKxK_U#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.1/RAq675QdmdUznB-7p8w-jbkZwwjcDjtnHxAqvnK8AtgWo> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.1/RAq675QdmdUznB-7p8w-jbkZwwjcDjtnHxAqvnK8AtgWo/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -976,7 +1015,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:R1.1 a fair:FAIR-SubPrinciple;
+  fair:R1.1 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "R1.1"@en;
     skos:definition "(meta)data are released with a clear and accessible data usage license"@en .
@@ -987,20 +1026,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "NR+G/2wO7i+ha71phGgTmtLiGLkgS57MDnrzOh4CEvketaqlJFjLg4J4WU4VqKl+AJRX8vTEJdlhHA/jCHE7YeWdEyQ/IU5doerK43LWr4s1ASiB2kLugysKVbWKWbzaNSCDuYgWy1GlF95zEHxMGOeBIDGdfw214sUEA/vePks=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/R1.1/RAXwwJrPhJwFlO23c0EHKveyY7QIQhUmx2yKsQCYfJAtY> .
+    npx:introduces fair:R1.1;
+    npx:supersedes <https://w3id.org/fair/principles/np/R1.1/RAZJ_g_kGNQ4o7MMTQoUdJ8GkdInPDM7RbvJeFgyKxK_U> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "BPPPzGDg6p/crwd9Q+unbSpjfuYm/brN4kvC8wWx0YF464Gr8n5T4zLPmKK9J2dB4ndg7ApCff2C9WaZF7Ets5NK6cxyTihwRBMzfDwTRrkCFusL/SuUAq+KRffgPBRHexI0I95V75gsTfAULZ0MmtJx9e+wEstVbSTIQp0nDZ0=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.2/RAH8x96ePyNB2UcRANRjJoI7Da5oqZn8k7ccXuxuZurdc> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.2/RAH8x96ePyNB2UcRANRjJoI7Da5oqZn8k7ccXuxuZurdc#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.2/RAIdw92o568G7WwAqamvQ1I-0i0TlbKNpZequ76R0TztQ> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.2/RAIdw92o568G7WwAqamvQ1I-0i0TlbKNpZequ76R0TztQ/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -1018,7 +1059,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:R1.2 a fair:FAIR-SubPrinciple;
+  fair:R1.2 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "R1.2"@en;
     skos:definition "(meta)data are associated with detailed provenance"@en .
@@ -1029,20 +1070,22 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "ZWZabFfTkhDDoF8DqfR/0azcixWTZoPmPHxB2Rc4wS4oxRAkpOe+yxdwMtjBHLVGfk3vb24Qdg7FO5fJ9yeCJj5RXtbCUsVHYfLLPWnZWqP73vmSXQmtXKxrolAkiwpULHO6scGHjL2pv8i6bkHQiRtnMlAjEkbzGl51bn3GM14=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/R1.2/RAKj2QQ36pDTaaj2Q44uF4cpRF2mMRkXJ9Xbu-IpMB9ZY> .
+    npx:introduces fair:R1.2;
+    npx:supersedes <https://w3id.org/fair/principles/np/R1.2/RAH8x96ePyNB2UcRANRjJoI7Da5oqZn8k7ccXuxuZurdc> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "e5Q+/qQgPzCSJFBwIuk6jc/gWeWP+NQJbqDbXtIbCes1TBZ0Gn878Nf83JGTSDQmg+XFDPNdcPc2QWcq38VzYEmOo3JJVeaxf65LHOlLuqJbnrivyAqMtwE4X5quyNjOgJWjbsmTUXROT5RhK+i+HX4QAdeqntlelzcCENkT8GA=";
+    npx:hasSignatureTarget this: .
 }
-@prefix this: <https://w3id.org/fair/principles/np/R1.3/RA2DL8WP4BqVGygFRgGSd_H5mU6_qDzQEMZqVflRDb6vc> .
-@prefix sub: <https://w3id.org/fair/principles/np/R1.3/RA2DL8WP4BqVGygFRgGSd_H5mU6_qDzQEMZqVflRDb6vc#> .
+@prefix this: <https://w3id.org/fair/principles/np/R1.3/RAg3gurDjL6ZQCOaInEauEtIxiySQXIeqib83ZZ5CTWNI> .
+@prefix sub: <https://w3id.org/fair/principles/np/R1.3/RAg3gurDjL6ZQCOaInEauEtIxiySQXIeqib83ZZ5CTWNI/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -1060,7 +1103,7 @@ sub:Head {
 }
 
 sub:assertion {
-  fair:R1.3 a fair:FAIR-SubPrinciple;
+  fair:R1.3 a owl:NamedIndividual, fair:FAIR-SubPrinciple;
     rdfs:isDefinedBy latest:;
     rdfs:label "R1.3"@en;
     skos:definition "(meta)data meet domain-relevant community standards"@en .
@@ -1071,13 +1114,14 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  sub:sig npx:hasAlgorithm "RSA";
-    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "phNdUoiHHpM1TgVJ0s/9kKcApElxVmF8T1AZxsJfNKcumB91aRKh7KnLlUToLBUMZu1AX1lr5nrjt3cOm936f1Sq+LnutmwuNGo6rYlGZKEFmJKGpl6JEAhV1FESxKYzs8Soggcfr+hiC91FGpzzPIoQNaJgzatKhHQ6jh03iXs=";
-    npx:hasSignatureTarget this: .
-  
-  this: dct:created "2019-07-12T08:07:27.988+02:00"^^xsd:dateTime;
+  this: dct:created "2025-12-10T15:40:35.754+01:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234, orcid:0000-0003-4727-9435;
     dct:rights <http://creativecommons.org/licenses/by/4.0/>;
-    npx:supersedes <https://w3id.org/fair/principles/np/R1.3/RA-9_Zv2ElUuTbbAqDQ-WZ4C6naz7qHXYdhXKumfO5dNk> .
+    npx:introduces fair:R1.3;
+    npx:supersedes <https://w3id.org/fair/principles/np/R1.3/RA2DL8WP4BqVGygFRgGSd_H5mU6_qDzQEMZqVflRDb6vc> .
+  
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "A39hkZHh/Zm1hd8KM6y13/i0Gfs+E3It5i+6kjPwDo5LU+HH1TrNyd4Q6CD3kttxaZB4pOY+nzNQVodZaCDKs31vknRsriULL3B2FE5FZQ9Ot/jKO+uIyB2Byp+lG7e8WFioqweVPSsNisAw7YqUZJRnj3QwRRim1HGlpVn/s00=";
+    npx:hasSignatureTarget this: .
 }
