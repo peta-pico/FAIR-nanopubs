@@ -150,9 +150,9 @@
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id6">
-        <rect class="BoundingBox" stroke="none" fill="none" x="5549" y="7352" width="5194" height="215"/>
-        <path fill="none" stroke="rgb(0,0,0)" stroke-width="71" stroke-linejoin="miter" d="M 10741,7457 L 5748,7459 "/>
-        <path fill="rgb(0,0,0)" stroke="none" d="M 5549,7459 L 5762,7352 5762,7565 5549,7459 Z "/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="5549" y="7350" width="5194" height="215"/>
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="71" stroke-linejoin="miter" d="M 10741,7455 L 5748,7457 "/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 5549,7457 L 5762,7350 5762,7563 5549,7457 Z "/>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -195,9 +195,9 @@
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id13">
-        <rect class="BoundingBox" stroke="none" fill="none" x="3883" y="1899" width="215" height="4294"/>
-        <path fill="none" stroke="rgb(0,0,0)" stroke-width="71" stroke-linejoin="miter" d="M 3960,6191 L 3991,2098 "/>
-        <path fill="rgb(0,0,0)" stroke="none" d="M 3992,1899 L 4097,2113 3884,2111 3992,1899 Z "/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="3881" y="1899" width="215" height="4294"/>
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="71" stroke-linejoin="miter" d="M 3958,6191 L 3989,2098 "/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 3990,1899 L 4095,2113 3882,2111 3990,1899 Z "/>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -209,7 +209,7 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id15">
         <rect class="BoundingBox" stroke="none" fill="none" x="655" y="6186" width="5261" height="5341"/>
-        <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="round" d="M 668,8856 L 668,8856 C 668,8390 789,7931 1019,7528 1248,7124 1578,6788 1976,6555 2374,6322 2825,6199 3285,6199 L 3285,6199 C 3744,6199 4195,6322 4593,6555 4991,6788 5321,7124 5550,7527 5780,7931 5901,8390 5901,8856 L 5901,8856 5901,8856 C 5901,9322 5780,9781 5550,10185 5321,10588 4991,10924 4593,11157 4195,11390 3744,11513 3285,11513 L 3285,11513 C 2825,11513 2374,11390 1976,11157 1578,10924 1248,10588 1019,10185 789,9781 668,9322 668,8856 Z "/>
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="round" stroke-dasharray="140,105" d="M 668,8856 L 668,8856 C 668,8390 789,7931 1019,7528 1248,7124 1578,6788 1976,6555 2374,6322 2825,6199 3285,6199 L 3285,6199 C 3744,6199 4195,6322 4593,6555 4991,6788 5321,7124 5550,7527 5780,7931 5901,8390 5901,8856 L 5901,8856 5901,8856 C 5901,9322 5780,9781 5550,10185 5321,10588 4991,10924 4593,11157 4195,11390 3744,11513 3285,11513 L 3285,11513 C 2825,11513 2374,11390 1976,11157 1578,10924 1248,10588 1019,10185 789,9781 668,9322 668,8856 Z "/>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -252,7 +252,7 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id22">
         <rect class="BoundingBox" stroke="none" fill="none" x="15937" y="7036" width="6229" height="4279"/>
-        <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="round" d="M 15950,9175 L 15950,9175 C 15950,8802 16093,8435 16365,8112 16638,7789 17029,7521 17500,7334 17972,7148 18506,7050 19051,7050 L 19051,7050 C 19595,7050 20129,7148 20601,7334 21072,7521 21463,7789 21736,8112 22008,8435 22151,8802 22151,9175 L 22151,9175 22151,9175 C 22151,9548 22008,9915 21736,10238 21463,10561 21072,10829 20601,11016 20129,11202 19595,11301 19051,11301 L 19051,11301 C 18506,11301 17972,11202 17500,11016 17029,10829 16638,10561 16365,10238 16093,9915 15950,9548 15950,9175 Z "/>
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="round" stroke-dasharray="140,105" d="M 15950,9175 L 15950,9175 C 15950,8802 16093,8435 16365,8112 16638,7789 17029,7521 17500,7334 17972,7148 18506,7050 19051,7050 L 19051,7050 C 19595,7050 20129,7148 20601,7334 21072,7521 21463,7789 21736,8112 22008,8435 22151,8802 22151,9175 L 22151,9175 22151,9175 C 22151,9548 22008,9915 21736,10238 21463,10561 21072,10829 20601,11016 20129,11202 19595,11301 19051,11301 L 19051,11301 C 18506,11301 17972,11202 17500,11016 17029,10829 16638,10561 16365,10238 16093,9915 15950,9548 15950,9175 Z "/>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -263,9 +263,9 @@
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id24">
-        <rect class="BoundingBox" stroke="none" fill="none" x="13773" y="7937" width="3229" height="215"/>
-        <path fill="none" stroke="rgb(0,0,0)" stroke-width="71" stroke-linejoin="miter" d="M 13774,8070 L 16802,8044 "/>
-        <path fill="rgb(0,0,0)" stroke="none" d="M 17001,8042 L 16789,8150 16787,7937 17001,8042 Z "/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="13773" y="7935" width="3229" height="215"/>
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="71" stroke-linejoin="miter" d="M 13774,8068 L 16802,8042 "/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 17001,8040 L 16789,8148 16787,7935 17001,8040 Z "/>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -285,7 +285,6 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id27">
         <rect class="BoundingBox" stroke="none" fill="none" x="6049" y="5749" width="3653" height="853"/>
-        <path fill="rgb(255,255,255)" stroke="none" d="M 7875,6600 L 6050,6600 6050,5750 9700,5750 9700,6600 7875,6600 Z "/>
         <path fill="none" stroke="rgb(0,0,0)" d="M 7875,6600 L 6050,6600 6050,5750 9700,5750 9700,6600 7875,6600 Z "/>
         <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="6279" y="6344"><tspan font-family="Liberation Sans, sans-serif" font-size="494px" font-style="italic" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="3194" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">considerations</tspan></tspan></tspan></text>
        </g>
