@@ -1,0 +1,158 @@
+@prefix this: <https://w3id.org/fair/test/np/a/RAR9iqNDTSo1stvUtRyhYRJRnVat0R4BqE9VA_z6xwego> .
+@prefix sub: <https://w3id.org/fair/test/np/a/RAR9iqNDTSo1stvUtRyhYRJRnVat0R4BqE9VA_z6xwego#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix test: <https://w3id.org/fair/test/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  test:a a owl:Class .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "rWZycrDa/rJ4SZ7IrJEohAk05OOql/f7har+fHrES+0KFc+TyIrnhxNDBTUUKpEeNscOEuNACvx5ho9APkPu45y4yizmVcudUj0esnIwNne9RjvsIjHpGHJpI5ER5zesSLxNviuGDim2k3kllLI/2IGZri//nkwwLQfs9sloDgk=";
+    npx:hasSignatureTarget this: .
+  
+  this: a npx:ExampleNanopub;
+    dct:created "2025-01-08T10:27:10.242+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/>;
+    npx:supersedes <https://w3id.org/fair/test/np/a/RA5rtMRjWLYAs4mv6fBvxiERpLwzyL0EccJqVNtLSrmeQ> .
+}
+@prefix this: <https://w3id.org/fair/test/np/b/RAPFAU7-zmFzbWsE5xzFpQ-78qUocrT1w0EsZb5GCUjaI> .
+@prefix sub: <https://w3id.org/fair/test/np/b/RAPFAU7-zmFzbWsE5xzFpQ-78qUocrT1w0EsZb5GCUjaI#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix test: <https://w3id.org/fair/test/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  test:b a owl:Class;
+    rdfs:label "some text just as an example";
+    rdfs:seeAlso test:a .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "MYkLNKEksFSjUb7OFj5Zwjj+PQGM26a6Dg+NU0peQubzOgXnFUpM9GG1aUq8xHjjwc+3G8q1pmvUarzW0RSOICRiX7vCwZvoi5vdllYMNn1b7+a+E3jLbOmk40OkEj4xAePyd4Cfe5TswvVr78K29+UfCn0YUFySEBZFTGfAXAk=";
+    npx:hasSignatureTarget this: .
+  
+  this: a npx:ExampleNanopub;
+    dct:created "2025-01-08T10:58:51.804+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/>;
+    npx:supersedes <https://w3id.org/fair/test/np/b/RAC0aOFqrZcSVX1Kq9QiAkHMZPQx36EUI23XRZcCongps> .
+}
+@prefix this: <https://w3id.org/fair/test/np/c/RAWn53q5CRmM73Ae1eGuO65P9iuPuXAFaTWr1LUGhqaF0> .
+@prefix sub: <https://w3id.org/fair/test/np/c/RAWn53q5CRmM73Ae1eGuO65P9iuPuXAFaTWr1LUGhqaF0#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix test: <https://w3id.org/fair/test/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  test:c a owl:Class;
+    rdfs:seeAlso test:a, test:b .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "J4VfgpdUGZJsQ60//DvQdOEmW2Uh+cLHaYFoUYCZlEKzl30Z2/Z40Hjdh4NJAG5cVnTojGoLGOaOiHWWbBsLW50kDS+qf5vKdZDQVXcTV39H+hmGfXYWAhM6ulPDICg7uiPB+ebCsoMlYrSP7nmF7l1ox4ByMLOyFKiYgW2rQPM=";
+    npx:hasSignatureTarget this: .
+  
+  this: a npx:ExampleNanopub;
+    dct:created "2025-01-08T10:58:51.804+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/>;
+    npx:supersedes <https://w3id.org/fair/test/np/c/RAr8kq2LzgDgrzZIpZ1QKJaSLnoaZz0zWJB2btMsu49Hs> .
+}
+@prefix this: <https://w3id.org/fair/test/np/d/RAsheEcsDcIJWTYAu-yACSFQMKTo6HAjVZLQ4dMF1irKs> .
+@prefix sub: <https://w3id.org/fair/test/np/d/RAsheEcsDcIJWTYAu-yACSFQMKTo6HAjVZLQ4dMF1irKs#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix test: <https://w3id.org/fair/test/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  test:d a owl:Class;
+    rdfs:label "just a comment" .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <https://doi.org/10.1038/sdata.2016.18> .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "OMi769D3qiw3dIqrFFqu5aEGV8YXlu04XxLMxpWgGxxDJkhRBnyETZYKMQNyb21f1c+DXOnAK68rckd7K96ESrJN2anMvhiJrWWjrVp2hodQd4S9MAWZtKqi8+yc/q5t1GanU0PohMtQpiWIZV++uHB10eE9eZshy8+kxAjgrAc=";
+    npx:hasSignatureTarget this: .
+  
+  this: a npx:ExampleNanopub;
+    dct:created "2025-01-08T10:27:10.242+01:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234;
+    dct:rights <http://creativecommons.org/licenses/by/4.0/> .
+}
