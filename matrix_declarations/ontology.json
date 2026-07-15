@@ -1,0 +1,55 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/ChoiceDeclaration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/Community",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/chosen-resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/declared-by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/fair/icc/terms/refers-to-choice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/fair/matrix_declarations/terms/DataRepositoryQuestion_FoodSystemsIN_answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/ChoiceDeclaration" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/matrix_declarations/latest/DataRepositoryQuestion_FoodSystemsIN_answer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Food System IN uses CIRAD Dataverse"
+  } ],
+  "https://w3id.org/fair/icc/terms/chosen-resource" : [ {
+    "@id" : "https://dataverse.cirad.fr/"
+  } ],
+  "https://w3id.org/fair/icc/terms/declared-by" : [ {
+    "@id" : "https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN"
+  } ],
+  "https://w3id.org/fair/icc/terms/refers-to-choice" : [ {
+    "@id" : "https://w3id.org/fair/matrix_questions/terms/DataRepositoryQuestion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fair/matrix_declarations/terms/FoodSystemsIN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/fair/icc/terms/Community" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "GO FAIR Implementation Network to advance a global data ecosystem for agriculture and food by implementing FAIR data and services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/fair/matrix_declarations/latest/FoodSystemsIN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Food System IN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://www.go-fair.org/implementation-networks/overview/food-systems/"
+  } ]
+} ]

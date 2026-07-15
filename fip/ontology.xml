@@ -1,0 +1,1560 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/fair/fip/terms/FIP-Ontology#"
+     xml:base="https://w3id.org/fair/fip/terms/FIP-Ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:terms1="https://w3id.org/fair/fip/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/fair/fip/terms/FIP-Ontology">
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-8888-635X"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-1267-0234"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2195-3997"/>
+        <terms:description>This is an ontology of the FAIR Implementation Profiles (FIP) for the FAIR principles.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <terms:title>FAIR Implementation Profile (FIP) Ontology</terms:title>
+        <vann:preferredNamespacePrefix>fip</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/fair/fip/terms/</vann:preferredNamespaceUri>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Ontology"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/fair/principles/terms/FAIR"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/member -->
+
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/member"/>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declared-by -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declared-by">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declared-by"/>
+        <rdfs:label xml:lang="en">declared by</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the community that made the declaration</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declared-for-case-study -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declared-for-case-study">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Case-Study"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declared-for-case-study"/>
+        <rdfs:label xml:lang="en">declared for case study</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the case study it refers to.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declared-for-digital-object-type -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declared-for-digital-object-type">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Digital-Object-Type"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declared-for-digital-object-type"/>
+        <rdfs:label xml:lang="en">declared for digital object type</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the digital object type it applies to</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declares-current-use-of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declares-current-use-of">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declares-current-use-of"/>
+        <rdfs:label xml:lang="en">declares current use of</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the resource that the community thereby declares to currently use</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declares-planned-development-of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declares-planned-development-of">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declares-planned-development-of"/>
+        <rdfs:label xml:lang="en">declares planned development of</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the resource that the community thereby declares to plan to develop</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declares-planned-replacement-of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declares-planned-replacement-of">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declares-planned-replacement-of"/>
+        <rdfs:label xml:lang="en">declares planned replacement of</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the resource that the community thereby declares to plan to replace in the future. The same declaration should also state a resource that the community declares to plan to use instead (with fip:declares-planned-use-of).</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/declares-planned-use-of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/declares-planned-use-of">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/declares-planned-use-of"/>
+        <rdfs:label xml:lang="en">declares planned use of</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the resource that the community thereby declares to plan to use in the future</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/depends-on -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/depends-on">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Software"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/depends-on"/>
+        <rdfs:label xml:lang="en">depends on</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource with a FAIR Supporting Software.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/enables -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/enables">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/enables"/>
+        <rdfs:label xml:lang="en">enables</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource class with the FAIR principles it enables</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-AAS -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-AAS">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Authentication-and-authorization-service"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-AAS"/>
+        <rdfs:label xml:lang="en">uses authentication and authorization service</rdfs:label>
+        <skos:definition xml:lang="en">Connects a registry with an authentication and authorization service</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-MPP -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-MPP">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Metadata-preservation-policy"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-MPP"/>
+        <rdfs:label xml:lang="en">has metadata preservation policy</rdfs:label>
+        <skos:definition xml:lang="en">Connects a registry with a metadata preservation policy.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-data-steward -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-data-steward">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/member"/>
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-data-steward"/>
+        <rdfs:label xml:lang="en">has data steward</rdfs:label>
+        <skos:definition xml:lang="en">Specifies the data steward for a FAIR implementation community</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-data-usage-license -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-data-usage-license">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Data-usage-license"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-data-usage-license"/>
+        <rdfs:label xml:lang="en">has data usage license</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource with a data usage license.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-declaration-index -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-declaration-index">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:range rdf:resource="http://purl.org/nanopub/x/NanopubIndex"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-declaration-index"/>
+        <rdfs:label xml:lang="en">has declaration index</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Implementation Profile or a Semantic Interoperability Profile to the index of their declarations.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-description-source -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-description-source">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-description-source"/>
+        <rdfs:label xml:lang="en">has description source</rdfs:label>
+        <skos:definition xml:lang="en">Denotes the source of the description that is asserted via dct:description</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-persistency-policy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-persistency-policy">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Persistency-Policy"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-persistency-policy"/>
+        <rdfs:label xml:lang="en">has persistency policy</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Supporting Resource with a persistency policy</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/has-research-domain -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/has-research-domain">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/has-research-domain"/>
+        <rdfs:label xml:lang="en">has research domain</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Implementation Community with research domains</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/implements -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/implements">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/implements"/>
+        <rdfs:label xml:lang="en">implements</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Enabling Resource with a FAIR Specification</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/recommended-by -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/recommended-by">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/recommended-by"/>
+        <rdfs:label xml:lang="en">is recommended by</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FAIR Supporting Resource with a FAIR Implementation Community that recommends the resource</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/refers-to-principle -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/refers-to-principle">
+        <rdfs:range rdf:resource="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/refers-to-principle"/>
+        <rdfs:label xml:lang="en">refers to principle</rdfs:label>
+        <skos:definition xml:lang="en">Connects an entity (for example a FIP declaration) to a FAIR (sub)principle it refers to</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/refers-to-question -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/refers-to-question">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/refers-to-question"/>
+        <rdfs:label xml:lang="en">refers to question</rdfs:label>
+        <skos:definition xml:lang="en">Connects a FIP declaration to the FIP question it is addressing</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/targets -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/targets">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Digital-Object-Type"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/targets"/>
+        <rdfs:label xml:lang="en">targets</rdfs:label>
+        <skos:definition xml:lang="en">Specifies the type of digital object targeted by a FAIR Supporting Resources</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/uses-identifier-service -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fair/fip/terms/uses-identifier-service">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:range rdf:resource="https://w3id.org/fair/fip/terms/Identifier-service"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/uses-identifier-service"/>
+        <rdfs:label xml:lang="en">uses identifier service</rdfs:label>
+        <skos:definition xml:lang="en">Connects a registry with an identifier service.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/availability-in-years -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/fair/fip/terms/availability-in-years">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/availability-in-years"/>
+        <rdfs:label xml:lang="en">availability in years</rdfs:label>
+        <skos:definition xml:lang="en">Specifies how many years a resource is preserved according to a preservation policy</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/considerations -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/fair/fip/terms/considerations">
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/considerations"/>
+        <rdfs:label xml:lang="en">considerations</rdfs:label>
+        <skos:definition xml:lang="en">Considerations that led to a given FIP declaration</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/metadata-availability-in-years -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/fair/fip/terms/metadata-availability-in-years">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/fair/fip/terms/availability-in-years"/>
+        <rdfs:domain rdf:resource="https://w3id.org/fair/fip/terms/Metadata-preservation-policy"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/metadata-availability-in-years"/>
+        <rdfs:label xml:lang="en">metadata availability in years</rdfs:label>
+        <skos:definition xml:lang="en">Specifies how many years metadata are preserved according to the metadata preservation policy</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/nanopub/x/NanopubIndex -->
+
+
+    <owl:Class rdf:about="http://purl.org/nanopub/x/NanopubIndex">
+        <rdfs:label>Nanopublication Index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Class -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class"/>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Authentication-and-authorization-service -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Authentication-and-authorization-service">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Authentication-and-authorization-service"/>
+        <rdfs:label xml:lang="en">Authentication and authorization service</rdfs:label>
+        <skos:definition xml:lang="en">A service that mediates access to digital objects according to specifed conditions.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Available-FAIR-Enabling-Resource">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Available-FAIR-Enabling-Resource"/>
+        <rdfs:label xml:lang="en">Available FAIR-Enabling Resource</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR-enabling resource that is available for use</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Available-FAIR-Supporting-Resource">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Available-FAIR-Supporting-Resource"/>
+        <rdfs:label xml:lang="en">Available FAIR Supporting Resource</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR Supporting Resource that is available for use.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Communication-protocol -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Communication-protocol">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Communication-protocol"/>
+        <rdfs:label xml:lang="en">Communication protocol</rdfs:label>
+        <skos:definition xml:lang="en">A specification of how messages are structured and exchanged.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Crosswalk -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Crosswalk">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Crosswalk"/>
+        <rdfs:label xml:lang="en">Crosswalk</rdfs:label>
+        <skos:definition xml:lang="en">A specification consisting of a set of rules that define how (meta)data elements or attributes from one schema can be aligned and mapped to (meta)data elements or attributes in another schema that share the same constraints and thus share the same semantic role.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Data-Steward-Professional-Profile">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Data-Steward-Professional-Profile"/>
+        <rdfs:label xml:lang="en">FAIR data steward professional profile</rdfs:label>
+        <skos:definition xml:lang="en">A document stating the accumulated training qualifications and FAIR outputs authored by or contributed to, by that person. The profile may be augmented with additional statements regarding professional roles and skills.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Data-usage-license -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Data-usage-license">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Data-Policy"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Data-usage-license"/>
+        <rdfs:label xml:lang="en">Data usage license</rdfs:label>
+        <skos:definition xml:lang="en">A data policy that specifies legal restrictions on the reuse of the data.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Digital-Object-Type -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Digital-Object-Type">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Digital-Object-Type"/>
+        <rdfs:label xml:lang="en">Digital Object Type</rdfs:label>
+        <skos:definition xml:lang="en">A digital object type is a classification of digital objects with respect to their informational functions to specify the nature of the digital object and the operations that can be performed on it.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Domain-Specific-Registry -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Domain-Specific-Registry">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Domain-Specific-Registry"/>
+        <rdfs:label xml:lang="en">Domain-specific registry</rdfs:label>
+        <skos:definition xml:lang="en">A registry designed to collect, provide access to, and enable searching of data within a particular domain or subject area</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Editor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Editor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Editor"/>
+        <rdfs:label xml:lang="en">Editor</rdfs:label>
+        <skos:definition xml:lang="en">A service that provides a user-friendly interface for easy editing of metadata, vocabularies or crosswalks.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Emerging-Community -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Emerging-Community">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Emerging-Community"/>
+        <rdfs:label xml:lang="en">Emerging community</rdfs:label>
+        <skos:definition xml:lang="en">An early-stage community committed to adopting and promoting FAIR principles for its data and services from the outset.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Case-Study -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Case-Study">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Case-Study"/>
+        <rdfs:label xml:lang="en">FAIR case study</rdfs:label>
+        <skos:definition xml:lang="en">A description of a real-life situation where FAIR requirements of digital objects play a central role.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Data-Policy -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Data-Policy">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Data-Policy"/>
+        <rdfs:label xml:lang="en">FAIR Data Policy</rdfs:label>
+        <skos:definition xml:lang="en">A policy that specifies and guides FAIR data practices for a community.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Event">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Data-Stewardship-Event"/>
+        <rdfs:label xml:lang="en">FAIR data stewardship event</rdfs:label>
+        <skos:definition xml:lang="en">A meeting specifically designed for current or aspiring data stewards to provide a rigorous understanding of the FAIR principles from theory to their concrete implementation.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Data-Stewardship-Plan-Template">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Data-Stewardship-Plan-Template"/>
+        <rdfs:label xml:lang="en">FAIR data stewardship plan template</rdfs:label>
+        <skos:definition xml:lang="en">A template guiding data stewardship including how FAIR Principles should be implemented. The template must be completed with project-specific information in any given instance to outline how data are to be handled in preparation for the project,  during the research project, and after the project is completed.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Declaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Declaration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Declaration"/>
+        <rdfs:label xml:lang="en">FAIR Declaration</rdfs:label>
+        <skos:definition xml:lang="en">The statement of a community on how it addresses a FAIR-related question.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource"/>
+        <rdfs:label xml:lang="en">FAIR-Enabling Resource</rdfs:label>
+        <skos:definition xml:lang="en">A service, a specification or a data policy that is essential to the operationalization of the FAIR Principles, i.e., puts FAIR into action. A FAIR-Enabling Resource (FER) provides a function needed to achieve some aspect of FAIR behavior and is explicitly linked to one or more FAIR principles.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource-to-be-Developed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Enabling-Resource-to-be-Developed"/>
+        <rdfs:label xml:lang="en">FAIR-Enabling Resource to be Developed</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR-enabling resource that is not yet available but still needs to be developed</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Implementation-Community -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Implementation-Community"/>
+        <rdfs:label xml:lang="en">FAIR Implementation Community</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR Implementation Community (FIC) is a self-identified collection of people and/or organizations with the aim to implement the FAIR Principles</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Implementation-Profile"/>
+        <rdfs:label xml:lang="en">FAIR Implementation Profile</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR Implementation Profile (FIP) is a list of declared technology choices intended to implement each of the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Interpretation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Interpretation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Interpretation"/>
+        <rdfs:label xml:lang="en">FAIR interpretation</rdfs:label>
+        <skos:definition xml:lang="en">A theoretical and practical explanation of the FAIR Principle by a recognized expert authority.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Practice -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Practice">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Practice"/>
+        <rdfs:label xml:lang="en">FAIR practice</rdfs:label>
+        <skos:definition xml:lang="en">A method description detailing the use of a specific resource or a combination of resources as applied by a community to achieve FAIR processing of information.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Qualification-Criteria">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Qualification-Criteria"/>
+        <rdfs:label xml:lang="en">FAIR Qualifcation Criteria</rdfs:label>
+        <skos:definition xml:lang="en">A proposition on which a qualification of FAIR Supporting Resources is based.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Representation-Service -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Representation-Service">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Representation-Service"/>
+        <rdfs:label xml:lang="en">FAIR Representation Service</rdfs:label>
+        <skos:definition xml:lang="en">A transformation service that converts non-FAIR data into a FAIR representation using machine-readable knowledge representation languages.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Specification -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Specification">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Specification"/>
+        <rdfs:label xml:lang="en">FAIR specification</rdfs:label>
+        <skos:definition xml:lang="en">A precise description of features, requirements, constraints and recommendations for a specific implementation of a component, system or service supporting the implementation of the FAIR principles.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Supporting-Resource"/>
+        <rdfs:label xml:lang="en">FAIR Supporting Resource</rdfs:label>
+        <skos:definition xml:lang="en">Any resource that supports FAIR Data Stewardship. FSRs are represented as FAIR Digital Objects (using the nanopublication framework) with Globally Unique, Persistent, Resolvable Identifiers (GUPRI) that resolve to machine-readable metadata about the resource.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource-to-be-Developed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Supporting-Resource-to-be-Developed"/>
+        <rdfs:label xml:lang="en">FAIR Supporting Resource to be developed</rdfs:label>
+        <skos:definition xml:lang="en">A FAIR Supporting Resource that is not yet available but still needs to be developed.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Supporting-Software -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Supporting-Software">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Supporting-Software"/>
+        <rdfs:label xml:lang="en">FAIR Supporting Software</rdfs:label>
+        <skos:definition xml:lang="en">Any set of machine-readable instructions that support the implementation of FAIR, that conform to a given syntax, that are interpretable by a given processor, and that instruct a computer&apos;s processor to perform specific tasks.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Supporting-Technology"/>
+        <rdfs:label xml:lang="en">FAIR Supporting Technology</rdfs:label>
+        <skos:definition xml:lang="en">Any online accessible software system or component that supports the implementation of the FAIR Principles.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FAIR-Training-Material -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FAIR-Training-Material">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FAIR-Training-Material"/>
+        <rdfs:label xml:lang="en">FAIR training material</rdfs:label>
+        <skos:definition xml:lang="en">Any educational resource (such as the content or its published representation in text, presentation graphics, or video) that covers FAIR topics of interest.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Data-related-Question -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-Data-related-Question">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Data-related-Question"/>
+        <rdfs:label xml:lang="en">FIP Data-related Question</rdfs:label>
+        <skos:definition xml:lang="en">A FIP question that is relevant for the actual data (as compared to just their metadata)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Declaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-Declaration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Declaration"/>
+        <rdfs:label xml:lang="en">FIP Declaration</rdfs:label>
+        <skos:definition xml:lang="en">The expression of a community on how they address a FIP question</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Metadata-related-Question -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-Metadata-related-Question">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Metadata-related-Question"/>
+        <rdfs:label xml:lang="en">FIP Metadata-related Question</rdfs:label>
+        <skos:definition xml:lang="en">A FIP question that is relevant for metadata (as compared to the data themselves)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-No-Choice-Declaration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FIP-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-No-Choice-Declaration"/>
+        <rdfs:label xml:lang="en">FIP No-Choice Declaration</rdfs:label>
+        <skos:definition xml:lang="en">A declaration stating that no choice has been made (yet)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FIP-Question">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question"/>
+        <rdfs:label xml:lang="en">FIP Question</rdfs:label>
+        <skos:definition xml:lang="en">A question communities have to address when declaring their FAIR Implementation Profiles</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FSR-Declaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/FSR-Declaration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FSR-Declaration"/>
+        <rdfs:label xml:lang="en">FSR Declaration</rdfs:label>
+        <skos:definition xml:lang="en">The statement of a community on the usage of a FAIR Supporting Resource.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Generalist-Registry -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Generalist-Registry">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/Registry"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Generalist-Registry"/>
+        <rdfs:label xml:lang="en">Generalist registry</rdfs:label>
+        <skos:definition xml:lang="en">A registry designed to collect, provide access to, and enable searching of data without any restrictions on the domain.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Identifier-service -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Identifier-service">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Identifier-service"/>
+        <rdfs:label xml:lang="en">Identifier service</rdfs:label>
+        <skos:definition xml:lang="en">A service that provides for any digital object (1) algorithms guaranteeing global uniqueness, (2) policy document that guarantees persistent and (3) resolution of the identifier to machine-actionable metadata describing the object and its location.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Knowledge-representation-language -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Knowledge-representation-language">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Knowledge-representation-language"/>
+        <rdfs:label xml:lang="en">Knowledge representation language</rdfs:label>
+        <skos:definition xml:lang="en">A language specification that enables knowledge to be processed by machines.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Mature-Community -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Mature-Community">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Community"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Mature-Community"/>
+        <rdfs:label xml:lang="en">Mature community</rdfs:label>
+        <skos:definition xml:lang="en">A well-established community interested to implement FAIR in their data and services.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Metadata-data-linking-schema -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Metadata-data-linking-schema">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Metadata-data-linking-schema"/>
+        <rdfs:label xml:lang="en">Metadata-data linking schema</rdfs:label>
+        <skos:definition xml:lang="en">A specification that provides a unique, persistent, (ideally) bi-directional, machine-actionable link between metadata and the data they describe.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Metadata-preservation-policy -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Metadata-preservation-policy">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Data-Policy"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Metadata-preservation-policy"/>
+        <rdfs:label xml:lang="en">Metadata preservation policy</rdfs:label>
+        <skos:definition xml:lang="en">A data policy that describes the conditions under which metadata should be provided in the future.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Metadata-schema -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Metadata-schema">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Metadata-schema"/>
+        <rdfs:label xml:lang="en">Metadata schema</rdfs:label>
+        <skos:definition xml:lang="en">A specification that specifies the structured representation of metadata describing attributes of data or other digital objects in terms of semantics, syntax and optionality.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Persistency-Policy -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Persistency-Policy">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Data-Policy"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Persistency-Policy"/>
+        <rdfs:label xml:lang="en">Persistency Policy</rdfs:label>
+        <skos:definition xml:lang="en">A policy with respect to persistency of resources.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Provenance-Tracking-Service -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Provenance-Tracking-Service">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Provenance-Tracking-Service"/>
+        <rdfs:label xml:lang="en">Provenance tracking service</rdfs:label>
+        <skos:definition xml:lang="en">A system that systematically captures, stores and manages detailed information about the origin, history, and lifecycle of digital objects creating metadata based on a provenance model. </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Provenance-model -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Provenance-model">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Provenance-model"/>
+        <rdfs:label xml:lang="en">Provenance model</rdfs:label>
+        <skos:definition xml:lang="en">A specification that specifies metadata describing the origin and lineage of data or other digital objects.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Reference-FAIR-Implementation-Profile">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Reference-FAIR-Implementation-Profile"/>
+        <rdfs:label xml:lang="en">Reference FAIR Implementation Profile</rdfs:label>
+        <skos:definition xml:lang="en">A list of recommended FAIR Enabling Resources intended to implement the FAIR Guiding Principles, made as a collective decision by the members of a particular community of practice.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Registry -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Registry">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Registry"/>
+        <rdfs:label xml:lang="en">Registry</rdfs:label>
+        <skos:definition xml:lang="en">A service that indexes metadata and data and provides search over that index.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/SIP-Declaration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/SIP-Declaration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Declaration"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/SIP-Declaration"/>
+        <rdfs:label xml:lang="en">SIP Declaration</rdfs:label>
+        <skos:definition xml:lang="en">The statement of a community on how it addresses a SIP question.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Semantic-Interoperability-Profile">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Resource"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Semantic-Interoperability-Profile"/>
+        <rdfs:label xml:lang="en">Semantic Interoperability Profile</rdfs:label>
+        <skos:definition xml:lang="en">A Semantic Interoperability Profil (SIP) is a list of FAIR Supporting Resources chosen by a community to support semantic interoperability of (meta)data.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Semantic-model -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Semantic-model">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Semantic-model"/>
+        <rdfs:label xml:lang="en">Semantic model</rdfs:label>
+        <skos:definition xml:lang="en">A specification that defines qualified relations between entities describing data or other digital objects according to the Linked Data principles. This can include semantic data models and ontologies.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Structured-vocabulary -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Structured-vocabulary">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Enabling-Resource"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Specification"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Structured-vocabulary"/>
+        <rdfs:label xml:lang="en">Structured vocabulary</rdfs:label>
+        <skos:definition xml:lang="en">A specification for a controlled list of uniquely identified and unambigous concepts with their definitions represented using web standards.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Validation-Service -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Validation-Service">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Validation-Service"/>
+        <rdfs:label xml:lang="en">Validation service</rdfs:label>
+        <skos:definition xml:lang="en">A system that automatically verifies the accuracy, completeness, or compliance of data, code or processes against predefined criteria or standards.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/Web-API -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/Web-API">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fair/fip/terms/FAIR-Supporting-Technology"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/Web-API"/>
+        <rdfs:label xml:lang="en">Web-API</rdfs:label>
+        <skos:definition xml:lang="en">An Application Programming Interface (API) for the World Wide Web that allows different software applications to communicate with each other.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/fip/terms/fip:FAIR-Data-Policy"/>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple -->
+
+
+    <owl:Class rdf:about="https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple">
+        <rdfs:label>FAIR Principle or Sub-Principle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A1.1-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A1.1-D"/>
+        <rdfs:label xml:lang="en">FIP Question A1.1-D</rdfs:label>
+        <skos:definition xml:lang="en">Which standardized communication protocol do you use for datasets?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A1.1-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A1.1-MD"/>
+        <rdfs:label xml:lang="en">FIP Question A1.1-MD</rdfs:label>
+        <skos:definition xml:lang="en">Which standardized communication protocol do you use for metadata records?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A1.2-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A1.2-D"/>
+        <rdfs:label xml:lang="en">FIP Question A1.2-D</rdfs:label>
+        <skos:definition xml:lang="en">Which authentication &amp; authorisation technique do you use for datasets?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A1.2-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A1.2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A1.2-MD"/>
+        <rdfs:label xml:lang="en">FIP Question A1.2-MD</rdfs:label>
+        <skos:definition xml:lang="en">Which authentication &amp; authorisation technique do you use for metadata records?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-A2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-A2">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/A2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-A2"/>
+        <rdfs:label xml:lang="en">FIP Question A2</rdfs:label>
+        <skos:definition xml:lang="en">Which metadata longevity plan do you use?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-F1-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F1-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F1-D"/>
+        <rdfs:label xml:lang="en">FIP Question F1-D</rdfs:label>
+        <skos:definition xml:lang="en">What globally unique, persistent, resolvable identifiers do you use for datasets?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-F1-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F1-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F1-MD"/>
+        <rdfs:label xml:lang="en">FIP Question F1-MD</rdfs:label>
+        <skos:definition xml:lang="en">What globally unique, persistent, resolvable identifiers do you use for metadata records?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-F2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F2">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F2"/>
+        <rdfs:label xml:lang="en">FIP Question F2</rdfs:label>
+        <skos:definition xml:lang="en">Which metadata schemas do you use for findability?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-F3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F3">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F3"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F3"/>
+        <rdfs:label xml:lang="en">FIP Question F3</rdfs:label>
+        <skos:definition xml:lang="en">What is the technology that links the persistent identifiers of your data to the metadata description?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-F4-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F4-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F4-D"/>
+        <rdfs:label xml:lang="en">FIP Question F4-D</rdfs:label>
+        <skos:definition xml:lang="en">In which search engines are your datasets indexed?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-F4-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-F4-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/F4"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-F4-MD"/>
+        <rdfs:label xml:lang="en">FIP Question F4-MD</rdfs:label>
+        <skos:definition xml:lang="en">In which search engines are your metadata records indexed?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-I1-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I1-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I1-D"/>
+        <rdfs:label xml:lang="en">FIP Question I1-D</rdfs:label>
+        <skos:definition xml:lang="en">Which knowledge representation languages (allowing machine interoperation) do you use for datasets?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-I1-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I1-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I1-MD"/>
+        <rdfs:label xml:lang="en">FIP Question I1-MD</rdfs:label>
+        <skos:definition xml:lang="en">Which knowledge representation languages (allowing machine interoperation) do you use for metadata records?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-I2-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I2-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I2-D"/>
+        <rdfs:label xml:lang="en">FIP Question I2-D</rdfs:label>
+        <skos:definition xml:lang="en">Which structured vocabularies do you use to encode your datasets?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-I2-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I2-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I2-MD"/>
+        <rdfs:label xml:lang="en">FIP Question I2-MD</rdfs:label>
+        <skos:definition xml:lang="en">Which structured vocabularies do you use to annotate your metadata records?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-I3-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I3-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I3"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I3-D"/>
+        <rdfs:label xml:lang="en">FIP Question I3-D</rdfs:label>
+        <skos:definition xml:lang="en">Which models, schema(s) do you use for your datasets?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-I3-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-I3-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/I3"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-I3-MD"/>
+        <rdfs:label xml:lang="en">FIP Question I3-MD</rdfs:label>
+        <skos:definition xml:lang="en">Which models, schema(s) do you use for your metadata records?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-R1.1-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-R1.1-D"/>
+        <rdfs:label xml:lang="en">FIP Question R1.1-D</rdfs:label>
+        <skos:definition xml:lang="en">Which usage license do you use for your datasets?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-R1.1-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-R1.1-MD"/>
+        <rdfs:label xml:lang="en">FIP Question R1.1-MD</rdfs:label>
+        <skos:definition xml:lang="en">Which usage license do you use for your metadata records?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-R1.2-D">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-R1.2-D"/>
+        <rdfs:label xml:lang="en">FIP Question R1.2-D</rdfs:label>
+        <skos:definition xml:lang="en">Which metadata schemas do you use for describing the provenance of your datasets?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/fip/terms/FIP-Question-R1.2-MD">
+        <rdf:type rdf:resource="https://w3id.org/fair/fip/terms/FIP-Question"/>
+        <terms1:refers-to-principle rdf:resource="https://w3id.org/fair/principles/terms/R1.2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair/fip/latest/FIP-Question-R1.2-MD"/>
+        <rdfs:label xml:lang="en">FIP Question R1.2-MD</rdfs:label>
+        <skos:definition xml:lang="en">Which metadata schemas do you use for describing the provenance of your metadata records?</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/A1.1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.1">
+        <rdfs:label>A1.1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/A1.2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A1.2">
+        <rdfs:label>A1.2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/A2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/A2">
+        <rdfs:label>A2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/F1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F1">
+        <rdfs:label>F1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/F2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F2">
+        <rdfs:label>F2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/F3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F3">
+        <rdfs:label>F3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/F4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/F4">
+        <rdfs:label>F4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/I1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/I1">
+        <rdfs:label>I1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/I2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/I2">
+        <rdfs:label>I2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/I3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/I3">
+        <rdfs:label>I3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/R1.1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/R1.1">
+        <rdfs:label>R1.1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/fair/principles/terms/R1.2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fair/principles/terms/R1.2">
+        <rdfs:label>R1.2</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
+
+
