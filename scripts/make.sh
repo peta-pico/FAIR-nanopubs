@@ -30,4 +30,9 @@ scripts/make-rewrite-rules.sh $1
 
 scripts/make-large-htaccess.sh
 
-scripts/make-doc.sh $1
+if [ "$1" = "fip" ]; then
+  echo "Skipping documentation generation: the FIP documentation site has been retired."
+  echo "doc/fip/ keeps only redirect stubs to https://w3id.org/fair/fip/terms/FIP-Ontology."
+else
+  scripts/make-doc.sh $1
+fi
