@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<..\index-en.html> a prov:Entity;
+	 dc:title "FAIR Vocabulary";
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-1267-0234>;
+	 dc:creator <https://orcid.org/0000-0002-1267-0234>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0003-4727-9435>;
+	 dc:creator <https://orcid.org/0000-0003-4727-9435>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
