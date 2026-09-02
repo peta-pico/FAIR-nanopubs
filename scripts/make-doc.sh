@@ -9,12 +9,14 @@ if [ -z $1 ] || [ ! -z $2 ]; then
 fi
 
 # The FIP documentation site has been retired: doc/fip/ holds only redirect
-# stubs pointing to https://w3id.org/fair/fip/terms/FIP-Ontology.
-# Regenerating it would resurrect the shut-down site.
+# stubs pointing to https://w3id.org/fair/fip/terms/FIP-Ontology, plus
+# sections/fip-overview-diagram.svg, which is kept published because it is
+# hot-linked from elsewhere. Regenerating would resurrect the shut-down site.
 if [ "$1" = "fip" ]; then
   echo "ERROR: Documentation generation for 'fip' is disabled."
-  echo "The FIP documentation site has been retired; doc/fip/ contains only"
-  echo "redirect stubs to https://w3id.org/fair/fip/terms/FIP-Ontology."
+  echo "The FIP documentation site has been retired; doc/fip/ keeps only the"
+  echo "redirect stubs to https://w3id.org/fair/fip/terms/FIP-Ontology and the"
+  echo "still-linked sections/fip-overview-diagram.svg."
   echo "Remove this guard only if you intend to publish the site again."
   exit 1
 fi
